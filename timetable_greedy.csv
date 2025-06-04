@@ -1,0 +1,38 @@
+Day,Time,Student Group,Course,Course Name,Teacher,Room,Type,Lab Batch
+Monday,08:10-09:00,Section A (Y3S5),CS23531,Web Programming,Kirubhakar T T,Techlounge-TLFL1 (Lab),Lab,1
+Monday,09:00-09:50,Section A (Y3S5),CS23533,Foundations of Artificial Intelligence,Divya M,Techlounge-TLFL1 (Lab),Lab,2
+Monday,10:10-11:00,Section A (Y3S5),CS23511,Theory of Computation,J.A.Adlin Layola,Techlounge-TLGL1 (Lab),Lecture/Tutorial,
+Monday,08:10-09:00,Section A (Y3S5),CS23532,Computer Networks,R.Sabitha ,Techlounge-TLGL1 (Lab),Lecture/Tutorial,
+Monday,11:00-11:50,Section A (Y3S5),CS23512,Fundamentals of Mobile Computing,Unknown Unknown,Techlounge-TLGL1 (Lab),Lecture/Tutorial,
+Monday,13:20-14:10,Section A (Y3S5),CS23511,Theory of Computation,J.A.Adlin Layola,Techlounge-TLGL1 (Lab),Lecture/Tutorial,
+Monday,14:10-15:00,Section A (Y3S5),CS23532,Computer Networks,Aswana Lal,Techlounge-TLGL1 (Lab),Lecture/Tutorial,
+Tuesday,08:10-09:00,Section A (Y3S5),CS23532,Computer Networks,Aswana Lal,Techlounge-TLGL1 (Lab),Lecture/Tutorial,
+Monday,09:00-09:50,Section A (Y3S5),CS23532,Computer Networks,R.Sabitha ,Techlounge-TLGL1 (Lab),Lecture/Tutorial,
+Tuesday,09:00-09:50,Section A (Y3S5),CS23532,Computer Networks,Aswana Lal,Techlounge-TLFL1 (Lab),Lab,2
+Monday,10:10-11:00,Section A (Y3S5),CS23532,Computer Networks,R.Sabitha ,Techlounge-TLFL1 (Lab),Lab,1
+Tuesday,10:10-11:00,Section A (Y3S5),CS23532,Computer Networks,Aswana Lal,Techlounge-TLGL1 (Lab),Lecture/Tutorial,
+Tuesday,11:00-11:50,Section A (Y3S5),CS23531,Web Programming,Kirubhakar T T,Techlounge-TLFL1 (Lab),Lab,2
+Monday,11:00-11:50,Section A (Y3S5),CS23532,Computer Networks,R.Sabitha ,Techlounge-TLGL2 (Lab),Lecture/Tutorial,
+Tuesday,13:20-14:10,Section A (Y3S5),CS23511,Theory of Computation,J.A.Adlin Layola,Techlounge-TLGL1 (Lab),Lecture/Tutorial,
+Tuesday,14:10-15:00,Section A (Y3S5),CS23533,Foundations of Artificial Intelligence,Divya M,Techlounge-TLGL1 (Lab),Lecture/Tutorial,
+Monday,13:20-14:10,Section A (Y3S5),CS23532,Computer Networks,R.Sabitha ,Techlounge-TLFL1 (Lab),Lab,1
+Wednesday,08:10-09:00,Section A (Y3S5),CS23531,Web Programming,Kirubhakar T T,Techlounge-TLFL1 (Lab),Lab,1
+Wednesday,09:00-09:50,Section A (Y3S5),CS23532,Computer Networks,Aswana Lal,Techlounge-TLFL1 (Lab),Lab,1
+Wednesday,10:10-11:00,Section A (Y3S5),CS23531,Web Programming,Kirubhakar T T,Techlounge-TLFL1 (Lab),Lab,2
+Wednesday,11:00-11:50,Section A (Y3S5),CS23512,Fundamentals of Mobile Computing,Unknown Unknown,Techlounge-TLGL1 (Lab),Lecture/Tutorial,
+Wednesday,13:20-14:10,Section A (Y3S5),CS23531,Web Programming,Kirubhakar T T,Techlounge-TLFL1 (Lab),Lab,1
+Wednesday,14:10-15:00,Section A (Y3S5),CS23533,Foundations of Artificial Intelligence,Divya M,Techlounge-TLFL1 (Lab),Lab,1
+Thursday,08:10-09:00,Section A (Y3S5),CS23512,Fundamentals of Mobile Computing,Unknown Unknown,Techlounge-TLGL1 (Lab),Lecture/Tutorial,
+Thursday,09:00-09:50,Section A (Y3S5),CS23533,Foundations of Artificial Intelligence,Divya M,Techlounge-TLFL1 (Lab),Lab,1
+Thursday,10:10-11:00,Section A (Y3S5),CS23531,Web Programming,Kirubhakar T T,Techlounge-TLFL1 (Lab),Lab,1
+Thursday,11:00-11:50,Section A (Y3S5),CS23531,Web Programming,Kirubhakar T T,Techlounge-TLFL1 (Lab),Lab,2
+Thursday,13:20-14:10,Section A (Y3S5),CS23533,Foundations of Artificial Intelligence,Divya M,Techlounge-TLFL1 (Lab),Lab,2
+Thursday,14:10-15:00,Section A (Y3S5),CS23511,Theory of Computation,J.A.Adlin Layola,Techlounge-TLGL1 (Lab),Lecture/Tutorial,
+Friday,08:10-09:00,Section A (Y3S5),CS23533,Foundations of Artificial Intelligence,Divya M,Techlounge-TLGL1 (Lab),Lecture/Tutorial,
+Friday,09:00-09:50,Section A (Y3S5),CS23531,Web Programming,Kirubhakar T T,Techlounge-TLFL1 (Lab),Lab,1
+Friday,10:10-11:00,Section A (Y3S5),CS23531,Web Programming,Kirubhakar T T,Techlounge-TLGL1 (Lab),Lecture/Tutorial,
+Friday,11:00-11:50,Section A (Y3S5),CS23531,Web Programming,Kirubhakar T T,Techlounge-TLFL1 (Lab),Lab,2
+Friday,13:20-14:10,Section A (Y3S5),CS23531,Web Programming,Kirubhakar T T,Techlounge-TLFL1 (Lab),Lab,1
+Friday,14:10-15:00,Section A (Y3S5),CS23533,Foundations of Artificial Intelligence,Divya M,Techlounge-TLGL1 (Lab),Lecture/Tutorial,
+Monday,14:10-15:00,Section A (Y3S5),CS23532,Computer Networks,R.Sabitha ,Techlounge-TLFL1 (Lab),Lab,2
+Tuesday,08:10-09:00,Section A (Y3S5),CS23532,Computer Networks,R.Sabitha ,Techlounge-TLFL1 (Lab),Lab,2

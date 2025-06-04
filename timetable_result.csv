@@ -1,0 +1,17 @@
+Day,Time,Student Group,Course Code,Course Name,Session Type,Lab Batch,Teacher,Room,Duration (hours)
+Monday,08:10-09:00,Section A,CS23532,Computer Networks,Lecture,,Aswana Lal,A Block-A102 (Classroom),1
+Monday,09:00-09:50,Section A,CS23532,Computer Networks,Lecture,,Aswana Lal,A Block-A102 (Classroom),1
+Tuesday,08:10-09:00,Section A,CS23532,Computer Networks,Lecture,,Aswana Lal,A Block-A102 (Classroom),1
+Tuesday,09:00-09:50,Section A,CS23532,Computer Networks,Lab,1,Aswana Lal,Techlounge-TLFL1 (Lab),1
+Wednesday,08:10-09:00,Section A,CS23532,Computer Networks,Lab,1,Aswana Lal,Techlounge-TLFL1 (Lab),1
+Wednesday,09:00-09:50,Section A,CS23532,Computer Networks,Lab,2,Aswana Lal,Techlounge-TLFL1 (Lab),1
+Thursday,08:10-09:00,Section A,CS23532,Computer Networks,Lab,2,Aswana Lal,Techlounge-TLFL1 (Lab),1
+Thursday,09:00-09:50,Section A,CS23512,Fundamentals of Mobile Computing,Lecture,,Dharshini B S,A Block-A102 (Classroom),1
+Friday,08:10-09:00,Section A,CS23512,Fundamentals of Mobile Computing,Lecture,,Dharshini B S,A Block-A102 (Classroom),1
+Friday,09:00-09:50,Section A,CS23512,Fundamentals of Mobile Computing,Lecture,,Dharshini B S,A Block-A102 (Classroom),1
+Monday,10:10-11:00,Section A,CS23531,Web Programming,Lecture,,Sathiyavathi S,A Block-A102 (Classroom),1
+Tuesday,10:10-11:00,Section A,CS23531,Web Programming,Lab,1,Sathiyavathi S,Techlounge-TLFL1 (Lab),1
+Wednesday,10:10-11:00,Section A,CS23531,Web Programming,Lab,1,Sathiyavathi S,Techlounge-TLFL1 (Lab),1
+Thursday,10:10-11:00,Section A,CS23531,Web Programming,Lab,2,Sathiyavathi S,Techlounge-TLFL1 (Lab),1
+Friday,10:10-11:00,Section A,CS23531,Web Programming,Lab,2,Sathiyavathi S,Techlounge-TLFL1 (Lab),1
+Monday,11:00-11:50,Section A,CS23531,Web Programming,Lab,1,Sathiyavathi S,Techlounge-TLFL1 (Lab),1
