@@ -1,868 +1,479 @@
 import pandas as pd
-from datetime import time, datetime, timedelta
-from optapy import (
-    planning_entity, planning_variable, planning_solution, problem_fact,
-    constraint_provider, solver_manager_create, planning_entity_collection_property, value_range_provider, problem_fact_collection_property, planning_score
-)
-from optapy.types import SolverConfig
-from optapy.constraint import ConstraintFactory
-from optapy.types import Joiners, HardSoftScore
+from ortools.sat.python import cp_model
 from collections import defaultdict
+import matplotlib.pyplot as plt
+from matplotlib.table import Table
+import os
+from datetime import time
 
-# ====================== Problem Facts ======================
+# Configuration
+DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+TIME_SLOTS = [
+    ("8:10", "9:00"),     # Period 1
+    ("9:00", "9:50"),     # Period 2
+    ("9:50", "10:10"),    # Morning break (20 min)
+    ("10:10", "11:00"),   # Period 3
+    ("11:00", "11:50"),   # Period 4
+    ("11:50", "12:40"),   # Lunch break (50 min)
+    ("12:40", "13:30"),   # Period 5
+    ("13:30", "14:20"),   # Period 6
+    ("14:20", "15:10")    # Period 7
+]
+BREAK_SLOTS = {2, 5}  # Indices of break time slots
+MAX_TEACHER_HOURS = 21
+CLASS_STRENGTH = 70
+LAB_BATCH_SIZE = 35
+LAB_DURATION_SLOTS = 2  # Labs require 2 consecutive slots
 
-@problem_fact
-class TimeSlot:
-    def __init__(self, id, day, start_time, end_time, is_break=False):
-        self.id = id
-        self.day = day  # 0=Monday, 1=Tuesday, etc.
-        self.start_time = start_time
-        self.end_time = end_time
-        self.is_break = is_break
-
-    @property
-    def start_minutes(self):
-        return self.start_time.hour * 60 + self.start_time.minute
-
-    @property
-    def end_minutes(self):
-        return self.end_time.hour * 60 + self.end_time.minute
-
-    def __str__(self):
-        return f"{['Mon', 'Tue', 'Wed', 'Thu', 'Fri'][self.day]} {self.start_time.strftime('%H:%M')}-{self.end_time.strftime('%H:%M')}"
-
-    def __eq__(self, other):
-        return (self.id == other.id if other else False)
-
-    def __hash__(self):
-        return hash(self.id)
-
-@problem_fact
-class Room:
-    def __init__(self, id, room_number, block, is_lab, min_cap, max_cap):
-        self.id = id
-        self.room_number = room_number
-        self.block = block
-        self.is_lab = is_lab
-        self.min_cap = min_cap
-        self.max_cap = max_cap
-
-    def __str__(self):
-        return f"{self.block}-{self.room_number} ({'Lab' if self.is_lab else 'Classroom'})"
-
-    def __eq__(self, other):
-        return (self.id == other.id if other else False)
-
-    def __hash__(self):
-        return hash(self.id)
-
-@problem_fact
-class Teacher:
-    def __init__(self, id, staff_code, first_name, last_name, email, max_hours=21):
-        self.id = id if id != "Unknown" else "Unknown"
-        self.staff_code = staff_code
-        self.full_name = f"{first_name} {last_name}".strip()
-        self.email = email
-        self.max_hours = max_hours
-
-    def __str__(self):
-        return self.full_name
-
-    def __eq__(self, other):
-        return (self.id == other.id if other else False)
-
-    def __hash__(self):
-        return hash(self.id)
-
-@problem_fact
-class Course:
-    def __init__(self, id, code, name, course_type, lecture_hours, practical_hours, tutorial_hours, credits, dept):
-        self.id = id
-        self.code = code
-        self.name = name
-        self.type = course_type
-        self.lecture_hours = lecture_hours
-        self.practical_hours = practical_hours
-        self.tutorial_hours = tutorial_hours
-        self.credits = credits
-        self.dept = dept
-
-    def __str__(self):
-        return f"{self.code} - {self.name}"
-
-    def __eq__(self, other):
-        return (self.id == other.id if other else False)
-
-    def __hash__(self):
-        return hash(self.id)
-
-@problem_fact
-class StudentGroup:
-    def __init__(self, id, name, strength=70):
-        self.id = id
-        self.name = name
-        self.strength = strength
-
-    def __str__(self):
-        return self.name
-
-    def __eq__(self, other):
-        return (self.id == other.id if other else False)
-
-    def __hash__(self):
-        return hash(self.id)
-
-# ====================== Planning Entity ======================
-
-@planning_entity
-class LectureAssignment:
-    def __init__(self, id, course, teacher, student_group, session_type="lecture", lab_batch=None, parent_lab_id=None):
-        self.id = id
-        self.course = course
-        self.teacher = teacher
-        self.student_group = student_group
-        self.session_type = session_type  # "lecture", "tutorial", or "lab"
-        self.lab_batch = lab_batch  # 1 or 2 for lab batches, None for non-lab
-        self.parent_lab_id = parent_lab_id # To link 2-hour lab sessions
-        self.timeslot = None
-        self.room = None
-
-    @planning_variable(TimeSlot, ["timeslots"])
-    def get_timeslot(self):
-        return self.timeslot
-
-    def set_timeslot(self, new_timeslot):
-        self.timeslot = new_timeslot
-
-    @planning_variable(Room, ["rooms"])
-    def get_room(self):
-        return self.room
-
-    def set_room(self, new_room):
-        self.room = new_room
-
-    def duration_hours(self):
-        return 1  # All individual sessions are 1 hour (50 mins)
-
-    def required_capacity(self):
-        if self.session_type == "lab":
-            return 35  # Lab batch size
-        return self.student_group.strength  # Full class for lectures/tutorials
-
-    def is_lab(self):
-        return self.session_type == "lab"
-
-    def __str__(self):
-        batch_info = f" (Batch {self.lab_batch})" if self.lab_batch else ""
-        return f"{self.course.code} - {self.session_type.title()}{batch_info} - {self.student_group}"
-
-# ====================== Planning Solution ======================
-
-@planning_solution
-class TimeTable:
-    def __init__(self, lecture_assignments, timeslots, rooms, teachers, courses, student_groups, score=None):
-        self.lecture_assignments = lecture_assignments
-        self.timeslots = timeslots
-        self.rooms = rooms
-        self.teachers = teachers
-        self.courses = courses
-        self.student_groups = student_groups
-        self.score = score
-
-    @planning_score(HardSoftScore)
-    def get_score(self):
-        return self.score
-
-    def set_score(self, score):
-        self.score = score
+class DataModel:
+    def __init__(self, teachers_courses_csv, rooms_csv):
+        self.df = pd.read_csv(teachers_courses_csv)
+        self.rooms_df = pd.read_csv(rooms_csv)
+        self.teachers = {}
+        self.courses = {}
+        self.student_groups = []
+        self.rooms = []
+        self.time_slots = []
+        self.lecture_assignments = []
+        
+        self._load_data()
+        self._create_time_slots()
+        self._create_lecture_assignments()
     
-    @planning_entity_collection_property(LectureAssignment)
-    def get_lecture_assignments(self):
-        return self.lecture_assignments
-
-    @value_range_provider(range_id="timeslots")
-    @problem_fact_collection_property(TimeSlot)
-    def get_timeslot_list(self):
-        return self.timeslots
-
-    @value_range_provider(range_id="rooms")
-    @problem_fact_collection_property(Room)
-    def get_room_list(self):
-        return self.rooms
-
-
-# ====================== Constraints ======================
-
-@constraint_provider
-def timetable_constraints(constraint_factory: ConstraintFactory):
-    return [
-        # Hard constraints
-        teacher_conflict(constraint_factory),
-        room_conflict(constraint_factory),
-        student_group_conflict(constraint_factory),
-        teacher_max_hours(constraint_factory),
-        lab_in_lab_room(constraint_factory),
-        lecture_in_classroom(constraint_factory),
-        room_capacity(constraint_factory),
-        no_classes_during_breaks(constraint_factory),
-        consecutive_lab_slots(constraint_factory), # New hard constraint for consecutive labs
-
-        # Soft constraints
-        minimize_teacher_gaps(constraint_factory),
-        prefer_consecutive_classes(constraint_factory),
-        prefer_same_room_for_course(constraint_factory),
-        # distribute_lab_batches(constraint_factory), # Removed, handled by consecutive_lab_slots and prefer_different_lab_batches
-        prefer_different_lab_batches(constraint_factory)
-    ]
-
-def teacher_conflict(constraint_factory):
-    """Teacher cannot teach two classes at the same time"""
-    return constraint_factory.for_each(LectureAssignment) \
-        .join(
-            LectureAssignment,
-            Joiners.equal(lambda a: a.teacher),
-            Joiners.equal(lambda a: a.timeslot),
-            Joiners.less_than(lambda a: a.id)
-        ) \
-        .filter(lambda a1, a2:
-                a1.timeslot is not None and a2.timeslot is not None) \
-        .penalize("Teacher conflict", HardSoftScore.ONE_HARD)
-
-def room_conflict(constraint_factory):
-    """Room cannot host two classes at the same time"""
-    return constraint_factory.for_each(LectureAssignment) \
-        .join(
-            LectureAssignment,
-            Joiners.equal(lambda a: a.room),
-            Joiners.equal(lambda a: a.timeslot),
-            Joiners.less_than(lambda a: a.id)
-        ) \
-        .filter(lambda a1, a2:
-                a1.room is not None and a2.room is not None and
-                a1.timeslot is not None and a2.timeslot is not None) \
-        .penalize("Room conflict", HardSoftScore.ONE_HARD)
-
-def student_group_conflict(constraint_factory):
-    """Student group cannot attend two classes at the same time"""
-    return constraint_factory.for_each(LectureAssignment) \
-        .join(
-            LectureAssignment,
-            Joiners.equal(lambda a: a.student_group),
-            Joiners.equal(lambda a: a.timeslot),
-            Joiners.less_than(lambda a: a.id)
-        ) \
-        .filter(lambda a1, a2:
-                a1.timeslot is not None and a2.timeslot is not None) \
-        .penalize("Student group conflict", HardSoftScore.ONE_HARD)
-
-def teacher_max_hours(constraint_factory):
-    """Teacher cannot exceed 21 hours per week"""
-    return constraint_factory.for_each(LectureAssignment) \
-        .filter(lambda a: a.timeslot is not None) \
-        .group_by(
-            lambda a: a.teacher,
-            lambda a: a.duration_hours()
-        ) \
-        .filter(lambda teacher, total_hours: total_hours > teacher.max_hours) \
-        .penalize(
-            "Teacher max hours exceeded",
-            HardSoftScore.ONE_HARD,
-            lambda teacher, total_hours: total_hours - teacher.max_hours
-        )
-
-def lab_in_lab_room(constraint_factory):
-    """Labs must be conducted in lab rooms only"""
-    return constraint_factory.for_each(LectureAssignment) \
-        .filter(lambda a:
-                a.session_type == "lab" and 
-                a.room is not None and 
-                not a.room.is_lab) \
-        .penalize("Lab not in lab room", HardSoftScore.ONE_HARD)
-
-def lecture_in_classroom(constraint_factory):
-    """Lectures and tutorials should be in classrooms (not labs)"""
-    return constraint_factory.for_each(LectureAssignment) \
-        .filter(lambda a:
-                a.session_type != "lab" and 
-                a.room is not None and 
-                a.room.is_lab) \
-        .penalize("Lecture in lab room", HardSoftScore.ONE_HARD)
-
-def room_capacity(constraint_factory):
-    """Room capacity must not be exceeded"""
-    return constraint_factory.for_each(LectureAssignment) \
-        .filter(lambda a:
-                a.room is not None and 
-                a.required_capacity() > a.room.max_cap) \
-        .penalize("Room capacity exceeded", HardSoftScore.ONE_HARD)
-
-def no_classes_during_breaks(constraint_factory):
-    """No classes should be scheduled during break times"""
-    return constraint_factory.for_each(LectureAssignment) \
-        .filter(lambda a:
-                a.timeslot is not None and 
-                a.timeslot.is_break) \
-        .penalize("Class during break", HardSoftScore.ONE_HARD)
-
-def consecutive_lab_slots(constraint_factory):
-    """Labs must be scheduled in consecutive 2-hour slots for the same parent_lab_id and student group,
-       with each lab batch filling one of the two slots."""
-    return constraint_factory.for_each(LectureAssignment) \
-        .filter(lambda assignment: assignment.session_type == "lab" and assignment.parent_lab_id is not None) \
-        .join(
-            LectureAssignment,
-            Joiners.equal(lambda a: a.parent_lab_id),
-            Joiners.equal(lambda a: a.student_group),
-            Joiners.equal(lambda a: a.teacher),
-            Joiners.equal(lambda a: a.room), # Labs should ideally be in the same room
-            Joiners.less_than(lambda a: a.id) # To avoid self-joining and duplicate pairs
-        ) \
-        .filter(lambda a1, a2:
-                a1.timeslot is not None and a2.timeslot is not None and
-                a1.timeslot.day == a2.timeslot.day and # Must be on the same day
-                abs(a1.timeslot.start_minutes - a2.timeslot.start_minutes) != 50 # Not exactly one 50-min period apart
-        ) \
-        .penalize("Non-consecutive lab slots", HardSoftScore.ONE_HARD)
-
-def prefer_different_lab_batches(constraint_factory):
-    """Prefer different lab batches of the SAME COURSE for the SAME STUDENT GROUP to be scheduled in consecutive slots, not overlapping."""
-    return constraint_factory.for_each(LectureAssignment) \
-        .filter(lambda a: a.session_type == "lab" and a.lab_batch is not None) \
-        .join(
-            LectureAssignment,
-            Joiners.equal(lambda a: a.course),
-            Joiners.equal(lambda a: a.student_group),
-            Joiners.equal(lambda a: a.timeslot), # Check for overlap in timeslot
-            Joiners.less_than(lambda a: a.id)
-        ) \
-        .filter(lambda a1, a2:
-                a1.timeslot is not None and a2.timeslot is not None and
-                a1.lab_batch != a2.lab_batch # Ensure they are different batches
-        ) \
-        .penalize("Overlapping different lab batches of same course", HardSoftScore.ONE_SOFT)
-
-def minimize_teacher_gaps(constraint_factory):
-    """Minimize gaps between teacher's classes on the same day"""
-    return constraint_factory.for_each(LectureAssignment) \
-        .join(
-            LectureAssignment,
-            Joiners.equal(lambda a1: a1.teacher, lambda a2: a2.teacher),
-            Joiners.equal(
-                lambda a1: a1.timeslot.day if a1.timeslot is not None else -1,
-                lambda a2: a2.timeslot.day if a2.timeslot is not None else -1
-            ),
-            Joiners.less_than(
-                lambda a1: a1.timeslot.start_minutes if a1.timeslot is not None else -1,
-                lambda a2: a2.timeslot.start_minutes if a2.timeslot is not None else -1
-            )
-        ) \
-        .filter(lambda a1, a2:
-                a1.timeslot is not None and 
-                a2.timeslot is not None and
-                a1.timeslot.day == a2.timeslot.day and
-                get_gap_between_slots(a1.timeslot, a2.timeslot) > 0
-        ) \
-        .penalize(
-            "Teacher gap between classes",
-            HardSoftScore.ONE_SOFT,
-            lambda a1, a2: get_gap_between_slots(a1.timeslot, a2.timeslot)
-        )
-
-def prefer_consecutive_classes(constraint_factory):
-    """Students prefer consecutive classes with minimal gaps"""
-    return constraint_factory.for_each(LectureAssignment) \
-        .join(
-            LectureAssignment,
-            Joiners.equal(lambda a1: a1.student_group, lambda a2: a2.student_group),
-            Joiners.equal(
-                lambda a1: a1.timeslot.day if a1.timeslot is not None else -1,
-                lambda a2: a2.timeslot.day if a2.timeslot is not None else -1
-            ),
-            Joiners.less_than(
-                lambda a1: a1.timeslot.start_minutes if a1.timeslot is not None else -1,
-                lambda a2: a2.timeslot.start_minutes if a2.timeslot is not None else -1
-            )
-        ) \
-        .filter(lambda a1, a2:
-                a1.timeslot is not None and 
-                a2.timeslot is not None and
-                a1.timeslot.day == a2.timeslot.day and
-                get_gap_between_slots(a1.timeslot, a2.timeslot) > 0
-        ) \
-        .penalize(
-            "Student group gap between classes",
-            HardSoftScore.ONE_SOFT,
-            lambda a1, a2: get_gap_between_slots(a1.timeslot, a2.timeslot)
-        )
-
-def prefer_same_room_for_course(constraint_factory):
-    """Prefer same room for different sessions of the same course"""
-    return constraint_factory.for_each(LectureAssignment) \
-        .join(
-            LectureAssignment,
-            Joiners.equal(lambda a1: a1.course),
-            Joiners.equal(lambda a1: a1.student_group),
-            Joiners.less_than(lambda a: a.id)
-        ) \
-        .filter(lambda a1, a2:
-                a1.room is not None and 
-                a2.room is not None and 
-                a1.room != a2.room and 
-                a1.session_type != "lab" and 
-                a2.session_type != "lab"
-        ) \
-        .penalize("Course in different rooms", HardSoftScore.ONE_SOFT)
-
-def get_gap_between_slots(slot1, slot2):
-    """Calculate gap in periods between two time slots"""
-    if slot1 is None or slot2 is None or slot1.day != slot2.day:
-        return 0
-
-    slot1_end = slot1.end_time.hour * 60 + slot1.end_time.minute
-    slot2_start = slot2.start_time.hour * 60 + slot2.start_time.minute
-    gap_minutes = slot2_start - slot1_end
-    return max(0, gap_minutes // 50)  # 50-minute periods
-
-# ====================== Data Loading ======================
-
-def load_data(teachers_courses_csv, rooms_csv):
-    """Load teachers, courses, and rooms data from CSV files"""
-    # Load teachers and courses data
-    df = pd.read_csv(teachers_courses_csv)
-    
-    # Create teachers dictionary
-    teachers = {}
-    for _, row in df.iterrows():
-        teacher_id = str(row['teacher_id']) if pd.notna(row['teacher_id']) else "Unknown"
-        if teacher_id not in teachers:
-            teachers[teacher_id] = Teacher(
-                teacher_id,
-                str(row['staff_code']) if pd.notna(row['staff_code']) else "",
-                str(row['first_name']) if pd.notna(row['first_name']) else "",
-                str(row['last_name']) if pd.notna(row['last_name']) else "",
-                str(row['teacher_email']) if pd.notna(row['teacher_email']) else ""
-            )
-    
-    # Create courses dictionary
-    courses = {}
-    for _, row in df.iterrows():
-        course_id = str(row['course_id'])
-        if course_id not in courses:
-            courses[course_id] = Course(
-                course_id,
-                str(row['course_code']),
-                str(row['course_name']),
-                str(row['course_type']) if pd.notna(row['course_type']) else "",
-                int(row['lecture_hours']) if pd.notna(row['lecture_hours']) else 0,
-                int(row['practical_hours']) if pd.notna(row['practical_hours']) else 0,
-                int(row['tutorial_hours']) if pd.notna(row['tutorial_hours']) else 0,
-                int(row['credits']) if pd.notna(row['credits']) else 0,
-                str(row['course_dept']) if pd.notna(row['course_dept']) else ""
-            )
-    
-    # Create 6 student groups (sections A-F)
-    student_groups = []
-    for i in range(6):
-        student_groups.append(
-            StudentGroup(
-                i + 1,
-                f"Section {chr(65 + i)}",  # Section A, B, C, D, E, F
-                70
-            )
-        )
-    
-    # Load rooms
-    rooms_df = pd.read_csv(rooms_csv)
-    rooms = []
-    for _, row in rooms_df.iterrows():
-        rooms.append(Room(
-            int(row['id']),
-            str(row['room_number']),
-            str(row['block']),
-            bool(row['is_lab']),
-            int(row['room_min_cap']),
-            int(row['room_max_cap'])
-        ))
-    
-    return list(teachers.values()), rooms, list(courses.values()), student_groups
-
-def create_time_slots():
-    """Create time slots for Monday-Friday, 8:10 AM - 3:00 PM"""
-    time_slots = []
-    id_counter = 0
-    
-    for day in range(5):  # Monday to Friday
-        # Period 1: 8:10-9:00
-        time_slots.append(TimeSlot(
-            id_counter, day, 
-            time(8, 10), 
-            time(9, 0), 
-            False
-        ))
-        id_counter += 1
+    def _load_data(self):
+        # Load teachers
+        for _, row in self.df.iterrows():
+            teacher_id = str(row['teacher_id']) if pd.notna(row['teacher_id']) else "Unknown"
+            if teacher_id not in self.teachers:
+                self.teachers[teacher_id] = {
+                    'id': teacher_id,
+                    'staff_code': str(row['staff_code']) if pd.notna(row['staff_code']) else "",
+                    'name': f"{str(row['first_name']) if pd.notna(row['first_name']) else ''} {str(row['last_name']) if pd.notna(row['last_name']) else ''}".strip(),
+                    'email': str(row['teacher_email']) if pd.notna(row['teacher_email']) else "",
+                    'max_hours': MAX_TEACHER_HOURS
+                }
         
-        # Period 2: 9:00-9:50
-        time_slots.append(TimeSlot(
-            id_counter, day,
-            time(9, 0),
-            time(9, 50),
-            False
-        ))
-        id_counter += 1
+        # Load courses
+        for _, row in self.df.iterrows():
+            course_id = str(row['course_id'])
+            if course_id not in self.courses:
+                self.courses[course_id] = {
+                    'id': course_id,
+                    'code': str(row['course_code']),
+                    'name': str(row['course_name']),
+                    'type': str(row['course_type']) if pd.notna(row['course_type']) else "",
+                    'lecture_hours': int(row['lecture_hours']) if pd.notna(row['lecture_hours']) else 0,
+                    'practical_hours': int(row['practical_hours']) if pd.notna(row['practical_hours']) else 0,
+                    'tutorial_hours': int(row['tutorial_hours']) if pd.notna(row['tutorial_hours']) else 0,
+                    'credits': int(row['credits']) if pd.notna(row['credits']) else 0,
+                    'dept': str(row['course_dept']) if pd.notna(row['course_dept']) else ""
+                }
         
-        # Morning break: 9:50-10:10 (20 mins)
-        time_slots.append(TimeSlot(
-            id_counter, day,
-            time(9, 50),
-            time(10, 10),
-            True  # Break time
-        ))
-        id_counter += 1
+        # Create 6 student groups (Sections A-F)
+        for i in range(6):
+            self.student_groups.append({
+                'id': i + 1,
+                'name': f"Section {chr(65 + i)}",
+                'strength': CLASS_STRENGTH
+            })
         
-        # Period 3: 10:10-11:00
-        time_slots.append(TimeSlot(
-            id_counter, day,
-            time(10, 10),
-            time(11, 0),
-            False
-        ))
-        id_counter += 1
-        
-        # Period 4: 11:00-11:50
-        time_slots.append(TimeSlot(
-            id_counter, day,
-            time(11, 0),
-            time(11, 50),
-            False
-        ))
-        id_counter += 1
-        
-        # Lunch break: 11:50-12:40 (50 mins)
-        time_slots.append(TimeSlot(
-            id_counter, day,
-            time(11, 50),
-            time(12, 40),
-            True  # Lunch break
-        ))
-        id_counter += 1
-        
-        # Period 5: 12:40-1:30
-        time_slots.append(TimeSlot(
-            id_counter, day,
-            time(12, 40),
-            time(13, 30),
-            False
-        ))
-        id_counter += 1
-        
-        # Period 6: 1:30-2:20
-        time_slots.append(TimeSlot(
-            id_counter, day,
-            time(13, 30),
-            time(14, 20),
-            False
-        ))
-        id_counter += 1
-        
-        # Period 7: 2:20-3:10 (extended day for labs if needed)
-        time_slots.append(TimeSlot(
-            id_counter, day,
-            time(14, 20),
-            time(15, 10),
-            False
-        ))
-        id_counter += 1
-    
-    return time_slots
-
-def create_lecture_assignments(df, teachers, courses, student_groups):
-    """Assign all unique courses to every student group, with correct lecture, tutorial, and lab hours (labs split into 2 batches)."""
-    assignments = []
-    assignment_id = 0
-
-    # Create a teacher lookup dictionary
-    teacher_dict = {str(t.id): t for t in teachers}
-
-    # For each course, find all teachers who can teach it (in order of appearance)
-    course_teacher_map = {}
-    for _, row in df.iterrows():
-        course_id = str(row['course_id'])
-        teacher_id = str(row['teacher_id']) if pd.notna(row['teacher_id']) else "Unknown"
-        if course_id not in course_teacher_map:
-            course_teacher_map[course_id] = []
-        if teacher_id not in course_teacher_map[course_id]:
-            course_teacher_map[course_id].append(teacher_id)
-
-    # For each student group, assign all unique courses
-    for student_group in student_groups:
-        for course in courses:
-            course_id = str(course.id)
-            teacher_list = course_teacher_map.get(course_id, ["Unknown"])
-            # Cycle through teachers for each group
-            teacher_id = teacher_list[student_group.id % len(teacher_list)]
-            teacher = teacher_dict.get(teacher_id, teacher_dict.get("Unknown"))
-
-            # Create lecture assignments
-            for _ in range(course.lecture_hours):
-                assignments.append(
-                    LectureAssignment(assignment_id, course, teacher, student_group, "lecture")
-                )
-                assignment_id += 1
-
-            # Create tutorial assignments
-            for _ in range(course.tutorial_hours):
-                assignments.append(
-                    LectureAssignment(assignment_id, course, teacher, student_group, "tutorial")
-                )
-                assignment_id += 1
-
-            # Create lab assignments (each practical hour is 1-hour session, grouped into 2-hour blocks by constraint)
-            # Each practical hour counts as one hour of lab content. If a lab is 4 practical hours,
-            # it means 4 individual 1-hour sessions, but the constraint will ensure they are in 2-hour blocks.
-            # We need to create parent_lab_id for linking 2-hour blocks.
-            num_lab_sessions_per_batch = course.practical_hours
-            if num_lab_sessions_per_batch > 0:
-                # Generate a unique parent_lab_id for each 2-hour lab block
-                # Since each practical_hour is 1 unit, for 'P' practical hours, we need P/2 2-hour blocks.
-                # If P is odd, handle the last one as a 1-hour session or adjust the logic.
-                # For simplicity here, we assume P is even for 2-hour blocks or handle leftovers.
-                # For the given data: 4 practical hours -> 2 x 2-hour blocks. 2 practical hours -> 1 x 2-hour block.
-                # We need to create 'P' 1-hour assignments for each batch.
-                
-                # Each 'practical_hour' from the CSV represents 1 hour of "content".
-                # If we want 2-hour lab sessions, then for 'P' practical hours, we need P/2 blocks of 2 hours.
-                # Each 2-hour block will consist of 2 consecutive 1-hour assignments.
-                # So we need to create 'P' assignments for Batch 1 and 'P' assignments for Batch 2.
-                # The 'parent_lab_id' will link the two 1-hour assignments that form a 2-hour block.
-
-                lab_block_counter = 0
-                for _ in range(course.practical_hours // 2): # Number of 2-hour blocks
-                    # Assign an ID for this 2-hour lab block
-                    current_parent_lab_id = f"LabBlock_{course.id}_{student_group.id}_{lab_block_counter}"
-                    
-                    # For Batch 1, create two 1-hour assignments for this block
-                    assignments.append(
-                        LectureAssignment(assignment_id, course, teacher, student_group, "lab", 1, current_parent_lab_id)
-                    )
-                    assignment_id += 1
-                    assignments.append(
-                        LectureAssignment(assignment_id, course, teacher, student_group, "lab", 1, current_parent_lab_id)
-                    )
-                    assignment_id += 1
-
-                    # For Batch 2, create two 1-hour assignments for this block
-                    assignments.append(
-                        LectureAssignment(assignment_id, course, teacher, student_group, "lab", 2, current_parent_lab_id)
-                    )
-                    assignment_id += 1
-                    assignments.append(
-                        LectureAssignment(assignment_id, course, teacher, student_group, "lab", 2, current_parent_lab_id)
-                    )
-                    assignment_id += 1
-                    lab_block_counter += 1
-                
-                # If there's an odd practical hour (e.g., 3 hours for a lab), handle the leftover.
-                # This scenario is less common for fixed 2-hour labs, but good to consider.
-                # For now, we'll assume practical_hours will always be even to form 2-hour blocks.
-                # If practical_hours is 1, it means half a 2-hour block, which is problematic for current constraint.
-                # For the given JNTUH R16 (4 or 2 practical hours), this will always yield 2-hour blocks.
-
-    return assignments
-
-# ====================== Solver Configuration ======================
-def solve_timetable(teachers_courses_csv, rooms_csv):
-    try:
-        import jpype
-        # Load data
-        teachers, rooms, courses, student_groups = load_data(teachers_courses_csv, rooms_csv)
-        df = pd.read_csv(teachers_courses_csv)
-        
-        print(f"Loaded: {len(teachers)} teachers, {len(rooms)} rooms, {len(courses)} courses, {len(student_groups)} student groups")
-        
-        # Create time slots
-        time_slots = create_time_slots()
-        print(f"Created {len(time_slots)} time slots")
-        
-        # Create lecture assignments
-        lecture_assignments = create_lecture_assignments(df, teachers, courses, student_groups)
-        print(f"Created {len(lecture_assignments)} lecture assignments")
-        
-        if not lecture_assignments:
-            print("No lecture assignments created. Check your data.")
-            return None
-        
-        # Create problem
-        problem = TimeTable(lecture_assignments, time_slots, rooms, teachers, courses, student_groups)
-        
-        # Configure solver
-        Duration = jpype.JClass("java.time.Duration")
-        config = SolverConfig() \
-            .withSolutionClass(TimeTable) \
-            .withEntityClasses([LectureAssignment]) \
-            .withConstraintProviderClass(timetable_constraints) \
-            .withTerminationSpentLimit(Duration.parse("PT5M"))
-            
-        print("Starting optimization...")
-        # Solve
-        solver_manager = solver_manager_create(config)
-        solver_job = solver_manager.solve("timetable", problem)
-        solution = solver_job.getFinalBestSolution()
-        
-        print(f"Optimization completed with score: {solution.get_score()}")
-        return solution
-        
-    except Exception as e:
-        print(f"Error during optimization: {e}")
-        import traceback
-        traceback.print_exc()
-        return None
-
-# ====================== Result Visualization ======================
-
-def print_timetable(solution):
-    """Print the generated timetable"""
-    if not solution:
-        print("No solution to display")
-        return
-        
-    print(f"\n=== FINAL TIMETABLE (Score: {solution.get_score()}) ===")
-    
-    # Group assignments by student group
-    by_group = defaultdict(list)
-    for assignment in solution.lecture_assignments:
-        if assignment.timeslot is not None and assignment.room is not None and not assignment.timeslot.is_break:
-            by_group[assignment.student_group].append(assignment)
-    
-    # Print timetable for each group
-    for group, assignments in by_group.items():
-        print(f"\n=== TIMETABLE FOR {group} ===")
-        
-        # Sort by day and time
-        assignments.sort(key=lambda x: (x.timeslot.day, x.timeslot.start_time))
-        
-        current_day = None
-        for assignment in assignments:
-            if assignment.timeslot.day != current_day:
-                current_day = assignment.timeslot.day
-                print(f"\n{['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'][current_day]}")
-                print("-" * 60)
-            
-            batch_info = f" (Batch {assignment.lab_batch})" if assignment.lab_batch else ""
-            duration_info = f" ({assignment.duration_hours()}h)" if assignment.duration_hours() > 1 else ""
-            
-            print(f"{assignment.timeslot.start_time.strftime('%H:%M')}-{assignment.timeslot.end_time.strftime('%H:%M')}: "
-                  f"{assignment.course.code} - {assignment.session_type.title()}{batch_info}{duration_info}")
-            print(f"  Teacher: {assignment.teacher}")
-            print(f"  Room: {assignment.room}")
-            print()
-
-def export_to_csv(solution, filename="timetable_result.csv"):
-    """Export the timetable to CSV"""
-    if not solution:
-        print("No solution to export")
-        return
-        
-    data = []
-    for assignment in solution.lecture_assignments:
-        if assignment.timeslot is not None and assignment.room is not None and not assignment.timeslot.is_break:
-            data.append({
-                "Day": ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'][assignment.timeslot.day],
-                "Time": f"{assignment.timeslot.start_time.strftime('%H:%M')}-{assignment.timeslot.end_time.strftime('%H:%M')}",
-                "Student Group": str(assignment.student_group),
-                "Course Code": assignment.course.code,
-                "Course Name": assignment.course.name,
-                "Session Type": assignment.session_type.title(),
-                "Lab Batch": assignment.lab_batch if assignment.lab_batch else "",
-                "Teacher": str(assignment.teacher),
-                "Room": str(assignment.room),
-                "Duration (hours)": assignment.duration_hours()
+        # Load rooms
+        for _, row in self.rooms_df.iterrows():
+            self.rooms.append({
+                'id': int(row['id']),
+                'number': str(row['room_number']),
+                'block': str(row['block']),
+                'is_lab': bool(row['is_lab']),
+                'min_cap': int(row['room_min_cap']),
+                'max_cap': int(row['room_max_cap'])
             })
     
-    if data:
-        df_result = pd.DataFrame(data)
-        df_result.to_csv(filename, index=False)
+    def _create_time_slots(self):
+        slot_id = 0
+        for day in range(len(DAYS)):
+            for slot_idx, slot in enumerate(TIME_SLOTS):
+                start_time = time(*map(int, slot[0].split(':')))
+                end_time = time(*map(int, slot[1].split(':')))
+                is_break = slot_idx in BREAK_SLOTS
+                
+                self.time_slots.append({
+                    'id': slot_id,
+                    'day': day,
+                    'day_name': DAYS[day],
+                    'start_time': start_time,
+                    'end_time': end_time,
+                    'is_break': is_break,
+                    'slot_index': slot_idx,
+                    'time_str': f"{start_time.strftime('%H:%M')}-{end_time.strftime('%H:%M')}"
+                })
+                slot_id += 1
+    
+    def _create_lecture_assignments(self):
+        assignment_id = 0
+        teacher_dict = self.teachers
+        course_teacher_map = defaultdict(list)
+        
+        # Create mapping of course to available teachers
+        for _, row in self.df.iterrows():
+            course_id = str(row['course_id'])
+            teacher_id = str(row['teacher_id']) if pd.notna(row['teacher_id']) else "Unknown"
+            if teacher_id not in course_teacher_map[course_id]:
+                course_teacher_map[course_id].append(teacher_id)
+        
+        for student_group in self.student_groups:
+            for course_id, course in self.courses.items():
+                teacher_list = course_teacher_map.get(course_id, ["Unknown"])
+                
+                # Assign teachers in round-robin fashion
+                teacher_idx = (student_group['id'] - 1) % len(teacher_list)
+                teacher_id = teacher_list[teacher_idx]
+                teacher = teacher_dict.get(teacher_id, teacher_dict.get("Unknown"))
+                
+                # Lectures
+                for _ in range(course['lecture_hours']):
+                    self.lecture_assignments.append({
+                        'id': assignment_id,
+                        'course': course,
+                        'teacher': teacher,
+                        'student_group': student_group,
+                        'type': 'lecture',
+                        'duration': 1
+                    })
+                    assignment_id += 1
+                
+                # Tutorials
+                for _ in range(course['tutorial_hours']):
+                    self.lecture_assignments.append({
+                        'id': assignment_id,
+                        'course': course,
+                        'teacher': teacher,
+                        'student_group': student_group,
+                        'type': 'tutorial',
+                        'duration': 1
+                    })
+                    assignment_id += 1
+                
+                # Labs - create pairs of assignments for each lab session
+                lab_sessions_needed = course['practical_hours']
+                
+                for lab_session in range(lab_sessions_needed):
+                    # Create parent ID to link the two lab parts
+                    parent_id = f"Lab_{course_id}_{student_group['id']}_{lab_session}"
+                    
+                    # First part of lab (first 50 minutes)
+                    self.lecture_assignments.append({
+                        'id': assignment_id,
+                        'course': course,
+                        'teacher': teacher,
+                        'student_group': student_group,
+                        'type': 'lab',
+                        'duration': 1,
+                        'lab_batch': 1,
+                        'parent_lab_id': parent_id
+                    })
+                    assignment_id += 1
+                    
+                    # Second part of lab (second 50 minutes)
+                    self.lecture_assignments.append({
+                        'id': assignment_id,
+                        'course': course,
+                        'teacher': teacher,
+                        'student_group': student_group,
+                        'type': 'lab',
+                        'duration': 1,
+                        'lab_batch': 2,
+                        'parent_lab_id': parent_id
+                    })
+                    assignment_id += 1
+
+class TimetableSolver:
+    def __init__(self, data_model):
+        self.model = cp_model.CpModel()
+        self.data = data_model
+        self.solver = cp_model.CpSolver()
+        self.solver.parameters.max_time_in_seconds = 300  # 5 minutes
+        self.solver.parameters.num_search_workers = 8
+        
+        # Create variables
+        self.assignment_vars = {}
+        self._create_variables()
+        
+        # Add constraints
+        self._add_constraints()
+    
+    def _create_variables(self):
+        # Create assignment variables: (assignment_id, timeslot_id, room_id) -> BoolVar
+        for assignment in self.data.lecture_assignments:
+            for timeslot in self.data.time_slots:
+                if timeslot['is_break']:
+                    continue  # Skip break times
+                
+                for room in self.data.rooms:
+                    # Check room suitability
+                    if (assignment['type'] == 'lab' and not room['is_lab']) or \
+                       (assignment['type'] != 'lab' and room['is_lab']):
+                        continue
+                    
+                    # Check room capacity
+                    required_capacity = LAB_BATCH_SIZE if assignment['type'] == 'lab' else CLASS_STRENGTH
+                    if required_capacity > room['max_cap']:
+                        continue
+                    
+                    var_name = f"a{assignment['id']}_t{timeslot['id']}_r{room['id']}"
+                    self.assignment_vars[(assignment['id'], timeslot['id'], room['id'])] = \
+                        self.model.NewBoolVar(var_name)
+    
+    def _add_constraints(self):
+        # Each assignment must be scheduled exactly once
+        for assignment in self.data.lecture_assignments:
+            possible_slots = [
+                var for (a_id, t_id, r_id), var in self.assignment_vars.items()
+                if a_id == assignment['id']
+            ]
+            self.model.AddExactlyOne(possible_slots)
+        
+        # No teacher can teach two classes at the same time
+        teacher_assignments = defaultdict(list)
+        for (a_id, t_id, r_id), var in self.assignment_vars.items():
+            assignment = next(a for a in self.data.lecture_assignments if a['id'] == a_id)
+            teacher_assignments[(assignment['teacher']['id'], t_id)].append(var)
+        
+        for (teacher_id, timeslot_id), vars_list in teacher_assignments.items():
+            self.model.Add(sum(vars_list) <= 1)
+        
+        # No room can be used for two classes at the same time
+        room_assignments = defaultdict(list)
+        for (a_id, t_id, r_id), var in self.assignment_vars.items():
+            room_assignments[(r_id, t_id)].append(var)
+        
+        for (room_id, timeslot_id), vars_list in room_assignments.items():
+            self.model.Add(sum(vars_list) <= 1)
+        
+        # No student group can have two classes at the same time
+        group_assignments = defaultdict(list)
+        for (a_id, t_id, r_id), var in self.assignment_vars.items():
+            assignment = next(a for a in self.data.lecture_assignments if a['id'] == a_id)
+            group_assignments[(assignment['student_group']['id'], t_id)].append(var)
+        
+        for (group_id, timeslot_id), vars_list in group_assignments.items():
+            self.model.Add(sum(vars_list) <= 1)
+        
+        # Teacher max hours constraint
+        teacher_hours = defaultdict(list)
+        for (a_id, t_id, r_id), var in self.assignment_vars.items():
+            assignment = next(a for a in self.data.lecture_assignments if a['id'] == a_id)
+            teacher_hours[assignment['teacher']['id']].append(var)
+        
+        for teacher_id, vars_list in teacher_hours.items():
+            self.model.Add(sum(vars_list) <= MAX_TEACHER_HOURS)
+        
+        # Lab constraints
+        lab_assignments = [a for a in self.data.lecture_assignments if a['type'] == 'lab']
+        lab_pairs = defaultdict(list)
+        
+        for assignment in lab_assignments:
+            if 'parent_lab_id' in assignment:
+                lab_pairs[assignment['parent_lab_id']].append(assignment['id'])
+        
+        for parent_id, [a1_id, a2_id] in lab_pairs.items():
+            # Get all possible assignments for these two lab parts
+            a1_vars = [
+                (t_id, r_id, var) for (a_id, t_id, r_id), var in self.assignment_vars.items()
+                if a_id == a1_id
+            ]
+            a2_vars = [
+                (t_id, r_id, var) for (a_id, t_id, r_id), var in self.assignment_vars.items()
+                if a_id == a2_id
+            ]
+            
+            # Ensure they are consecutive and same day
+            for (t1_id, r1_id, var1) in a1_vars:
+                t1 = next(t for t in self.data.time_slots if t['id'] == t1_id)
+                for (t2_id, r2_id, var2) in a2_vars:
+                    t2 = next(t for t in self.data.time_slots if t['id'] == t2_id)
+                    
+                    # Check if consecutive and same day
+                    if t1['day'] == t2['day'] and abs(t1['slot_index'] - t2['slot_index']) == 1:
+                        # Different rooms for different batches
+                        assignment1 = next(a for a in self.data.lecture_assignments if a['id'] == a1_id)
+                        assignment2 = next(a for a in self.data.lecture_assignments if a['id'] == a2_id)
+                        
+                        if assignment1['lab_batch'] == assignment2['lab_batch']:
+                            # Same batch must be in same room
+                            same_room = self.model.NewBoolVar(f"same_room_{a1_id}_{a2_id}_{r1_id}_{r2_id}")
+                            self.model.Add(r1_id == r2_id).OnlyEnforceIf(same_room)
+                            self.model.Add(r1_id != r2_id).OnlyEnforceIf(same_room.Not())
+                            self.model.AddBoolAnd([var1, var2]).OnlyEnforceIf(same_room)
+                        else:
+                            # Different batches should be in different rooms
+                            self.model.Add(r1_id != r2_id).OnlyEnforceIf(var1).OnlyEnforceIf(var2)
+        
+        # Objective: Minimize gaps and prefer consecutive classes
+        # This is simplified - a real implementation would need more sophisticated objectives
+        self.model.Maximize(sum(self.assignment_vars.values()))
+    
+    def solve(self):
+        status = self.solver.Solve(self.model)
+        if status in [cp_model.OPTIMAL, cp_model.FEASIBLE]:
+            return self._extract_solution()
+        else:
+            print("No solution found")
+            return None
+    
+    def _extract_solution(self):
+        solution = {
+            'assignments': [],
+            'teacher_hours': defaultdict(int),
+            'room_usage': defaultdict(int),
+            'group_schedules': defaultdict(list)
+        }
+        
+        for (a_id, t_id, r_id), var in self.assignment_vars.items():
+            if self.solver.Value(var):
+                assignment = next(a for a in self.data.lecture_assignments if a['id'] == a_id)
+                timeslot = next(t for t in self.data.time_slots if t['id'] == t_id)
+                room = next(r for r in self.data.rooms if r['id'] == r_id)
+                
+                solution['assignments'].append({
+                    'assignment': assignment,
+                    'timeslot': timeslot,
+                    'room': room
+                })
+                
+                solution['teacher_hours'][assignment['teacher']['id']] += 1
+                solution['room_usage'][r_id] += 1
+                solution['group_schedules'][assignment['student_group']['id']].append({
+                    'assignment': assignment,
+                    'timeslot': timeslot,
+                    'room': room
+                })
+        
+        return solution
+
+class TimetableVisualizer:
+    @staticmethod
+    def print_timetable(solution):
+        if not solution:
+            print("No solution to display")
+            return
+        
+        print("\n=== FINAL TIMETABLE ===")
+        
+        # Group by student group
+        for group_id, assignments in solution['group_schedules'].items():
+            group = next(g for g in data_model.student_groups if g['id'] == group_id)
+            print(f"\n=== TIMETABLE FOR {group['name']} ===")
+            
+            # Sort by day and time
+            assignments.sort(key=lambda x: (x['timeslot']['day'], x['timeslot']['start_time']))
+            
+            current_day = None
+            for assignment in assignments:
+                if assignment['timeslot']['day'] != current_day:
+                    current_day = assignment['timeslot']['day']
+                    print(f"\n{DAYS[current_day]}")
+                    print("-" * 60)
+                
+                batch_info = f" (Batch {assignment['assignment']['lab_batch']})" if 'lab_batch' in assignment['assignment'] else ""
+                print(f"{assignment['timeslot']['time_str']}: "
+                      f"{assignment['assignment']['course']['code']} - {assignment['assignment']['type'].title()}{batch_info}")
+                print(f"  Teacher: {assignment['assignment']['teacher']['name']}")
+                print(f"  Room: {assignment['room']['block']}-{assignment['room']['number']}")
+    
+    @staticmethod
+    def export_to_csv(solution, filename="timetable_result.csv"):
+        if not solution:
+            print("No solution to export")
+            return
+        
+        data = []
+        for assignment in solution['assignments']:
+            data.append({
+                'Day': assignment['timeslot']['day_name'],
+                'Time': assignment['timeslot']['time_str'],
+                'Student Group': assignment['assignment']['student_group']['name'],
+                'Course Code': assignment['assignment']['course']['code'],
+                'Course Name': assignment['assignment']['course']['name'],
+                'Session Type': assignment['assignment']['type'].title(),
+                'Lab Batch': assignment['assignment'].get('lab_batch', ''),
+                'Teacher': assignment['assignment']['teacher']['name'],
+                'Room': f"{assignment['room']['block']}-{assignment['room']['number']}",
+                'Duration': assignment['assignment']['duration']
+            })
+        
+        pd.DataFrame(data).to_csv(filename, index=False)
         print(f"Timetable exported to {filename}")
-        
-        # Print summary statistics
-        print(f"\nSUMMARY:")
-        print(f"Total scheduled sessions: {len(data)}")
-        print(f"Sessions by type:")
-        for session_type in df_result['Session Type'].unique():
-            count = len(df_result[df_result['Session Type'] == session_type])
-            print(f"  {session_type}: {count}")
-    else:
-        print("No scheduled assignments to export")
-
-def print_teacher_workload(solution):
-    """Print teacher workload summary"""
-    if not solution:
-        return
-        
-    teacher_hours = defaultdict(int)
-    for assignment in solution.lecture_assignments:
-        if assignment.timeslot is not None and not assignment.timeslot.is_break:
-            teacher_hours[assignment.teacher] += assignment.duration_hours()
     
-    print(f"\n=== TEACHER WORKLOAD SUMMARY ===")
-    for teacher, hours in sorted(teacher_hours.items(), key=lambda x: x[1], reverse=True):
-        status = "OVERLOADED" if hours > teacher.max_hours else "OK"
-        print(f"{teacher}: {hours}/{teacher.max_hours} hours [{status}]")
+    @staticmethod
+    def generate_studentgroup_image_timetable(solution, output_dir="timetable_images"):
+        os.makedirs(output_dir, exist_ok=True)
+        
+        # Get all time slots (excluding breaks)
+        time_slots = [t for t in data_model.time_slots if not t['is_break']]
+        time_strs = sorted({t['time_str'] for t in time_slots})
+        
+        for group_id, assignments in solution['group_schedules'].items():
+            group = next(g for g in data_model.student_groups if g['id'] == group_id)
+            
+            fig, ax = plt.subplots(figsize=(14, 8))
+            ax.axis('off')
+            ax.set_title(f'Timetable for {group["name"]}', fontsize=16)
+            
+            # Prepare data for table
+            data = [['' for _ in range(len(DAYS))] for _ in range(len(time_strs))]
+            
+            for assignment in assignments:
+                time_str = assignment['timeslot']['time_str']
+                day_idx = assignment['timeslot']['day']
+                time_idx = time_strs.index(time_str)
+                
+                batch_info = f"\n(Batch {assignment['assignment']['lab_batch']})" if 'lab_batch' in assignment['assignment'] else ""
+                data[time_idx][day_idx] = (
+                    f"{assignment['assignment']['course']['code']} - {assignment['assignment']['type'][:3].upper()}{batch_info}\n"
+                    f"{assignment['assignment']['teacher']['name'][:15]}\n"
+                    f"{assignment['room']['block']}{assignment['room']['number']}"
+                )
+            
+            # Create table
+            table = Table(ax, bbox=[0, 0, 1, 1])
+            width, height = 1.0 / len(DAYS), 1.0 / len(time_strs)
+            
+            # Add headers
+            for i, day in enumerate(DAYS):
+                table.add_cell(i+1, -1, width, height, text=day, loc='center', facecolor='lightblue')
+            for j, t in enumerate(time_strs):
+                table.add_cell(-1, j+1, width, height, text=t, loc='center', facecolor='lightblue')
+            
+            # Add data cells
+            for i in range(len(time_strs)):
+                for j in range(len(DAYS)):
+                    table.add_cell(j+1, i+1, width, height, text=data[i][j], loc='center', 
+                                  facecolor='white' if data[i][j] else 'whitesmoke')
+            
+            ax.add_table(table)
+            plt.savefig(f"{output_dir}/{group['name'].replace(' ', '_')}.png", dpi=100)
+            plt.close()
+        
+        print(f"Timetable images saved to {output_dir}")
 
-def generate_studentgroup_html_timetable(solution, output_dir="studentgroup_timetables"):
-    """Generate an HTML timetable for each student group"""
-    import os
-    if not solution:
-        print("No solution to visualize")
-        return
-    os.makedirs(output_dir, exist_ok=True)
-    days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
-    # Group assignments by student group
-    by_group = defaultdict(list)
-    for assignment in solution.lecture_assignments:
-        if assignment.timeslot is not None and assignment.room is not None and not assignment.timeslot.is_break:
-            by_group[assignment.student_group].append(assignment)
-    for group, assignments in by_group.items():
-        # Build a grid: day x time
-        grid = defaultdict(lambda: defaultdict(list))
-        for a in assignments:
-            grid[a.timeslot.day][a.timeslot.start_time.strftime('%H:%M')] = a
-        # Get all unique time slots (sorted)
-        all_times = sorted({a.timeslot.start_time.strftime('%H:%M') for a in assignments})
-        html = [f"<h2>Timetable for {group}</h2>", "<table border='1' style='border-collapse:collapse;'>"]
-        # Header
-        html.append("<tr><th>Day/Time</th>" + ''.join(f"<th>{t}</th>" for t in all_times) + "</tr>")
-        for day in range(5):
-            html.append(f"<tr><td>{days[day]}</td>")
-            for t in all_times:
-                a = grid[day].get(t)
-                if a:
-                    batch_info = f" (Batch {a.lab_batch})" if a.lab_batch else ""
-                    html.append(f"<td>{a.course.code}<br>{a.session_type.title()}{batch_info}<br>{a.teacher}<br>{a.room}</td>")
-                else:
-                    html.append("<td></td>")
-            html.append("</tr>")
-        html.append("</table>")
-        # Write to file
-        filename = os.path.join(output_dir, f"timetable_{group.name.replace(' ', '_')}.html")
-        with open(filename, "w", encoding="utf-8") as f:
-            f.write('\n'.join(html))
-    print(f"HTML timetables generated in '{output_dir}' directory.")
-
-# ====================== Main Execution ======================
-
+# Main execution
 if __name__ == "__main__":
-    # Replace with your actual CSV file paths
-    teachers_courses_csv = "cse-1.csv"
-    rooms_csv = "techlongue.csv"
+    # Load data
+    data_model = DataModel("cse-1.csv", "techlongue.csv")
     
-    print("Starting timetable optimization...")
-    solution = solve_timetable(teachers_courses_csv, rooms_csv)
+    # Solve
+    solver = TimetableSolver(data_model)
+    solution = solver.solve()
     
+    # Visualize results
     if solution:
-        print("\nOptimization complete! Here are the results:")
-        print_timetable(solution)
-        export_to_csv(solution)
-        print_teacher_workload(solution)
-        generate_studentgroup_html_timetable(solution)
-    else:
-        print("Optimization failed. Please check your data and constraints.")
+        TimetableVisualizer.print_timetable(solution)
+        TimetableVisualizer.export_to_csv(solution)
+        TimetableVisualizer.generate_studentgroup_image_timetable(solution)
+        
+        # Print teacher workload
+        print("\n=== TEACHER WORKLOAD ===")
+        for teacher_id, hours in solution['teacher_hours'].items():
+            teacher = data_model.teachers[teacher_id]
+            status = "OVERLOADED" if hours > teacher['max_hours'] else "OK"
+            print(f"{teacher['name']}: {hours}/{teacher['max_hours']} hours [{status}]")

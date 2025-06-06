@@ -1,17 +1,200 @@
 Day,Time,Student Group,Course Code,Course Name,Session Type,Lab Batch,Teacher,Room,Duration (hours)
-Monday,08:10-09:00,Section A,CS23532,Computer Networks,Lecture,,Aswana Lal,A Block-A102 (Classroom),1
-Monday,09:00-09:50,Section A,CS23532,Computer Networks,Lecture,,Aswana Lal,A Block-A102 (Classroom),1
-Tuesday,08:10-09:00,Section A,CS23532,Computer Networks,Lecture,,Aswana Lal,A Block-A102 (Classroom),1
-Tuesday,09:00-09:50,Section A,CS23532,Computer Networks,Lab,1,Aswana Lal,Techlounge-TLFL1 (Lab),1
-Wednesday,08:10-09:00,Section A,CS23532,Computer Networks,Lab,1,Aswana Lal,Techlounge-TLFL1 (Lab),1
-Wednesday,09:00-09:50,Section A,CS23532,Computer Networks,Lab,2,Aswana Lal,Techlounge-TLFL1 (Lab),1
-Thursday,08:10-09:00,Section A,CS23532,Computer Networks,Lab,2,Aswana Lal,Techlounge-TLFL1 (Lab),1
-Thursday,09:00-09:50,Section A,CS23512,Fundamentals of Mobile Computing,Lecture,,Dharshini B S,A Block-A102 (Classroom),1
-Friday,08:10-09:00,Section A,CS23512,Fundamentals of Mobile Computing,Lecture,,Dharshini B S,A Block-A102 (Classroom),1
-Friday,09:00-09:50,Section A,CS23512,Fundamentals of Mobile Computing,Lecture,,Dharshini B S,A Block-A102 (Classroom),1
-Monday,10:10-11:00,Section A,CS23531,Web Programming,Lecture,,Sathiyavathi S,A Block-A102 (Classroom),1
-Tuesday,10:10-11:00,Section A,CS23531,Web Programming,Lab,1,Sathiyavathi S,Techlounge-TLFL1 (Lab),1
-Wednesday,10:10-11:00,Section A,CS23531,Web Programming,Lab,1,Sathiyavathi S,Techlounge-TLFL1 (Lab),1
-Thursday,10:10-11:00,Section A,CS23531,Web Programming,Lab,2,Sathiyavathi S,Techlounge-TLFL1 (Lab),1
-Friday,10:10-11:00,Section A,CS23531,Web Programming,Lab,2,Sathiyavathi S,Techlounge-TLFL1 (Lab),1
-Monday,11:00-11:50,Section A,CS23531,Web Programming,Lab,1,Sathiyavathi S,Techlounge-TLFL1 (Lab),1
+Monday,10:10-11:00,Section A,CS23511,Theory of Computation,Lecture,,J.A.Adlin Layola,A Block-A103 (Classroom),1
+Tuesday,12:40-13:30,Section A,CS23511,Theory of Computation,Lecture,,J.A.Adlin Layola,A Block-A209 (Classroom),1
+Friday,09:00-09:50,Section A,CS23511,Theory of Computation,Tutorial,,J.A.Adlin Layola,A Block-A210 (Classroom),1
+Friday,14:20-15:10,Section A,CS23511,Theory of Computation,Lecture,,J.A.Adlin Layola,A Block-A304 (Classroom),1
+Monday,11:00-11:50,Section A,CS23512,Fundamentals of Mobile Computing,Lecture,,Unknown,A Block-A204 (Classroom),1
+Thursday,08:10-09:00,Section A,CS23512,Fundamentals of Mobile Computing,Lecture,,Unknown,A Block-A310 (Classroom),1
+Thursday,14:20-15:10,Section A,CS23512,Fundamentals of Mobile Computing,Lecture,,Unknown,A Block-A211 (Classroom),1
+Thursday,13:30-14:20,Section A,CS23531,Web Programming,Lecture,,Kirubhakar T T,A Block-A102 (Classroom),1
+Tuesday,10:10-11:00,Section A,CS23531,Web Programming,Lab,1,Kirubhakar T T,Techlounge-TLSL1 (Lab),1
+Tuesday,11:00-11:50,Section A,CS23531,Web Programming,Lab,2,Kirubhakar T T,Techlounge-TLFR1 (Lab),1
+Wednesday,10:10-11:00,Section A,CS23531,Web Programming,Lab,1,Kirubhakar T T,Techlounge-TLFL3 (Lab),1
+Wednesday,11:00-11:50,Section A,CS23531,Web Programming,Lab,2,Kirubhakar T T,Techlounge-TLFR1 (Lab),1
+Thursday,11:00-11:50,Section A,CS23531,Web Programming,Lab,1,Kirubhakar T T,Techlounge-TLGL3 (Lab),1
+Thursday,10:10-11:00,Section A,CS23531,Web Programming,Lab,2,Kirubhakar T T,Techlounge-TLGL4 (Lab),1
+Friday,10:10-11:00,Section A,CS23531,Web Programming,Lab,1,Kirubhakar T T,Techlounge-TLFL2 (Lab),1
+Friday,11:00-11:50,Section A,CS23531,Web Programming,Lab,2,Kirubhakar T T,Techlounge-TLSL1 (Lab),1
+Monday,12:40-13:30,Section A,CS23531,Web Programming,Lab,1,Kirubhakar T T,Techlounge-TLFR1 (Lab),1
+Monday,13:30-14:20,Section A,CS23531,Web Programming,Lab,2,Kirubhakar T T,J Block-JR2 (Lab),1
+Tuesday,14:20-15:10,Section A,CS23531,Web Programming,Lab,1,Kirubhakar T T,K Block-KFR01 (Lab),1
+Tuesday,13:30-14:20,Section A,CS23531,Web Programming,Lab,2,Kirubhakar T T,Techlounge-TLGL4 (Lab),1
+Monday,09:00-09:50,Section A,CS23532,Computer Networks,Lecture,,R.Sabitha,A Block-A309 (Classroom),1
+Friday,08:10-09:00,Section A,CS23532,Computer Networks,Lecture,,R.Sabitha,A Block-A110 (Classroom),1
+Friday,13:30-14:20,Section A,CS23532,Computer Networks,Lab,1,R.Sabitha,Techlounge-TLFR2 (Lab),1
+Friday,12:40-13:30,Section A,CS23532,Computer Networks,Lab,2,R.Sabitha,Techlounge-TLFR4 (Lab),1
+Wednesday,08:10-09:00,Section A,CS23532,Computer Networks,Lab,1,R.Sabitha,Techlounge-TLGL2 (Lab),1
+Wednesday,09:00-09:50,Section A,CS23532,Computer Networks,Lab,2,R.Sabitha,Techlounge-TLFR4 (Lab),1
+Monday,08:10-09:00,Section A,CS23533,Foundations of Artificial Intelligence,Lecture,,Divya M,A Block-A104/105 (Classroom),1
+Wednesday,12:40-13:30,Section A,CS23533,Foundations of Artificial Intelligence,Lecture,,Divya M,A Block-A304 (Classroom),1
+Thursday,09:00-09:50,Section A,CS23533,Foundations of Artificial Intelligence,Lecture,,Divya M,A Block-A104/105 (Classroom),1
+Tuesday,09:00-09:50,Section A,CS23533,Foundations of Artificial Intelligence,Lab,1,Divya M,J Block-JL1 (Lab),1
+Tuesday,08:10-09:00,Section A,CS23533,Foundations of Artificial Intelligence,Lab,2,Divya M,J Block-JL3 (Lab),1
+Wednesday,13:30-14:20,Section A,CS23533,Foundations of Artificial Intelligence,Lab,1,Divya M,Techlounge-TLFL1 (Lab),1
+Wednesday,14:20-15:10,Section A,CS23533,Foundations of Artificial Intelligence,Lab,2,Divya M,Techlounge-TLFR3 (Lab),1
+Monday,11:00-11:50,Section B,CS23511,Theory of Computation,Tutorial,,S.Vinothini,A Block-A210 (Classroom),1
+Tuesday,10:10-11:00,Section B,CS23511,Theory of Computation,Lecture,,S.Vinothini,A Block-A104/105 (Classroom),1
+Tuesday,11:00-11:50,Section B,CS23511,Theory of Computation,Lecture,,S.Vinothini,A Block-A304 (Classroom),1
+Wednesday,11:00-11:50,Section B,CS23511,Theory of Computation,Lecture,,S.Vinothini,A Block-A110 (Classroom),1
+Tuesday,12:40-13:30,Section B,CS23512,Fundamentals of Mobile Computing,Lecture,,Dharshini B S,A Block-A304 (Classroom),1
+Wednesday,08:10-09:00,Section B,CS23512,Fundamentals of Mobile Computing,Lecture,,Dharshini B S,A Block-A303 (Classroom),1
+Wednesday,12:40-13:30,Section B,CS23531,Web Programming,Lecture,,Sathiyavathi S,A Block-A210 (Classroom),1
+Monday,14:20-15:10,Section B,CS23531,Web Programming,Lab,1,Sathiyavathi S,Techlounge-TLFL5 (Lab),1
+Friday,10:10-11:00,Section B,CS23531,Web Programming,Lab,2,Sathiyavathi S,Techlounge-TLFR3 (Lab),1
+Friday,08:10-09:00,Section B,CS23531,Web Programming,Lab,1,Sathiyavathi S,Techlounge-TLFR4 (Lab),1
+Friday,09:00-09:50,Section B,CS23531,Web Programming,Lab,2,Sathiyavathi S,K Block-KFR01 (Lab),1
+Wednesday,14:20-15:10,Section B,CS23531,Web Programming,Lab,1,Sathiyavathi S,J Block-JL3 (Lab),1
+Wednesday,13:30-14:20,Section B,CS23531,Web Programming,Lab,2,Sathiyavathi S,K Block-KFL01 (Lab),1
+Tuesday,09:00-09:50,Section B,CS23531,Web Programming,Lab,1,Sathiyavathi S,Techlounge-TLFR4 (Lab),1
+Tuesday,08:10-09:00,Section B,CS23531,Web Programming,Lab,2,Sathiyavathi S,J Block-JL2 (Lab),1
+Friday,12:40-13:30,Section B,CS23531,Web Programming,Lab,1,Sathiyavathi S,Techlounge-TLSL1 (Lab),1
+Monday,13:30-14:20,Section B,CS23531,Web Programming,Lab,2,Sathiyavathi S,K Block-KFL03 (Lab),1
+Thursday,13:30-14:20,Section B,CS23531,Web Programming,Lab,1,Sathiyavathi S,J Block-JR3 (Lab),1
+Thursday,14:20-15:10,Section B,CS23531,Web Programming,Lab,2,Sathiyavathi S,J Block-JR3 (Lab),1
+Monday,08:10-09:00,Section B,CS23532,Computer Networks,Lecture,,Aswana Lal,A Block-A204 (Classroom),1
+Wednesday,13:30-14:20,Section B,CS23532,Computer Networks,Lecture,,Aswana Lal,A Block-A202 (Classroom),1
+Thursday,12:40-13:30,Section B,CS23532,Computer Networks,Lecture,,Aswana Lal,A Block-A305 (Classroom),1
+Thursday,11:00-11:50,Section B,CS23532,Computer Networks,Lab,1,Aswana Lal,Techlounge-TLSL1 (Lab),1
+Thursday,10:10-11:00,Section B,CS23532,Computer Networks,Lab,2,Aswana Lal,Techlounge-TLFR3 (Lab),1
+Thursday,09:00-09:50,Section B,CS23532,Computer Networks,Lab,1,Aswana Lal,J Block-JR2 (Lab),1
+Thursday,08:10-09:00,Section B,CS23532,Computer Networks,Lab,2,Aswana Lal,Techlounge-TLGL4 (Lab),1
+Monday,10:10-11:00,Section B,CS23533,Foundations of Artificial Intelligence,Lecture,,Jaeyalakshmi M,A Block-A203 (Classroom),1
+Wednesday,09:00-09:50,Section B,CS23533,Foundations of Artificial Intelligence,Lecture,,Jaeyalakshmi M,A Block-A202 (Classroom),1
+Friday,11:00-11:50,Section B,CS23533,Foundations of Artificial Intelligence,Lecture,,Jaeyalakshmi M,A Block-A108 (Classroom),1
+Friday,13:30-14:20,Section B,CS23533,Foundations of Artificial Intelligence,Lab,1,Jaeyalakshmi M,K Block-KSL03 (Lab),1
+Friday,14:20-15:10,Section B,CS23533,Foundations of Artificial Intelligence,Lab,2,Jaeyalakshmi M,Techlounge-TLSL2 (Lab),1
+Tuesday,14:20-15:10,Section B,CS23533,Foundations of Artificial Intelligence,Lab,1,Jaeyalakshmi M,K Block-KSL03 (Lab),1
+Tuesday,13:30-14:20,Section B,CS23533,Foundations of Artificial Intelligence,Lab,2,Jaeyalakshmi M,Techlounge-TLSL1 (Lab),1
+Monday,08:10-09:00,Section C,CS23511,Theory of Computation,Tutorial,,K.Ananthajothi,A Block-A110 (Classroom),1
+Monday,09:00-09:50,Section C,CS23511,Theory of Computation,Lecture,,K.Ananthajothi,A Block-A208 (Classroom),1
+Monday,12:40-13:30,Section C,CS23511,Theory of Computation,Lecture,,K.Ananthajothi,A Block-A305 (Classroom),1
+Friday,14:20-15:10,Section C,CS23511,Theory of Computation,Lecture,,K.Ananthajothi,A Block-A203 (Classroom),1
+Monday,09:00-09:50,Section C,CS23512,Fundamentals of Mobile Computing,Lecture,,S.Ponmani,A Block-A210 (Classroom),1
+Wednesday,12:40-13:30,Section C,CS23512,Fundamentals of Mobile Computing,Lecture,,S.Ponmani,A Block-A202 (Classroom),1
+Thursday,14:20-15:10,Section C,CS23512,Fundamentals of Mobile Computing,Lecture,,S.Ponmani,A Block-A310 (Classroom),1
+Wednesday,08:10-09:00,Section C,CS23531,Web Programming,Lecture,,Jananee V,A Block-A104/105 (Classroom),1
+Friday,08:10-09:00,Section C,CS23531,Web Programming,Lab,1,Jananee V,K Block-KFR03 (Lab),1
+Wednesday,09:00-09:50,Section C,CS23531,Web Programming,Lab,2,Jananee V,J Block-JL3 (Lab),1
+Wednesday,10:10-11:00,Section C,CS23531,Web Programming,Lab,1,Jananee V,Techlounge-TLSL1 (Lab),1
+Wednesday,11:00-11:50,Section C,CS23531,Web Programming,Lab,2,Jananee V,Techlounge-TLGL2 (Lab),1
+Monday,11:00-11:50,Section C,CS23531,Web Programming,Lab,1,Jananee V,K Block-KFR03 (Lab),1
+Monday,10:10-11:00,Section C,CS23531,Web Programming,Lab,2,Jananee V,K Block-KFR03 (Lab),1
+Tuesday,12:40-13:30,Section C,CS23531,Web Programming,Lab,1,Jananee V,Techlounge-TLGL4 (Lab),1
+Tuesday,13:30-14:20,Section C,CS23531,Web Programming,Lab,2,Jananee V,Techlounge-TLGL1 (Lab),1
+Friday,11:00-11:50,Section C,CS23531,Web Programming,Lab,1,Jananee V,K Block-KFR03 (Lab),1
+Friday,10:10-11:00,Section C,CS23531,Web Programming,Lab,2,Jananee V,J Block-JL2 (Lab),1
+Thursday,10:10-11:00,Section C,CS23531,Web Programming,Lab,1,Jananee V,Techlounge-TLSL1 (Lab),1
+Thursday,11:00-11:50,Section C,CS23531,Web Programming,Lab,2,Jananee V,Techlounge-TLFL1 (Lab),1
+Wednesday,13:30-14:20,Section C,CS23532,Computer Networks,Lecture,,Farjana U,A Block-A104/105 (Classroom),1
+Friday,09:00-09:50,Section C,CS23532,Computer Networks,Lecture,,Farjana U,A Block-A309 (Classroom),1
+Friday,12:40-13:30,Section C,CS23532,Computer Networks,Lecture,,Farjana U,A Block-A103 (Classroom),1
+Thursday,12:40-13:30,Section C,CS23532,Computer Networks,Lab,1,Farjana U,Techlounge-TLFL2 (Lab),1
+Thursday,13:30-14:20,Section C,CS23532,Computer Networks,Lab,2,Farjana U,Techlounge-TLFR3 (Lab),1
+Wednesday,14:20-15:10,Section C,CS23532,Computer Networks,Lab,1,Farjana U,J Block-JL1 (Lab),1
+Tuesday,09:00-09:50,Section C,CS23532,Computer Networks,Lab,2,Farjana U,Techlounge-TLFL3 (Lab),1
+Tuesday,08:10-09:00,Section C,CS23533,Foundations of Artificial Intelligence,Lecture,,S.Vinodhkumar,A Block-A211 (Classroom),1
+Thursday,09:00-09:50,Section C,CS23533,Foundations of Artificial Intelligence,Lecture,,S.Vinodhkumar,A Block-A309 (Classroom),1
+Tuesday,11:00-11:50,Section C,CS23533,Foundations of Artificial Intelligence,Lab,1,S.Vinodhkumar,Techlounge-TLGL1 (Lab),1
+Tuesday,10:10-11:00,Section C,CS23533,Foundations of Artificial Intelligence,Lab,2,S.Vinodhkumar,K Block-KFR02 (Lab),1
+Monday,14:20-15:10,Section C,CS23533,Foundations of Artificial Intelligence,Lab,1,S.Vinodhkumar,Techlounge-TLSL1 (Lab),1
+Monday,13:30-14:20,Section C,CS23533,Foundations of Artificial Intelligence,Lab,2,S.Vinodhkumar,K Block-KSL03 (Lab),1
+Tuesday,11:00-11:50,Section D,CS23511,Theory of Computation,Lecture,,J.A.Adlin Layola,A Block-A205 (Classroom),1
+Tuesday,14:20-15:10,Section D,CS23511,Theory of Computation,Lecture,,J.A.Adlin Layola,A Block-A203 (Classroom),1
+Wednesday,11:00-11:50,Section D,CS23511,Theory of Computation,Tutorial,,J.A.Adlin Layola,A Block-A103 (Classroom),1
+Thursday,10:10-11:00,Section D,CS23511,Theory of Computation,Lecture,,J.A.Adlin Layola,A Block-A103 (Classroom),1
+Tuesday,12:40-13:30,Section D,CS23512,Fundamentals of Mobile Computing,Lecture,,P.Shanmugam,A Block-A309 (Classroom),1
+Tuesday,13:30-14:20,Section D,CS23512,Fundamentals of Mobile Computing,Lecture,,P.Shanmugam,A Block-A308 (Classroom),1
+Thursday,11:00-11:50,Section D,CS23512,Fundamentals of Mobile Computing,Lecture,,P.Shanmugam,A Block-A108 (Classroom),1
+Thursday,13:30-14:20,Section D,CS23531,Web Programming,Lecture,,Madhusudhanan S,A Block-A104/105 (Classroom),1
+Monday,13:30-14:20,Section D,CS23531,Web Programming,Lab,1,Madhusudhanan S,Techlounge-TLGL1 (Lab),1
+Monday,14:20-15:10,Section D,CS23531,Web Programming,Lab,2,Madhusudhanan S,Techlounge-TLFL1 (Lab),1
+Monday,11:00-11:50,Section D,CS23531,Web Programming,Lab,1,Madhusudhanan S,Techlounge-TLFR1 (Lab),1
+Monday,10:10-11:00,Section D,CS23531,Web Programming,Lab,2,Madhusudhanan S,Techlounge-TLSL1 (Lab),1
+Thursday,08:10-09:00,Section D,CS23531,Web Programming,Lab,1,Madhusudhanan S,J Block-JL3 (Lab),1
+Thursday,09:00-09:50,Section D,CS23531,Web Programming,Lab,2,Madhusudhanan S,Techlounge-TLSR1 (Lab),1
+Friday,12:40-13:30,Section D,CS23531,Web Programming,Lab,1,Madhusudhanan S,Techlounge-TLFL4 (Lab),1
+Friday,13:30-14:20,Section D,CS23531,Web Programming,Lab,2,Madhusudhanan S,Techlounge-TLGL4 (Lab),1
+Friday,10:10-11:00,Section D,CS23531,Web Programming,Lab,1,Madhusudhanan S,Techlounge-TLFR2 (Lab),1
+Friday,11:00-11:50,Section D,CS23531,Web Programming,Lab,2,Madhusudhanan S,J Block-JR2 (Lab),1
+Friday,14:20-15:10,Section D,CS23531,Web Programming,Lab,1,Madhusudhanan S,Techlounge-TLFR1 (Lab),1
+Wednesday,10:10-11:00,Section D,CS23531,Web Programming,Lab,2,Madhusudhanan S,Techlounge-TLGL1 (Lab),1
+Wednesday,09:00-09:50,Section D,CS23532,Computer Networks,Lecture,,Chettiyar Vani Vivekanand,A Block-A103 (Classroom),1
+Thursday,14:20-15:10,Section D,CS23532,Computer Networks,Lecture,,Chettiyar Vani Vivekanand,A Block-A104/105 (Classroom),1
+Wednesday,14:20-15:10,Section D,CS23532,Computer Networks,Lab,1,Chettiyar Vani Vivekanand,Techlounge-TLFR2 (Lab),1
+Tuesday,10:10-11:00,Section D,CS23532,Computer Networks,Lab,2,Chettiyar Vani Vivekanand,Techlounge-TLGL1 (Lab),1
+Tuesday,09:00-09:50,Section D,CS23532,Computer Networks,Lab,1,Chettiyar Vani Vivekanand,Techlounge-TLFL2 (Lab),1
+Tuesday,08:10-09:00,Section D,CS23532,Computer Networks,Lab,2,Chettiyar Vani Vivekanand,K Block-KFR03 (Lab),1
+Monday,12:40-13:30,Section D,CS23533,Foundations of Artificial Intelligence,Lecture,,Kumar P,A Block-A210 (Classroom),1
+Wednesday,12:40-13:30,Section D,CS23533,Foundations of Artificial Intelligence,Lecture,,Kumar P,A Block-A211 (Classroom),1
+Wednesday,13:30-14:20,Section D,CS23533,Foundations of Artificial Intelligence,Lecture,,Kumar P,A Block-A109 (Classroom),1
+Monday,08:10-09:00,Section D,CS23533,Foundations of Artificial Intelligence,Lab,1,Kumar P,K Block-KFL03 (Lab),1
+Monday,09:00-09:50,Section D,CS23533,Foundations of Artificial Intelligence,Lab,2,Kumar P,J Block-JL2 (Lab),1
+Friday,09:00-09:50,Section D,CS23533,Foundations of Artificial Intelligence,Lab,1,Kumar P,K Block-KFL01 (Lab),1
+Friday,08:10-09:00,Section D,CS23533,Foundations of Artificial Intelligence,Lab,2,Kumar P,Techlounge-TLGL3 (Lab),1
+Tuesday,14:20-15:10,Section E,CS23511,Theory of Computation,Lecture,,S.Vinothini,A Block-A210 (Classroom),1
+Thursday,10:10-11:00,Section E,CS23511,Theory of Computation,Lecture,,S.Vinothini,A Block-A210 (Classroom),1
+Thursday,11:00-11:50,Section E,CS23511,Theory of Computation,Tutorial,,S.Vinothini,A Block-A308 (Classroom),1
+Friday,12:40-13:30,Section E,CS23511,Theory of Computation,Lecture,,S.Vinothini,A Block-A309 (Classroom),1
+Monday,13:30-14:20,Section E,CS23512,Fundamentals of Mobile Computing,Lecture,,Chettiyar Vani Vivekanand,A Block-A211 (Classroom),1
+Tuesday,13:30-14:20,Section E,CS23512,Fundamentals of Mobile Computing,Lecture,,Chettiyar Vani Vivekanand,A Block-A211 (Classroom),1
+Wednesday,13:30-14:20,Section E,CS23512,Fundamentals of Mobile Computing,Lecture,,Chettiyar Vani Vivekanand,A Block-A211 (Classroom),1
+Thursday,12:40-13:30,Section E,CS23531,Web Programming,Lecture,,N. Duraimurugan,A Block-A210 (Classroom),1
+Wednesday,09:00-09:50,Section E,CS23531,Web Programming,Lab,1,N. Duraimurugan,Techlounge-TLFL4 (Lab),1
+Wednesday,08:10-09:00,Section E,CS23531,Web Programming,Lab,2,N. Duraimurugan,J Block-JR3 (Lab),1
+Tuesday,08:10-09:00,Section E,CS23531,Web Programming,Lab,1,N. Duraimurugan,Techlounge-TLSR1 (Lab),1
+Tuesday,09:00-09:50,Section E,CS23531,Web Programming,Lab,2,N. Duraimurugan,K Block-KFL03 (Lab),1
+Monday,09:00-09:50,Section E,CS23531,Web Programming,Lab,1,N. Duraimurugan,Techlounge-TLSR1 (Lab),1
+Monday,08:10-09:00,Section E,CS23531,Web Programming,Lab,2,N. Duraimurugan,J Block-JR2 (Lab),1
+Wednesday,10:10-11:00,Section E,CS23531,Web Programming,Lab,1,N. Duraimurugan,Techlounge-TLFR4 (Lab),1
+Wednesday,11:00-11:50,Section E,CS23531,Web Programming,Lab,2,N. Duraimurugan,Techlounge-TLFR4 (Lab),1
+Thursday,09:00-09:50,Section E,CS23531,Web Programming,Lab,1,N. Duraimurugan,K Block-KFL03 (Lab),1
+Thursday,08:10-09:00,Section E,CS23531,Web Programming,Lab,2,N. Duraimurugan,Techlounge-TLGL2 (Lab),1
+Friday,10:10-11:00,Section E,CS23531,Web Programming,Lab,1,N. Duraimurugan,J Block-JR2 (Lab),1
+Friday,11:00-11:50,Section E,CS23531,Web Programming,Lab,2,N. Duraimurugan,Techlounge-TLFR4 (Lab),1
+Monday,14:20-15:10,Section E,CS23532,Computer Networks,Lecture,,K. Anand,A Block-A308 (Classroom),1
+Tuesday,10:10-11:00,Section E,CS23532,Computer Networks,Lecture,,K. Anand,A Block-A109 (Classroom),1
+Tuesday,11:00-11:50,Section E,CS23532,Computer Networks,Lecture,,K. Anand,A Block-A104/105 (Classroom),1
+Friday,14:20-15:10,Section E,CS23532,Computer Networks,Lab,1,K. Anand,K Block-KFR02 (Lab),1
+Friday,13:30-14:20,Section E,CS23532,Computer Networks,Lab,2,K. Anand,Techlounge-TLGL1 (Lab),1
+Monday,11:00-11:50,Section E,CS23532,Computer Networks,Lab,1,K. Anand,Techlounge-TLSL1 (Lab),1
+Monday,10:10-11:00,Section E,CS23532,Computer Networks,Lab,2,K. Anand,Techlounge-TLFL2 (Lab),1
+Monday,12:40-13:30,Section E,CS23533,Foundations of Artificial Intelligence,Lecture,,Divya M,A Block-A208 (Classroom),1
+Tuesday,12:40-13:30,Section E,CS23533,Foundations of Artificial Intelligence,Lecture,,Divya M,A Block-A308 (Classroom),1
+Friday,09:00-09:50,Section E,CS23533,Foundations of Artificial Intelligence,Lab,1,Divya M,K Block-KFR03 (Lab),1
+Friday,08:10-09:00,Section E,CS23533,Foundations of Artificial Intelligence,Lab,2,Divya M,K Block-KFR02 (Lab),1
+Thursday,14:20-15:10,Section E,CS23533,Foundations of Artificial Intelligence,Lab,1,Divya M,Techlounge-TLFL1 (Lab),1
+Thursday,13:30-14:20,Section E,CS23533,Foundations of Artificial Intelligence,Lab,2,Divya M,J Block-JL3 (Lab),1
+Tuesday,13:30-14:20,Section F,CS23511,Theory of Computation,Tutorial,,K.Ananthajothi,A Block-A210 (Classroom),1
+Wednesday,10:10-11:00,Section F,CS23511,Theory of Computation,Lecture,,K.Ananthajothi,A Block-A109 (Classroom),1
+Thursday,12:40-13:30,Section F,CS23511,Theory of Computation,Lecture,,K.Ananthajothi,A Block-A205 (Classroom),1
+Friday,10:10-11:00,Section F,CS23511,Theory of Computation,Lecture,,K.Ananthajothi,A Block-A209 (Classroom),1
+Wednesday,14:20-15:10,Section F,CS23512,Fundamentals of Mobile Computing,Lecture,,Parthasarathy C,A Block-A211 (Classroom),1
+Thursday,10:10-11:00,Section F,CS23512,Fundamentals of Mobile Computing,Lecture,,Parthasarathy C,A Block-A304 (Classroom),1
+Friday,11:00-11:50,Section F,CS23512,Fundamentals of Mobile Computing,Lecture,,Parthasarathy C,A Block-A202 (Classroom),1
+Friday,12:40-13:30,Section F,CS23531,Web Programming,Lecture,,Kirubhakar T T,A Block-A104/105 (Classroom),1
+Friday,08:10-09:00,Section F,CS23531,Web Programming,Lab,1,Kirubhakar T T,Techlounge-TLFR3 (Lab),1
+Friday,09:00-09:50,Section F,CS23531,Web Programming,Lab,2,Kirubhakar T T,J Block-JL1 (Lab),1
+Monday,08:10-09:00,Section F,CS23531,Web Programming,Lab,1,Kirubhakar T T,Techlounge-TLFL2 (Lab),1
+Monday,09:00-09:50,Section F,CS23531,Web Programming,Lab,2,Kirubhakar T T,Techlounge-TLGL4 (Lab),1
+Friday,13:30-14:20,Section F,CS23531,Web Programming,Lab,1,Kirubhakar T T,K Block-KFL01 (Lab),1
+Friday,14:20-15:10,Section F,CS23531,Web Programming,Lab,2,Kirubhakar T T,K Block-KFR01 (Lab),1
+Monday,11:00-11:50,Section F,CS23531,Web Programming,Lab,1,Kirubhakar T T,J Block-JR2 (Lab),1
+Wednesday,08:10-09:00,Section F,CS23531,Web Programming,Lab,2,Kirubhakar T T,K Block-KFR01 (Lab),1
+Tuesday,09:00-09:50,Section F,CS23531,Web Programming,Lab,1,Kirubhakar T T,Techlounge-TLSL2 (Lab),1
+Tuesday,08:10-09:00,Section F,CS23531,Web Programming,Lab,2,Kirubhakar T T,K Block-KFR02 (Lab),1
+Wednesday,12:40-13:30,Section F,CS23531,Web Programming,Lab,1,Kirubhakar T T,J Block-JR3 (Lab),1
+Wednesday,13:30-14:20,Section F,CS23531,Web Programming,Lab,2,Kirubhakar T T,Techlounge-TLFR2 (Lab),1
+Monday,12:40-13:30,Section F,CS23532,Computer Networks,Lecture,,R.Sabitha,A Block-A108 (Classroom),1
+Tuesday,14:20-15:10,Section F,CS23532,Computer Networks,Lecture,,R.Sabitha,A Block-A103 (Classroom),1
+Thursday,11:00-11:50,Section F,CS23532,Computer Networks,Lecture,,R.Sabitha,A Block-A304 (Classroom),1
+Thursday,09:00-09:50,Section F,CS23532,Computer Networks,Lab,1,R.Sabitha,Techlounge-TLFL2 (Lab),1
+Thursday,08:10-09:00,Section F,CS23532,Computer Networks,Lab,2,R.Sabitha,Techlounge-TLFL5 (Lab),1
+Monday,10:10-11:00,Section F,CS23532,Computer Networks,Lab,1,R.Sabitha,J Block-JR3 (Lab),1
+Monday,11:00-11:50,Section F,CS23532,Computer Networks,Lab,2,R.Sabitha,K Block-KFL02 (Lab),1
+Monday,13:30-14:20,Section F,CS23533,Foundations of Artificial Intelligence,Lecture,,Jaeyalakshmi M,A Block-A109 (Classroom),1
+Tuesday,12:40-13:30,Section F,CS23533,Foundations of Artificial Intelligence,Lecture,,Jaeyalakshmi M,A Block-A104/105 (Classroom),1
+Wednesday,11:00-11:50,Section F,CS23533,Foundations of Artificial Intelligence,Lecture,,Jaeyalakshmi M,A Block-A311 (Classroom),1
+Thursday,14:20-15:10,Section F,CS23533,Foundations of Artificial Intelligence,Lab,1,Jaeyalakshmi M,Techlounge-TLFR2 (Lab),1
+Thursday,13:30-14:20,Section F,CS23533,Foundations of Artificial Intelligence,Lab,2,Jaeyalakshmi M,Techlounge-TLFL4 (Lab),1
+Tuesday,11:00-11:50,Section F,CS23533,Foundations of Artificial Intelligence,Lab,1,Jaeyalakshmi M,J Block-JR1 (Lab),1
+Tuesday,10:10-11:00,Section F,CS23533,Foundations of Artificial Intelligence,Lab,2,Jaeyalakshmi M,K Block-KFL01 (Lab),1
