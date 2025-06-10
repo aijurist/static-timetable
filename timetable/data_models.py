@@ -5,16 +5,17 @@ from optapy import (
 )
 from optapy.types import HardSoftScore
 from datetime import time
-from .config import TIME_SLOTS
+from .config import DAYS, THEORY_TIME_SLOTS, LAB_TIME_SLOTS, CLASS_STRENGTH, SHIFT_PATTERNS, MAX_TEACHER_HOURS, SHIFTS, LAB_BATCH_SIZE
+import random
 
 @problem_fact
 class TimeSlot:
-    def __init__(self, id, day, start_time, end_time, is_break=False, slot_index=None):
+    def __init__(self, id, day, start_time, end_time, is_lab=False, slot_index=None):
         self.id = id
         self.day = day
         self.start_time = start_time
         self.end_time = end_time
-        self.is_break = is_break
+        self.is_lab = is_lab
         self.slot_index = slot_index
 
     @property
@@ -24,30 +25,38 @@ class TimeSlot:
     @property
     def end_minutes(self):
         return self.end_time.hour * 60 + self.end_time.minute
-    
+
+    def __str__(self):
+        return f"{DAYS[self.day]} {self.start_time.strftime('%H:%M')}-{self.end_time.strftime('%H:%M')}"
+
+    @staticmethod
     def create_time_slots():
         time_slots = []
         id_counter = 0
 
+        # Create theory time slots
         for day in range(5):
-            for slot_idx, slot in enumerate(TIME_SLOTS):
-                if len(slot) == 2:
-                    start_str, end_str = slot
-                    is_break = False
-                else:
-                    start_str, end_str, is_break = slot
-
+            for slot_idx, slot in enumerate(THEORY_TIME_SLOTS):
+                start_str, end_str = slot
                 start = time(*map(int, start_str.split(':')))
                 end = time(*map(int, end_str.split(':')))
                 time_slots.append(TimeSlot(
-                    id_counter, day, start, end, is_break, slot_idx  # Add slot_index here
+                    id_counter, day, start, end, False, slot_idx
+                ))
+                id_counter += 1
+
+        # Create lab time slots
+        for day in range(5):
+            for slot_idx, slot in enumerate(LAB_TIME_SLOTS):
+                start_str, end_str = slot
+                start = time(*map(int, start_str.split(':')))
+                end = time(*map(int, end_str.split(':')))
+                time_slots.append(TimeSlot(
+                    id_counter, day, start, end, True, slot_idx
                 ))
                 id_counter += 1
 
         return time_slots
-
-    def __str__(self):
-        return f"{['Mon', 'Tue', 'Wed', 'Thu', 'Fri'][self.day]} {self.start_time.strftime('%H:%M')}-{self.end_time.strftime('%H:%M')}"
 
 @problem_fact
 class Room:
@@ -64,12 +73,42 @@ class Room:
 
 @problem_fact
 class Teacher:
-    def __init__(self, id, staff_code, first_name, last_name, email, max_hours=21):
-        self.id = id if id != "Unknown" else "Unknown"
-        self.staff_code = staff_code  # Fix typo here
+    def __init__(self, id, staff_code, first_name, last_name, email, max_hours=MAX_TEACHER_HOURS):
+        self.id = id
+        self.staff_code = staff_code
         self.full_name = f"{first_name} {last_name}".strip()
         self.email = email
         self.max_hours = max_hours
+        self.shift_pattern = random.choice(SHIFT_PATTERNS)
+        self.day_shifts = {}  # {day_index: shift_name}
+        self.assigned_courses = set()
+        self.assign_shift_pattern()
+
+    def assign_shift_pattern(self):
+        """Assign shift pattern to specific days following 2-2-1, 2-1-2, or 1-2-2 combinations"""
+        days = list(range(5))
+        random.shuffle(days)
+        
+        current_day = 0
+        for shift, count in self.shift_pattern.items():
+            for _ in range(count):
+                if current_day < len(days):
+                    self.day_shifts[days[current_day]] = shift
+                    current_day += 1
+
+    def get_shift_for_day(self, day):
+        return self.day_shifts.get(day)
+
+    def is_valid_time_for_day(self, day, start_time, end_time):
+        shift = self.get_shift_for_day(day)
+        if shift is None:
+            return False
+        shift_start, shift_end = SHIFTS[shift]
+        start_minutes = start_time.hour * 60 + start_time.minute
+        end_minutes = end_time.hour * 60 + end_time.minute
+        shift_start_minutes = shift_start.hour * 60 + shift_start.minute
+        shift_end_minutes = shift_end.hour * 60 + shift_end.minute
+        return shift_start_minutes <= start_minutes and end_minutes <= shift_end_minutes
 
     def __str__(self):
         return self.full_name
@@ -92,7 +131,7 @@ class Course:
 
 @problem_fact
 class StudentGroup:
-    def __init__(self, id, name, strength=70):
+    def __init__(self, id, name, strength=CLASS_STRENGTH):
         self.id = id
         self.name = name
         self.strength = strength
@@ -100,6 +139,7 @@ class StudentGroup:
     def __str__(self):
         return self.name
 
+# ======================== Planning Entity ========================
 @planning_entity
 class LectureAssignment:
     def __init__(self, id, course, teacher, student_group, session_type="lecture", lab_batch=None, parent_lab_id=None):
@@ -128,25 +168,26 @@ class LectureAssignment:
         self.room = new_room
 
     def duration_hours(self):
+        if self.session_type == "lab":
+            return 2  # Labs are 2 hours long
         return 1
 
     def required_capacity(self):
         if self.session_type == "lab":
-            return 35
+            if self.course.practical_hours == 6:
+                return self.student_group.strength  # Whole class for 6-hour labs
+            return LAB_BATCH_SIZE  # Batched labs
         return self.student_group.strength
 
     def is_lab(self):
         return self.session_type == "lab"
     
-    def is_lab_part(self):
-        return self.session_type == "lab" and self.parent_lab_id is not None
+    def get_lab_batch_display(self):
+        if self.session_type == "lab":
+            return f"Lab Batch {self.lab_batch}" if self.lab_batch else "Lab"
+        return ""
 
-    def is_first_lab_part(self):
-        return self.is_lab_part() and self.id % 2 == 0
-
-    def is_second_lab_part(self):
-        return self.is_lab_part() and self.id % 2 == 1
-
+# ======================== Planning Solution ========================
 @planning_solution
 class TimeTable:
     def __init__(self, lecture_assignments, timeslots, rooms, teachers, courses, student_groups, score=None):
