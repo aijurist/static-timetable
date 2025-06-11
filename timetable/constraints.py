@@ -10,101 +10,147 @@ def get_gap_between_slots(slot1, slot2):
     slot1_end = slot1.end_time.hour * 60 + slot1.end_time.minute
     slot2_start = slot2.start_time.hour * 60 + slot2.start_time.minute
     gap_minutes = slot2_start - slot1_end
-    return max(0, gap_minutes // 50)  # Assuming 50-minute slots
+    return max(0, gap_minutes // 50)  # Assuming 50-minute theory slots
 
-def teacher_conflict(constraint_factory):
-    return constraint_factory.for_each(LectureAssignment) \
+def timeslot_overlap(slot1, slot2):
+    """Return True if two TimeSlot objects overlap in time on the same day."""
+    if slot1 is None or slot2 is None or slot1.day != slot2.day:
+        return False
+    start1 = slot1.start_time.hour * 60 + slot1.start_time.minute
+    end1   = slot1.end_time.hour   * 60 + slot1.end_time.minute
+    start2 = slot2.start_time.hour * 60 + slot2.start_time.minute
+    end2   = slot2.end_time.hour   * 60 + slot2.end_time.minute
+    return (start1 < end2) and (start2 < end1)
+
+# —— Hard time‐overlap constraints ——
+
+def teacher_time_overlap(constraint_factory: ConstraintFactory):
+    return (
+        constraint_factory
+        .for_each(LectureAssignment)
         .join(
             LectureAssignment,
             [Joiners.equal(lambda a: a.teacher),
-             Joiners.equal(lambda a: a.timeslot),
              Joiners.less_than(lambda a: a.id)]
-        ) \
-        .filter(lambda a1, a2: a1.timeslot is not None and a2.timeslot is not None) \
-        .penalize("Teacher conflict", HardSoftScore.ONE_HARD)
+        )
+        .filter(lambda a1, a2:
+            a1.timeslot is not None
+            and a2.timeslot is not None
+            and timeslot_overlap(a1.timeslot, a2.timeslot)
+        )
+        .penalize("Teacher time overlap", HardSoftScore.ONE_HARD)
+    )
 
-def room_conflict(constraint_factory):
-    return constraint_factory.for_each(LectureAssignment) \
-        .join(
-            LectureAssignment,
-            [Joiners.equal(lambda a: a.room),
-             Joiners.equal(lambda a: a.timeslot),
-             Joiners.less_than(lambda a: a.id)]
-        ) \
-        .filter(lambda a1, a2: 
-               a1.room is not None and a2.room is not None and
-               a1.timeslot is not None and a2.timeslot is not None
-        ) \
-        .penalize("Room conflict", HardSoftScore.ONE_HARD)
-
-def student_group_conflict(constraint_factory):
-    return constraint_factory.for_each(LectureAssignment) \
+def student_group_time_overlap(constraint_factory: ConstraintFactory):
+    return (
+        constraint_factory
+        .for_each(LectureAssignment)
         .join(
             LectureAssignment,
             [Joiners.equal(lambda a: a.student_group),
-             Joiners.equal(lambda a: a.timeslot),
              Joiners.less_than(lambda a: a.id)]
-        ) \
-        .filter(lambda a1, a2: a1.timeslot is not None and a2.timeslot is not None) \
-        .penalize("Student group conflict", HardSoftScore.ONE_HARD)
+        )
+        .filter(lambda a1, a2:
+            a1.timeslot is not None
+            and a2.timeslot is not None
+            and timeslot_overlap(a1.timeslot, a2.timeslot)
+        )
+        .penalize("Student group time overlap", HardSoftScore.ONE_HARD)
+    )
+
+def room_time_overlap(constraint_factory: ConstraintFactory):
+    return (
+        constraint_factory
+        .for_each(LectureAssignment)
+        .join(
+            LectureAssignment,
+            [Joiners.equal(lambda a: a.room),
+             Joiners.less_than(lambda a: a.id)]
+        )
+        .filter(lambda a1, a2:
+            a1.room is not None
+            and a2.room is not None
+            and a1.timeslot is not None
+            and a2.timeslot is not None
+            and timeslot_overlap(a1.timeslot, a2.timeslot)
+        )
+        .penalize("Room time overlap", HardSoftScore.ONE_HARD)
+    )
+
+# —— All your existing constraints, unchanged —— 
 
 def teacher_max_hours(constraint_factory):
-    return constraint_factory.for_each(LectureAssignment) \
-        .filter(lambda a: a.timeslot is not None) \
+    return (
+        constraint_factory
+        .for_each(LectureAssignment)
+        .filter(lambda a: a.timeslot is not None)
         .group_by(
             lambda a: a.teacher,
             ConstraintCollectors.sum(lambda a: a.duration_hours())
-        ) \
-        .filter(lambda teacher, total_hours: total_hours > teacher.max_hours) \
+        )
+        .filter(lambda teacher, total_hours: total_hours > teacher.max_hours)
         .penalize(
             "Teacher max hours exceeded",
             HardSoftScore.ONE_HARD,
             lambda teacher, total_hours: total_hours - teacher.max_hours
         )
+    )
+
+# … (keep lab_in_lab_room, lecture_in_classroom, room_capacity, etc. exactly as before)
 
 def lab_in_lab_room(constraint_factory):
-    return constraint_factory.for_each(LectureAssignment) \
+    return (
+        constraint_factory.for_each(LectureAssignment)
         .filter(lambda a:
-               a.session_type == "lab" and 
-               a.room is not None and 
-               not a.room.is_lab
-        ) \
+            a.session_type == "lab" and 
+            a.room is not None and 
+            not a.room.is_lab
+        )
         .penalize("Lab not in lab room", HardSoftScore.ONE_HARD)
+    )
 
 def lecture_in_classroom(constraint_factory):
-    return constraint_factory.for_each(LectureAssignment) \
+    return (
+        constraint_factory.for_each(LectureAssignment)
         .filter(lambda a:
-               a.session_type != "lab" and 
-               a.room is not None and 
-               a.room.is_lab
-        ) \
+            a.session_type != "lab" and 
+            a.room is not None and 
+            a.room.is_lab
+        )
         .penalize("Lecture in lab room", HardSoftScore.ONE_HARD)
+    )
 
 def room_capacity(constraint_factory):
-    return constraint_factory.for_each(LectureAssignment) \
+    return (
+        constraint_factory.for_each(LectureAssignment)
         .filter(lambda a:
-               a.room is not None and 
-               a.required_capacity() > a.room.max_cap
-        ) \
+            a.room is not None and 
+            a.required_capacity() > a.room.max_cap
+        )
         .penalize("Room capacity exceeded", HardSoftScore.ONE_HARD)
+    )
 
 def lab_in_valid_time_block(constraint_factory):
-    return constraint_factory.for_each(LectureAssignment) \
+    return (
+        constraint_factory.for_each(LectureAssignment)
         .filter(lambda a: (
             a.session_type == "lab" and
             a.timeslot is not None and
             not a.timeslot.is_lab
-        )) \
+        ))
         .penalize("Lab not in valid time block", HardSoftScore.ONE_HARD)
+    )
 
 def lecture_in_valid_time_block(constraint_factory):
-    return constraint_factory.for_each(LectureAssignment) \
+    return (
+        constraint_factory.for_each(LectureAssignment)
         .filter(lambda a: (
             a.session_type != "lab" and
             a.timeslot is not None and
             a.timeslot.is_lab
-        )) \
+        ))
         .penalize("Lecture in lab time block", HardSoftScore.ONE_HARD)
+    )
 
 def consecutive_lab_parts(constraint_factory):
     return constraint_factory.for_each(LectureAssignment) \
@@ -268,9 +314,9 @@ def unsplit_6hr_practical_room_capacity(constraint_factory):
 def timetable_constraints(constraint_factory: ConstraintFactory):
     return [
         # Hard constraints
-        teacher_conflict(constraint_factory),
-        room_conflict(constraint_factory),
-        student_group_conflict(constraint_factory),
+        teacher_time_overlap(constraint_factory),
+        student_group_time_overlap(constraint_factory),
+        room_time_overlap(constraint_factory),
         teacher_max_hours(constraint_factory),
         lab_in_lab_room(constraint_factory),
         lecture_in_classroom(constraint_factory),
@@ -285,8 +331,8 @@ def timetable_constraints(constraint_factory: ConstraintFactory):
         teacher_shift_constraint(constraint_factory),
         no_batching_for_6hr_labs(constraint_factory),
         unsplit_6hr_practical_room_capacity(constraint_factory),
-        
+
         # Soft constraints
         minimize_teacher_gaps(constraint_factory),
-        prefer_consecutive_classes(constraint_factory)
+        prefer_consecutive_classes(constraint_factory),
     ]
