@@ -1,3 +1,4 @@
+# data_models.py
 from optapy import (
     planning_entity, planning_variable, planning_solution, problem_fact,
     planning_entity_collection_property, value_range_provider, 
@@ -5,7 +6,7 @@ from optapy import (
 )
 from optapy.types import HardSoftScore
 from datetime import time
-from .config import DAYS, THEORY_TIME_SLOTS, LAB_TIME_SLOTS, CLASS_STRENGTH, SHIFT_PATTERNS, MAX_TEACHER_HOURS, SHIFTS, LAB_BATCH_SIZE
+from .config import DAYS, THEORY_TIME_SLOTS, LAB_TIME_SLOTS, CLASS_STRENGTH, SHIFT_PATTERNS, MAX_TEACHER_HOURS, SHIFTS, LAB_BATCH_SIZE, DEPARTMENT_BLOCKS, LUNCH_BREAK_SLOTS
 import random
 
 @problem_fact
@@ -131,10 +132,19 @@ class Course:
 
 @problem_fact
 class StudentGroup:
-    def __init__(self, id, name, strength=CLASS_STRENGTH):
+    def __init__(self, id, name, department, year, strength=CLASS_STRENGTH):
         self.id = id
         self.name = name
+        self.department = department
+        self.year = year
         self.strength = strength
+        self.break_slot_index = 3 + (id % 3)  # 3,4,5 for lunch breaks
+        self.break_start_minutes = self.get_break_minutes(LUNCH_BREAK_SLOTS[self.break_slot_index - 3][0])
+        self.break_end_minutes = self.get_break_minutes(LUNCH_BREAK_SLOTS[self.break_slot_index - 3][1])
+    
+    def get_break_minutes(self, time_str):
+        hour, minute = map(int, time_str.split(':'))
+        return hour * 60 + minute
 
     def __str__(self):
         return self.name
@@ -197,7 +207,7 @@ class TimeTable:
         self.teachers = teachers
         self.courses = courses
         self.student_groups = student_groups
-        self.score = score
+        self.score = score or HardSoftScore.ZERO
 
     @planning_score(HardSoftScore)
     def get_score(self):

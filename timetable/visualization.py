@@ -804,6 +804,11 @@ def export_to_excel(solution, filename="timetable.xlsx"):
             if data:
                 df = pd.DataFrame(data)
                 df.to_excel(writer, sheet_name=f"Teacher_{teacher_name}", index=False)
+        
+        # After all sheets are written, ensure at least one sheet exists:
+        if not writer.book.sheetnames:
+            # Create a dummy sheet to avoid openpyxl error
+            writer.book.create_sheet("Sheet1")
     
     print(f"Timetable exported to {filename}")
 

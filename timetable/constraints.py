@@ -1,8 +1,10 @@
+# constraints.py
 from optapy.constraint import ConstraintFactory
 from optapy.types import Joiners, HardSoftScore
-from .data_models import LectureAssignment, Teacher
+from .data_models import LectureAssignment, Teacher, StudentGroup
 from optapy.constraint import ConstraintCollectors
 from optapy.annotations import constraint_provider
+from .config import DEPARTMENT_BLOCKS
 
 def get_gap_between_slots(slot1, slot2):
     if slot1 is None or slot2 is None or slot1.day != slot2.day:
@@ -16,10 +18,10 @@ def timeslot_overlap(slot1, slot2):
     """Return True if two TimeSlot objects overlap in time on the same day."""
     if slot1 is None or slot2 is None or slot1.day != slot2.day:
         return False
-    start1 = slot1.start_time.hour * 60 + slot1.start_time.minute
-    end1   = slot1.end_time.hour   * 60 + slot1.end_time.minute
-    start2 = slot2.start_time.hour * 60 + slot2.start_time.minute
-    end2   = slot2.end_time.hour   * 60 + slot2.end_time.minute
+    start1 = slot1.start_minutes
+    end1   = slot1.end_minutes
+    start2 = slot2.start_minutes
+    end2   = slot2.end_minutes
     return (start1 < end2) and (start2 < end1)
 
 # —— Hard time‐overlap constraints ——
@@ -77,8 +79,6 @@ def room_time_overlap(constraint_factory: ConstraintFactory):
         .penalize("Room time overlap", HardSoftScore.ONE_HARD)
     )
 
-# —— All your existing constraints, unchanged —— 
-
 def teacher_max_hours(constraint_factory):
     return (
         constraint_factory
@@ -95,8 +95,6 @@ def teacher_max_hours(constraint_factory):
             lambda teacher, total_hours: total_hours - teacher.max_hours
         )
     )
-
-# … (keep lab_in_lab_room, lecture_in_classroom, room_capacity, etc. exactly as before)
 
 def lab_in_lab_room(constraint_factory):
     return (
@@ -310,6 +308,26 @@ def unsplit_6hr_practical_room_capacity(constraint_factory):
         ) \
         .penalize("Unsplit 6hr lab not in room with capacity >= 70", HardSoftScore.ofHard(50))
 
+def student_group_break_violation(constraint_factory):
+    return constraint_factory.for_each(LectureAssignment) \
+        .filter(lambda a: a.timeslot is not None) \
+        .filter(lambda a: 
+            a.timeslot.start_minutes < a.student_group.break_end_minutes and 
+            a.timeslot.end_minutes > a.student_group.break_start_minutes
+        ) \
+        .penalize("Student group break violation", HardSoftScore.ONE_HARD)
+
+def room_block_preference(constraint_factory):
+    def get_preferred_block(dept):
+        return DEPARTMENT_BLOCKS.get(dept)
+    
+    return constraint_factory.for_each(LectureAssignment) \
+        .filter(lambda a: a.room is not None) \
+        .penalize("Room not in preferred block", HardSoftScore.ONE_SOFT,
+                  lambda a: 0 if (get_preferred_block(a.course.dept) is None or 
+                                 a.room.block == get_preferred_block(a.course.dept)) 
+                            else 1)
+
 @constraint_provider
 def timetable_constraints(constraint_factory: ConstraintFactory):
     return [
@@ -331,8 +349,10 @@ def timetable_constraints(constraint_factory: ConstraintFactory):
         teacher_shift_constraint(constraint_factory),
         no_batching_for_6hr_labs(constraint_factory),
         unsplit_6hr_practical_room_capacity(constraint_factory),
+        student_group_break_violation(constraint_factory),
 
         # Soft constraints
         minimize_teacher_gaps(constraint_factory),
         prefer_consecutive_classes(constraint_factory),
+        room_block_preference(constraint_factory),
     ]

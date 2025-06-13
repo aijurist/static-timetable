@@ -22,7 +22,7 @@ def solve_timetable(teachers_courses_csv, rooms_csv):
             .withSolutionClass(TimeTable) \
             .withEntityClasses(LectureAssignment) \
             .withConstraintProviderClass(timetable_constraints) \
-            .withTerminationSpentLimit(Duration.ofMinutes(45))
+            .withTerminationSpentLimit(Duration.ofMinutes(45)) \
             
         solver_manager = solver_manager_create(config)
         solver_job = solver_manager.solve("timetable", problem)

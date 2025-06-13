@@ -1,20 +1,21 @@
+# config.py
 from datetime import time
 
 DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
 
 # Theory time slots (11 slots)
 THEORY_TIME_SLOTS = [
-    ("8:00", "8:50"),     # Period 1
-    ("9:00", "9:50"),     # Period 2
-    ("10:00", "10:50"),   # Period 3
-    ("11:00", "11:50"),   # Period 4
-    ("12:00", "12:50"),   # Period 5
-    ("13:00", "13:50"),   # Period 6
-    ("14:00", "14:50"),   # Period 7
-    ("15:00", "15:50"),   # Period 8
-    ("16:00", "16:50"),   # Period 9
-    ("17:00", "17:50"),   # Period 10
-    ("18:00", "18:50")    # Period 11
+    ("8:00", "8:50"),     
+    ("9:00", "9:50"),     
+    ("10:00", "10:50"),   
+    ("11:00", "11:50"),   
+    ("12:00", "12:50"),   
+    ("13:00", "13:50"),   
+    ("14:00", "14:50"),   
+    ("15:00", "15:50"),   
+    ("16:00", "16:50"),   
+    ("17:00", "17:50"),   
+    ("18:00", "18:50")    
 ]
 
 # Lab time slots (12 slots with 2 continuous slots per lab)
@@ -150,3 +151,32 @@ DEPARTMENT_DATA = {
         "4": 1
     }
 }
+
+# Map departments to their preferred blocks
+DEPARTMENT_BLOCKS = {
+    "CSE": "A",
+    # "IT": "A",
+    "CSBS": "A",
+    "CSD": "A",
+    "AIML": "A",
+    # "AIDS": "A",
+    # "ECE": "B",
+    # "EEE": "B",
+    # "MECH": "C",
+    # "AUTO": "C",
+    # "AERO": "C",
+    # "MCT": "C",
+    # "CIVIL": "C",
+    # "CHEM": "B",
+    # "BT": "B",
+    # "BME": "B",
+    # "R&A": "C",
+    # "FT": "B"
+}
+
+# Lunch break time slots
+LUNCH_BREAK_SLOTS = [
+    ("11:00", "11:50"),
+    ("11:50", "12:40"),
+    ("12:40", "13:30")
+]
