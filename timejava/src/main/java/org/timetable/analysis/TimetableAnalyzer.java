@@ -34,6 +34,9 @@ public class TimetableAnalyzer {
         
         // Cross-reference analysis
         crossReferenceAnalysis();
+        
+        // Check if all departments have assignments
+        checkDepartmentAssignments();
     }
     
     /**
@@ -297,5 +300,144 @@ public class TimetableAnalyzer {
                 (studentOnlyDepts.isEmpty() ? "" : " (" + String.join(", ", studentOnlyDepts) + ")"));
         System.out.println("Departments with only teacher timetables: " + teacherOnlyDepts.size() + 
                 (teacherOnlyDepts.isEmpty() ? "" : " (" + String.join(", ", teacherOnlyDepts) + ")"));
+    }
+    
+    /**
+     * Checks if all departments have assignments.
+     */
+    private static void checkDepartmentAssignments() {
+        System.out.println("\n=== DEPARTMENT ASSIGNMENT COVERAGE ===");
+        
+        // Get all departments
+        Set<String> allDepartments = new HashSet<>();
+        
+        // Get student departments and years
+        Map<String, Set<String>> deptYears = new HashMap<>();
+        Map<String, Set<String>> deptSections = new HashMap<>();
+        
+        // Student timetable analysis
+        File studentDir = new File(STUDENT_TIMETABLES_DIR);
+        if (studentDir.exists() && studentDir.isDirectory()) {
+            File[] files = studentDir.listFiles((d, name) -> name.endsWith(".html"));
+            if (files != null) {
+                for (File file : files) {
+                    Matcher matcher = STUDENT_PATTERN.matcher(file.getName());
+                    if (matcher.find()) {
+                        String dept = matcher.group(1);
+                        String year = matcher.group(2);
+                        String section = matcher.group(3);
+                        
+                        allDepartments.add(dept);
+                        
+                        // Update year statistics
+                        deptYears.computeIfAbsent(dept, k -> new HashSet<>()).add(year);
+                        
+                        // Update section statistics
+                        deptSections.computeIfAbsent(dept, k -> new HashSet<>()).add(section);
+                    }
+                }
+            }
+        }
+        
+        // Teacher timetable analysis
+        Map<String, Integer> teachersByDept = new HashMap<>();
+        
+        File teacherDir = new File(TEACHER_TIMETABLES_DIR);
+        if (teacherDir.exists() && teacherDir.isDirectory()) {
+            File[] files = teacherDir.listFiles((d, name) -> name.endsWith(".html"));
+            if (files != null) {
+                for (File file : files) {
+                    Matcher matcher = TEACHER_PATTERN.matcher(file.getName());
+                    if (matcher.find()) {
+                        String dept = matcher.group(1);
+                        allDepartments.add(dept);
+                        teachersByDept.put(dept, teachersByDept.getOrDefault(dept, 0) + 1);
+                    }
+                }
+            }
+        }
+        
+        // Print department coverage
+        System.out.println("\nDepartment Coverage Summary:");
+        System.out.println("--------------------------");
+        System.out.printf("%-10s %-15s %-15s %-15s %-15s%n", "Dept", "Years", "Sections", "Teachers", "Status");
+        System.out.println("--------------------------------------------------------------------------");
+        
+        for (String dept : new TreeSet<>(allDepartments)) {
+            Set<String> years = deptYears.getOrDefault(dept, Collections.emptySet());
+            Set<String> sections = deptSections.getOrDefault(dept, Collections.emptySet());
+            int teachers = teachersByDept.getOrDefault(dept, 0);
+            
+            String status = "Complete";
+            if (years.isEmpty()) {
+                status = "Missing Students";
+            } else if (teachers == 0) {
+                status = "Missing Teachers";
+            }
+            
+            System.out.printf("%-10s %-15s %-15s %-15d %-15s%n", 
+                    dept, 
+                    years.isEmpty() ? "None" : String.join(", ", new TreeSet<>(years)),
+                    sections.isEmpty() ? "None" : String.join(", ", new TreeSet<>(sections)),
+                    teachers,
+                    status);
+        }
+        
+        // Check for class assignments
+        System.out.println("\nClass Assignment Check:");
+        System.out.println("----------------------");
+        
+        for (String dept : new TreeSet<>(allDepartments)) {
+            Set<String> years = deptYears.getOrDefault(dept, Collections.emptySet());
+            Set<String> sections = deptSections.getOrDefault(dept, Collections.emptySet());
+            
+            if (years.isEmpty() || sections.isEmpty()) continue;
+            
+            for (String year : new TreeSet<>(years)) {
+                for (String section : new TreeSet<>(sections)) {
+                    String filename = "timetable_" + dept + "_Y" + year + "_" + section + ".html";
+                    File file = new File(STUDENT_TIMETABLES_DIR, filename);
+                    
+                    if (file.exists()) {
+                        try {
+                            String content = new String(Files.readAllBytes(Paths.get(file.getAbsolutePath())));
+                            
+                            // Count classes by type
+                            Matcher classMatcher = CLASS_PATTERN.matcher(content);
+                            int theoryCount = 0;
+                            int labCount = 0;
+                            int tutorialCount = 0;
+                            
+                            while (classMatcher.find()) {
+                                String classType = classMatcher.group(1);
+                                if ("theory".equals(classType)) {
+                                    theoryCount++;
+                                } else if ("lab".equals(classType)) {
+                                    labCount++;
+                                } else if ("tutorial".equals(classType)) {
+                                    tutorialCount++;
+                                }
+                            }
+                            
+                            System.out.printf("%-10s Y%-5s %-5s: Theory: %-5d Lab: %-5d Tutorial: %-5d%n", 
+                                    dept, year, section, theoryCount, labCount, tutorialCount);
+                            
+                            if (theoryCount == 0 && labCount == 0 && tutorialCount == 0) {
+                                System.out.println("  WARNING: No classes assigned!");
+                            } else if (theoryCount == 0) {
+                                System.out.println("  WARNING: No theory classes assigned!");
+                            } else if (labCount == 0) {
+                                System.out.println("  WARNING: No lab classes assigned!");
+                            } else if (tutorialCount == 0) {
+                                System.out.println("  WARNING: No tutorial classes assigned!");
+                            }
+                            
+                        } catch (IOException e) {
+                            System.out.println("Error reading file: " + file.getName());
+                        }
+                    }
+                }
+            }
+        }
     }
 } 
