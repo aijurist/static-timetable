@@ -4,6 +4,7 @@ import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
 import org.timetable.domain.*;
+import org.timetable.util.DepartmentMapper;
 
 import java.io.File;
 import java.io.FileReader;
@@ -16,20 +17,118 @@ import java.util.stream.Collectors;
 
 public class TimetableDataLoader {
 
+    private static final Map<String, String> DEPARTMENT_NAMES = new HashMap<>();
+    private static final Map<String, Map<String, Integer>> DEPARTMENT_SECTIONS = new HashMap<>();
+    
+    static {
+        // Initialize department names
+        DEPARTMENT_NAMES.put("CSD", "Computer Science & Design");
+        DEPARTMENT_NAMES.put("CSE", "Computer Science & Engineering");
+        DEPARTMENT_NAMES.put("CSE-CS", "Computer Science & Engineering (Cyber Security)");
+        DEPARTMENT_NAMES.put("CSBS", "Computer Science & Business Systems");
+        DEPARTMENT_NAMES.put("IT", "Information Technology");
+        DEPARTMENT_NAMES.put("AIML", "Artificial Intelligence & Machine Learning");
+        DEPARTMENT_NAMES.put("AIDS", "Artificial Intelligence & Data Science");
+        DEPARTMENT_NAMES.put("ECE", "Electronics & Communication Engineering");
+        DEPARTMENT_NAMES.put("EEE", "Electrical & Electronics Engineering");
+        DEPARTMENT_NAMES.put("AERO", "Aeronautical Engineering");
+        DEPARTMENT_NAMES.put("AUTO", "Automobile Engineering");
+        DEPARTMENT_NAMES.put("MCT", "Mechatronics Engineering");
+        DEPARTMENT_NAMES.put("MECH", "Mechanical Engineering");
+        DEPARTMENT_NAMES.put("BT", "Biotechnology");
+        DEPARTMENT_NAMES.put("BME", "Biomedical Engineering");
+        DEPARTMENT_NAMES.put("R&A", "Robotics & Automation");
+        DEPARTMENT_NAMES.put("FT", "Fashion Technology");
+        DEPARTMENT_NAMES.put("CIVIL", "Civil Engineering");
+        DEPARTMENT_NAMES.put("CHEM", "Chemical Engineering");
+        
+        // Initialize department sections
+        Map<String, Integer> cseCs = new HashMap<>();
+        cseCs.put("2", 2); cseCs.put("3", 1);
+        DEPARTMENT_SECTIONS.put("CSE-CS", cseCs);
+        
+        Map<String, Integer> cse = new HashMap<>();
+        cse.put("2", 10); cse.put("3", 6); cse.put("4", 5);
+        DEPARTMENT_SECTIONS.put("CSE", cse);
+        
+        Map<String, Integer> csbs = new HashMap<>();
+        csbs.put("2", 2); csbs.put("3", 2); csbs.put("4", 2);
+        DEPARTMENT_SECTIONS.put("CSBS", csbs);
+        
+        Map<String, Integer> csd = new HashMap<>();
+        csd.put("2", 1); csd.put("3", 1); csd.put("4", 1);
+        DEPARTMENT_SECTIONS.put("CSD", csd);
+        
+        Map<String, Integer> it = new HashMap<>();
+        it.put("2", 5); it.put("3", 4); it.put("4", 3);
+        DEPARTMENT_SECTIONS.put("IT", it);
+        
+        Map<String, Integer> aiml = new HashMap<>();
+        aiml.put("2", 4); aiml.put("3", 3); aiml.put("4", 3);
+        DEPARTMENT_SECTIONS.put("AIML", aiml);
+        
+        Map<String, Integer> aids = new HashMap<>();
+        aids.put("2", 5); aids.put("3", 3); aids.put("4", 1);
+        DEPARTMENT_SECTIONS.put("AIDS", aids);
+        
+        Map<String, Integer> ece = new HashMap<>();
+        ece.put("2", 6); ece.put("3", 4); ece.put("4", 4);
+        DEPARTMENT_SECTIONS.put("ECE", ece);
+        
+        Map<String, Integer> eee = new HashMap<>();
+        eee.put("2", 2); eee.put("3", 2); eee.put("4", 2);
+        DEPARTMENT_SECTIONS.put("EEE", eee);
+        
+        Map<String, Integer> aero = new HashMap<>();
+        aero.put("2", 1); aero.put("3", 1); aero.put("4", 1);
+        DEPARTMENT_SECTIONS.put("AERO", aero);
+        
+        Map<String, Integer> auto = new HashMap<>();
+        auto.put("2", 1); auto.put("3", 1); auto.put("4", 1);
+        DEPARTMENT_SECTIONS.put("AUTO", auto);
+        
+        Map<String, Integer> mct = new HashMap<>();
+        mct.put("2", 1); mct.put("3", 1); mct.put("4", 1);
+        DEPARTMENT_SECTIONS.put("MCT", mct);
+        
+        Map<String, Integer> mech = new HashMap<>();
+        mech.put("2", 2); mech.put("3", 2); mech.put("4", 2);
+        DEPARTMENT_SECTIONS.put("MECH", mech);
+        
+        Map<String, Integer> bt = new HashMap<>();
+        bt.put("2", 3); bt.put("3", 3); bt.put("4", 3);
+        DEPARTMENT_SECTIONS.put("BT", bt);
+        
+        Map<String, Integer> bme = new HashMap<>();
+        bme.put("2", 2); bme.put("3", 2); bme.put("4", 2);
+        DEPARTMENT_SECTIONS.put("BME", bme);
+        
+        Map<String, Integer> ra = new HashMap<>();
+        ra.put("2", 1); ra.put("3", 1); ra.put("4", 1);
+        DEPARTMENT_SECTIONS.put("R&A", ra);
+        
+        Map<String, Integer> ft = new HashMap<>();
+        ft.put("2", 1); ft.put("3", 1); ft.put("4", 1);
+        DEPARTMENT_SECTIONS.put("FT", ft);
+        
+        Map<String, Integer> civil = new HashMap<>();
+        civil.put("2", 1); civil.put("3", 1); civil.put("4", 1);
+        DEPARTMENT_SECTIONS.put("CIVIL", civil);
+        
+        Map<String, Integer> chem = new HashMap<>();
+        chem.put("2", 1); chem.put("3", 1); chem.put("4", 1);
+        DEPARTMENT_SECTIONS.put("CHEM", chem);
+    }
+
     public static TimetableProblem loadProblem(String coursesFile, String roomsDir) {
         try {
             // Load teachers, courses, and student groups
             Map<String, Teacher> teachers = new HashMap<>();
             Map<String, Course> courses = new HashMap<>();
-            Map<String, StudentGroup> studentGroups = new HashMap<>();
+            Map<String, Department> departments = createDepartments();
+            Map<String, StudentGroup> studentGroups = createStudentGroups(departments);
             
             loadTeachersAndCourses(coursesFile, teachers, courses);
-            
-            // Create student groups A through F
-            for (char c = 'A'; c <= 'F'; c++) {
-                String id = String.valueOf(c);
-                studentGroups.put(id, new StudentGroup(id, "Section " + id, 70));
-            }
             
             // Load rooms (both classrooms and labs)
             List<Room> rooms = loadRooms(roomsDir);
@@ -53,6 +152,44 @@ public class TimetableDataLoader {
         } catch (IOException e) {
             throw new RuntimeException("Failed to load timetable data", e);
         }
+    }
+    
+    private static Map<String, Department> createDepartments() {
+        Map<String, Department> departments = new HashMap<>();
+        
+        for (Map.Entry<String, String> entry : DEPARTMENT_NAMES.entrySet()) {
+            String code = entry.getKey();
+            String name = entry.getValue();
+            departments.put(code, new Department(code, name));
+        }
+        
+        return departments;
+    }
+    
+    private static Map<String, StudentGroup> createStudentGroups(Map<String, Department> departments) {
+        Map<String, StudentGroup> studentGroups = new HashMap<>();
+        
+        for (Map.Entry<String, Map<String, Integer>> deptEntry : DEPARTMENT_SECTIONS.entrySet()) {
+            String deptCode = deptEntry.getKey();
+            Department department = departments.get(deptCode);
+            
+            if (department != null) {
+                Map<String, Integer> yearSections = deptEntry.getValue();
+                
+                for (Map.Entry<String, Integer> yearEntry : yearSections.entrySet()) {
+                    int year = Integer.parseInt(yearEntry.getKey());
+                    int sectionCount = yearEntry.getValue();
+                    
+                    for (int i = 1; i <= sectionCount; i++) {
+                        String section = String.valueOf((char)('A' + i - 1));
+                        String id = deptCode + "-" + year + section;
+                        studentGroups.put(id, new StudentGroup(id, department, year, section, 70));
+                    }
+                }
+            }
+        }
+        
+        return studentGroups;
     }
     
     private static void loadTeachersAndCourses(String filePath, 
@@ -223,33 +360,40 @@ public class TimetableDataLoader {
         List<TimeSlot> timeSlots = new ArrayList<>();
         int id = 0;
         
-        // Theory slots (1 hour each)
-        LocalTime[] theoryTimes = {
-            LocalTime.of(8, 0), LocalTime.of(9, 0), LocalTime.of(10, 0), LocalTime.of(11, 0),
-            LocalTime.of(12, 0), LocalTime.of(13, 0), LocalTime.of(14, 0), LocalTime.of(15, 0)
+        // Define days
+        DayOfWeek[] days = {
+            DayOfWeek.MONDAY, DayOfWeek.TUESDAY, DayOfWeek.WEDNESDAY, 
+            DayOfWeek.THURSDAY, DayOfWeek.FRIDAY, DayOfWeek.SATURDAY
         };
         
-        for (DayOfWeek day : new DayOfWeek[] {
-                DayOfWeek.MONDAY, DayOfWeek.TUESDAY, DayOfWeek.WEDNESDAY, 
-                DayOfWeek.THURSDAY, DayOfWeek.FRIDAY
-            }) {
-            for (LocalTime startTime : theoryTimes) {
-                LocalTime endTime = startTime.plusHours(1);
+        // Define theory time slots
+        String[][] theoryTimeSlots = {
+            {"8:00", "8:50"}, {"9:00", "9:50"}, {"10:00", "10:50"},
+            {"11:00", "11:50"}, {"12:00", "12:50"}, {"13:00", "13:50"},
+            {"14:00", "14:50"}, {"15:00", "15:50"}, {"16:00", "16:50"},
+            {"17:00", "17:50"}, {"18:00", "18:50"}
+        };
+        
+        // Define lab time slots
+        String[][] labTimeSlots = {
+            {"8:00", "9:40"}, {"9:50", "11:30"}, {"11:50", "13:30"},
+            {"13:50", "15:30"}, {"15:50", "17:30"}, {"17:50", "19:30"}
+        };
+        
+        // Create theory slots
+        for (DayOfWeek day : days) {
+            for (String[] timeSlot : theoryTimeSlots) {
+                String startTime = timeSlot[0];
+                String endTime = timeSlot[1];
                 timeSlots.add(new TimeSlot("TS" + id++, day, startTime, endTime, false));
             }
         }
         
-        // Lab slots (2 hours each)
-        LocalTime[] labTimes = {
-            LocalTime.of(8, 0), LocalTime.of(10, 0), LocalTime.of(12, 0), LocalTime.of(14, 0)
-        };
-        
-        for (DayOfWeek day : new DayOfWeek[] {
-                DayOfWeek.MONDAY, DayOfWeek.TUESDAY, DayOfWeek.WEDNESDAY, 
-                DayOfWeek.THURSDAY, DayOfWeek.FRIDAY
-            }) {
-            for (LocalTime startTime : labTimes) {
-                LocalTime endTime = startTime.plusHours(2);
+        // Create lab slots
+        for (DayOfWeek day : days) {
+            for (String[] timeSlot : labTimeSlots) {
+                String startTime = timeSlot[0];
+                String endTime = timeSlot[1];
                 timeSlots.add(new TimeSlot("TS" + id++, day, startTime, endTime, true));
             }
         }

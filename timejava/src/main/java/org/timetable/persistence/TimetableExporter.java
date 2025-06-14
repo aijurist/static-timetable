@@ -3,6 +3,7 @@ package org.timetable.persistence;
 import org.timetable.domain.Lesson;
 import org.timetable.domain.TimetableProblem;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -19,27 +20,39 @@ public class TimetableExporter {
 
     private static final DateTimeFormatter TIME_FORMATTER = DateTimeFormatter.ofPattern("HH:mm");
 
-    public static void exportTimetableToCsv(TimetableProblem solution, String outputFile) throws IOException {
-        try (FileWriter writer = new FileWriter(outputFile)) {
-            // Write header
-            writer.write("Teacher,Course,Group,Type,Pattern,Day,StartTime,EndTime,Room\n");
+    /**
+     * Export the timetable solution to a CSV file
+     */
+    public static void exportToCsv(TimetableProblem solution, String filePath) {
+        try {
+            // Create the file
+            File file = new File(filePath);
+            file.getParentFile().mkdirs();
             
-            // Write lessons
-            for (Lesson lesson : solution.getLessons()) {
-                if (lesson.getTimeSlot() != null && lesson.getRoom() != null) {
-                    writer.write(String.format("%s,%s,%s,%s,%s,%s,%s,%s,%s\n",
-                        lesson.getTeacher().getName(),
-                        lesson.getCourse().getName(),
-                        lesson.getStudentGroup().getName(),
-                        lesson.getSessionType(),
-                        lesson.getPattern(),
-                        lesson.getTimeSlot().getDay(),
-                        lesson.getTimeSlot().getStartTime().format(TIME_FORMATTER),
-                        lesson.getTimeSlot().getEndTime().format(TIME_FORMATTER),
-                        lesson.getRoom().getName()
-                    ));
+            // Write the CSV content
+            try (FileWriter writer = new FileWriter(file)) {
+                // Write header
+                writer.write("Day,Time,Room,Course,Teacher,StudentGroup,LessonType\n");
+                
+                // Write lessons
+                for (Lesson lesson : solution.getLessons()) {
+                    if (lesson.getTimeSlot() != null && lesson.getRoom() != null) {
+                        writer.write(
+                            lesson.getTimeSlot().getDay() + "," +
+                            lesson.getTimeSlot().getTimeString() + "," +
+                            lesson.getRoom().getName() + "," +
+                            lesson.getCourse().getCourseCode() + "," +
+                            lesson.getTeacher().getName() + "," +
+                            lesson.getStudentGroup() + "," +
+                            lesson.getLessonType() + "\n"
+                        );
+                    }
                 }
             }
+            
+            System.out.println("Exported " + solution.getLessons().size() + " lessons to " + filePath);
+        } catch (IOException e) {
+            System.err.println("Error exporting timetable to CSV: " + e.getMessage());
         }
     }
     

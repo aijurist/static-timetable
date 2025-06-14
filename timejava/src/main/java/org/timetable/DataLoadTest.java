@@ -47,7 +47,7 @@ public class DataLoadTest {
         
         // Print lesson statistics
         Map<String, Long> lessonsByType = problem.getLessons().stream()
-            .collect(Collectors.groupingBy(Lesson::getSessionType, Collectors.counting()));
+            .collect(Collectors.groupingBy(Lesson::getLessonType, Collectors.counting()));
         
         System.out.println("\nLesson Statistics:");
         lessonsByType.forEach((type, count) -> System.out.println("- " + type + ": " + count));
@@ -59,7 +59,7 @@ public class DataLoadTest {
         
         System.out.println("\nSample Courses:");
         problem.getCourses().stream().limit(5).forEach(course -> 
-            System.out.println("- " + course.getCode() + ": " + course.getName()));
+            System.out.println("- " + course.getCourseCode() + ": " + course.getName()));
         
         System.out.println("\nSample Rooms:");
         problem.getRooms().stream().limit(5).forEach(room -> 

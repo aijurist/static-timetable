@@ -1,9 +1,0 @@
-Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,09:00,10:00,Computer Architecture,Mr. Dr V.Murali Bhaskaran,room_number
-TUESDAY,09:00,10:00,Computer Architecture,Mr. Dr V.Murali Bhaskaran,room_number
-WEDNESDAY,09:00,10:00,Computer Architecture,Mr. Dr V.Murali Bhaskaran,room_number
-FRIDAY,08:00,09:00,Database Management Systems,Mrs. Jananee V,room_number
-MONDAY,08:00,10:00,Database Management Systems,Mrs. Jananee V,room_number
-TUESDAY,08:00,10:00,Database Management Systems,Mrs. Jananee V,room_number
-THURSDAY,10:00,11:00,Database Management Systems,Mrs. Jananee V,room_number
-THURSDAY,11:00,12:00,Database Management Systems,Mrs. Jananee V,room_number

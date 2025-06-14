@@ -4,42 +4,46 @@ import org.optaplanner.core.api.domain.entity.PlanningEntity;
 import org.optaplanner.core.api.domain.lookup.PlanningId;
 import org.optaplanner.core.api.domain.variable.PlanningVariable;
 
+import java.util.Objects;
+
+/**
+ * Represents a lesson in the timetable system.
+ */
 @PlanningEntity
 public class Lesson {
     @PlanningId
-    private String id;
+    private Long id;
+    
     private Teacher teacher;
     private Course course;
     private StudentGroup studentGroup;
-    private String sessionType; // lecture, lab, tutorial
-    private String pattern; // A1, A2, A3, TA1, TA2
-    private String labBatch;
-
-    @PlanningVariable(valueRangeProviderRefs = "timeSlotRange")
+    private String lessonType; // "lecture", "lab", "tutorial"
+    private int duration; // in hours
+    
+    @PlanningVariable(valueRangeProviderRefs = {"timeSlotRange"})
     private TimeSlot timeSlot;
-
-    @PlanningVariable(valueRangeProviderRefs = "roomRange")
+    
+    @PlanningVariable(valueRangeProviderRefs = {"roomRange"})
     private Room room;
 
     public Lesson() {
     }
 
-    public Lesson(String id, Teacher teacher, Course course, StudentGroup studentGroup, 
-                  String sessionType, String pattern, String labBatch) {
+    public Lesson(Long id, Teacher teacher, Course course, StudentGroup studentGroup, 
+                 String lessonType, int duration) {
         this.id = id;
         this.teacher = teacher;
         this.course = course;
         this.studentGroup = studentGroup;
-        this.sessionType = sessionType;
-        this.pattern = pattern;
-        this.labBatch = labBatch;
+        this.lessonType = lessonType;
+        this.duration = duration;
     }
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -67,28 +71,20 @@ public class Lesson {
         this.studentGroup = studentGroup;
     }
 
-    public String getSessionType() {
-        return sessionType;
+    public String getLessonType() {
+        return lessonType;
     }
 
-    public void setSessionType(String sessionType) {
-        this.sessionType = sessionType;
+    public void setLessonType(String lessonType) {
+        this.lessonType = lessonType;
     }
 
-    public String getPattern() {
-        return pattern;
+    public int getDuration() {
+        return duration;
     }
 
-    public void setPattern(String pattern) {
-        this.pattern = pattern;
-    }
-
-    public String getLabBatch() {
-        return labBatch;
-    }
-
-    public void setLabBatch(String labBatch) {
-        this.labBatch = labBatch;
+    public void setDuration(int duration) {
+        this.duration = duration;
     }
 
     public TimeSlot getTimeSlot() {
@@ -107,8 +103,48 @@ public class Lesson {
         this.room = room;
     }
 
+    /**
+     * Check if this lesson conflicts with another lesson.
+     */
+    public boolean conflictsWith(Lesson other) {
+        // Different time slots or rooms means no conflict
+        if (this.timeSlot == null || other.timeSlot == null || this.room == null || other.room == null) {
+            return false;
+        }
+        
+        // Same time slot and same room means conflict
+        if (this.timeSlot.equals(other.timeSlot) && this.room.equals(other.room)) {
+            return true;
+        }
+        
+        // Same time slot and same teacher means conflict
+        if (this.timeSlot.equals(other.timeSlot) && this.teacher.equals(other.teacher)) {
+            return true;
+        }
+        
+        // Same time slot and same student group means conflict
+        if (this.timeSlot.equals(other.timeSlot) && this.studentGroup.equals(other.studentGroup)) {
+            return true;
+        }
+        
+        return false;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Lesson lesson = (Lesson) o;
+        return Objects.equals(id, lesson.id);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
+    }
+
     @Override
     public String toString() {
-        return course + " by " + teacher + " for " + studentGroup + " (" + sessionType + ")";
+        return course + " - " + lessonType + " - " + studentGroup;
     }
 } 

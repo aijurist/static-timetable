@@ -19,10 +19,23 @@ rm -f lib/*.jar
 # Download OptaPlanner Core and its dependencies
 echo "Downloading OptaPlanner Core and dependencies..."
 curl -L -f -o lib/optaplanner-core-${OPTAPLANNER_VERSION}.jar ${MAVEN_REPO}/org/optaplanner/optaplanner-core/${OPTAPLANNER_VERSION}/optaplanner-core-${OPTAPLANNER_VERSION}.jar
+curl -L -f -o lib/optaplanner-constraint-streams-${OPTAPLANNER_VERSION}.jar ${MAVEN_REPO}/org/optaplanner/optaplanner-constraint-streams/${OPTAPLANNER_VERSION}/optaplanner-constraint-streams-${OPTAPLANNER_VERSION}.jar
+curl -L -f -o lib/optaplanner-constraint-streams-common-${OPTAPLANNER_VERSION}.jar ${MAVEN_REPO}/org/optaplanner/optaplanner-constraint-streams-common/${OPTAPLANNER_VERSION}/optaplanner-constraint-streams-common-${OPTAPLANNER_VERSION}.jar
+curl -L -f -o lib/optaplanner-constraint-streams-drools-${OPTAPLANNER_VERSION}.jar ${MAVEN_REPO}/org/optaplanner/optaplanner-constraint-streams-drools/${OPTAPLANNER_VERSION}/optaplanner-constraint-streams-drools-${OPTAPLANNER_VERSION}.jar
+curl -L -f -o lib/optaplanner-persistence-common-${OPTAPLANNER_VERSION}.jar ${MAVEN_REPO}/org/optaplanner/optaplanner-persistence-common/${OPTAPLANNER_VERSION}/optaplanner-persistence-common-${OPTAPLANNER_VERSION}.jar
+curl -L -f -o lib/optaplanner-persistence-jackson-${OPTAPLANNER_VERSION}.jar ${MAVEN_REPO}/org/optaplanner/optaplanner-persistence-jackson/${OPTAPLANNER_VERSION}/optaplanner-persistence-jackson-${OPTAPLANNER_VERSION}.jar
+curl -L -f -o lib/optaplanner-persistence-jaxb-${OPTAPLANNER_VERSION}.jar ${MAVEN_REPO}/org/optaplanner/optaplanner-persistence-jaxb/${OPTAPLANNER_VERSION}/optaplanner-persistence-jaxb-${OPTAPLANNER_VERSION}.jar
+curl -L -f -o lib/optaplanner-persistence-jsonb-${OPTAPLANNER_VERSION}.jar ${MAVEN_REPO}/org/optaplanner/optaplanner-persistence-jsonb/${OPTAPLANNER_VERSION}/optaplanner-persistence-jsonb-${OPTAPLANNER_VERSION}.jar
+curl -L -f -o lib/optaplanner-persistence-xstream-${OPTAPLANNER_VERSION}.jar ${MAVEN_REPO}/org/optaplanner/optaplanner-persistence-xstream/${OPTAPLANNER_VERSION}/optaplanner-persistence-xstream-${OPTAPLANNER_VERSION}.jar
+
+# Download KIE dependencies
+echo "Downloading KIE dependencies..."
 curl -L -f -o lib/kie-api-7.53.0.Final.jar ${MAVEN_REPO}/org/kie/kie-api/7.53.0.Final/kie-api-7.53.0.Final.jar
 curl -L -f -o lib/kie-internal-7.53.0.Final.jar ${MAVEN_REPO}/org/kie/kie-internal/7.53.0.Final/kie-internal-7.53.0.Final.jar
 curl -L -f -o lib/drools-core-7.53.0.Final.jar ${MAVEN_REPO}/org/drools/drools-core/7.53.0.Final/drools-core-7.53.0.Final.jar
 curl -L -f -o lib/drools-compiler-7.53.0.Final.jar ${MAVEN_REPO}/org/drools/drools-compiler/7.53.0.Final/drools-compiler-7.53.0.Final.jar
+curl -L -f -o lib/drools-canonical-model-7.53.0.Final.jar ${MAVEN_REPO}/org/drools/drools-canonical-model/7.53.0.Final/drools-canonical-model-7.53.0.Final.jar
+curl -L -f -o lib/drools-model-compiler-7.53.0.Final.jar ${MAVEN_REPO}/org/drools/drools-model-compiler/7.53.0.Final/drools-model-compiler-7.53.0.Final.jar
 
 # Download Micrometer
 echo "Downloading Micrometer..."
@@ -44,6 +57,7 @@ curl -L -f -o lib/commons-csv-${COMMONS_CSV_VERSION}.jar ${MAVEN_REPO}/org/apach
 echo "Downloading additional dependencies..."
 curl -L -f -o lib/commons-math3-3.6.1.jar ${MAVEN_REPO}/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar
 curl -L -f -o lib/commons-lang3-3.12.0.jar ${MAVEN_REPO}/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+curl -L -f -o lib/javax.xml.bind-api-2.3.1.jar ${MAVEN_REPO}/javax/xml/bind/javax.xml.bind-api/2.3.1/javax.xml.bind-api-2.3.1.jar
 
 # Verify downloads
 echo "Verifying downloads..."

@@ -2,29 +2,37 @@ package org.timetable.domain;
 
 import org.optaplanner.core.api.domain.lookup.PlanningId;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Objects;
+import java.util.Set;
 
+/**
+ * Represents a teacher in the timetable system.
+ */
 public class Teacher {
     @PlanningId
     private String id;
     private String name;
-    private String email;
-    private int maxHours;
-    private int teachingLoad;
-    private List<Course> assignedCourses;
+    private String department;
+    private int maxHoursPerWeek;
+    private Set<TimeSlot> unavailableTimeSlots;
 
     public Teacher() {
-        this.assignedCourses = new ArrayList<>();
+        this.unavailableTimeSlots = new HashSet<>();
     }
 
-    public Teacher(String id, String name, String email, int maxHours) {
+    public Teacher(String id, String name) {
         this.id = id;
         this.name = name;
-        this.email = email;
-        this.maxHours = maxHours;
-        this.teachingLoad = 0;
-        this.assignedCourses = new ArrayList<>();
+        this.unavailableTimeSlots = new HashSet<>();
+    }
+
+    public Teacher(String id, String name, String department, int maxHoursPerWeek) {
+        this.id = id;
+        this.name = name;
+        this.department = department;
+        this.maxHoursPerWeek = maxHoursPerWeek;
+        this.unavailableTimeSlots = new HashSet<>();
     }
 
     public String getId() {
@@ -43,43 +51,55 @@ public class Teacher {
         this.name = name;
     }
 
-    public String getEmail() {
-        return email;
+    public String getDepartment() {
+        return department;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setDepartment(String department) {
+        this.department = department;
     }
 
-    public int getMaxHours() {
-        return maxHours;
+    public int getMaxHoursPerWeek() {
+        return maxHoursPerWeek;
     }
 
-    public void setMaxHours(int maxHours) {
-        this.maxHours = maxHours;
+    public void setMaxHoursPerWeek(int maxHoursPerWeek) {
+        this.maxHoursPerWeek = maxHoursPerWeek;
     }
 
-    public int getTeachingLoad() {
-        return teachingLoad;
+    public Set<TimeSlot> getUnavailableTimeSlots() {
+        return unavailableTimeSlots;
     }
 
-    public void setTeachingLoad(int teachingLoad) {
-        this.teachingLoad = teachingLoad;
+    public void setUnavailableTimeSlots(Set<TimeSlot> unavailableTimeSlots) {
+        this.unavailableTimeSlots = unavailableTimeSlots;
     }
 
-    public List<Course> getAssignedCourses() {
-        return assignedCourses;
+    /**
+     * Add a time slot to the list of unavailable time slots.
+     */
+    public void addUnavailableTimeSlot(TimeSlot timeSlot) {
+        this.unavailableTimeSlots.add(timeSlot);
     }
 
-    public void setAssignedCourses(List<Course> assignedCourses) {
-        this.assignedCourses = assignedCourses;
+    /**
+     * Check if the teacher is available at the given time slot.
+     */
+    public boolean isAvailable(TimeSlot timeSlot) {
+        return !unavailableTimeSlots.contains(timeSlot);
     }
 
-    public void addCourse(Course course) {
-        if (!assignedCourses.contains(course)) {
-            assignedCourses.add(course);
-            teachingLoad++;
-        }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Teacher teacher = (Teacher) o;
+        return Objects.equals(id, teacher.id);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
     }
 
     @Override
