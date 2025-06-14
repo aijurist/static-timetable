@@ -8,13 +8,14 @@ from datetime import time
 from .config import DAYS, THEORY_TIME_SLOTS, LAB_TIME_SLOTS, CLASS_STRENGTH, SHIFT_PATTERNS, MAX_TEACHER_HOURS, SHIFTS, LAB_BATCH_SIZE
 import random
 
+
 @problem_fact
 class TimeSlot:
     def __init__(self, id, day, start_time, end_time, is_lab=False, slot_index=None):
         self.id = id
         self.day = day
-        self.start_time = start_time
-        self.end_time = end_time
+        self.start_time = start_time  # Should be datetime.time objects
+        self.end_time = end_time      # Should be datetime.time objects
         self.is_lab = is_lab
         self.slot_index = slot_index
 
@@ -35,9 +36,8 @@ class TimeSlot:
         id_counter = 0
 
         # Create theory time slots
-        for day in range(5):
-            for slot_idx, slot in enumerate(THEORY_TIME_SLOTS):
-                start_str, end_str = slot
+        for day in range(len(DAYS)):
+            for slot_idx, (start_str, end_str) in enumerate(THEORY_TIME_SLOTS):
                 start = time(*map(int, start_str.split(':')))
                 end = time(*map(int, end_str.split(':')))
                 time_slots.append(TimeSlot(
@@ -46,9 +46,8 @@ class TimeSlot:
                 id_counter += 1
 
         # Create lab time slots
-        for day in range(5):
-            for slot_idx, slot in enumerate(LAB_TIME_SLOTS):
-                start_str, end_str = slot
+        for day in range(len(DAYS)):
+            for slot_idx, (start_str, end_str) in enumerate(LAB_TIME_SLOTS):
                 start = time(*map(int, start_str.split(':')))
                 end = time(*map(int, end_str.split(':')))
                 time_slots.append(TimeSlot(
@@ -57,7 +56,7 @@ class TimeSlot:
                 id_counter += 1
 
         return time_slots
-
+    
 @problem_fact
 class Room:
     def __init__(self, id, room_number, block, is_lab, min_cap, max_cap):

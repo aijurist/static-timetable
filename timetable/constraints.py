@@ -3,6 +3,8 @@ from optapy.types import Joiners, HardSoftScore
 from .data_models import LectureAssignment, Teacher
 from optapy.constraint import ConstraintCollectors
 from optapy.annotations import constraint_provider
+from datetime import time
+from .config import DEPARTMENT_BLOCKS
 
 def get_gap_between_slots(slot1, slot2):
     if slot1 is None or slot2 is None or slot1.day != slot2.day:
@@ -11,6 +13,30 @@ def get_gap_between_slots(slot1, slot2):
     slot2_start = slot2.start_time.hour * 60 + slot2.start_time.minute
     gap_minutes = slot2_start - slot1_end
     return max(0, gap_minutes // 50)  # Assuming 50-minute theory slots
+
+# Block preference constraint
+def prefer_department_block_room(constraint_factory):
+    return constraint_factory.for_each(LectureAssignment) \
+        .filter(lambda a: a.room is not None) \
+        .filter(lambda a: a.course.dept in DEPARTMENT_BLOCKS) \
+        .penalize_if_exists(
+            lambda a: DEPARTMENT_BLOCKS[a.course.dept] != a.room.block,
+            "Department not in preferred block",
+            HardSoftScore.ONE_SOFT
+        )
+
+# Lunch break constraint
+def avoid_lunch_break_classes(constraint_factory):
+    lunch_start = time(11, 50)
+    lunch_end = time(13, 10)
+    
+    return constraint_factory.for_each(LectureAssignment) \
+        .filter(lambda a: a.timeslot is not None) \
+        .filter(lambda a: 
+            (a.timeslot.start_time < lunch_end and a.timeslot.end_time > lunch_start) and
+            not a.timeslot.is_lab  # Labs can span lunch
+        ) \
+        .penalize("Class scheduled during lunch break", HardSoftScore.ONE_HARD)
 
 def timeslot_overlap(slot1, slot2):
     """Return True if two TimeSlot objects overlap in time on the same day."""
@@ -335,4 +361,5 @@ def timetable_constraints(constraint_factory: ConstraintFactory):
         # Soft constraints
         minimize_teacher_gaps(constraint_factory),
         prefer_consecutive_classes(constraint_factory),
+        # prefer_department_block_room(constraint_factory),
     ]

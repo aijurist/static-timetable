@@ -1,0 +1,508 @@
+2025-06-14 13:22:14,147 - INFO - ============================================================
+2025-06-14 13:22:14,147 - INFO - TIMETABLE OPTIMIZATION SYSTEM (using Google OR-Tools)
+2025-06-14 13:22:14,147 - INFO - ============================================================
+2025-06-14 13:22:14,148 - INFO - Courses file: data/courses/cse_dept_red.csv
+2025-06-14 13:22:14,148 - INFO - Time limit: 5 minutes
+2025-06-14 13:22:14,149 - INFO - Starting timetable optimization...
+2025-06-14 13:22:14,149 - ERROR - A fatal error occurred: solve_timetable() got an unexpected keyword argument 'time_limit_minutes'
+Traceback (most recent call last):
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\run.py", line 36, in main
+    solution = solve_timetable(courses_csv, time_limit_minutes=time_limit_minutes)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: solve_timetable() got an unexpected keyword argument 'time_limit_minutes'
+2025-06-14 13:56:32,626 - INFO - ============================================================
+2025-06-14 13:56:32,627 - INFO - TIMETABLE OPTIMIZATION SYSTEM
+2025-06-14 13:56:32,627 - INFO - ============================================================
+2025-06-14 13:56:32,627 - INFO - Courses file: data/courses/cse_dept_red.csv
+2025-06-14 13:56:32,627 - INFO - Starting timetable optimization...
+2025-06-14 13:56:32,628 - INFO - Loading data...
+2025-06-14 13:56:32,832 - INFO - Creating assignments...
+2025-06-14 13:56:32,891 - INFO - Created 999 assignments
+2025-06-14 13:56:32,891 - INFO - Available rooms: 88
+2025-06-14 13:56:32,891 - INFO - Available time slots: 85
+2025-06-14 13:56:52,839 - INFO - ============================================================
+2025-06-14 13:56:52,839 - INFO - TIMETABLE OPTIMIZATION SYSTEM
+2025-06-14 13:56:52,839 - INFO - ============================================================
+2025-06-14 13:56:52,839 - INFO - Courses file: data/courses/cse_dept_red.csv
+2025-06-14 13:56:52,840 - INFO - Starting timetable optimization...
+2025-06-14 13:56:52,840 - INFO - Loading data...
+2025-06-14 13:56:52,937 - INFO - Creating assignments...
+2025-06-14 13:56:52,977 - INFO - Created 999 assignments
+2025-06-14 13:56:52,978 - INFO - Available rooms: 88
+2025-06-14 13:56:52,978 - INFO - Available time slots: 85
+2025-06-14 14:06:26,206 - INFO - ============================================================
+2025-06-14 14:06:26,207 - INFO - TIMETABLE OPTIMIZATION SYSTEM
+2025-06-14 14:06:26,207 - INFO - ============================================================
+2025-06-14 14:06:26,207 - INFO - Courses file: data/courses/cse_dept_red.csv
+2025-06-14 14:06:26,207 - INFO - Starting timetable optimization...
+2025-06-14 14:06:26,208 - INFO - Loading data...
+2025-06-14 14:06:26,322 - INFO - Creating assignments...
+2025-06-14 14:06:26,355 - INFO - Created 999 assignments
+2025-06-14 14:06:26,357 - INFO - Available rooms: 88
+2025-06-14 14:06:26,357 - INFO - Available time slots: 85
+2025-06-14 14:06:26,460 - ERROR - Error during optimization: 
+2025-06-14 14:06:26,465 - ERROR - Traceback (most recent call last):
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\timetable\solver.py", line 40, in solve_timetable
+    solver = solver_factory_create(solver_config).buildSolver()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\.venv\Lib\site-packages\optapy\optaplanner_api_wrappers.py", line 364, in solver_factory_create
+    return SolverFactory.create(solver_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\.venv\Lib\site-packages\optapy\annotations.py", line 669, in wrapped_constraint_provider
+    out = function(constraint_stream.PythonConstraintFactory(constraint_factory,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\timetable\constraints.py", line 334, in timetable_constraints
+    teacher_time_overlap(constraint_factory),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\timetable\constraints.py", line 43, in teacher_time_overlap
+    .penalize_configurable("Teacher time overlap", HardSoftScore.ONE_HARD)
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\.venv\Lib\site-packages\optapy\constraint_stream.py", line 1544, in penalize_configurable
+    raise NotImplementedError
+NotImplementedError
+
+2025-06-14 14:06:26,465 - ERROR - Optimization failed.
+2025-06-14 14:07:20,165 - INFO - ============================================================
+2025-06-14 14:07:20,166 - INFO - TIMETABLE OPTIMIZATION SYSTEM
+2025-06-14 14:07:20,166 - INFO - ============================================================
+2025-06-14 14:07:20,166 - INFO - Courses file: data/courses/cse_dept_red.csv
+2025-06-14 14:07:20,167 - INFO - Starting timetable optimization...
+2025-06-14 14:07:20,167 - INFO - Loading data...
+2025-06-14 14:07:20,255 - INFO - Creating assignments...
+2025-06-14 14:07:20,290 - INFO - Created 999 assignments
+2025-06-14 14:07:20,290 - INFO - Available rooms: 88
+2025-06-14 14:07:20,291 - INFO - Available time slots: 85
+2025-06-14 14:07:20,674 - ERROR - Error during optimization: name 'constconstraint_factory' is not defined
+2025-06-14 14:07:20,679 - ERROR - Traceback (most recent call last):
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\timetable\solver.py", line 40, in solve_timetable
+    solver = solver_factory_create(solver_config).buildSolver()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\.venv\Lib\site-packages\optapy\optaplanner_api_wrappers.py", line 364, in solver_factory_create
+    return SolverFactory.create(solver_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\.venv\Lib\site-packages\optapy\annotations.py", line 669, in wrapped_constraint_provider
+    out = function(constraint_stream.PythonConstraintFactory(constraint_factory,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\timetable\constraints.py", line 336, in timetable_constraints
+    lab_in_valid_time_block(constconstraint_factory),
+                            ^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'constconstraint_factory' is not defined
+
+2025-06-14 14:07:20,683 - ERROR - Optimization failed.
+2025-06-14 14:07:37,460 - INFO - ============================================================
+2025-06-14 14:07:37,460 - INFO - TIMETABLE OPTIMIZATION SYSTEM
+2025-06-14 14:07:37,461 - INFO - ============================================================
+2025-06-14 14:07:37,461 - INFO - Courses file: data/courses/cse_dept_red.csv
+2025-06-14 14:07:37,461 - INFO - Starting timetable optimization...
+2025-06-14 14:07:37,461 - INFO - Loading data...
+2025-06-14 14:07:37,559 - INFO - Creating assignments...
+2025-06-14 14:07:37,594 - INFO - Created 999 assignments
+2025-06-14 14:07:37,595 - INFO - Available rooms: 88
+2025-06-14 14:07:37,595 - INFO - Available time slots: 85
+2025-06-14 14:07:37,991 - ERROR - Error during optimization: 
+2025-06-14 14:07:37,995 - ERROR - Traceback (most recent call last):
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\timetable\solver.py", line 40, in solve_timetable
+    solver = solver_factory_create(solver_config).buildSolver()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\.venv\Lib\site-packages\optapy\optaplanner_api_wrappers.py", line 364, in solver_factory_create
+    return SolverFactory.create(solver_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\.venv\Lib\site-packages\optapy\annotations.py", line 669, in wrapped_constraint_provider
+    out = function(constraint_stream.PythonConstraintFactory(constraint_factory,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\timetable\constraints.py", line 342, in timetable_constraints
+    enforce_practical_hours(constraint_factory),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\timetable\constraints.py", line 221, in enforce_practical_hours
+    .penalize_configurable(
+     ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\.venv\Lib\site-packages\optapy\constraint_stream.py", line 1544, in penalize_configurable
+    raise NotImplementedError
+NotImplementedError
+
+2025-06-14 14:07:37,998 - ERROR - Optimization failed.
+2025-06-14 14:08:13,331 - INFO - ============================================================
+2025-06-14 14:08:13,332 - INFO - TIMETABLE OPTIMIZATION SYSTEM
+2025-06-14 14:08:13,332 - INFO - ============================================================
+2025-06-14 14:08:13,332 - INFO - Courses file: data/courses/cse_dept_red.csv
+2025-06-14 14:08:13,332 - INFO - Starting timetable optimization...
+2025-06-14 14:08:13,333 - INFO - Loading data...
+2025-06-14 14:08:13,440 - INFO - Creating assignments...
+2025-06-14 14:08:13,469 - INFO - Created 999 assignments
+2025-06-14 14:08:13,469 - INFO - Available rooms: 88
+2025-06-14 14:08:13,469 - INFO - Available time slots: 85
+2025-06-14 14:08:13,470 - ERROR - Error during optimization: name 'solver_config_loader' is not defined
+2025-06-14 14:08:13,470 - ERROR - Traceback (most recent call last):
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\timetable\solver.py", line 41, in solve_timetable
+    solver_config = solver_config_loader().from_xml_resource("timetable/solver_config.xml")
+                    ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'solver_config_loader' is not defined
+
+2025-06-14 14:08:13,471 - ERROR - Optimization failed.
+2025-06-14 14:08:35,963 - INFO - ============================================================
+2025-06-14 14:08:35,963 - INFO - TIMETABLE OPTIMIZATION SYSTEM
+2025-06-14 14:08:35,963 - INFO - ============================================================
+2025-06-14 14:08:35,963 - INFO - Courses file: data/courses/cse_dept_red.csv
+2025-06-14 14:08:35,963 - INFO - Starting timetable optimization...
+2025-06-14 14:08:35,964 - INFO - Loading data...
+2025-06-14 14:08:36,045 - INFO - Creating assignments...
+2025-06-14 14:08:36,070 - INFO - Created 999 assignments
+2025-06-14 14:08:36,070 - INFO - Available rooms: 88
+2025-06-14 14:08:36,070 - INFO - Available time slots: 85
+2025-06-14 14:27:18,562 - INFO - ============================================================
+2025-06-14 14:27:18,563 - INFO - TIMETABLE OPTIMIZATION SYSTEM
+2025-06-14 14:27:18,564 - INFO - ============================================================
+2025-06-14 14:27:18,564 - INFO - Courses file: data/courses/cse_dept_red.csv
+2025-06-14 14:27:18,564 - INFO - Starting timetable optimization...
+2025-06-14 14:27:18,565 - INFO - Loading data...
+2025-06-14 14:27:18,643 - INFO - Creating assignments...
+2025-06-14 14:27:18,688 - INFO - Created 999 assignments
+2025-06-14 14:27:18,688 - INFO - Available rooms: 88
+2025-06-14 14:27:18,689 - INFO - Available time slots: 85
+2025-06-14 14:28:22,142 - ERROR - Error during optimization: org.drools.modelcompiler.constraints.ConstraintEvaluationException: Error evaluating constraint '' in  and in more rules
+2025-06-14 14:28:22,144 - ERROR - Traceback (most recent call last):
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\timetable\solver.py", line 40, in solve_timetable
+    solution = solver.solve(problem)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\.venv\Lib\site-packages\optapy\optaplanner_api_wrappers.py", line 419, in solve
+    return _unwrap_java_object(self._java_solve(wrapped_problem))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: org.drools.modelcompiler.constraints.ConstraintEvaluationException: Error evaluating constraint '' in  and in more rules
+
+2025-06-14 14:28:29,782 - INFO - ============================================================
+2025-06-14 14:28:29,782 - INFO - TIMETABLE OPTIMIZATION SYSTEM
+2025-06-14 14:28:29,783 - INFO - ============================================================
+2025-06-14 14:28:29,783 - INFO - Courses file: data/courses/cse_dept_red.csv
+2025-06-14 14:28:29,783 - INFO - Starting timetable optimization...
+2025-06-14 14:28:29,784 - INFO - Loading data...
+2025-06-14 14:28:29,912 - INFO - Creating assignments...
+2025-06-14 14:28:29,945 - INFO - Created 999 assignments
+2025-06-14 14:28:29,945 - INFO - Available rooms: 88
+2025-06-14 14:28:29,946 - INFO - Available time slots: 85
+2025-06-14 14:28:33,160 - ERROR - Error during optimization: An error occurred during solving. This can occur when functions take the wrong number of parameters (ex: a setter that does not take exactly one parameter) or by a function returning an incompatible return type (ex: returning a str in a filter, which expects a bool). This can also occur when an exception is raised when evaluating constraints/getters/setters.
+2025-06-14 14:28:33,166 - ERROR - org.optaplanner.jpyinterpreter.types.errors.org.optaplanner.jpyinterpreter.types.errors.AttributeError: org.optaplanner.jpyinterpreter.types.errors.AttributeError: object '<class org.jpyinterpreter.user.timetable.data_models.Room$$2>' does not have attribute '__bool__'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "DefaultSolver.java", line 193, in org.optaplanner.core.impl.solver.DefaultSolver.solve
+java.lang.java.lang.RuntimeException: java.lang.RuntimeException: org.optaplanner.jpyinterpreter.types.errors.AttributeError: object '<class org.jpyinterpreter.user.timetable.data_models.Room$$2>' does not have attribute '__bool__'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "DefaultSolver.java", line 193, in org.optaplanner.core.impl.solver.DefaultSolver.solve
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\.venv\Lib\site-packages\optapy\optaplanner_api_wrappers.py", line 419, in solve
+    return _unwrap_java_object(self._java_solve(wrapped_problem))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+org.drools.modelcompiler.constraints.org.drools.modelcompiler.constraints.ConstraintEvaluationException: org.drools.modelcompiler.constraints.ConstraintEvaluationException: Error evaluating constraint '' in  and in more rules
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\timetable\solver.py", line 40, in solve_timetable
+    solution = solver.solve(problem)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\.venv\Lib\site-packages\optapy\optaplanner_api_wrappers.py", line 426, in solve
+    raise RuntimeError(error_message) from e
+RuntimeError: An error occurred during solving. This can occur when functions take the wrong number of parameters (ex: a setter that does not take exactly one parameter) or by a function returning an incompatible return type (ex: returning a str in a filter, which expects a bool). This can also occur when an exception is raised when evaluating constraints/getters/setters.
+
+2025-06-14 14:28:33,168 - ERROR - Optimization failed.
+2025-06-14 14:43:56,116 - INFO - ============================================================
+2025-06-14 14:43:56,118 - INFO - TIMETABLE OPTIMIZATION SYSTEM
+2025-06-14 14:43:56,118 - INFO - ============================================================
+2025-06-14 14:43:56,118 - INFO - Courses file: data/courses/cse_dept_red.csv
+2025-06-14 14:43:56,118 - INFO - Starting timetable optimization...
+2025-06-14 14:43:56,119 - INFO - 📥 Loading data...
+2025-06-14 14:43:56,201 - ERROR - 💥 Exception during solving:
+Traceback (most recent call last):
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\timetable\solver.py", line 17, in solve_timetable
+    time_slots = TimeSlot.create_time_slots()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\timetable\data_models.py", line 45, in create_time_slots
+    start = time.fromisoformat(start_str)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Invalid isoformat string: '8:00'
+2025-06-14 14:43:56,202 - ERROR - Optimization failed.
+2025-06-14 14:45:10,927 - INFO - ============================================================
+2025-06-14 14:45:10,927 - INFO - TIMETABLE OPTIMIZATION SYSTEM
+2025-06-14 14:45:10,928 - INFO - ============================================================
+2025-06-14 14:45:10,928 - INFO - Courses file: data/courses/cse_dept_red.csv
+2025-06-14 14:45:10,928 - INFO - Starting timetable optimization...
+2025-06-14 14:45:10,928 - INFO - 📥 Loading data...
+2025-06-14 14:45:10,966 - INFO - 🧱 Creating lecture assignments...
+2025-06-14 14:45:11,003 - INFO - 📊 Total Assignments: 999 | Rooms: 88 | TimeSlots: 85
+2025-06-14 14:45:11,003 - INFO - ⚙️ Building solver configuration...
+2025-06-14 14:45:11,004 - ERROR - 💥 Exception during solving:
+Traceback (most recent call last):
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\timetable\solver.py", line 41, in solve_timetable
+    .withTerminationBestScoreLimit('0hard/0soft') \
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'org.optaplanner.core.config.solver.SolverConfig' object has no attribute 'withTerminationBestScoreLimit'
+2025-06-14 14:45:11,005 - ERROR - Optimization failed.
+2025-06-14 14:45:24,754 - INFO - ============================================================
+2025-06-14 14:45:24,754 - INFO - TIMETABLE OPTIMIZATION SYSTEM
+2025-06-14 14:45:24,755 - INFO - ============================================================
+2025-06-14 14:45:24,755 - INFO - Courses file: data/courses/cse_dept_red.csv
+2025-06-14 14:45:24,755 - INFO - Starting timetable optimization...
+2025-06-14 14:45:24,755 - INFO - 📥 Loading data...
+2025-06-14 14:45:24,788 - INFO - 🧱 Creating lecture assignments...
+2025-06-14 14:45:24,862 - INFO - 📊 Total Assignments: 999 | Rooms: 88 | TimeSlots: 85
+2025-06-14 14:45:24,862 - INFO - ⚙️ Building solver configuration...
+2025-06-14 14:45:27,265 - INFO - 🚀 Solving started...
+2025-06-14 14:45:40,208 - ERROR - 💥 Exception during solving:
+Traceback (most recent call last):
+  File "Thread.java", line 1447, in java.lang.Thread.run
+java.lang.java.lang.IllegalArgumentException: java.lang.IllegalArgumentException: The externalObject (<jpype._jproxy.proxy.LectureAssignment object at 0x00000198D807EEE0>) cannot be looked up. Some functionality, such as multithreaded solving, requires this ability.
+Maybe add a @PlanningId annotation on an identifier property of the class (class org.jpyinterpreter.user.timetable.data_models.LectureAssignment$$2).
+Or otherwise, maybe change the @PlanningSolution annotation's LookUpStrategyType (not recommended).
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "DefaultSolver.java", line 193, in org.optaplanner.core.impl.solver.DefaultSolver.solve
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\.venv\Lib\site-packages\optapy\optaplanner_api_wrappers.py", line 419, in solve
+    return _unwrap_java_object(self._java_solve(wrapped_problem))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+java.lang.java.lang.IllegalStateException: java.lang.IllegalStateException: The move thread with moveThreadIndex (0) has thrown an exception. Relayed here in the parent thread.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\timetable\solver.py", line 47, in solve_timetable
+    solution = solver.solve(problem)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\.venv\Lib\site-packages\optapy\optaplanner_api_wrappers.py", line 426, in solve
+    raise RuntimeError(error_message) from e
+RuntimeError: An error occurred during solving. This can occur when functions take the wrong number of parameters (ex: a setter that does not take exactly one parameter) or by a function returning an incompatible return type (ex: returning a str in a filter, which expects a bool). This can also occur when an exception is raised when evaluating constraints/getters/setters.
+2025-06-14 14:45:40,211 - ERROR - Optimization failed.
+2025-06-14 14:46:09,302 - INFO - ============================================================
+2025-06-14 14:46:09,302 - INFO - TIMETABLE OPTIMIZATION SYSTEM
+2025-06-14 14:46:09,303 - INFO - ============================================================
+2025-06-14 14:46:09,303 - INFO - Courses file: data/courses/cse_dept_red.csv
+2025-06-14 14:46:09,303 - INFO - Starting timetable optimization...
+2025-06-14 14:46:09,303 - INFO - 📥 Loading data...
+2025-06-14 14:46:09,341 - INFO - 🧱 Creating lecture assignments...
+2025-06-14 14:46:09,372 - INFO - 📊 Total Assignments: 999 | Rooms: 88 | TimeSlots: 85
+2025-06-14 14:46:09,373 - INFO - ⚙️ Building solver configuration...
+2025-06-14 14:46:10,936 - INFO - 🚀 Solving started...
+2025-06-14 14:46:23,059 - ERROR - 💥 Exception during solving:
+Traceback (most recent call last):
+  File "Thread.java", line 1447, in java.lang.Thread.run
+java.lang.java.lang.IllegalArgumentException: java.lang.IllegalArgumentException: The externalObject (<jpype._jproxy.proxy.LectureAssignment object at 0x00000254A0E66850>) cannot be looked up. Some functionality, such as multithreaded solving, requires this ability.
+Maybe add a @PlanningId annotation on an identifier property of the class (class org.jpyinterpreter.user.timetable.data_models.LectureAssignment$$2).
+Or otherwise, maybe change the @PlanningSolution annotation's LookUpStrategyType (not recommended).
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "DefaultSolver.java", line 193, in org.optaplanner.core.impl.solver.DefaultSolver.solve
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\.venv\Lib\site-packages\optapy\optaplanner_api_wrappers.py", line 419, in solve
+    return _unwrap_java_object(self._java_solve(wrapped_problem))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+java.lang.java.lang.IllegalStateException: java.lang.IllegalStateException: The move thread with moveThreadIndex (2) has thrown an exception. Relayed here in the parent thread.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\timetable\solver.py", line 47, in solve_timetable
+    solution = solver.solve(problem)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\.venv\Lib\site-packages\optapy\optaplanner_api_wrappers.py", line 426, in solve
+    raise RuntimeError(error_message) from e
+RuntimeError: An error occurred during solving. This can occur when functions take the wrong number of parameters (ex: a setter that does not take exactly one parameter) or by a function returning an incompatible return type (ex: returning a str in a filter, which expects a bool). This can also occur when an exception is raised when evaluating constraints/getters/setters.
+2025-06-14 14:46:23,062 - ERROR - Optimization failed.
+2025-06-14 14:46:56,800 - INFO - ============================================================
+2025-06-14 14:46:56,806 - INFO - TIMETABLE OPTIMIZATION SYSTEM
+2025-06-14 14:46:56,806 - INFO - ============================================================
+2025-06-14 14:46:56,806 - INFO - Courses file: data/courses/cse_dept_red.csv
+2025-06-14 14:46:56,807 - INFO - Starting timetable optimization...
+2025-06-14 14:46:56,807 - INFO - 📥 Loading data...
+2025-06-14 14:46:56,853 - INFO - 🧱 Creating lecture assignments...
+2025-06-14 14:46:56,885 - INFO - 📊 Total Assignments: 999 | Rooms: 88 | TimeSlots: 85
+2025-06-14 14:46:56,885 - INFO - ⚙️ Building solver configuration...
+2025-06-14 14:46:58,670 - INFO - 🚀 Solving started...
+2025-06-14 14:47:10,890 - ERROR - 💥 Exception during solving:
+Traceback (most recent call last):
+  File "Thread.java", line 1447, in java.lang.Thread.run
+java.lang.java.lang.IllegalArgumentException: java.lang.IllegalArgumentException: The externalObject (<jpype._jproxy.proxy.LectureAssignment object at 0x00000224269EA800>) cannot be looked up. Some functionality, such as multithreaded solving, requires this ability.
+Maybe add a @PlanningId annotation on an identifier property of the class (class org.jpyinterpreter.user.timetable.data_models.LectureAssignment$$2).
+Or otherwise, maybe change the @PlanningSolution annotation's LookUpStrategyType (not recommended).
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "DefaultSolver.java", line 193, in org.optaplanner.core.impl.solver.DefaultSolver.solve
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\.venv\Lib\site-packages\optapy\optaplanner_api_wrappers.py", line 419, in solve
+    return _unwrap_java_object(self._java_solve(wrapped_problem))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+java.lang.java.lang.IllegalStateException: java.lang.IllegalStateException: The move thread with moveThreadIndex (1) has thrown an exception. Relayed here in the parent thread.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\timetable\solver.py", line 47, in solve_timetable
+    solution = solver.solve(problem)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\.venv\Lib\site-packages\optapy\optaplanner_api_wrappers.py", line 426, in solve
+    raise RuntimeError(error_message) from e
+RuntimeError: An error occurred during solving. This can occur when functions take the wrong number of parameters (ex: a setter that does not take exactly one parameter) or by a function returning an incompatible return type (ex: returning a str in a filter, which expects a bool). This can also occur when an exception is raised when evaluating constraints/getters/setters.
+2025-06-14 14:47:10,891 - ERROR - Optimization failed.
+2025-06-14 14:48:10,044 - INFO - ============================================================
+2025-06-14 14:48:10,045 - INFO - TIMETABLE OPTIMIZATION SYSTEM
+2025-06-14 14:48:10,045 - INFO - ============================================================
+2025-06-14 14:48:10,045 - INFO - Courses file: data/courses/cse_dept_red.csv
+2025-06-14 14:48:10,046 - INFO - Starting timetable optimization...
+2025-06-14 14:48:10,046 - INFO - 📥 Loading data...
+2025-06-14 14:48:10,085 - INFO - 🧱 Creating lecture assignments...
+2025-06-14 14:48:10,116 - INFO - 📊 Total Assignments: 999 | Rooms: 88 | TimeSlots: 85
+2025-06-14 14:48:10,116 - INFO - ⚙️ Building solver configuration...
+2025-06-14 14:48:10,526 - ERROR - 💥 Exception during solving:
+Traceback (most recent call last):
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\timetable\solver.py", line 44, in solve_timetable
+    solver = solver_factory_create(solver_config).buildSolver()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\.venv\Lib\site-packages\optapy\optaplanner_api_wrappers.py", line 364, in solver_factory_create
+    return SolverFactory.create(solver_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\.venv\Lib\site-packages\optapy\annotations.py", line 669, in wrapped_constraint_provider
+    out = function(constraint_stream.PythonConstraintFactory(constraint_factory,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\timetable\constraints.py", line 364, in timetable_constraints
+    prefer_department_block_room(constraint_factory),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\timetable\constraints.py", line 22, in prefer_department_block_room
+    .penalize_if_exists(
+     ^^^^^^^^^^^^^^^^^^
+AttributeError: 'PythonUniConstraintStream' object has no attribute 'penalize_if_exists'
+2025-06-14 14:48:10,527 - ERROR - Optimization failed.
+2025-06-14 14:48:35,724 - INFO - ============================================================
+2025-06-14 14:48:35,724 - INFO - TIMETABLE OPTIMIZATION SYSTEM
+2025-06-14 14:48:35,724 - INFO - ============================================================
+2025-06-14 14:48:35,724 - INFO - Courses file: data/courses/cse_dept_red.csv
+2025-06-14 14:48:35,725 - INFO - Starting timetable optimization...
+2025-06-14 14:48:35,725 - INFO - 📥 Loading data...
+2025-06-14 14:48:35,763 - INFO - 🧱 Creating lecture assignments...
+2025-06-14 14:48:35,800 - INFO - 📊 Total Assignments: 999 | Rooms: 88 | TimeSlots: 85
+2025-06-14 14:48:35,800 - INFO - ⚙️ Building solver configuration...
+2025-06-14 14:48:36,219 - ERROR - 💥 Exception during solving:
+Traceback (most recent call last):
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\timetable\solver.py", line 44, in solve_timetable
+    solver = solver_factory_create(solver_config).buildSolver()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\.venv\Lib\site-packages\optapy\optaplanner_api_wrappers.py", line 364, in solver_factory_create
+    return SolverFactory.create(solver_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\.venv\Lib\site-packages\optapy\annotations.py", line 669, in wrapped_constraint_provider
+    out = function(constraint_stream.PythonConstraintFactory(constraint_factory,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\timetable\constraints.py", line 364, in timetable_constraints
+    prefer_department_block_room(constraint_factory),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\timetable\constraints.py", line 22, in prefer_department_block_room
+    .penalize_if_exists(
+     ^^^^^^^^^^^^^^^^^^
+AttributeError: 'PythonUniConstraintStream' object has no attribute 'penalize_if_exists'
+2025-06-14 14:48:36,221 - ERROR - Optimization failed.
+2025-06-14 14:48:58,942 - INFO - ============================================================
+2025-06-14 14:48:58,943 - INFO - TIMETABLE OPTIMIZATION SYSTEM
+2025-06-14 14:48:58,943 - INFO - ============================================================
+2025-06-14 14:48:58,943 - INFO - Courses file: data/courses/cse_dept_red.csv
+2025-06-14 14:48:58,944 - INFO - Starting timetable optimization...
+2025-06-14 14:48:58,944 - INFO - 📥 Loading data...
+2025-06-14 14:48:58,990 - INFO - 🧱 Creating lecture assignments...
+2025-06-14 14:48:59,013 - INFO - 📊 Total Assignments: 999 | Rooms: 88 | TimeSlots: 85
+2025-06-14 14:48:59,014 - INFO - ⚙️ Building solver configuration...
+2025-06-14 14:49:01,017 - INFO - 🚀 Solving started...
+2025-06-14 14:49:13,042 - ERROR - 💥 Exception during solving:
+Traceback (most recent call last):
+  File "Thread.java", line 1447, in java.lang.Thread.run
+java.lang.java.lang.IllegalArgumentException: java.lang.IllegalArgumentException: The externalObject (<jpype._jproxy.proxy.LectureAssignment object at 0x000001DE67B12350>) cannot be looked up. Some functionality, such as multithreaded solving, requires this ability.
+Maybe add a @PlanningId annotation on an identifier property of the class (class org.jpyinterpreter.user.timetable.data_models.LectureAssignment$$2).
+Or otherwise, maybe change the @PlanningSolution annotation's LookUpStrategyType (not recommended).
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "DefaultSolver.java", line 193, in org.optaplanner.core.impl.solver.DefaultSolver.solve
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\.venv\Lib\site-packages\optapy\optaplanner_api_wrappers.py", line 419, in solve
+    return _unwrap_java_object(self._java_solve(wrapped_problem))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+java.lang.java.lang.IllegalStateException: java.lang.IllegalStateException: The move thread with moveThreadIndex (2) has thrown an exception. Relayed here in the parent thread.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\timetable\solver.py", line 47, in solve_timetable
+    solution = solver.solve(problem)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\.venv\Lib\site-packages\optapy\optaplanner_api_wrappers.py", line 426, in solve
+    raise RuntimeError(error_message) from e
+RuntimeError: An error occurred during solving. This can occur when functions take the wrong number of parameters (ex: a setter that does not take exactly one parameter) or by a function returning an incompatible return type (ex: returning a str in a filter, which expects a bool). This can also occur when an exception is raised when evaluating constraints/getters/setters.
+2025-06-14 14:49:13,045 - ERROR - Optimization failed.
+2025-06-14 14:50:33,053 - INFO - ============================================================
+2025-06-14 14:50:33,054 - INFO - TIMETABLE OPTIMIZATION SYSTEM
+2025-06-14 14:50:33,054 - INFO - ============================================================
+2025-06-14 14:50:33,054 - INFO - Courses file: data/courses/cse_dept_red.csv
+2025-06-14 14:50:33,055 - INFO - Starting timetable optimization...
+2025-06-14 14:50:33,055 - INFO - 📥 Loading data...
+2025-06-14 14:50:33,104 - INFO - 🧱 Creating lecture assignments...
+2025-06-14 14:50:33,131 - INFO - 📊 Total Assignments: 999 | Rooms: 88 | TimeSlots: 85
+2025-06-14 14:50:33,132 - INFO - ⚙️ Building solver configuration...
+2025-06-14 14:50:34,684 - INFO - 🚀 Solving started...
+2025-06-14 14:50:48,685 - ERROR - 💥 Exception during solving:
+Traceback (most recent call last):
+  File "Thread.java", line 1447, in java.lang.Thread.run
+java.lang.java.lang.IllegalArgumentException: java.lang.IllegalArgumentException: The externalObject (<jpype._jproxy.proxy.LectureAssignment object at 0x000001A12170E3A0>) cannot be looked up. Some functionality, such as multithreaded solving, requires this ability.
+Maybe add a @PlanningId annotation on an identifier property of the class (class org.jpyinterpreter.user.timetable.data_models.LectureAssignment$$2).
+Or otherwise, maybe change the @PlanningSolution annotation's LookUpStrategyType (not recommended).
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "DefaultSolver.java", line 193, in org.optaplanner.core.impl.solver.DefaultSolver.solve
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\.venv\Lib\site-packages\optapy\optaplanner_api_wrappers.py", line 419, in solve
+    return _unwrap_java_object(self._java_solve(wrapped_problem))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+java.lang.java.lang.IllegalStateException: java.lang.IllegalStateException: The move thread with moveThreadIndex (0) has thrown an exception. Relayed here in the parent thread.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\timetable\solver.py", line 47, in solve_timetable
+    solution = solver.solve(problem)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ShanthoshS\OneDrive\Desktop\timetable\static-timetable\.venv\Lib\site-packages\optapy\optaplanner_api_wrappers.py", line 426, in solve
+    raise RuntimeError(error_message) from e
+RuntimeError: An error occurred during solving. This can occur when functions take the wrong number of parameters (ex: a setter that does not take exactly one parameter) or by a function returning an incompatible return type (ex: returning a str in a filter, which expects a bool). This can also occur when an exception is raised when evaluating constraints/getters/setters.
+2025-06-14 14:50:48,690 - ERROR - Optimization failed.

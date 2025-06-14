@@ -1,0 +1,13 @@
+Day,Time,Student Group,Course Code,Course Name,Session Type,Lab Batch,Teacher,Room,Duration (hours)
+Monday,08:00-13:30,CSD-4A,CD19711,Project-I,Lab,,Mr. S Pradeep Kumar,D BLOCK-DG02 (Lab),6
+Monday,14:00-14:50,CSD-4A,CD19721,Introduction to 3D Animation,Lecture,,Mr. S Umamaheswararao,A BLOCK-A102 (Classroom),1
+Tuesday,15:00-15:50,CSD-4A,CD19P11,Digital Media Entrepreneurship,Lecture,,Mr. Thirumalairajan G,A BLOCK-A102 (Classroom),1
+Thursday,14:00-14:50,CSD-4A,CD19P11,Digital Media Entrepreneurship,Lecture,,Mr. Thirumalairajan G,A BLOCK-A102 (Classroom),1
+Friday,13:50-15:30,CSD-4A,CD19P11,Digital Media Entrepreneurship,Lab (Batch 1),1,Mr. Thirumalairajan G,D BLOCK-DG02 (Lab),2
+Friday,15:50-17:30,CSD-4A,CD19P11,Digital Media Entrepreneurship,Lab (Batch 2),2,Mr. Thirumalairajan G,D BLOCK-DG02 (Lab),2
+Monday,15:00-15:50,CSD-4A,CD19P15,Foundations of Machine Learning Concepts,Lecture,,Dr. Gunasekar S,A BLOCK-A102 (Classroom),1
+Tuesday,14:00-14:50,CSD-4A,CD19P15,Foundations of Machine Learning Concepts,Lecture,,Dr. Gunasekar S,A BLOCK-A102 (Classroom),1
+Wednesday,13:50-15:30,CSD-4A,CD19P15,Foundations of Machine Learning Concepts,Lab (Batch 1),1,Dr. Gunasekar S,D BLOCK-DG02 (Lab),2
+Wednesday,15:50-17:30,CSD-4A,CD19P15,Foundations of Machine Learning Concepts,Lab (Batch 2),2,Dr. Gunasekar S,D BLOCK-DG02 (Lab),2
+Thursday,15:00-15:50,CSD-4A,CD23531,3D Modelling and Texturing,Lecture,,Mr. S Umamaheswararao,A BLOCK-A102 (Classroom),1
+Thursday,16:00-16:50,CSD-4A,CD23531,3D Modelling and Texturing,Lecture,,Mr. S Umamaheswararao,A BLOCK-A102 (Classroom),1

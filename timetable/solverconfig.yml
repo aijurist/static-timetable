@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solver>
+  <!-- Required: The domain model class (your planning solution class) -->
+  <solutionClass>timetable.data_models.TimetableSolution</solutionClass>
+
+  <!-- Required: The planning entity class -->
+  <entityClass>timetable.data_models.LectureAssignment</entityClass>
+
+  <!-- Constraint provider class (Python constraint_provider function) -->
+  <constraintProviderClass>timetable.constraints.timetable_constraints</constraintProviderClass>
+
+  <!-- Termination after 30 seconds (adjust as needed) -->
+  <termination>
+    <secondsSpentLimit>30</secondsSpentLimit>
+  </termination>
+
+  <!-- Score Director configuration -->
+  <scoreDirectorFactory>
+    <constraintProviderFactory>
+      <constraintProviderClass>timetable.constraints.timetable_constraints</constraintProviderClass>
+    </constraintProviderFactory>
+  </scoreDirectorFactory>
+
+  <!-- Use score type (change if you add bendable or multi-level scores) -->
+  <scoreDirectorFactory>
+    <scoreDrl>HardSoftScore</scoreDrl>
+  </scoreDirectorFactory>
+
+  <!-- Optional: Environment mode (remove this in production) -->
+  <environmentMode>FULL_ASSERT</environmentMode>
+
+  <!-- Constraint weights (only for penalize_configurable) -->
+  <constraintWeight>
+    <constraint name="Teacher time overlap" weight="hard/5000"/>
+    <constraint name="Room time overlap" weight="hard/3000"/>
+    <constraint name="Student group time overlap" weight="hard/5000"/>
+    <constraint name="Lab not in lab room" weight="hard/2000"/>
+    <constraint name="Lecture in lab room" weight="hard/2000"/>
+    <constraint name="Room capacity exceeded" weight="hard/1000"/>
+    <constraint name="Incorrect lecture hours" weight="hard/300"/>
+    <constraint name="Incorrect practical hours per batch" weight="hard/300"/>
+    <constraint name="Teacher max hours exceeded" weight="hard/1000"/>
+    <constraint name="Class during lunch" weight="hard/500"/>
+    <constraint name="Teacher shift violation" weight="hard/2000"/>
+    <constraint name="Teacher gap between classes" weight="soft/10"/>
+    <constraint name="Student group gap between classes" weight="soft/5"/>
+    <constraint name="Department not in preferred block" weight="soft/1"/>
+  </constraintWeight>
+</solver>

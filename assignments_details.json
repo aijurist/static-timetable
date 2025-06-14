@@ -1,0 +1,1898 @@
+[
+  {
+    "teacher_id": "189",
+    "teacher_name": "Mr. S Umamaheswararao",
+    "student_group": "CSD-4A",
+    "course_id": "552",
+    "course_code": "CD19721",
+    "course_name": "Introduction to 3D Animation"
+  },
+  {
+    "teacher_id": "178",
+    "teacher_name": "Dr. Gunasekar S",
+    "student_group": "CSD-4A",
+    "course_id": "557",
+    "course_code": "CD19P15",
+    "course_name": "Foundations of Machine Learning Concepts"
+  },
+  {
+    "teacher_id": "182",
+    "teacher_name": "Mr. S Pradeep Kumar",
+    "student_group": "CSD-4A",
+    "course_id": "556",
+    "course_code": "CD19711",
+    "course_name": "Project-I"
+  },
+  {
+    "teacher_id": "514",
+    "teacher_name": "Dr. K.Vigneshwaran",
+    "student_group": "CSD-4A",
+    "course_id": "554",
+    "course_code": "CD19741",
+    "course_name": "3D Printing and Design"
+  },
+  {
+    "teacher_id": "185",
+    "teacher_name": "Mr. Thirumalairajan G",
+    "student_group": "CSD-4A",
+    "course_id": "559",
+    "course_code": "CD19P11",
+    "course_name": "Digital Media Entrepreneurship"
+  },
+  {
+    "teacher_id": "178",
+    "teacher_name": "Dr. Gunasekar S",
+    "student_group": "CSD-3A",
+    "course_id": "264",
+    "course_code": "CS23431",
+    "course_name": "Operating Systems"
+  },
+  {
+    "teacher_id": "189",
+    "teacher_name": "Mr. S Umamaheswararao",
+    "student_group": "CSD-3A",
+    "course_id": "540",
+    "course_code": "CD23531",
+    "course_name": "3D Modelling and Texturing"
+  },
+  {
+    "teacher_id": "184",
+    "teacher_name": "Mr. Vijayakumar R",
+    "student_group": "CSD-3A",
+    "course_id": "592",
+    "course_code": "IT23E31",
+    "course_name": "Graphics and Multimedia"
+  },
+  {
+    "teacher_id": "202",
+    "teacher_name": "Mr. Dr. N. Duraimurugan",
+    "student_group": "CSD-3A",
+    "course_id": "269",
+    "course_code": "CS23531",
+    "course_name": "Web Programming"
+  },
+  {
+    "teacher_id": "171",
+    "teacher_name": "Mrs. Kalpana D",
+    "student_group": "CSD-3A",
+    "course_id": "331",
+    "course_code": "GE23627",
+    "course_name": "Design Thinking and Innovation"
+  },
+  {
+    "teacher_id": "182",
+    "teacher_name": "Mr. S Pradeep Kumar",
+    "student_group": "CSD-2A",
+    "course_id": "170",
+    "course_code": "CD23331",
+    "course_name": "Design Processes and Perspectives"
+  },
+  {
+    "teacher_id": "184",
+    "teacher_name": "Mr. Vijayakumar R",
+    "student_group": "CSD-2A",
+    "course_id": "169",
+    "course_code": "CD23321",
+    "course_name": "Python Programming for Design"
+  },
+  {
+    "teacher_id": "205",
+    "teacher_name": "Mrs. Santhiya M",
+    "student_group": "CSD-2A",
+    "course_id": "257",
+    "course_code": "CS23331",
+    "course_name": "Design and Analysis of Algorithms"
+  },
+  {
+    "teacher_id": "224",
+    "teacher_name": "Mrs. Mahesmeena",
+    "student_group": "CSD-2A",
+    "course_id": "258",
+    "course_code": "CS23332",
+    "course_name": "Database Management Systems"
+  },
+  {
+    "teacher_id": "434",
+    "teacher_name": "Mrs. Anbarasi.V",
+    "student_group": "CSD-2A",
+    "course_id": "424",
+    "course_code": "MA23313",
+    "course_name": "Discrete Mathematics for AI"
+  },
+  {
+    "teacher_id": "198",
+    "teacher_name": "Mrs. Farjana U",
+    "student_group": "CSE-3A",
+    "course_id": "270",
+    "course_code": "CS23532",
+    "course_name": "Computer Networks"
+  },
+  {
+    "teacher_id": "197",
+    "teacher_name": "Mrs. S.Ponmani",
+    "student_group": "CSE-3A",
+    "course_id": "268",
+    "course_code": "CS23512",
+    "course_name": "Fundamentals of Mobile Computing"
+  },
+  {
+    "teacher_id": "231",
+    "teacher_name": "Ms. Divya M",
+    "student_group": "CSE-3A",
+    "course_id": "590",
+    "course_code": "CS23533",
+    "course_name": "Foundations of Artificial Intelligence"
+  },
+  {
+    "teacher_id": "222",
+    "teacher_name": "Mr. Dr.K.Ananthajothi",
+    "student_group": "CSE-3A",
+    "course_id": "267",
+    "course_code": "CS23511",
+    "course_name": "Theory of Computation"
+  },
+  {
+    "teacher_id": "192",
+    "teacher_name": "Mrs. Jananee V",
+    "student_group": "CSE-3A",
+    "course_id": "269",
+    "course_code": "CS23531",
+    "course_name": "Web Programming"
+  },
+  {
+    "teacher_id": "219",
+    "teacher_name": "Mrs. Aswana Lal",
+    "student_group": "CSE-3B",
+    "course_id": "270",
+    "course_code": "CS23532",
+    "course_name": "Computer Networks"
+  },
+  {
+    "teacher_id": "243",
+    "teacher_name": "Ms. Dharshini B S",
+    "student_group": "CSE-3B",
+    "course_id": "268",
+    "course_code": "CS23512",
+    "course_name": "Fundamentals of Mobile Computing"
+  },
+  {
+    "teacher_id": "1790",
+    "teacher_name": "New Staff 3 N",
+    "student_group": "CSE-3B",
+    "course_id": "590",
+    "course_code": "CS23533",
+    "course_name": "Foundations of Artificial Intelligence"
+  },
+  {
+    "teacher_id": "223",
+    "teacher_name": "Mrs. S.Vinothini",
+    "student_group": "CSE-3B",
+    "course_id": "267",
+    "course_code": "CS23511",
+    "course_name": "Theory of Computation"
+  },
+  {
+    "teacher_id": "229",
+    "teacher_name": "Mrs. Sathiyavathi S",
+    "student_group": "CSE-3B",
+    "course_id": "269",
+    "course_code": "CS23531",
+    "course_name": "Web Programming"
+  },
+  {
+    "teacher_id": "47",
+    "teacher_name": "Dr. N M Balamurugan",
+    "student_group": "CSE-3C",
+    "course_id": "270",
+    "course_code": "CS23532",
+    "course_name": "Computer Networks"
+  },
+  {
+    "teacher_id": "240",
+    "teacher_name": "Mr. Dr Parthasarathy C",
+    "student_group": "CSE-3C",
+    "course_id": "268",
+    "course_code": "CS23512",
+    "course_name": "Fundamentals of Mobile Computing"
+  },
+  {
+    "teacher_id": "187",
+    "teacher_name": "Mr. Dr. Kumar P",
+    "student_group": "CSE-3C",
+    "course_id": "590",
+    "course_code": "CS23533",
+    "course_name": "Foundations of Artificial Intelligence"
+  },
+  {
+    "teacher_id": "234",
+    "teacher_name": "Mrs. J.A.Adlin Layola",
+    "student_group": "CSE-3C",
+    "course_id": "267",
+    "course_code": "CS23511",
+    "course_name": "Theory of Computation"
+  },
+  {
+    "teacher_id": "268",
+    "teacher_name": "Mr. Kirubhakar T T",
+    "student_group": "CSE-3C",
+    "course_id": "269",
+    "course_code": "CS23531",
+    "course_name": "Web Programming"
+  },
+  {
+    "teacher_id": "38",
+    "teacher_name": "Mr. Vijay K",
+    "student_group": "CSE-3D",
+    "course_id": "270",
+    "course_code": "CS23532",
+    "course_name": "Computer Networks"
+  },
+  {
+    "teacher_id": "245",
+    "teacher_name": "Dr. Chettiyar Vani Vivekanand",
+    "student_group": "CSE-3D",
+    "course_id": "268",
+    "course_code": "CS23512",
+    "course_name": "Fundamentals of Mobile Computing"
+  },
+  {
+    "teacher_id": "188",
+    "teacher_name": "Mr. Dr.S.Vinodhkumar",
+    "student_group": "CSE-3D",
+    "course_id": "590",
+    "course_code": "CS23533",
+    "course_name": "Foundations of Artificial Intelligence"
+  },
+  {
+    "teacher_id": "222",
+    "teacher_name": "Mr. Dr.K.Ananthajothi",
+    "student_group": "CSE-3D",
+    "course_id": "267",
+    "course_code": "CS23511",
+    "course_name": "Theory of Computation"
+  },
+  {
+    "teacher_id": "241",
+    "teacher_name": "Ms. R Rupmala",
+    "student_group": "CSE-3D",
+    "course_id": "269",
+    "course_code": "CS23531",
+    "course_name": "Web Programming"
+  },
+  {
+    "teacher_id": "52",
+    "teacher_name": "Ms. Soundarya M",
+    "student_group": "CSE-3E",
+    "course_id": "270",
+    "course_code": "CS23532",
+    "course_name": "Computer Networks"
+  },
+  {
+    "teacher_id": "196",
+    "teacher_name": "Mr. Dr.P.Shanmugam",
+    "student_group": "CSE-3E",
+    "course_id": "268",
+    "course_code": "CS23512",
+    "course_name": "Fundamentals of Mobile Computing"
+  },
+  {
+    "teacher_id": "195",
+    "teacher_name": "Ms. Jaeyalakshmi M",
+    "student_group": "CSE-3E",
+    "course_id": "590",
+    "course_code": "CS23533",
+    "course_name": "Foundations of Artificial Intelligence"
+  },
+  {
+    "teacher_id": "223",
+    "teacher_name": "Mrs. S.Vinothini",
+    "student_group": "CSE-3E",
+    "course_id": "267",
+    "course_code": "CS23511",
+    "course_name": "Theory of Computation"
+  },
+  {
+    "teacher_id": "185",
+    "teacher_name": "Mr. Thirumalairajan G",
+    "student_group": "CSE-3E",
+    "course_id": "269",
+    "course_code": "CS23531",
+    "course_name": "Web Programming"
+  },
+  {
+    "teacher_id": "591",
+    "teacher_name": "HOD CSE(CS)",
+    "student_group": "CSE-3F",
+    "course_id": "270",
+    "course_code": "CS23532",
+    "course_name": "Computer Networks"
+  },
+  {
+    "teacher_id": "197",
+    "teacher_name": "Mrs. S.Ponmani",
+    "student_group": "CSE-3F",
+    "course_id": "268",
+    "course_code": "CS23512",
+    "course_name": "Fundamentals of Mobile Computing"
+  },
+  {
+    "teacher_id": "231",
+    "teacher_name": "Ms. Divya M",
+    "student_group": "CSE-3F",
+    "course_id": "590",
+    "course_code": "CS23533",
+    "course_name": "Foundations of Artificial Intelligence"
+  },
+  {
+    "teacher_id": "234",
+    "teacher_name": "Mrs. J.A.Adlin Layola",
+    "student_group": "CSE-3F",
+    "course_id": "267",
+    "course_code": "CS23511",
+    "course_name": "Theory of Computation"
+  },
+  {
+    "teacher_id": "202",
+    "teacher_name": "Mr. Dr. N. Duraimurugan",
+    "student_group": "CSE-3F",
+    "course_id": "269",
+    "course_code": "CS23531",
+    "course_name": "Web Programming"
+  },
+  {
+    "teacher_id": "430",
+    "teacher_name": "Mrs. Dr. Priya Nair",
+    "student_group": "CSE-CS-2A",
+    "course_id": "423",
+    "course_code": "MA23312",
+    "course_name": "Fourier series and Number theory"
+  },
+  {
+    "teacher_id": "591",
+    "teacher_name": "HOD CSE(CS)",
+    "student_group": "CSE-CS-2A",
+    "course_id": "240",
+    "course_code": "CR23331",
+    "course_name": "Cryptography"
+  },
+  {
+    "teacher_id": "1789",
+    "teacher_name": "New Staff 2 N",
+    "student_group": "CSE-CS-2A",
+    "course_id": "258",
+    "course_code": "CS23332",
+    "course_name": "Database Management Systems"
+  },
+  {
+    "teacher_id": "436",
+    "teacher_name": "Mr. Dr. K. Mageshwaran",
+    "student_group": "CSE-CS-2B",
+    "course_id": "423",
+    "course_code": "MA23312",
+    "course_name": "Fourier series and Number theory"
+  },
+  {
+    "teacher_id": "238",
+    "teacher_name": "Dr. Balasubramanian V",
+    "student_group": "CSE-CS-2B",
+    "course_id": "240",
+    "course_code": "CR23331",
+    "course_name": "Cryptography"
+  },
+  {
+    "teacher_id": "1791",
+    "teacher_name": "New Staff 4 N",
+    "student_group": "CSE-CS-2B",
+    "course_id": "258",
+    "course_code": "CS23332",
+    "course_name": "Database Management Systems"
+  },
+  {
+    "teacher_id": "248",
+    "teacher_name": "Mrs. Suba Malai Rajasekar",
+    "student_group": "CSE-2A",
+    "course_id": "260",
+    "course_code": "CS23334",
+    "course_name": "Fundamentals of Data Science"
+  },
+  {
+    "teacher_id": "1831",
+    "teacher_name": "New Faculty English (PLACEHOLDER)",
+    "student_group": "CSE-2A",
+    "course_id": "423",
+    "course_code": "MA23312",
+    "course_name": "Fourier series and Number theory"
+  },
+  {
+    "teacher_id": "196",
+    "teacher_name": "Mr. Dr.P.Shanmugam",
+    "student_group": "CSE-2A",
+    "course_id": "257",
+    "course_code": "CS23331",
+    "course_name": "Design and Analysis of Algorithms"
+  },
+  {
+    "teacher_id": "250",
+    "teacher_name": "Mr. Ayyadurai M",
+    "student_group": "CSE-2A",
+    "course_id": "256",
+    "course_code": "CS23311",
+    "course_name": "Computer Architecture"
+  },
+  {
+    "teacher_id": "1790",
+    "teacher_name": "New Staff 3 N",
+    "student_group": "CSE-2A",
+    "course_id": "259",
+    "course_code": "CS23333",
+    "course_name": "Object Oriented Programming Using JAVA"
+  },
+  {
+    "teacher_id": "171",
+    "teacher_name": "Mrs. Kalpana D",
+    "student_group": "CSE-2A",
+    "course_id": "258",
+    "course_code": "CS23332",
+    "course_name": "Database Management Systems"
+  },
+  {
+    "teacher_id": "239",
+    "teacher_name": "Mr. Srinivas Vadlamani",
+    "student_group": "CSE-2B",
+    "course_id": "260",
+    "course_code": "CS23334",
+    "course_name": "Fundamentals of Data Science"
+  },
+  {
+    "teacher_id": "437",
+    "teacher_name": "Mr. Sriram Sastha",
+    "student_group": "CSE-2B",
+    "course_id": "423",
+    "course_code": "MA23312",
+    "course_name": "Fourier series and Number theory"
+  },
+  {
+    "teacher_id": "205",
+    "teacher_name": "Mrs. Santhiya M",
+    "student_group": "CSE-2B",
+    "course_id": "257",
+    "course_code": "CS23331",
+    "course_name": "Design and Analysis of Algorithms"
+  },
+  {
+    "teacher_id": "191",
+    "teacher_name": "Mr. Dr V.Murali Bhaskaran",
+    "student_group": "CSE-2B",
+    "course_id": "256",
+    "course_code": "CS23311",
+    "course_name": "Computer Architecture"
+  },
+  {
+    "teacher_id": "1808",
+    "teacher_name": "New Faculty English (PLACEHOLDER)",
+    "student_group": "CSE-2B",
+    "course_id": "259",
+    "course_code": "CS23333",
+    "course_name": "Object Oriented Programming Using JAVA"
+  },
+  {
+    "teacher_id": "201",
+    "teacher_name": "Mrs. Dharani Devi G",
+    "student_group": "CSE-2B",
+    "course_id": "258",
+    "course_code": "CS23332",
+    "course_name": "Database Management Systems"
+  },
+  {
+    "teacher_id": "212",
+    "teacher_name": "Ms. Muneeshwari R",
+    "student_group": "CSE-2C",
+    "course_id": "260",
+    "course_code": "CS23334",
+    "course_name": "Fundamentals of Data Science"
+  },
+  {
+    "teacher_id": "456",
+    "teacher_name": "Ms. Balavidhya S",
+    "student_group": "CSE-2C",
+    "course_id": "423",
+    "course_code": "MA23312",
+    "course_name": "Fourier series and Number theory"
+  },
+  {
+    "teacher_id": "48",
+    "teacher_name": "Dr. Raja Ramamoorthi",
+    "student_group": "CSE-2C",
+    "course_id": "257",
+    "course_code": "CS23331",
+    "course_name": "Design and Analysis of Algorithms"
+  },
+  {
+    "teacher_id": "201",
+    "teacher_name": "Mrs. Dharani Devi G",
+    "student_group": "CSE-2C",
+    "course_id": "256",
+    "course_code": "CS23311",
+    "course_name": "Computer Architecture"
+  },
+  {
+    "teacher_id": "1809",
+    "teacher_name": "New Faculty English (PLACEHOLDER)",
+    "student_group": "CSE-2C",
+    "course_id": "259",
+    "course_code": "CS23333",
+    "course_name": "Object Oriented Programming Using JAVA"
+  },
+  {
+    "teacher_id": "224",
+    "teacher_name": "Mrs. Mahesmeena",
+    "student_group": "CSE-2C",
+    "course_id": "258",
+    "course_code": "CS23332",
+    "course_name": "Database Management Systems"
+  },
+  {
+    "teacher_id": "211",
+    "teacher_name": "Mr. Dr.K.Anand",
+    "student_group": "CSE-2D",
+    "course_id": "260",
+    "course_code": "CS23334",
+    "course_name": "Fundamentals of Data Science"
+  },
+  {
+    "teacher_id": "448",
+    "teacher_name": "Mr. Charles Sagayaraj A C",
+    "student_group": "CSE-2D",
+    "course_id": "423",
+    "course_code": "MA23312",
+    "course_name": "Fourier series and Number theory"
+  },
+  {
+    "teacher_id": "53",
+    "teacher_name": "Mrs. Divya S",
+    "student_group": "CSE-2D",
+    "course_id": "257",
+    "course_code": "CS23331",
+    "course_name": "Design and Analysis of Algorithms"
+  },
+  {
+    "teacher_id": "236",
+    "teacher_name": "Mrs. Deepa B",
+    "student_group": "CSE-2D",
+    "course_id": "256",
+    "course_code": "CS23311",
+    "course_name": "Computer Architecture"
+  },
+  {
+    "teacher_id": "1826",
+    "teacher_name": "New Faculty English (PLACEHOLDER)",
+    "student_group": "CSE-2D",
+    "course_id": "259",
+    "course_code": "CS23333",
+    "course_name": "Object Oriented Programming Using JAVA"
+  },
+  {
+    "teacher_id": "192",
+    "teacher_name": "Mrs. Jananee V",
+    "student_group": "CSE-2D",
+    "course_id": "258",
+    "course_code": "CS23332",
+    "course_name": "Database Management Systems"
+  },
+  {
+    "teacher_id": "250",
+    "teacher_name": "Mr. Ayyadurai M",
+    "student_group": "CSE-2E",
+    "course_id": "260",
+    "course_code": "CS23334",
+    "course_name": "Fundamentals of Data Science"
+  },
+  {
+    "teacher_id": "406",
+    "teacher_name": "Mrs. C. Renuga",
+    "student_group": "CSE-2E",
+    "course_id": "423",
+    "course_code": "MA23312",
+    "course_name": "Fourier series and Number theory"
+  },
+  {
+    "teacher_id": "179",
+    "teacher_name": "Mrs. Revathy Padmanabhan",
+    "student_group": "CSE-2E",
+    "course_id": "257",
+    "course_code": "CS23331",
+    "course_name": "Design and Analysis of Algorithms"
+  },
+  {
+    "teacher_id": "250",
+    "teacher_name": "Mr. Ayyadurai M",
+    "student_group": "CSE-2E",
+    "course_id": "256",
+    "course_code": "CS23311",
+    "course_name": "Computer Architecture"
+  },
+  {
+    "teacher_id": "216",
+    "teacher_name": "Mr. V Karthick",
+    "student_group": "CSE-2E",
+    "course_id": "259",
+    "course_code": "CS23333",
+    "course_name": "Object Oriented Programming Using JAVA"
+  },
+  {
+    "teacher_id": "235",
+    "teacher_name": "Dr. Bhuvaneswari R",
+    "student_group": "CSE-2E",
+    "course_id": "258",
+    "course_code": "CS23332",
+    "course_name": "Database Management Systems"
+  },
+  {
+    "teacher_id": "219",
+    "teacher_name": "Mrs. Aswana Lal",
+    "student_group": "CSE-2F",
+    "course_id": "260",
+    "course_code": "CS23334",
+    "course_name": "Fundamentals of Data Science"
+  },
+  {
+    "teacher_id": "438",
+    "teacher_name": "Mr. Dr. S. Prabhu",
+    "student_group": "CSE-2F",
+    "course_id": "423",
+    "course_code": "MA23312",
+    "course_name": "Fourier series and Number theory"
+  },
+  {
+    "teacher_id": "196",
+    "teacher_name": "Mr. Dr.P.Shanmugam",
+    "student_group": "CSE-2F",
+    "course_id": "257",
+    "course_code": "CS23331",
+    "course_name": "Design and Analysis of Algorithms"
+  },
+  {
+    "teacher_id": "191",
+    "teacher_name": "Mr. Dr V.Murali Bhaskaran",
+    "student_group": "CSE-2F",
+    "course_id": "256",
+    "course_code": "CS23311",
+    "course_name": "Computer Architecture"
+  },
+  {
+    "teacher_id": "197",
+    "teacher_name": "Mrs. S.Ponmani",
+    "student_group": "CSE-2F",
+    "course_id": "259",
+    "course_code": "CS23333",
+    "course_name": "Object Oriented Programming Using JAVA"
+  },
+  {
+    "teacher_id": "37",
+    "teacher_name": "Mr. Kumaran U",
+    "student_group": "CSE-2F",
+    "course_id": "258",
+    "course_code": "CS23332",
+    "course_name": "Database Management Systems"
+  },
+  {
+    "teacher_id": "248",
+    "teacher_name": "Mrs. Suba Malai Rajasekar",
+    "student_group": "CSE-2G",
+    "course_id": "260",
+    "course_code": "CS23334",
+    "course_name": "Fundamentals of Data Science"
+  },
+  {
+    "teacher_id": "441",
+    "teacher_name": "Dr. Ponmana Selvan Arumugam",
+    "student_group": "CSE-2G",
+    "course_id": "423",
+    "course_code": "MA23312",
+    "course_name": "Fourier series and Number theory"
+  },
+  {
+    "teacher_id": "205",
+    "teacher_name": "Mrs. Santhiya M",
+    "student_group": "CSE-2G",
+    "course_id": "257",
+    "course_code": "CS23331",
+    "course_name": "Design and Analysis of Algorithms"
+  },
+  {
+    "teacher_id": "201",
+    "teacher_name": "Mrs. Dharani Devi G",
+    "student_group": "CSE-2G",
+    "course_id": "256",
+    "course_code": "CS23311",
+    "course_name": "Computer Architecture"
+  },
+  {
+    "teacher_id": "236",
+    "teacher_name": "Mrs. Deepa B",
+    "student_group": "CSE-2G",
+    "course_id": "259",
+    "course_code": "CS23333",
+    "course_name": "Object Oriented Programming Using JAVA"
+  },
+  {
+    "teacher_id": "35",
+    "teacher_name": "Ms. R.Anitha",
+    "student_group": "CSE-2G",
+    "course_id": "258",
+    "course_code": "CS23332",
+    "course_name": "Database Management Systems"
+  },
+  {
+    "teacher_id": "239",
+    "teacher_name": "Mr. Srinivas Vadlamani",
+    "student_group": "CSE-2H",
+    "course_id": "260",
+    "course_code": "CS23334",
+    "course_name": "Fundamentals of Data Science"
+  },
+  {
+    "teacher_id": "457",
+    "teacher_name": "Dr. Meenakumari R",
+    "student_group": "CSE-2H",
+    "course_id": "423",
+    "course_code": "MA23312",
+    "course_name": "Fourier series and Number theory"
+  },
+  {
+    "teacher_id": "48",
+    "teacher_name": "Dr. Raja Ramamoorthi",
+    "student_group": "CSE-2H",
+    "course_id": "257",
+    "course_code": "CS23331",
+    "course_name": "Design and Analysis of Algorithms"
+  },
+  {
+    "teacher_id": "236",
+    "teacher_name": "Mrs. Deepa B",
+    "student_group": "CSE-2H",
+    "course_id": "256",
+    "course_code": "CS23311",
+    "course_name": "Computer Architecture"
+  },
+  {
+    "teacher_id": "199",
+    "teacher_name": "Mrs. J.Jinu Sophia",
+    "student_group": "CSE-2H",
+    "course_id": "259",
+    "course_code": "CS23333",
+    "course_name": "Object Oriented Programming Using JAVA"
+  },
+  {
+    "teacher_id": "46",
+    "teacher_name": "Ms. Saranya S",
+    "student_group": "CSE-2H",
+    "course_id": "258",
+    "course_code": "CS23332",
+    "course_name": "Database Management Systems"
+  },
+  {
+    "teacher_id": "212",
+    "teacher_name": "Ms. Muneeshwari R",
+    "student_group": "CSE-2I",
+    "course_id": "260",
+    "course_code": "CS23334",
+    "course_name": "Fundamentals of Data Science"
+  },
+  {
+    "teacher_id": "418",
+    "teacher_name": "Mr. Venkatesan J",
+    "student_group": "CSE-2I",
+    "course_id": "423",
+    "course_code": "MA23312",
+    "course_name": "Fourier series and Number theory"
+  },
+  {
+    "teacher_id": "53",
+    "teacher_name": "Mrs. Divya S",
+    "student_group": "CSE-2I",
+    "course_id": "257",
+    "course_code": "CS23331",
+    "course_name": "Design and Analysis of Algorithms"
+  },
+  {
+    "teacher_id": "250",
+    "teacher_name": "Mr. Ayyadurai M",
+    "student_group": "CSE-2I",
+    "course_id": "256",
+    "course_code": "CS23311",
+    "course_name": "Computer Architecture"
+  },
+  {
+    "teacher_id": "203",
+    "teacher_name": "Mrs. Akiladevi R",
+    "student_group": "CSE-2I",
+    "course_id": "259",
+    "course_code": "CS23333",
+    "course_name": "Object Oriented Programming Using JAVA"
+  },
+  {
+    "teacher_id": "1787",
+    "teacher_name": "AIML  NS2",
+    "student_group": "CSE-2I",
+    "course_id": "258",
+    "course_code": "CS23332",
+    "course_name": "Database Management Systems"
+  },
+  {
+    "teacher_id": "211",
+    "teacher_name": "Mr. Dr.K.Anand",
+    "student_group": "CSE-2J",
+    "course_id": "260",
+    "course_code": "CS23334",
+    "course_name": "Fundamentals of Data Science"
+  },
+  {
+    "teacher_id": "425",
+    "teacher_name": "Mrs. Dr S.Bhavani",
+    "student_group": "CSE-2J",
+    "course_id": "423",
+    "course_code": "MA23312",
+    "course_name": "Fourier series and Number theory"
+  },
+  {
+    "teacher_id": "179",
+    "teacher_name": "Mrs. Revathy Padmanabhan",
+    "student_group": "CSE-2J",
+    "course_id": "257",
+    "course_code": "CS23331",
+    "course_name": "Design and Analysis of Algorithms"
+  },
+  {
+    "teacher_id": "191",
+    "teacher_name": "Mr. Dr V.Murali Bhaskaran",
+    "student_group": "CSE-2J",
+    "course_id": "256",
+    "course_code": "CS23311",
+    "course_name": "Computer Architecture"
+  },
+  {
+    "teacher_id": "231",
+    "teacher_name": "Ms. Divya M",
+    "student_group": "CSE-2J",
+    "course_id": "259",
+    "course_code": "CS23333",
+    "course_name": "Object Oriented Programming Using JAVA"
+  },
+  {
+    "teacher_id": "1789",
+    "teacher_name": "New Staff 2 N",
+    "student_group": "CSE-2J",
+    "course_id": "258",
+    "course_code": "CS23332",
+    "course_name": "Database Management Systems"
+  },
+  {
+    "teacher_id": "577",
+    "teacher_name": "HOD AIML",
+    "student_group": "AIML-4A",
+    "course_id": "710",
+    "course_code": "AI19741",
+    "course_name": "Big Data Technology"
+  },
+  {
+    "teacher_id": "57",
+    "teacher_name": "Mr. Magesh M P",
+    "student_group": "AIML-4A",
+    "course_id": "712",
+    "course_code": "AI19P75",
+    "course_name": "Information Retrieval"
+  },
+  {
+    "teacher_id": "47",
+    "teacher_name": "Dr. N M Balamurugan",
+    "student_group": "AIML-4A",
+    "course_id": "749",
+    "course_code": "AI19701",
+    "course_name": "Secure Systems Engineering"
+  },
+  {
+    "teacher_id": "1827",
+    "teacher_name": "New Faculty English (PLACEHOLDER)",
+    "student_group": "AIML-4A",
+    "course_id": "750",
+    "course_code": "AI19702",
+    "course_name": "Social and Ethical Issues in AI"
+  },
+  {
+    "teacher_id": "38",
+    "teacher_name": "Mr. Vijay K",
+    "student_group": "AIML-4A",
+    "course_id": "748",
+    "course_code": "AI19P71",
+    "course_name": "Data Visualization using Python"
+  },
+  {
+    "teacher_id": "67",
+    "teacher_name": "Dr. Raju K",
+    "student_group": "AIML-4A",
+    "course_id": "714",
+    "course_code": "AI19P76",
+    "course_name": "Supply Chain Analytics"
+  },
+  {
+    "teacher_id": "577",
+    "teacher_name": "HOD AIML",
+    "student_group": "AIML-4A",
+    "course_id": "751",
+    "course_code": "AI19711",
+    "course_name": "Project-I"
+  },
+  {
+    "teacher_id": "39",
+    "teacher_name": "Mrs. Sangeetha K",
+    "student_group": "AIML-4B",
+    "course_id": "710",
+    "course_code": "AI19741",
+    "course_name": "Big Data Technology"
+  },
+  {
+    "teacher_id": "37",
+    "teacher_name": "Mr. Kumaran U",
+    "student_group": "AIML-4B",
+    "course_id": "712",
+    "course_code": "AI19P75",
+    "course_name": "Information Retrieval"
+  },
+  {
+    "teacher_id": "35",
+    "teacher_name": "Ms. R.Anitha",
+    "student_group": "AIML-4B",
+    "course_id": "749",
+    "course_code": "AI19701",
+    "course_name": "Secure Systems Engineering"
+  },
+  {
+    "teacher_id": "1828",
+    "teacher_name": "New Faculty English (PLACEHOLDER)",
+    "student_group": "AIML-4B",
+    "course_id": "750",
+    "course_code": "AI19702",
+    "course_name": "Social and Ethical Issues in AI"
+  },
+  {
+    "teacher_id": "31",
+    "teacher_name": "Mrs. Dr. S. Poonkuzhali",
+    "student_group": "AIML-4B",
+    "course_id": "748",
+    "course_code": "AI19P71",
+    "course_name": "Data Visualization using Python"
+  },
+  {
+    "teacher_id": "67",
+    "teacher_name": "Dr. Raju K",
+    "student_group": "AIML-4B",
+    "course_id": "714",
+    "course_code": "AI19P76",
+    "course_name": "Supply Chain Analytics"
+  },
+  {
+    "teacher_id": "40",
+    "teacher_name": "Mrs. Sowmia K R",
+    "student_group": "AIML-4B",
+    "course_id": "751",
+    "course_code": "AI19711",
+    "course_name": "Project-I"
+  },
+  {
+    "teacher_id": "33",
+    "teacher_name": "Ms. V Akshaya",
+    "student_group": "AIML-4C",
+    "course_id": "710",
+    "course_code": "AI19741",
+    "course_name": "Big Data Technology"
+  },
+  {
+    "teacher_id": "57",
+    "teacher_name": "Mr. Magesh M P",
+    "student_group": "AIML-4C",
+    "course_id": "712",
+    "course_code": "AI19P75",
+    "course_name": "Information Retrieval"
+  },
+  {
+    "teacher_id": "52",
+    "teacher_name": "Ms. Soundarya M",
+    "student_group": "AIML-4C",
+    "course_id": "749",
+    "course_code": "AI19701",
+    "course_name": "Secure Systems Engineering"
+  },
+  {
+    "teacher_id": "1829",
+    "teacher_name": "New Faculty English (PLACEHOLDER)",
+    "student_group": "AIML-4C",
+    "course_id": "750",
+    "course_code": "AI19702",
+    "course_name": "Social and Ethical Issues in AI"
+  },
+  {
+    "teacher_id": "38",
+    "teacher_name": "Mr. Vijay K",
+    "student_group": "AIML-4C",
+    "course_id": "748",
+    "course_code": "AI19P71",
+    "course_name": "Data Visualization using Python"
+  },
+  {
+    "teacher_id": "67",
+    "teacher_name": "Dr. Raju K",
+    "student_group": "AIML-4C",
+    "course_id": "714",
+    "course_code": "AI19P76",
+    "course_name": "Supply Chain Analytics"
+  },
+  {
+    "teacher_id": "36",
+    "teacher_name": "Mrs. Sree Subha S",
+    "student_group": "AIML-4C",
+    "course_id": "751",
+    "course_code": "AI19711",
+    "course_name": "Project-I"
+  },
+  {
+    "teacher_id": "57",
+    "teacher_name": "Mr. Magesh M P",
+    "student_group": "AIML-2A",
+    "course_id": "36",
+    "course_code": "AI23331",
+    "course_name": "Fundamentals of Machine Learning"
+  },
+  {
+    "teacher_id": "53",
+    "teacher_name": "Mrs. Divya S",
+    "student_group": "AIML-2A",
+    "course_id": "257",
+    "course_code": "CS23331",
+    "course_name": "Design and Analysis of Algorithms"
+  },
+  {
+    "teacher_id": "1794",
+    "teacher_name": "AIML  NS4",
+    "student_group": "AIML-2A",
+    "course_id": "259",
+    "course_code": "CS23333",
+    "course_name": "Object Oriented Programming Using JAVA"
+  },
+  {
+    "teacher_id": "224",
+    "teacher_name": "Mrs. Mahesmeena",
+    "student_group": "AIML-2A",
+    "course_id": "258",
+    "course_code": "CS23332",
+    "course_name": "Database Management Systems"
+  },
+  {
+    "teacher_id": "552",
+    "teacher_name": "Mr. J.Venkatamuthukumar",
+    "student_group": "AIML-2A",
+    "course_id": "435",
+    "course_code": "MC23112",
+    "course_name": "Environmental Science and Engineering"
+  },
+  {
+    "teacher_id": "440",
+    "teacher_name": "Mrs. M. Subha",
+    "student_group": "AIML-2A",
+    "course_id": "424",
+    "course_code": "MA23313",
+    "course_name": "Discrete Mathematics for AI"
+  },
+  {
+    "teacher_id": "54",
+    "teacher_name": "Mrs. Priya M",
+    "student_group": "AIML-2B",
+    "course_id": "36",
+    "course_code": "AI23331",
+    "course_name": "Fundamentals of Machine Learning"
+  },
+  {
+    "teacher_id": "179",
+    "teacher_name": "Mrs. Revathy Padmanabhan",
+    "student_group": "AIML-2B",
+    "course_id": "257",
+    "course_code": "CS23331",
+    "course_name": "Design and Analysis of Algorithms"
+  },
+  {
+    "teacher_id": "1792",
+    "teacher_name": "New Staff 5 N",
+    "student_group": "AIML-2B",
+    "course_id": "259",
+    "course_code": "CS23333",
+    "course_name": "Object Oriented Programming Using JAVA"
+  },
+  {
+    "teacher_id": "192",
+    "teacher_name": "Mrs. Jananee V",
+    "student_group": "AIML-2B",
+    "course_id": "258",
+    "course_code": "CS23332",
+    "course_name": "Database Management Systems"
+  },
+  {
+    "teacher_id": "551",
+    "teacher_name": "Mr. Dr.P Vasudevan",
+    "student_group": "AIML-2B",
+    "course_id": "435",
+    "course_code": "MC23112",
+    "course_name": "Environmental Science and Engineering"
+  },
+  {
+    "teacher_id": "419",
+    "teacher_name": "Mrs. J.Julie",
+    "student_group": "AIML-2B",
+    "course_id": "424",
+    "course_code": "MA23313",
+    "course_name": "Discrete Mathematics for AI"
+  },
+  {
+    "teacher_id": "50",
+    "teacher_name": "Mrs. J Jasmine Gabriel",
+    "student_group": "AIML-2C",
+    "course_id": "36",
+    "course_code": "AI23331",
+    "course_name": "Fundamentals of Machine Learning"
+  },
+  {
+    "teacher_id": "196",
+    "teacher_name": "Mr. Dr.P.Shanmugam",
+    "student_group": "AIML-2C",
+    "course_id": "257",
+    "course_code": "CS23331",
+    "course_name": "Design and Analysis of Algorithms"
+  },
+  {
+    "teacher_id": "1790",
+    "teacher_name": "New Staff 3 N",
+    "student_group": "AIML-2C",
+    "course_id": "259",
+    "course_code": "CS23333",
+    "course_name": "Object Oriented Programming Using JAVA"
+  },
+  {
+    "teacher_id": "235",
+    "teacher_name": "Dr. Bhuvaneswari R",
+    "student_group": "AIML-2C",
+    "course_id": "258",
+    "course_code": "CS23332",
+    "course_name": "Database Management Systems"
+  },
+  {
+    "teacher_id": "541",
+    "teacher_name": "Mr. M Sankar Kumar",
+    "student_group": "AIML-2C",
+    "course_id": "435",
+    "course_code": "MC23112",
+    "course_name": "Environmental Science and Engineering"
+  },
+  {
+    "teacher_id": "433",
+    "teacher_name": "Mrs. S.Vasanthi",
+    "student_group": "AIML-2C",
+    "course_id": "424",
+    "course_code": "MA23313",
+    "course_name": "Discrete Mathematics for AI"
+  },
+  {
+    "teacher_id": "1827",
+    "teacher_name": "New Faculty English (PLACEHOLDER)",
+    "student_group": "AIML-2D",
+    "course_id": "36",
+    "course_code": "AI23331",
+    "course_name": "Fundamentals of Machine Learning"
+  },
+  {
+    "teacher_id": "205",
+    "teacher_name": "Mrs. Santhiya M",
+    "student_group": "AIML-2D",
+    "course_id": "257",
+    "course_code": "CS23331",
+    "course_name": "Design and Analysis of Algorithms"
+  },
+  {
+    "teacher_id": "1808",
+    "teacher_name": "New Faculty English (PLACEHOLDER)",
+    "student_group": "AIML-2D",
+    "course_id": "259",
+    "course_code": "CS23333",
+    "course_name": "Object Oriented Programming Using JAVA"
+  },
+  {
+    "teacher_id": "37",
+    "teacher_name": "Mr. Kumaran U",
+    "student_group": "AIML-2D",
+    "course_id": "258",
+    "course_code": "CS23332",
+    "course_name": "Database Management Systems"
+  },
+  {
+    "teacher_id": "556",
+    "teacher_name": "Dr. Mahesh R",
+    "student_group": "AIML-2D",
+    "course_id": "435",
+    "course_code": "MC23112",
+    "course_name": "Environmental Science and Engineering"
+  },
+  {
+    "teacher_id": "434",
+    "teacher_name": "Mrs. Anbarasi.V",
+    "student_group": "AIML-2D",
+    "course_id": "424",
+    "course_code": "MA23313",
+    "course_name": "Discrete Mathematics for AI"
+  },
+  {
+    "teacher_id": "591",
+    "teacher_name": "HOD CSE(CS)",
+    "student_group": "AIML-3A",
+    "course_id": "270",
+    "course_code": "CS23532",
+    "course_name": "Computer Networks"
+  },
+  {
+    "teacher_id": "36",
+    "teacher_name": "Mrs. Sree Subha S",
+    "student_group": "AIML-3A",
+    "course_id": "707",
+    "course_code": "AI23512",
+    "course_name": "DataEngineering"
+  },
+  {
+    "teacher_id": "54",
+    "teacher_name": "Mrs. Priya M",
+    "student_group": "AIML-3A",
+    "course_id": "900",
+    "course_code": "AD23632",
+    "course_name": "Framework for data and visual Analytics"
+  },
+  {
+    "teacher_id": "1793",
+    "teacher_name": "AIML  NS3",
+    "student_group": "AIML-3A",
+    "course_id": "38",
+    "course_code": "AI23521",
+    "course_name": "Build and Deploy Machine Learning Applications"
+  },
+  {
+    "teacher_id": "39",
+    "teacher_name": "Mrs. Sangeetha K",
+    "student_group": "AIML-3A",
+    "course_id": "752",
+    "course_code": "AI23A37",
+    "course_name": "Computer Vision and Applications"
+  },
+  {
+    "teacher_id": "33",
+    "teacher_name": "Ms. V Akshaya",
+    "student_group": "AIML-3A",
+    "course_id": "39",
+    "course_code": "AI23531",
+    "course_name": "Deep Learning"
+  },
+  {
+    "teacher_id": "1826",
+    "teacher_name": "New Faculty English (PLACEHOLDER)",
+    "student_group": "AIML-3A",
+    "course_id": "753",
+    "course_code": "AI23A35",
+    "course_name": "Recommendation Systems"
+  },
+  {
+    "teacher_id": "246",
+    "teacher_name": "Mrs. Subashri Meenakshi G",
+    "student_group": "AIML-3B",
+    "course_id": "270",
+    "course_code": "CS23532",
+    "course_name": "Computer Networks"
+  },
+  {
+    "teacher_id": "63",
+    "teacher_name": "Dr. Rajasekaran Annamalai",
+    "student_group": "AIML-3B",
+    "course_id": "707",
+    "course_code": "AI23512",
+    "course_name": "DataEngineering"
+  },
+  {
+    "teacher_id": "63",
+    "teacher_name": "Dr. Rajasekaran Annamalai",
+    "student_group": "AIML-3B",
+    "course_id": "900",
+    "course_code": "AD23632",
+    "course_name": "Framework for data and visual Analytics"
+  },
+  {
+    "teacher_id": "1794",
+    "teacher_name": "AIML  NS4",
+    "student_group": "AIML-3B",
+    "course_id": "38",
+    "course_code": "AI23521",
+    "course_name": "Build and Deploy Machine Learning Applications"
+  },
+  {
+    "teacher_id": "90",
+    "teacher_name": "Mr. Srinivasan T",
+    "student_group": "AIML-3B",
+    "course_id": "752",
+    "course_code": "AI23A37",
+    "course_name": "Computer Vision and Applications"
+  },
+  {
+    "teacher_id": "53",
+    "teacher_name": "Mrs. Divya S",
+    "student_group": "AIML-3B",
+    "course_id": "39",
+    "course_code": "AI23531",
+    "course_name": "Deep Learning"
+  },
+  {
+    "teacher_id": "1826",
+    "teacher_name": "New Faculty English (PLACEHOLDER)",
+    "student_group": "AIML-3B",
+    "course_id": "753",
+    "course_code": "AI23A35",
+    "course_name": "Recommendation Systems"
+  },
+  {
+    "teacher_id": "217",
+    "teacher_name": "Mrs. Dr.R.Sabitha",
+    "student_group": "AIML-3C",
+    "course_id": "270",
+    "course_code": "CS23532",
+    "course_name": "Computer Networks"
+  },
+  {
+    "teacher_id": "40",
+    "teacher_name": "Mrs. Sowmia K R",
+    "student_group": "AIML-3C",
+    "course_id": "707",
+    "course_code": "AI23512",
+    "course_name": "DataEngineering"
+  },
+  {
+    "teacher_id": "50",
+    "teacher_name": "Mrs. J Jasmine Gabriel",
+    "student_group": "AIML-3C",
+    "course_id": "900",
+    "course_code": "AD23632",
+    "course_name": "Framework for data and visual Analytics"
+  },
+  {
+    "teacher_id": "46",
+    "teacher_name": "Ms. Saranya S",
+    "student_group": "AIML-3C",
+    "course_id": "38",
+    "course_code": "AI23521",
+    "course_name": "Build and Deploy Machine Learning Applications"
+  },
+  {
+    "teacher_id": "39",
+    "teacher_name": "Mrs. Sangeetha K",
+    "student_group": "AIML-3C",
+    "course_id": "752",
+    "course_code": "AI23A37",
+    "course_name": "Computer Vision and Applications"
+  },
+  {
+    "teacher_id": "67",
+    "teacher_name": "Dr. Raju K",
+    "student_group": "AIML-3C",
+    "course_id": "39",
+    "course_code": "AI23531",
+    "course_name": "Deep Learning"
+  },
+  {
+    "teacher_id": "1826",
+    "teacher_name": "New Faculty English (PLACEHOLDER)",
+    "student_group": "AIML-3C",
+    "course_id": "753",
+    "course_code": "AI23A35",
+    "course_name": "Recommendation Systems"
+  },
+  {
+    "teacher_id": "204",
+    "teacher_name": "Mr. Bhuvaneswaran B",
+    "student_group": "CSE-4A",
+    "course_id": "830",
+    "course_code": "CS19P21",
+    "course_name": "Advanced Robotic Process Automation"
+  },
+  {
+    "teacher_id": "205",
+    "teacher_name": "Mrs. Santhiya M",
+    "student_group": "CSE-4A",
+    "course_id": "827",
+    "course_code": "CS19741",
+    "course_name": "Cloud Computing"
+  },
+  {
+    "teacher_id": "204",
+    "teacher_name": "Mr. Bhuvaneswaran B",
+    "student_group": "CSE-4A",
+    "course_id": "831",
+    "course_code": "CS19P23",
+    "course_name": "Advanced Application Development with Oracle APEX"
+  },
+  {
+    "teacher_id": "202",
+    "teacher_name": "Mr. Dr. N. Duraimurugan",
+    "student_group": "CSE-4A",
+    "course_id": "841",
+    "course_code": "CS19711",
+    "course_name": "Project-1"
+  },
+  {
+    "teacher_id": "199",
+    "teacher_name": "Mrs. J.Jinu Sophia",
+    "student_group": "CSE-4A",
+    "course_id": "828",
+    "course_code": "CS19P14",
+    "course_name": "INFORMATION SECURITY AND MANAGEMENT"
+  },
+  {
+    "teacher_id": "202",
+    "teacher_name": "Mr. Dr. N. Duraimurugan",
+    "student_group": "CSE-4B",
+    "course_id": "830",
+    "course_code": "CS19P21",
+    "course_name": "Advanced Robotic Process Automation"
+  },
+  {
+    "teacher_id": "227",
+    "teacher_name": "Dr. M.Rakesh Kumar",
+    "student_group": "CSE-4B",
+    "course_id": "827",
+    "course_code": "CS19741",
+    "course_name": "Cloud Computing"
+  },
+  {
+    "teacher_id": "204",
+    "teacher_name": "Mr. Bhuvaneswaran B",
+    "student_group": "CSE-4B",
+    "course_id": "831",
+    "course_code": "CS19P23",
+    "course_name": "Advanced Application Development with Oracle APEX"
+  },
+  {
+    "teacher_id": "235",
+    "teacher_name": "Dr. Bhuvaneswari R",
+    "student_group": "CSE-4B",
+    "course_id": "841",
+    "course_code": "CS19711",
+    "course_name": "Project-1"
+  },
+  {
+    "teacher_id": "199",
+    "teacher_name": "Mrs. J.Jinu Sophia",
+    "student_group": "CSE-4B",
+    "course_id": "828",
+    "course_code": "CS19P14",
+    "course_name": "INFORMATION SECURITY AND MANAGEMENT"
+  },
+  {
+    "teacher_id": "204",
+    "teacher_name": "Mr. Bhuvaneswaran B",
+    "student_group": "CSE-4C",
+    "course_id": "830",
+    "course_code": "CS19P21",
+    "course_name": "Advanced Robotic Process Automation"
+  },
+  {
+    "teacher_id": "205",
+    "teacher_name": "Mrs. Santhiya M",
+    "student_group": "CSE-4C",
+    "course_id": "827",
+    "course_code": "CS19741",
+    "course_name": "Cloud Computing"
+  },
+  {
+    "teacher_id": "204",
+    "teacher_name": "Mr. Bhuvaneswaran B",
+    "student_group": "CSE-4C",
+    "course_id": "831",
+    "course_code": "CS19P23",
+    "course_name": "Advanced Application Development with Oracle APEX"
+  },
+  {
+    "teacher_id": "222",
+    "teacher_name": "Mr. Dr.K.Ananthajothi",
+    "student_group": "CSE-4C",
+    "course_id": "841",
+    "course_code": "CS19711",
+    "course_name": "Project-1"
+  },
+  {
+    "teacher_id": "199",
+    "teacher_name": "Mrs. J.Jinu Sophia",
+    "student_group": "CSE-4C",
+    "course_id": "828",
+    "course_code": "CS19P14",
+    "course_name": "INFORMATION SECURITY AND MANAGEMENT"
+  },
+  {
+    "teacher_id": "202",
+    "teacher_name": "Mr. Dr. N. Duraimurugan",
+    "student_group": "CSE-4D",
+    "course_id": "830",
+    "course_code": "CS19P21",
+    "course_name": "Advanced Robotic Process Automation"
+  },
+  {
+    "teacher_id": "227",
+    "teacher_name": "Dr. M.Rakesh Kumar",
+    "student_group": "CSE-4D",
+    "course_id": "827",
+    "course_code": "CS19741",
+    "course_name": "Cloud Computing"
+  },
+  {
+    "teacher_id": "204",
+    "teacher_name": "Mr. Bhuvaneswaran B",
+    "student_group": "CSE-4D",
+    "course_id": "831",
+    "course_code": "CS19P23",
+    "course_name": "Advanced Application Development with Oracle APEX"
+  },
+  {
+    "teacher_id": "227",
+    "teacher_name": "Dr. M.Rakesh Kumar",
+    "student_group": "CSE-4D",
+    "course_id": "841",
+    "course_code": "CS19711",
+    "course_name": "Project-1"
+  },
+  {
+    "teacher_id": "199",
+    "teacher_name": "Mrs. J.Jinu Sophia",
+    "student_group": "CSE-4D",
+    "course_id": "828",
+    "course_code": "CS19P14",
+    "course_name": "INFORMATION SECURITY AND MANAGEMENT"
+  },
+  {
+    "teacher_id": "204",
+    "teacher_name": "Mr. Bhuvaneswaran B",
+    "student_group": "CSE-4E",
+    "course_id": "830",
+    "course_code": "CS19P21",
+    "course_name": "Advanced Robotic Process Automation"
+  },
+  {
+    "teacher_id": "205",
+    "teacher_name": "Mrs. Santhiya M",
+    "student_group": "CSE-4E",
+    "course_id": "827",
+    "course_code": "CS19741",
+    "course_name": "Cloud Computing"
+  },
+  {
+    "teacher_id": "204",
+    "teacher_name": "Mr. Bhuvaneswaran B",
+    "student_group": "CSE-4E",
+    "course_id": "831",
+    "course_code": "CS19P23",
+    "course_name": "Advanced Application Development with Oracle APEX"
+  },
+  {
+    "teacher_id": "211",
+    "teacher_name": "Mr. Dr.K.Anand",
+    "student_group": "CSE-4E",
+    "course_id": "841",
+    "course_code": "CS19711",
+    "course_name": "Project-1"
+  },
+  {
+    "teacher_id": "199",
+    "teacher_name": "Mrs. J.Jinu Sophia",
+    "student_group": "CSE-4E",
+    "course_id": "828",
+    "course_code": "CS19P14",
+    "course_name": "INFORMATION SECURITY AND MANAGEMENT"
+  },
+  {
+    "teacher_id": "238",
+    "teacher_name": "Dr. Balasubramanian V",
+    "student_group": "CSE-CS-3A",
+    "course_id": "243",
+    "course_code": "CR23531",
+    "course_name": "Ethical Hacking"
+  },
+  {
+    "teacher_id": "1789",
+    "teacher_name": "New Staff 2 N",
+    "student_group": "CSE-CS-3A",
+    "course_id": "389",
+    "course_code": "GE23521",
+    "course_name": "Soft Skills \u2013 II"
+  },
+  {
+    "teacher_id": "188",
+    "teacher_name": "Mr. Dr.S.Vinodhkumar",
+    "student_group": "CSE-CS-3A",
+    "course_id": "590",
+    "course_code": "CS23533",
+    "course_name": "Foundations of Artificial Intelligence"
+  },
+  {
+    "teacher_id": "202",
+    "teacher_name": "Mr. Dr. N. Duraimurugan",
+    "student_group": "CSE-CS-3A",
+    "course_id": "269",
+    "course_code": "CS23531",
+    "course_name": "Web Programming"
+  },
+  {
+    "teacher_id": "1791",
+    "teacher_name": "New Staff 4 N",
+    "student_group": "CSE-CS-3A",
+    "course_id": "244",
+    "course_code": "CR23532",
+    "course_name": "Cyber and Digital Forensics"
+  },
+  {
+    "teacher_id": "165",
+    "teacher_name": "Dr. Manikandan Thirumalaisamy",
+    "student_group": "CSBS-2A",
+    "course_id": "150",
+    "course_code": "CB23332",
+    "course_name": "Software Engineering"
+  },
+  {
+    "teacher_id": "167",
+    "teacher_name": "Mrs. Rajammal K",
+    "student_group": "CSBS-2A",
+    "course_id": "151",
+    "course_code": "CB23333",
+    "course_name": "Database Technology"
+  },
+  {
+    "teacher_id": "1807",
+    "teacher_name": "New Faculty English (PLACEHOLDER)",
+    "student_group": "CSBS-2A",
+    "course_id": "147",
+    "course_code": "CB23311",
+    "course_name": "Formal Language and Automata Theory"
+  },
+  {
+    "teacher_id": "450",
+    "teacher_name": "Dr. V. R. Sunil Kumar",
+    "student_group": "CSBS-2A",
+    "course_id": "149",
+    "course_code": "CB23331",
+    "course_name": "Computational Statistics"
+  },
+  {
+    "teacher_id": "1805",
+    "teacher_name": "New Faculty English (PLACEHOLDER)",
+    "student_group": "CSBS-2A",
+    "course_id": "148",
+    "course_code": "CB23312",
+    "course_name": "Computer Organization and Architecture"
+  },
+  {
+    "teacher_id": "36",
+    "teacher_name": "Mrs. Sree Subha S",
+    "student_group": "CSBS-2A",
+    "course_id": "259",
+    "course_code": "CS23333",
+    "course_name": "Object Oriented Programming Using JAVA"
+  },
+  {
+    "teacher_id": "143",
+    "teacher_name": "Mrs. Dr. D. Udhayakumari",
+    "student_group": "CSBS-2A",
+    "course_id": "437",
+    "course_code": "MC23313",
+    "course_name": "Environmental Sciences"
+  },
+  {
+    "teacher_id": "193",
+    "teacher_name": "Mrs. Dr. K Devaki",
+    "student_group": "CSBS-2B",
+    "course_id": "150",
+    "course_code": "CB23332",
+    "course_name": "Software Engineering"
+  },
+  {
+    "teacher_id": "156",
+    "teacher_name": "Mrs. Nisha R S",
+    "student_group": "CSBS-2B",
+    "course_id": "151",
+    "course_code": "CB23333",
+    "course_name": "Database Technology"
+  },
+  {
+    "teacher_id": "173",
+    "teacher_name": "Dr. Vishnu Kumar A",
+    "student_group": "CSBS-2B",
+    "course_id": "147",
+    "course_code": "CB23311",
+    "course_name": "Formal Language and Automata Theory"
+  },
+  {
+    "teacher_id": "1806",
+    "teacher_name": "New Faculty English (PLACEHOLDER)",
+    "student_group": "CSBS-2B",
+    "course_id": "149",
+    "course_code": "CB23331",
+    "course_name": "Computational Statistics"
+  },
+  {
+    "teacher_id": "175",
+    "teacher_name": "Mrs. Jayanthi M",
+    "student_group": "CSBS-2B",
+    "course_id": "148",
+    "course_code": "CB23312",
+    "course_name": "Computer Organization and Architecture"
+  },
+  {
+    "teacher_id": "40",
+    "teacher_name": "Mrs. Sowmia K R",
+    "student_group": "CSBS-2B",
+    "course_id": "259",
+    "course_code": "CS23333",
+    "course_name": "Object Oriented Programming Using JAVA"
+  },
+  {
+    "teacher_id": "168",
+    "teacher_name": "Mr. Manigandan Ramadoss",
+    "student_group": "CSBS-2B",
+    "course_id": "437",
+    "course_code": "MC23313",
+    "course_name": "Environmental Sciences"
+  },
+  {
+    "teacher_id": "167",
+    "teacher_name": "Mrs. Rajammal K",
+    "student_group": "CSBS-4A",
+    "course_id": "872",
+    "course_code": "CB19741",
+    "course_name": "Usability Design of Software  Applications"
+  },
+  {
+    "teacher_id": "164",
+    "teacher_name": "Mrs. K Poornimathi",
+    "student_group": "CSBS-4A",
+    "course_id": "877",
+    "course_code": "CB19711",
+    "course_name": "Project Evaluation I"
+  },
+  {
+    "teacher_id": "1806",
+    "teacher_name": "New Faculty English (PLACEHOLDER)",
+    "student_group": "CSBS-4A",
+    "course_id": "875",
+    "course_code": "CB19P45",
+    "course_name": "Modern Web Applications"
+  },
+  {
+    "teacher_id": "1807",
+    "teacher_name": "New Faculty English (PLACEHOLDER)",
+    "student_group": "CSBS-4A",
+    "course_id": "873",
+    "course_code": "CB19742",
+    "course_name": "IT Workshop"
+  },
+  {
+    "teacher_id": "156",
+    "teacher_name": "Mrs. Nisha R S",
+    "student_group": "CSBS-4B",
+    "course_id": "872",
+    "course_code": "CB19741",
+    "course_name": "Usability Design of Software  Applications"
+  },
+  {
+    "teacher_id": "165",
+    "teacher_name": "Dr. Manikandan Thirumalaisamy",
+    "student_group": "CSBS-4B",
+    "course_id": "877",
+    "course_code": "CB19711",
+    "course_name": "Project Evaluation I"
+  },
+  {
+    "teacher_id": "170",
+    "teacher_name": "Mrs. Dr. P. Tamil Selvi",
+    "student_group": "CSBS-4B",
+    "course_id": "875",
+    "course_code": "CB19P45",
+    "course_name": "Modern Web Applications"
+  },
+  {
+    "teacher_id": "164",
+    "teacher_name": "Mrs. K Poornimathi",
+    "student_group": "CSBS-4B",
+    "course_id": "873",
+    "course_code": "CB19742",
+    "course_name": "IT Workshop"
+  },
+  {
+    "teacher_id": "180",
+    "teacher_name": "Mrs. S.Bakiyalakshmi",
+    "student_group": "CSBS-3A",
+    "course_id": "157",
+    "course_code": "CB23531",
+    "course_name": "Computer Network Technology"
+  },
+  {
+    "teacher_id": "180",
+    "teacher_name": "Mrs. S.Bakiyalakshmi",
+    "student_group": "CSBS-3A",
+    "course_id": "890",
+    "course_code": "CB23D31",
+    "course_name": "Data Mining and Analytics"
+  },
+  {
+    "teacher_id": "1805",
+    "teacher_name": "New Faculty English (PLACEHOLDER)",
+    "student_group": "CSBS-3A",
+    "course_id": "158",
+    "course_code": "CB23532",
+    "course_name": "Artificial Intelligence"
+  },
+  {
+    "teacher_id": "172",
+    "teacher_name": "Ms. Janani U",
+    "student_group": "CSBS-3A",
+    "course_id": "156",
+    "course_code": "CB23521",
+    "course_name": "Design Thinking for Innovation in Computer Science and Business Systems"
+  },
+  {
+    "teacher_id": "173",
+    "teacher_name": "Dr. Vishnu Kumar A",
+    "student_group": "CSBS-3B",
+    "course_id": "157",
+    "course_code": "CB23531",
+    "course_name": "Computer Network Technology"
+  },
+  {
+    "teacher_id": "170",
+    "teacher_name": "Mrs. Dr. P. Tamil Selvi",
+    "student_group": "CSBS-3B",
+    "course_id": "890",
+    "course_code": "CB23D31",
+    "course_name": "Data Mining and Analytics"
+  },
+  {
+    "teacher_id": "1804",
+    "teacher_name": "New Faculty English (PLACEHOLDER)",
+    "student_group": "CSBS-3B",
+    "course_id": "158",
+    "course_code": "CB23532",
+    "course_name": "Artificial Intelligence"
+  },
+  {
+    "teacher_id": "172",
+    "teacher_name": "Ms. Janani U",
+    "student_group": "CSBS-3B",
+    "course_id": "156",
+    "course_code": "CB23521",
+    "course_name": "Design Thinking for Innovation in Computer Science and Business Systems"
+  }
+]
