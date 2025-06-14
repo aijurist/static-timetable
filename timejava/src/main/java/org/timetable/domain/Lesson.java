@@ -4,6 +4,8 @@ import org.optaplanner.core.api.domain.entity.PlanningEntity;
 import org.optaplanner.core.api.domain.lookup.PlanningId;
 import org.optaplanner.core.api.domain.variable.PlanningVariable;
 
+import java.time.temporal.ChronoUnit;
+
 @PlanningEntity
 public class Lesson {
     @PlanningId
@@ -11,9 +13,8 @@ public class Lesson {
     private Teacher teacher;
     private Course course;
     private StudentGroup studentGroup;
-    private String sessionType; // lecture, lab, tutorial
-    private String pattern; // A1, A2, A3, TA1, TA2
-    private String labBatch;
+    private String sessionType; // "lecture", "lab", "tutorial"
+    private String labBatch; // "B1", "B2", or null for full class sessions
 
     @PlanningVariable(valueRangeProviderRefs = "timeSlotRange")
     private TimeSlot timeSlot;
@@ -21,19 +22,49 @@ public class Lesson {
     @PlanningVariable(valueRangeProviderRefs = "roomRange")
     private Room room;
 
+    // No-arg constructor required for OptaPlanner
     public Lesson() {
     }
 
-    public Lesson(String id, Teacher teacher, Course course, StudentGroup studentGroup, 
-                  String sessionType, String pattern, String labBatch) {
+    public Lesson(Course course, Teacher teacher, StudentGroup studentGroup, String sessionType) {
+        this.id = String.format("%s_%s_%s_%s", course.getId(), teacher.getId(), studentGroup.getId(), sessionType);
+        this.course = course;
+        this.teacher = teacher;
+        this.studentGroup = studentGroup;
+        this.sessionType = sessionType;
+    }
+
+    public Lesson(String id, Teacher teacher, Course course, StudentGroup studentGroup, String sessionType, String labBatch) {
         this.id = id;
         this.teacher = teacher;
         this.course = course;
         this.studentGroup = studentGroup;
         this.sessionType = sessionType;
-        this.pattern = pattern;
         this.labBatch = labBatch;
     }
+    
+    /**
+     * @return The required capacity for this lesson. Labs with batches need smaller rooms.
+     */
+    public int getRequiredCapacity() {
+        if ("lab".equals(this.sessionType) && this.labBatch != null) {
+            return 35; // Standard lab batch size
+        }
+        return this.studentGroup.getSize(); // Full class size
+    }
+
+    /**
+     * @return The duration of the lesson in hours, based on its assigned timeslot.
+     */
+    public long getDurationInHours() {
+        if (timeSlot == null) {
+            return 0;
+        }
+        return ChronoUnit.HOURS.between(timeSlot.getStartTime(), timeSlot.getEndTime());
+    }
+
+
+    // --- Getters and Setters ---
 
     public String getId() {
         return id;
@@ -75,14 +106,6 @@ public class Lesson {
         this.sessionType = sessionType;
     }
 
-    public String getPattern() {
-        return pattern;
-    }
-
-    public void setPattern(String pattern) {
-        this.pattern = pattern;
-    }
-
     public String getLabBatch() {
         return labBatch;
     }
@@ -109,6 +132,7 @@ public class Lesson {
 
     @Override
     public String toString() {
-        return course + " by " + teacher + " for " + studentGroup + " (" + sessionType + ")";
+        String batchInfo = labBatch != null ? " (" + labBatch + ")" : "";
+        return course + " for " + studentGroup + " (" + sessionType + batchInfo + ")";
     }
-} 
+}

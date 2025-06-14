@@ -22,17 +22,16 @@ public class TimetableExporter {
     public static void exportTimetableToCsv(TimetableProblem solution, String outputFile) throws IOException {
         try (FileWriter writer = new FileWriter(outputFile)) {
             // Write header
-            writer.write("Teacher,Course,Group,Type,Pattern,Day,StartTime,EndTime,Room\n");
+            writer.write("Teacher,Course,Group,Type,Day,StartTime,EndTime,Room\n");
             
             // Write lessons
             for (Lesson lesson : solution.getLessons()) {
                 if (lesson.getTimeSlot() != null && lesson.getRoom() != null) {
-                    writer.write(String.format("%s,%s,%s,%s,%s,%s,%s,%s,%s\n",
+                    writer.write(String.format("%s,%s,%s,%s,%s,%s,%s,%s\n",
                         lesson.getTeacher().getName(),
                         lesson.getCourse().getName(),
                         lesson.getStudentGroup().getName(),
                         lesson.getSessionType(),
-                        lesson.getPattern(),
                         lesson.getTimeSlot().getDay(),
                         lesson.getTimeSlot().getStartTime().format(TIME_FORMATTER),
                         lesson.getTimeSlot().getEndTime().format(TIME_FORMATTER),

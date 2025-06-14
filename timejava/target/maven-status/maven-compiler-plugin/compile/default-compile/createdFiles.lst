@@ -1,0 +1,13 @@
+org\timetable\DataLoadTest.class
+org\timetable\domain\Course.class
+org\timetable\domain\Lesson.class
+org\timetable\domain\TimetableProblem.class
+org\timetable\domain\Teacher.class
+org\timetable\persistence\TimetableDataLoader.class
+org\timetable\domain\StudentGroup.class
+org\timetable\solver\TimetableConstraintProvider.class
+org\timetable\TimetableApp.class
+org\timetable\persistence\TimetableDataLoader$RawDataRecord.class
+org\timetable\domain\TimeSlot.class
+org\timetable\domain\Room.class
+org\timetable\persistence\TimetableExporter.class
