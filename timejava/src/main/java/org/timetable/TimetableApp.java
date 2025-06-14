@@ -4,6 +4,7 @@ import org.optaplanner.core.api.solver.Solver;
 import org.optaplanner.core.api.solver.SolverFactory;
 import org.optaplanner.core.config.solver.SolverConfig;
 import org.optaplanner.core.config.solver.termination.TerminationConfig;
+import org.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.timetable.domain.TimetableProblem;
@@ -92,7 +93,8 @@ public class TimetableApp {
         SolverConfig solverConfig = new SolverConfig()
             .withEntityClasses(org.timetable.domain.Lesson.class)
             .withSolutionClass(TimetableProblem.class)
-            .withConstraintProviderClass(TimetableConstraintProvider.class)
+            .withScoreDirectorFactory(new ScoreDirectorFactoryConfig()
+                .withEasyScoreCalculatorClass(TimetableConstraintProvider.class))
             .withTerminationConfig(new TerminationConfig()
                 .withMinutesSpentLimit(5L)); // 5 minutes time limit
         

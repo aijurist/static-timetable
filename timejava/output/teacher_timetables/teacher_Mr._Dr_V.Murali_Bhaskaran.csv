@@ -1,0 +1,19 @@
+Day,StartTime,EndTime,Course,Group,Room
+MONDAY,08:00,09:00,Computer Architecture,Section A,room_number
+TUESDAY,08:00,09:00,Computer Architecture,Section A,room_number
+WEDNESDAY,08:00,09:00,Computer Architecture,Section A,room_number
+MONDAY,09:00,10:00,Computer Architecture,Section B,room_number
+TUESDAY,09:00,10:00,Computer Architecture,Section B,room_number
+WEDNESDAY,09:00,10:00,Computer Architecture,Section B,room_number
+MONDAY,10:00,11:00,Computer Architecture,Section C,room_number
+TUESDAY,10:00,11:00,Computer Architecture,Section C,room_number
+WEDNESDAY,10:00,11:00,Computer Architecture,Section C,room_number
+MONDAY,11:00,12:00,Computer Architecture,Section D,room_number
+TUESDAY,11:00,12:00,Computer Architecture,Section D,room_number
+WEDNESDAY,11:00,12:00,Computer Architecture,Section D,room_number
+MONDAY,12:00,13:00,Computer Architecture,Section E,room_number
+TUESDAY,12:00,13:00,Computer Architecture,Section E,room_number
+WEDNESDAY,12:00,13:00,Computer Architecture,Section E,room_number
+MONDAY,13:00,14:00,Computer Architecture,Section F,room_number
+TUESDAY,13:00,14:00,Computer Architecture,Section F,room_number
+WEDNESDAY,13:00,14:00,Computer Architecture,Section F,room_number

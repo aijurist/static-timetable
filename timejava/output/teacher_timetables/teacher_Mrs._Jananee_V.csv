@@ -1,0 +1,12 @@
+Day,StartTime,EndTime,Course,Group,Room
+MONDAY,14:00,15:00,Database Management Systems,Section A,room_number
+TUESDAY,14:00,15:00,Database Management Systems,Section A,room_number
+WEDNESDAY,14:00,15:00,Database Management Systems,Section A,room_number
+THURSDAY,08:00,09:00,Database Management Systems,Section A,room_number
+THURSDAY,09:00,10:00,Database Management Systems,Section A,room_number
+FRIDAY,08:00,09:00,Database Management Systems,Section B,room_number
+MONDAY,08:00,10:00,Database Management Systems,Section B,room_number
+TUESDAY,08:00,10:00,Database Management Systems,Section B,room_number
+THURSDAY,10:00,11:00,Database Management Systems,Section B,room_number
+THURSDAY,11:00,12:00,Database Management Systems,Section B,room_number
+FRIDAY,09:00,10:00,Database Management Systems,Section C,room_number

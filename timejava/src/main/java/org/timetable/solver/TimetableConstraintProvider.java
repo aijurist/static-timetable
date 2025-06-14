@@ -1,150 +1,229 @@
 package org.timetable.solver;
 
 import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.ConstraintFactory;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
+import org.optaplanner.core.api.score.calculator.EasyScoreCalculator;
 import org.timetable.domain.Lesson;
+import org.timetable.domain.TimetableProblem;
 
-import java.time.DayOfWeek;
-import java.util.function.Function;
+import java.util.List;
 
-public class TimetableConstraintProvider implements ConstraintProvider {
+public class TimetableConstraintProvider implements EasyScoreCalculator<TimetableProblem, HardSoftScore> {
 
     @Override
-    public Constraint[] defineConstraints(ConstraintFactory constraintFactory) {
-        return new Constraint[] {
-            // Hard constraints
-            roomConflict(constraintFactory),
-            teacherConflict(constraintFactory),
-            studentGroupConflict(constraintFactory),
-            roomCapacity(constraintFactory),
-            labSessionInLabRoom(constraintFactory),
-            theorySessionInTheoryRoom(constraintFactory),
-            tutorialSessionInTheoryRoom(constraintFactory),
+    public HardSoftScore calculateScore(TimetableProblem solution) {
+        int hardScore = 0;
+        int softScore = 0;
+        
+        List<Lesson> lessons = solution.getLessons();
+        
+        // Apply hard constraints
+        hardScore += calculateRoomConflict(lessons);
+        hardScore += calculateTeacherConflict(lessons);
+        hardScore += calculateStudentGroupConflict(lessons);
+        hardScore += calculateRoomCapacity(lessons);
+        hardScore += calculateLabSessionInLabRoom(lessons);
+        hardScore += calculateTheorySessionInTheoryRoom(lessons);
+        hardScore += calculateTutorialSessionInTheoryRoom(lessons);
+        
+        // Apply soft constraints
+        softScore += calculateTeacherRoomStability(lessons);
+        softScore += calculateTheorySessionsOnDifferentDays(lessons);
+        softScore += calculateAvoidLateClasses(lessons);
+        
+        return HardSoftScore.of(hardScore, softScore);
+    }
+
+    private int calculateRoomConflict(List<Lesson> lessons) {
+        int score = 0;
+        
+        // Check each pair of lessons for room conflicts
+        for (int i = 0; i < lessons.size(); i++) {
+            Lesson lesson1 = lessons.get(i);
+            if (lesson1.getTimeSlot() == null || lesson1.getRoom() == null) {
+                continue;
+            }
             
-            // Soft constraints
-            teacherRoomStability(constraintFactory),
-            theorySessionsOnDifferentDays(constraintFactory),
-            avoidLateClasses(constraintFactory)
-        };
+            for (int j = i + 1; j < lessons.size(); j++) {
+                Lesson lesson2 = lessons.get(j);
+                if (lesson2.getTimeSlot() == null || lesson2.getRoom() == null) {
+                    continue;
+                }
+                
+                if (lesson1.getTimeSlot().equals(lesson2.getTimeSlot()) &&
+                    lesson1.getRoom().equals(lesson2.getRoom())) {
+                    score -= 1; // Penalize for room conflict
+                }
+            }
+        }
+        
+        return score;
     }
 
-    private Constraint roomConflict(ConstraintFactory constraintFactory) {
-        // A room can accommodate at most one lesson at the same time
-        return constraintFactory
-            .forEachUniquePair(Lesson.class)
-            .filter((lesson1, lesson2) -> 
-                lesson1.getTimeSlot() != null && lesson2.getTimeSlot() != null &&
-                lesson1.getRoom() != null && lesson2.getRoom() != null &&
-                lesson1.getTimeSlot().equals(lesson2.getTimeSlot()) &&
-                lesson1.getRoom().equals(lesson2.getRoom()))
-            .penalize(HardSoftScore.ONE_HARD)
-            .asConstraint("Room conflict");
+    private int calculateTeacherConflict(List<Lesson> lessons) {
+        int score = 0;
+        
+        // Check each pair of lessons for teacher conflicts
+        for (int i = 0; i < lessons.size(); i++) {
+            Lesson lesson1 = lessons.get(i);
+            if (lesson1.getTimeSlot() == null || lesson1.getTeacher() == null) {
+                continue;
+            }
+            
+            for (int j = i + 1; j < lessons.size(); j++) {
+                Lesson lesson2 = lessons.get(j);
+                if (lesson2.getTimeSlot() == null || lesson2.getTeacher() == null) {
+                    continue;
+                }
+                
+                if (lesson1.getTimeSlot().equals(lesson2.getTimeSlot()) &&
+                    lesson1.getTeacher().equals(lesson2.getTeacher())) {
+                    score -= 1; // Penalize for teacher conflict
+                }
+            }
+        }
+        
+        return score;
     }
 
-    private Constraint teacherConflict(ConstraintFactory constraintFactory) {
-        // A teacher can teach at most one lesson at the same time
-        return constraintFactory
-            .forEachUniquePair(Lesson.class)
-            .filter((lesson1, lesson2) -> 
-                lesson1.getTeacher() != null && lesson2.getTeacher() != null &&
-                lesson1.getTimeSlot() != null && lesson2.getTimeSlot() != null &&
-                lesson1.getTeacher().equals(lesson2.getTeacher()) &&
-                lesson1.getTimeSlot().equals(lesson2.getTimeSlot()))
-            .penalize(HardSoftScore.ONE_HARD)
-            .asConstraint("Teacher conflict");
+    private int calculateStudentGroupConflict(List<Lesson> lessons) {
+        int score = 0;
+        
+        // Check each pair of lessons for student group conflicts
+        for (int i = 0; i < lessons.size(); i++) {
+            Lesson lesson1 = lessons.get(i);
+            if (lesson1.getTimeSlot() == null || lesson1.getStudentGroup() == null) {
+                continue;
+            }
+            
+            for (int j = i + 1; j < lessons.size(); j++) {
+                Lesson lesson2 = lessons.get(j);
+                if (lesson2.getTimeSlot() == null || lesson2.getStudentGroup() == null) {
+                    continue;
+                }
+                
+                if (lesson1.getTimeSlot().equals(lesson2.getTimeSlot()) &&
+                    lesson1.getStudentGroup().equals(lesson2.getStudentGroup())) {
+                    score -= 1; // Penalize for student group conflict
+                }
+            }
+        }
+        
+        return score;
     }
 
-    private Constraint studentGroupConflict(ConstraintFactory constraintFactory) {
-        // A student group can attend at most one lesson at the same time
-        return constraintFactory
-            .forEachUniquePair(Lesson.class)
-            .filter((lesson1, lesson2) -> 
-                lesson1.getStudentGroup() != null && lesson2.getStudentGroup() != null &&
-                lesson1.getTimeSlot() != null && lesson2.getTimeSlot() != null &&
-                lesson1.getStudentGroup().equals(lesson2.getStudentGroup()) &&
-                lesson1.getTimeSlot().equals(lesson2.getTimeSlot()))
-            .penalize(HardSoftScore.ONE_HARD)
-            .asConstraint("Student group conflict");
+    private int calculateRoomCapacity(List<Lesson> lessons) {
+        int score = 0;
+        
+        for (Lesson lesson : lessons) {
+            if (lesson.getRoom() != null && lesson.getStudentGroup() != null) {
+                if (lesson.getRoom().getCapacity() < lesson.getStudentGroup().getSize()) {
+                    score -= 1; // Penalize for insufficient room capacity
+                }
+            }
+        }
+        
+        return score;
     }
 
-    private Constraint roomCapacity(ConstraintFactory constraintFactory) {
-        // A room's capacity should be sufficient for all lessons taught in it
-        return constraintFactory
-            .forEach(Lesson.class)
-            .filter(lesson -> lesson.getRoom() != null && lesson.getStudentGroup() != null 
-                && lesson.getRoom().getCapacity() < lesson.getStudentGroup().getSize())
-            .penalize(HardSoftScore.ONE_HARD)
-            .asConstraint("Room capacity");
+    private int calculateLabSessionInLabRoom(List<Lesson> lessons) {
+        int score = 0;
+        
+        for (Lesson lesson : lessons) {
+            if ("lab".equals(lesson.getSessionType()) && lesson.getRoom() != null && !lesson.getRoom().isLab()) {
+                score -= 1; // Penalize for lab session not in lab room
+            }
+        }
+        
+        return score;
     }
 
-    private Constraint labSessionInLabRoom(ConstraintFactory constraintFactory) {
-        // Lab sessions should be held in lab rooms
-        return constraintFactory
-            .forEach(Lesson.class)
-            .filter(lesson -> "lab".equals(lesson.getSessionType()) && lesson.getRoom() != null && !lesson.getRoom().isLab())
-            .penalize(HardSoftScore.ONE_HARD)
-            .asConstraint("Lab session in lab room");
-    }
-
-    private Constraint theorySessionInTheoryRoom(ConstraintFactory constraintFactory) {
-        // Theory sessions should be held in theory rooms
-        return constraintFactory
-            .forEach(Lesson.class)
-            .filter(lesson -> "lecture".equals(lesson.getSessionType()) && lesson.getRoom() != null && lesson.getRoom().isLab())
-            .penalize(HardSoftScore.ONE_HARD)
-            .asConstraint("Theory session in theory room");
+    private int calculateTheorySessionInTheoryRoom(List<Lesson> lessons) {
+        int score = 0;
+        
+        for (Lesson lesson : lessons) {
+            if ("lecture".equals(lesson.getSessionType()) && lesson.getRoom() != null && lesson.getRoom().isLab()) {
+                score -= 1; // Penalize for theory session in lab room
+            }
+        }
+        
+        return score;
     }
     
-    private Constraint tutorialSessionInTheoryRoom(ConstraintFactory constraintFactory) {
-        // Tutorial sessions should be held in theory rooms
-        return constraintFactory
-            .forEach(Lesson.class)
-            .filter(lesson -> "tutorial".equals(lesson.getSessionType()) && lesson.getRoom() != null && lesson.getRoom().isLab())
-            .penalize(HardSoftScore.ONE_HARD)
-            .asConstraint("Tutorial session in theory room");
+    private int calculateTutorialSessionInTheoryRoom(List<Lesson> lessons) {
+        int score = 0;
+        
+        for (Lesson lesson : lessons) {
+            if ("tutorial".equals(lesson.getSessionType()) && lesson.getRoom() != null && lesson.getRoom().isLab()) {
+                score -= 1; // Penalize for tutorial session in lab room
+            }
+        }
+        
+        return score;
     }
 
-    private Constraint teacherRoomStability(ConstraintFactory constraintFactory) {
-        // A teacher should teach in the same room on the same day
-        return constraintFactory
-            .forEachUniquePair(Lesson.class)
-            .filter((lesson1, lesson2) -> 
-                lesson1.getTeacher() != null && lesson2.getTeacher() != null &&
-                lesson1.getTeacher().equals(lesson2.getTeacher()) &&
-                lesson1.getTimeSlot() != null && lesson2.getTimeSlot() != null &&
-                lesson1.getTimeSlot().getDay().equals(lesson2.getTimeSlot().getDay()) &&
-                lesson1.getRoom() != null && lesson2.getRoom() != null &&
-                !lesson1.getRoom().equals(lesson2.getRoom()))
-            .penalize(HardSoftScore.ONE_SOFT)
-            .asConstraint("Teacher room stability");
+    private int calculateTeacherRoomStability(List<Lesson> lessons) {
+        int score = 0;
+        
+        for (int i = 0; i < lessons.size(); i++) {
+            Lesson lesson1 = lessons.get(i);
+            if (lesson1.getTimeSlot() == null || lesson1.getRoom() == null || lesson1.getTeacher() == null) {
+                continue;
+            }
+            
+            for (int j = i + 1; j < lessons.size(); j++) {
+                Lesson lesson2 = lessons.get(j);
+                if (lesson2.getTimeSlot() == null || lesson2.getRoom() == null || lesson2.getTeacher() == null) {
+                    continue;
+                }
+                
+                if (lesson1.getTeacher().equals(lesson2.getTeacher()) &&
+                    lesson1.getTimeSlot().getDay().equals(lesson2.getTimeSlot().getDay()) &&
+                    !lesson1.getRoom().equals(lesson2.getRoom())) {
+                    score -= 1; // Penalize for teacher room instability
+                }
+            }
+        }
+        
+        return score;
     }
 
-    private Constraint theorySessionsOnDifferentDays(ConstraintFactory constraintFactory) {
-        // Theory sessions of the same course for the same student group should be on different days
-        return constraintFactory
-            .forEachUniquePair(Lesson.class)
-            .filter((lesson1, lesson2) -> 
-                lesson1.getCourse() != null && lesson2.getCourse() != null &&
-                lesson1.getCourse().equals(lesson2.getCourse()) &&
-                lesson1.getStudentGroup() != null && lesson2.getStudentGroup() != null &&
-                lesson1.getStudentGroup().equals(lesson2.getStudentGroup()) &&
-                "lecture".equals(lesson1.getSessionType()) &&
-                "lecture".equals(lesson2.getSessionType()) &&
-                lesson1.getTimeSlot() != null && lesson2.getTimeSlot() != null &&
-                lesson1.getTimeSlot().getDay().equals(lesson2.getTimeSlot().getDay()))
-            .penalize(HardSoftScore.ONE_SOFT)
-            .asConstraint("Theory sessions on different days");
+    private int calculateTheorySessionsOnDifferentDays(List<Lesson> lessons) {
+        int score = 0;
+        
+        for (int i = 0; i < lessons.size(); i++) {
+            Lesson lesson1 = lessons.get(i);
+            if (lesson1.getTimeSlot() == null || lesson1.getCourse() == null || lesson1.getStudentGroup() == null || 
+                !"lecture".equals(lesson1.getSessionType())) {
+                continue;
+            }
+            
+            for (int j = i + 1; j < lessons.size(); j++) {
+                Lesson lesson2 = lessons.get(j);
+                if (lesson2.getTimeSlot() == null || lesson2.getCourse() == null || lesson2.getStudentGroup() == null || 
+                    !"lecture".equals(lesson2.getSessionType())) {
+                    continue;
+                }
+                
+                if (lesson1.getCourse().equals(lesson2.getCourse()) &&
+                    lesson1.getStudentGroup().equals(lesson2.getStudentGroup()) &&
+                    lesson1.getTimeSlot().getDay().equals(lesson2.getTimeSlot().getDay())) {
+                    score -= 1; // Penalize for theory sessions on same day
+                }
+            }
+        }
+        
+        return score;
     }
 
-    private Constraint avoidLateClasses(ConstraintFactory constraintFactory) {
-        // Avoid scheduling classes late in the day
-        return constraintFactory
-            .forEach(Lesson.class)
-            .filter(lesson -> lesson.getTimeSlot() != null 
-                && lesson.getTimeSlot().getStartTime().getHour() >= 15) // After 3 PM
-            .penalize(HardSoftScore.ONE_SOFT)
-            .asConstraint("Avoid late classes");
+    private int calculateAvoidLateClasses(List<Lesson> lessons) {
+        int score = 0;
+        
+        for (Lesson lesson : lessons) {
+            if (lesson.getTimeSlot() != null && lesson.getTimeSlot().getStartTime().getHour() >= 15) {
+                score -= 1; // Penalize for late classes
+            }
+        }
+        
+        return score;
     }
 } 

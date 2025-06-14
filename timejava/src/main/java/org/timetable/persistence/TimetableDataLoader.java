@@ -115,7 +115,8 @@ public class TimetableDataLoader {
             File[] classroomFiles = classroomDir.listFiles((dir, name) -> name.endsWith(".csv"));
             if (classroomFiles != null) {
                 for (File file : classroomFiles) {
-                    rooms.addAll(loadRoomsFromFile(file.getPath(), false));
+                    String filePrefix = "CR_" + file.getName().replace(".csv", "") + "_";
+                    rooms.addAll(loadRoomsFromFile(file.getPath(), false, filePrefix));
                 }
             }
         }
@@ -126,7 +127,8 @@ public class TimetableDataLoader {
             File[] labFiles = labsDir.listFiles((dir, name) -> name.endsWith(".csv"));
             if (labFiles != null) {
                 for (File file : labFiles) {
-                    rooms.addAll(loadRoomsFromFile(file.getPath(), true));
+                    String filePrefix = "LAB_" + file.getName().replace(".csv", "") + "_";
+                    rooms.addAll(loadRoomsFromFile(file.getPath(), true, filePrefix));
                 }
             }
         }
@@ -134,29 +136,83 @@ public class TimetableDataLoader {
         return rooms;
     }
     
-    private static List<Room> loadRoomsFromFile(String filePath, boolean isLab) throws IOException {
+    private static List<Room> loadRoomsFromFile(String filePath, boolean isLab, String idPrefix) throws IOException {
         List<Room> rooms = new ArrayList<>();
+        Set<String> processedRoomIds = new HashSet<>();
         
-        try (Reader reader = new FileReader(filePath);
-             CSVParser csvParser = new CSVParser(reader, CSVFormat.DEFAULT.withFirstRecordAsHeader())) {
+        try (Reader reader = new FileReader(filePath)) {
+            // Try to determine if the file has headers
+            CSVParser parser = CSVParser.parse(reader, CSVFormat.DEFAULT.withFirstRecordAsHeader().withIgnoreHeaderCase(true).withTrim());
             
-            for (CSVRecord record : csvParser) {
-                String id = record.get("id");
-                String name = record.get("room_number");
-                String block = record.get("block");
-                String description = record.get("description");
-                
-                // Parse capacity with error handling
-                int capacity = parseIntSafely(record.get("room_max_cap"), 70);
-                
-                // Override isLab if the file has an is_lab column
-                boolean roomIsLab = isLab;
-                if (record.isMapped("is_lab")) {
-                    roomIsLab = "1".equals(record.get("is_lab"));
+            for (CSVRecord record : parser) {
+                try {
+                    String originalId = record.get("id");
+                    String uniqueId = idPrefix + originalId;
+                    
+                    // Skip if we've already processed a room with this ID
+                    if (processedRoomIds.contains(uniqueId)) {
+                        System.err.println("Skipping duplicate room ID: " + uniqueId);
+                        continue;
+                    }
+                    
+                    String name = record.get("room_number");
+                    String block = record.get("block");
+                    String description = record.get("description");
+                    
+                    // Parse capacity with error handling
+                    int capacity = parseIntSafely(record.get("room_max_cap"), 70);
+                    
+                    // Override isLab if the file has an is_lab column
+                    boolean roomIsLab = isLab;
+                    if (record.isMapped("is_lab")) {
+                        roomIsLab = "1".equals(record.get("is_lab"));
+                    }
+                    
+                    Room room = new Room(uniqueId, name, block, description, capacity, roomIsLab);
+                    rooms.add(room);
+                    processedRoomIds.add(uniqueId);
+                } catch (IllegalArgumentException e) {
+                    // Skip records with missing required fields
+                    System.err.println("Skipping record due to missing fields: " + e.getMessage());
                 }
+            }
+        } catch (Exception e) {
+            System.err.println("Error parsing CSV file " + filePath + ": " + e.getMessage());
+            // Fallback to a simpler parsing approach
+            try (Reader reader = new FileReader(filePath)) {
+                CSVParser parser = CSVParser.parse(reader, CSVFormat.DEFAULT.withSkipHeaderRecord().withTrim());
+                int recordCounter = 0;
                 
-                Room room = new Room(id, name, block, description, capacity, roomIsLab);
-                rooms.add(room);
+                for (CSVRecord record : parser) {
+                    if (record.size() >= 5) {  // Ensure we have enough fields
+                        String originalId = record.get(1);  // Assuming id is the second column
+                        String uniqueId = idPrefix + originalId + "_" + recordCounter++;
+                        
+                        // Skip if we've already processed a room with this ID
+                        if (processedRoomIds.contains(uniqueId)) {
+                            System.err.println("Skipping duplicate room ID: " + uniqueId);
+                            continue;
+                        }
+                        
+                        String name = record.get(2); // Assuming room_number is the third column
+                        String block = record.get(3); // Assuming block is the fourth column
+                        String description = record.get(4); // Assuming description is the fifth column
+                        
+                        // Default capacity
+                        int capacity = 70;
+                        
+                        // Try to parse capacity if available
+                        if (record.size() >= 8) {
+                            capacity = parseIntSafely(record.get(7), 70); // Assuming room_max_cap is the eighth column
+                        }
+                        
+                        Room room = new Room(uniqueId, name, block, description, capacity, isLab);
+                        rooms.add(room);
+                        processedRoomIds.add(uniqueId);
+                    }
+                }
+            } catch (Exception fallbackEx) {
+                System.err.println("Failed to parse CSV file even with fallback method: " + fallbackEx.getMessage());
             }
         }
         

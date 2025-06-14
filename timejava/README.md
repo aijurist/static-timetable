@@ -38,21 +38,44 @@ This will create a JAR file with all dependencies in the `target` directory.
 
 ## Running the Application
 
-To run the application, use the following command:
+There are several ways to run the application:
 
-```
-java -jar target/timejava-1.0-SNAPSHOT-jar-with-dependencies.jar [courses_file] [data_dir]
-```
+### Using Maven
 
-Where:
-- `[courses_file]` is the path to the CSV file containing course and teacher data (default: `data/courses/cse_dept_red.csv`)
-- `[data_dir]` is the path to the directory containing all data files (default: `data`)
-
-For convenience, you can also use the provided shell script:
+If you have Maven installed, you can use the provided shell script:
 
 ```
 ./run.sh [courses_file] [data_dir]
 ```
+
+### Using Makefile
+
+If you don't have Maven but have Java installed, you can use the Makefile:
+
+```
+# Download required libraries
+./download-libs.sh
+
+# Run the application
+make run
+```
+
+### Using Convenience Scripts
+
+For convenience, we've provided two scripts:
+
+```
+# To run the main application
+./run-app.sh
+
+# To run a data loading test
+./run-test.sh
+```
+
+## Parameters
+
+- `[courses_file]` is the path to the CSV file containing course and teacher data (default: `data/courses/cse_dept_red.csv`)
+- `[data_dir]` is the path to the directory containing all data files (default: `data`)
 
 ## Data Directory Structure
 
