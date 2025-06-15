@@ -196,25 +196,81 @@ public class OptaPlannerCSETimetableGenerator {
                 Teacher assignedTeacher = findCorrectTeacherForCourse(course, teachers, mappings);
                 
                 if (assignedTeacher != null) {
-                    // Create multiple lessons per course based on type and credit hours
-                    int lessonsPerWeek = getLessonsPerWeek(course);
+                    // Get LTP hours from mapping
+                    DataLoader.CourseTeacherMapping mapping = findMappingForCourse(course.getId(), mappings);
                     
-                    for (int i = 0; i < lessonsPerWeek; i++) {
-                        Lesson lesson = new Lesson();
-                        lesson.setId(lessonIdCounter++);
-                        lesson.setStudentGroup(group);
-                        lesson.setCourse(course);
-                        lesson.setTeacher(assignedTeacher);
-                        lesson.setLessonType(course.getCourseType());
-                        lesson.setDuration(course.getCourseType().equals("lab") ? 2 : 1);
+                    if (mapping != null) {
+                        // Create lecture lessons
+                        for (int i = 0; i < mapping.lectureHours; i++) {
+                            Lesson lesson = new Lesson();
+                            lesson.setId(lessonIdCounter++);
+                            lesson.setStudentGroup(group);
+                            lesson.setCourse(course);
+                            lesson.setTeacher(assignedTeacher);
+                            lesson.setLessonType("theory"); // Lecture = theory
+                            lesson.setDuration(1); // 1 hour for theory
+                            
+                            lessons.add(lesson);
+                        }
                         
-                        lessons.add(lesson);
+                        // Create tutorial lessons
+                        for (int i = 0; i < mapping.tutorialHours; i++) {
+                            Lesson lesson = new Lesson();
+                            lesson.setId(lessonIdCounter++);
+                            lesson.setStudentGroup(group);
+                            lesson.setCourse(course);
+                            lesson.setTeacher(assignedTeacher);
+                            lesson.setLessonType("tutorial");
+                            lesson.setDuration(1); // 1 hour for tutorial
+                            
+                            lessons.add(lesson);
+                        }
+                        
+                        // Create practical lessons (labs)
+                        for (int i = 0; i < mapping.practicalHours; i++) {
+                            Lesson lesson = new Lesson();
+                            lesson.setId(lessonIdCounter++);
+                            lesson.setStudentGroup(group);
+                            lesson.setCourse(course);
+                            lesson.setTeacher(assignedTeacher);
+                            lesson.setLessonType("lab"); // Practical = lab
+                            lesson.setDuration(1); // 1 hour per practical session
+                            
+                            lessons.add(lesson);
+                        }
+                    } else {
+                        // Fallback: create lessons based on course type if no mapping found
+                        int lessonsPerWeek = getLessonsPerWeek(course);
+                        
+                        for (int i = 0; i < lessonsPerWeek; i++) {
+                            Lesson lesson = new Lesson();
+                            lesson.setId(lessonIdCounter++);
+                            lesson.setStudentGroup(group);
+                            lesson.setCourse(course);
+                            lesson.setTeacher(assignedTeacher);
+                            lesson.setLessonType(course.getCourseType());
+                            lesson.setDuration(course.getCourseType().equals("lab") ? 2 : 1);
+                            
+                            lessons.add(lesson);
+                        }
                     }
                 }
             }
         }
         
         return lessons;
+    }
+    
+    /**
+     * Find the course-teacher mapping for a specific course
+     */
+    private static DataLoader.CourseTeacherMapping findMappingForCourse(String courseId, List<DataLoader.CourseTeacherMapping> mappings) {
+        for (DataLoader.CourseTeacherMapping mapping : mappings) {
+            if (mapping.courseCode.equals(courseId)) {
+                return mapping;
+            }
+        }
+        return null;
     }
     
     /**
@@ -505,13 +561,31 @@ public class OptaPlannerCSETimetableGenerator {
                 String day = lesson.getTimeSlot().getDayString();
                 String timeSlot = lesson.getTimeSlot().getTimeString();
                 
-                String classInfo = String.format("%s<br>%s<br><b>Room: %s</b><br><!-- %s -->",
-                    lesson.getCourse().getName(),
-                    lesson.getTeacher().getName(),
-                    lesson.getRoom().getName(),
-                    lesson.getCourse().getCourseType());
+                String courseInfo = lesson.getCourse().getName() + "<br>" +
+                                   lesson.getTeacher().getName() + "<br>" +
+                                   "<b>Room: " + lesson.getRoom().getName() + "</b><br>" +
+                                   "<!-- " + lesson.getLessonType() + " -->";
                 
-                timetable.get(day).put(timeSlot, classInfo);
+                // Add lesson type indicator
+                String lessonTypeIndicator = "";
+                switch (lesson.getLessonType().toLowerCase()) {
+                    case "theory":
+                        lessonTypeIndicator = " (L)";
+                        break;
+                    case "tutorial":
+                        lessonTypeIndicator = " (T)";
+                        break;
+                    case "lab":
+                        lessonTypeIndicator = " (P)";
+                        break;
+                }
+                
+                courseInfo = lesson.getCourse().getName() + lessonTypeIndicator + "<br>" +
+                           lesson.getTeacher().getName() + "<br>" +
+                           "<b>Room: " + lesson.getRoom().getName() + "</b><br>" +
+                           "<!-- " + lesson.getLessonType() + " -->";
+                
+                timetable.get(day).put(timeSlot, courseInfo);
             }
         }
         
@@ -541,13 +615,26 @@ public class OptaPlannerCSETimetableGenerator {
                 String day = lesson.getTimeSlot().getDayString();
                 String timeSlot = lesson.getTimeSlot().getTimeString();
                 
-                String classInfo = String.format("%s<br>%s<br><b>Room: %s</b><br><!-- %s -->",
-                    lesson.getCourse().getName(),
-                    lesson.getStudentGroup().getName(),
-                    lesson.getRoom().getName(),
-                    lesson.getCourse().getCourseType());
+                // Add lesson type indicator
+                String lessonTypeIndicator = "";
+                switch (lesson.getLessonType().toLowerCase()) {
+                    case "theory":
+                        lessonTypeIndicator = " (L)";
+                        break;
+                    case "tutorial":
+                        lessonTypeIndicator = " (T)";
+                        break;
+                    case "lab":
+                        lessonTypeIndicator = " (P)";
+                        break;
+                }
                 
-                timetable.get(day).put(timeSlot, classInfo);
+                String courseInfo = lesson.getCourse().getName() + lessonTypeIndicator + "<br>" +
+                                  lesson.getStudentGroup().getName() + "<br>" +
+                                  "<b>Room: " + lesson.getRoom().getName() + "</b><br>" +
+                                  "<!-- " + lesson.getLessonType() + " -->";
+                
+                timetable.get(day).put(timeSlot, courseInfo);
             }
         }
         

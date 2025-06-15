@@ -111,6 +111,34 @@ public class DataLoader {
             this.academicYear = academicYear;
             this.semester = semester;
         }
+        
+        /**
+         * Get total weekly lessons needed for this course
+         */
+        public int getTotalWeeklyLessons() {
+            return lectureHours + practicalHours + tutorialHours;
+        }
+        
+        /**
+         * Check if this course has lecture component
+         */
+        public boolean hasLectures() {
+            return lectureHours > 0;
+        }
+        
+        /**
+         * Check if this course has practical component
+         */
+        public boolean hasPracticals() {
+            return practicalHours > 0;
+        }
+        
+        /**
+         * Check if this course has tutorial component
+         */
+        public boolean hasTutorials() {
+            return tutorialHours > 0;
+        }
     }
     
     /**
