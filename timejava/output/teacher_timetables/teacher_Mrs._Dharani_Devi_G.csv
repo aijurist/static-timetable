@@ -1,28 +1,11 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Database Management Systems,CSE-CS-2B,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-CS-2B,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-CS-2B,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-CS-2B,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-CS-2B,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-CS-2B,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-CS-2B,140
-MONDAY,08:10,09:50,Computer Architecture,CSE-2C,140
-MONDAY,08:10,09:50,Computer Architecture,CSE-2C,140
-MONDAY,08:10,09:50,Computer Architecture,CSE-2C,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2C,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2C,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2C,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2C,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2C,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2C,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2C,140
-MONDAY,08:10,09:50,Computer Architecture,CSE-2H,140
-MONDAY,08:10,09:50,Computer Architecture,CSE-2H,140
-MONDAY,08:10,09:50,Computer Architecture,CSE-2H,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2C,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2C,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2C,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2C,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2C,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2C,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2C,140
+TUESDAY,08:00,08:50,Computer Architecture,CSE-2G,B426
+THURSDAY,11:00,11:50,Computer Architecture,CSE-2G,B416
+WEDNESDAY,11:00,11:50,Computer Architecture,CSE-2G,B403
+THURSDAY,16:00,16:50,Database Management Systems,CSE-2F,B219
+TUESDAY,11:00,11:50,Database Management Systems,CSE-2F,B416
+MONDAY,12:00,12:50,Database Management Systems,CSE-2F,B302
+WEDNESDAY,08:00,09:40,Database Management Systems,CSE-2F,TLGL4
+THURSDAY,17:30,19:10,Database Management Systems,CSE-2F,TLGL3
+FRIDAY,15:50,17:30,Database Management Systems,CSE-2F,TLGL4
+MONDAY,13:50,15:30,Database Management Systems,CSE-2F,KFR03

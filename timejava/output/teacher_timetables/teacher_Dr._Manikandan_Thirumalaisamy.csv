@@ -1,8 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Project Evaluation I,CSBS-4A,140
-MONDAY,08:10,09:50,Project Evaluation I,CSBS-4A,140
-MONDAY,08:10,09:50,Software Engineering,CSBS-2B,140
-MONDAY,08:10,09:50,Software Engineering,CSBS-2B,140
-MONDAY,08:10,09:50,Software Engineering,CSBS-2B,140
-MONDAY,08:10,09:50,Software Engineering,CSBS-2B,140
-MONDAY,08:10,09:50,Software Engineering,CSBS-2B,140
+MONDAY,11:00,11:50,Software Engineering,CSBS-2B,B325
+FRIDAY,15:00,15:50,Software Engineering,CSBS-2B,B408
+MONDAY,13:00,13:50,Software Engineering,CSBS-2B,A102
+WEDNESDAY,11:50,13:30,Software Engineering,CSBS-2B,JL3
+THURSDAY,17:30,19:10,Software Engineering,CSBS-2B,KFL01
+TUESDAY,09:50,11:30,Project Evaluation I,CSBS-4A,TLSL2
+TUESDAY,11:50,13:30,Project Evaluation I,CSBS-4A,KFL02

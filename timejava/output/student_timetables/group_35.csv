@@ -1,29 +1,27 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:10,09:50,Fundamentals of Machine Learning,Mrs. J Jasmine Gabriel,140
-MONDAY,08:10,09:50,Fundamentals of Machine Learning,Mrs. J Jasmine Gabriel,140
-MONDAY,08:10,09:50,Fundamentals of Machine Learning,Mrs. J Jasmine Gabriel,140
-MONDAY,08:10,09:50,Fundamentals of Machine Learning,Mrs. J Jasmine Gabriel,140
-MONDAY,08:10,09:50,Fundamentals of Machine Learning,Mrs. J Jasmine Gabriel,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mrs. Divya S,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mrs. Divya S,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mrs. Divya S,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mrs. Divya S,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mrs. Divya S,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Dharani Devi G,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Dharani Devi G,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Dharani Devi G,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Dharani Devi G,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Dharani Devi G,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Dharani Devi G,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Dharani Devi G,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,Mrs. Sowmia K R,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,Mrs. Sowmia K R,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,Mrs. Sowmia K R,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,Mrs. Sowmia K R,140
-MONDAY,08:10,09:50,Discrete Mathematics for AI,Mrs. M. Subha,140
-MONDAY,08:10,09:50,Discrete Mathematics for AI,Mrs. M. Subha,140
-MONDAY,08:10,09:50,Discrete Mathematics for AI,Mrs. M. Subha,140
-MONDAY,08:10,09:50,Discrete Mathematics for AI,Mrs. M. Subha,140
-MONDAY,08:10,09:50,Environmental Science and Engineering,Mr. M Sankar Kumar,140
-MONDAY,08:10,09:50,Environmental Science and Engineering,Mr. M Sankar Kumar,140
-MONDAY,08:10,09:50,Environmental Science and Engineering,Mr. M Sankar Kumar,140
+MONDAY,16:00,16:50,Theory of Computation,New Staff - 07,A311
+MONDAY,11:00,11:50,Theory of Computation,New Staff - 07,A211
+FRIDAY,08:00,08:50,Theory of Computation,New Staff - 07,B410
+THURSDAY,15:00,15:50,Theory of Computation,New Staff - 07,B423
+MONDAY,12:00,12:50,Fundamentals of Mobile Computing,New Staff - 08,B417
+FRIDAY,16:00,16:50,Fundamentals of Mobile Computing,New Staff - 08,B221
+THURSDAY,09:00,09:50,Fundamentals of Mobile Computing,New Staff - 08,B212
+WEDNESDAY,10:00,10:50,Web Programming,Mrs. J.Jinu Sophia,A302
+MONDAY,13:00,13:50,Web Programming,Mrs. J.Jinu Sophia,B401
+WEDNESDAY,15:00,15:50,Web Programming,Mrs. J.Jinu Sophia,A202
+WEDNESDAY,08:00,09:40,Web Programming,Mrs. J.Jinu Sophia,TLSR1
+MONDAY,08:00,09:40,Web Programming,Mrs. J.Jinu Sophia,TLFL1
+WEDNESDAY,11:50,13:30,Web Programming,Mrs. J.Jinu Sophia,TLFL2
+TUESDAY,08:00,09:40,Web Programming,Mrs. J.Jinu Sophia,TLGL2
+THURSDAY,16:00,16:50,Computer Networks,Ms. Sana,B425
+MONDAY,10:00,10:50,Computer Networks,Ms. Sana,B419
+TUESDAY,11:00,11:50,Computer Networks,Ms. Sana,B212
+WEDNESDAY,15:50,17:30,Computer Networks,Ms. Sana,TLGL3
+MONDAY,13:50,15:30,Computer Networks,Ms. Sana,JL2
+TUESDAY,13:50,15:30,Computer Networks,Ms. Sana,JL3
+MONDAY,08:00,09:40,Computer Networks,Ms. Sana,TLSR1
+FRIDAY,09:00,09:50,Foundations of Artificial Intelligence,Mrs. Bhavani M,B419
+FRIDAY,17:00,17:50,Foundations of Artificial Intelligence,Mrs. Bhavani M,B213
+TUESDAY,10:00,10:50,Foundations of Artificial Intelligence,Mrs. Bhavani M,B302
+TUESDAY,08:00,09:40,Foundations of Artificial Intelligence,Mrs. Bhavani M,KFR02
+WEDNESDAY,08:00,09:40,Foundations of Artificial Intelligence,Mrs. Bhavani M,TLFR2

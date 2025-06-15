@@ -1,11 +1,17 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,DataEngineering,AIML-3B,140
-MONDAY,08:10,09:50,DataEngineering,AIML-3B,140
-MONDAY,08:10,09:50,DataEngineering,AIML-3B,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,AIML-2B,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,AIML-2B,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,AIML-2B,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,AIML-2B,140
-MONDAY,08:10,09:50,Project-I,AIML-4A,140
-MONDAY,08:10,09:50,Project-I,AIML-4A,140
-MONDAY,08:10,09:50,Project-I,AIML-4A,140
+MONDAY,12:00,12:50,Object Oriented Programming Using JAVA,AIML-2A,B411
+MONDAY,10:00,10:50,Object Oriented Programming Using JAVA,AIML-2A,B422
+WEDNESDAY,12:00,12:50,Object Oriented Programming Using JAVA,AIML-2A,B218
+THURSDAY,09:50,11:30,Object Oriented Programming Using JAVA,AIML-2A,JL1
+TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,AIML-2A,TLGL3
+TUESDAY,09:50,11:30,Object Oriented Programming Using JAVA,AIML-2A,JL3
+FRIDAY,08:00,09:40,Object Oriented Programming Using JAVA,AIML-2A,JR2
+FRIDAY,14:00,14:50,DataEngineering,AIML-3B,A102
+FRIDAY,11:00,11:50,DataEngineering,AIML-3B,B403
+WEDNESDAY,10:00,10:50,DataEngineering,AIML-3B,B416
+WEDNESDAY,08:00,09:40,Project-I,AIML-4A,KFL03
+MONDAY,08:00,09:40,Project-I,AIML-4A,TLFL5
+TUESDAY,11:50,13:30,Project-I,AIML-4A,JL2
+THURSDAY,13:50,15:30,Project-I,AIML-4A,TLFL5
+WEDNESDAY,13:50,15:30,Project-I,AIML-4A,TLGL4
+THURSDAY,15:50,17:30,Project-I,AIML-4A,TLFL5

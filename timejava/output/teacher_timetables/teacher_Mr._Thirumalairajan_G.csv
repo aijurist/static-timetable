@@ -1,9 +1,12 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Digital Media Entrepreneurship,CSD-4A,140
-MONDAY,08:10,09:50,Digital Media Entrepreneurship,CSD-4A,140
-MONDAY,08:10,09:50,Digital Media Entrepreneurship,CSD-4A,140
-MONDAY,08:10,09:50,Digital Media Entrepreneurship,CSD-4A,140
-MONDAY,08:10,09:50,Web Programming,CSE-3D,140
-MONDAY,08:10,09:50,Web Programming,CSE-3D,140
-MONDAY,08:10,09:50,Web Programming,CSE-3D,140
-MONDAY,08:10,09:50,Web Programming,CSE-3D,140
+MONDAY,08:00,08:50,Web Programming,CSD-3A,B418
+THURSDAY,10:00,10:50,Web Programming,CSD-3A,B222
+MONDAY,15:00,15:50,Web Programming,CSD-3A,B325
+THURSDAY,15:50,17:30,Web Programming,CSD-3A,TLFL4
+THURSDAY,11:50,13:30,Web Programming,CSD-3A,TLGL4
+WEDNESDAY,11:50,13:30,Web Programming,CSD-3A,KSL03
+FRIDAY,13:50,15:30,Web Programming,CSD-3A,TLGL4
+THURSDAY,18:00,18:50,Digital Media Entrepreneurship,CSD-4A,B424
+WEDNESDAY,18:00,18:50,Digital Media Entrepreneurship,CSD-4A,A104/105
+MONDAY,09:50,11:30,Digital Media Entrepreneurship,CSD-4A,TLSL1
+TUESDAY,13:50,15:30,Digital Media Entrepreneurship,CSD-4A,TLFL5

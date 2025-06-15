@@ -1,9 +1,12 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Project-I,CSD-4A,140
-MONDAY,08:10,09:50,Project-I,CSD-4A,140
-MONDAY,08:10,09:50,Project-I,CSD-4A,140
-MONDAY,08:10,09:50,Design Processes and Perspectives,CSD-2A,140
-MONDAY,08:10,09:50,Design Processes and Perspectives,CSD-2A,140
-MONDAY,08:10,09:50,Design Processes and Perspectives,CSD-2A,140
-MONDAY,08:10,09:50,Design Processes and Perspectives,CSD-2A,140
-MONDAY,08:10,09:50,Design Processes and Perspectives,CSD-2A,140
+FRIDAY,11:00,11:50,Design Processes and Perspectives,CSD-2A,A310
+TUESDAY,11:00,11:50,Design Processes and Perspectives,CSD-2A,B419
+MONDAY,14:00,14:50,Design Processes and Perspectives,CSD-2A,B218
+WEDNESDAY,08:00,09:40,Design Processes and Perspectives,CSD-2A,TLSL2
+THURSDAY,11:50,13:30,Design Processes and Perspectives,CSD-2A,KFR03
+THURSDAY,09:50,11:30,Project-I,CSD-4A,TLFL1
+MONDAY,08:00,09:40,Project-I,CSD-4A,TLGL2
+MONDAY,11:50,13:30,Project-I,CSD-4A,TLSL1
+FRIDAY,13:50,15:30,Project-I,CSD-4A,KFR03
+FRIDAY,15:50,17:30,Project-I,CSD-4A,TLFL2
+THURSDAY,15:50,17:30,Project-I,CSD-4A,KSL03

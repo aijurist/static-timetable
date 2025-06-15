@@ -32,7 +32,7 @@ public class TimetableExporter {
                         lesson.getCourse().getName(),
                         lesson.getStudentGroup().getName(),
                         lesson.getSessionType(),
-                        lesson.getTimeSlot().getDay(),
+                        lesson.getTimeSlot().getDayOfWeek(),
                         lesson.getTimeSlot().getStartTime().format(TIME_FORMATTER),
                         lesson.getTimeSlot().getEndTime().format(TIME_FORMATTER),
                         lesson.getRoom().getName()
@@ -72,7 +72,7 @@ public class TimetableExporter {
                 // Write lessons
                 for (Lesson lesson : teacherLessons) {
                     writer.write(String.format("%s,%s,%s,%s,%s,%s\n",
-                        lesson.getTimeSlot().getDay(),
+                        lesson.getTimeSlot().getDayOfWeek(),
                         lesson.getTimeSlot().getStartTime().format(TIME_FORMATTER),
                         lesson.getTimeSlot().getEndTime().format(TIME_FORMATTER),
                         lesson.getCourse().getName(),
@@ -113,7 +113,7 @@ public class TimetableExporter {
                 // Write lessons
                 for (Lesson lesson : groupLessons) {
                     writer.write(String.format("%s,%s,%s,%s,%s,%s\n",
-                        lesson.getTimeSlot().getDay(),
+                        lesson.getTimeSlot().getDayOfWeek(),
                         lesson.getTimeSlot().getStartTime().format(TIME_FORMATTER),
                         lesson.getTimeSlot().getEndTime().format(TIME_FORMATTER),
                         lesson.getCourse().getName(),

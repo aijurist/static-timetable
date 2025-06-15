@@ -8,19 +8,21 @@ import java.time.LocalTime;
 public class TimeSlot {
     @PlanningId
     private String id;
-    private DayOfWeek day;
+    private DayOfWeek dayOfWeek;
     private LocalTime startTime;
     private LocalTime endTime;
+    private int duration;
     private boolean isLab;
 
     public TimeSlot() {
     }
 
-    public TimeSlot(String id, DayOfWeek day, LocalTime startTime, LocalTime endTime, boolean isLab) {
+    public TimeSlot(String id, DayOfWeek dayOfWeek, LocalTime startTime, LocalTime endTime, boolean isLab) {
         this.id = id;
-        this.day = day;
+        this.dayOfWeek = dayOfWeek;
         this.startTime = startTime;
         this.endTime = endTime;
+        this.duration = (int) java.time.Duration.between(startTime, endTime).toHours();
         this.isLab = isLab;
     }
 
@@ -32,12 +34,12 @@ public class TimeSlot {
         this.id = id;
     }
 
-    public DayOfWeek getDay() {
-        return day;
+    public DayOfWeek getDayOfWeek() {
+        return dayOfWeek;
     }
 
-    public void setDay(DayOfWeek day) {
-        this.day = day;
+    public void setDayOfWeek(DayOfWeek dayOfWeek) {
+        this.dayOfWeek = dayOfWeek;
     }
 
     public LocalTime getStartTime() {
@@ -56,6 +58,14 @@ public class TimeSlot {
         this.endTime = endTime;
     }
 
+    public int getDuration() {
+        return duration;
+    }
+
+    public void setDuration(int duration) {
+        this.duration = duration;
+    }
+
     public boolean isLab() {
         return isLab;
     }
@@ -66,6 +76,6 @@ public class TimeSlot {
 
     @Override
     public String toString() {
-        return day + " " + startTime + "-" + endTime + (isLab ? " (Lab)" : "");
+        return dayOfWeek + " " + startTime + "-" + endTime + (isLab ? " (Lab)" : "");
     }
 } 

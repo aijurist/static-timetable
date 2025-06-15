@@ -1,18 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:10,09:50,Advanced Robotic Process Automation,Mr. Dr. N. Duraimurugan,140
-MONDAY,08:10,09:50,Advanced Robotic Process Automation,Mr. Dr. N. Duraimurugan,140
-MONDAY,08:10,09:50,Advanced Robotic Process Automation,Mr. Dr. N. Duraimurugan,140
-MONDAY,08:10,09:50,Project-1,Mr. Dr. N. Duraimurugan,140
-MONDAY,08:10,09:50,Project-1,Mr. Dr. N. Duraimurugan,140
-MONDAY,08:10,09:50,Project-1,Mr. Dr. N. Duraimurugan,140
-MONDAY,08:10,09:50,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,140
-MONDAY,08:10,09:50,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,140
-MONDAY,08:10,09:50,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,140
-MONDAY,08:10,09:50,Cloud Computing,Dr. M.Rakesh Kumar,140
-MONDAY,08:10,09:50,Cloud Computing,Dr. M.Rakesh Kumar,140
-MONDAY,08:10,09:50,Cloud Computing,Dr. M.Rakesh Kumar,140
-MONDAY,08:10,09:50,Cloud Computing,Dr. M.Rakesh Kumar,140
-MONDAY,08:10,09:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. J.Jinu Sophia,140
-MONDAY,08:10,09:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. J.Jinu Sophia,140
-MONDAY,08:10,09:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. J.Jinu Sophia,140
-MONDAY,08:10,09:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. J.Jinu Sophia,140
+WEDNESDAY,08:00,08:50,Analog and Digital Communication,Ms. M.Brenda,B412
+TUESDAY,08:00,08:50,Analog and Digital Communication,Ms. M.Brenda,B416
+MONDAY,08:00,08:50,Analog and Digital Communication,Ms. M.Brenda,B415
+WEDNESDAY,12:00,12:50,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,B107
+MONDAY,17:00,17:50,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,B416
+TUESDAY,16:00,16:50,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,A203
+FRIDAY,11:50,13:30,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,TLFL5
+THURSDAY,11:50,13:30,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,TLFR3
+MONDAY,18:00,18:50,Fourier series and Number theory,Mrs. C. Renuga,B418
+THURSDAY,08:00,08:50,Fourier series and Number theory,Mrs. C. Renuga,A204
+FRIDAY,11:00,11:50,Fourier series and Number theory,Mrs. C. Renuga,A103
+WEDNESDAY,11:00,11:50,Fourier series and Number theory,Mrs. C. Renuga,A204
+FRIDAY,16:00,16:50,Database Management Systems,Dr. Shunmuganathan K L,A308
+WEDNESDAY,15:00,15:50,Database Management Systems,Dr. Shunmuganathan K L,A311
+WEDNESDAY,10:00,10:50,Database Management Systems,Dr. Shunmuganathan K L,A110
+THURSDAY,13:50,15:30,Database Management Systems,Dr. Shunmuganathan K L,JR2
+TUESDAY,11:50,13:30,Database Management Systems,Dr. Shunmuganathan K L,TLGL2
+MONDAY,09:50,11:30,Database Management Systems,Dr. Shunmuganathan K L,KFL03
+THURSDAY,15:50,17:30,Database Management Systems,Dr. Shunmuganathan K L,TLSL1
+THURSDAY,11:00,11:50,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),B422
+FRIDAY,08:00,08:50,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),B212
+THURSDAY,09:00,09:50,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),B325
+FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),JL1
+MONDAY,09:50,11:30,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),JR1
+FRIDAY,11:50,13:30,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),JL3
+TUESDAY,17:30,19:10,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),TLFL4
+MONDAY,16:00,16:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,A104/105
+THURSDAY,18:00,18:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,B411
+THURSDAY,10:00,10:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,B401
+TUESDAY,09:50,11:30,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,TLFL2
+MONDAY,11:50,13:30,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,TLFR4

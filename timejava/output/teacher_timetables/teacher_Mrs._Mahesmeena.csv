@@ -1,15 +1,9 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Database Management Systems,CSE-2D,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2D,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2D,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2D,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2D,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2D,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2D,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2D,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2D,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2D,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2D,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2D,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2D,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2D,140
+WEDNESDAY,15:00,15:50,Computer Architecture,CSE-2C,B213
+MONDAY,08:00,08:50,Computer Architecture,CSE-2C,A308
+WEDNESDAY,08:00,08:50,Computer Architecture,CSE-2C,B220
+WEDNESDAY,11:00,11:50,Design and Analysis of Algorithms,CSE-2F,B219
+TUESDAY,09:00,09:50,Design and Analysis of Algorithms,CSE-2F,A309
+FRIDAY,09:00,09:50,Design and Analysis of Algorithms,CSE-2F,A310
+FRIDAY,15:50,17:30,Design and Analysis of Algorithms,CSE-2F,KFL01
+THURSDAY,17:30,19:10,Design and Analysis of Algorithms,CSE-2F,KFR02

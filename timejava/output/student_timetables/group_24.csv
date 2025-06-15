@@ -1,22 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:10,09:50,Theory of Computation,Mrs. J.A.Adlin Layola,140
-MONDAY,08:10,09:50,Theory of Computation,Mrs. J.A.Adlin Layola,140
-MONDAY,08:10,09:50,Theory of Computation,Mrs. J.A.Adlin Layola,140
-MONDAY,08:10,09:50,Theory of Computation,Mrs. J.A.Adlin Layola,140
-MONDAY,08:10,09:50,Fundamentals of Mobile Computing,Mrs. S.Ponmani,140
-MONDAY,08:10,09:50,Fundamentals of Mobile Computing,Mrs. S.Ponmani,140
-MONDAY,08:10,09:50,Fundamentals of Mobile Computing,Mrs. S.Ponmani,140
-MONDAY,08:10,09:50,Web Programming,Ms. R Rupmala,140
-MONDAY,08:10,09:50,Web Programming,Ms. R Rupmala,140
-MONDAY,08:10,09:50,Web Programming,Ms. R Rupmala,140
-MONDAY,08:10,09:50,Web Programming,Ms. R Rupmala,140
-MONDAY,08:10,09:50,Computer Networks,Dr. N M Balamurugan,140
-MONDAY,08:10,09:50,Computer Networks,Dr. N M Balamurugan,140
-MONDAY,08:10,09:50,Computer Networks,Dr. N M Balamurugan,140
-MONDAY,08:10,09:50,Computer Networks,Dr. N M Balamurugan,140
-MONDAY,08:10,09:50,Computer Networks,Dr. N M Balamurugan,140
-MONDAY,08:10,09:50,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,140
-MONDAY,08:10,09:50,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,140
-MONDAY,08:10,09:50,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,140
-MONDAY,08:10,09:50,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,140
-MONDAY,08:10,09:50,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,140
+MONDAY,10:00,10:50,Computer Architecture,Mrs. J.Jinu Sophia,A303
+TUESDAY,14:00,14:50,Computer Architecture,Mrs. J.Jinu Sophia,B402
+FRIDAY,10:00,10:50,Computer Architecture,Mrs. J.Jinu Sophia,B403
+TUESDAY,10:00,10:50,Design and Analysis of Algorithms,Ms. T.Ramala,B402
+WEDNESDAY,16:00,16:50,Design and Analysis of Algorithms,Ms. T.Ramala,B211
+WEDNESDAY,10:00,10:50,Design and Analysis of Algorithms,Ms. T.Ramala,B425
+WEDNESDAY,08:00,09:40,Design and Analysis of Algorithms,Ms. T.Ramala,TLGL2
+THURSDAY,17:30,19:10,Design and Analysis of Algorithms,Ms. T.Ramala,KFR01
+TUESDAY,13:00,13:50,Fourier series and Number theory,Ms. Balavidhya S,B425
+FRIDAY,16:00,16:50,Fourier series and Number theory,Ms. Balavidhya S,A103
+FRIDAY,09:00,09:50,Fourier series and Number theory,Ms. Balavidhya S,A109
+MONDAY,11:00,11:50,Fourier series and Number theory,Ms. Balavidhya S,A308
+FRIDAY,11:00,11:50,Database Management Systems,Mr. Adhithyan.S,A109
+WEDNESDAY,18:00,18:50,Database Management Systems,Mr. Adhithyan.S,A304
+TUESDAY,11:00,11:50,Database Management Systems,Mr. Adhithyan.S,B321
+MONDAY,17:30,19:10,Database Management Systems,Mr. Adhithyan.S,TLGL4
+FRIDAY,13:50,15:30,Database Management Systems,Mr. Adhithyan.S,TLGL3
+THURSDAY,08:00,09:40,Database Management Systems,Mr. Adhithyan.S,KFL03
+TUESDAY,15:50,17:30,Database Management Systems,Mr. Adhithyan.S,JR1
+FRIDAY,12:00,12:50,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,A302
+TUESDAY,08:00,08:50,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,B419
+WEDNESDAY,11:00,11:50,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,A303
+MONDAY,11:50,13:30,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,KFR02
+THURSDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,TLGL1
+FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,JR2
+WEDNESDAY,08:00,09:40,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,TLFL3
+THURSDAY,12:00,12:50,Fundamentals of Data Science,Ms. Sana,B423
+THURSDAY,10:00,10:50,Fundamentals of Data Science,Ms. Sana,B410
+TUESDAY,18:00,18:50,Fundamentals of Data Science,Ms. Sana,B411
+TUESDAY,15:50,17:30,Fundamentals of Data Science,Ms. Sana,TLFL4
+MONDAY,15:50,17:30,Fundamentals of Data Science,Ms. Sana,KFR03

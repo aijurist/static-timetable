@@ -1,17 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:10,09:50,Usability Design of Software  Applications,Mrs. Nisha R S,140
-MONDAY,08:10,09:50,Usability Design of Software  Applications,Mrs. Nisha R S,140
-MONDAY,08:10,09:50,Usability Design of Software  Applications,Mrs. Nisha R S,140
-MONDAY,08:10,09:50,Usability Design of Software  Applications,Mrs. Nisha R S,140
-MONDAY,08:10,09:50,Usability Design of Software  Applications,Mrs. Nisha R S,140
-MONDAY,08:10,09:50,IT Workshop,Mrs. K Poornimathi,140
-MONDAY,08:10,09:50,IT Workshop,Mrs. K Poornimathi,140
-MONDAY,08:10,09:50,IT Workshop,Mrs. K Poornimathi,140
-MONDAY,08:10,09:50,IT Workshop,Mrs. K Poornimathi,140
-MONDAY,08:10,09:50,Modern Web Applications,Mrs. Dr. P. Tamil Selvi,140
-MONDAY,08:10,09:50,Modern Web Applications,Mrs. Dr. P. Tamil Selvi,140
-MONDAY,08:10,09:50,Modern Web Applications,Mrs. Dr. P. Tamil Selvi,140
-MONDAY,08:10,09:50,Modern Web Applications,Mrs. Dr. P. Tamil Selvi,140
-MONDAY,08:10,09:50,Modern Web Applications,Mrs. Dr. P. Tamil Selvi,140
-MONDAY,08:10,09:50,Project Evaluation I,Dr. Manikandan Thirumalaisamy,140
-MONDAY,08:10,09:50,Project Evaluation I,Dr. Manikandan Thirumalaisamy,140
+THURSDAY,09:00,09:50,Computer Architecture,New Staff - 03,A209
+WEDNESDAY,11:00,11:50,Computer Architecture,New Staff - 03,B415
+MONDAY,15:00,15:50,Computer Architecture,New Staff - 03,A204
+WEDNESDAY,10:00,10:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,B210
+WEDNESDAY,16:00,16:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,A208
+WEDNESDAY,08:00,08:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,B424
+MONDAY,17:30,19:10,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,JR1
+FRIDAY,15:50,17:30,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,JL1
+THURSDAY,11:00,11:50,Fourier series and Number theory,Mrs. Dr S.Bhavani,A110
+THURSDAY,08:00,08:50,Fourier series and Number theory,Mrs. Dr S.Bhavani,A304
+TUESDAY,12:00,12:50,Fourier series and Number theory,Mrs. Dr S.Bhavani,B402
+TUESDAY,08:00,08:50,Fourier series and Number theory,Mrs. Dr S.Bhavani,B409
+WEDNESDAY,18:00,18:50,Database Management Systems,Mrs. S.Vinothini,B405
+TUESDAY,09:00,09:50,Database Management Systems,Mrs. S.Vinothini,B210
+MONDAY,11:00,11:50,Database Management Systems,Mrs. S.Vinothini,A209
+FRIDAY,17:30,19:10,Database Management Systems,Mrs. S.Vinothini,TLGL3
+THURSDAY,11:50,13:30,Database Management Systems,Mrs. S.Vinothini,KFL01
+THURSDAY,13:50,15:30,Database Management Systems,Mrs. S.Vinothini,TLSR1
+THURSDAY,15:50,17:30,Database Management Systems,Mrs. S.Vinothini,KFR03
+WEDNESDAY,13:00,13:50,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,A202
+WEDNESDAY,15:00,15:50,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,B411
+MONDAY,10:00,10:50,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,B426
+MONDAY,08:00,09:40,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,TLFR3
+TUESDAY,09:50,11:30,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,JL2
+FRIDAY,08:00,09:40,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,TLGL4
+TUESDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,JR1
+THURSDAY,10:00,10:50,Fundamentals of Data Science,New Staff - 07,A308
+FRIDAY,12:00,12:50,Fundamentals of Data Science,New Staff - 07,B220
+MONDAY,14:00,14:50,Fundamentals of Data Science,New Staff - 07,B212
+TUESDAY,13:50,15:30,Fundamentals of Data Science,New Staff - 07,KFR02
+TUESDAY,09:50,11:30,Fundamentals of Data Science,New Staff - 07,JR1

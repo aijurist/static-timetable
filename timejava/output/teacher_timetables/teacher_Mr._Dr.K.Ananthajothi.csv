@@ -1,9 +1,5 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Theory of Computation,CSE-3D,140
-MONDAY,08:10,09:50,Theory of Computation,CSE-3D,140
-MONDAY,08:10,09:50,Theory of Computation,CSE-3D,140
-MONDAY,08:10,09:50,Theory of Computation,CSE-3D,140
-MONDAY,08:10,09:50,Theory of Computation,CSE-3E,140
-MONDAY,08:10,09:50,Theory of Computation,CSE-3E,140
-MONDAY,08:10,09:50,Theory of Computation,CSE-3E,140
-MONDAY,08:10,09:50,Theory of Computation,CSE-3E,140
+FRIDAY,13:00,13:50,Theory of Computation,CSE-3C,A104/105
+WEDNESDAY,11:00,11:50,Theory of Computation,CSE-3C,B401
+FRIDAY,08:00,08:50,Theory of Computation,CSE-3C,A311
+THURSDAY,18:00,18:50,Theory of Computation,CSE-3C,B321

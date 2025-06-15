@@ -1,0 +1,13 @@
+Day,StartTime,EndTime,Course,Group,Room
+TUESDAY,18:00,18:50,Computer Networks,CSE-CS-2A,A203
+FRIDAY,12:00,12:50,Computer Networks,CSE-CS-2A,A104/105
+WEDNESDAY,08:00,08:50,Computer Networks,CSE-CS-2A,A302
+THURSDAY,13:50,15:30,Computer Networks,CSE-CS-2A,TLFR1
+TUESDAY,15:50,17:30,Computer Networks,CSE-CS-2A,TLFL3
+THURSDAY,15:50,17:30,Computer Networks,CSE-CS-2A,TLGL4
+FRIDAY,09:50,11:30,Computer Networks,CSE-CS-2A,KFL02
+MONDAY,12:00,12:50,Software Construction,CSE-CS-3A,A205
+MONDAY,10:00,10:50,Software Construction,CSE-CS-3A,A304
+MONDAY,17:00,17:50,Software Construction,CSE-CS-3A,B412
+TUESDAY,11:50,13:30,Software Construction,CSE-CS-3A,TLSR1
+THURSDAY,11:50,13:30,Software Construction,CSE-CS-3A,TLFR5

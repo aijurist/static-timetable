@@ -1,0 +1,25 @@
+Day,StartTime,EndTime,Course,Group,Room
+MONDAY,16:00,16:50,Digital Logic and Computer Architecture,IT-2A,A104/105
+THURSDAY,18:00,18:50,Digital Logic and Computer Architecture,IT-2A,B411
+THURSDAY,10:00,10:50,Digital Logic and Computer Architecture,IT-2A,B401
+TUESDAY,09:50,11:30,Digital Logic and Computer Architecture,IT-2A,TLFL2
+MONDAY,11:50,13:30,Digital Logic and Computer Architecture,IT-2A,TLFR4
+FRIDAY,14:00,14:50,Digital Logic and Computer Architecture,IT-2C,B221
+THURSDAY,12:00,12:50,Digital Logic and Computer Architecture,IT-2C,B422
+WEDNESDAY,12:00,12:50,Digital Logic and Computer Architecture,IT-2C,B322
+WEDNESDAY,09:50,11:30,Digital Logic and Computer Architecture,IT-2C,TLFR2
+FRIDAY,15:50,17:30,Digital Logic and Computer Architecture,IT-2C,JL2
+WEDNESDAY,16:00,16:50,Digital Logic and Computer Architecture,IT-2E,B425
+TUESDAY,08:00,08:50,Digital Logic and Computer Architecture,IT-2E,B320
+MONDAY,14:00,14:50,Digital Logic and Computer Architecture,IT-2E,A104/105
+FRIDAY,09:50,11:30,Digital Logic and Computer Architecture,IT-2E,JR1
+THURSDAY,13:50,15:30,Digital Logic and Computer Architecture,IT-2E,KFL03
+MONDAY,09:50,11:30,Soft Skills – II,IT-3A,TLFR1
+TUESDAY,11:50,13:30,Soft Skills – II,IT-3A,JL1
+FRIDAY,12:00,12:50,Computer Networks,IT-3A,B213
+WEDNESDAY,14:00,14:50,Computer Networks,IT-3A,A308
+FRIDAY,18:00,18:50,Computer Networks,IT-3A,B220
+TUESDAY,13:50,15:30,Computer Networks,IT-3A,JL1
+TUESDAY,15:50,17:30,Computer Networks,IT-3A,JR2
+MONDAY,17:30,19:10,Computer Networks,IT-3A,JL2
+WEDNESDAY,17:30,19:10,Computer Networks,IT-3A,TLFL3

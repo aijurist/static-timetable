@@ -1,22 +1,27 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:10,09:50,Theory of Computation,Mrs. S.Vinothini,140
-MONDAY,08:10,09:50,Theory of Computation,Mrs. S.Vinothini,140
-MONDAY,08:10,09:50,Theory of Computation,Mrs. S.Vinothini,140
-MONDAY,08:10,09:50,Theory of Computation,Mrs. S.Vinothini,140
-MONDAY,08:10,09:50,Fundamentals of Mobile Computing,Dr. Chettiyar Vani Vivekanand,140
-MONDAY,08:10,09:50,Fundamentals of Mobile Computing,Dr. Chettiyar Vani Vivekanand,140
-MONDAY,08:10,09:50,Fundamentals of Mobile Computing,Dr. Chettiyar Vani Vivekanand,140
-MONDAY,08:10,09:50,Web Programming,Mr. Kirubhakar T T,140
-MONDAY,08:10,09:50,Web Programming,Mr. Kirubhakar T T,140
-MONDAY,08:10,09:50,Web Programming,Mr. Kirubhakar T T,140
-MONDAY,08:10,09:50,Web Programming,Mr. Kirubhakar T T,140
-MONDAY,08:10,09:50,Computer Networks,Mrs. Farjana U,140
-MONDAY,08:10,09:50,Computer Networks,Mrs. Farjana U,140
-MONDAY,08:10,09:50,Computer Networks,Mrs. Farjana U,140
-MONDAY,08:10,09:50,Computer Networks,Mrs. Farjana U,140
-MONDAY,08:10,09:50,Computer Networks,Mrs. Farjana U,140
-MONDAY,08:10,09:50,Foundations of Artificial Intelligence,Mr. Dr. Kumar P,140
-MONDAY,08:10,09:50,Foundations of Artificial Intelligence,Mr. Dr. Kumar P,140
-MONDAY,08:10,09:50,Foundations of Artificial Intelligence,Mr. Dr. Kumar P,140
-MONDAY,08:10,09:50,Foundations of Artificial Intelligence,Mr. Dr. Kumar P,140
-MONDAY,08:10,09:50,Foundations of Artificial Intelligence,Mr. Dr. Kumar P,140
+THURSDAY,09:00,09:50,Operating Systems,Dr. Gunasekar S,B302
+TUESDAY,11:00,11:50,Operating Systems,Dr. Gunasekar S,B401
+FRIDAY,10:00,10:50,Operating Systems,Dr. Gunasekar S,B426
+FRIDAY,08:00,09:40,Operating Systems,Dr. Gunasekar S,JR1
+MONDAY,15:50,17:30,Operating Systems,Dr. Gunasekar S,JL2
+FRIDAY,11:50,13:30,Operating Systems,Dr. Gunasekar S,JR1
+WEDNESDAY,17:30,19:10,Operating Systems,Dr. Gunasekar S,KFR01
+FRIDAY,17:30,19:10,Design Thinking and Innovation,Mrs. Kalpana D,TLFL3
+TUESDAY,08:00,09:40,Design Thinking and Innovation,Mrs. Kalpana D,KFL02
+MONDAY,15:50,17:30,Design Thinking and Innovation,Mrs. Kalpana D,TLFL1
+TUESDAY,11:50,13:30,Design Thinking and Innovation,Mrs. Kalpana D,TLGL4
+THURSDAY,08:00,08:50,3D Modelling and Texturing,Mr. S Umamaheswararao,B419
+MONDAY,09:00,09:50,3D Modelling and Texturing,Mr. S Umamaheswararao,B325
+WEDNESDAY,08:00,09:40,3D Modelling and Texturing,Mr. S Umamaheswararao,TLGL1
+WEDNESDAY,13:50,15:30,3D Modelling and Texturing,Mr. S Umamaheswararao,TLSR1
+MONDAY,08:00,08:50,Web Programming,Mr. Thirumalairajan G,B418
+THURSDAY,10:00,10:50,Web Programming,Mr. Thirumalairajan G,B222
+MONDAY,15:00,15:50,Web Programming,Mr. Thirumalairajan G,B325
+THURSDAY,15:50,17:30,Web Programming,Mr. Thirumalairajan G,TLFL4
+THURSDAY,11:50,13:30,Web Programming,Mr. Thirumalairajan G,TLGL4
+WEDNESDAY,11:50,13:30,Web Programming,Mr. Thirumalairajan G,KSL03
+FRIDAY,13:50,15:30,Web Programming,Mr. Thirumalairajan G,TLGL4
+THURSDAY,15:00,15:50,Graphics and Multimedia,Mr. Vijayakumar R,B322
+THURSDAY,11:00,11:50,Graphics and Multimedia,Mr. Vijayakumar R,B415
+TUESDAY,13:50,15:30,Graphics and Multimedia,Mr. Vijayakumar R,TLFR4
+THURSDAY,17:30,19:10,Graphics and Multimedia,Mr. Vijayakumar R,TLFL2

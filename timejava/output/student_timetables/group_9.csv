@@ -1,20 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:10,09:50,Introduction to 3D Animation,Mr. S Umamaheswararao,140
-MONDAY,08:10,09:50,3D Printing and Design,Dr. K.Vigneshwaran,140
-MONDAY,08:10,09:50,3D Printing and Design,Dr. K.Vigneshwaran,140
-MONDAY,08:10,09:50,3D Printing and Design,Dr. K.Vigneshwaran,140
-MONDAY,08:10,09:50,3D Printing and Design,Dr. K.Vigneshwaran,140
-MONDAY,08:10,09:50,3D Printing and Design,Dr. K.Vigneshwaran,140
-MONDAY,08:10,09:50,3D Printing and Design,Dr. K.Vigneshwaran,140
-MONDAY,08:10,09:50,3D Printing and Design,Dr. K.Vigneshwaran,140
-MONDAY,08:10,09:50,Project-I,Mr. S Pradeep Kumar,140
-MONDAY,08:10,09:50,Project-I,Mr. S Pradeep Kumar,140
-MONDAY,08:10,09:50,Project-I,Mr. S Pradeep Kumar,140
-MONDAY,08:10,09:50,Foundations of Machine Learning Concepts,Dr. Gunasekar S,140
-MONDAY,08:10,09:50,Foundations of Machine Learning Concepts,Dr. Gunasekar S,140
-MONDAY,08:10,09:50,Foundations of Machine Learning Concepts,Dr. Gunasekar S,140
-MONDAY,08:10,09:50,Foundations of Machine Learning Concepts,Dr. Gunasekar S,140
-MONDAY,08:10,09:50,Digital Media Entrepreneurship,Mr. Thirumalairajan G,140
-MONDAY,08:10,09:50,Digital Media Entrepreneurship,Mr. Thirumalairajan G,140
-MONDAY,08:10,09:50,Digital Media Entrepreneurship,Mr. Thirumalairajan G,140
-MONDAY,08:10,09:50,Digital Media Entrepreneurship,Mr. Thirumalairajan G,140
+TUESDAY,14:00,14:50,Analog and Digital Communication,Mrs. Tamilarasi M,B325
+TUESDAY,11:00,11:50,Analog and Digital Communication,Mrs. Tamilarasi M,B424
+WEDNESDAY,15:00,15:50,Analog and Digital Communication,Mrs. Tamilarasi M,B320
+FRIDAY,17:00,17:50,Design and Analysis of Algorithms,Mrs. Dr.P.Neelaveni,B416
+TUESDAY,18:00,18:50,Design and Analysis of Algorithms,Mrs. Dr.P.Neelaveni,B402
+WEDNESDAY,14:00,14:50,Design and Analysis of Algorithms,Mrs. Dr.P.Neelaveni,A103
+MONDAY,09:50,11:30,Design and Analysis of Algorithms,Mrs. Dr.P.Neelaveni,TLFL4
+MONDAY,15:50,17:30,Design and Analysis of Algorithms,Mrs. Dr.P.Neelaveni,TLGL3
+FRIDAY,15:00,15:50,Fourier series and Number theory,Mrs. Arulmozhi Shanmugam,B219
+THURSDAY,08:00,08:50,Fourier series and Number theory,Mrs. Arulmozhi Shanmugam,A104/105
+MONDAY,09:00,09:50,Fourier series and Number theory,Mrs. Arulmozhi Shanmugam,B106
+WEDNESDAY,17:00,17:50,Fourier series and Number theory,Mrs. Arulmozhi Shanmugam,A210
+WEDNESDAY,18:00,18:50,Database Management Systems,Dr. Shunmuganathan K L,A209
+FRIDAY,13:00,13:50,Database Management Systems,Dr. Shunmuganathan K L,A309
+TUESDAY,09:00,09:50,Database Management Systems,Dr. Shunmuganathan K L,A109
+WEDNESDAY,11:50,13:30,Database Management Systems,Dr. Shunmuganathan K L,TLGL3
+THURSDAY,11:50,13:30,Database Management Systems,Dr. Shunmuganathan K L,JR1
+MONDAY,11:50,13:30,Database Management Systems,Dr. Shunmuganathan K L,TLFL3
+FRIDAY,09:50,11:30,Database Management Systems,Dr. Shunmuganathan K L,KSL03
+MONDAY,18:00,18:50,Object Oriented Programming Using JAVA,Mr. Suresh Kumar K,A302
+FRIDAY,16:00,16:50,Object Oriented Programming Using JAVA,Mr. Suresh Kumar K,B410
+WEDNESDAY,08:00,08:50,Object Oriented Programming Using JAVA,Mr. Suresh Kumar K,A303
+THURSDAY,09:50,11:30,Object Oriented Programming Using JAVA,Mr. Suresh Kumar K,TLFR1
+MONDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mr. Suresh Kumar K,JL1
+WEDNESDAY,09:50,11:30,Object Oriented Programming Using JAVA,Mr. Suresh Kumar K,TLFR5
+TUESDAY,11:50,13:30,Object Oriented Programming Using JAVA,Mr. Suresh Kumar K,TLFL2
+WEDNESDAY,16:00,16:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,B425
+TUESDAY,08:00,08:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,B320
+MONDAY,14:00,14:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,A104/105
+FRIDAY,09:50,11:30,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,JR1
+THURSDAY,13:50,15:30,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,KFL03

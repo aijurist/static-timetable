@@ -1,11 +1,11 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Database Management Systems,CSE-2H,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2H,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2H,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2H,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2H,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2H,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2H,140
-MONDAY,08:10,09:50,Secure Systems Engineering,AIML-4C,140
-MONDAY,08:10,09:50,Secure Systems Engineering,AIML-4C,140
-MONDAY,08:10,09:50,Secure Systems Engineering,AIML-4C,140
+MONDAY,10:00,10:50,Database Management Systems,AIML-2B,A108
+WEDNESDAY,14:00,14:50,Database Management Systems,AIML-2B,B410
+FRIDAY,14:00,14:50,Database Management Systems,AIML-2B,A304
+FRIDAY,08:00,09:40,Database Management Systems,AIML-2B,TLFL5
+THURSDAY,11:50,13:30,Database Management Systems,AIML-2B,TLFL5
+THURSDAY,15:50,17:30,Database Management Systems,AIML-2B,TLSR1
+TUESDAY,15:50,17:30,Database Management Systems,AIML-2B,TLFL1
+TUESDAY,10:00,10:50,Secure Systems Engineering,AIML-4C,B423
+WEDNESDAY,09:00,09:50,Secure Systems Engineering,AIML-4C,B408
+MONDAY,08:00,08:50,Secure Systems Engineering,AIML-4C,B219

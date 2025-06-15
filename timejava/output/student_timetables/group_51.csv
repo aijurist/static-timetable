@@ -1,0 +1,27 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+WEDNESDAY,18:00,18:50,Social and Ethical Issues in AI,New Faculty Humanities & Sciences (PLACEHOLDER),B322
+WEDNESDAY,08:00,09:40,Project-I,Mrs. Sree Subha S,KFL03
+MONDAY,08:00,09:40,Project-I,Mrs. Sree Subha S,TLFL5
+TUESDAY,11:50,13:30,Project-I,Mrs. Sree Subha S,JL2
+THURSDAY,13:50,15:30,Project-I,Mrs. Sree Subha S,TLFL5
+WEDNESDAY,13:50,15:30,Project-I,Mrs. Sree Subha S,TLGL4
+THURSDAY,15:50,17:30,Project-I,Mrs. Sree Subha S,TLFL5
+TUESDAY,16:00,16:50,Big Data Technology,Ms. V Akshaya,B211
+FRIDAY,11:00,11:50,Big Data Technology,Ms. V Akshaya,B221
+WEDNESDAY,16:00,16:50,Big Data Technology,Ms. V Akshaya,A102
+THURSDAY,09:50,11:30,Big Data Technology,Ms. V Akshaya,KFR02
+MONDAY,17:30,19:10,Big Data Technology,Ms. V Akshaya,JL3
+MONDAY,11:00,11:50,Information Retrieval (Professional Elective V),Mr. Kumaran U,B221
+WEDNESDAY,12:00,12:50,Information Retrieval (Professional Elective V),Mr. Kumaran U,B403
+FRIDAY,15:50,17:30,Information Retrieval (Professional Elective V),Mr. Kumaran U,TLSL2
+FRIDAY,13:50,15:30,Information Retrieval (Professional Elective V),Mr. Kumaran U,KFR01
+MONDAY,14:00,14:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,B417
+THURSDAY,12:00,12:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,B218
+WEDNESDAY,10:00,10:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,A104/105
+THURSDAY,13:00,13:50,Data Visualization using Python (Professional Elective III),Mrs. Dr. S. Poonkuzhali,A208
+FRIDAY,09:00,09:50,Data Visualization using Python (Professional Elective III),Mrs. Dr. S. Poonkuzhali,A203
+MONDAY,11:50,13:30,Data Visualization using Python (Professional Elective III),Mrs. Dr. S. Poonkuzhali,JL2
+MONDAY,08:00,09:40,Data Visualization using Python (Professional Elective III),Mrs. Dr. S. Poonkuzhali,TLFR5
+FRIDAY,10:00,10:50,Secure Systems Engineering,Ms. Soundarya M,A302
+THURSDAY,08:00,08:50,Secure Systems Engineering,Ms. Soundarya M,A210
+TUESDAY,09:00,09:50,Secure Systems Engineering,Ms. Soundarya M,B408

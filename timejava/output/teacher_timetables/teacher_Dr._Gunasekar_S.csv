@@ -1,12 +1,12 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Foundations of Machine Learning Concepts,CSD-4A,140
-MONDAY,08:10,09:50,Foundations of Machine Learning Concepts,CSD-4A,140
-MONDAY,08:10,09:50,Foundations of Machine Learning Concepts,CSD-4A,140
-MONDAY,08:10,09:50,Foundations of Machine Learning Concepts,CSD-4A,140
-MONDAY,08:10,09:50,Operating Systems,CSD-3A,140
-MONDAY,08:10,09:50,Operating Systems,CSD-3A,140
-MONDAY,08:10,09:50,Operating Systems,CSD-3A,140
-MONDAY,08:10,09:50,Operating Systems,CSD-3A,140
-MONDAY,08:10,09:50,Operating Systems,CSD-3A,140
-MONDAY,08:10,09:50,Operating Systems,CSD-3A,140
-MONDAY,08:10,09:50,Operating Systems,CSD-3A,140
+THURSDAY,09:00,09:50,Operating Systems,CSD-3A,B302
+TUESDAY,11:00,11:50,Operating Systems,CSD-3A,B401
+FRIDAY,10:00,10:50,Operating Systems,CSD-3A,B426
+FRIDAY,08:00,09:40,Operating Systems,CSD-3A,JR1
+MONDAY,15:50,17:30,Operating Systems,CSD-3A,JL2
+FRIDAY,11:50,13:30,Operating Systems,CSD-3A,JR1
+WEDNESDAY,17:30,19:10,Operating Systems,CSD-3A,KFR01
+THURSDAY,13:00,13:50,Foundations of Machine Learning Concepts,CSD-4A,B322
+WEDNESDAY,11:00,11:50,Foundations of Machine Learning Concepts,CSD-4A,B210
+TUESDAY,13:50,15:30,Foundations of Machine Learning Concepts,CSD-4A,TLFL2
+TUESDAY,17:30,19:10,Foundations of Machine Learning Concepts,CSD-4A,KFR02

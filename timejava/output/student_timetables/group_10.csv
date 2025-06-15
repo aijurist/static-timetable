@@ -1,24 +1,31 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:10,09:50,Operating Systems,Dr. Gunasekar S,140
-MONDAY,08:10,09:50,Operating Systems,Dr. Gunasekar S,140
-MONDAY,08:10,09:50,Operating Systems,Dr. Gunasekar S,140
-MONDAY,08:10,09:50,Operating Systems,Dr. Gunasekar S,140
-MONDAY,08:10,09:50,Operating Systems,Dr. Gunasekar S,140
-MONDAY,08:10,09:50,Operating Systems,Dr. Gunasekar S,140
-MONDAY,08:10,09:50,Operating Systems,Dr. Gunasekar S,140
-MONDAY,08:10,09:50,3D Modelling and Texturing,Mr. S Umamaheswararao,140
-MONDAY,08:10,09:50,3D Modelling and Texturing,Mr. S Umamaheswararao,140
-MONDAY,08:10,09:50,3D Modelling and Texturing,Mr. S Umamaheswararao,140
-MONDAY,08:10,09:50,3D Modelling and Texturing,Mr. S Umamaheswararao,140
-MONDAY,08:10,09:50,Design Thinking and Innovation,Mrs. Kalpana D,140
-MONDAY,08:10,09:50,Design Thinking and Innovation,Mrs. Kalpana D,140
-MONDAY,08:10,09:50,Design Thinking and Innovation,Mrs. Kalpana D,140
-MONDAY,08:10,09:50,Design Thinking and Innovation,Mrs. Kalpana D,140
-MONDAY,08:10,09:50,Web Programming,Mr. Dr. N. Duraimurugan,140
-MONDAY,08:10,09:50,Web Programming,Mr. Dr. N. Duraimurugan,140
-MONDAY,08:10,09:50,Web Programming,Mr. Dr. N. Duraimurugan,140
-MONDAY,08:10,09:50,Web Programming,Mr. Dr. N. Duraimurugan,140
-MONDAY,08:10,09:50,Graphics and Multimedia,Mr. Vijayakumar R,140
-MONDAY,08:10,09:50,Graphics and Multimedia,Mr. Vijayakumar R,140
-MONDAY,08:10,09:50,Graphics and Multimedia,Mr. Vijayakumar R,140
-MONDAY,08:10,09:50,Graphics and Multimedia,Mr. Vijayakumar R,140
+FRIDAY,18:00,18:50,Fourier series and Number theory,Mr. Dr. K. Mageshwaran,A202
+MONDAY,11:00,11:50,Fourier series and Number theory,Mr. Dr. K. Mageshwaran,B425
+MONDAY,15:00,15:50,Fourier series and Number theory,Mr. Dr. K. Mageshwaran,B401
+THURSDAY,13:00,13:50,Fourier series and Number theory,Mr. Dr. K. Mageshwaran,A302
+FRIDAY,08:00,08:50,Database Management Systems,New Staff 4 N,A104/105
+THURSDAY,10:00,10:50,Database Management Systems,New Staff 4 N,A208
+MONDAY,09:00,09:50,Database Management Systems,New Staff 4 N,B416
+FRIDAY,09:50,11:30,Database Management Systems,New Staff 4 N,TLSL2
+TUESDAY,09:50,11:30,Database Management Systems,New Staff 4 N,TLFL1
+THURSDAY,08:00,09:40,Database Management Systems,New Staff 4 N,KFL01
+TUESDAY,13:50,15:30,Database Management Systems,New Staff 4 N,TLSL1
+WEDNESDAY,15:00,15:50,Object Oriented Programming Using JAVA,New Staff 3 N,B325
+MONDAY,08:00,08:50,Object Oriented Programming Using JAVA,New Staff 3 N,A311
+MONDAY,10:00,10:50,Object Oriented Programming Using JAVA,New Staff 3 N,B416
+TUESDAY,08:00,09:40,Object Oriented Programming Using JAVA,New Staff 3 N,KFR01
+THURSDAY,08:00,09:40,Object Oriented Programming Using JAVA,New Staff 3 N,JR3
+WEDNESDAY,11:50,13:30,Object Oriented Programming Using JAVA,New Staff 3 N,TLFL1
+FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,New Staff 3 N,TLFR3
+TUESDAY,18:00,18:50,Computer Networks,Mrs. Subashri Meenakshi G,A203
+FRIDAY,12:00,12:50,Computer Networks,Mrs. Subashri Meenakshi G,A104/105
+WEDNESDAY,08:00,08:50,Computer Networks,Mrs. Subashri Meenakshi G,A302
+THURSDAY,13:50,15:30,Computer Networks,Mrs. Subashri Meenakshi G,TLFR1
+TUESDAY,15:50,17:30,Computer Networks,Mrs. Subashri Meenakshi G,TLFL3
+THURSDAY,15:50,17:30,Computer Networks,Mrs. Subashri Meenakshi G,TLGL4
+FRIDAY,09:50,11:30,Computer Networks,Mrs. Subashri Meenakshi G,KFL02
+MONDAY,18:00,18:50,Cryptography,HOD CSE(CS),B107
+FRIDAY,16:00,16:50,Cryptography,HOD CSE(CS),B107
+FRIDAY,09:00,09:50,Cryptography,HOD CSE(CS),A202
+THURSDAY,17:30,19:10,Cryptography,HOD CSE(CS),TLGL2
+MONDAY,11:50,13:30,Cryptography,HOD CSE(CS),KFR01

@@ -1,17 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Project-1,CSE-4A,140
-MONDAY,08:10,09:50,Project-1,CSE-4A,140
-MONDAY,08:10,09:50,Project-1,CSE-4A,140
-MONDAY,08:10,09:50,Project-1,CSE-4C,140
-MONDAY,08:10,09:50,Project-1,CSE-4C,140
-MONDAY,08:10,09:50,Project-1,CSE-4C,140
-MONDAY,08:10,09:50,Project-1,CSE-4E,140
-MONDAY,08:10,09:50,Project-1,CSE-4E,140
-MONDAY,08:10,09:50,Project-1,CSE-4E,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2F,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2F,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2F,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2F,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2F,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2F,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2F,140
+WEDNESDAY,08:00,08:50,Database Management Systems,CSE-2G,B419
+WEDNESDAY,10:00,10:50,Database Management Systems,CSE-2G,B320
+MONDAY,11:00,11:50,Database Management Systems,CSE-2G,A311
+TUESDAY,17:30,19:10,Database Management Systems,CSE-2G,KFL02
+FRIDAY,08:00,09:40,Database Management Systems,CSE-2G,TLFR3
+MONDAY,08:00,09:40,Database Management Systems,CSE-2G,KFL02
+THURSDAY,08:00,09:40,Database Management Systems,CSE-2G,TLFR1

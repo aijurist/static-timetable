@@ -1,6 +1,9 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Computer Networks,CSE-3A,140
-MONDAY,08:10,09:50,Computer Networks,CSE-3A,140
-MONDAY,08:10,09:50,Computer Networks,CSE-3A,140
-MONDAY,08:10,09:50,Computer Networks,CSE-3A,140
-MONDAY,08:10,09:50,Computer Networks,CSE-3A,140
+THURSDAY,11:00,11:50,Computer Architecture,CSE-2E,A305
+MONDAY,18:00,18:50,Computer Architecture,CSE-2E,A203
+TUESDAY,11:00,11:50,Computer Architecture,CSE-2E,B425
+TUESDAY,09:00,09:50,Fundamentals of Data Science,CSE-2G,B418
+FRIDAY,16:00,16:50,Fundamentals of Data Science,CSE-2G,B403
+WEDNESDAY,09:00,09:50,Fundamentals of Data Science,CSE-2G,B321
+THURSDAY,08:00,09:40,Fundamentals of Data Science,CSE-2G,KFR02
+FRIDAY,09:50,11:30,Fundamentals of Data Science,CSE-2G,TLSL1

@@ -1,29 +1,30 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:10,09:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,140
-MONDAY,08:10,09:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,140
-MONDAY,08:10,09:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Dr. Raja Ramamoorthi,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Dr. Raja Ramamoorthi,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Dr. Raja Ramamoorthi,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Dr. Raja Ramamoorthi,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Dr. Raja Ramamoorthi,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Kalpana D,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Kalpana D,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Kalpana D,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Kalpana D,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Kalpana D,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Kalpana D,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Kalpana D,140
-MONDAY,08:10,09:50,Fourier series and Number theory,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Fourier series and Number theory,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Fourier series and Number theory,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Fourier series and Number theory,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Fundamentals of Data Science,Mr. Ayyadurai M,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,Mr. Ayyadurai M,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,Mr. Ayyadurai M,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,Mr. Ayyadurai M,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,Mr. Ayyadurai M,140
+MONDAY,12:00,12:50,Software Construction,Mrs. Subashri Meenakshi G,A205
+MONDAY,10:00,10:50,Software Construction,Mrs. Subashri Meenakshi G,A304
+MONDAY,17:00,17:50,Software Construction,Mrs. Subashri Meenakshi G,B412
+TUESDAY,11:50,13:30,Software Construction,Mrs. Subashri Meenakshi G,TLSR1
+THURSDAY,11:50,13:30,Software Construction,Mrs. Subashri Meenakshi G,TLFR5
+MONDAY,08:00,08:50,Ethical Hacking,Dr. Balasubramanian V,B401
+MONDAY,16:00,16:50,Ethical Hacking,Dr. Balasubramanian V,B404
+MONDAY,13:00,13:50,Ethical Hacking,Dr. Balasubramanian V,B404
+FRIDAY,08:00,09:40,Ethical Hacking,Dr. Balasubramanian V,JL2
+TUESDAY,17:30,19:10,Ethical Hacking,Dr. Balasubramanian V,KFL01
+MONDAY,11:00,11:50,Cyber and Digital Forensics,New Staff 4 N,A303
+TUESDAY,16:00,16:50,Cyber and Digital Forensics,New Staff 4 N,A103
+FRIDAY,15:00,15:50,Cyber and Digital Forensics,New Staff 4 N,A305
+WEDNESDAY,09:50,11:30,Cyber and Digital Forensics,New Staff 4 N,TLSL2
+MONDAY,13:50,15:30,Cyber and Digital Forensics,New Staff 4 N,KFL02
+THURSDAY,11:50,13:30,Soft Skills – II,New Staff 2 N,KFL02
+THURSDAY,08:00,09:40,Soft Skills – II,New Staff 2 N,TLFR4
+TUESDAY,10:00,10:50,Web Programming,Ms. R Rupmala,B424
+WEDNESDAY,13:00,13:50,Web Programming,Ms. R Rupmala,B410
+FRIDAY,11:00,11:50,Web Programming,Ms. R Rupmala,A311
+TUESDAY,08:00,09:40,Web Programming,Ms. R Rupmala,KSL03
+TUESDAY,13:50,15:30,Web Programming,Ms. R Rupmala,TLFL4
+THURSDAY,15:50,17:30,Web Programming,Ms. R Rupmala,JL1
+WEDNESDAY,09:50,11:30,Web Programming,Ms. R Rupmala,KFL03
+TUESDAY,11:00,11:50,Foundations of Artificial Intelligence,New Staff 3 N,B210
+THURSDAY,10:00,10:50,Foundations of Artificial Intelligence,New Staff 3 N,B412
+THURSDAY,15:00,15:50,Foundations of Artificial Intelligence,New Staff 3 N,A311
+FRIDAY,15:50,17:30,Foundations of Artificial Intelligence,New Staff 3 N,KFR02
+TUESDAY,13:50,15:30,Foundations of Artificial Intelligence,New Staff 3 N,TLGL1

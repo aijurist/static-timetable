@@ -1,24 +1,31 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:10,09:50,Social and Ethical Issues in AI,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Project-I,HOD AIML,140
-MONDAY,08:10,09:50,Project-I,HOD AIML,140
-MONDAY,08:10,09:50,Project-I,HOD AIML,140
-MONDAY,08:10,09:50,Big Data Technology,HOD AIML,140
-MONDAY,08:10,09:50,Big Data Technology,HOD AIML,140
-MONDAY,08:10,09:50,Big Data Technology,HOD AIML,140
-MONDAY,08:10,09:50,Big Data Technology,HOD AIML,140
-MONDAY,08:10,09:50,Big Data Technology,HOD AIML,140
-MONDAY,08:10,09:50,Information Retrieval,Mr. Magesh M P,140
-MONDAY,08:10,09:50,Information Retrieval,Mr. Magesh M P,140
-MONDAY,08:10,09:50,Information Retrieval,Mr. Magesh M P,140
-MONDAY,08:10,09:50,Information Retrieval,Mr. Magesh M P,140
-MONDAY,08:10,09:50,Supply Chain Analytics,Dr. Raju K,140
-MONDAY,08:10,09:50,Supply Chain Analytics,Dr. Raju K,140
-MONDAY,08:10,09:50,Supply Chain Analytics,Dr. Raju K,140
-MONDAY,08:10,09:50,Data Visualization using Python,Mrs. Dr. S. Poonkuzhali,140
-MONDAY,08:10,09:50,Data Visualization using Python,Mrs. Dr. S. Poonkuzhali,140
-MONDAY,08:10,09:50,Data Visualization using Python,Mrs. Dr. S. Poonkuzhali,140
-MONDAY,08:10,09:50,Data Visualization using Python,Mrs. Dr. S. Poonkuzhali,140
-MONDAY,08:10,09:50,Secure Systems Engineering,Dr. N M Balamurugan,140
-MONDAY,08:10,09:50,Secure Systems Engineering,Dr. N M Balamurugan,140
-MONDAY,08:10,09:50,Secure Systems Engineering,Dr. N M Balamurugan,140
+FRIDAY,11:00,11:50,Computer Vision and Applications,Mr. Srinivasan T,A102
+THURSDAY,11:00,11:50,Computer Vision and Applications,Mr. Srinivasan T,A210
+THURSDAY,08:00,09:40,Computer Vision and Applications,Mr. Srinivasan T,JR2
+WEDNESDAY,17:30,19:10,Computer Vision and Applications,Mr. Srinivasan T,TLFL4
+FRIDAY,10:00,10:50,Recommendation Systems (Professional Elective I),New Staff - 05,B221
+MONDAY,18:00,18:50,Recommendation Systems (Professional Elective I),New Staff - 05,B325
+MONDAY,11:50,13:30,Recommendation Systems (Professional Elective I),New Staff - 05,TLFL2
+MONDAY,13:50,15:30,Recommendation Systems (Professional Elective I),New Staff - 05,TLFL2
+MONDAY,09:50,11:30,Build and Deploy Machine Learning Applications,Ms. Saranya S,TLSL2
+FRIDAY,08:00,09:40,Build and Deploy Machine Learning Applications,Ms. Saranya S,TLFL3
+MONDAY,16:00,16:50,Deep Learning,Dr. Raju K,B417
+WEDNESDAY,08:00,08:50,Deep Learning,Dr. Raju K,B222
+FRIDAY,13:00,13:50,Deep Learning,Dr. Raju K,B411
+FRIDAY,15:50,17:30,Deep Learning,Dr. Raju K,TLGL3
+MONDAY,09:50,11:30,Deep Learning,Dr. Raju K,JL2
+TUESDAY,15:00,15:50,Framework for data and visual Analytics,Mrs. J Jasmine Gabriel,A203
+MONDAY,09:00,09:50,Framework for data and visual Analytics,Mrs. J Jasmine Gabriel,B302
+WEDNESDAY,10:00,10:50,Framework for data and visual Analytics,Mrs. J Jasmine Gabriel,B424
+TUESDAY,11:50,13:30,Framework for data and visual Analytics,Mrs. J Jasmine Gabriel,KSL03
+WEDNESDAY,11:50,13:30,Framework for data and visual Analytics,Mrs. J Jasmine Gabriel,KFR03
+MONDAY,17:00,17:50,Computer Networks,Dr. N M Balamurugan,B222
+THURSDAY,18:00,18:50,Computer Networks,Dr. N M Balamurugan,A102
+WEDNESDAY,11:00,11:50,Computer Networks,Dr. N M Balamurugan,B322
+THURSDAY,15:50,17:30,Computer Networks,Dr. N M Balamurugan,TLFR1
+TUESDAY,08:00,09:40,Computer Networks,Dr. N M Balamurugan,TLFL5
+FRIDAY,17:30,19:10,Computer Networks,Dr. N M Balamurugan,KFL02
+THURSDAY,13:50,15:30,Computer Networks,Dr. N M Balamurugan,TLFR4
+TUESDAY,11:00,11:50,DataEngineering,Mrs. Sowmia K R,B220
+THURSDAY,10:00,10:50,DataEngineering,Mrs. Sowmia K R,A108
+FRIDAY,12:00,12:50,DataEngineering,Mrs. Sowmia K R,B211

@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Timetable Visualizer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --theory-color: #60a5fa;
+            --theory-border: #3b82f6;
+            --tutorial-color: #34d399;
+            --tutorial-border: #10b981;
+            --lab-same-color: #a78bfa;
+            --lab-same-border: #8b5cf6;
+            --lab-different-color: #fbbf24;
+            --lab-different-border: #f59e0b;
+            --lab-mixed-color: #f87171;
+            --lab-mixed-border: #ef4444;
+            --lecture-color: #fb7185;
+            --lecture-border: #f43f5e;
+            --header-bg: #1f2937;
+            --cell-bg: #374151;
+            --border-color: #4b5563;
+            --hover-bg: #4b5563;
+            --text-primary: #f9fafb;
+            --text-secondary: #d1d5db;
+            --bg-primary: #111827;
+            --bg-secondary: #1f2937;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: var(--bg-secondary);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--border-color);
+        }
+
+        h1 {
+            color: var(--text-primary);
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+
+        .controls {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .control-group {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .control-group label {
+            color: var(--text-secondary);
+            font-weight: 500;
+            min-width: 80px;
+        }
+
+        select, .toggle-btn {
+            padding: 8px 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            background-color: var(--cell-bg);
+            font-size: 14px;
+            color: var(--text-primary);
+            cursor: pointer;
+            min-width: 120px;
+            transition: all 0.2s;
+        }
+
+        .toggle-btn {
+            background-color: var(--cell-bg);
+            transition: all 0.2s;
+        }
+
+        .toggle-btn.active {
+            background-color: var(--theory-color);
+            color: var(--bg-primary);
+            border-color: var(--theory-border);
+            box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.3);
+        }
+
+        .toggle-btn:hover {
+            background-color: var(--hover-bg);
+            border-color: var(--theory-border);
+        }
+
+        .toggle-btn.active:hover {
+            background-color: var(--theory-border);
+        }
+
+        select:focus {
+            outline: none;
+            border-color: var(--theory-color);
+            box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.2);
+        }
+
+        .timetable {
+            display: grid;
+            grid-template-columns: 120px repeat(5, 1fr);
+            gap: 1px;
+            background-color: var(--border-color);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .timetable[data-combined="true"] {
+            overflow: visible; /* Allow spanning blocks in combined view */
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Ensure timetable container doesn't clip spanning elements */
+        #timetableContainer {
+            overflow: visible;
+            position: relative;
+        }
+
+        /* Combined lab block styling */
+        .combined-lab-block {
+            border: 3px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        .lab-time-header {
+            font-weight: 700;
+            font-size: 0.9em;
+            text-align: center;
+            margin-bottom: 6px;
+            padding: 2px 0;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            color: rgba(255, 255, 255, 0.95);
+        }
+
+        .lab-course-title {
+            font-weight: 600;
+            font-size: 0.85em;
+            margin-bottom: 3px;
+            line-height: 1.2;
+        }
+
+        .lab-teacher, .lab-room {
+            font-size: 0.75em;
+            opacity: 0.9;
+            margin-bottom: 2px;
+        }
+
+        .lab-batches {
+            font-size: 0.7em; 
+            opacity: 0.8;
+            margin-top: 3px;
+            font-style: italic;
+        }
+
+        .lab-multiple-courses {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .lab-course-item {
+            flex: 1;
+        }
+
+        .lab-course-name {
+            font-weight: 600;
+            font-size: 0.8em;
+            margin-bottom: 2px;
+            line-height: 1.1;
+        }
+
+        .lab-course-details {
+            font-size: 0.7em;
+            opacity: 0.85;
+            line-height: 1.1;
+        }
+
+        .lab-separator {
+            text-align: center;
+            font-weight: bold;
+            opacity: 0.6;
+            font-size: 0.8em;
+            margin: 2px 0;
+        }
+
+        /* Visual indicator for lab span cells */
+        .lab-span-cell {
+            background: linear-gradient(45deg, var(--cell-bg) 25%, transparent 25%, transparent 75%, var(--cell-bg) 75%), 
+                        linear-gradient(45deg, var(--cell-bg) 25%, rgba(167, 139, 250, 0.1) 25%, rgba(167, 139, 250, 0.1) 75%, var(--cell-bg) 75%);
+            background-size: 20px 20px;
+            background-position: 0 0, 10px 10px;
+        }
+
+        .header {
+            background-color: var(--header-bg);
+            padding: 12px;
+            text-align: center;
+            font-weight: 500;
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+        }
+
+        .time-slot {
+            background-color: var(--header-bg);
+            padding: 8px;
+            text-align: center;
+            font-size: 0.85em;
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .cell {
+            background-color: var(--cell-bg);
+            padding: 4px;
+            min-height: 80px;
+            border: 1px solid var(--border-color);
+            position: relative;
+            transition: background-color 0.2s;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            overflow: visible; /* Allow spanning blocks to extend beyond cell boundaries */
+        }
+
+        .cell:hover {
+            background-color: var(--hover-bg);
+        }
+
+        .lesson-block {
+            margin: 1px;
+            padding: 6px;
+            border-radius: 4px;
+            color: white;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            font-size: 0.8em;
+            line-height: 1.2;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .lesson-block:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .theory {
+            background-color: var(--theory-color);
+            border: 1px solid var(--theory-border);
+        }
+
+        .lecture {
+            background-color: var(--lecture-color);
+            border: 1px solid var(--lecture-border);
+        }
+
+        .tutorial {
+            background-color: var(--tutorial-color);
+            border: 1px solid var(--tutorial-border);
+        }
+
+        .lab-same {
+            background-color: var(--lab-same-color);
+            border: 1px solid var(--lab-same-border);
+        }
+
+        .lab-different {
+            background-color: var(--lab-different-color);
+            border: 1px solid var(--lab-different-border);
+        }
+
+        .lab-mixed {
+            background-color: var(--lab-mixed-color);
+            border: 1px solid var(--lab-mixed-border);
+        }
+
+        .legend {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: var(--header-bg);
+            border-radius: 8px;
+            flex-wrap: wrap;
+            border: 1px solid var(--border-color);
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+        }
+
+        .legend-text {
+            font-size: 0.9em;
+            color: var(--text-secondary);
+        }
+
+        .tooltip {
+            position: absolute;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 14px;
+            z-index: 1000;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+            max-width: 350px;
+            display: none;
+            border: 1px solid var(--border-color);
+        }
+
+        .tooltip-title {
+            font-weight: 500;
+            margin-bottom: 8px;
+            color: var(--text-primary);
+        }
+
+        .tooltip-content {
+            display: grid;
+            gap: 4px;
+        }
+
+        .tooltip-row {
+            display: flex;
+            justify-content: space-between;
+            gap: 16px;
+        }
+
+        .tooltip-label {
+            color: var(--text-secondary);
+        }
+
+        .tooltip-value {
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+
+        .error-message {
+            color: #fca5a5;
+            background-color: #1e1b22;
+            border: 1px solid #7f1d1d;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .error-message h3 {
+            margin-top: 0;
+            color: #f87171;
+            font-size: 1.5em;
+        }
+
+        .error-message ul {
+            text-align: left;
+            max-width: 600px;
+            margin: 15px auto;
+        }
+
+        .error-message code {
+            background-color: #374151;
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: #d1d5db;
+        }
+
+        .batch-indicator {
+            font-size: 0.7em;
+            opacity: 0.9;
+            margin-top: 2px;
+        }
+
+        .section-title {
+            font-size: 1.2em;
+            font-weight: 500;
+            margin: 20px 0 10px 0;
+            color: var(--text-primary);
+            padding: 10px 0;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .view-toggle {
+            display: flex;
+            gap: 0;
+            border-radius: 6px;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+        }
+
+        .view-toggle .toggle-btn {
+            border: none;
+            border-radius: 0;
+            min-width: 100px;
+        }
+
+        .view-toggle .toggle-btn:not(:last-child) {
+            border-right: 1px solid var(--border-color);
+        }
+
+        /* Enhanced styling for combined view spanning blocks */
+        .cell[data-schedule-type="combined"] {
+            overflow: visible;
+            z-index: 1;
+        }
+
+        .lesson-block.spanning {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            border-radius: 6px;
+        }
+
+        /* Fix for combined view grid layout */
+        .timetable[data-combined="true"] {
+            position: relative;
+            z-index: 1;
+        }
+
+        .timetable[data-combined="true"] .cell {
+            position: relative;
+            z-index: 1;
+            overflow: visible;
+        }
+
+        .timetable[data-combined="true"] .lesson-block.spanning {
+            z-index: 100;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Ensure non-spanning blocks don't interfere */
+        .timetable[data-combined="true"] .lesson-block:not(.spanning) {
+            z-index: 5;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Advanced Timetable Visualizer</h1>
+        
+        <div class="controls">
+            <div class="control-group">
+                <label>Schedule Type:</label>
+                <div class="view-toggle">
+                    <button class="toggle-btn active" id="theoryBtn" onclick="setScheduleType('theory')">Theory/Lectures</button>
+                    <button class="toggle-btn" id="labBtn" onclick="setScheduleType('lab')">Labs</button>
+                    <button class="toggle-btn" id="combinedBtn" onclick="setScheduleType('combined')">Combined</button>
+                </div>
+            </div>
+            
+            <div class="control-group">
+                <label>View:</label>
+                <select id="viewType">
+                    <option value="teacher">Teacher View</option>
+                    <option value="group">Student Group View</option>
+                </select>
+            </div>
+            
+            <div class="control-group">
+                <select id="entitySelector"></select>
+            </div>
+        </div>
+
+        <div class="legend" id="legend">
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: var(--theory-color); border: 1px solid var(--theory-border);"></div>
+                <span class="legend-text">Theory Classes</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: var(--lecture-color); border: 1px solid var(--lecture-border);"></div>
+                <span class="legend-text">Lectures</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: var(--lab-same-color); border: 1px solid var(--lab-same-border);"></div>
+                <span class="legend-text">Lab - Same Course</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: var(--lab-different-color); border: 1px solid var(--lab-different-border);"></div>
+                <span class="legend-text">Lab - Different Courses</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: var(--lab-mixed-color); border: 1px solid var(--lab-mixed-border);"></div>
+                <span class="legend-text">Lab - Mixed Batches</span>
+            </div>
+        </div>
+
+        <div id="timetableContainer">
+            <div class="timetable" id="timetable"></div>
+        </div>
+    </div>
+
+    <div class="tooltip" id="tooltip"></div>
+
+    <script>
+        // Theory time slots
+        const THEORY_TIME_SLOTS = [
+            { start: "8:00", end: "8:50" },
+            { start: "9:00", end: "9:50" },
+            { start: "10:00", end: "10:50" },
+            { start: "11:00", end: "11:50" },
+            { start: "12:00", end: "12:50" },
+            { start: "13:00", end: "13:50" },
+            { start: "14:00", end: "14:50" },
+            { start: "15:00", end: "15:50" },
+            { start: "16:00", end: "16:50" },
+            { start: "17:00", end: "17:50" },
+            { start: "18:00", end: "18:50" }
+        ];
+
+        // Lab time slots (2-hour slots)
+        const LAB_TIME_SLOTS = [
+            { start: "8:00", end: "9:40", label: "8:00-9:40" },
+            { start: "9:50", end: "11:30", label: "9:50-11:30" },
+            { start: "11:50", end: "13:30", label: "11:50-13:30" },
+            { start: "13:50", end: "15:30", label: "13:50-15:30" },
+            { start: "15:50", end: "17:30", label: "15:50-17:30" },
+            { start: "17:50", end: "19:30", label: "17:50-19:30" }
+        ];
+
+
+
+        const days = ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY"];
+        const dayDisplayNames = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+
+        let timetableData = null;
+        let currentScheduleType = 'theory';
+
+
+
+        function setScheduleType(type) {
+            currentScheduleType = type;
+            
+            // Update button states
+            document.querySelectorAll('.toggle-btn').forEach(btn => btn.classList.remove('active'));
+            document.getElementById(type + 'Btn').classList.add('active');
+            
+            // Update legend visibility
+            updateLegend(type);
+            
+            // Recreate timetable with appropriate slots
+            createTimetableGrid();
+            
+            // Refresh display
+            filterLessons();
+        }
+
+        function updateLegend(type) {
+            const legend = document.getElementById('legend');
+            legend.innerHTML = '';
+            
+            if (type === 'theory' || type === 'combined') {
+                legend.innerHTML += `
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: var(--theory-color); border: 1px solid var(--theory-border);"></div>
+                        <span class="legend-text">Theory Classes</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: var(--lecture-color); border: 1px solid var(--lecture-border);"></div>
+                        <span class="legend-text">Lectures</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: var(--tutorial-color); border: 1px solid var(--tutorial-border);"></div>
+                        <span class="legend-text">Tutorials</span>
+                    </div>
+                `;
+            }
+            
+            if (type === 'lab' || type === 'combined') {
+                legend.innerHTML += `
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: var(--lab-same-color); border: 1px solid var(--lab-same-border);"></div>
+                        <span class="legend-text">Lab - Same Course</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: var(--lab-different-color); border: 1px solid var(--lab-different-border);"></div>
+                        <span class="legend-text">Lab - Different Courses</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: var(--lab-mixed-color); border: 1px solid var(--lab-mixed-border);"></div>
+                        <span class="legend-text">Lab - Mixed Batches</span>
+                    </div>
+                `;
+            }
+        }
+
+        function createTimetableGrid() {
+            const timetable = document.getElementById('timetable');
+            timetable.innerHTML = '';
+
+            // For combined view, use theory time slots as base grid
+            const timeSlots = currentScheduleType === 'lab' ? LAB_TIME_SLOTS : THEORY_TIME_SLOTS;
+            
+            // Add combined view attribute for CSS styling
+            if (currentScheduleType === 'combined') {
+                timetable.setAttribute('data-combined', 'true');
+            } else {
+                timetable.removeAttribute('data-combined');
+            }
+
+            // Create header row
+            const headerRow = document.createElement('div');
+            headerRow.className = 'header';
+            headerRow.textContent = 'Time';
+            timetable.appendChild(headerRow);
+
+            dayDisplayNames.forEach(day => {
+                const header = document.createElement('div');
+                header.className = 'header';
+                header.textContent = day;
+                timetable.appendChild(header);
+            });
+
+            // Create time slots
+            timeSlots.forEach((slot, index) => {
+                const timeCell = document.createElement('div');
+                timeCell.className = 'time-slot';
+                if (currentScheduleType === 'lab') {
+                    timeCell.textContent = slot.label;
+                } else {
+                    timeCell.innerHTML = `${slot.start}<br>${slot.end}`;
+                }
+                timetable.appendChild(timeCell);
+
+                days.forEach(day => {
+                    const cell = document.createElement('div');
+                    cell.className = 'cell';
+                    cell.dataset.day = day;
+                    cell.dataset.timeSlot = index;
+                    cell.dataset.scheduleType = currentScheduleType;
+                    timetable.appendChild(cell);
+                });
+            });
+        }
+
+        function showTooltip(event, lesson) {
+            const tooltip = document.getElementById('tooltip');
+            tooltip.style.display = 'block';
+            tooltip.style.left = event.pageX + 10 + 'px';
+            tooltip.style.top = event.pageY + 10 + 'px';
+
+            let tooltipContent = `
+                <div class="tooltip-title">${lesson.course}</div>
+                <div class="tooltip-content">
+                    <div class="tooltip-row">
+                        <span class="tooltip-label">Teacher:</span>
+                        <span class="tooltip-value">${lesson.teacher}</span>
+                    </div>
+                    <div class="tooltip-row">
+                        <span class="tooltip-label">Group:</span>
+                        <span class="tooltip-value">${lesson.group}</span>
+                    </div>
+            `;
+
+            if (lesson.batch) {
+                tooltipContent += `
+                    <div class="tooltip-row">
+                        <span class="tooltip-label">Batch:</span>
+                        <span class="tooltip-value">${lesson.batch}</span>
+                    </div>
+                `;
+            }
+
+            tooltipContent += `
+                    <div class="tooltip-row">
+                        <span class="tooltip-label">Room:</span>
+                        <span class="tooltip-value">${lesson.room}</span>
+                    </div>
+                    <div class="tooltip-row">
+                        <span class="tooltip-label">Time:</span>
+                        <span class="tooltip-value">${lesson.startTime} - ${lesson.endTime}</span>
+                    </div>
+                    <div class="tooltip-row">
+                        <span class="tooltip-label">Type:</span>
+                        <span class="tooltip-value">${lesson.type}</span>
+                    </div>
+                </div>
+            `;
+
+            tooltip.innerHTML = tooltipContent;
+        }
+
+        function showCombinedLabTooltip(event, labLessons, startTime, endTime) {
+            const tooltip = document.getElementById('tooltip');
+            tooltip.style.display = 'block';
+            tooltip.style.left = event.pageX + 10 + 'px';
+            tooltip.style.top = event.pageY + 10 + 'px';
+
+            let tooltipContent = `
+                <div class="tooltip-title">Combined Lab Session</div>
+                <div class="tooltip-content">
+                    <div class="tooltip-row">
+                        <span class="tooltip-label">Time:</span>
+                        <span class="tooltip-value">${startTime} - ${endTime}</span>
+                    </div>
+                    <div class="tooltip-row">
+                        <span class="tooltip-label">Sessions:</span>
+                        <span class="tooltip-value">${labLessons.length}</span>
+                    </div>
+            `;
+
+            labLessons.forEach((lesson, index) => {
+                tooltipContent += `
+                    <div style="margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--border-color);">
+                        <div class="tooltip-row">
+                            <span class="tooltip-label">Course ${index + 1}:</span>
+                            <span class="tooltip-value">${lesson.course}</span>
+                        </div>
+                        <div class="tooltip-row">
+                            <span class="tooltip-label">Teacher:</span>
+                            <span class="tooltip-value">${lesson.teacher}</span>
+                        </div>
+                        <div class="tooltip-row">
+                            <span class="tooltip-label">Room:</span>
+                            <span class="tooltip-value">${lesson.room}</span>
+                        </div>
+                        ${lesson.batch ? `
+                        <div class="tooltip-row">
+                            <span class="tooltip-label">Batch:</span>
+                            <span class="tooltip-value">${lesson.batch}</span>
+                        </div>
+                        ` : ''}
+                    </div>
+                `;
+            });
+
+            tooltipContent += `</div>`;
+            tooltip.innerHTML = tooltipContent;
+        }
+
+        function hideTooltip() {
+            const tooltip = document.getElementById('tooltip');
+            tooltip.style.display = 'none';
+        }
+
+        function parseTime(timeStr) {
+            const [hours, minutes] = timeStr.split(':').map(Number);
+            return hours * 60 + minutes;
+        }
+
+        function getSpannedTheorySlots(startTime, endTime) {
+            const startMinutes = parseTime(startTime);
+            const endMinutes = parseTime(endTime);
+            const spannedSlots = [];
+            
+            for (let i = 0; i < THEORY_TIME_SLOTS.length; i++) {
+                const slotStart = parseTime(THEORY_TIME_SLOTS[i].start);
+                const slotEnd = parseTime(THEORY_TIME_SLOTS[i].end);
+                
+                // Check if lab session overlaps with this theory slot (with 10 minute tolerance)
+                if (startMinutes <= slotEnd && endMinutes >= slotStart) {
+                    // Additional check to ensure meaningful overlap
+                    const overlapStart = Math.max(startMinutes, slotStart);
+                    const overlapEnd = Math.min(endMinutes, slotEnd);
+                    if (overlapEnd - overlapStart >= 10) { // At least 10 minutes overlap
+                        spannedSlots.push(i);
+                    }
+                }
+            }
+            
+            console.log(`Lab ${startTime}-${endTime} spans slots:`, spannedSlots.map(i => THEORY_TIME_SLOTS[i]));
+            return spannedSlots;
+        }
+
+        function findTimeSlotIndex(startTime, endTime, scheduleType) {
+            const startMinutes = parseTime(startTime);
+            const endMinutes = parseTime(endTime);
+            
+            if (scheduleType === 'lab') {
+                // For lab view, find matching lab slot
+                for (let i = 0; i < LAB_TIME_SLOTS.length; i++) {
+                    const slotStart = parseTime(LAB_TIME_SLOTS[i].start);
+                    const slotEnd = parseTime(LAB_TIME_SLOTS[i].end);
+                    
+                    // Allow some tolerance (30 minutes)
+                    if (Math.abs(startMinutes - slotStart) <= 30 && Math.abs(endMinutes - slotEnd) <= 30) {
+                        return i;
+                    }
+                }
+            } else {
+                // For theory view, find matching theory slot
+                for (let i = 0; i < THEORY_TIME_SLOTS.length; i++) {
+                    const slotStart = parseTime(THEORY_TIME_SLOTS[i].start);
+                    const slotEnd = parseTime(THEORY_TIME_SLOTS[i].end);
+                    
+                    if (startMinutes >= slotStart && startMinutes < slotEnd) {
+                        return i;
+                    }
+                }
+            }
+            
+            return -1; // Not found
+        }
+
+        function createCombinedLabBlock(labLessons, spanHeight, startTime, endTime) {
+            const block = document.createElement('div');
+            block.className = 'lesson-block combined-lab-block spanning';
+            
+            // Calculate proper height for spanning blocks
+            const cellHeight = 80;
+            const padding = 8;
+            const border = 2;
+            const gap = 1;
+            const totalCellHeight = cellHeight + padding + border + gap;
+            const totalHeight = (spanHeight * totalCellHeight) - gap - 8;
+            
+            block.style.height = `${totalHeight}px`;
+            block.style.position = 'absolute';
+            block.style.width = 'calc(100% - 8px)';
+            block.style.zIndex = '100';
+            block.style.top = '4px';
+            block.style.left = '4px';
+            block.style.margin = '0';
+            block.style.boxSizing = 'border-box';
+            
+            // Determine block color based on course diversity
+            let blockType = 'lab-same';
+            const uniqueCourses = new Set(labLessons.map(l => l.course));
+            const uniqueBatches = new Set(labLessons.map(l => l.batch).filter(b => b));
+            
+            if (uniqueCourses.size > 1) {
+                blockType = 'lab-different'; // Multiple different courses
+            } else if (uniqueBatches.size > 1) {
+                blockType = 'lab-mixed'; // Same course, different batches
+            }
+            
+            block.classList.add(blockType);
+            
+            // Create content for combined lab block
+            let content = `<div class="lab-time-header">${startTime} - ${endTime}</div>`;
+            
+            if (uniqueCourses.size === 1) {
+                // Single course, multiple batches
+                const course = labLessons[0].course;
+                const teacher = labLessons[0].teacher;
+                const room = labLessons[0].room;
+                
+                content += `
+                    <div class="lab-course-title">${course}</div>
+                    <div class="lab-teacher">${teacher}</div>
+                    <div class="lab-room">${room}</div>
+                `;
+                
+                if (uniqueBatches.size > 1) {
+                    const batches = Array.from(uniqueBatches).join(', ');
+                    content += `<div class="lab-batches">Batches: ${batches}</div>`;
+                }
+            } else {
+                // Multiple courses
+                content += `<div class="lab-multiple-courses">`;
+                labLessons.forEach((lesson, index) => {
+                    content += `
+                        <div class="lab-course-item">
+                            <div class="lab-course-name">${lesson.course}</div>
+                            <div class="lab-course-details">${lesson.teacher} • ${lesson.room}${lesson.batch ? ` • ${lesson.batch}` : ''}</div>
+                        </div>
+                    `;
+                    if (index < labLessons.length - 1) {
+                        content += `<div class="lab-separator">|</div>`;
+                    }
+                });
+                content += `</div>`;
+            }
+            
+            block.innerHTML = content;
+            
+            // Add hover tooltip for combined block
+            block.addEventListener('mouseenter', (e) => showCombinedLabTooltip(e, labLessons, startTime, endTime));
+            block.addEventListener('mouseleave', hideTooltip);
+            
+            console.log(`Created combined lab block: ${uniqueCourses.size} courses, ${uniqueBatches.size} batches, height=${totalHeight}px`);
+            
+            return block;
+        }
+
+        function createLessonBlock(lesson, spanHeight = 1) {
+            const block = document.createElement('div');
+            
+            // Determine block type
+            let blockType = 'theory';
+            if (lesson.type === 'lecture') {
+                blockType = 'lecture';
+            } else if (lesson.type === 'tutorial') {
+                blockType = 'tutorial';
+            } else if (lesson.type === 'lab') {
+                blockType = 'lab-same'; // Default for single lab
+            }
+            
+            block.className = `lesson-block ${blockType}`;
+            
+            // If this lesson spans multiple slots, adjust height and add spanning class
+            if (spanHeight > 1) {
+                block.classList.add('spanning');
+                // Calculate proper height for spanning blocks including gaps
+                const cellHeight = 80; // min-height of cells
+                const padding = 8; // cell padding (4px top + 4px bottom)
+                const border = 2; // border width (1px top + 1px bottom) 
+                const gap = 1; // grid gap
+                const totalCellHeight = cellHeight + padding + border + gap;
+                const totalHeight = (spanHeight * totalCellHeight) - gap - 8; // Subtract last gap and some margin
+                
+                block.style.height = `${totalHeight}px`;
+                block.style.position = 'absolute';
+                block.style.width = 'calc(100% - 8px)';
+                block.style.zIndex = '100';
+                block.style.top = '4px';
+                block.style.left = '4px';
+                block.style.margin = '0';
+                block.style.boxSizing = 'border-box';
+                
+                console.log(`Creating spanning block: height=${totalHeight}px, spans=${spanHeight} slots`);
+            }
+            
+            block.innerHTML = `
+                <div style="font-weight: 500; margin-bottom: 2px;">${lesson.course}</div>
+                <div style="font-size: 0.85em; opacity: 0.9;">${lesson.teacher}</div>
+                <div style="font-size: 0.75em; opacity: 0.8;">${lesson.room}</div>
+                ${lesson.batch ? `<div class="batch-indicator">Batch: ${lesson.batch}</div>` : ''}
+            `;
+            
+            block.addEventListener('mouseenter', (e) => showTooltip(e, lesson));
+            block.addEventListener('mouseleave', hideTooltip);
+            
+            return block;
+        }
+
+        function displayLessons(lessons) {
+            // Clear existing lessons
+            document.querySelectorAll('.cell').forEach(cell => {
+                cell.innerHTML = '';
+                cell.style.position = 'relative'; // Ensure cells can contain positioned elements
+            });
+
+            console.log('Displaying lessons:', lessons);
+            
+            // Filter lessons based on schedule type
+            let filteredLessons = lessons;
+            if (currentScheduleType === 'theory') {
+                filteredLessons = lessons.filter(lesson => 
+                    lesson.type === 'lecture' || lesson.type === 'theory' || lesson.type === 'tutorial'
+                );
+            } else if (currentScheduleType === 'lab') {
+                filteredLessons = lessons.filter(lesson => lesson.type === 'lab');
+            }
+            // Combined view shows all lessons
+            
+            if (currentScheduleType === 'combined') {
+                displayCombinedLessons(lessons);
+            } else {
+                displayStandardLessons(filteredLessons);
+            }
+        }
+
+        function displayStandardLessons(lessons) {
+            // Group lessons by day and time slot
+            const groupedLessons = {};
+            
+            lessons.forEach(lesson => {
+                const day = lesson.day.toUpperCase();
+                const slotIndex = findTimeSlotIndex(lesson.startTime, lesson.endTime, currentScheduleType);
+                
+                if (slotIndex >= 0) {
+                    const key = `${day}-${slotIndex}`;
+                    if (!groupedLessons[key]) {
+                        groupedLessons[key] = [];
+                    }
+                    groupedLessons[key].push(lesson);
+                }
+            });
+            
+            // Display lessons in grid
+            Object.entries(groupedLessons).forEach(([key, lessonsInSlot]) => {
+                const [day, timeSlotStr] = key.split('-');
+                const timeSlot = parseInt(timeSlotStr);
+                
+                const cell = document.querySelector(`.cell[data-day="${day}"][data-time-slot="${timeSlot}"][data-schedule-type="${currentScheduleType}"]`);
+                if (cell) {
+                    lessonsInSlot.forEach(lesson => {
+                        const block = createLessonBlock(lesson);
+                        cell.appendChild(block);
+                    });
+                }
+            });
+        }
+
+        function displayCombinedLessons(lessons) {
+            console.log('Displaying combined lessons:', lessons);
+            
+            // Group lab sessions by day and time span
+            const labGroups = new Map(); // key: "day-startTime-endTime", value: array of lessons
+            const occupiedCells = new Map(); // Track which cells are occupied by labs
+            
+            // First, group all lab sessions by their time spans
+            lessons.forEach(lesson => {
+                const day = lesson.day.toUpperCase();
+                
+                if (lesson.type === 'lab') {
+                    const timeKey = `${day}-${lesson.startTime}-${lesson.endTime}`;
+                    if (!labGroups.has(timeKey)) {
+                        labGroups.set(timeKey, []);
+                    }
+                    labGroups.get(timeKey).push(lesson);
+                }
+            });
+            
+            // Process each lab group and create spanning blocks
+            labGroups.forEach((labLessons, timeKey) => {
+                const [day, startTime, endTime] = timeKey.split('-');
+                const spannedSlots = getSpannedTheorySlots(startTime, endTime);
+                
+                if (spannedSlots.length > 0) {
+                    console.log(`Lab group ${timeKey} spans slots:`, spannedSlots);
+                    
+                    // Create a combined lab block for all courses/batches in this time slot
+                    const firstSlot = spannedSlots[0];
+                    const cell = document.querySelector(`.cell[data-day="${day}"][data-time-slot="${firstSlot}"][data-schedule-type="combined"]`);
+                    
+                    if (cell) {
+                        // Clear all spanned cells first
+                        spannedSlots.forEach(slotIndex => {
+                            const spanCell = document.querySelector(`.cell[data-day="${day}"][data-time-slot="${slotIndex}"][data-schedule-type="combined"]`);
+                            if (spanCell) {
+                                spanCell.innerHTML = '';
+                            }
+                        });
+                        
+                        // Create a combined lab block
+                        const combinedBlock = createCombinedLabBlock(labLessons, spannedSlots.length, startTime, endTime);
+                        cell.appendChild(combinedBlock);
+                        
+                        // Mark all spanned cells as occupied
+                        spannedSlots.forEach(slotIndex => {
+                            const key = `${day}-${slotIndex}`;
+                            occupiedCells.set(key, timeKey);
+                            
+                            const occupiedCell = document.querySelector(`.cell[data-day="${day}"][data-time-slot="${slotIndex}"][data-schedule-type="combined"]`);
+                            if (occupiedCell) {
+                                occupiedCell.setAttribute('data-occupied-by-lab', timeKey);
+                                occupiedCell.classList.add('lab-span-cell');
+                            }
+                        });
+                    }
+                }
+            });
+            
+            // Second pass: Place theory/lecture/tutorial sessions
+            lessons.forEach(lesson => {
+                const day = lesson.day.toUpperCase();
+                
+                if (lesson.type !== 'lab') {
+                    const slotIndex = findTimeSlotIndex(lesson.startTime, lesson.endTime, 'theory');
+                    
+                    if (slotIndex >= 0) {
+                        const cellKey = `${day}-${slotIndex}`;
+                        const cell = document.querySelector(`.cell[data-day="${day}"][data-time-slot="${slotIndex}"][data-schedule-type="combined"]`);
+                        
+                        // Only place if cell is not occupied by a lab
+                        if (cell && !occupiedCells.has(cellKey)) {
+                            const block = createLessonBlock(lesson);
+                            cell.appendChild(block);
+                        }
+                    }
+                }
+            });
+        }
+
+        function updateEntitySelector() {
+            if (!timetableData) return;
+
+            const selector = document.getElementById('entitySelector');
+            const viewType = document.getElementById('viewType').value;
+            selector.innerHTML = '';
+
+            const showAllOption = document.createElement('option');
+            showAllOption.value = '';
+            showAllOption.textContent = 'Show All';
+            selector.appendChild(showAllOption);
+
+            if (viewType === 'teacher') {
+                const teachers = new Map();
+                timetableData.lessons.forEach(lesson => {
+                    if (!teachers.has(lesson.teacherId)) {
+                        teachers.set(lesson.teacherId, lesson.teacher);
+                    }
+                });
+
+                teachers.forEach((name, id) => {
+                    const option = document.createElement('option');
+                    option.value = id;
+                    option.textContent = name;
+                    selector.appendChild(option);
+                });
+            } else {
+                const groups = new Map();
+                timetableData.lessons.forEach(lesson => {
+                    if (!groups.has(lesson.groupId)) {
+                        groups.set(lesson.groupId, lesson.group);
+                    }
+                });
+
+                groups.forEach((name, id) => {
+                    const option = document.createElement('option');
+                    option.value = id;
+                    option.textContent = name;
+                    selector.appendChild(option);
+                });
+            }
+            
+            selector.value = '';
+        }
+
+        function showErrorMessage(message) {
+            const container = document.getElementById('timetableContainer');
+            container.innerHTML = `
+                <div class="error-message">
+                    <h3>⚠️ Timetable Data Not Found</h3>
+                    <p>${message}</p>
+                    <p>Please generate your timetable first using the timetable generator, then run this visualizer.</p>
+                    <ul>
+                        <li>Make sure <code>timetable.json</code> exists in the same directory</li>
+                        <li>Verify the JSON file contains valid timetable data</li>
+                        <li>Refresh the page after generating the timetable</li>
+                    </ul>
+                </div>
+            `;
+            
+            // Hide controls when no data is available
+            document.querySelector('.controls').style.display = 'none';
+            document.querySelector('.legend').style.display = 'none';
+        }
+
+        function filterLessons() {
+            if (!timetableData) {
+                showErrorMessage('No timetable data available.');
+                return;
+            }
+
+            const viewType = document.getElementById('viewType').value;
+            const selectedId = document.getElementById('entitySelector').value;
+            
+            let filteredLessons = timetableData.lessons;
+            
+            if (selectedId) {
+                filteredLessons = timetableData.lessons.filter(lesson => {
+                    if (viewType === 'teacher') {
+                        return lesson.teacherId === selectedId;
+                    } else {
+                        return lesson.groupId === selectedId;
+                    }
+                });
+            }
+
+            console.log(`Filtered lessons for ${viewType} ${selectedId}:`, filteredLessons);
+            displayLessons(filteredLessons);
+        }
+
+        // Initialize
+        createTimetableGrid();
+        updateLegend('theory');
+
+        // Load timetable data
+        fetch('timetable.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`Failed to load timetable.json (HTTP ${response.status})`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log('Loaded timetable data:', data);
+                if (!data || !data.lessons || !Array.isArray(data.lessons)) {
+                    throw new Error('Invalid timetable data format');
+                }
+                timetableData = data;
+                updateEntitySelector();
+                filterLessons();
+            })
+            .catch(error => {
+                console.error('Failed to load timetable data:', error.message);
+                showErrorMessage(`Failed to load timetable.json: ${error.message}`);
+            });
+
+        // Event listeners
+        document.getElementById('viewType').addEventListener('change', function() {
+            updateEntitySelector();
+            filterLessons();
+        });
+
+        document.getElementById('entitySelector').addEventListener('change', filterLessons);
+    </script>
+</body>
+</html>

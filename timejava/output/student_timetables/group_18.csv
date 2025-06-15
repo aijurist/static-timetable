@@ -1,29 +1,27 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:10,09:50,Computer Architecture,Mrs. Dharani Devi G,140
-MONDAY,08:10,09:50,Computer Architecture,Mrs. Dharani Devi G,140
-MONDAY,08:10,09:50,Computer Architecture,Mrs. Dharani Devi G,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Dr. Raja Ramamoorthi,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Dr. Raja Ramamoorthi,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Dr. Raja Ramamoorthi,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Dr. Raja Ramamoorthi,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Dr. Raja Ramamoorthi,140
-MONDAY,08:10,09:50,Database Management Systems,Ms. R.Anitha,140
-MONDAY,08:10,09:50,Database Management Systems,Ms. R.Anitha,140
-MONDAY,08:10,09:50,Database Management Systems,Ms. R.Anitha,140
-MONDAY,08:10,09:50,Database Management Systems,Ms. R.Anitha,140
-MONDAY,08:10,09:50,Database Management Systems,Ms. R.Anitha,140
-MONDAY,08:10,09:50,Database Management Systems,Ms. R.Anitha,140
-MONDAY,08:10,09:50,Database Management Systems,Ms. R.Anitha,140
-MONDAY,08:10,09:50,Fourier series and Number theory,Dr. Ponmana Selvan Arumugam,140
-MONDAY,08:10,09:50,Fourier series and Number theory,Dr. Ponmana Selvan Arumugam,140
-MONDAY,08:10,09:50,Fourier series and Number theory,Dr. Ponmana Selvan Arumugam,140
-MONDAY,08:10,09:50,Fourier series and Number theory,Dr. Ponmana Selvan Arumugam,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,Mrs. Akiladevi R,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,Mrs. Akiladevi R,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,Mrs. Akiladevi R,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,Mrs. Akiladevi R,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,Mr. Dr.K.Anand,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,Mr. Dr.K.Anand,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,Mr. Dr.K.Anand,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,Mr. Dr.K.Anand,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,Mr. Dr.K.Anand,140
+FRIDAY,13:50,15:30,Project-1,Mr. Dr.K.Anand,TLFR1
+THURSDAY,09:50,11:30,Project-1,Mr. Dr.K.Anand,TLSL2
+FRIDAY,08:00,09:40,Project-1,Mr. Dr.K.Anand,TLSR1
+THURSDAY,11:50,13:30,Project-1,Mr. Dr.K.Anand,JR3
+THURSDAY,15:50,17:30,Project-1,Mr. Dr.K.Anand,KFR02
+WEDNESDAY,09:50,11:30,Project-1,Mr. Dr.K.Anand,KFL02
+WEDNESDAY,11:50,13:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,JR2
+THURSDAY,13:50,15:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLFL4
+TUESDAY,09:50,11:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLFL5
+FRIDAY,11:50,13:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLFR3
+MONDAY,15:50,17:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLFR5
+TUESDAY,11:50,13:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLFL3
+THURSDAY,08:00,08:50,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,JL1
+MONDAY,15:50,17:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,JR2
+WEDNESDAY,17:30,19:10,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,JR3
+THURSDAY,09:50,11:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KFL02
+TUESDAY,09:50,11:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KFR03
+FRIDAY,18:00,18:50,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLSR1
+THURSDAY,09:00,09:50,Cloud Computing,Mrs. Santhiya M,B410
+MONDAY,10:00,10:50,Cloud Computing,Mrs. Santhiya M,B220
+WEDNESDAY,09:50,11:30,Cloud Computing,Mrs. Santhiya M,TLFR4
+MONDAY,08:00,09:40,Cloud Computing,Mrs. Santhiya M,TLGL3
+MONDAY,12:00,12:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,A110
+FRIDAY,10:00,10:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,A208
+TUESDAY,13:50,15:30,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,JL2
+THURSDAY,13:50,15:30,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,TLSL2

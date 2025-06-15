@@ -1,0 +1,15 @@
+Day,StartTime,EndTime,Course,Group,Room
+FRIDAY,16:00,16:50,Database Management Systems,IT-2A,A308
+WEDNESDAY,15:00,15:50,Database Management Systems,IT-2A,A311
+WEDNESDAY,10:00,10:50,Database Management Systems,IT-2A,A110
+THURSDAY,13:50,15:30,Database Management Systems,IT-2A,JR2
+TUESDAY,11:50,13:30,Database Management Systems,IT-2A,TLGL2
+MONDAY,09:50,11:30,Database Management Systems,IT-2A,KFL03
+THURSDAY,15:50,17:30,Database Management Systems,IT-2A,TLSL1
+WEDNESDAY,18:00,18:50,Database Management Systems,IT-2E,A209
+FRIDAY,13:00,13:50,Database Management Systems,IT-2E,A309
+TUESDAY,09:00,09:50,Database Management Systems,IT-2E,A109
+WEDNESDAY,11:50,13:30,Database Management Systems,IT-2E,TLGL3
+THURSDAY,11:50,13:30,Database Management Systems,IT-2E,JR1
+MONDAY,11:50,13:30,Database Management Systems,IT-2E,TLFL3
+FRIDAY,09:50,11:30,Database Management Systems,IT-2E,KSL03

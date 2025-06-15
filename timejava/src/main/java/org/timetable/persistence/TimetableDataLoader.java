@@ -4,7 +4,11 @@ import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
 import org.timetable.domain.*;
-
+import org.timetable.config.TimetableConfig;
+import java.util.logging.Logger;
+import java.util.logging.Level;
+import java.util.logging.FileHandler;
+import java.util.logging.SimpleFormatter;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
@@ -15,9 +19,8 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class TimetableDataLoader {
+    private static final Logger LOGGER = Logger.getLogger(TimetableDataLoader.class.getName());
 
-    // --- Configuration Constants (from your Python config) ---
-    private static final int CLASS_STRENGTH = 70;
     private static final Map<String, String> DEPT_NAME_TO_CODE = Map.of(
             "Computer Science & Design", "CSD",
             "Computer Science & Engineering", "CSE",
@@ -35,8 +38,7 @@ public class TimetableDataLoader {
             "IT", Map.of("2", 5, "3", 4, "4", 3),
             "AIML", Map.of("2", 4, "3", 3, "4", 3)
     );
-    
-    // A simple record to hold the raw CSV data before processing
+
     private static class RawDataRecord {
         final String courseId, courseCode, courseName, courseDept, courseType, teacherId, staffCode, firstName, lastName, teacherEmail;
         final int semester, lectureHours, practicalHours, tutorialHours, credits;
@@ -60,26 +62,28 @@ public class TimetableDataLoader {
         }
     }
 
+    static {
+        try {
+            FileHandler fh = new FileHandler("timetable_loader.log");
+            fh.setFormatter(new SimpleFormatter());
+            LOGGER.addHandler(fh);
+            LOGGER.setLevel(Level.INFO);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     public static TimetableProblem loadProblem(String coursesFile, String roomsDir) {
         try {
-            // 1. Load all raw data from CSV into memory, filtering for relevant semesters
             List<RawDataRecord> rawData = loadRawData(coursesFile);
-
-            // 2. Create unique domain objects from raw data
+            
+                
+            
             Map<String, Teacher> teachers = createTeachers(rawData);
             Map<String, Course> courses = createCourses(rawData);
-
-            // 3. Create student groups based on department configuration
             List<StudentGroup> studentGroups = createStudentGroups(rawData);
-
-            // 4. Load rooms
             List<Room> rooms = loadRooms(roomsDir);
-
-            // 5. Create timeslots
             List<TimeSlot> timeSlots = createTimeSlots();
-
-            // 6. Create all the lessons to be scheduled
             List<Lesson> lessons = createLessons(rawData, teachers, courses, studentGroups);
 
             return new TimetableProblem(
@@ -100,205 +104,247 @@ public class TimetableDataLoader {
     private static List<RawDataRecord> loadRawData(String filePath) throws IOException {
         List<RawDataRecord> rawData = new ArrayList<>();
         Set<Integer> validSemesters = Set.of(3, 5, 7);
+        LOGGER.info("Loading raw data from: " + filePath);
+
         try (Reader reader = new FileReader(filePath);
              CSVParser csvParser = new CSVParser(reader, CSVFormat.DEFAULT.withFirstRecordAsHeader())) {
+
+            int totalRecords = 0;
+            int validRecords = 0;
+
             for (CSVRecord record : csvParser) {
+                totalRecords++;
                 if (validSemesters.contains(parseIntSafely(record.get("semester"), 0))) {
-                     if (record.get("teacher_id") != null && !record.get("teacher_id").isEmpty() && !"Unknown".equalsIgnoreCase(record.get("teacher_id"))) {
+                    if (record.get("teacher_id") != null && !record.get("teacher_id").isEmpty() && !"Unknown".equalsIgnoreCase(record.get("teacher_id"))) {
                         rawData.add(new RawDataRecord(record));
+                        validRecords++;
+                    } else {
+                        LOGGER.warning("Skipping record due to missing/invalid teacher_id: " + record);
                     }
                 }
             }
+            LOGGER.info(String.format("Data loading summary: %d total records, %d valid records", totalRecords, validRecords));
         }
         return rawData;
     }
-    
+
     private static Map<String, Teacher> createTeachers(List<RawDataRecord> rawData) {
         Map<String, Teacher> teachers = new HashMap<>();
+        LOGGER.info("Creating teacher records...");
+
         for (RawDataRecord record : rawData) {
             teachers.computeIfAbsent(record.teacherId, id -> {
                 String name = (record.firstName + " " + record.lastName).trim();
-                return new Teacher(id, name, record.teacherEmail, 21); // Max 21 hours per week
+                LOGGER.info("Creating teacher: " + name + " (ID: " + id + ")");
+                return new Teacher(id, name, record.teacherEmail, TimetableConfig.MAX_TEACHER_HOURS);
             });
         }
+        LOGGER.info("Created " + teachers.size() + " unique teachers");
         return teachers;
     }
 
     private static Map<String, Course> createCourses(List<RawDataRecord> rawData) {
         Map<String, Course> courses = new HashMap<>();
+        LOGGER.info("Creating course records...");
+
         for (RawDataRecord record : rawData) {
             courses.computeIfAbsent(record.courseId, id -> {
                 String deptCode = DEPT_NAME_TO_CODE.getOrDefault(record.courseDept, record.courseDept);
-                return new Course(id, record.courseCode, record.courseName, deptCode,
+                CourseType type = record.practicalHours > 0 ? CourseType.LAB : CourseType.THEORY;
+                LOGGER.info(String.format("Creating course: %s - %s (Dept: %s, Semester: %d)",
+                        record.courseCode, record.courseName, deptCode, record.semester));
+                return new Course(id, record.courseCode, record.courseName, deptCode, type,
                         record.lectureHours, record.tutorialHours, record.practicalHours, record.credits);
             });
         }
+        LOGGER.info("Created " + courses.size() + " unique courses");
         return courses;
     }
 
     private static List<StudentGroup> createStudentGroups(List<RawDataRecord> rawData) {
         List<StudentGroup> studentGroups = new ArrayList<>();
         int groupCounter = 1;
-        
-        // Map semester to year (e.g., 3rd semester is 2nd year)
+        LOGGER.info("Creating student groups...");
+
         Map<Integer, Integer> semesterToYear = Map.of(3, 2, 5, 3, 7, 4);
 
-        // Find all unique Department-Year combinations that need groups
         Set<Map.Entry<String, Integer>> deptYearPairs = rawData.stream()
-            .map(r -> new AbstractMap.SimpleEntry<>(
-                DEPT_NAME_TO_CODE.getOrDefault(r.courseDept, r.courseDept),
-                semesterToYear.get(r.semester)
-            ))
-            .collect(Collectors.toSet());
+                .map(r -> new AbstractMap.SimpleEntry<>(
+                        DEPT_NAME_TO_CODE.getOrDefault(r.courseDept, r.courseDept),
+                        semesterToYear.get(r.semester)
+                ))
+                .collect(Collectors.toSet());
 
-        // Create groups for each combination based on config
         for (Map.Entry<String, Integer> pair : deptYearPairs) {
             String dept = pair.getKey();
             int year = pair.getValue();
             int numSections = DEPARTMENT_DATA.getOrDefault(dept, Collections.emptyMap())
-                                              .getOrDefault(String.valueOf(year), 0);
+                    .getOrDefault(String.valueOf(year), 0);
+            LOGGER.info(String.format("Creating %d sections for %s Year %d", numSections, dept, year));
 
             for (int i = 0; i < numSections; i++) {
                 char section = (char) ('A' + i);
                 String groupName = String.format("%s-%d%c", dept, year, section);
                 studentGroups.add(new StudentGroup(
-                    String.valueOf(groupCounter++), 
-                    groupName, 
-                    CLASS_STRENGTH, 
-                    dept, 
-                    year
+                        String.valueOf(groupCounter++),
+                        groupName,
+                        TimetableConfig.CLASS_STRENGTH,
+                        dept,
+                        year
                 ));
+                LOGGER.info("Created student group: " + groupName);
             }
         }
+        LOGGER.info("Created " + studentGroups.size() + " total student groups");
         return studentGroups;
     }
-    
+
     private static List<Lesson> createLessons(List<RawDataRecord> rawData, Map<String, Teacher> teachers, Map<String, Course> courses, List<StudentGroup> studentGroups) {
         List<Lesson> lessons = new ArrayList<>();
         long lessonIdCounter = 1;
 
-        // Map courses to the teachers who can teach them
-        Map<String, List<String>> courseToTeacherIds = new HashMap<>();
-        for (RawDataRecord record : rawData) {
-            courseToTeacherIds.computeIfAbsent(record.courseId, k -> new ArrayList<>()).add(record.teacherId);
-        }
-        
-        // Map (dept, year) to courses for that group
-        Map<Integer, Integer> semesterToYear = Map.of(3, 2, 5, 3, 7, 4);
-        Map<Map.Entry<String, Integer>, Set<String>> groupToCourseIds = new HashMap<>();
-        for (RawDataRecord r : rawData) {
-            Map.Entry<String, Integer> key = new AbstractMap.SimpleEntry<>(
-                DEPT_NAME_TO_CODE.getOrDefault(r.courseDept, r.courseDept),
-                semesterToYear.get(r.semester)
-            );
-            groupToCourseIds.computeIfAbsent(key, k -> new HashSet<>()).add(r.courseId);
-        }
+        LOGGER.info("Creating lessons and assigning teachers to sections...");
 
-        // --- Generate lessons for each student group ---
-        for (StudentGroup group : studentGroups) {
-            Set<String> relevantCourseIds = groupToCourseIds.getOrDefault(
-                new AbstractMap.SimpleEntry<>(group.getDepartment(), group.getYear()), 
-                Collections.emptySet()
-            );
+        // First group by course department
+        Map<String, List<RawDataRecord>> deptToRecords = rawData.stream()
+            .collect(Collectors.groupingBy(r -> DEPT_NAME_TO_CODE.getOrDefault(r.courseDept, r.courseDept)));
 
-            for (String courseId : relevantCourseIds) {
-                Course course = courses.get(courseId);
-                List<String> availableTeacherIds = courseToTeacherIds.getOrDefault(courseId, Collections.emptyList());
-                if (course == null || availableTeacherIds.isEmpty()) continue;
+        // For each department
+        for (Map.Entry<String, List<RawDataRecord>> deptEntry : deptToRecords.entrySet()) {
+            String dept = deptEntry.getKey();
+            List<RawDataRecord> deptRecords = deptEntry.getValue();
 
-                // Assign a teacher (simple round-robin based on group ID to be deterministic)
-                int groupNumericId = Integer.parseInt(group.getId());
-                Teacher teacher = teachers.get(availableTeacherIds.get((groupNumericId - 1) % availableTeacherIds.size()));
-                
-                // Create Lecture lessons
-                for (int i = 0; i < course.getLectureHours(); i++) {
-                    lessons.add(new Lesson("L-" + lessonIdCounter++, teacher, course, group, "lecture", null));
-                }
+            // Group by semester and year
+            Map<Integer, List<RawDataRecord>> semesterToRecords = deptRecords.stream()
+                .collect(Collectors.groupingBy(r -> r.semester));
 
-                // Create Tutorial lessons
-                for (int i = 0; i < course.getTutorialHours(); i++) {
-                    lessons.add(new Lesson("L-" + lessonIdCounter++, teacher, course, group, "tutorial", null));
-                }
+            // For each semester
+            for (Map.Entry<Integer, List<RawDataRecord>> semesterEntry : semesterToRecords.entrySet()) {
+                int semester = semesterEntry.getKey();
+                List<RawDataRecord> semesterRecords = semesterEntry.getValue();
+                int year = semester == 3 ? 2 : semester == 5 ? 3 : 4;
 
-                // Create Lab lessons
-                if (course.getPracticalHours() > 0) {
-                    if (course.getPracticalHours() == 6) {
-                        // Special case: 3 sessions for the whole class in a large lab
-                        int sessions = course.getPracticalHours() / 2;
-                        for (int i = 0; i < sessions; i++) {
-                           lessons.add(new Lesson("L-" + lessonIdCounter++, teacher, course, group, "lab", null));
+                // Get all student groups for this department and year
+                List<StudentGroup> relevantGroups = studentGroups.stream()
+                    .filter(g -> g.getDepartment().equals(dept) && g.getYear() == year)
+                    .collect(Collectors.toList());
+
+                // Group courses by their ID to ensure we have all courses for the semester
+                Map<String, List<RawDataRecord>> courseToRecords = semesterRecords.stream()
+                    .collect(Collectors.groupingBy(r -> r.courseId));
+
+                // For each course in this semester
+                for (Map.Entry<String, List<RawDataRecord>> courseEntry : courseToRecords.entrySet()) {
+                    String courseId = courseEntry.getKey();
+                    List<RawDataRecord> courseRecords = courseEntry.getValue();
+                    Course course = courses.get(courseId);
+
+                    if (course == null) {
+                        LOGGER.warning("Skipping lesson creation for course " + courseId + " due to missing course.");
+                        continue;
+                    }
+
+                    // Get all teachers who can teach this course (from this department)
+                    List<String> availableTeacherIds = courseRecords.stream()
+                        .map(r -> r.teacherId)
+                        .distinct()
+                        .collect(Collectors.toList());
+
+                    if (availableTeacherIds.isEmpty()) {
+                        LOGGER.warning("No teachers available for course " + courseId);
+                        continue;
+                    }
+
+                    // For each student group in this department and year
+                    for (StudentGroup group : relevantGroups) {
+                        // Assign a teacher to this group's course
+                        int groupIndex = Integer.parseInt(group.getId()) - 1;
+                        Teacher teacher = teachers.get(availableTeacherIds.get(groupIndex % availableTeacherIds.size()));
+
+                        // Create lecture lessons
+                        for (int i = 0; i < course.getLectureHours(); i++) {
+                            lessons.add(new Lesson("L-" + lessonIdCounter++, teacher, course, group, "lecture", null));
                         }
-                    } else {
-                        // Standard case: split into 2 batches
-                        int sessions = course.getPracticalHours() / 2;
-                        for (int i = 0; i < sessions; i++) { // Sessions for Batch 1
-                            lessons.add(new Lesson("L-" + lessonIdCounter++, teacher, course, group, "lab", "B1"));
+
+                        // Create tutorial lessons
+                        for (int i = 0; i < course.getTutorialHours(); i++) {
+                            lessons.add(new Lesson("L-" + lessonIdCounter++, teacher, course, group, "tutorial", null));
                         }
-                        for (int i = 0; i < sessions; i++) { // Sessions for Batch 2
-                            lessons.add(new Lesson("L-" + lessonIdCounter++, teacher, course, group, "lab", "B2"));
+
+                        // Create lab lessons if needed
+                        if (course.getPracticalHours() > 0) {
+                            int labSessions = course.getPracticalHours() / 2; // Each session is 2 hours
+                            boolean needsBatching = group.getSize() > TimetableConfig.LAB_BATCH_SIZE;
+
+                            if (needsBatching) {
+                                // CORRECTED FIX: Each batch gets the full practical hours allocation
+                                LOGGER.info(String.format(
+                                    "Creating %d lab sessions for %s (%s) - split batches B1 & B2 (each batch gets %d sessions)",
+                                    labSessions * 2, course.getCode(), group.getName(), labSessions
+                                ));
+                                
+                                // Batch B1 gets full practical hours (all required sessions)
+                                for (int i = 0; i < labSessions; i++) {
+                                    lessons.add(new Lesson("L-" + lessonIdCounter++, teacher, course, group, "lab", "B1"));
+                                }
+                                
+                                // Batch B2 gets full practical hours (all required sessions)
+                                for (int i = 0; i < labSessions; i++) {
+                                    lessons.add(new Lesson("L-" + lessonIdCounter++, teacher, course, group, "lab", "B2"));
+                                }
+                            } else {
+                                // If no batching needed, create sessions for whole group
+                                LOGGER.info(String.format(
+                                    "Creating %d lab sessions for %s (%s) - no batching",
+                                    labSessions, course.getCode(), group.getName()
+                                ));
+                                
+                                for (int i = 0; i < labSessions; i++) {
+                                    lessons.add(new Lesson("L-" + lessonIdCounter++, teacher, course, group, "lab", null));
+                                }
+                            }
                         }
                     }
                 }
             }
         }
+
+        LOGGER.info("Created " + lessons.size() + " total lessons");
         return lessons;
     }
-    
+
     private static List<TimeSlot> createTimeSlots() {
         List<TimeSlot> timeSlots = new ArrayList<>();
-        int id = 1;
+        int idCounter = 1;
         DayOfWeek[] days = {DayOfWeek.MONDAY, DayOfWeek.TUESDAY, DayOfWeek.WEDNESDAY, DayOfWeek.THURSDAY, DayOfWeek.FRIDAY};
 
-        // Theory slots (50 mins) based on your requirements
-        // 8:10-9:00, 9:00-9:50, [BREAK], 10:10-11:00, 11:00-11:50, [LUNCH], 12:40-13:30, etc.
-        LocalTime[] theoryStartTimes = {
-            LocalTime.of(8, 10), LocalTime.of(9, 0), LocalTime.of(10, 10),
-            LocalTime.of(11, 0), LocalTime.of(12, 40), LocalTime.of(13, 30),
-            LocalTime.of(14, 20)
-        };
+        LOGGER.info("Creating theory and lab timeslots...");
+
         for (DayOfWeek day : days) {
-            for (LocalTime startTime : theoryStartTimes) {
-                LocalTime endTime = startTime.plusMinutes(50);
-                timeSlots.add(new TimeSlot("TS" + id++, day, startTime, endTime, false));
+            for (LocalTime[] slot : TimetableConfig.THEORY_TIME_SLOTS) {
+                timeSlots.add(new TimeSlot("TS-" + idCounter++, day, slot[0], slot[1], false)); // isLab = false
+            }
+            for (LocalTime[] slot : TimetableConfig.LAB_TIME_SLOTS) {
+                timeSlots.add(new TimeSlot("TS-LAB-" + idCounter++, day, slot[0], slot[1], true)); // isLab = true
             }
         }
-        
-        // Lab slots (1h 40m, i.e., two 50-min periods)
-        LocalTime[] labStartTimes = {
-            LocalTime.of(8, 10),  // 8:10 - 9:50
-            LocalTime.of(10, 10), // 10:10 - 11:50
-            LocalTime.of(12, 40), // 12:40 - 14:20
-            LocalTime.of(14, 20)  // 14:20 - 16:00
-        };
-        for (DayOfWeek day : days) {
-            for (LocalTime startTime : labStartTimes) {
-                LocalTime endTime = startTime.plusMinutes(100);
-                timeSlots.add(new TimeSlot("TS_LAB" + id++, day, startTime, endTime, true));
-            }
-        }
+        LOGGER.info("Created " + timeSlots.size() + " total timeslots per week.");
         return timeSlots;
     }
 
     private static List<Room> loadRooms(String roomsDir) throws IOException {
-        // This method seems okay, but ensure your CSVs have headers. 
-        // For robustness, I'm keeping your existing room loading logic.
-        // --- Your loadRooms and loadRoomsFromFile methods from the original file go here ---
-        // (No changes needed to these specific methods)
         List<Room> rooms = new ArrayList<>();
-        
-        // Load classrooms
-        File classroomDir = new File(roomsDir + "/classroom");
+        File classroomDir = new File(roomsDir, "classroom");
         if (classroomDir.exists() && classroomDir.isDirectory()) {
             File[] classroomFiles = classroomDir.listFiles((dir, name) -> name.endsWith(".csv"));
             if (classroomFiles != null) {
                 for (File file : classroomFiles) {
+                    // Load all classroom files
                     rooms.addAll(loadRoomsFromFile(file.getPath(), false));
                 }
             }
         }
-        
-        // Load labs
-        File labsDir = new File(roomsDir + "/labs");
+        File labsDir = new File(roomsDir, "labs");
         if (labsDir.exists() && labsDir.isDirectory()) {
             File[] labFiles = labsDir.listFiles((dir, name) -> name.endsWith(".csv"));
             if (labFiles != null) {
@@ -316,15 +362,13 @@ public class TimetableDataLoader {
              CSVParser csvParser = new CSVParser(reader, CSVFormat.DEFAULT.withFirstRecordAsHeader().withIgnoreHeaderCase(true).withTrim())) {
             for (CSVRecord record : csvParser) {
                 try {
-                    String id = record.get("id");
                     String name = record.get("room_number");
                     String block = record.get("block");
-                    // Create a unique ID by combining block and room number
                     String uniqueId = block.replaceAll("\\s+", "") + "_" + name;
                     int capacity = parseIntSafely(record.get("room_max_cap"), 70);
                     rooms.add(new Room(uniqueId, name, block, "", capacity, isLab));
                 } catch (IllegalArgumentException e) {
-                     System.err.println("Skipping record in " + filePath + " due to missing fields: " + e.getMessage());
+                    System.err.println("Skipping record in " + filePath + " due to missing fields: " + e.getMessage());
                 }
             }
         }

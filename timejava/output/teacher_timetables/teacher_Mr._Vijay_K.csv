@@ -1,10 +1,12 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Computer Networks,CSE-3D,140
-MONDAY,08:10,09:50,Computer Networks,CSE-3D,140
-MONDAY,08:10,09:50,Computer Networks,CSE-3D,140
-MONDAY,08:10,09:50,Computer Networks,CSE-3D,140
-MONDAY,08:10,09:50,Computer Networks,CSE-3D,140
-MONDAY,08:10,09:50,Data Visualization using Python,AIML-4C,140
-MONDAY,08:10,09:50,Data Visualization using Python,AIML-4C,140
-MONDAY,08:10,09:50,Data Visualization using Python,AIML-4C,140
-MONDAY,08:10,09:50,Data Visualization using Python,AIML-4C,140
+FRIDAY,15:00,15:50,Computer Networks,AIML-3B,A102
+TUESDAY,17:00,17:50,Computer Networks,AIML-3B,B419
+FRIDAY,08:00,08:50,Computer Networks,AIML-3B,B218
+TUESDAY,09:50,11:30,Computer Networks,AIML-3B,JR2
+MONDAY,13:50,15:30,Computer Networks,AIML-3B,JR2
+MONDAY,11:50,13:30,Computer Networks,AIML-3B,KFL02
+TUESDAY,11:50,13:30,Computer Networks,AIML-3B,KFL03
+FRIDAY,11:00,11:50,Data Visualization using Python (Professional Elective III),AIML-4B,B218
+TUESDAY,14:00,14:50,Data Visualization using Python (Professional Elective III),AIML-4B,B221
+THURSDAY,15:50,17:30,Data Visualization using Python (Professional Elective III),AIML-4B,JR3
+MONDAY,09:50,11:30,Data Visualization using Python (Professional Elective III),AIML-4B,JR3

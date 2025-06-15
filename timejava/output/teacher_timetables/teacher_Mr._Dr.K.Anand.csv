@@ -1,16 +1,14 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Fundamentals of Data Science,CSE-2A,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,CSE-2A,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,CSE-2A,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,CSE-2A,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,CSE-2A,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,CSE-2H,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,CSE-2H,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,CSE-2H,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,CSE-2H,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,CSE-2H,140
-MONDAY,08:10,09:50,Computer Networks,AIML-3B,140
-MONDAY,08:10,09:50,Computer Networks,AIML-3B,140
-MONDAY,08:10,09:50,Computer Networks,AIML-3B,140
-MONDAY,08:10,09:50,Computer Networks,AIML-3B,140
-MONDAY,08:10,09:50,Computer Networks,AIML-3B,140
+MONDAY,15:00,15:50,Computer Networks,CSE-3D,B213
+TUESDAY,14:00,14:50,Computer Networks,CSE-3D,B408
+WEDNESDAY,08:00,08:50,Computer Networks,CSE-3D,B402
+WEDNESDAY,11:50,13:30,Computer Networks,CSE-3D,KFR01
+MONDAY,17:30,19:10,Computer Networks,CSE-3D,KFR01
+TUESDAY,17:30,19:10,Computer Networks,CSE-3D,KFR01
+THURSDAY,13:50,15:30,Computer Networks,CSE-3D,TLFL1
+FRIDAY,13:50,15:30,Project-1,CSE-4C,TLFR1
+THURSDAY,09:50,11:30,Project-1,CSE-4C,TLSL2
+FRIDAY,08:00,09:40,Project-1,CSE-4C,TLSR1
+THURSDAY,11:50,13:30,Project-1,CSE-4C,JR3
+THURSDAY,15:50,17:30,Project-1,CSE-4C,KFR02
+WEDNESDAY,09:50,11:30,Project-1,CSE-4C,KFL02

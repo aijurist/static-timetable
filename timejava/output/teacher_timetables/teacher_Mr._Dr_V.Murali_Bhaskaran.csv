@@ -1,13 +1,4 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Computer Architecture,CSE-2A,140
-MONDAY,08:10,09:50,Computer Architecture,CSE-2A,140
-MONDAY,08:10,09:50,Computer Architecture,CSE-2A,140
-MONDAY,08:10,09:50,Computer Architecture,CSE-2B,140
-MONDAY,08:10,09:50,Computer Architecture,CSE-2B,140
-MONDAY,08:10,09:50,Computer Architecture,CSE-2B,140
-MONDAY,08:10,09:50,Computer Architecture,CSE-2F,140
-MONDAY,08:10,09:50,Computer Architecture,CSE-2F,140
-MONDAY,08:10,09:50,Computer Architecture,CSE-2F,140
-MONDAY,08:10,09:50,Computer Architecture,CSE-2G,140
-MONDAY,08:10,09:50,Computer Architecture,CSE-2G,140
-MONDAY,08:10,09:50,Computer Architecture,CSE-2G,140
+THURSDAY,13:00,13:50,Computer Architecture,CSE-2F,B419
+TUESDAY,08:00,08:50,Computer Architecture,CSE-2F,B321
+WEDNESDAY,10:00,10:50,Computer Architecture,CSE-2F,B402

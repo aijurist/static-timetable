@@ -1,20 +1,13 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Cyber and Digital Forensics,CSE-CS-3A,140
-MONDAY,08:10,09:50,Cyber and Digital Forensics,CSE-CS-3A,140
-MONDAY,08:10,09:50,Cyber and Digital Forensics,CSE-CS-3A,140
-MONDAY,08:10,09:50,Cyber and Digital Forensics,CSE-CS-3A,140
-MONDAY,08:10,09:50,Cyber and Digital Forensics,CSE-CS-3A,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2A,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2A,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2A,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2A,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2A,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2A,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2A,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2A,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2A,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2A,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2A,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2A,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2A,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2A,140
+FRIDAY,08:00,08:50,Database Management Systems,CSE-CS-2A,A104/105
+THURSDAY,10:00,10:50,Database Management Systems,CSE-CS-2A,A208
+MONDAY,09:00,09:50,Database Management Systems,CSE-CS-2A,B416
+FRIDAY,09:50,11:30,Database Management Systems,CSE-CS-2A,TLSL2
+TUESDAY,09:50,11:30,Database Management Systems,CSE-CS-2A,TLFL1
+THURSDAY,08:00,09:40,Database Management Systems,CSE-CS-2A,KFL01
+TUESDAY,13:50,15:30,Database Management Systems,CSE-CS-2A,TLSL1
+MONDAY,11:00,11:50,Cyber and Digital Forensics,CSE-CS-3A,A303
+TUESDAY,16:00,16:50,Cyber and Digital Forensics,CSE-CS-3A,A103
+FRIDAY,15:00,15:50,Cyber and Digital Forensics,CSE-CS-3A,A305
+WEDNESDAY,09:50,11:30,Cyber and Digital Forensics,CSE-CS-3A,TLSL2
+MONDAY,13:50,15:30,Cyber and Digital Forensics,CSE-CS-3A,KFL02

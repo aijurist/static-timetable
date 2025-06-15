@@ -1,29 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:10,09:50,Computer Vision and Applications,Mrs. Sangeetha K,140
-MONDAY,08:10,09:50,Computer Vision and Applications,Mrs. Sangeetha K,140
-MONDAY,08:10,09:50,Computer Vision and Applications,Mrs. Sangeetha K,140
-MONDAY,08:10,09:50,Computer Vision and Applications,Mrs. Sangeetha K,140
-MONDAY,08:10,09:50,Build and Deploy Machine Learning Applications,AIML  NS3,140
-MONDAY,08:10,09:50,Build and Deploy Machine Learning Applications,AIML  NS3,140
-MONDAY,08:10,09:50,Recommendation Systems,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Recommendation Systems,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Recommendation Systems,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Recommendation Systems,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Deep Learning,Ms. V Akshaya,140
-MONDAY,08:10,09:50,Deep Learning,Ms. V Akshaya,140
-MONDAY,08:10,09:50,Deep Learning,Ms. V Akshaya,140
-MONDAY,08:10,09:50,Deep Learning,Ms. V Akshaya,140
-MONDAY,08:10,09:50,Deep Learning,Ms. V Akshaya,140
-MONDAY,08:10,09:50,Framework for data and visual Analytics,Mrs. Priya M,140
-MONDAY,08:10,09:50,Framework for data and visual Analytics,Mrs. Priya M,140
-MONDAY,08:10,09:50,Framework for data and visual Analytics,Mrs. Priya M,140
-MONDAY,08:10,09:50,Framework for data and visual Analytics,Mrs. Priya M,140
-MONDAY,08:10,09:50,Framework for data and visual Analytics,Mrs. Priya M,140
-MONDAY,08:10,09:50,Computer Networks,Mr. Dr.K.Anand,140
-MONDAY,08:10,09:50,Computer Networks,Mr. Dr.K.Anand,140
-MONDAY,08:10,09:50,Computer Networks,Mr. Dr.K.Anand,140
-MONDAY,08:10,09:50,Computer Networks,Mr. Dr.K.Anand,140
-MONDAY,08:10,09:50,Computer Networks,Mr. Dr.K.Anand,140
-MONDAY,08:10,09:50,DataEngineering,Mrs. Sree Subha S,140
-MONDAY,08:10,09:50,DataEngineering,Mrs. Sree Subha S,140
-MONDAY,08:10,09:50,DataEngineering,Mrs. Sree Subha S,140
+TUESDAY,08:00,08:50,Computer Architecture,Mrs. Dharani Devi G,B426
+THURSDAY,11:00,11:50,Computer Architecture,Mrs. Dharani Devi G,B416
+WEDNESDAY,11:00,11:50,Computer Architecture,Mrs. Dharani Devi G,B403
+WEDNESDAY,14:00,14:50,Design and Analysis of Algorithms,New Staff - 03,B411
+MONDAY,12:00,12:50,Design and Analysis of Algorithms,New Staff - 03,A309
+FRIDAY,12:00,12:50,Design and Analysis of Algorithms,New Staff - 03,B408
+FRIDAY,09:50,11:30,Design and Analysis of Algorithms,New Staff - 03,TLFL4
+TUESDAY,09:50,11:30,Design and Analysis of Algorithms,New Staff - 03,TLSR1
+TUESDAY,12:00,12:50,Fourier series and Number theory,Dr. Meenakumari R,B401
+THURSDAY,10:00,10:50,Fourier series and Number theory,Dr. Meenakumari R,A209
+TUESDAY,14:00,14:50,Fourier series and Number theory,Dr. Meenakumari R,B424
+MONDAY,10:00,10:50,Fourier series and Number theory,Dr. Meenakumari R,A103
+WEDNESDAY,08:00,08:50,Database Management Systems,Dr. Bhuvaneswari R,B419
+WEDNESDAY,10:00,10:50,Database Management Systems,Dr. Bhuvaneswari R,B320
+MONDAY,11:00,11:50,Database Management Systems,Dr. Bhuvaneswari R,A311
+TUESDAY,17:30,19:10,Database Management Systems,Dr. Bhuvaneswari R,KFL02
+FRIDAY,08:00,09:40,Database Management Systems,Dr. Bhuvaneswari R,TLFR3
+MONDAY,08:00,09:40,Database Management Systems,Dr. Bhuvaneswari R,KFL02
+THURSDAY,08:00,09:40,Database Management Systems,Dr. Bhuvaneswari R,TLFR1
+THURSDAY,16:00,16:50,Object Oriented Programming Using JAVA,Ms. Divya M,B325
+MONDAY,16:00,16:50,Object Oriented Programming Using JAVA,Ms. Divya M,B322
+WEDNESDAY,18:00,18:50,Object Oriented Programming Using JAVA,Ms. Divya M,B409
+MONDAY,08:00,09:40,Object Oriented Programming Using JAVA,Ms. Divya M,TLGL1
+WEDNESDAY,15:50,17:30,Object Oriented Programming Using JAVA,Ms. Divya M,TLFR5
+FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,Ms. Divya M,TLSL1
+THURSDAY,11:50,13:30,Object Oriented Programming Using JAVA,Ms. Divya M,TLFL4
+TUESDAY,09:00,09:50,Fundamentals of Data Science,Mrs. Farjana U,B418
+FRIDAY,16:00,16:50,Fundamentals of Data Science,Mrs. Farjana U,B403
+WEDNESDAY,09:00,09:50,Fundamentals of Data Science,Mrs. Farjana U,B321
+THURSDAY,08:00,09:40,Fundamentals of Data Science,Mrs. Farjana U,KFR02
+FRIDAY,09:50,11:30,Fundamentals of Data Science,Mrs. Farjana U,TLSL1

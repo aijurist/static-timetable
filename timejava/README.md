@@ -1,6 +1,6 @@
 # Timetable Scheduler with OptaPlanner
 
-This project is a Java implementation of a timetable scheduling system using OptaPlanner. It migrates the functionality from a Python-based solution using OR-Tools to a Java-based solution using OptaPlanner.
+This project is a Java implementation of a timetable scheduling system using OptaPlanner. It uses a simplified configuration with the OptimizedTimetableConstraintProvider for efficient scheduling.
 
 ## Project Structure
 
@@ -13,10 +13,14 @@ timejava/
 │       └── java/
 │           └── org/
 │               └── timetable/
-│                   ├── domain/       # Domain classes
+│                   ├── domain/       # Domain classes (Lesson, Teacher, Course, etc.)
 │                   ├── persistence/  # Data loading and exporting
 │                   ├── solver/       # OptaPlanner constraint definitions
+│                   ├── validation/   # Solution validation utilities
+│                   ├── config/       # Configuration classes
 │                   └── TimetableApp.java  # Main application
+├── data/           # Input data files
+├── config/         # Configuration files
 ├── pom.xml         # Maven configuration
 └── README.md       # This file
 ```
@@ -30,7 +34,7 @@ timejava/
 
 To build the project, run the following command in the project root directory:
 
-```
+```bash
 mvn clean package
 ```
 
@@ -38,41 +42,23 @@ This will create a JAR file with all dependencies in the `target` directory.
 
 ## Running the Application
 
-There are several ways to run the application:
+### Using the Main Script
 
-### Using Maven
+The simplest way to run the application is using the provided shell script:
 
-If you have Maven installed, you can use the provided shell script:
-
-```
+```bash
 ./run.sh [courses_file] [data_dir]
 ```
 
-### Using Makefile
+### Using Java Directly
 
-If you don't have Maven but have Java installed, you can use the Makefile:
+After building, you can run the application directly:
 
-```
-# Download required libraries
-./download-libs.sh
-
-# Run the application
-make run
+```bash
+java -jar target/timejava-1.0-SNAPSHOT-jar-with-dependencies.jar [courses_file] [data_dir]
 ```
 
-### Using Convenience Scripts
-
-For convenience, we've provided two scripts:
-
-```
-# To run the main application
-./run-app.sh
-
-# To run a data loading test
-./run-test.sh
-```
-
-## Parameters
+### Parameters
 
 - `[courses_file]` is the path to the CSV file containing course and teacher data (default: `data/courses/cse_dept_red.csv`)
 - `[data_dir]` is the path to the directory containing all data files (default: `data`)
@@ -87,6 +73,14 @@ data/
 ├── courses/       # CSV files containing course and teacher data
 └── labs/          # CSV files containing lab room data
 ```
+
+## Configuration
+
+The application uses a basic SolverConfig with:
+- **OptimizedTimetableConstraintProvider**: Enhanced constraint provider with advanced scheduling logic
+- **5-minute time limit**: Stops solving after 5 minutes
+- **Early termination**: Stops when a feasible solution is found
+- **A105 Pre-allocation**: Optimizes solver performance with pre-allocated lessons
 
 ## Input Data Format
 
@@ -105,6 +99,9 @@ The courses CSV file should have the following columns:
 - `practical_hours`: Number of practical/lab hours per week
 - `tutorial_hours`: Number of tutorial hours per week
 - `credits`: Number of credits for the course
+- `student_count`: Number of students in the course
+- `academic_year`: Academic year (e.g., 1, 2, 3, 4)
+- `semester`: Semester number
 
 ### Rooms CSV
 
@@ -122,10 +119,11 @@ The application generates the following output files:
 - `output/timetable_solution_YYYYMMDD_HHMMSS.csv`: Complete timetable solution
 - `output/teacher_timetables/`: Individual timetables for each teacher
 - `output/student_timetables/`: Individual timetables for each student group
+- `output/timetable.json`: JSON format for visualization tools
 
-## Implementation Details
+## Constraint Implementation
 
-This implementation uses OptaPlanner's Constraint Streams API to define constraints for the timetable problem. The main constraints include:
+This implementation uses OptaPlanner's Constraint Streams API with the OptimizedTimetableConstraintProvider that includes:
 
 ### Hard Constraints
 - Room conflict: A room can accommodate at most one lesson at the same time
@@ -134,8 +132,11 @@ This implementation uses OptaPlanner's Constraint Streams API to define constrai
 - Room capacity: A room's capacity should be sufficient for all lessons taught in it
 - Lab session in lab room: Lab sessions should be held in lab rooms
 - Theory session in theory room: Theory sessions should be held in theory rooms
+- A105 room allocation: Special handling for A105 room assignments
 
 ### Soft Constraints
 - Teacher room stability: A teacher should teach in the same room on the same day
-- Theory sessions on different days: Theory sessions of the same course for the same student group should be on different days
-- Avoid late classes: Avoid scheduling classes late in the day 
+- Theory sessions on different days: Theory sessions of the same course should be spread across different days
+- Avoid late classes: Prefer earlier time slots over later ones
+- Optimized teacher scheduling: Minimize teacher travel between rooms
+- Capacity optimization: Prefer rooms that better match class sizes 

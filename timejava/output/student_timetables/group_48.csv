@@ -1,0 +1,32 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+WEDNESDAY,16:00,16:50,Fundamentals of Machine Learning,New Faculty Humanities & Sciences (PLACEHOLDER),B422
+FRIDAY,10:00,10:50,Fundamentals of Machine Learning,New Faculty Humanities & Sciences (PLACEHOLDER),A305
+WEDNESDAY,10:00,10:50,Fundamentals of Machine Learning,New Faculty Humanities & Sciences (PLACEHOLDER),B411
+THURSDAY,09:50,11:30,Fundamentals of Machine Learning,New Faculty Humanities & Sciences (PLACEHOLDER),JR3
+FRIDAY,08:00,09:40,Fundamentals of Machine Learning,New Faculty Humanities & Sciences (PLACEHOLDER),TLFR1
+FRIDAY,12:00,12:50,Design and Analysis of Algorithms,New Staff - 05,A103
+TUESDAY,10:00,10:50,Design and Analysis of Algorithms,New Staff - 05,B222
+FRIDAY,15:00,15:50,Design and Analysis of Algorithms,New Staff - 05,B218
+WEDNESDAY,11:50,13:30,Design and Analysis of Algorithms,New Staff - 05,TLSL2
+WEDNESDAY,17:30,19:10,Design and Analysis of Algorithms,New Staff - 05,TLFR1
+MONDAY,08:00,08:50,Database Management Systems,AIML  NS2,B404
+TUESDAY,08:00,08:50,Database Management Systems,AIML  NS2,B404
+WEDNESDAY,11:00,11:50,Database Management Systems,AIML  NS2,A310
+FRIDAY,08:00,09:40,Database Management Systems,AIML  NS2,JL1
+MONDAY,13:50,15:30,Database Management Systems,AIML  NS2,TLGL2
+MONDAY,09:50,11:30,Database Management Systems,AIML  NS2,KFR01
+TUESDAY,11:50,13:30,Database Management Systems,AIML  NS2,TLFR1
+TUESDAY,18:00,18:50,Environmental Science and Engineering,Dr. Mahesh R,B404
+THURSDAY,08:00,08:50,Environmental Science and Engineering,Dr. Mahesh R,B417
+WEDNESDAY,09:00,09:50,Environmental Science and Engineering,Dr. Mahesh R,B423
+FRIDAY,14:00,14:50,Discrete Mathematics for AI,Mrs. V. Shakila,B423
+THURSDAY,09:00,09:50,Discrete Mathematics for AI,Mrs. V. Shakila,A211
+THURSDAY,13:00,13:50,Discrete Mathematics for AI,Mrs. V. Shakila,B107
+MONDAY,13:00,13:50,Discrete Mathematics for AI,Mrs. V. Shakila,B418
+FRIDAY,11:00,11:50,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),B106
+WEDNESDAY,14:00,14:50,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),A209
+TUESDAY,16:00,16:50,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),A304
+THURSDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),TLFR4
+FRIDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),TLFR2
+THURSDAY,09:50,11:30,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),TLFR5
+MONDAY,17:30,19:10,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),TLFL1

@@ -1,29 +1,31 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:10,09:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,140
-MONDAY,08:10,09:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,140
-MONDAY,08:10,09:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mrs. Divya S,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mrs. Divya S,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mrs. Divya S,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mrs. Divya S,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mrs. Divya S,140
-MONDAY,08:10,09:50,Database Management Systems,New Staff 4 N,140
-MONDAY,08:10,09:50,Database Management Systems,New Staff 4 N,140
-MONDAY,08:10,09:50,Database Management Systems,New Staff 4 N,140
-MONDAY,08:10,09:50,Database Management Systems,New Staff 4 N,140
-MONDAY,08:10,09:50,Database Management Systems,New Staff 4 N,140
-MONDAY,08:10,09:50,Database Management Systems,New Staff 4 N,140
-MONDAY,08:10,09:50,Database Management Systems,New Staff 4 N,140
-MONDAY,08:10,09:50,Fourier series and Number theory,Mr. Dr. K. Mageshwaran,140
-MONDAY,08:10,09:50,Fourier series and Number theory,Mr. Dr. K. Mageshwaran,140
-MONDAY,08:10,09:50,Fourier series and Number theory,Mr. Dr. K. Mageshwaran,140
-MONDAY,08:10,09:50,Fourier series and Number theory,Mr. Dr. K. Mageshwaran,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Fundamentals of Data Science,Mr. Dr.K.Anand,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,Mr. Dr.K.Anand,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,Mr. Dr.K.Anand,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,Mr. Dr.K.Anand,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,Mr. Dr.K.Anand,140
+MONDAY,11:00,11:50,Fourier series and Number theory,Mrs. Dr. Priya Nair,B418
+FRIDAY,08:00,08:50,Fourier series and Number theory,Mrs. Dr. Priya Nair,A302
+FRIDAY,16:00,16:50,Fourier series and Number theory,Mrs. Dr. Priya Nair,B424
+TUESDAY,17:00,17:50,Fourier series and Number theory,Mrs. Dr. Priya Nair,B325
+MONDAY,14:00,14:50,Database Management Systems,New Staff 2 N,B419
+WEDNESDAY,10:00,10:50,Database Management Systems,New Staff 2 N,B403
+THURSDAY,10:00,10:50,Database Management Systems,New Staff 2 N,B320
+FRIDAY,09:50,11:30,Database Management Systems,New Staff 2 N,TLFL1
+WEDNESDAY,15:50,17:30,Database Management Systems,New Staff 2 N,KFL02
+THURSDAY,13:50,15:30,Database Management Systems,New Staff 2 N,TLFL3
+MONDAY,17:30,19:10,Database Management Systems,New Staff 2 N,TLFR3
+THURSDAY,11:00,11:50,Object Oriented Programming Using JAVA,New Staff 5 N,A109
+TUESDAY,11:00,11:50,Object Oriented Programming Using JAVA,New Staff 5 N,A305
+FRIDAY,09:00,09:50,Object Oriented Programming Using JAVA,New Staff 5 N,B415
+TUESDAY,13:50,15:30,Object Oriented Programming Using JAVA,New Staff 5 N,TLGL4
+MONDAY,08:00,09:40,Object Oriented Programming Using JAVA,New Staff 5 N,TLFL2
+THURSDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Staff 5 N,JL2
+WEDNESDAY,13:50,15:30,Object Oriented Programming Using JAVA,New Staff 5 N,TLGL3
+WEDNESDAY,11:00,11:50,Computer Networks,HOD CSE(CS),B107
+MONDAY,10:00,10:50,Computer Networks,HOD CSE(CS),B412
+WEDNESDAY,13:00,13:50,Computer Networks,HOD CSE(CS),A103
+TUESDAY,08:00,09:40,Computer Networks,HOD CSE(CS),TLSL1
+FRIDAY,11:50,13:30,Computer Networks,HOD CSE(CS),TLGL1
+MONDAY,15:50,17:30,Computer Networks,HOD CSE(CS),TLGL4
+WEDNESDAY,17:30,19:10,Computer Networks,HOD CSE(CS),TLFL2
+WEDNESDAY,08:00,08:50,Cryptography,Dr. Balasubramanian V,A305
+THURSDAY,13:00,13:50,Cryptography,Dr. Balasubramanian V,B404
+WEDNESDAY,12:00,12:50,Cryptography,Dr. Balasubramanian V,B425
+FRIDAY,13:50,15:30,Cryptography,Dr. Balasubramanian V,JR1
+THURSDAY,08:00,09:40,Cryptography,Dr. Balasubramanian V,TLGL2

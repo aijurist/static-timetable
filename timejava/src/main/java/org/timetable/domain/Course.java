@@ -8,6 +8,7 @@ public class Course {
     private String code;
     private String name;
     private String department;
+    private CourseType type;
     private int lectureHours;
     private int tutorialHours;
     private int practicalHours;
@@ -16,11 +17,13 @@ public class Course {
     public Course() {
     }
 
-    public Course(String id, String code, String name, String department, int lectureHours, int tutorialHours, int practicalHours, int credits) {
+    public Course(String id, String code, String name, String department, CourseType type,
+                  int lectureHours, int tutorialHours, int practicalHours, int credits) {
         this.id = id;
         this.code = code;
         this.name = name;
         this.department = department;
+        this.type = type;
         this.lectureHours = lectureHours;
         this.tutorialHours = tutorialHours;
         this.practicalHours = practicalHours;
@@ -59,6 +62,14 @@ public class Course {
         this.department = department;
     }
 
+    public CourseType getType() {
+        return type;
+    }
+
+    public void setType(CourseType type) {
+        this.type = type;
+    }
+
     public int getLectureHours() {
         return lectureHours;
     }
@@ -95,4 +106,4 @@ public class Course {
     public String toString() {
         return code + " - " + name;
     }
-} 
+}

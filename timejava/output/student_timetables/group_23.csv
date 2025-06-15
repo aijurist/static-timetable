@@ -1,22 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:10,09:50,Theory of Computation,Mrs. J.A.Adlin Layola,140
-MONDAY,08:10,09:50,Theory of Computation,Mrs. J.A.Adlin Layola,140
-MONDAY,08:10,09:50,Theory of Computation,Mrs. J.A.Adlin Layola,140
-MONDAY,08:10,09:50,Theory of Computation,Mrs. J.A.Adlin Layola,140
-MONDAY,08:10,09:50,Fundamentals of Mobile Computing,Mr. Dr.P.Shanmugam,140
-MONDAY,08:10,09:50,Fundamentals of Mobile Computing,Mr. Dr.P.Shanmugam,140
-MONDAY,08:10,09:50,Fundamentals of Mobile Computing,Mr. Dr.P.Shanmugam,140
-MONDAY,08:10,09:50,Web Programming,Mr. Kirubhakar T T,140
-MONDAY,08:10,09:50,Web Programming,Mr. Kirubhakar T T,140
-MONDAY,08:10,09:50,Web Programming,Mr. Kirubhakar T T,140
-MONDAY,08:10,09:50,Web Programming,Mr. Kirubhakar T T,140
-MONDAY,08:10,09:50,Computer Networks,Mrs. Aswana Lal,140
-MONDAY,08:10,09:50,Computer Networks,Mrs. Aswana Lal,140
-MONDAY,08:10,09:50,Computer Networks,Mrs. Aswana Lal,140
-MONDAY,08:10,09:50,Computer Networks,Mrs. Aswana Lal,140
-MONDAY,08:10,09:50,Computer Networks,Mrs. Aswana Lal,140
-MONDAY,08:10,09:50,Foundations of Artificial Intelligence,Mr. Dr. Kumar P,140
-MONDAY,08:10,09:50,Foundations of Artificial Intelligence,Mr. Dr. Kumar P,140
-MONDAY,08:10,09:50,Foundations of Artificial Intelligence,Mr. Dr. Kumar P,140
-MONDAY,08:10,09:50,Foundations of Artificial Intelligence,Mr. Dr. Kumar P,140
-MONDAY,08:10,09:50,Foundations of Artificial Intelligence,Mr. Dr. Kumar P,140
+THURSDAY,12:00,12:50,Computer Architecture,New Staff - 04,A309
+FRIDAY,18:00,18:50,Computer Architecture,New Staff - 04,A109
+THURSDAY,16:00,16:50,Computer Architecture,New Staff - 04,B218
+THURSDAY,14:00,14:50,Design and Analysis of Algorithms,New Staff - 03,A103
+WEDNESDAY,17:00,17:50,Design and Analysis of Algorithms,New Staff - 03,B419
+TUESDAY,14:00,14:50,Design and Analysis of Algorithms,New Staff - 03,B411
+TUESDAY,11:50,13:30,Design and Analysis of Algorithms,New Staff - 03,TLFR3
+MONDAY,17:30,19:10,Design and Analysis of Algorithms,New Staff - 03,TLFR1
+MONDAY,13:00,13:50,Fourier series and Number theory,Mr. Sriram Sastha,B320
+MONDAY,09:00,09:50,Fourier series and Number theory,Mr. Sriram Sastha,B321
+FRIDAY,08:00,08:50,Fourier series and Number theory,Mr. Sriram Sastha,A205
+TUESDAY,18:00,18:50,Fourier series and Number theory,Mr. Sriram Sastha,B210
+FRIDAY,09:00,09:50,Database Management Systems,Mrs. Sathiyavathi S,B322
+WEDNESDAY,16:00,16:50,Database Management Systems,Mrs. Sathiyavathi S,A305
+MONDAY,12:00,12:50,Database Management Systems,Mrs. Sathiyavathi S,B222
+MONDAY,09:50,11:30,Database Management Systems,Mrs. Sathiyavathi S,TLGL4
+TUESDAY,08:00,09:40,Database Management Systems,Mrs. Sathiyavathi S,JL3
+WEDNESDAY,11:50,13:30,Database Management Systems,Mrs. Sathiyavathi S,KFL03
+FRIDAY,11:50,13:30,Database Management Systems,Mrs. Sathiyavathi S,TLSR1
+MONDAY,14:00,14:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,B408
+THURSDAY,18:00,18:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,A103
+THURSDAY,10:00,10:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,A211
+MONDAY,15:50,17:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLFL5
+FRIDAY,11:50,13:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLFL4
+MONDAY,09:50,11:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLFL3
+WEDNESDAY,08:00,09:40,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLFR3
+THURSDAY,13:00,13:50,Fundamentals of Data Science,New Staff - 07,A102
+WEDNESDAY,14:00,14:50,Fundamentals of Data Science,New Staff - 07,B211
+THURSDAY,17:00,17:50,Fundamentals of Data Science,New Staff - 07,A302
+MONDAY,17:30,19:10,Fundamentals of Data Science,New Staff - 07,KFR03
+FRIDAY,09:50,11:30,Fundamentals of Data Science,New Staff - 07,TLFL3

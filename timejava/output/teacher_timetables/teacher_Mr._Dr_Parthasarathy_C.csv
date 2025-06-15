@@ -1,4 +1,14 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Fundamentals of Mobile Computing,CSE-3E,140
-MONDAY,08:10,09:50,Fundamentals of Mobile Computing,CSE-3E,140
-MONDAY,08:10,09:50,Fundamentals of Mobile Computing,CSE-3E,140
+WEDNESDAY,11:00,11:50,Database Management Systems,CSE-2H,A302
+MONDAY,11:00,11:50,Database Management Systems,CSE-2H,B422
+MONDAY,13:00,13:50,Database Management Systems,CSE-2H,B410
+FRIDAY,15:50,17:30,Database Management Systems,CSE-2H,TLGL1
+WEDNESDAY,15:50,17:30,Database Management Systems,CSE-2H,JR3
+FRIDAY,11:50,13:30,Database Management Systems,CSE-2H,JL2
+THURSDAY,17:30,19:10,Database Management Systems,CSE-2H,TLFL1
+TUESDAY,13:50,15:30,Project-1,CSE-4E,JR2
+FRIDAY,09:50,11:30,Project-1,CSE-4E,TLGL2
+TUESDAY,15:50,17:30,Project-1,CSE-4E,KFR02
+MONDAY,17:30,19:10,Project-1,CSE-4E,KFL01
+WEDNESDAY,13:50,15:30,Project-1,CSE-4E,JL1
+TUESDAY,09:50,11:30,Project-1,CSE-4E,TLGL2

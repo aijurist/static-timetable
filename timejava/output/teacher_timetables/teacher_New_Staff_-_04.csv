@@ -1,0 +1,28 @@
+Day,StartTime,EndTime,Course,Group,Room
+THURSDAY,12:00,12:50,Computer Architecture,CSE-2A,A309
+FRIDAY,18:00,18:50,Computer Architecture,CSE-2A,A109
+THURSDAY,16:00,16:50,Computer Architecture,CSE-2A,B218
+THURSDAY,14:00,14:50,Computer Architecture,CSE-2J,A102
+MONDAY,16:00,16:50,Computer Architecture,CSE-2J,B321
+FRIDAY,10:00,10:50,Computer Architecture,CSE-2J,B218
+TUESDAY,08:00,08:50,Object Oriented Programming Using JAVA,CSE-2C,B325
+WEDNESDAY,10:00,10:50,Object Oriented Programming Using JAVA,CSE-2C,B212
+WEDNESDAY,14:00,14:50,Object Oriented Programming Using JAVA,CSE-2C,A310
+TUESDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE-2C,JL3
+FRIDAY,08:00,09:40,Object Oriented Programming Using JAVA,CSE-2C,TLSL1
+WEDNESDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE-2C,TLGL2
+FRIDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE-2C,TLFR4
+MONDAY,10:00,10:50,Object Oriented Programming Using JAVA,CSE-2J,B210
+TUESDAY,10:00,10:50,Object Oriented Programming Using JAVA,CSE-2J,A110
+WEDNESDAY,16:00,16:50,Object Oriented Programming Using JAVA,CSE-2J,A104/105
+MONDAY,08:00,09:40,Object Oriented Programming Using JAVA,CSE-2J,TLSL2
+MONDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE-2J,JL1
+FRIDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSE-2J,TLFR1
+TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSE-2J,TLFR2
+TUESDAY,14:00,14:50,Web Programming,CSE-3C,B422
+THURSDAY,10:00,10:50,Web Programming,CSE-3C,B404
+TUESDAY,18:00,18:50,Web Programming,CSE-3C,A303
+THURSDAY,08:00,09:40,Web Programming,CSE-3C,TLSL2
+WEDNESDAY,08:00,09:40,Web Programming,CSE-3C,KFR03
+MONDAY,13:50,15:30,Web Programming,CSE-3C,JL1
+FRIDAY,13:50,15:30,Web Programming,CSE-3C,TLFL4

@@ -1,21 +1,11 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,CSE-2A,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,CSE-2A,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,CSE-2A,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,CSE-2A,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,CSE-2A,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,CSE-2G,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,CSE-2G,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,CSE-2G,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,CSE-2G,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,CSE-2G,140
-MONDAY,08:10,09:50,Deep Learning,AIML-3C,140
-MONDAY,08:10,09:50,Deep Learning,AIML-3C,140
-MONDAY,08:10,09:50,Deep Learning,AIML-3C,140
-MONDAY,08:10,09:50,Deep Learning,AIML-3C,140
-MONDAY,08:10,09:50,Deep Learning,AIML-3C,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,AIML-2C,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,AIML-2C,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,AIML-2C,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,AIML-2C,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,AIML-2C,140
+MONDAY,13:00,13:50,Design and Analysis of Algorithms,AIML-2C,A208
+MONDAY,11:00,11:50,Design and Analysis of Algorithms,AIML-2C,B212
+FRIDAY,11:00,11:50,Design and Analysis of Algorithms,AIML-2C,B419
+WEDNESDAY,13:50,15:30,Design and Analysis of Algorithms,AIML-2C,TLFL5
+THURSDAY,09:50,11:30,Design and Analysis of Algorithms,AIML-2C,TLSR1
+TUESDAY,15:00,15:50,Deep Learning,AIML-3C,A204
+FRIDAY,18:00,18:50,Deep Learning,AIML-3C,B218
+THURSDAY,08:00,08:50,Deep Learning,AIML-3C,B418
+FRIDAY,15:50,17:30,Deep Learning,AIML-3C,TLFL4
+MONDAY,08:00,09:40,Deep Learning,AIML-3C,TLFR4

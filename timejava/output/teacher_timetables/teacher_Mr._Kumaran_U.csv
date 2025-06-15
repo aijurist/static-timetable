@@ -1,16 +1,16 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Database Management Systems,CSE-2G,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2G,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2G,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2G,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2G,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2G,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2G,140
-MONDAY,08:10,09:50,Information Retrieval,AIML-4A,140
-MONDAY,08:10,09:50,Information Retrieval,AIML-4A,140
-MONDAY,08:10,09:50,Information Retrieval,AIML-4A,140
-MONDAY,08:10,09:50,Information Retrieval,AIML-4A,140
-MONDAY,08:10,09:50,Information Retrieval,AIML-4C,140
-MONDAY,08:10,09:50,Information Retrieval,AIML-4C,140
-MONDAY,08:10,09:50,Information Retrieval,AIML-4C,140
-MONDAY,08:10,09:50,Information Retrieval,AIML-4C,140
+MONDAY,16:00,16:50,Database Management Systems,AIML-2A,B219
+THURSDAY,17:00,17:50,Database Management Systems,AIML-2A,B402
+MONDAY,08:00,08:50,Database Management Systems,AIML-2A,A110
+THURSDAY,11:50,13:30,Database Management Systems,AIML-2A,JL1
+TUESDAY,09:50,11:30,Database Management Systems,AIML-2A,JR3
+THURSDAY,09:50,11:30,Database Management Systems,AIML-2A,JL2
+WEDNESDAY,09:50,11:30,Database Management Systems,AIML-2A,TLFL5
+MONDAY,11:00,11:50,Information Retrieval (Professional Elective V),AIML-4A,B221
+WEDNESDAY,12:00,12:50,Information Retrieval (Professional Elective V),AIML-4A,B403
+FRIDAY,15:50,17:30,Information Retrieval (Professional Elective V),AIML-4A,TLSL2
+FRIDAY,13:50,15:30,Information Retrieval (Professional Elective V),AIML-4A,KFR01
+FRIDAY,09:00,09:50,Information Retrieval (Professional Elective V),AIML-4C,A311
+MONDAY,14:00,14:50,Information Retrieval (Professional Elective V),AIML-4C,B320
+TUESDAY,11:50,13:30,Information Retrieval (Professional Elective V),AIML-4C,TLFR4
+TUESDAY,15:50,17:30,Information Retrieval (Professional Elective V),AIML-4C,TLSR1

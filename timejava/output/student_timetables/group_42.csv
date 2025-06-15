@@ -1,19 +1,31 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:10,09:50,Design Thinking for Innovation in Computer Science and Business Systems,Ms. Janani U,140
-MONDAY,08:10,09:50,Design Thinking for Innovation in Computer Science and Business Systems,Ms. Janani U,140
-MONDAY,08:10,09:50,Design Thinking for Innovation in Computer Science and Business Systems,Ms. Janani U,140
-MONDAY,08:10,09:50,Computer Network Technology,Mrs. S.Bakiyalakshmi,140
-MONDAY,08:10,09:50,Computer Network Technology,Mrs. S.Bakiyalakshmi,140
-MONDAY,08:10,09:50,Computer Network Technology,Mrs. S.Bakiyalakshmi,140
-MONDAY,08:10,09:50,Computer Network Technology,Mrs. S.Bakiyalakshmi,140
-MONDAY,08:10,09:50,Computer Network Technology,Mrs. S.Bakiyalakshmi,140
-MONDAY,08:10,09:50,Artificial Intelligence,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Artificial Intelligence,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Artificial Intelligence,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Artificial Intelligence,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Artificial Intelligence,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Data Mining and Analytics,Mrs. Dr. P. Tamil Selvi,140
-MONDAY,08:10,09:50,Data Mining and Analytics,Mrs. Dr. P. Tamil Selvi,140
-MONDAY,08:10,09:50,Data Mining and Analytics,Mrs. Dr. P. Tamil Selvi,140
-MONDAY,08:10,09:50,Data Mining and Analytics,Mrs. Dr. P. Tamil Selvi,140
-MONDAY,08:10,09:50,Data Mining and Analytics,Mrs. Dr. P. Tamil Selvi,140
+TUESDAY,10:00,10:50,Computer Vision and Applications,Mr. Srinivasan T,B405
+TUESDAY,08:00,08:50,Computer Vision and Applications,Mr. Srinivasan T,B302
+MONDAY,08:00,09:40,Computer Vision and Applications,Mr. Srinivasan T,KFR03
+FRIDAY,08:00,09:40,Computer Vision and Applications,Mr. Srinivasan T,KFL02
+TUESDAY,18:00,18:50,Recommendation Systems (Professional Elective I),New Staff - 05,B322
+THURSDAY,10:00,10:50,Recommendation Systems (Professional Elective I),New Staff - 05,B423
+WEDNESDAY,13:50,15:30,Recommendation Systems (Professional Elective I),New Staff - 05,TLGL2
+MONDAY,15:50,17:30,Recommendation Systems (Professional Elective I),New Staff - 05,TLFR1
+MONDAY,17:30,19:10,Build and Deploy Machine Learning Applications,AIML  NS4,JR3
+FRIDAY,09:50,11:30,Build and Deploy Machine Learning Applications,AIML  NS4,TLFR2
+TUESDAY,15:00,15:50,Deep Learning,Mrs. Divya S,A204
+FRIDAY,18:00,18:50,Deep Learning,Mrs. Divya S,B218
+THURSDAY,08:00,08:50,Deep Learning,Mrs. Divya S,B418
+FRIDAY,15:50,17:30,Deep Learning,Mrs. Divya S,TLFL4
+MONDAY,08:00,09:40,Deep Learning,Mrs. Divya S,TLFR4
+MONDAY,14:00,14:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,B210
+MONDAY,11:00,11:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,A205
+TUESDAY,09:00,09:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,B320
+TUESDAY,15:50,17:30,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,TLSL2
+THURSDAY,15:50,17:30,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,KFL01
+THURSDAY,14:00,14:50,Computer Networks,Ms. Soundarya M,B302
+WEDNESDAY,09:00,09:50,Computer Networks,Ms. Soundarya M,A109
+WEDNESDAY,12:00,12:50,Computer Networks,Ms. Soundarya M,B213
+FRIDAY,08:00,09:40,Computer Networks,Ms. Soundarya M,TLFL1
+THURSDAY,11:50,13:30,Computer Networks,Ms. Soundarya M,KFL03
+WEDNESDAY,13:50,15:30,Computer Networks,Ms. Soundarya M,KFL03
+TUESDAY,15:50,17:30,Computer Networks,Ms. Soundarya M,TLSL1
+THURSDAY,11:00,11:50,DataEngineering,Dr. Rajasekaran Annamalai,A310
+WEDNESDAY,16:00,16:50,DataEngineering,Dr. Rajasekaran Annamalai,B213
+TUESDAY,11:00,11:50,DataEngineering,Dr. Rajasekaran Annamalai,B404

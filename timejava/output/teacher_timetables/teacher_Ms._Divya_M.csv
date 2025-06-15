@@ -1,10 +1,13 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,CSE-2I,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,CSE-2I,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,CSE-2I,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,CSE-2I,140
-MONDAY,08:10,09:50,Foundations of Artificial Intelligence,CSE-3F,140
-MONDAY,08:10,09:50,Foundations of Artificial Intelligence,CSE-3F,140
-MONDAY,08:10,09:50,Foundations of Artificial Intelligence,CSE-3F,140
-MONDAY,08:10,09:50,Foundations of Artificial Intelligence,CSE-3F,140
-MONDAY,08:10,09:50,Foundations of Artificial Intelligence,CSE-3F,140
+THURSDAY,16:00,16:50,Object Oriented Programming Using JAVA,CSE-2G,B325
+MONDAY,16:00,16:50,Object Oriented Programming Using JAVA,CSE-2G,B322
+WEDNESDAY,18:00,18:50,Object Oriented Programming Using JAVA,CSE-2G,B409
+MONDAY,08:00,09:40,Object Oriented Programming Using JAVA,CSE-2G,TLGL1
+WEDNESDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSE-2G,TLFR5
+FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE-2G,TLSL1
+THURSDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE-2G,TLFL4
+MONDAY,10:00,10:50,Foundations of Artificial Intelligence,CSE-3A,A202
+TUESDAY,08:00,08:50,Foundations of Artificial Intelligence,CSE-3A,A103
+FRIDAY,10:00,10:50,Foundations of Artificial Intelligence,CSE-3A,B411
+THURSDAY,09:50,11:30,Foundations of Artificial Intelligence,CSE-3A,JR2
+MONDAY,11:50,13:30,Foundations of Artificial Intelligence,CSE-3A,TLSL2

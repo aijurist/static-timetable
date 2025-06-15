@@ -1,29 +1,34 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:10,09:50,Fundamentals of Machine Learning,Mr. Magesh M P,140
-MONDAY,08:10,09:50,Fundamentals of Machine Learning,Mr. Magesh M P,140
-MONDAY,08:10,09:50,Fundamentals of Machine Learning,Mr. Magesh M P,140
-MONDAY,08:10,09:50,Fundamentals of Machine Learning,Mr. Magesh M P,140
-MONDAY,08:10,09:50,Fundamentals of Machine Learning,Mr. Magesh M P,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mrs. Santhiya M,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mrs. Santhiya M,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mrs. Santhiya M,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mrs. Santhiya M,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mrs. Santhiya M,140
-MONDAY,08:10,09:50,Database Management Systems,New Staff 4 N,140
-MONDAY,08:10,09:50,Database Management Systems,New Staff 4 N,140
-MONDAY,08:10,09:50,Database Management Systems,New Staff 4 N,140
-MONDAY,08:10,09:50,Database Management Systems,New Staff 4 N,140
-MONDAY,08:10,09:50,Database Management Systems,New Staff 4 N,140
-MONDAY,08:10,09:50,Database Management Systems,New Staff 4 N,140
-MONDAY,08:10,09:50,Database Management Systems,New Staff 4 N,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,140
-MONDAY,08:10,09:50,Discrete Mathematics for AI,Mrs. Anbarasi.V,140
-MONDAY,08:10,09:50,Discrete Mathematics for AI,Mrs. Anbarasi.V,140
-MONDAY,08:10,09:50,Discrete Mathematics for AI,Mrs. Anbarasi.V,140
-MONDAY,08:10,09:50,Discrete Mathematics for AI,Mrs. Anbarasi.V,140
-MONDAY,08:10,09:50,Environmental Science and Engineering,Mr. J.Venkatamuthukumar,140
-MONDAY,08:10,09:50,Environmental Science and Engineering,Mr. J.Venkatamuthukumar,140
-MONDAY,08:10,09:50,Environmental Science and Engineering,Mr. J.Venkatamuthukumar,140
+MONDAY,15:50,17:30,Python Programming for Design,Mr. Vijayakumar R,KFR01
+FRIDAY,15:50,17:30,Python Programming for Design,Mr. Vijayakumar R,TLFL5
+TUESDAY,08:00,09:40,Python Programming for Design,Mr. Vijayakumar R,TLGL1
+WEDNESDAY,15:50,17:30,Python Programming for Design,Mr. Vijayakumar R,KFR02
+WEDNESDAY,11:50,13:30,Python Programming for Design,Mr. Vijayakumar R,TLGL1
+WEDNESDAY,13:50,15:30,Python Programming for Design,Mr. Vijayakumar R,KSL03
+MONDAY,09:00,09:50,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,B402
+FRIDAY,08:00,08:50,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,B325
+THURSDAY,16:00,16:50,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,B419
+WEDNESDAY,15:50,17:30,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,KFL01
+FRIDAY,11:50,13:30,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,KFL03
+TUESDAY,10:00,10:50,Database Management Systems,Mrs. Kalpana D,B219
+THURSDAY,15:00,15:50,Database Management Systems,Mrs. Kalpana D,B415
+THURSDAY,11:00,11:50,Database Management Systems,Mrs. Kalpana D,B222
+WEDNESDAY,11:50,13:30,Database Management Systems,Mrs. Kalpana D,TLGL4
+FRIDAY,11:50,13:30,Database Management Systems,Mrs. Kalpana D,TLSL2
+WEDNESDAY,09:50,11:30,Database Management Systems,Mrs. Kalpana D,TLFL4
+MONDAY,09:50,11:30,Database Management Systems,Mrs. Kalpana D,KFR03
+MONDAY,13:00,13:50,Discrete Mathematics for AI,Mrs. J.Julie,A204
+TUESDAY,14:00,14:50,Discrete Mathematics for AI,Mrs. J.Julie,B423
+THURSDAY,10:00,10:50,Discrete Mathematics for AI,Mrs. J.Julie,B419
+FRIDAY,09:00,09:50,Discrete Mathematics for AI,Mrs. J.Julie,A303
+FRIDAY,11:00,11:50,Design Processes and Perspectives,Mr. S Pradeep Kumar,A310
+TUESDAY,11:00,11:50,Design Processes and Perspectives,Mr. S Pradeep Kumar,B419
+MONDAY,14:00,14:50,Design Processes and Perspectives,Mr. S Pradeep Kumar,B218
+WEDNESDAY,08:00,09:40,Design Processes and Perspectives,Mr. S Pradeep Kumar,TLSL2
+THURSDAY,11:50,13:30,Design Processes and Perspectives,Mr. S Pradeep Kumar,KFR03
+FRIDAY,14:00,14:50,UI and UX design,New Staff - 01,A302
+MONDAY,08:00,08:50,UI and UX design,New Staff - 01,A305
+MONDAY,09:50,11:30,UI and UX design,New Staff - 01,KFL01
+THURSDAY,08:00,09:40,UI and UX design,New Staff - 01,TLSL1
+TUESDAY,17:30,19:10,UI and UX design,New Staff - 01,TLFL5
+FRIDAY,17:30,19:10,UI and UX design,New Staff - 01,JL3

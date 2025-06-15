@@ -1,29 +1,26 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:10,09:50,Computer Architecture,Mrs. Deepa B,140
-MONDAY,08:10,09:50,Computer Architecture,Mrs. Deepa B,140
-MONDAY,08:10,09:50,Computer Architecture,Mrs. Deepa B,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Mahesmeena,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Mahesmeena,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Mahesmeena,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Mahesmeena,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Mahesmeena,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Mahesmeena,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Mahesmeena,140
-MONDAY,08:10,09:50,Fourier series and Number theory,Ms. Balavidhya S,140
-MONDAY,08:10,09:50,Fourier series and Number theory,Ms. Balavidhya S,140
-MONDAY,08:10,09:50,Fourier series and Number theory,Ms. Balavidhya S,140
-MONDAY,08:10,09:50,Fourier series and Number theory,Ms. Balavidhya S,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,Mr. V Karthick,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,Mr. V Karthick,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,Mr. V Karthick,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,Mr. V Karthick,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,Mrs. Suba Malai Rajasekar,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,Mrs. Suba Malai Rajasekar,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,Mrs. Suba Malai Rajasekar,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,Mrs. Suba Malai Rajasekar,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,Mrs. Suba Malai Rajasekar,140
+THURSDAY,13:50,15:30,Industry Practices Lab,Mr. Suresh Kumar K,JR1
+MONDAY,13:50,15:30,Industry Practices Lab,Mr. Suresh Kumar K,TLGL3
+WEDNESDAY,13:50,15:30,Industry Practices Lab,Mr. Suresh Kumar K,TLFL1
+TUESDAY,09:50,11:30,Industry Practices Lab,Mr. Suresh Kumar K,TLFR2
+THURSDAY,13:00,13:50,Cloud and Big Data Analytics,Mrs. M.Madhu Rani,A109
+THURSDAY,16:00,16:50,Cloud and Big Data Analytics,Mrs. M.Madhu Rani,A203
+FRIDAY,08:00,08:50,Cloud and Big Data Analytics,Mrs. M.Madhu Rani,B404
+TUESDAY,13:50,15:30,Cloud and Big Data Analytics,Mrs. M.Madhu Rani,TLSL2
+MONDAY,15:50,17:30,Cloud and Big Data Analytics,Mrs. M.Madhu Rani,TLFL3
+FRIDAY,11:50,13:30,Cloud and Big Data Analytics,Mrs. M.Madhu Rani,TLGL3
+FRIDAY,09:50,11:30,Cloud and Big Data Analytics,Mrs. M.Madhu Rani,TLGL1
+WEDNESDAY,16:00,16:50,Software Testing,Mrs. K Indumathi,A108
+MONDAY,11:00,11:50,Software Testing,Mrs. K Indumathi,A309
+THURSDAY,09:00,09:50,Software Testing,Mrs. K Indumathi,B401
+WEDNESDAY,11:50,13:30,Project Phase I,Mr. Dr.M.Babu,TLFR3
+FRIDAY,11:50,13:30,Project Phase I,Mr. Dr.M.Babu,TLFR2
+FRIDAY,09:50,11:30,Project Phase I,Mr. Dr.M.Babu,JL3
+MONDAY,11:50,13:30,Project Phase I,Mr. Dr.M.Babu,KFL01
+THURSDAY,13:50,15:30,Project Phase I,Mr. Dr.M.Babu,KFL02
+FRIDAY,15:50,17:30,Project Phase I,Mr. Dr.M.Babu,TLFR4
+WEDNESDAY,09:50,11:30,Project Phase I,Mr. Dr.M.Babu,KFL01
+TUESDAY,08:00,09:40,Project Phase I,Mr. Dr.M.Babu,TLFR3
+THURSDAY,12:00,12:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,A102
+FRIDAY,14:00,14:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,B320
+MONDAY,10:00,10:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,B423

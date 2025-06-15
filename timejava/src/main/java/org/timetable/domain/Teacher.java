@@ -1,9 +1,7 @@
 package org.timetable.domain;
 
 import org.optaplanner.core.api.domain.lookup.PlanningId;
-
-import java.util.ArrayList;
-import java.util.List;
+import org.timetable.config.TimetableConfig;
 
 public class Teacher {
     @PlanningId
@@ -11,11 +9,8 @@ public class Teacher {
     private String name;
     private String email;
     private int maxHours;
-    private int teachingLoad;
-    private List<Course> assignedCourses;
 
     public Teacher() {
-        this.assignedCourses = new ArrayList<>();
     }
 
     public Teacher(String id, String name, String email, int maxHours) {
@@ -23,9 +18,14 @@ public class Teacher {
         this.name = name;
         this.email = email;
         this.maxHours = maxHours;
-        this.teachingLoad = 0;
-        this.assignedCourses = new ArrayList<>();
     }
+
+    public Teacher(String id, String name) {
+        this.id = id;
+        this.name = name;
+        this.maxHours = TimetableConfig.MAX_TEACHER_HOURS; // Default max hours
+    }
+
 
     public String getId() {
         return id;
@@ -59,31 +59,8 @@ public class Teacher {
         this.maxHours = maxHours;
     }
 
-    public int getTeachingLoad() {
-        return teachingLoad;
-    }
-
-    public void setTeachingLoad(int teachingLoad) {
-        this.teachingLoad = teachingLoad;
-    }
-
-    public List<Course> getAssignedCourses() {
-        return assignedCourses;
-    }
-
-    public void setAssignedCourses(List<Course> assignedCourses) {
-        this.assignedCourses = assignedCourses;
-    }
-
-    public void addCourse(Course course) {
-        if (!assignedCourses.contains(course)) {
-            assignedCourses.add(course);
-            teachingLoad++;
-        }
-    }
-
     @Override
     public String toString() {
         return name;
     }
-} 
+}

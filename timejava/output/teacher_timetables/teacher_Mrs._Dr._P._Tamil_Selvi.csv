@@ -1,16 +1,11 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Modern Web Applications,CSBS-4A,140
-MONDAY,08:10,09:50,Modern Web Applications,CSBS-4A,140
-MONDAY,08:10,09:50,Modern Web Applications,CSBS-4A,140
-MONDAY,08:10,09:50,Modern Web Applications,CSBS-4A,140
-MONDAY,08:10,09:50,Modern Web Applications,CSBS-4A,140
-MONDAY,08:10,09:50,Data Mining and Analytics,CSBS-3A,140
-MONDAY,08:10,09:50,Data Mining and Analytics,CSBS-3A,140
-MONDAY,08:10,09:50,Data Mining and Analytics,CSBS-3A,140
-MONDAY,08:10,09:50,Data Mining and Analytics,CSBS-3A,140
-MONDAY,08:10,09:50,Data Mining and Analytics,CSBS-3A,140
-MONDAY,08:10,09:50,Data Mining and Analytics,CSBS-3B,140
-MONDAY,08:10,09:50,Data Mining and Analytics,CSBS-3B,140
-MONDAY,08:10,09:50,Data Mining and Analytics,CSBS-3B,140
-MONDAY,08:10,09:50,Data Mining and Analytics,CSBS-3B,140
-MONDAY,08:10,09:50,Data Mining and Analytics,CSBS-3B,140
+WEDNESDAY,15:00,15:50,Data Mining and Analytics,CSBS-3B,B107
+MONDAY,09:00,09:50,Data Mining and Analytics,CSBS-3B,B404
+TUESDAY,09:00,09:50,Data Mining and Analytics,CSBS-3B,B219
+THURSDAY,09:50,11:30,Data Mining and Analytics,CSBS-3B,TLFL4
+THURSDAY,11:50,13:30,Data Mining and Analytics,CSBS-3B,TLFR1
+WEDNESDAY,13:00,13:50,Modern Web Applications,CSBS-4A,B106
+WEDNESDAY,09:00,09:50,Modern Web Applications,CSBS-4A,A103
+MONDAY,11:00,11:50,Modern Web Applications,CSBS-4A,B410
+FRIDAY,08:00,09:40,Modern Web Applications,CSBS-4A,KFL01
+TUESDAY,15:50,17:30,Modern Web Applications,CSBS-4A,TLFR4

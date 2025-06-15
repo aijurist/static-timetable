@@ -1,0 +1,27 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+MONDAY,09:00,09:50,Social and Ethical Issues in AI,New Faculty Humanities & Sciences (PLACEHOLDER),B322
+FRIDAY,11:50,13:30,Project-I,HOD AIML,TLGL2
+THURSDAY,09:50,11:30,Project-I,HOD AIML,TLFL3
+MONDAY,15:50,17:30,Project-I,HOD AIML,KFR02
+FRIDAY,17:30,19:10,Project-I,HOD AIML,TLFR3
+WEDNESDAY,11:50,13:30,Project-I,HOD AIML,TLFR1
+TUESDAY,17:30,19:10,Project-I,HOD AIML,TLFL3
+WEDNESDAY,10:00,10:50,Big Data Technology,HOD AIML,A304
+THURSDAY,12:00,12:50,Big Data Technology,HOD AIML,B212
+TUESDAY,16:00,16:50,Big Data Technology,HOD AIML,B106
+MONDAY,11:50,13:30,Big Data Technology,HOD AIML,TLFL4
+WEDNESDAY,15:50,17:30,Big Data Technology,HOD AIML,TLSR1
+MONDAY,15:00,15:50,Information Retrieval (Professional Elective V),Mr. Magesh M P,B423
+THURSDAY,15:00,15:50,Information Retrieval (Professional Elective V),Mr. Magesh M P,B416
+THURSDAY,08:00,09:40,Information Retrieval (Professional Elective V),Mr. Magesh M P,KFR03
+FRIDAY,11:50,13:30,Information Retrieval (Professional Elective V),Mr. Magesh M P,TLFR1
+WEDNESDAY,15:00,15:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,A210
+TUESDAY,09:00,09:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,A102
+FRIDAY,09:00,09:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,B220
+FRIDAY,11:00,11:50,Data Visualization using Python (Professional Elective III),Mr. Vijay K,B218
+TUESDAY,14:00,14:50,Data Visualization using Python (Professional Elective III),Mr. Vijay K,B221
+THURSDAY,15:50,17:30,Data Visualization using Python (Professional Elective III),Mr. Vijay K,JR3
+MONDAY,09:50,11:30,Data Visualization using Python (Professional Elective III),Mr. Vijay K,JR3
+FRIDAY,14:00,14:50,Secure Systems Engineering,Dr. N M Balamurugan,B418
+WEDNESDAY,08:00,08:50,Secure Systems Engineering,Dr. N M Balamurugan,B107
+TUESDAY,13:00,13:50,Secure Systems Engineering,Dr. N M Balamurugan,B401

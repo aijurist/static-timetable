@@ -1,29 +1,27 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:10,09:50,Fundamentals of Machine Learning,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Fundamentals of Machine Learning,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Fundamentals of Machine Learning,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Fundamentals of Machine Learning,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Fundamentals of Machine Learning,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Dr. Raja Ramamoorthi,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Dr. Raja Ramamoorthi,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Dr. Raja Ramamoorthi,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Dr. Raja Ramamoorthi,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Dr. Raja Ramamoorthi,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Mahesmeena,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Mahesmeena,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Mahesmeena,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Mahesmeena,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Mahesmeena,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Mahesmeena,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Mahesmeena,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,AIML  NS4,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,AIML  NS4,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,AIML  NS4,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,AIML  NS4,140
-MONDAY,08:10,09:50,Discrete Mathematics for AI,Mrs. J.Julie,140
-MONDAY,08:10,09:50,Discrete Mathematics for AI,Mrs. J.Julie,140
-MONDAY,08:10,09:50,Discrete Mathematics for AI,Mrs. J.Julie,140
-MONDAY,08:10,09:50,Discrete Mathematics for AI,Mrs. J.Julie,140
-MONDAY,08:10,09:50,Environmental Science and Engineering,Dr. Mahesh R,140
-MONDAY,08:10,09:50,Environmental Science and Engineering,Dr. Mahesh R,140
-MONDAY,08:10,09:50,Environmental Science and Engineering,Dr. Mahesh R,140
+FRIDAY,13:00,13:50,Theory of Computation,Mr. Dr.K.Ananthajothi,A104/105
+WEDNESDAY,11:00,11:50,Theory of Computation,Mr. Dr.K.Ananthajothi,B401
+FRIDAY,08:00,08:50,Theory of Computation,Mr. Dr.K.Ananthajothi,A311
+THURSDAY,18:00,18:50,Theory of Computation,Mr. Dr.K.Ananthajothi,B321
+WEDNESDAY,18:00,18:50,Fundamentals of Mobile Computing,HOD CSE,B417
+MONDAY,10:00,10:50,Fundamentals of Mobile Computing,HOD CSE,B322
+FRIDAY,09:00,09:50,Fundamentals of Mobile Computing,HOD CSE,B405
+TUESDAY,14:00,14:50,Web Programming,New Staff - 04,B422
+THURSDAY,10:00,10:50,Web Programming,New Staff - 04,B404
+TUESDAY,18:00,18:50,Web Programming,New Staff - 04,A303
+THURSDAY,08:00,09:40,Web Programming,New Staff - 04,TLSL2
+WEDNESDAY,08:00,09:40,Web Programming,New Staff - 04,KFR03
+MONDAY,13:50,15:30,Web Programming,New Staff - 04,JL1
+FRIDAY,13:50,15:30,Web Programming,New Staff - 04,TLFL4
+TUESDAY,10:00,10:50,Computer Networks,Mrs. Dr.R.Sabitha,B415
+MONDAY,17:00,17:50,Computer Networks,Mrs. Dr.R.Sabitha,A103
+FRIDAY,16:00,16:50,Computer Networks,Mrs. Dr.R.Sabitha,B412
+MONDAY,13:50,15:30,Computer Networks,Mrs. Dr.R.Sabitha,KFR02
+THURSDAY,11:50,13:30,Computer Networks,Mrs. Dr.R.Sabitha,TLGL1
+WEDNESDAY,13:50,15:30,Computer Networks,Mrs. Dr.R.Sabitha,KFL01
+THURSDAY,13:50,15:30,Computer Networks,Mrs. Dr.R.Sabitha,TLFL2
+TUESDAY,11:00,11:50,Foundations of Artificial Intelligence,Mrs. Deepa B,B408
+MONDAY,09:00,09:50,Foundations of Artificial Intelligence,Mrs. Deepa B,B219
+THURSDAY,17:00,17:50,Foundations of Artificial Intelligence,Mrs. Deepa B,B221
+WEDNESDAY,15:50,17:30,Foundations of Artificial Intelligence,Mrs. Deepa B,JR1
+MONDAY,11:50,13:30,Foundations of Artificial Intelligence,Mrs. Deepa B,TLGL2

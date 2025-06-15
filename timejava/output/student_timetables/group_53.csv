@@ -1,0 +1,27 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+MONDAY,10:00,10:50,Social and Ethical Issues in AI,New Faculty Humanities & Sciences (PLACEHOLDER),A211
+FRIDAY,17:30,19:10,Project-I,Mrs. Sowmia K R,TLFR1
+MONDAY,11:50,13:30,Project-I,Mrs. Sowmia K R,TLFL5
+FRIDAY,13:50,15:30,Project-I,Mrs. Sowmia K R,TLFL1
+THURSDAY,08:00,09:40,Project-I,Mrs. Sowmia K R,TLGL4
+MONDAY,17:30,19:10,Project-I,Mrs. Sowmia K R,TLGL1
+WEDNESDAY,09:50,11:30,Project-I,Mrs. Sowmia K R,TLFL3
+WEDNESDAY,16:00,16:50,Big Data Technology,Mrs. Sangeetha K,A103
+FRIDAY,08:00,08:50,Big Data Technology,Mrs. Sangeetha K,B425
+THURSDAY,16:00,16:50,Big Data Technology,Mrs. Sangeetha K,B415
+TUESDAY,08:00,09:40,Big Data Technology,Mrs. Sangeetha K,TLGL3
+WEDNESDAY,17:30,19:10,Big Data Technology,Mrs. Sangeetha K,JL1
+FRIDAY,09:00,09:50,Information Retrieval (Professional Elective V),Mr. Kumaran U,A311
+MONDAY,14:00,14:50,Information Retrieval (Professional Elective V),Mr. Kumaran U,B320
+TUESDAY,11:50,13:30,Information Retrieval (Professional Elective V),Mr. Kumaran U,TLFR4
+TUESDAY,15:50,17:30,Information Retrieval (Professional Elective V),Mr. Kumaran U,TLSR1
+WEDNESDAY,12:00,12:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,B325
+THURSDAY,10:00,10:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,A310
+TUESDAY,11:00,11:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,B417
+WEDNESDAY,08:00,08:50,Data Visualization using Python (Professional Elective III),Mrs. Dr. S. Poonkuzhali,A203
+WEDNESDAY,14:00,14:50,Data Visualization using Python (Professional Elective III),Mrs. Dr. S. Poonkuzhali,A210
+WEDNESDAY,09:50,11:30,Data Visualization using Python (Professional Elective III),Mrs. Dr. S. Poonkuzhali,JL2
+TUESDAY,17:30,19:10,Data Visualization using Python (Professional Elective III),Mrs. Dr. S. Poonkuzhali,TLSR1
+TUESDAY,10:00,10:50,Secure Systems Engineering,Ms. R.Anitha,B423
+WEDNESDAY,09:00,09:50,Secure Systems Engineering,Ms. R.Anitha,B408
+MONDAY,08:00,08:50,Secure Systems Engineering,Ms. R.Anitha,B219

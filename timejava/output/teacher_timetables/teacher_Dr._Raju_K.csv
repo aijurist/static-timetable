@@ -1,15 +1,15 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Deep Learning,AIML-3A,140
-MONDAY,08:10,09:50,Deep Learning,AIML-3A,140
-MONDAY,08:10,09:50,Deep Learning,AIML-3A,140
-MONDAY,08:10,09:50,Deep Learning,AIML-3A,140
-MONDAY,08:10,09:50,Deep Learning,AIML-3A,140
-MONDAY,08:10,09:50,Supply Chain Analytics,AIML-4A,140
-MONDAY,08:10,09:50,Supply Chain Analytics,AIML-4A,140
-MONDAY,08:10,09:50,Supply Chain Analytics,AIML-4A,140
-MONDAY,08:10,09:50,Supply Chain Analytics,AIML-4B,140
-MONDAY,08:10,09:50,Supply Chain Analytics,AIML-4B,140
-MONDAY,08:10,09:50,Supply Chain Analytics,AIML-4B,140
-MONDAY,08:10,09:50,Supply Chain Analytics,AIML-4C,140
-MONDAY,08:10,09:50,Supply Chain Analytics,AIML-4C,140
-MONDAY,08:10,09:50,Supply Chain Analytics,AIML-4C,140
+MONDAY,16:00,16:50,Deep Learning,AIML-3A,B417
+WEDNESDAY,08:00,08:50,Deep Learning,AIML-3A,B222
+FRIDAY,13:00,13:50,Deep Learning,AIML-3A,B411
+FRIDAY,15:50,17:30,Deep Learning,AIML-3A,TLGL3
+MONDAY,09:50,11:30,Deep Learning,AIML-3A,JL2
+MONDAY,14:00,14:50,Supply Chain Analytics (Professional Elective V),AIML-4A,B417
+THURSDAY,12:00,12:50,Supply Chain Analytics (Professional Elective V),AIML-4A,B218
+WEDNESDAY,10:00,10:50,Supply Chain Analytics (Professional Elective V),AIML-4A,A104/105
+WEDNESDAY,15:00,15:50,Supply Chain Analytics (Professional Elective V),AIML-4B,A210
+TUESDAY,09:00,09:50,Supply Chain Analytics (Professional Elective V),AIML-4B,A102
+FRIDAY,09:00,09:50,Supply Chain Analytics (Professional Elective V),AIML-4B,B220
+WEDNESDAY,12:00,12:50,Supply Chain Analytics (Professional Elective V),AIML-4C,B325
+THURSDAY,10:00,10:50,Supply Chain Analytics (Professional Elective V),AIML-4C,A310
+TUESDAY,11:00,11:50,Supply Chain Analytics (Professional Elective V),AIML-4C,B417

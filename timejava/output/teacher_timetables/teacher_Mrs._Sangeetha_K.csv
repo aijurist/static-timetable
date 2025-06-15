@@ -1,10 +1,10 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Computer Vision and Applications,AIML-3B,140
-MONDAY,08:10,09:50,Computer Vision and Applications,AIML-3B,140
-MONDAY,08:10,09:50,Computer Vision and Applications,AIML-3B,140
-MONDAY,08:10,09:50,Computer Vision and Applications,AIML-3B,140
-MONDAY,08:10,09:50,Big Data Technology,AIML-4C,140
-MONDAY,08:10,09:50,Big Data Technology,AIML-4C,140
-MONDAY,08:10,09:50,Big Data Technology,AIML-4C,140
-MONDAY,08:10,09:50,Big Data Technology,AIML-4C,140
-MONDAY,08:10,09:50,Big Data Technology,AIML-4C,140
+THURSDAY,09:00,09:50,Computer Vision and Applications,AIML-3B,B424
+THURSDAY,11:00,11:50,Computer Vision and Applications,AIML-3B,B405
+MONDAY,09:50,11:30,Computer Vision and Applications,AIML-3B,TLFR5
+WEDNESDAY,13:50,15:30,Computer Vision and Applications,AIML-3B,JR3
+WEDNESDAY,16:00,16:50,Big Data Technology,AIML-4C,A103
+FRIDAY,08:00,08:50,Big Data Technology,AIML-4C,B425
+THURSDAY,16:00,16:50,Big Data Technology,AIML-4C,B415
+TUESDAY,08:00,09:40,Big Data Technology,AIML-4C,TLGL3
+WEDNESDAY,17:30,19:10,Big Data Technology,AIML-4C,JL1

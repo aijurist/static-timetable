@@ -1,29 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:10,09:50,Computer Vision and Applications,Mr. Srinivasan T,140
-MONDAY,08:10,09:50,Computer Vision and Applications,Mr. Srinivasan T,140
-MONDAY,08:10,09:50,Computer Vision and Applications,Mr. Srinivasan T,140
-MONDAY,08:10,09:50,Computer Vision and Applications,Mr. Srinivasan T,140
-MONDAY,08:10,09:50,Build and Deploy Machine Learning Applications,AIML  NS4,140
-MONDAY,08:10,09:50,Build and Deploy Machine Learning Applications,AIML  NS4,140
-MONDAY,08:10,09:50,Recommendation Systems,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Recommendation Systems,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Recommendation Systems,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Recommendation Systems,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Deep Learning,Mrs. Divya S,140
-MONDAY,08:10,09:50,Deep Learning,Mrs. Divya S,140
-MONDAY,08:10,09:50,Deep Learning,Mrs. Divya S,140
-MONDAY,08:10,09:50,Deep Learning,Mrs. Divya S,140
-MONDAY,08:10,09:50,Deep Learning,Mrs. Divya S,140
-MONDAY,08:10,09:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,140
-MONDAY,08:10,09:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,140
-MONDAY,08:10,09:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,140
-MONDAY,08:10,09:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,140
-MONDAY,08:10,09:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,140
-MONDAY,08:10,09:50,Computer Networks,Dr. Chettiyar Vani Vivekanand,140
-MONDAY,08:10,09:50,Computer Networks,Dr. Chettiyar Vani Vivekanand,140
-MONDAY,08:10,09:50,Computer Networks,Dr. Chettiyar Vani Vivekanand,140
-MONDAY,08:10,09:50,Computer Networks,Dr. Chettiyar Vani Vivekanand,140
-MONDAY,08:10,09:50,Computer Networks,Dr. Chettiyar Vani Vivekanand,140
-MONDAY,08:10,09:50,DataEngineering,Dr. Rajasekaran Annamalai,140
-MONDAY,08:10,09:50,DataEngineering,Dr. Rajasekaran Annamalai,140
-MONDAY,08:10,09:50,DataEngineering,Dr. Rajasekaran Annamalai,140
+MONDAY,17:00,17:50,Computer Architecture,Mrs. Deepa B,A202
+WEDNESDAY,14:00,14:50,Computer Architecture,Mrs. Deepa B,B409
+FRIDAY,15:00,15:50,Computer Architecture,Mrs. Deepa B,B424
+MONDAY,16:00,16:50,Design and Analysis of Algorithms,Ms. T.Ramala,A310
+FRIDAY,08:00,08:50,Design and Analysis of Algorithms,Ms. T.Ramala,B415
+THURSDAY,15:00,15:50,Design and Analysis of Algorithms,Ms. T.Ramala,B411
+TUESDAY,15:50,17:30,Design and Analysis of Algorithms,Ms. T.Ramala,JL2
+FRIDAY,09:50,11:30,Design and Analysis of Algorithms,Ms. T.Ramala,JL2
+WEDNESDAY,09:00,09:50,Fourier series and Number theory,Mr. Venkatesan J,B410
+THURSDAY,09:00,09:50,Fourier series and Number theory,Mr. Venkatesan J,A108
+WEDNESDAY,12:00,12:50,Fourier series and Number theory,Mr. Venkatesan J,A309
+TUESDAY,08:00,08:50,Fourier series and Number theory,Mr. Venkatesan J,B322
+WEDNESDAY,11:00,11:50,Database Management Systems,Mr. Dr Parthasarathy C,A302
+MONDAY,11:00,11:50,Database Management Systems,Mr. Dr Parthasarathy C,B422
+MONDAY,13:00,13:50,Database Management Systems,Mr. Dr Parthasarathy C,B410
+FRIDAY,15:50,17:30,Database Management Systems,Mr. Dr Parthasarathy C,TLGL1
+WEDNESDAY,15:50,17:30,Database Management Systems,Mr. Dr Parthasarathy C,JR3
+FRIDAY,11:50,13:30,Database Management Systems,Mr. Dr Parthasarathy C,JL2
+THURSDAY,17:30,19:10,Database Management Systems,Mr. Dr Parthasarathy C,TLFL1
+THURSDAY,14:00,14:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,B412
+WEDNESDAY,13:00,13:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,B213
+WEDNESDAY,10:00,10:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,B422
+FRIDAY,17:30,19:10,Object Oriented Programming Using JAVA,Ms. Dharshini B S,KSL03
+THURSDAY,11:50,13:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,JL2
+TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,KFL01
+TUESDAY,09:50,11:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLGL1
+TUESDAY,14:00,14:50,Fundamentals of Data Science,Ms. Dharshini B S,A305
+MONDAY,12:00,12:50,Fundamentals of Data Science,Ms. Dharshini B S,B419
+WEDNESDAY,15:00,15:50,Fundamentals of Data Science,Ms. Dharshini B S,A208
+THURSDAY,15:50,17:30,Fundamentals of Data Science,Ms. Dharshini B S,TLFR5
+TUESDAY,11:50,13:30,Fundamentals of Data Science,Ms. Dharshini B S,TLSL1

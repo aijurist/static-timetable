@@ -3,8 +3,9 @@ package org.timetable.domain;
 import org.optaplanner.core.api.domain.entity.PlanningEntity;
 import org.optaplanner.core.api.domain.lookup.PlanningId;
 import org.optaplanner.core.api.domain.variable.PlanningVariable;
+import org.timetable.config.TimetableConfig;
 
-import java.time.temporal.ChronoUnit;
+import java.time.LocalTime; // Import LocalTime
 
 @PlanningEntity
 public class Lesson {
@@ -22,16 +23,7 @@ public class Lesson {
     @PlanningVariable(valueRangeProviderRefs = "roomRange")
     private Room room;
 
-    // No-arg constructor required for OptaPlanner
     public Lesson() {
-    }
-
-    public Lesson(Course course, Teacher teacher, StudentGroup studentGroup, String sessionType) {
-        this.id = String.format("%s_%s_%s_%s", course.getId(), teacher.getId(), studentGroup.getId(), sessionType);
-        this.course = course;
-        this.teacher = teacher;
-        this.studentGroup = studentGroup;
-        this.sessionType = sessionType;
     }
 
     public Lesson(String id, Teacher teacher, Course course, StudentGroup studentGroup, String sessionType, String labBatch) {
@@ -43,26 +35,44 @@ public class Lesson {
         this.labBatch = labBatch;
     }
     
-    /**
-     * @return The required capacity for this lesson. Labs with batches need smaller rooms.
-     */
-    public int getRequiredCapacity() {
-        if ("lab".equals(this.sessionType) && this.labBatch != null) {
-            return 35; // Standard lab batch size
-        }
-        return this.studentGroup.getSize(); // Full class size
+    // NEW: Helper method to get the start time of the assigned timeslot.
+    public LocalTime getStartTime() {
+        return timeSlot != null ? timeSlot.getStartTime() : null;
+    }
+    
+    // NEW: Helper method to get the end time of the assigned timeslot.
+    public LocalTime getEndTime() {
+        return timeSlot != null ? timeSlot.getEndTime() : null;
     }
 
-    /**
-     * @return The duration of the lesson in hours, based on its assigned timeslot.
-     */
-    public long getDurationInHours() {
+    public int getRequiredCapacity() {
+        if (isSplitBatch()) {
+            return TimetableConfig.LAB_BATCH_SIZE;
+        }
+        return this.studentGroup.getSize();
+    }
+
+    public boolean requiresLabRoom() {
+        return "lab".equals(this.sessionType);
+    }
+
+    public boolean requiresTheoryRoom() {
+        return "lecture".equals(this.sessionType) || "tutorial".equals(this.sessionType);
+    }
+
+    public boolean isSplitBatch() {
+        return this.labBatch != null;
+    }
+
+    public int getEffectiveHours() {
         if (timeSlot == null) {
             return 0;
         }
-        return ChronoUnit.HOURS.between(timeSlot.getStartTime(), timeSlot.getEndTime());
+        if (timeSlot.isLab()) {
+            return 2;
+        }
+        return 1;
     }
-
 
     // --- Getters and Setters ---
 
@@ -128,6 +138,10 @@ public class Lesson {
 
     public void setRoom(Room room) {
         this.room = room;
+    }
+
+    public String getBatch() {
+        return getLabBatch();
     }
 
     @Override

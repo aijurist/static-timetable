@@ -1,10 +1,10 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Fundamentals of Machine Learning,AIML-2A,140
-MONDAY,08:10,09:50,Fundamentals of Machine Learning,AIML-2A,140
-MONDAY,08:10,09:50,Fundamentals of Machine Learning,AIML-2A,140
-MONDAY,08:10,09:50,Fundamentals of Machine Learning,AIML-2A,140
-MONDAY,08:10,09:50,Fundamentals of Machine Learning,AIML-2A,140
-MONDAY,08:10,09:50,Information Retrieval,AIML-4B,140
-MONDAY,08:10,09:50,Information Retrieval,AIML-4B,140
-MONDAY,08:10,09:50,Information Retrieval,AIML-4B,140
-MONDAY,08:10,09:50,Information Retrieval,AIML-4B,140
+WEDNESDAY,09:00,09:50,Fundamentals of Machine Learning,AIML-2A,B219
+WEDNESDAY,16:00,16:50,Fundamentals of Machine Learning,AIML-2A,B412
+MONDAY,13:00,13:50,Fundamentals of Machine Learning,AIML-2A,B416
+TUESDAY,11:50,13:30,Fundamentals of Machine Learning,AIML-2A,KFR03
+MONDAY,17:30,19:10,Fundamentals of Machine Learning,AIML-2A,JL1
+MONDAY,15:00,15:50,Information Retrieval (Professional Elective V),AIML-4B,B423
+THURSDAY,15:00,15:50,Information Retrieval (Professional Elective V),AIML-4B,B416
+THURSDAY,08:00,09:40,Information Retrieval (Professional Elective V),AIML-4B,KFR03
+FRIDAY,11:50,13:30,Information Retrieval (Professional Elective V),AIML-4B,TLFR1

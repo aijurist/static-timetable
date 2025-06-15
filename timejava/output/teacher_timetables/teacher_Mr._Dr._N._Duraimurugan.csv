@@ -1,21 +1,13 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Advanced Robotic Process Automation,CSE-4B,140
-MONDAY,08:10,09:50,Advanced Robotic Process Automation,CSE-4B,140
-MONDAY,08:10,09:50,Advanced Robotic Process Automation,CSE-4B,140
-MONDAY,08:10,09:50,Project-1,CSE-4B,140
-MONDAY,08:10,09:50,Project-1,CSE-4B,140
-MONDAY,08:10,09:50,Project-1,CSE-4B,140
-MONDAY,08:10,09:50,Advanced Robotic Process Automation,CSE-4D,140
-MONDAY,08:10,09:50,Advanced Robotic Process Automation,CSE-4D,140
-MONDAY,08:10,09:50,Advanced Robotic Process Automation,CSE-4D,140
-MONDAY,08:10,09:50,Project-1,CSE-4D,140
-MONDAY,08:10,09:50,Project-1,CSE-4D,140
-MONDAY,08:10,09:50,Project-1,CSE-4D,140
-MONDAY,08:10,09:50,Web Programming,CSD-3A,140
-MONDAY,08:10,09:50,Web Programming,CSD-3A,140
-MONDAY,08:10,09:50,Web Programming,CSD-3A,140
-MONDAY,08:10,09:50,Web Programming,CSD-3A,140
-MONDAY,08:10,09:50,Web Programming,CSE-3E,140
-MONDAY,08:10,09:50,Web Programming,CSE-3E,140
-MONDAY,08:10,09:50,Web Programming,CSE-3E,140
-MONDAY,08:10,09:50,Web Programming,CSE-3E,140
+WEDNESDAY,13:50,15:30,Advanced Robotic Process Automation,CSE-4B,TLSL1
+WEDNESDAY,15:50,17:30,Advanced Robotic Process Automation,CSE-4B,TLGL1
+THURSDAY,09:50,11:30,Advanced Robotic Process Automation,CSE-4B,TLFR3
+TUESDAY,13:50,15:30,Advanced Robotic Process Automation,CSE-4B,KSL03
+THURSDAY,15:50,17:30,Advanced Robotic Process Automation,CSE-4B,JR2
+MONDAY,15:50,17:30,Advanced Robotic Process Automation,CSE-4B,TLSL2
+WEDNESDAY,09:50,11:30,Advanced Robotic Process Automation,CSE-4D,JR1
+TUESDAY,17:30,19:10,Advanced Robotic Process Automation,CSE-4D,TLFR2
+FRIDAY,09:50,11:30,Advanced Robotic Process Automation,CSE-4D,KFR01
+MONDAY,09:50,11:30,Advanced Robotic Process Automation,CSE-4D,KFR02
+FRIDAY,15:50,17:30,Advanced Robotic Process Automation,CSE-4D,TLSL1
+TUESDAY,11:50,13:30,Advanced Robotic Process Automation,CSE-4D,TLGL1

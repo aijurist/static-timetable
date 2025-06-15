@@ -1,0 +1,25 @@
+Day,StartTime,EndTime,Course,Group,Room
+WEDNESDAY,18:00,18:50,Database Management Systems,CSE-2E,A205
+FRIDAY,16:00,16:50,Database Management Systems,CSE-2E,A202
+FRIDAY,10:00,10:50,Database Management Systems,CSE-2E,A209
+WEDNESDAY,09:50,11:30,Database Management Systems,CSE-2E,TLFR1
+FRIDAY,08:00,09:40,Database Management Systems,CSE-2E,TLFR5
+FRIDAY,13:50,15:30,Database Management Systems,CSE-2E,TLFL5
+THURSDAY,13:50,15:30,Database Management Systems,CSE-2E,TLGL4
+THURSDAY,12:00,12:50,Fundamentals of Data Science,CSE-2B,B423
+THURSDAY,10:00,10:50,Fundamentals of Data Science,CSE-2B,B410
+TUESDAY,18:00,18:50,Fundamentals of Data Science,CSE-2B,B411
+TUESDAY,15:50,17:30,Fundamentals of Data Science,CSE-2B,TLFL4
+MONDAY,15:50,17:30,Fundamentals of Data Science,CSE-2B,KFR03
+WEDNESDAY,12:00,12:50,Fundamentals of Data Science,CSE-2J,A305
+WEDNESDAY,14:00,14:50,Fundamentals of Data Science,CSE-2J,A211
+FRIDAY,12:00,12:50,Fundamentals of Data Science,CSE-2J,B423
+THURSDAY,08:00,09:40,Fundamentals of Data Science,CSE-2J,TLFL1
+MONDAY,11:50,13:30,Fundamentals of Data Science,CSE-2J,TLSR1
+THURSDAY,16:00,16:50,Computer Networks,CSE-3B,B425
+MONDAY,10:00,10:50,Computer Networks,CSE-3B,B419
+TUESDAY,11:00,11:50,Computer Networks,CSE-3B,B212
+WEDNESDAY,15:50,17:30,Computer Networks,CSE-3B,TLGL3
+MONDAY,13:50,15:30,Computer Networks,CSE-3B,JL2
+TUESDAY,13:50,15:30,Computer Networks,CSE-3B,JL3
+MONDAY,08:00,09:40,Computer Networks,CSE-3B,TLSR1

@@ -1,25 +1,26 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mrs. Santhiya M,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mrs. Santhiya M,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mrs. Santhiya M,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mrs. Santhiya M,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mrs. Santhiya M,140
-MONDAY,08:10,09:50,Python Programming for Design,Mr. Vijayakumar R,140
-MONDAY,08:10,09:50,Python Programming for Design,Mr. Vijayakumar R,140
-MONDAY,08:10,09:50,Python Programming for Design,Mr. Vijayakumar R,140
-MONDAY,08:10,09:50,Database Management Systems,New Staff 2 N,140
-MONDAY,08:10,09:50,Database Management Systems,New Staff 2 N,140
-MONDAY,08:10,09:50,Database Management Systems,New Staff 2 N,140
-MONDAY,08:10,09:50,Database Management Systems,New Staff 2 N,140
-MONDAY,08:10,09:50,Database Management Systems,New Staff 2 N,140
-MONDAY,08:10,09:50,Database Management Systems,New Staff 2 N,140
-MONDAY,08:10,09:50,Database Management Systems,New Staff 2 N,140
-MONDAY,08:10,09:50,Discrete Mathematics for AI,Mrs. J.Julie,140
-MONDAY,08:10,09:50,Discrete Mathematics for AI,Mrs. J.Julie,140
-MONDAY,08:10,09:50,Discrete Mathematics for AI,Mrs. J.Julie,140
-MONDAY,08:10,09:50,Discrete Mathematics for AI,Mrs. J.Julie,140
-MONDAY,08:10,09:50,Design Processes and Perspectives,Mr. S Pradeep Kumar,140
-MONDAY,08:10,09:50,Design Processes and Perspectives,Mr. S Pradeep Kumar,140
-MONDAY,08:10,09:50,Design Processes and Perspectives,Mr. S Pradeep Kumar,140
-MONDAY,08:10,09:50,Design Processes and Perspectives,Mr. S Pradeep Kumar,140
-MONDAY,08:10,09:50,Design Processes and Perspectives,Mr. S Pradeep Kumar,140
+TUESDAY,09:00,09:50,Introduction to 3D Animation,Mr. S Umamaheswararao,B419
+WEDNESDAY,10:00,10:50,3D Printing and Design,Dr. K.Vigneshwaran,B423
+THURSDAY,08:00,08:50,3D Printing and Design,Dr. K.Vigneshwaran,A305
+FRIDAY,10:00,10:50,3D Printing and Design,Dr. K.Vigneshwaran,B423
+TUESDAY,09:50,11:30,3D Printing and Design,Dr. K.Vigneshwaran,TLGL4
+THURSDAY,13:50,15:30,3D Printing and Design,Dr. K.Vigneshwaran,TLFR3
+MONDAY,11:50,13:30,3D Printing and Design,Dr. K.Vigneshwaran,TLGL1
+MONDAY,08:00,09:40,3D Printing and Design,Dr. K.Vigneshwaran,KSL03
+THURSDAY,09:50,11:30,Project-I,Mr. S Pradeep Kumar,TLFL1
+MONDAY,08:00,09:40,Project-I,Mr. S Pradeep Kumar,TLGL2
+MONDAY,11:50,13:30,Project-I,Mr. S Pradeep Kumar,TLSL1
+FRIDAY,13:50,15:30,Project-I,Mr. S Pradeep Kumar,KFR03
+FRIDAY,15:50,17:30,Project-I,Mr. S Pradeep Kumar,TLFL2
+THURSDAY,15:50,17:30,Project-I,Mr. S Pradeep Kumar,KSL03
+THURSDAY,13:00,13:50,Foundations of Machine Learning Concepts,Dr. Gunasekar S,B322
+WEDNESDAY,11:00,11:50,Foundations of Machine Learning Concepts,Dr. Gunasekar S,B210
+TUESDAY,13:50,15:30,Foundations of Machine Learning Concepts,Dr. Gunasekar S,TLFL2
+TUESDAY,17:30,19:10,Foundations of Machine Learning Concepts,Dr. Gunasekar S,KFR02
+WEDNESDAY,16:00,16:50,Fundamentals of Video for Engineers,New Staff - 01,A110
+WEDNESDAY,13:00,13:50,Fundamentals of Video for Engineers,New Staff - 01,B322
+MONDAY,16:00,16:50,Fundamentals of Video for Engineers,New Staff - 01,A108
+THURSDAY,18:00,18:50,Digital Media Entrepreneurship,Mr. Thirumalairajan G,B424
+WEDNESDAY,18:00,18:50,Digital Media Entrepreneurship,Mr. Thirumalairajan G,A104/105
+MONDAY,09:50,11:30,Digital Media Entrepreneurship,Mr. Thirumalairajan G,TLSL1
+TUESDAY,13:50,15:30,Digital Media Entrepreneurship,Mr. Thirumalairajan G,TLFL5

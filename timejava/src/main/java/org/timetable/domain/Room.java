@@ -10,6 +10,7 @@ public class Room {
     private String description;
     private int capacity;
     private boolean isLab;
+    private boolean isPriorityRoom; // For special rooms
     
     public Room() {
     }
@@ -21,6 +22,7 @@ public class Room {
         this.description = description;
         this.capacity = capacity;
         this.isLab = isLab;
+        this.isPriorityRoom = false; // Default to false, can be set explicitly if needed
     }
 
     public String getId() {
@@ -71,8 +73,16 @@ public class Room {
         isLab = lab;
     }
 
+    public boolean isPriorityRoom() {
+        return isPriorityRoom;
+    }
+
+    public void setPriorityRoom(boolean priorityRoom) {
+        isPriorityRoom = priorityRoom;
+    }
+
     @Override
     public String toString() {
-        return name + (isLab ? " (Lab)" : "");
+        return name + (isLab ? " (Lab)" : "") + (isPriorityRoom ? " (Priority)" : "");
     }
 } 

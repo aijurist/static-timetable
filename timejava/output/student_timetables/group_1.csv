@@ -1,17 +1,30 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Kalpana D,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Kalpana D,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Kalpana D,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Kalpana D,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Kalpana D,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Kalpana D,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Kalpana D,140
-MONDAY,08:10,09:50,Fourier series and Number theory,Mr. Sriram Sastha,140
-MONDAY,08:10,09:50,Fourier series and Number theory,Mr. Sriram Sastha,140
-MONDAY,08:10,09:50,Fourier series and Number theory,Mr. Sriram Sastha,140
-MONDAY,08:10,09:50,Fourier series and Number theory,Mr. Sriram Sastha,140
-MONDAY,08:10,09:50,Cryptography,Dr. Balasubramanian V,140
-MONDAY,08:10,09:50,Cryptography,Dr. Balasubramanian V,140
-MONDAY,08:10,09:50,Cryptography,Dr. Balasubramanian V,140
-MONDAY,08:10,09:50,Cryptography,Dr. Balasubramanian V,140
-MONDAY,08:10,09:50,Cryptography,Dr. Balasubramanian V,140
+WEDNESDAY,16:00,16:50,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,B410
+THURSDAY,11:00,11:50,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,B411
+MONDAY,08:00,08:50,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,B322
+TUESDAY,09:50,11:30,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,KFR01
+THURSDAY,08:00,09:40,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,KFL02
+MONDAY,09:50,11:30,Soft Skills – II,Mr. Dr.S.Subbiah,TLFR1
+TUESDAY,11:50,13:30,Soft Skills – II,Mr. Dr.S.Subbiah,JL1
+MONDAY,09:00,09:50,Web Programming,Mrs. M.Sandhiya,A102
+WEDNESDAY,10:00,10:50,Web Programming,Mrs. M.Sandhiya,A311
+TUESDAY,08:00,08:50,Web Programming,Mrs. M.Sandhiya,A104/105
+FRIDAY,09:50,11:30,Web Programming,Mrs. M.Sandhiya,TLGL4
+TUESDAY,11:50,13:30,Web Programming,Mrs. M.Sandhiya,TLFL5
+THURSDAY,15:50,17:30,Web Programming,Mrs. M.Sandhiya,JR1
+TUESDAY,09:50,11:30,Web Programming,Mrs. M.Sandhiya,JL1
+WEDNESDAY,15:00,15:50,Automata Theory & Compiler Design,Mrs. Dr.V.Prasannakumari,B422
+MONDAY,14:00,14:50,Automata Theory & Compiler Design,Mrs. Dr.V.Prasannakumari,B302
+FRIDAY,15:00,15:50,Automata Theory & Compiler Design,Mrs. Dr.V.Prasannakumari,B419
+TUESDAY,18:00,18:50,Computer Vision,Mrs. Dr.A.Kalaivani,B419
+THURSDAY,14:00,14:50,Computer Vision,Mrs. Dr.A.Kalaivani,B424
+MONDAY,15:00,15:50,Computer Vision,Mrs. Dr.A.Kalaivani,B426
+MONDAY,17:30,19:10,Computer Vision,Mrs. Dr.A.Kalaivani,TLFR5
+MONDAY,11:50,13:30,Computer Vision,Mrs. Dr.A.Kalaivani,KFR03
+FRIDAY,12:00,12:50,Computer Networks,Mr. Dr.S.Subbiah,B213
+WEDNESDAY,14:00,14:50,Computer Networks,Mr. Dr.S.Subbiah,A308
+FRIDAY,18:00,18:50,Computer Networks,Mr. Dr.S.Subbiah,B220
+TUESDAY,13:50,15:30,Computer Networks,Mr. Dr.S.Subbiah,JL1
+TUESDAY,15:50,17:30,Computer Networks,Mr. Dr.S.Subbiah,JR2
+MONDAY,17:30,19:10,Computer Networks,Mr. Dr.S.Subbiah,JL2
+WEDNESDAY,17:30,19:10,Computer Networks,Mr. Dr.S.Subbiah,TLFL3

@@ -1,0 +1,21 @@
+Day,StartTime,EndTime,Course,Group,Room
+MONDAY,18:00,18:50,Object Oriented Programming Using JAVA,IT-2E,A302
+FRIDAY,16:00,16:50,Object Oriented Programming Using JAVA,IT-2E,B410
+WEDNESDAY,08:00,08:50,Object Oriented Programming Using JAVA,IT-2E,A303
+THURSDAY,09:50,11:30,Object Oriented Programming Using JAVA,IT-2E,TLFR1
+MONDAY,15:50,17:30,Object Oriented Programming Using JAVA,IT-2E,JL1
+WEDNESDAY,09:50,11:30,Object Oriented Programming Using JAVA,IT-2E,TLFR5
+TUESDAY,11:50,13:30,Object Oriented Programming Using JAVA,IT-2E,TLFL2
+THURSDAY,13:50,15:30,Industry Practices Lab,IT-4B,JR1
+MONDAY,13:50,15:30,Industry Practices Lab,IT-4B,TLGL3
+WEDNESDAY,13:50,15:30,Industry Practices Lab,IT-4B,TLFL1
+TUESDAY,09:50,11:30,Industry Practices Lab,IT-4B,TLFR2
+WEDNESDAY,16:00,16:50,Professional Elective-II - NPTEL,IT-4A,A211
+FRIDAY,10:00,10:50,Professional Elective-II - NPTEL,IT-4A,B213
+TUESDAY,08:00,08:50,Professional Elective-II - NPTEL,IT-4A,A202
+THURSDAY,12:00,12:50,Professional Elective-II - NPTEL,IT-4B,A102
+FRIDAY,14:00,14:50,Professional Elective-II - NPTEL,IT-4B,B320
+MONDAY,10:00,10:50,Professional Elective-II - NPTEL,IT-4B,B423
+THURSDAY,16:00,16:50,Professional Elective-II - NPTEL,IT-4C,A308
+FRIDAY,08:00,08:50,Professional Elective-II - NPTEL,IT-4C,B213
+TUESDAY,14:00,14:50,Professional Elective-II - NPTEL,IT-4C,A203

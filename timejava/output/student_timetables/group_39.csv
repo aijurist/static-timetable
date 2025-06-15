@@ -1,24 +1,27 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:10,09:50,Social and Ethical Issues in AI,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Project-I,Mrs. Sree Subha S,140
-MONDAY,08:10,09:50,Project-I,Mrs. Sree Subha S,140
-MONDAY,08:10,09:50,Project-I,Mrs. Sree Subha S,140
-MONDAY,08:10,09:50,Big Data Technology,Ms. V Akshaya,140
-MONDAY,08:10,09:50,Big Data Technology,Ms. V Akshaya,140
-MONDAY,08:10,09:50,Big Data Technology,Ms. V Akshaya,140
-MONDAY,08:10,09:50,Big Data Technology,Ms. V Akshaya,140
-MONDAY,08:10,09:50,Big Data Technology,Ms. V Akshaya,140
-MONDAY,08:10,09:50,Information Retrieval,Mr. Kumaran U,140
-MONDAY,08:10,09:50,Information Retrieval,Mr. Kumaran U,140
-MONDAY,08:10,09:50,Information Retrieval,Mr. Kumaran U,140
-MONDAY,08:10,09:50,Information Retrieval,Mr. Kumaran U,140
-MONDAY,08:10,09:50,Supply Chain Analytics,Dr. Raju K,140
-MONDAY,08:10,09:50,Supply Chain Analytics,Dr. Raju K,140
-MONDAY,08:10,09:50,Supply Chain Analytics,Dr. Raju K,140
-MONDAY,08:10,09:50,Data Visualization using Python,Mrs. Dr. S. Poonkuzhali,140
-MONDAY,08:10,09:50,Data Visualization using Python,Mrs. Dr. S. Poonkuzhali,140
-MONDAY,08:10,09:50,Data Visualization using Python,Mrs. Dr. S. Poonkuzhali,140
-MONDAY,08:10,09:50,Data Visualization using Python,Mrs. Dr. S. Poonkuzhali,140
-MONDAY,08:10,09:50,Secure Systems Engineering,Ms. Soundarya M,140
-MONDAY,08:10,09:50,Secure Systems Engineering,Ms. Soundarya M,140
-MONDAY,08:10,09:50,Secure Systems Engineering,Ms. Soundarya M,140
+WEDNESDAY,11:00,11:50,Theory of Computation,Mrs. J.A.Adlin Layola,B320
+WEDNESDAY,09:00,09:50,Theory of Computation,Mrs. J.A.Adlin Layola,A102
+FRIDAY,11:00,11:50,Theory of Computation,Mrs. J.A.Adlin Layola,B415
+THURSDAY,11:00,11:50,Theory of Computation,Mrs. J.A.Adlin Layola,B219
+MONDAY,08:00,08:50,Fundamentals of Mobile Computing,Mr. V Karthick,A108
+TUESDAY,18:00,18:50,Fundamentals of Mobile Computing,Mr. V Karthick,A304
+WEDNESDAY,14:00,14:50,Fundamentals of Mobile Computing,Mr. V Karthick,A309
+FRIDAY,16:00,16:50,Web Programming,Mrs. J.A.Adlin Layola,B218
+THURSDAY,16:00,16:50,Web Programming,Mrs. J.A.Adlin Layola,B221
+TUESDAY,09:00,09:50,Web Programming,Mrs. J.A.Adlin Layola,B218
+TUESDAY,13:50,15:30,Web Programming,Mrs. J.A.Adlin Layola,KFR03
+THURSDAY,13:50,15:30,Web Programming,Mrs. J.A.Adlin Layola,TLFR5
+TUESDAY,15:50,17:30,Web Programming,Mrs. J.A.Adlin Layola,JR3
+FRIDAY,13:50,15:30,Web Programming,Mrs. J.A.Adlin Layola,KFR02
+MONDAY,10:00,10:50,Computer Networks,New Staff - 09,A311
+WEDNESDAY,16:00,16:50,Computer Networks,New Staff - 09,A311
+THURSDAY,10:00,10:50,Computer Networks,New Staff - 09,B415
+TUESDAY,15:50,17:30,Computer Networks,New Staff - 09,TLFL2
+MONDAY,11:50,13:30,Computer Networks,New Staff - 09,JL3
+FRIDAY,11:50,13:30,Computer Networks,New Staff - 09,TLFL3
+WEDNESDAY,17:30,19:10,Computer Networks,New Staff - 09,KFR02
+THURSDAY,13:00,13:50,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,A304
+WEDNESDAY,13:00,13:50,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,B426
+THURSDAY,09:00,09:50,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,B418
+WEDNESDAY,17:30,19:10,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,TLFR2
+FRIDAY,08:00,09:40,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,KSL03

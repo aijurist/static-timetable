@@ -1,9 +1,9 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Formal Language and Automata Theory,CSBS-2A,140
-MONDAY,08:10,09:50,Formal Language and Automata Theory,CSBS-2A,140
-MONDAY,08:10,09:50,Formal Language and Automata Theory,CSBS-2A,140
-MONDAY,08:10,09:50,Computer Network Technology,CSBS-3B,140
-MONDAY,08:10,09:50,Computer Network Technology,CSBS-3B,140
-MONDAY,08:10,09:50,Computer Network Technology,CSBS-3B,140
-MONDAY,08:10,09:50,Computer Network Technology,CSBS-3B,140
-MONDAY,08:10,09:50,Computer Network Technology,CSBS-3B,140
+MONDAY,13:00,13:50,Formal Language and Automata Theory,CSBS-2A,A303
+FRIDAY,11:00,11:50,Formal Language and Automata Theory,CSBS-2A,A305
+THURSDAY,09:00,09:50,Formal Language and Automata Theory,CSBS-2A,A104/105
+TUESDAY,11:00,11:50,Computer Network Technology,CSBS-3B,A210
+WEDNESDAY,11:00,11:50,Computer Network Technology,CSBS-3B,B418
+FRIDAY,08:00,08:50,Computer Network Technology,CSBS-3B,B210
+WEDNESDAY,15:50,17:30,Computer Network Technology,CSBS-3B,TLGL4
+MONDAY,17:30,19:10,Computer Network Technology,CSBS-3B,JR2

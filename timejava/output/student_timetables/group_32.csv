@@ -1,17 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:10,09:50,Usability Design of Software  Applications,Mrs. Rajammal K,140
-MONDAY,08:10,09:50,Usability Design of Software  Applications,Mrs. Rajammal K,140
-MONDAY,08:10,09:50,Usability Design of Software  Applications,Mrs. Rajammal K,140
-MONDAY,08:10,09:50,Usability Design of Software  Applications,Mrs. Rajammal K,140
-MONDAY,08:10,09:50,Usability Design of Software  Applications,Mrs. Rajammal K,140
-MONDAY,08:10,09:50,IT Workshop,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,IT Workshop,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,IT Workshop,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,IT Workshop,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Modern Web Applications,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Modern Web Applications,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Modern Web Applications,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Modern Web Applications,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Modern Web Applications,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Project Evaluation I,Mrs. K Poornimathi,140
-MONDAY,08:10,09:50,Project Evaluation I,Mrs. K Poornimathi,140
+THURSDAY,14:00,14:50,Computer Architecture,New Staff - 04,A102
+MONDAY,16:00,16:50,Computer Architecture,New Staff - 04,B321
+FRIDAY,10:00,10:50,Computer Architecture,New Staff - 04,B218
+THURSDAY,16:00,16:50,Design and Analysis of Algorithms,Mrs. Santhiya M,B410
+THURSDAY,11:00,11:50,Design and Analysis of Algorithms,Mrs. Santhiya M,B210
+TUESDAY,11:00,11:50,Design and Analysis of Algorithms,Mrs. Santhiya M,A202
+TUESDAY,08:00,09:40,Design and Analysis of Algorithms,Mrs. Santhiya M,TLSL2
+FRIDAY,13:50,15:30,Design and Analysis of Algorithms,Mrs. Santhiya M,TLFR2
+WEDNESDAY,11:00,11:50,Fourier series and Number theory,New Faculty Humanities & Sciences (PLACEHOLDER),A311
+WEDNESDAY,15:00,15:50,Fourier series and Number theory,New Faculty Humanities & Sciences (PLACEHOLDER),A109
+MONDAY,11:00,11:50,Fourier series and Number theory,New Faculty Humanities & Sciences (PLACEHOLDER),B106
+FRIDAY,11:00,11:50,Fourier series and Number theory,New Faculty Humanities & Sciences (PLACEHOLDER),B401
+THURSDAY,12:00,12:50,Database Management Systems,Mrs. Sathiyavathi S,B426
+TUESDAY,15:00,15:50,Database Management Systems,Mrs. Sathiyavathi S,B220
+WEDNESDAY,10:00,10:50,Database Management Systems,Mrs. Sathiyavathi S,A109
+WEDNESDAY,08:00,09:40,Database Management Systems,Mrs. Sathiyavathi S,JL2
+FRIDAY,13:50,15:30,Database Management Systems,Mrs. Sathiyavathi S,TLFR4
+TUESDAY,11:50,13:30,Database Management Systems,Mrs. Sathiyavathi S,KFR01
+MONDAY,13:50,15:30,Database Management Systems,Mrs. Sathiyavathi S,TLFR4
+MONDAY,10:00,10:50,Object Oriented Programming Using JAVA,New Staff - 04,B210
+TUESDAY,10:00,10:50,Object Oriented Programming Using JAVA,New Staff - 04,A110
+WEDNESDAY,16:00,16:50,Object Oriented Programming Using JAVA,New Staff - 04,A104/105
+MONDAY,08:00,09:40,Object Oriented Programming Using JAVA,New Staff - 04,TLSL2
+MONDAY,11:50,13:30,Object Oriented Programming Using JAVA,New Staff - 04,JL1
+FRIDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Staff - 04,TLFR1
+TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Staff - 04,TLFR2
+WEDNESDAY,12:00,12:50,Fundamentals of Data Science,Ms. Sana,A305
+WEDNESDAY,14:00,14:50,Fundamentals of Data Science,Ms. Sana,A211
+FRIDAY,12:00,12:50,Fundamentals of Data Science,Ms. Sana,B423
+THURSDAY,08:00,09:40,Fundamentals of Data Science,Ms. Sana,TLFL1
+MONDAY,11:50,13:30,Fundamentals of Data Science,Ms. Sana,TLSR1

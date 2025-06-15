@@ -1,10 +1,10 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Database Management Systems,CSE-2I,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2I,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2I,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2I,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2I,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2I,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2I,140
-MONDAY,08:10,09:50,Build and Deploy Machine Learning Applications,AIML-3A,140
-MONDAY,08:10,09:50,Build and Deploy Machine Learning Applications,AIML-3A,140
+THURSDAY,14:00,14:50,Database Management Systems,AIML-2C,A310
+MONDAY,08:00,08:50,Database Management Systems,AIML-2C,B411
+TUESDAY,16:00,16:50,Database Management Systems,AIML-2C,B405
+TUESDAY,13:50,15:30,Database Management Systems,AIML-2C,JR3
+THURSDAY,09:50,11:30,Database Management Systems,AIML-2C,TLGL4
+MONDAY,13:50,15:30,Database Management Systems,AIML-2C,JR1
+WEDNESDAY,09:50,11:30,Database Management Systems,AIML-2C,TLGL4
+MONDAY,09:50,11:30,Build and Deploy Machine Learning Applications,AIML-3A,TLSL2
+FRIDAY,08:00,09:40,Build and Deploy Machine Learning Applications,AIML-3A,TLFL3

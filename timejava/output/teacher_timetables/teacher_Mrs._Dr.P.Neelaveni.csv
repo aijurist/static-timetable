@@ -1,0 +1,17 @@
+Day,StartTime,EndTime,Course,Group,Room
+FRIDAY,17:00,17:50,Design and Analysis of Algorithms,IT-2E,B416
+TUESDAY,18:00,18:50,Design and Analysis of Algorithms,IT-2E,B402
+WEDNESDAY,14:00,14:50,Design and Analysis of Algorithms,IT-2E,A103
+MONDAY,09:50,11:30,Design and Analysis of Algorithms,IT-2E,TLFL4
+MONDAY,15:50,17:30,Design and Analysis of Algorithms,IT-2E,TLGL3
+TUESDAY,10:00,10:50,Automata Theory & Compiler Design,IT-3B,B404
+THURSDAY,14:00,14:50,Automata Theory & Compiler Design,IT-3B,A210
+THURSDAY,10:00,10:50,Automata Theory & Compiler Design,IT-3B,A103
+FRIDAY,11:50,13:30,Project Phase I,IT-4A,JL1
+THURSDAY,15:50,17:30,Project Phase I,IT-4A,TLFR3
+WEDNESDAY,17:30,19:10,Project Phase I,IT-4A,TLFR4
+FRIDAY,13:50,15:30,Project Phase I,IT-4A,JL3
+THURSDAY,11:50,13:30,Project Phase I,IT-4A,TLFL2
+WEDNESDAY,11:50,13:30,Project Phase I,IT-4A,JL2
+MONDAY,13:50,15:30,Project Phase I,IT-4A,KFR01
+TUESDAY,11:50,13:30,Project Phase I,IT-4A,KFR02

@@ -1,28 +1,15 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Cloud Computing,CSE-4A,140
-MONDAY,08:10,09:50,Cloud Computing,CSE-4A,140
-MONDAY,08:10,09:50,Cloud Computing,CSE-4A,140
-MONDAY,08:10,09:50,Cloud Computing,CSE-4A,140
-MONDAY,08:10,09:50,Cloud Computing,CSE-4C,140
-MONDAY,08:10,09:50,Cloud Computing,CSE-4C,140
-MONDAY,08:10,09:50,Cloud Computing,CSE-4C,140
-MONDAY,08:10,09:50,Cloud Computing,CSE-4C,140
-MONDAY,08:10,09:50,Cloud Computing,CSE-4E,140
-MONDAY,08:10,09:50,Cloud Computing,CSE-4E,140
-MONDAY,08:10,09:50,Cloud Computing,CSE-4E,140
-MONDAY,08:10,09:50,Cloud Computing,CSE-4E,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,CSE-2E,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,CSE-2E,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,CSE-2E,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,CSE-2E,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,CSE-2E,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,CSD-2A,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,CSD-2A,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,CSD-2A,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,CSD-2A,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,CSD-2A,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,AIML-2A,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,AIML-2A,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,AIML-2A,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,AIML-2A,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,AIML-2A,140
+FRIDAY,18:00,18:50,Design and Analysis of Algorithms,CSE-2D,B210
+MONDAY,16:00,16:50,Design and Analysis of Algorithms,CSE-2D,A210
+WEDNESDAY,08:00,08:50,Design and Analysis of Algorithms,CSE-2D,B218
+MONDAY,13:50,15:30,Design and Analysis of Algorithms,CSE-2D,TLSR1
+TUESDAY,13:50,15:30,Design and Analysis of Algorithms,CSE-2D,TLFR2
+THURSDAY,16:00,16:50,Design and Analysis of Algorithms,CSE-2J,B410
+THURSDAY,11:00,11:50,Design and Analysis of Algorithms,CSE-2J,B210
+TUESDAY,11:00,11:50,Design and Analysis of Algorithms,CSE-2J,A202
+TUESDAY,08:00,09:40,Design and Analysis of Algorithms,CSE-2J,TLSL2
+FRIDAY,13:50,15:30,Design and Analysis of Algorithms,CSE-2J,TLFR2
+THURSDAY,09:00,09:50,Cloud Computing,CSE-4C,B410
+MONDAY,10:00,10:50,Cloud Computing,CSE-4C,B220
+WEDNESDAY,09:50,11:30,Cloud Computing,CSE-4C,TLFR4
+MONDAY,08:00,09:40,Cloud Computing,CSE-4C,TLGL3

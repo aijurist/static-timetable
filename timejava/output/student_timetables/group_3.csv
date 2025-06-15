@@ -1,22 +1,30 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:10,09:50,Ethical Hacking,Dr. Balasubramanian V,140
-MONDAY,08:10,09:50,Ethical Hacking,Dr. Balasubramanian V,140
-MONDAY,08:10,09:50,Ethical Hacking,Dr. Balasubramanian V,140
-MONDAY,08:10,09:50,Ethical Hacking,Dr. Balasubramanian V,140
-MONDAY,08:10,09:50,Ethical Hacking,Dr. Balasubramanian V,140
-MONDAY,08:10,09:50,Cyber and Digital Forensics,New Staff 4 N,140
-MONDAY,08:10,09:50,Cyber and Digital Forensics,New Staff 4 N,140
-MONDAY,08:10,09:50,Cyber and Digital Forensics,New Staff 4 N,140
-MONDAY,08:10,09:50,Cyber and Digital Forensics,New Staff 4 N,140
-MONDAY,08:10,09:50,Cyber and Digital Forensics,New Staff 4 N,140
-MONDAY,08:10,09:50,Soft Skills – II,New Staff 2 N,140
-MONDAY,08:10,09:50,Soft Skills – II,New Staff 2 N,140
-MONDAY,08:10,09:50,Web Programming,Dr. Madhusudhanan S,140
-MONDAY,08:10,09:50,Web Programming,Dr. Madhusudhanan S,140
-MONDAY,08:10,09:50,Web Programming,Dr. Madhusudhanan S,140
-MONDAY,08:10,09:50,Web Programming,Dr. Madhusudhanan S,140
-MONDAY,08:10,09:50,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,140
-MONDAY,08:10,09:50,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,140
-MONDAY,08:10,09:50,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,140
-MONDAY,08:10,09:50,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,140
-MONDAY,08:10,09:50,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,140
+WEDNESDAY,11:00,11:50,Principles of Artificial Intelligence,Mrs. K Indumathi,A305
+MONDAY,13:00,13:50,Principles of Artificial Intelligence,Mrs. K Indumathi,B212
+TUESDAY,12:00,12:50,Principles of Artificial Intelligence,Mrs. K Indumathi,B325
+TUESDAY,09:50,11:30,Principles of Artificial Intelligence,Mrs. K Indumathi,TLSL1
+MONDAY,15:50,17:30,Principles of Artificial Intelligence,Mrs. K Indumathi,KFL01
+THURSDAY,08:00,09:40,Soft Skills – II,Mrs. Dr.A.Kalaivani,KSL03
+FRIDAY,08:00,09:40,Soft Skills – II,Mrs. Dr.A.Kalaivani,KFR02
+FRIDAY,10:00,10:50,Web Programming,Mr. Dr B Muthu Kumar,A304
+TUESDAY,14:00,14:50,Web Programming,Mr. Dr B Muthu Kumar,A308
+THURSDAY,10:00,10:50,Web Programming,Mr. Dr B Muthu Kumar,B213
+WEDNESDAY,08:00,09:40,Web Programming,Mr. Dr B Muthu Kumar,TLSL1
+TUESDAY,08:00,09:40,Web Programming,Mr. Dr B Muthu Kumar,TLGL4
+THURSDAY,15:50,17:30,Web Programming,Mr. Dr B Muthu Kumar,TLFL3
+FRIDAY,15:50,17:30,Web Programming,Mr. Dr B Muthu Kumar,KFL03
+THURSDAY,11:00,11:50,Automata Theory & Compiler Design,Mrs. M.Madhu Rani,B418
+FRIDAY,14:00,14:50,Automata Theory & Compiler Design,Mrs. M.Madhu Rani,B410
+WEDNESDAY,18:00,18:50,Automata Theory & Compiler Design,Mrs. M.Madhu Rani,B222
+WEDNESDAY,17:00,17:50,Computer Vision,Ms. Priyanka D,A211
+TUESDAY,13:00,13:50,Computer Vision,Ms. Priyanka D,B325
+MONDAY,12:00,12:50,Computer Vision,Ms. Priyanka D,A102
+THURSDAY,17:30,19:10,Computer Vision,Ms. Priyanka D,KSL03
+TUESDAY,08:00,09:40,Computer Vision,Ms. Priyanka D,JR2
+WEDNESDAY,14:00,14:50,Computer Networks,Mrs. Padmini S,B322
+MONDAY,08:00,08:50,Computer Networks,Mrs. Padmini S,B403
+TUESDAY,15:00,15:50,Computer Networks,Mrs. Padmini S,A209
+WEDNESDAY,11:50,13:30,Computer Networks,Mrs. Padmini S,TLSR1
+MONDAY,09:50,11:30,Computer Networks,Mrs. Padmini S,JR2
+TUESDAY,09:50,11:30,Computer Networks,Mrs. Padmini S,TLFR1
+THURSDAY,11:50,13:30,Computer Networks,Mrs. Padmini S,TLSR1

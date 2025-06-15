@@ -1,26 +1,12 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Database Management Systems,CSE-CS-2A,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-CS-2A,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-CS-2A,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-CS-2A,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-CS-2A,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-CS-2A,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-CS-2A,140
-MONDAY,08:10,09:50,Design Thinking and Innovation,CSD-3A,140
-MONDAY,08:10,09:50,Design Thinking and Innovation,CSD-3A,140
-MONDAY,08:10,09:50,Design Thinking and Innovation,CSD-3A,140
-MONDAY,08:10,09:50,Design Thinking and Innovation,CSD-3A,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2B,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2B,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2B,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2B,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2B,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2B,140
-MONDAY,08:10,09:50,Database Management Systems,CSE-2B,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2B,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2B,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2B,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2B,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2B,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2B,140
-MONDAY,08:10,09:50,Database Management Systems,AIML-2B,140
+TUESDAY,10:00,10:50,Database Management Systems,CSD-2A,B219
+THURSDAY,15:00,15:50,Database Management Systems,CSD-2A,B415
+THURSDAY,11:00,11:50,Database Management Systems,CSD-2A,B222
+WEDNESDAY,11:50,13:30,Database Management Systems,CSD-2A,TLGL4
+FRIDAY,11:50,13:30,Database Management Systems,CSD-2A,TLSL2
+WEDNESDAY,09:50,11:30,Database Management Systems,CSD-2A,TLFL4
+MONDAY,09:50,11:30,Database Management Systems,CSD-2A,KFR03
+FRIDAY,17:30,19:10,Design Thinking and Innovation,CSD-3A,TLFL3
+TUESDAY,08:00,09:40,Design Thinking and Innovation,CSD-3A,KFL02
+MONDAY,15:50,17:30,Design Thinking and Innovation,CSD-3A,TLFL1
+TUESDAY,11:50,13:30,Design Thinking and Innovation,CSD-3A,TLGL4

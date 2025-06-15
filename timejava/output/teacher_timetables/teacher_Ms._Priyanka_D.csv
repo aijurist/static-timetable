@@ -1,0 +1,11 @@
+Day,StartTime,EndTime,Course,Group,Room
+FRIDAY,13:00,13:50,Design and Analysis of Algorithms,IT-2D,A204
+MONDAY,08:00,08:50,Design and Analysis of Algorithms,IT-2D,B106
+WEDNESDAY,15:00,15:50,Design and Analysis of Algorithms,IT-2D,B404
+MONDAY,13:50,15:30,Design and Analysis of Algorithms,IT-2D,TLFL1
+FRIDAY,09:50,11:30,Design and Analysis of Algorithms,IT-2D,JR2
+WEDNESDAY,17:00,17:50,Computer Vision,IT-3C,A211
+TUESDAY,13:00,13:50,Computer Vision,IT-3C,B325
+MONDAY,12:00,12:50,Computer Vision,IT-3C,A102
+THURSDAY,17:30,19:10,Computer Vision,IT-3C,KSL03
+TUESDAY,08:00,09:40,Computer Vision,IT-3C,JR2

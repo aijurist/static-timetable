@@ -1,29 +1,26 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,08:10,09:50,Computer Architecture,Mrs. Dharani Devi G,140
-MONDAY,08:10,09:50,Computer Architecture,Mrs. Dharani Devi G,140
-MONDAY,08:10,09:50,Computer Architecture,Mrs. Dharani Devi G,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,140
-MONDAY,08:10,09:50,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Dharani Devi G,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Dharani Devi G,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Dharani Devi G,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Dharani Devi G,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Dharani Devi G,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Dharani Devi G,140
-MONDAY,08:10,09:50,Database Management Systems,Mrs. Dharani Devi G,140
-MONDAY,08:10,09:50,Fourier series and Number theory,Mr. Sriram Sastha,140
-MONDAY,08:10,09:50,Fourier series and Number theory,Mr. Sriram Sastha,140
-MONDAY,08:10,09:50,Fourier series and Number theory,Mr. Sriram Sastha,140
-MONDAY,08:10,09:50,Fourier series and Number theory,Mr. Sriram Sastha,140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Object Oriented Programming Using JAVA,New Faculty English (PLACEHOLDER),140
-MONDAY,08:10,09:50,Fundamentals of Data Science,Mrs. Aswana Lal,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,Mrs. Aswana Lal,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,Mrs. Aswana Lal,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,Mrs. Aswana Lal,140
-MONDAY,08:10,09:50,Fundamentals of Data Science,Mrs. Aswana Lal,140
+FRIDAY,08:00,09:40,Industry Practices Lab,Ms. Janani M,JR3
+TUESDAY,11:50,13:30,Industry Practices Lab,Ms. Janani M,JR3
+FRIDAY,11:50,13:30,Industry Practices Lab,Ms. Janani M,TLFR5
+MONDAY,09:50,11:30,Industry Practices Lab,Ms. Janani M,TLGL1
+WEDNESDAY,09:00,09:50,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,A208
+MONDAY,16:00,16:50,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,B220
+WEDNESDAY,11:00,11:50,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,A210
+MONDAY,08:00,09:40,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,TLFR2
+FRIDAY,15:50,17:30,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,KFL02
+THURSDAY,08:00,09:40,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,TLFL2
+WEDNESDAY,13:50,15:30,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,JR2
+FRIDAY,11:00,11:50,Software Testing,Dr. Valarmathie Dinakaran,A210
+TUESDAY,11:00,11:50,Software Testing,Dr. Valarmathie Dinakaran,B320
+MONDAY,12:00,12:50,Software Testing,Dr. Valarmathie Dinakaran,B106
+FRIDAY,11:50,13:30,Project Phase I,Mrs. Dr.P.Neelaveni,JL1
+THURSDAY,15:50,17:30,Project Phase I,Mrs. Dr.P.Neelaveni,TLFR3
+WEDNESDAY,17:30,19:10,Project Phase I,Mrs. Dr.P.Neelaveni,TLFR4
+FRIDAY,13:50,15:30,Project Phase I,Mrs. Dr.P.Neelaveni,JL3
+THURSDAY,11:50,13:30,Project Phase I,Mrs. Dr.P.Neelaveni,TLFL2
+WEDNESDAY,11:50,13:30,Project Phase I,Mrs. Dr.P.Neelaveni,JL2
+MONDAY,13:50,15:30,Project Phase I,Mrs. Dr.P.Neelaveni,KFR01
+TUESDAY,11:50,13:30,Project Phase I,Mrs. Dr.P.Neelaveni,KFR02
+WEDNESDAY,16:00,16:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,A211
+FRIDAY,10:00,10:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,B213
+TUESDAY,08:00,08:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,A202

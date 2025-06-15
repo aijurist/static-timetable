@@ -1,0 +1,15 @@
+Day,StartTime,EndTime,Course,Group,Room
+THURSDAY,12:00,12:50,Database Management Systems,CSE-2C,A211
+MONDAY,17:00,17:50,Database Management Systems,CSE-2C,B220
+MONDAY,14:00,14:50,Database Management Systems,CSE-2C,A211
+WEDNESDAY,17:30,19:10,Database Management Systems,CSE-2C,JR1
+MONDAY,11:50,13:30,Database Management Systems,CSE-2C,TLGL3
+FRIDAY,15:50,17:30,Database Management Systems,CSE-2C,TLFL1
+TUESDAY,13:50,15:30,Database Management Systems,CSE-2C,TLFR5
+MONDAY,10:00,10:50,Object Oriented Programming Using JAVA,CSE-2E,A208
+TUESDAY,10:00,10:50,Object Oriented Programming Using JAVA,CSE-2E,B401
+THURSDAY,09:00,09:50,Object Oriented Programming Using JAVA,CSE-2E,B210
+THURSDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSE-2E,TLGL2
+WEDNESDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE-2E,TLFL5
+TUESDAY,08:00,09:40,Object Oriented Programming Using JAVA,CSE-2E,TLFL2
+WEDNESDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE-2E,TLFR2

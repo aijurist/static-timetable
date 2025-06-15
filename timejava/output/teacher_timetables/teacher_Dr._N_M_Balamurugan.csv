@@ -1,9 +1,11 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:10,09:50,Computer Networks,CSE-3C,140
-MONDAY,08:10,09:50,Computer Networks,CSE-3C,140
-MONDAY,08:10,09:50,Computer Networks,CSE-3C,140
-MONDAY,08:10,09:50,Computer Networks,CSE-3C,140
-MONDAY,08:10,09:50,Computer Networks,CSE-3C,140
-MONDAY,08:10,09:50,Secure Systems Engineering,AIML-4B,140
-MONDAY,08:10,09:50,Secure Systems Engineering,AIML-4B,140
-MONDAY,08:10,09:50,Secure Systems Engineering,AIML-4B,140
+MONDAY,17:00,17:50,Computer Networks,AIML-3A,B222
+THURSDAY,18:00,18:50,Computer Networks,AIML-3A,A102
+WEDNESDAY,11:00,11:50,Computer Networks,AIML-3A,B322
+THURSDAY,15:50,17:30,Computer Networks,AIML-3A,TLFR1
+TUESDAY,08:00,09:40,Computer Networks,AIML-3A,TLFL5
+FRIDAY,17:30,19:10,Computer Networks,AIML-3A,KFL02
+THURSDAY,13:50,15:30,Computer Networks,AIML-3A,TLFR4
+FRIDAY,14:00,14:50,Secure Systems Engineering,AIML-4B,B418
+WEDNESDAY,08:00,08:50,Secure Systems Engineering,AIML-4B,B107
+TUESDAY,13:00,13:50,Secure Systems Engineering,AIML-4B,B401

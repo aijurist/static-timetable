@@ -1,0 +1,15 @@
+Day,StartTime,EndTime,Course,Group,Room
+THURSDAY,13:00,13:50,Fundamentals of Data Science,CSE-2A,A102
+WEDNESDAY,14:00,14:50,Fundamentals of Data Science,CSE-2A,B211
+THURSDAY,17:00,17:50,Fundamentals of Data Science,CSE-2A,A302
+MONDAY,17:30,19:10,Fundamentals of Data Science,CSE-2A,KFR03
+FRIDAY,09:50,11:30,Fundamentals of Data Science,CSE-2A,TLFL3
+THURSDAY,10:00,10:50,Fundamentals of Data Science,CSE-2I,A308
+FRIDAY,12:00,12:50,Fundamentals of Data Science,CSE-2I,B220
+MONDAY,14:00,14:50,Fundamentals of Data Science,CSE-2I,B212
+TUESDAY,13:50,15:30,Fundamentals of Data Science,CSE-2I,KFR02
+TUESDAY,09:50,11:30,Fundamentals of Data Science,CSE-2I,JR1
+MONDAY,16:00,16:50,Theory of Computation,CSE-3B,A311
+MONDAY,11:00,11:50,Theory of Computation,CSE-3B,A211
+FRIDAY,08:00,08:50,Theory of Computation,CSE-3B,B410
+THURSDAY,15:00,15:50,Theory of Computation,CSE-3B,B423
