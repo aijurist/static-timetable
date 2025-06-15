@@ -1,0 +1,23 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+WEDNESDAY,18:00,18:50,Analog Circuits –I,Mr. Dr.V.S.Selvakumar,A303
+FRIDAY,12:00,12:50,Analog Circuits –I,Mr. Dr.V.S.Selvakumar,A305
+MONDAY,10:00,10:50,Analog Circuits –I,Mr. Dr.V.S.Selvakumar,B403
+FRIDAY,11:00,11:50,Electromagnetic Fields,Mrs. Anitha Mary M,A302
+THURSDAY,08:00,08:50,Electromagnetic Fields,Mrs. Anitha Mary M,C102
+FRIDAY,14:00,14:50,Electromagnetic Fields,Mrs. Anitha Mary M,B401
+THURSDAY,16:00,16:50,Digital Principles and System Design,Mrs. Anitha Mary M,B401
+MONDAY,14:00,14:50,Digital Principles and System Design,Mrs. Anitha Mary M,B321
+FRIDAY,18:00,18:50,Digital Principles and System Design,Mrs. Anitha Mary M,B426
+TUESDAY,11:00,11:50,Fourier series and Number theory,Dr. Ponmana Selvan Arumugam,A210
+THURSDAY,14:00,14:50,Fourier series and Number theory,Dr. Ponmana Selvan Arumugam,A208
+MONDAY,08:00,08:50,Fourier series and Number theory,Dr. Ponmana Selvan Arumugam,C101
+FRIDAY,10:00,10:50,Fourier series and Number theory,Dr. Ponmana Selvan Arumugam,B425
+TUESDAY,13:50,15:30,Analog and Digital Circuits Laboratory,Mrs. Tamilarasi M,Basic Electronics Lab-1
+WEDNESDAY,08:00,09:40,Analog and Digital Circuits Laboratory,Mrs. Tamilarasi M,Basic Electronics Lab-1
+TUESDAY,17:30,19:10,Analog and Digital Circuits Laboratory,Mrs. Tamilarasi M,Basic Electronics Lab-1
+FRIDAY,15:50,17:30,Analog and Digital Circuits Laboratory,Mrs. Tamilarasi M,Digital Lab-1
+TUESDAY,12:00,12:50,Introduction to Python Programming,Mrs. Sushma S Jagtap,B222
+WEDNESDAY,13:50,15:30,Introduction to Python Programming,Mrs. Sushma S Jagtap,MCT CAD Lab
+FRIDAY,15:50,17:30,Introduction to Python Programming,Mrs. Sushma S Jagtap,MCT CAD Lab
+MONDAY,15:50,17:30,Introduction to Python Programming,Mrs. Sushma S Jagtap,MCT CAD Lab
+WEDNESDAY,11:50,13:30,Introduction to Python Programming,Mrs. Sushma S Jagtap,MCT CAD Lab

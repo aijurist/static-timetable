@@ -1,6 +1,6 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,11:00,11:50,Design and Analysis of Algorithms,AIML-2B,A310
-MONDAY,08:00,08:50,Design and Analysis of Algorithms,AIML-2B,B320
-THURSDAY,18:00,18:50,Design and Analysis of Algorithms,AIML-2B,B418
-THURSDAY,15:50,17:30,Design and Analysis of Algorithms,AIML-2B,TLGL1
-FRIDAY,08:00,09:40,Design and Analysis of Algorithms,AIML-2B,JL3
+WEDNESDAY,09:00,09:50,Design and Analysis of Algorithms,AIML 2.2,B415
+TUESDAY,12:00,12:50,Design and Analysis of Algorithms,AIML 2.2,B107
+FRIDAY,17:00,17:50,Design and Analysis of Algorithms,AIML 2.2,A310
+MONDAY,08:00,09:40,Design and Analysis of Algorithms,AIML 2.2,Technical Analysis Lab
+FRIDAY,11:50,13:30,Design and Analysis of Algorithms,AIML 2.2,Electrical Machines I Lab

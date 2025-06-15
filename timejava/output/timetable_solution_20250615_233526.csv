@@ -1,0 +1,1437 @@
+Teacher,Course,Group,Type,Day,StartTime,EndTime,Room
+New Staff - 04,Computer Architecture,CSE-2A,lecture,MONDAY,08:00,08:50,A102
+New Staff - 04,Computer Architecture,CSE-2A,lecture,TUESDAY,10:00,10:50,A102
+New Staff - 04,Computer Architecture,CSE-2A,lecture,WEDNESDAY,12:00,12:50,A102
+Mrs. J.Jinu Sophia,Computer Architecture,CSE-2B,lecture,MONDAY,09:00,09:50,A102
+Mrs. J.Jinu Sophia,Computer Architecture,CSE-2B,lecture,TUESDAY,11:00,11:50,A102
+Mrs. J.Jinu Sophia,Computer Architecture,CSE-2B,lecture,WEDNESDAY,13:00,13:50,A102
+Mrs. Mahesmeena,Computer Architecture,CSE-2C,lecture,MONDAY,10:00,10:50,A102
+Mrs. Mahesmeena,Computer Architecture,CSE-2C,lecture,TUESDAY,08:00,08:50,A102
+Mrs. Mahesmeena,Computer Architecture,CSE-2C,lecture,WEDNESDAY,14:00,14:50,A102
+New Staff - 12,Computer Architecture,CSE-2D,lecture,MONDAY,11:00,11:50,A102
+New Staff - 12,Computer Architecture,CSE-2D,lecture,TUESDAY,09:00,09:50,A102
+New Staff - 12,Computer Architecture,CSE-2D,lecture,WEDNESDAY,15:00,15:50,A102
+Mrs. Farjana U,Computer Architecture,CSE-2E,lecture,WEDNESDAY,08:00,08:50,A102
+Mrs. Farjana U,Computer Architecture,CSE-2E,lecture,THURSDAY,10:00,10:50,A102
+Mrs. Farjana U,Computer Architecture,CSE-2E,lecture,MONDAY,12:00,12:50,A102
+Mr. Dr V.Murali Bhaskaran,Computer Architecture,CSE-2F,lecture,WEDNESDAY,09:00,09:50,A102
+Mr. Dr V.Murali Bhaskaran,Computer Architecture,CSE-2F,lecture,THURSDAY,11:00,11:50,A102
+Mr. Dr V.Murali Bhaskaran,Computer Architecture,CSE-2F,lecture,MONDAY,13:00,13:50,A102
+Mrs. Dharani Devi G,Computer Architecture,CSE-2G,lecture,WEDNESDAY,10:00,10:50,A102
+Mrs. Dharani Devi G,Computer Architecture,CSE-2G,lecture,THURSDAY,08:00,08:50,A102
+Mrs. Dharani Devi G,Computer Architecture,CSE-2G,lecture,MONDAY,14:00,14:50,A102
+Mrs. Deepa B,Computer Architecture,CSE-2H,lecture,WEDNESDAY,11:00,11:50,A102
+Mrs. Deepa B,Computer Architecture,CSE-2H,lecture,THURSDAY,09:00,09:50,A102
+Mrs. Deepa B,Computer Architecture,CSE-2H,lecture,MONDAY,15:00,15:50,A102
+New Staff - 03,Computer Architecture,CSE-2I,lecture,FRIDAY,08:00,08:50,A102
+New Staff - 03,Computer Architecture,CSE-2I,lecture,MONDAY,10:00,10:50,A103
+New Staff - 03,Computer Architecture,CSE-2I,lecture,TUESDAY,12:00,12:50,A102
+New Staff - 04,Computer Architecture,CSE-2J,lecture,FRIDAY,09:00,09:50,A102
+New Staff - 04,Computer Architecture,CSE-2J,lecture,FRIDAY,11:00,11:50,A102
+New Staff - 04,Computer Architecture,CSE-2J,lecture,MONDAY,11:00,11:50,A103
+New Staff - 03,Design and Analysis of Algorithms,CSE-2A,lecture,FRIDAY,10:00,10:50,A102
+New Staff - 03,Design and Analysis of Algorithms,CSE-2A,lecture,WEDNESDAY,08:00,08:50,A103
+New Staff - 03,Design and Analysis of Algorithms,CSE-2A,lecture,WEDNESDAY,10:00,10:50,A103
+New Staff - 03,Design and Analysis of Algorithms,CSE-2A,lab,MONDAY,11:50,13:30,JL1
+New Staff - 03,Design and Analysis of Algorithms,CSE-2A,lab,THURSDAY,11:50,13:30,JL1
+Ms. T.Ramala,Design and Analysis of Algorithms,CSE-2B,lecture,MONDAY,08:00,08:50,A103
+Ms. T.Ramala,Design and Analysis of Algorithms,CSE-2B,lecture,TUESDAY,10:00,10:50,A103
+Ms. T.Ramala,Design and Analysis of Algorithms,CSE-2B,lecture,WEDNESDAY,16:00,16:50,A102
+Ms. T.Ramala,Design and Analysis of Algorithms,CSE-2B,lab,MONDAY,09:50,11:30,JL1
+Ms. T.Ramala,Design and Analysis of Algorithms,CSE-2B,lab,TUESDAY,11:50,13:30,JL1
+Mr. Dr.P.Shanmugam,Design and Analysis of Algorithms,CSE-2C,lecture,MONDAY,09:00,09:50,A103
+Mr. Dr.P.Shanmugam,Design and Analysis of Algorithms,CSE-2C,lecture,TUESDAY,11:00,11:50,A103
+Mr. Dr.P.Shanmugam,Design and Analysis of Algorithms,CSE-2C,lecture,THURSDAY,12:00,12:50,A102
+Mr. Dr.P.Shanmugam,Design and Analysis of Algorithms,CSE-2C,lab,WEDNESDAY,08:00,09:40,JL1
+Mr. Dr.P.Shanmugam,Design and Analysis of Algorithms,CSE-2C,lab,WEDNESDAY,11:50,13:30,JL1
+Mrs. Santhiya M,Design and Analysis of Algorithms,CSE-2D,lecture,TUESDAY,08:00,08:50,A103
+Mrs. Santhiya M,Design and Analysis of Algorithms,CSE-2D,lecture,WEDNESDAY,11:00,11:50,A103
+Mrs. Santhiya M,Design and Analysis of Algorithms,CSE-2D,lecture,MONDAY,16:00,16:50,A102
+Mrs. Santhiya M,Design and Analysis of Algorithms,CSE-2D,lab,TUESDAY,09:50,11:30,JL1
+Mrs. Santhiya M,Design and Analysis of Algorithms,CSE-2D,lab,THURSDAY,08:00,09:40,JL1
+Mr. Srinivasan N,Design and Analysis of Algorithms,CSE-2E,lecture,TUESDAY,09:00,09:50,A103
+Mr. Srinivasan N,Design and Analysis of Algorithms,CSE-2E,lecture,THURSDAY,11:00,11:50,A103
+Mr. Srinivasan N,Design and Analysis of Algorithms,CSE-2E,lecture,FRIDAY,12:00,12:50,A102
+Mr. Srinivasan N,Design and Analysis of Algorithms,CSE-2E,lab,MONDAY,08:00,09:40,JL1
+Mr. Srinivasan N,Design and Analysis of Algorithms,CSE-2E,lab,TUESDAY,11:50,13:30,JL2
+Mrs. Mahesmeena,Design and Analysis of Algorithms,CSE-2F,lecture,THURSDAY,08:00,08:50,A103
+Mrs. Mahesmeena,Design and Analysis of Algorithms,CSE-2F,lecture,THURSDAY,10:00,10:50,A103
+Mrs. Mahesmeena,Design and Analysis of Algorithms,CSE-2F,lecture,FRIDAY,10:00,10:50,A103
+Mrs. Mahesmeena,Design and Analysis of Algorithms,CSE-2F,lab,FRIDAY,11:50,13:30,JL1
+Mrs. Mahesmeena,Design and Analysis of Algorithms,CSE-2F,lab,TUESDAY,09:50,11:30,JL2
+New Staff - 03,Design and Analysis of Algorithms,CSE-2G,lecture,THURSDAY,10:00,10:50,A104/105
+New Staff - 03,Design and Analysis of Algorithms,CSE-2G,lecture,MONDAY,08:00,08:50,A104/105
+New Staff - 03,Design and Analysis of Algorithms,CSE-2G,lecture,TUESDAY,14:00,14:50,A102
+New Staff - 03,Design and Analysis of Algorithms,CSE-2G,lab,WEDNESDAY,11:50,13:30,JL2
+New Staff - 03,Design and Analysis of Algorithms,CSE-2G,lab,FRIDAY,11:50,13:30,JL2
+Ms. T.Ramala,Design and Analysis of Algorithms,CSE-2H,lecture,FRIDAY,08:00,08:50,A103
+Ms. T.Ramala,Design and Analysis of Algorithms,CSE-2H,lecture,FRIDAY,11:00,11:50,A103
+Ms. T.Ramala,Design and Analysis of Algorithms,CSE-2H,lecture,THURSDAY,11:00,11:50,A104/105
+Ms. T.Ramala,Design and Analysis of Algorithms,CSE-2H,lab,MONDAY,11:50,13:30,JL2
+Ms. T.Ramala,Design and Analysis of Algorithms,CSE-2H,lab,TUESDAY,08:00,09:40,JL1
+Mr. Dr.P.Shanmugam,Design and Analysis of Algorithms,CSE-2I,lecture,MONDAY,11:00,11:50,A104/105
+Mr. Dr.P.Shanmugam,Design and Analysis of Algorithms,CSE-2I,lecture,WEDNESDAY,10:00,10:50,A104/105
+Mr. Dr.P.Shanmugam,Design and Analysis of Algorithms,CSE-2I,lecture,FRIDAY,10:00,10:50,A104/105
+Mr. Dr.P.Shanmugam,Design and Analysis of Algorithms,CSE-2I,lab,FRIDAY,11:50,13:30,JL3
+Mr. Dr.P.Shanmugam,Design and Analysis of Algorithms,CSE-2I,lab,TUESDAY,08:00,09:40,JL2
+Mrs. Santhiya M,Design and Analysis of Algorithms,CSE-2J,lecture,THURSDAY,10:00,10:50,A108
+Mrs. Santhiya M,Design and Analysis of Algorithms,CSE-2J,lecture,FRIDAY,10:00,10:50,A108
+Mrs. Santhiya M,Design and Analysis of Algorithms,CSE-2J,lecture,WEDNESDAY,09:00,09:50,A103
+Mrs. Santhiya M,Design and Analysis of Algorithms,CSE-2J,lab,THURSDAY,11:50,13:30,JL2
+Mrs. Santhiya M,Design and Analysis of Algorithms,CSE-2J,lab,TUESDAY,11:50,13:30,JL3
+Mr. Sriram Sastha,Fourier series and Number theory,CSE-2A,lecture,THURSDAY,09:00,09:50,A103
+Mr. Sriram Sastha,Fourier series and Number theory,CSE-2A,lecture,MONDAY,10:00,10:50,A104/105
+Mr. Sriram Sastha,Fourier series and Number theory,CSE-2A,lecture,TUESDAY,13:00,13:50,A102
+Mr. Sriram Sastha,Fourier series and Number theory,CSE-2A,tutorial,FRIDAY,09:00,09:50,A103
+Ms. Balavidhya S,Fourier series and Number theory,CSE-2B,lecture,TUESDAY,08:00,08:50,A104/105
+Ms. Balavidhya S,Fourier series and Number theory,CSE-2B,lecture,WEDNESDAY,11:00,11:50,A104/105
+Ms. Balavidhya S,Fourier series and Number theory,CSE-2B,lecture,THURSDAY,13:00,13:50,A102
+Ms. Balavidhya S,Fourier series and Number theory,CSE-2B,tutorial,FRIDAY,08:00,08:50,A104/105
+Mr. Charles Sagayaraj A C,Fourier series and Number theory,CSE-2C,lecture,TUESDAY,09:00,09:50,A104/105
+Mr. Charles Sagayaraj A C,Fourier series and Number theory,CSE-2C,lecture,FRIDAY,11:00,11:50,A104/105
+Mr. Charles Sagayaraj A C,Fourier series and Number theory,CSE-2C,lecture,THURSDAY,14:00,14:50,A102
+Mr. Charles Sagayaraj A C,Fourier series and Number theory,CSE-2C,tutorial,MONDAY,08:00,08:50,A108
+Mrs. C. Renuga,Fourier series and Number theory,CSE-2D,lecture,MONDAY,09:00,09:50,A104/105
+Mrs. C. Renuga,Fourier series and Number theory,CSE-2D,lecture,WEDNESDAY,10:00,10:50,A108
+Mrs. C. Renuga,Fourier series and Number theory,CSE-2D,lecture,TUESDAY,15:00,15:50,A102
+Mrs. C. Renuga,Fourier series and Number theory,CSE-2D,tutorial,FRIDAY,09:00,09:50,A104/105
+Mr. Dr. S. Prabhu,Fourier series and Number theory,CSE-2E,lecture,TUESDAY,10:00,10:50,A104/105
+Mr. Dr. S. Prabhu,Fourier series and Number theory,CSE-2E,lecture,WEDNESDAY,09:00,09:50,A104/105
+Mr. Dr. S. Prabhu,Fourier series and Number theory,CSE-2E,lecture,THURSDAY,15:00,15:50,A102
+Mr. Dr. S. Prabhu,Fourier series and Number theory,CSE-2E,tutorial,MONDAY,10:00,10:50,A108
+Dr. Ponmana Selvan Arumugam,Fourier series and Number theory,CSE-2F,lecture,WEDNESDAY,08:00,08:50,A104/105
+Dr. Ponmana Selvan Arumugam,Fourier series and Number theory,CSE-2F,lecture,MONDAY,11:00,11:50,A108
+Dr. Ponmana Selvan Arumugam,Fourier series and Number theory,CSE-2F,lecture,TUESDAY,16:00,16:50,A102
+Dr. Ponmana Selvan Arumugam,Fourier series and Number theory,CSE-2F,tutorial,THURSDAY,09:00,09:50,A104/105
+Dr. Meenakumari R,Fourier series and Number theory,CSE-2G,lecture,TUESDAY,11:00,11:50,A104/105
+Dr. Meenakumari R,Fourier series and Number theory,CSE-2G,lecture,MONDAY,09:00,09:50,A108
+Dr. Meenakumari R,Fourier series and Number theory,CSE-2G,lecture,THURSDAY,16:00,16:50,A102
+Dr. Meenakumari R,Fourier series and Number theory,CSE-2G,tutorial,WEDNESDAY,08:00,08:50,A108
+Mr. Venkatesan J,Fourier series and Number theory,CSE-2H,lecture,THURSDAY,08:00,08:50,A104/105
+Mr. Venkatesan J,Fourier series and Number theory,CSE-2H,lecture,TUESDAY,10:00,10:50,A108
+Mr. Venkatesan J,Fourier series and Number theory,CSE-2H,lecture,FRIDAY,13:00,13:50,A102
+Mr. Venkatesan J,Fourier series and Number theory,CSE-2H,tutorial,WEDNESDAY,09:00,09:50,A108
+Mrs. Dr S.Bhavani,Fourier series and Number theory,CSE-2I,lecture,TUESDAY,11:00,11:50,A108
+Mrs. Dr S.Bhavani,Fourier series and Number theory,CSE-2I,lecture,THURSDAY,08:00,08:50,A108
+Mrs. Dr S.Bhavani,Fourier series and Number theory,CSE-2I,lecture,FRIDAY,14:00,14:50,A102
+Mrs. Dr S.Bhavani,Fourier series and Number theory,CSE-2I,tutorial,WEDNESDAY,11:00,11:50,A108
+New Faculty Humanities & Sciences (PLACEHOLDER),Fourier series and Number theory,CSE-2J,lecture,TUESDAY,08:00,08:50,A108
+New Faculty Humanities & Sciences (PLACEHOLDER),Fourier series and Number theory,CSE-2J,lecture,THURSDAY,11:00,11:50,A108
+New Faculty Humanities & Sciences (PLACEHOLDER),Fourier series and Number theory,CSE-2J,lecture,FRIDAY,15:00,15:50,A102
+New Faculty Humanities & Sciences (PLACEHOLDER),Fourier series and Number theory,CSE-2J,tutorial,MONDAY,08:00,08:50,A109
+Mrs. Sathiyavathi S,Database Management Systems,CSE-2A,lecture,TUESDAY,09:00,09:50,A108
+Mrs. Sathiyavathi S,Database Management Systems,CSE-2A,lecture,FRIDAY,11:00,11:50,A108
+Mrs. Sathiyavathi S,Database Management Systems,CSE-2A,lecture,MONDAY,14:00,14:50,A103
+Mrs. Sathiyavathi S,Database Management Systems,CSE-2A,lab,THURSDAY,09:50,11:30,JL1
+Mrs. Sathiyavathi S,Database Management Systems,CSE-2A,lab,THURSDAY,11:50,13:30,JL3
+Mrs. Sathiyavathi S,Database Management Systems,CSE-2A,lab,MONDAY,15:50,17:30,JL1
+Mrs. Sathiyavathi S,Database Management Systems,CSE-2A,lab,TUESDAY,13:50,15:30,JL1
+Mr. Adhithyan.S,Database Management Systems,CSE-2B,lecture,THURSDAY,09:00,09:50,A108
+Mr. Adhithyan.S,Database Management Systems,CSE-2B,lecture,WEDNESDAY,10:00,10:50,A109
+Mr. Adhithyan.S,Database Management Systems,CSE-2B,lecture,FRIDAY,16:00,16:50,A102
+Mr. Adhithyan.S,Database Management Systems,CSE-2B,lab,MONDAY,11:50,13:30,JL3
+Mr. Adhithyan.S,Database Management Systems,CSE-2B,lab,WEDNESDAY,08:00,09:40,JL2
+Mr. Adhithyan.S,Database Management Systems,CSE-2B,lab,MONDAY,13:50,15:30,JL1
+Mr. Adhithyan.S,Database Management Systems,CSE-2B,lab,TUESDAY,15:50,17:30,JL1
+Mr. N.Karthikeyan,Database Management Systems,CSE-2C,lecture,FRIDAY,08:00,08:50,A108
+Mr. N.Karthikeyan,Database Management Systems,CSE-2C,lecture,MONDAY,11:00,11:50,A109
+Mr. N.Karthikeyan,Database Management Systems,CSE-2C,lecture,TUESDAY,12:00,12:50,A103
+Mr. N.Karthikeyan,Database Management Systems,CSE-2C,lab,WEDNESDAY,09:50,11:30,JL1
+Mr. N.Karthikeyan,Database Management Systems,CSE-2C,lab,WEDNESDAY,11:50,13:30,JL3
+Mr. N.Karthikeyan,Database Management Systems,CSE-2C,lab,FRIDAY,11:50,13:30,JR1
+Mr. N.Karthikeyan,Database Management Systems,CSE-2C,lab,THURSDAY,08:00,09:40,JL2
+Dr.J Manoranjini,Database Management Systems,CSE-2D,lecture,MONDAY,10:00,10:50,A109
+Dr.J Manoranjini,Database Management Systems,CSE-2D,lecture,WEDNESDAY,08:00,08:50,A109
+Dr.J Manoranjini,Database Management Systems,CSE-2D,lecture,TUESDAY,13:00,13:50,A103
+Dr.J Manoranjini,Database Management Systems,CSE-2D,lab,FRIDAY,09:50,11:30,JL1
+Dr.J Manoranjini,Database Management Systems,CSE-2D,lab,MONDAY,11:50,13:30,JR1
+Dr.J Manoranjini,Database Management Systems,CSE-2D,lab,WEDNESDAY,11:50,13:30,JR1
+Dr.J Manoranjini,Database Management Systems,CSE-2D,lab,THURSDAY,11:50,13:30,JR1
+Ms. Sana,Database Management Systems,CSE-2E,lecture,FRIDAY,09:00,09:50,A108
+Ms. Sana,Database Management Systems,CSE-2E,lecture,TUESDAY,11:00,11:50,A109
+Ms. Sana,Database Management Systems,CSE-2E,lecture,MONDAY,13:00,13:50,A103
+Ms. Sana,Database Management Systems,CSE-2E,lab,WEDNESDAY,09:50,11:30,JL2
+Ms. Sana,Database Management Systems,CSE-2E,lab,WEDNESDAY,11:50,13:30,JR2
+Ms. Sana,Database Management Systems,CSE-2E,lab,THURSDAY,11:50,13:30,JR2
+Ms. Sana,Database Management Systems,CSE-2E,lab,THURSDAY,08:00,09:40,JL3
+Mrs. Dharani Devi G,Database Management Systems,CSE-2F,lecture,TUESDAY,08:00,08:50,A109
+Mrs. Dharani Devi G,Database Management Systems,CSE-2F,lecture,FRIDAY,11:00,11:50,A109
+Mrs. Dharani Devi G,Database Management Systems,CSE-2F,lecture,FRIDAY,08:00,08:50,A109
+Mrs. Dharani Devi G,Database Management Systems,CSE-2F,lab,TUESDAY,09:50,11:30,JL3
+Mrs. Dharani Devi G,Database Management Systems,CSE-2F,lab,TUESDAY,11:50,13:30,JR1
+Mrs. Dharani Devi G,Database Management Systems,CSE-2F,lab,WEDNESDAY,11:50,13:30,JR3
+Mrs. Dharani Devi G,Database Management Systems,CSE-2F,lab,THURSDAY,11:50,13:30,JR3
+Dr. Bhuvaneswari R,Database Management Systems,CSE-2G,lecture,TUESDAY,09:00,09:50,A109
+Dr. Bhuvaneswari R,Database Management Systems,CSE-2G,lecture,WEDNESDAY,11:00,11:50,A109
+Dr. Bhuvaneswari R,Database Management Systems,CSE-2G,lecture,MONDAY,12:00,12:50,A103
+Dr. Bhuvaneswari R,Database Management Systems,CSE-2G,lab,FRIDAY,08:00,09:40,JL1
+Dr. Bhuvaneswari R,Database Management Systems,CSE-2G,lab,TUESDAY,11:50,13:30,JR2
+Dr. Bhuvaneswari R,Database Management Systems,CSE-2G,lab,THURSDAY,11:50,13:30,KFL01
+Dr. Bhuvaneswari R,Database Management Systems,CSE-2G,lab,WEDNESDAY,13:50,15:30,JL1
+Mr. Dr Parthasarathy C,Database Management Systems,CSE-2H,lecture,MONDAY,09:00,09:50,A109
+Mr. Dr Parthasarathy C,Database Management Systems,CSE-2H,lecture,THURSDAY,10:00,10:50,A109
+Mr. Dr Parthasarathy C,Database Management Systems,CSE-2H,lecture,TUESDAY,14:00,14:50,A103
+Mr. Dr Parthasarathy C,Database Management Systems,CSE-2H,lab,WEDNESDAY,11:50,13:30,KFL01
+Mr. Dr Parthasarathy C,Database Management Systems,CSE-2H,lab,THURSDAY,11:50,13:30,KFL02
+Mr. Dr Parthasarathy C,Database Management Systems,CSE-2H,lab,MONDAY,11:50,13:30,JR2
+Mr. Dr Parthasarathy C,Database Management Systems,CSE-2H,lab,WEDNESDAY,15:50,17:30,JL1
+Mrs. S.Vinothini,Database Management Systems,CSE-2I,lecture,TUESDAY,10:00,10:50,A109
+Mrs. S.Vinothini,Database Management Systems,CSE-2I,lecture,WEDNESDAY,09:00,09:50,A109
+Mrs. S.Vinothini,Database Management Systems,CSE-2I,lecture,MONDAY,15:00,15:50,A103
+Mrs. S.Vinothini,Database Management Systems,CSE-2I,lab,THURSDAY,09:50,11:30,JL2
+Mrs. S.Vinothini,Database Management Systems,CSE-2I,lab,WEDNESDAY,11:50,13:30,KFL02
+Mrs. S.Vinothini,Database Management Systems,CSE-2I,lab,FRIDAY,11:50,13:30,JR2
+Mrs. S.Vinothini,Database Management Systems,CSE-2I,lab,THURSDAY,11:50,13:30,KFL03
+Mrs. Sathiyavathi S,Database Management Systems,CSE-2J,lecture,THURSDAY,08:00,08:50,A109
+Mrs. Sathiyavathi S,Database Management Systems,CSE-2J,lecture,TUESDAY,11:00,11:50,A110
+Mrs. Sathiyavathi S,Database Management Systems,CSE-2J,lecture,WEDNESDAY,10:00,10:50,A110
+Mrs. Sathiyavathi S,Database Management Systems,CSE-2J,lab,WEDNESDAY,11:50,13:30,KFL03
+Mrs. Sathiyavathi S,Database Management Systems,CSE-2J,lab,FRIDAY,15:50,17:30,JL1
+Mrs. Sathiyavathi S,Database Management Systems,CSE-2J,lab,TUESDAY,15:50,17:30,JL2
+Mrs. Sathiyavathi S,Database Management Systems,CSE-2J,lab,WEDNESDAY,13:50,15:30,JL2
+Ms. Dharshini B S,Object Oriented Programming Using JAVA,CSE-2A,lecture,MONDAY,09:00,09:50,A110
+Ms. Dharshini B S,Object Oriented Programming Using JAVA,CSE-2A,lecture,WEDNESDAY,11:00,11:50,A110
+Ms. Dharshini B S,Object Oriented Programming Using JAVA,CSE-2A,lecture,TUESDAY,16:00,16:50,A103
+Ms. Dharshini B S,Object Oriented Programming Using JAVA,CSE-2A,lab,FRIDAY,11:50,13:30,JR3
+Ms. Dharshini B S,Object Oriented Programming Using JAVA,CSE-2A,lab,THURSDAY,13:50,15:30,JL1
+Ms. Dharshini B S,Object Oriented Programming Using JAVA,CSE-2A,lab,THURSDAY,09:50,11:30,JL3
+Ms. Dharshini B S,Object Oriented Programming Using JAVA,CSE-2A,lab,MONDAY,11:50,13:30,JR3
+Mr. Dr.S.Anantha Sivaprakasam,Object Oriented Programming Using JAVA,CSE-2B,lecture,THURSDAY,11:00,11:50,A109
+Mr. Dr.S.Anantha Sivaprakasam,Object Oriented Programming Using JAVA,CSE-2B,lecture,FRIDAY,09:00,09:50,A109
+Mr. Dr.S.Anantha Sivaprakasam,Object Oriented Programming Using JAVA,CSE-2B,lecture,MONDAY,16:00,16:50,A103
+Mr. Dr.S.Anantha Sivaprakasam,Object Oriented Programming Using JAVA,CSE-2B,lab,TUESDAY,11:50,13:30,JR3
+Mr. Dr.S.Anantha Sivaprakasam,Object Oriented Programming Using JAVA,CSE-2B,lab,FRIDAY,11:50,13:30,KFL01
+Mr. Dr.S.Anantha Sivaprakasam,Object Oriented Programming Using JAVA,CSE-2B,lab,WEDNESDAY,08:00,09:40,JL3
+Mr. Dr.S.Anantha Sivaprakasam,Object Oriented Programming Using JAVA,CSE-2B,lab,THURSDAY,15:50,17:30,JL1
+New Staff - 04,Object Oriented Programming Using JAVA,CSE-2C,lecture,THURSDAY,10:00,10:50,A110
+New Staff - 04,Object Oriented Programming Using JAVA,CSE-2C,lecture,TUESDAY,15:00,15:50,A103
+New Staff - 04,Object Oriented Programming Using JAVA,CSE-2C,lecture,WEDNESDAY,15:00,15:50,A103
+New Staff - 04,Object Oriented Programming Using JAVA,CSE-2C,lab,THURSDAY,08:00,09:40,JR1
+New Staff - 04,Object Oriented Programming Using JAVA,CSE-2C,lab,FRIDAY,13:50,15:30,JL1
+New Staff - 04,Object Oriented Programming Using JAVA,CSE-2C,lab,MONDAY,13:50,15:30,JL2
+New Staff - 04,Object Oriented Programming Using JAVA,CSE-2C,lab,FRIDAY,15:50,17:30,JL2
+Mrs. Deepa B,Object Oriented Programming Using JAVA,CSE-2D,lecture,THURSDAY,11:00,11:50,A110
+Mrs. Deepa B,Object Oriented Programming Using JAVA,CSE-2D,lecture,FRIDAY,08:00,08:50,A110
+Mrs. Deepa B,Object Oriented Programming Using JAVA,CSE-2D,lecture,WEDNESDAY,14:00,14:50,A103
+Mrs. Deepa B,Object Oriented Programming Using JAVA,CSE-2D,lab,FRIDAY,11:50,13:30,KFL02
+Mrs. Deepa B,Object Oriented Programming Using JAVA,CSE-2D,lab,WEDNESDAY,15:50,17:30,JL2
+Mrs. Deepa B,Object Oriented Programming Using JAVA,CSE-2D,lab,FRIDAY,09:50,11:30,JL2
+Mrs. Deepa B,Object Oriented Programming Using JAVA,CSE-2D,lab,TUESDAY,09:50,11:30,JR1
+Mr. N.Karthikeyan,Object Oriented Programming Using JAVA,CSE-2E,lecture,FRIDAY,10:00,10:50,A109
+Mr. N.Karthikeyan,Object Oriented Programming Using JAVA,CSE-2E,lecture,WEDNESDAY,16:00,16:50,A103
+Mr. N.Karthikeyan,Object Oriented Programming Using JAVA,CSE-2E,lecture,THURSDAY,14:00,14:50,A103
+Mr. N.Karthikeyan,Object Oriented Programming Using JAVA,CSE-2E,lab,THURSDAY,11:50,13:30,KFR01
+Mr. N.Karthikeyan,Object Oriented Programming Using JAVA,CSE-2E,lab,MONDAY,15:50,17:30,JL2
+Mr. N.Karthikeyan,Object Oriented Programming Using JAVA,CSE-2E,lab,TUESDAY,13:50,15:30,JL2
+Mr. N.Karthikeyan,Object Oriented Programming Using JAVA,CSE-2E,lab,FRIDAY,13:50,15:30,JL2
+Mrs. Fowzia Sihana,Object Oriented Programming Using JAVA,CSE-2F,lecture,MONDAY,08:00,08:50,A110
+Mrs. Fowzia Sihana,Object Oriented Programming Using JAVA,CSE-2F,lecture,WEDNESDAY,10:00,10:50,A202
+Mrs. Fowzia Sihana,Object Oriented Programming Using JAVA,CSE-2F,lecture,THURSDAY,15:00,15:50,A103
+Mrs. Fowzia Sihana,Object Oriented Programming Using JAVA,CSE-2F,lab,WEDNESDAY,11:50,13:30,KFR01
+Mrs. Fowzia Sihana,Object Oriented Programming Using JAVA,CSE-2F,lab,MONDAY,13:50,15:30,JL3
+Mrs. Fowzia Sihana,Object Oriented Programming Using JAVA,CSE-2F,lab,TUESDAY,11:50,13:30,KFL01
+Mrs. Fowzia Sihana,Object Oriented Programming Using JAVA,CSE-2F,lab,FRIDAY,11:50,13:30,KFL03
+Ms. Divya M,Object Oriented Programming Using JAVA,CSE-2G,lecture,THURSDAY,09:00,09:50,A109
+Ms. Divya M,Object Oriented Programming Using JAVA,CSE-2G,lecture,MONDAY,10:00,10:50,A110
+Ms. Divya M,Object Oriented Programming Using JAVA,CSE-2G,lecture,FRIDAY,14:00,14:50,A103
+Ms. Divya M,Object Oriented Programming Using JAVA,CSE-2G,lab,THURSDAY,11:50,13:30,KFR02
+Ms. Divya M,Object Oriented Programming Using JAVA,CSE-2G,lab,THURSDAY,13:50,15:30,JL2
+Ms. Divya M,Object Oriented Programming Using JAVA,CSE-2G,lab,TUESDAY,11:50,13:30,KFL02
+Ms. Divya M,Object Oriented Programming Using JAVA,CSE-2G,lab,WEDNESDAY,11:50,13:30,KFR02
+Ms. Dharshini B S,Object Oriented Programming Using JAVA,CSE-2H,lecture,FRIDAY,10:00,10:50,A110
+Ms. Dharshini B S,Object Oriented Programming Using JAVA,CSE-2H,lecture,WEDNESDAY,08:00,08:50,A110
+Ms. Dharshini B S,Object Oriented Programming Using JAVA,CSE-2H,lecture,THURSDAY,16:00,16:50,A103
+Ms. Dharshini B S,Object Oriented Programming Using JAVA,CSE-2H,lab,MONDAY,15:50,17:30,JL3
+Ms. Dharshini B S,Object Oriented Programming Using JAVA,CSE-2H,lab,WEDNESDAY,13:50,15:30,JL3
+Ms. Dharshini B S,Object Oriented Programming Using JAVA,CSE-2H,lab,THURSDAY,11:50,13:30,KFR03
+Ms. Dharshini B S,Object Oriented Programming Using JAVA,CSE-2H,lab,FRIDAY,13:50,15:30,JL3
+Mr. Dr.S.Anantha Sivaprakasam,Object Oriented Programming Using JAVA,CSE-2I,lecture,THURSDAY,09:00,09:50,A110
+Mr. Dr.S.Anantha Sivaprakasam,Object Oriented Programming Using JAVA,CSE-2I,lecture,FRIDAY,15:00,15:50,A103
+Mr. Dr.S.Anantha Sivaprakasam,Object Oriented Programming Using JAVA,CSE-2I,lecture,MONDAY,12:00,12:50,A104/105
+Mr. Dr.S.Anantha Sivaprakasam,Object Oriented Programming Using JAVA,CSE-2I,lab,TUESDAY,13:50,15:30,JL3
+Mr. Dr.S.Anantha Sivaprakasam,Object Oriented Programming Using JAVA,CSE-2I,lab,TUESDAY,15:50,17:30,JL3
+Mr. Dr.S.Anantha Sivaprakasam,Object Oriented Programming Using JAVA,CSE-2I,lab,WEDNESDAY,11:50,13:30,KFR03
+Mr. Dr.S.Anantha Sivaprakasam,Object Oriented Programming Using JAVA,CSE-2I,lab,THURSDAY,13:50,15:30,JL3
+New Staff - 04,Object Oriented Programming Using JAVA,CSE-2J,lecture,MONDAY,16:00,16:50,A104/105
+New Staff - 04,Object Oriented Programming Using JAVA,CSE-2J,lecture,THURSDAY,14:00,14:50,A104/105
+New Staff - 04,Object Oriented Programming Using JAVA,CSE-2J,lecture,THURSDAY,16:00,16:50,A104/105
+New Staff - 04,Object Oriented Programming Using JAVA,CSE-2J,lab,TUESDAY,11:50,13:30,KFL03
+New Staff - 04,Object Oriented Programming Using JAVA,CSE-2J,lab,WEDNESDAY,17:30,19:10,JL1
+New Staff - 04,Object Oriented Programming Using JAVA,CSE-2J,lab,THURSDAY,11:50,13:30,KSL03
+New Staff - 04,Object Oriented Programming Using JAVA,CSE-2J,lab,TUESDAY,17:30,19:10,JL1
+New Staff - 07,Fundamentals of Data Science,CSE-2A,lecture,MONDAY,11:00,11:50,A110
+New Staff - 07,Fundamentals of Data Science,CSE-2A,lecture,TUESDAY,08:00,08:50,A110
+New Staff - 07,Fundamentals of Data Science,CSE-2A,lecture,WEDNESDAY,13:00,13:50,A103
+New Staff - 07,Fundamentals of Data Science,CSE-2A,lab,THURSDAY,15:50,17:30,JL2
+New Staff - 07,Fundamentals of Data Science,CSE-2A,lab,FRIDAY,11:50,13:30,KFR01
+Ms. Sana,Fundamentals of Data Science,CSE-2B,lecture,FRIDAY,11:00,11:50,A110
+Ms. Sana,Fundamentals of Data Science,CSE-2B,lecture,THURSDAY,10:00,10:50,A202
+Ms. Sana,Fundamentals of Data Science,CSE-2B,lecture,TUESDAY,14:00,14:50,A104/105
+Ms. Sana,Fundamentals of Data Science,CSE-2B,lab,TUESDAY,15:50,17:30,JR1
+Ms. Sana,Fundamentals of Data Science,CSE-2B,lab,WEDNESDAY,13:50,15:30,JR1
+Mr. Ayyadurai M,Fundamentals of Data Science,CSE-2C,lecture,TUESDAY,10:00,10:50,A110
+Mr. Ayyadurai M,Fundamentals of Data Science,CSE-2C,lecture,FRIDAY,09:00,09:50,A110
+Mr. Ayyadurai M,Fundamentals of Data Science,CSE-2C,lecture,THURSDAY,13:00,13:50,A103
+Mr. Ayyadurai M,Fundamentals of Data Science,CSE-2C,lab,MONDAY,11:50,13:30,KFL01
+Mr. Ayyadurai M,Fundamentals of Data Science,CSE-2C,lab,WEDNESDAY,09:50,11:30,JL3
+Mrs. Aswana Lal,Fundamentals of Data Science,CSE-2D,lecture,WEDNESDAY,09:00,09:50,A110
+Mrs. Aswana Lal,Fundamentals of Data Science,CSE-2D,lecture,THURSDAY,10:00,10:50,A203
+Mrs. Aswana Lal,Fundamentals of Data Science,CSE-2D,lecture,FRIDAY,16:00,16:50,A103
+Mrs. Aswana Lal,Fundamentals of Data Science,CSE-2D,lab,WEDNESDAY,11:50,13:30,KSL03
+Mrs. Aswana Lal,Fundamentals of Data Science,CSE-2D,lab,MONDAY,11:50,13:30,KFL02
+Mr. Srinivasan N,Fundamentals of Data Science,CSE-2E,lecture,MONDAY,11:00,11:50,A202
+Mr. Srinivasan N,Fundamentals of Data Science,CSE-2E,lecture,MONDAY,14:00,14:50,A104/105
+Mr. Srinivasan N,Fundamentals of Data Science,CSE-2E,lecture,TUESDAY,16:00,16:50,A104/105
+Mr. Srinivasan N,Fundamentals of Data Science,CSE-2E,lab,THURSDAY,15:50,17:30,JL3
+Mr. Srinivasan N,Fundamentals of Data Science,CSE-2E,lab,WEDNESDAY,11:50,13:30,TLFL1
+Mrs. Bhavani M,Fundamentals of Data Science,CSE-2F,lecture,TUESDAY,09:00,09:50,A110
+Mrs. Bhavani M,Fundamentals of Data Science,CSE-2F,lecture,MONDAY,10:00,10:50,A202
+Mrs. Bhavani M,Fundamentals of Data Science,CSE-2F,lecture,WEDNESDAY,14:00,14:50,A104/105
+Mrs. Bhavani M,Fundamentals of Data Science,CSE-2F,lab,THURSDAY,11:50,13:30,TLFL1
+Mrs. Bhavani M,Fundamentals of Data Science,CSE-2F,lab,WEDNESDAY,15:50,17:30,JL3
+Mrs. Farjana U,Fundamentals of Data Science,CSE-2G,lecture,TUESDAY,08:00,08:50,A202
+Mrs. Farjana U,Fundamentals of Data Science,CSE-2G,lecture,TUESDAY,10:00,10:50,A202
+Mrs. Farjana U,Fundamentals of Data Science,CSE-2G,lecture,FRIDAY,10:00,10:50,A202
+Mrs. Farjana U,Fundamentals of Data Science,CSE-2G,lab,FRIDAY,11:50,13:30,KFR02
+Mrs. Farjana U,Fundamentals of Data Science,CSE-2G,lab,FRIDAY,08:00,09:40,JL2
+Ms. Dharshini B S,Fundamentals of Data Science,CSE-2H,lecture,TUESDAY,12:00,12:50,A104/105
+Ms. Dharshini B S,Fundamentals of Data Science,CSE-2H,lecture,FRIDAY,16:00,16:50,A104/105
+Ms. Dharshini B S,Fundamentals of Data Science,CSE-2H,lecture,MONDAY,14:00,14:50,A108
+Ms. Dharshini B S,Fundamentals of Data Science,CSE-2H,lab,TUESDAY,17:30,19:10,JL2
+Ms. Dharshini B S,Fundamentals of Data Science,CSE-2H,lab,FRIDAY,17:30,19:10,JL1
+New Staff - 07,Fundamentals of Data Science,CSE-2I,lecture,MONDAY,08:00,08:50,A202
+New Staff - 07,Fundamentals of Data Science,CSE-2I,lecture,WEDNESDAY,08:00,08:50,A202
+New Staff - 07,Fundamentals of Data Science,CSE-2I,lecture,MONDAY,13:00,13:50,A104/105
+New Staff - 07,Fundamentals of Data Science,CSE-2I,lab,FRIDAY,15:50,17:30,JL3
+New Staff - 07,Fundamentals of Data Science,CSE-2I,lab,TUESDAY,13:50,15:30,JR1
+Ms. Sana,Fundamentals of Data Science,CSE-2J,lecture,WEDNESDAY,08:00,08:50,A203
+Ms. Sana,Fundamentals of Data Science,CSE-2J,lecture,FRIDAY,13:00,13:50,A103
+Ms. Sana,Fundamentals of Data Science,CSE-2J,lecture,MONDAY,15:00,15:50,A104/105
+Ms. Sana,Fundamentals of Data Science,CSE-2J,lab,MONDAY,17:30,19:10,JL1
+Ms. Sana,Fundamentals of Data Science,CSE-2J,lab,FRIDAY,15:50,17:30,JR1
+Mrs. J.A.Adlin Layola,Theory of Computation,CSE-3A,lecture,THURSDAY,08:00,08:50,A110
+Mrs. J.A.Adlin Layola,Theory of Computation,CSE-3A,lecture,TUESDAY,11:00,11:50,A202
+Mrs. J.A.Adlin Layola,Theory of Computation,CSE-3A,lecture,WEDNESDAY,12:00,12:50,A103
+Mrs. J.A.Adlin Layola,Theory of Computation,CSE-3A,tutorial,MONDAY,09:00,09:50,A202
+New Staff - 07,Theory of Computation,CSE-3B,lecture,WEDNESDAY,11:00,11:50,A202
+New Staff - 07,Theory of Computation,CSE-3B,lecture,TUESDAY,10:00,10:50,A203
+New Staff - 07,Theory of Computation,CSE-3B,lecture,FRIDAY,10:00,10:50,A203
+New Staff - 07,Theory of Computation,CSE-3B,tutorial,THURSDAY,12:00,12:50,A103
+Mr. Dr.K.Ananthajothi,Theory of Computation,CSE-3C,lecture,TUESDAY,09:00,09:50,A202
+Mr. Dr.K.Ananthajothi,Theory of Computation,CSE-3C,lecture,THURSDAY,11:00,11:50,A202
+Mr. Dr.K.Ananthajothi,Theory of Computation,CSE-3C,lecture,FRIDAY,12:00,12:50,A103
+Mr. Dr.K.Ananthajothi,Theory of Computation,CSE-3C,tutorial,WEDNESDAY,09:00,09:50,A202
+Mrs. Akiladevi R,Theory of Computation,CSE-3D,lecture,THURSDAY,08:00,08:50,A202
+Mrs. Akiladevi R,Theory of Computation,CSE-3D,lecture,FRIDAY,11:00,11:50,A202
+Mrs. Akiladevi R,Theory of Computation,CSE-3D,lecture,TUESDAY,13:00,13:50,A104/105
+Mrs. Akiladevi R,Theory of Computation,CSE-3D,tutorial,MONDAY,08:00,08:50,A203
+Mrs. S.Vinothini,Theory of Computation,CSE-3E,lecture,THURSDAY,08:00,08:50,A203
+Mrs. S.Vinothini,Theory of Computation,CSE-3E,lecture,FRIDAY,10:00,10:50,A204
+Mrs. S.Vinothini,Theory of Computation,CSE-3E,lecture,FRIDAY,08:00,08:50,A202
+Mrs. S.Vinothini,Theory of Computation,CSE-3E,tutorial,TUESDAY,15:00,15:50,A104/105
+Mrs. J.A.Adlin Layola,Theory of Computation,CSE-3F,lecture,MONDAY,11:00,11:50,A203
+Mrs. J.A.Adlin Layola,Theory of Computation,CSE-3F,lecture,THURSDAY,11:00,11:50,A203
+Mrs. J.A.Adlin Layola,Theory of Computation,CSE-3F,lecture,FRIDAY,11:00,11:50,A203
+Mrs. J.A.Adlin Layola,Theory of Computation,CSE-3F,tutorial,FRIDAY,09:00,09:50,A202
+Mrs. Jananee V,Fundamentals of Mobile Computing,CSE-3A,lecture,THURSDAY,09:00,09:50,A202
+Mrs. Jananee V,Fundamentals of Mobile Computing,CSE-3A,lecture,MONDAY,10:00,10:50,A203
+Mrs. Jananee V,Fundamentals of Mobile Computing,CSE-3A,lecture,WEDNESDAY,13:00,13:50,A104/105
+New Staff - 08,Fundamentals of Mobile Computing,CSE-3B,lecture,MONDAY,09:00,09:50,A203
+New Staff - 08,Fundamentals of Mobile Computing,CSE-3B,lecture,TUESDAY,11:00,11:50,A203
+New Staff - 08,Fundamentals of Mobile Computing,CSE-3B,lecture,WEDNESDAY,12:00,12:50,A104/105
+HOD CSE,Fundamentals of Mobile Computing,CSE-3C,lecture,TUESDAY,08:00,08:50,A203
+HOD CSE,Fundamentals of Mobile Computing,CSE-3C,lecture,WEDNESDAY,10:00,10:50,A203
+HOD CSE,Fundamentals of Mobile Computing,CSE-3C,lecture,THURSDAY,12:00,12:50,A104/105
+Dr. Chettiyar Vani Vivekanand,Fundamentals of Mobile Computing,CSE-3D,lecture,TUESDAY,09:00,09:50,A203
+Dr. Chettiyar Vani Vivekanand,Fundamentals of Mobile Computing,CSE-3D,lecture,WEDNESDAY,11:00,11:50,A203
+Dr. Chettiyar Vani Vivekanand,Fundamentals of Mobile Computing,CSE-3D,lecture,THURSDAY,13:00,13:50,A104/105
+Mr. Dr.P.Shanmugam,Fundamentals of Mobile Computing,CSE-3E,lecture,WEDNESDAY,15:00,15:50,A104/105
+Mr. Dr.P.Shanmugam,Fundamentals of Mobile Computing,CSE-3E,lecture,THURSDAY,15:00,15:50,A104/105
+Mr. Dr.P.Shanmugam,Fundamentals of Mobile Computing,CSE-3E,lecture,FRIDAY,14:00,14:50,A104/105
+Mr. V Karthick,Fundamentals of Mobile Computing,CSE-3F,lecture,WEDNESDAY,09:00,09:50,A203
+Mr. V Karthick,Fundamentals of Mobile Computing,CSE-3F,lecture,MONDAY,10:00,10:50,A204
+Mr. V Karthick,Fundamentals of Mobile Computing,CSE-3F,lecture,FRIDAY,12:00,12:50,A104/105
+New Staff - 09,Web Programming,CSE-3A,lecture,FRIDAY,08:00,08:50,A203
+New Staff - 09,Web Programming,CSE-3A,lecture,MONDAY,11:00,11:50,A204
+New Staff - 09,Web Programming,CSE-3A,lecture,WEDNESDAY,16:00,16:50,A104/105
+New Staff - 09,Web Programming,CSE-3A,lab,TUESDAY,08:00,09:40,JL3
+New Staff - 09,Web Programming,CSE-3A,lab,FRIDAY,09:50,11:30,JL3
+New Staff - 09,Web Programming,CSE-3A,lab,TUESDAY,11:50,13:30,KFR01
+New Staff - 09,Web Programming,CSE-3A,lab,FRIDAY,11:50,13:30,KFR03
+Mrs. J.Jinu Sophia,Web Programming,CSE-3B,lecture,THURSDAY,09:00,09:50,A203
+Mrs. J.Jinu Sophia,Web Programming,CSE-3B,lecture,THURSDAY,11:00,11:50,A204
+Mrs. J.Jinu Sophia,Web Programming,CSE-3B,lecture,FRIDAY,11:00,11:50,A204
+Mrs. J.Jinu Sophia,Web Programming,CSE-3B,lab,MONDAY,11:50,13:30,KFL03
+Mrs. J.Jinu Sophia,Web Programming,CSE-3B,lab,FRIDAY,08:00,09:40,JL3
+Mrs. J.Jinu Sophia,Web Programming,CSE-3B,lab,MONDAY,13:50,15:30,JR1
+Mrs. J.Jinu Sophia,Web Programming,CSE-3B,lab,WEDNESDAY,15:50,17:30,JR1
+New Staff - 04,Web Programming,CSE-3C,lecture,FRIDAY,18:00,18:50,A102
+New Staff - 04,Web Programming,CSE-3C,lecture,MONDAY,18:00,18:50,A102
+New Staff - 04,Web Programming,CSE-3C,lecture,THURSDAY,18:00,18:50,A102
+New Staff - 04,Web Programming,CSE-3C,lab,WEDNESDAY,13:50,15:30,JR2
+New Staff - 04,Web Programming,CSE-3C,lab,MONDAY,08:00,09:40,JL2
+New Staff - 04,Web Programming,CSE-3C,lab,THURSDAY,08:00,09:40,JR2
+New Staff - 04,Web Programming,CSE-3C,lab,TUESDAY,11:50,13:30,KFR02
+Dr. Madhusudhanan S,Web Programming,CSE-3D,lecture,FRIDAY,09:00,09:50,A203
+Dr. Madhusudhanan S,Web Programming,CSE-3D,lecture,TUESDAY,10:00,10:50,A204
+Dr. Madhusudhanan S,Web Programming,CSE-3D,lecture,MONDAY,12:00,12:50,A108
+Dr. Madhusudhanan S,Web Programming,CSE-3D,lab,WEDNESDAY,08:00,09:40,JR1
+Dr. Madhusudhanan S,Web Programming,CSE-3D,lab,FRIDAY,11:50,13:30,KSL03
+Dr. Madhusudhanan S,Web Programming,CSE-3D,lab,WEDNESDAY,11:50,13:30,TLFL2
+Dr. Madhusudhanan S,Web Programming,CSE-3D,lab,THURSDAY,09:50,11:30,JR1
+Mrs. Sathiyavathi S,Web Programming,CSE-3E,lecture,WEDNESDAY,08:00,08:50,A204
+Mrs. Sathiyavathi S,Web Programming,CSE-3E,lecture,FRIDAY,13:00,13:50,A104/105
+Mrs. Sathiyavathi S,Web Programming,CSE-3E,lecture,THURSDAY,14:00,14:50,A108
+Mrs. Sathiyavathi S,Web Programming,CSE-3E,lab,MONDAY,11:50,13:30,KFR01
+Mrs. Sathiyavathi S,Web Programming,CSE-3E,lab,MONDAY,09:50,11:30,JL2
+Mrs. Sathiyavathi S,Web Programming,CSE-3E,lab,THURSDAY,15:50,17:30,JR1
+Mrs. Sathiyavathi S,Web Programming,CSE-3E,lab,WEDNESDAY,15:50,17:30,JR2
+Mrs. J.A.Adlin Layola,Web Programming,CSE-3F,lecture,FRIDAY,15:00,15:50,A104/105
+Mrs. J.A.Adlin Layola,Web Programming,CSE-3F,lecture,MONDAY,13:00,13:50,A108
+Mrs. J.A.Adlin Layola,Web Programming,CSE-3F,lecture,MONDAY,15:00,15:50,A108
+Mrs. J.A.Adlin Layola,Web Programming,CSE-3F,lab,THURSDAY,13:50,15:30,JR1
+Mrs. J.A.Adlin Layola,Web Programming,CSE-3F,lab,TUESDAY,13:50,15:30,JR2
+Mrs. J.A.Adlin Layola,Web Programming,CSE-3F,lab,TUESDAY,15:50,17:30,JR2
+Mrs. J.A.Adlin Layola,Web Programming,CSE-3F,lab,WEDNESDAY,13:50,15:30,JR3
+New Staff - 09,Computer Networks,CSE-3A,lecture,THURSDAY,10:00,10:50,A204
+New Staff - 09,Computer Networks,CSE-3A,lecture,TUESDAY,10:00,10:50,A205
+New Staff - 09,Computer Networks,CSE-3A,lecture,MONDAY,08:00,08:50,A204
+New Staff - 09,Computer Networks,CSE-3A,lab,THURSDAY,11:50,13:30,TLFL2
+New Staff - 09,Computer Networks,CSE-3A,lab,MONDAY,13:50,15:30,JR2
+New Staff - 09,Computer Networks,CSE-3A,lab,THURSDAY,13:50,15:30,JR2
+New Staff - 09,Computer Networks,CSE-3A,lab,WEDNESDAY,13:50,15:30,KFL01
+Ms. Sana,Computer Networks,CSE-3B,lecture,THURSDAY,15:00,15:50,A108
+Ms. Sana,Computer Networks,CSE-3B,lecture,TUESDAY,18:00,18:50,A102
+Ms. Sana,Computer Networks,CSE-3B,lecture,MONDAY,11:00,11:50,A205
+Ms. Sana,Computer Networks,CSE-3B,lab,WEDNESDAY,15:50,17:30,JR3
+Ms. Sana,Computer Networks,CSE-3B,lab,TUESDAY,08:00,09:40,JR1
+Ms. Sana,Computer Networks,CSE-3B,lab,THURSDAY,17:30,19:10,JL1
+Ms. Sana,Computer Networks,CSE-3B,lab,FRIDAY,15:50,17:30,JR2
+Mrs. Dr.R.Sabitha,Computer Networks,CSE-3C,lecture,TUESDAY,11:00,11:50,A204
+Mrs. Dr.R.Sabitha,Computer Networks,CSE-3C,lecture,FRIDAY,08:00,08:50,A204
+Mrs. Dr.R.Sabitha,Computer Networks,CSE-3C,lecture,MONDAY,16:00,16:50,A108
+Mrs. Dr.R.Sabitha,Computer Networks,CSE-3C,lab,FRIDAY,09:50,11:30,JR1
+Mrs. Dr.R.Sabitha,Computer Networks,CSE-3C,lab,THURSDAY,08:00,09:40,JR3
+Mrs. Dr.R.Sabitha,Computer Networks,CSE-3C,lab,WEDNESDAY,11:50,13:30,TLFL3
+Mrs. Dr.R.Sabitha,Computer Networks,CSE-3C,lab,FRIDAY,13:50,15:30,JR1
+Mr. Dr.K.Anand,Computer Networks,CSE-3D,lecture,MONDAY,09:00,09:50,A204
+Mr. Dr.K.Anand,Computer Networks,CSE-3D,lecture,WEDNESDAY,10:00,10:50,A204
+Mr. Dr.K.Anand,Computer Networks,CSE-3D,lecture,TUESDAY,12:00,12:50,A108
+Mr. Dr.K.Anand,Computer Networks,CSE-3D,lab,THURSDAY,09:50,11:30,JR2
+Mr. Dr.K.Anand,Computer Networks,CSE-3D,lab,WEDNESDAY,11:50,13:30,TLFL4
+Mr. Dr.K.Anand,Computer Networks,CSE-3D,lab,FRIDAY,11:50,13:30,TLFL1
+Mr. Dr.K.Anand,Computer Networks,CSE-3D,lab,WEDNESDAY,08:00,09:40,JR2
+Dr. Chettiyar Vani Vivekanand,Computer Networks,CSE-3E,lecture,FRIDAY,09:00,09:50,A204
+Dr. Chettiyar Vani Vivekanand,Computer Networks,CSE-3E,lecture,TUESDAY,11:00,11:50,A205
+Dr. Chettiyar Vani Vivekanand,Computer Networks,CSE-3E,lecture,FRIDAY,11:00,11:50,A205
+Dr. Chettiyar Vani Vivekanand,Computer Networks,CSE-3E,lab,MONDAY,08:00,09:40,JL3
+Dr. Chettiyar Vani Vivekanand,Computer Networks,CSE-3E,lab,THURSDAY,15:50,17:30,JR2
+Dr. Chettiyar Vani Vivekanand,Computer Networks,CSE-3E,lab,MONDAY,11:50,13:30,KFR02
+Dr. Chettiyar Vani Vivekanand,Computer Networks,CSE-3E,lab,MONDAY,13:50,15:30,JR3
+New Staff - 09,Computer Networks,CSE-3F,lecture,WEDNESDAY,12:00,12:50,A108
+New Staff - 09,Computer Networks,CSE-3F,lecture,THURSDAY,16:00,16:50,A108
+New Staff - 09,Computer Networks,CSE-3F,lecture,FRIDAY,14:00,14:50,A108
+New Staff - 09,Computer Networks,CSE-3F,lab,WEDNESDAY,17:30,19:10,JL2
+New Staff - 09,Computer Networks,CSE-3F,lab,THURSDAY,08:00,09:40,KFL01
+New Staff - 09,Computer Networks,CSE-3F,lab,TUESDAY,13:50,15:30,JR3
+New Staff - 09,Computer Networks,CSE-3F,lab,MONDAY,15:50,17:30,JR1
+Ms. Divya M,Foundations of Artificial Intelligence,CSE-3A,lecture,WEDNESDAY,09:00,09:50,A204
+Ms. Divya M,Foundations of Artificial Intelligence,CSE-3A,lecture,TUESDAY,14:00,14:50,A108
+Ms. Divya M,Foundations of Artificial Intelligence,CSE-3A,lecture,TUESDAY,16:00,16:50,A108
+Ms. Divya M,Foundations of Artificial Intelligence,CSE-3A,lab,MONDAY,11:50,13:30,KFR03
+Ms. Divya M,Foundations of Artificial Intelligence,CSE-3A,lab,TUESDAY,08:00,09:40,JR2
+Mrs. Bhavani M,Foundations of Artificial Intelligence,CSE-3B,lecture,THURSDAY,08:00,08:50,A204
+Mrs. Bhavani M,Foundations of Artificial Intelligence,CSE-3B,lecture,THURSDAY,10:00,10:50,A205
+Mrs. Bhavani M,Foundations of Artificial Intelligence,CSE-3B,lecture,TUESDAY,13:00,13:50,A108
+Mrs. Bhavani M,Foundations of Artificial Intelligence,CSE-3B,lab,FRIDAY,11:50,13:30,TLFL2
+Mrs. Bhavani M,Foundations of Artificial Intelligence,CSE-3B,lab,MONDAY,11:50,13:30,KSL03
+Mrs. Deepa B,Foundations of Artificial Intelligence,CSE-3C,lecture,TUESDAY,15:00,15:50,A108
+Mrs. Deepa B,Foundations of Artificial Intelligence,CSE-3C,lecture,THURSDAY,13:00,13:50,A108
+Mrs. Deepa B,Foundations of Artificial Intelligence,CSE-3C,lecture,FRIDAY,16:00,16:50,A108
+Mrs. Deepa B,Foundations of Artificial Intelligence,CSE-3C,lab,TUESDAY,11:50,13:30,KFR03
+Mrs. Deepa B,Foundations of Artificial Intelligence,CSE-3C,lab,THURSDAY,15:50,17:30,JR3
+Mr. Dr. Kumar P,Foundations of Artificial Intelligence,CSE-3D,lecture,TUESDAY,08:00,08:50,A204
+Mr. Dr. Kumar P,Foundations of Artificial Intelligence,CSE-3D,lecture,MONDAY,10:00,10:50,A205
+Mr. Dr. Kumar P,Foundations of Artificial Intelligence,CSE-3D,lecture,WEDNESDAY,14:00,14:50,A108
+Mr. Dr. Kumar P,Foundations of Artificial Intelligence,CSE-3D,lab,MONDAY,15:50,17:30,JR2
+Mr. Dr. Kumar P,Foundations of Artificial Intelligence,CSE-3D,lab,FRIDAY,13:50,15:30,JR2
+Mr. Dr.S.Vinodhkumar,Foundations of Artificial Intelligence,CSE-3E,lecture,TUESDAY,09:00,09:50,A204
+Mr. Dr.S.Vinodhkumar,Foundations of Artificial Intelligence,CSE-3E,lecture,WEDNESDAY,11:00,11:50,A204
+Mr. Dr.S.Vinodhkumar,Foundations of Artificial Intelligence,CSE-3E,lecture,THURSDAY,12:00,12:50,A108
+Mr. Dr.S.Vinodhkumar,Foundations of Artificial Intelligence,CSE-3E,lab,TUESDAY,11:50,13:30,KSL03
+Mr. Dr.S.Vinodhkumar,Foundations of Artificial Intelligence,CSE-3E,lab,MONDAY,09:50,11:30,JL3
+Ms. Jaeyalakshmi M,Foundations of Artificial Intelligence,CSE-3F,lecture,MONDAY,08:00,08:50,A205
+Ms. Jaeyalakshmi M,Foundations of Artificial Intelligence,CSE-3F,lecture,WEDNESDAY,10:00,10:50,A205
+Ms. Jaeyalakshmi M,Foundations of Artificial Intelligence,CSE-3F,lecture,FRIDAY,13:00,13:50,A108
+Ms. Jaeyalakshmi M,Foundations of Artificial Intelligence,CSE-3F,lab,TUESDAY,09:50,11:30,JR2
+Ms. Jaeyalakshmi M,Foundations of Artificial Intelligence,CSE-3F,lab,TUESDAY,11:50,13:30,TLFL1
+Mrs. Dr.R.Sabitha,Project-1,CSE-4A,lab,THURSDAY,11:50,13:30,TLFL3
+Mrs. Dr.R.Sabitha,Project-1,CSE-4A,lab,FRIDAY,11:50,13:30,TLFL3
+Mrs. Dr.R.Sabitha,Project-1,CSE-4A,lab,WEDNESDAY,09:50,11:30,JR1
+Mrs. Dr.R.Sabitha,Project-1,CSE-4A,lab,TUESDAY,15:50,17:30,JR3
+Mrs. Dr.R.Sabitha,Project-1,CSE-4A,lab,THURSDAY,13:50,15:30,JR3
+Mrs. Dr.R.Sabitha,Project-1,CSE-4A,lab,MONDAY,13:50,15:30,KFL01
+Mr. Srinivasan N,Project-1,CSE-4B,lab,WEDNESDAY,09:50,11:30,JR2
+Mr. Srinivasan N,Project-1,CSE-4B,lab,FRIDAY,13:50,15:30,JR3
+Mr. Srinivasan N,Project-1,CSE-4B,lab,FRIDAY,15:50,17:30,JR3
+Mr. Srinivasan N,Project-1,CSE-4B,lab,TUESDAY,13:50,15:30,KFL01
+Mr. Srinivasan N,Project-1,CSE-4B,lab,WEDNESDAY,15:50,17:30,KFL01
+Mr. Srinivasan N,Project-1,CSE-4B,lab,THURSDAY,13:50,15:30,KFL01
+Mr. Dr.K.Anand,Project-1,CSE-4C,lab,MONDAY,11:50,13:30,TLFL1
+Mr. Dr.K.Anand,Project-1,CSE-4C,lab,THURSDAY,11:50,13:30,TLFL4
+Mr. Dr.K.Anand,Project-1,CSE-4C,lab,MONDAY,15:50,17:30,JR3
+Mr. Dr.K.Anand,Project-1,CSE-4C,lab,TUESDAY,15:50,17:30,KFL01
+Mr. Dr.K.Anand,Project-1,CSE-4C,lab,THURSDAY,15:50,17:30,KFL01
+Mr. Dr.K.Anand,Project-1,CSE-4C,lab,FRIDAY,13:50,15:30,KFL01
+Dr. Chettiyar Vani Vivekanand,Project-1,CSE-4D,lab,FRIDAY,15:50,17:30,KFL01
+Dr. Chettiyar Vani Vivekanand,Project-1,CSE-4D,lab,TUESDAY,13:50,15:30,KFL02
+Dr. Chettiyar Vani Vivekanand,Project-1,CSE-4D,lab,TUESDAY,15:50,17:30,KFL02
+Dr. Chettiyar Vani Vivekanand,Project-1,CSE-4D,lab,WEDNESDAY,13:50,15:30,KFL02
+Dr. Chettiyar Vani Vivekanand,Project-1,CSE-4D,lab,WEDNESDAY,15:50,17:30,KFL02
+Dr. Chettiyar Vani Vivekanand,Project-1,CSE-4D,lab,FRIDAY,13:50,15:30,KFL02
+Mr. Dr Parthasarathy C,Project-1,CSE-4E,lab,FRIDAY,08:00,09:40,JR1
+Mr. Dr Parthasarathy C,Project-1,CSE-4E,lab,FRIDAY,11:50,13:30,TLFL4
+Mr. Dr Parthasarathy C,Project-1,CSE-4E,lab,WEDNESDAY,09:50,11:30,JR3
+Mr. Dr Parthasarathy C,Project-1,CSE-4E,lab,MONDAY,15:50,17:30,KFL01
+Mr. Dr Parthasarathy C,Project-1,CSE-4E,lab,THURSDAY,13:50,15:30,KFL02
+Mr. Dr Parthasarathy C,Project-1,CSE-4E,lab,TUESDAY,15:50,17:30,KFL03
+Mr. Bhuvaneswaran B,Advanced Robotic Process Automation,CSE-4A,lab,MONDAY,08:00,09:40,JR1
+Mr. Bhuvaneswaran B,Advanced Robotic Process Automation,CSE-4A,lab,TUESDAY,11:50,13:30,TLFL2
+Mr. Bhuvaneswaran B,Advanced Robotic Process Automation,CSE-4A,lab,THURSDAY,15:50,17:30,KFL02
+Mr. Bhuvaneswaran B,Advanced Robotic Process Automation,CSE-4A,lab,FRIDAY,08:00,09:40,JR2
+Mr. Bhuvaneswaran B,Advanced Robotic Process Automation,CSE-4A,lab,MONDAY,11:50,13:30,TLFL2
+Mr. Bhuvaneswaran B,Advanced Robotic Process Automation,CSE-4A,lab,WEDNESDAY,11:50,13:30,TLFL5
+Mr. Dr. N. Duraimurugan,Advanced Robotic Process Automation,CSE-4B,lab,MONDAY,09:50,11:30,JR1
+Mr. Dr. N. Duraimurugan,Advanced Robotic Process Automation,CSE-4B,lab,TUESDAY,11:50,13:30,TLFL3
+Mr. Dr. N. Duraimurugan,Advanced Robotic Process Automation,CSE-4B,lab,WEDNESDAY,13:50,15:30,KFL03
+Mr. Dr. N. Duraimurugan,Advanced Robotic Process Automation,CSE-4B,lab,FRIDAY,09:50,11:30,JR2
+Mr. Dr. N. Duraimurugan,Advanced Robotic Process Automation,CSE-4B,lab,MONDAY,11:50,13:30,TLFL3
+Mr. Dr. N. Duraimurugan,Advanced Robotic Process Automation,CSE-4B,lab,THURSDAY,11:50,13:30,TLFL5
+Mr. Bhuvaneswaran B,Advanced Robotic Process Automation,CSE-4C,lab,FRIDAY,11:50,13:30,TLFL5
+Mr. Bhuvaneswaran B,Advanced Robotic Process Automation,CSE-4C,lab,TUESDAY,08:00,09:40,JR3
+Mr. Bhuvaneswaran B,Advanced Robotic Process Automation,CSE-4C,lab,MONDAY,13:50,15:30,KFL02
+Mr. Bhuvaneswaran B,Advanced Robotic Process Automation,CSE-4C,lab,TUESDAY,13:50,15:30,KFL03
+Mr. Bhuvaneswaran B,Advanced Robotic Process Automation,CSE-4C,lab,WEDNESDAY,15:50,17:30,KFL03
+Mr. Bhuvaneswaran B,Advanced Robotic Process Automation,CSE-4C,lab,THURSDAY,13:50,15:30,KFL03
+Mr. Dr. N. Duraimurugan,Advanced Robotic Process Automation,CSE-4D,lab,FRIDAY,11:50,13:30,TLFR1
+Mr. Dr. N. Duraimurugan,Advanced Robotic Process Automation,CSE-4D,lab,TUESDAY,09:50,11:30,JR3
+Mr. Dr. N. Duraimurugan,Advanced Robotic Process Automation,CSE-4D,lab,MONDAY,15:50,17:30,KFL02
+Mr. Dr. N. Duraimurugan,Advanced Robotic Process Automation,CSE-4D,lab,FRIDAY,15:50,17:30,KFL02
+Mr. Dr. N. Duraimurugan,Advanced Robotic Process Automation,CSE-4D,lab,THURSDAY,15:50,17:30,KFL03
+Mr. Dr. N. Duraimurugan,Advanced Robotic Process Automation,CSE-4D,lab,TUESDAY,13:50,15:30,KFR01
+Mr. Bhuvaneswaran B,Advanced Robotic Process Automation,CSE-4E,lab,FRIDAY,13:50,15:30,KFL03
+Mr. Bhuvaneswaran B,Advanced Robotic Process Automation,CSE-4E,lab,WEDNESDAY,13:50,15:30,KFR01
+Mr. Bhuvaneswaran B,Advanced Robotic Process Automation,CSE-4E,lab,THURSDAY,11:50,13:30,TLFR1
+Mr. Bhuvaneswaran B,Advanced Robotic Process Automation,CSE-4E,lab,THURSDAY,09:50,11:30,JR3
+Mr. Bhuvaneswaran B,Advanced Robotic Process Automation,CSE-4E,lab,WEDNESDAY,09:50,11:30,KFL01
+Mr. Bhuvaneswaran B,Advanced Robotic Process Automation,CSE-4E,lab,FRIDAY,15:50,17:30,KFL03
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4A,lab,MONDAY,15:50,17:30,KFL03
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4A,lab,TUESDAY,15:50,17:30,KFR01
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4A,lab,MONDAY,10:00,10:50,JL1
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4A,lab,TUESDAY,10:00,10:50,JL1
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4A,lab,FRIDAY,10:00,10:50,JL1
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4A,lab,MONDAY,08:00,09:40,JR2
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4B,lab,FRIDAY,08:00,09:40,JR3
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4B,lab,TUESDAY,08:00,09:40,KFL01
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4B,lab,THURSDAY,09:50,11:30,KFL01
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4B,lab,WEDNESDAY,09:50,11:30,KFL02
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4B,lab,TUESDAY,11:50,13:30,TLFL4
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4B,lab,WEDNESDAY,11:50,13:30,TLFR1
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4C,lab,WEDNESDAY,15:50,17:30,KFR01
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4C,lab,THURSDAY,13:50,15:30,KFR01
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4C,lab,THURSDAY,15:50,17:30,KFR01
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4C,lab,MONDAY,11:50,13:30,TLFL4
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4C,lab,THURSDAY,11:50,13:30,TLFR2
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4C,lab,FRIDAY,11:50,13:30,TLFR2
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4D,lab,MONDAY,13:50,15:30,KFL03
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4D,lab,FRIDAY,13:50,15:30,KFR01
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4D,lab,WEDNESDAY,13:50,15:30,KFR02
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4D,lab,WEDNESDAY,18:00,18:50,JL1
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4D,lab,THURSDAY,18:00,18:50,JL1
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4D,lab,MONDAY,18:00,18:50,JL1
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4E,lab,FRIDAY,15:50,17:30,KFR01
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4E,lab,TUESDAY,13:50,15:30,KFR02
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4E,lab,TUESDAY,18:00,18:50,JL1
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4E,lab,FRIDAY,18:00,18:50,JL1
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4E,lab,WEDNESDAY,08:00,08:50,JL1
+Mr. Bhuvaneswaran B,Advanced Application Development with Oracle APEX,CSE-4E,lab,THURSDAY,08:00,08:50,JL1
+Mr. Ayyadurai M,Cloud Computing,CSE-4A,lecture,WEDNESDAY,08:00,08:50,A205
+Mr. Ayyadurai M,Cloud Computing,CSE-4A,lecture,FRIDAY,11:00,11:50,A208
+Mr. Ayyadurai M,Cloud Computing,CSE-4A,lab,WEDNESDAY,11:50,13:30,TLFR2
+Mr. Ayyadurai M,Cloud Computing,CSE-4A,lab,TUESDAY,11:50,13:30,TLFL5
+Mr.Vasu Vadlamani,Cloud Computing,CSE-4B,lecture,THURSDAY,09:00,09:50,A204
+Mr.Vasu Vadlamani,Cloud Computing,CSE-4B,lecture,TUESDAY,10:00,10:50,A208
+Mr.Vasu Vadlamani,Cloud Computing,CSE-4B,lab,MONDAY,13:50,15:30,KFR01
+Mr.Vasu Vadlamani,Cloud Computing,CSE-4B,lab,WEDNESDAY,08:00,09:40,JR3
+Mrs. Santhiya M,Cloud Computing,CSE-4C,lecture,WEDNESDAY,13:00,13:50,A108
+Mrs. Santhiya M,Cloud Computing,CSE-4C,lecture,WEDNESDAY,15:00,15:50,A108
+Mrs. Santhiya M,Cloud Computing,CSE-4C,lab,FRIDAY,13:50,15:30,KFR02
+Mrs. Santhiya M,Cloud Computing,CSE-4C,lab,MONDAY,13:50,15:30,KFR02
+Mr. V Karthick,Cloud Computing,CSE-4D,lecture,TUESDAY,08:00,08:50,A205
+Mr. V Karthick,Cloud Computing,CSE-4D,lecture,WEDNESDAY,11:00,11:50,A205
+Mr. V Karthick,Cloud Computing,CSE-4D,lab,MONDAY,11:50,13:30,TLFL5
+Mr. V Karthick,Cloud Computing,CSE-4D,lab,TUESDAY,09:50,11:30,KFL01
+Mr. Ayyadurai M,Cloud Computing,CSE-4E,lecture,MONDAY,10:00,10:50,A208
+Mr. Ayyadurai M,Cloud Computing,CSE-4E,lecture,MONDAY,08:00,08:50,A208
+Mr. Ayyadurai M,Cloud Computing,CSE-4E,lab,TUESDAY,15:50,17:30,KFR02
+Mr. Ayyadurai M,Cloud Computing,CSE-4E,lab,THURSDAY,15:50,17:30,KFR02
+Mrs. S.Ponmani,INFORMATION SECURITY AND MANAGEMENT,CSE-4A,lecture,TUESDAY,09:00,09:50,A205
+Mrs. S.Ponmani,INFORMATION SECURITY AND MANAGEMENT,CSE-4A,lecture,THURSDAY,11:00,11:50,A205
+Mrs. S.Ponmani,INFORMATION SECURITY AND MANAGEMENT,CSE-4A,lab,WEDNESDAY,15:50,17:30,KFR02
+Mrs. S.Ponmani,INFORMATION SECURITY AND MANAGEMENT,CSE-4A,lab,MONDAY,09:50,11:30,JR2
+Mrs. Dr.R.Sabitha,INFORMATION SECURITY AND MANAGEMENT,CSE-4B,lecture,MONDAY,18:00,18:50,A103
+Mrs. Dr.R.Sabitha,INFORMATION SECURITY AND MANAGEMENT,CSE-4B,lecture,TUESDAY,18:00,18:50,A103
+Mrs. Dr.R.Sabitha,INFORMATION SECURITY AND MANAGEMENT,CSE-4B,lab,TUESDAY,13:50,15:30,KFR03
+Mrs. Dr.R.Sabitha,INFORMATION SECURITY AND MANAGEMENT,CSE-4B,lab,WEDNESDAY,13:50,15:30,KFR03
+Mrs. S.Ponmani,INFORMATION SECURITY AND MANAGEMENT,CSE-4C,lecture,FRIDAY,10:00,10:50,A205
+Mrs. S.Ponmani,INFORMATION SECURITY AND MANAGEMENT,CSE-4C,lecture,TUESDAY,11:00,11:50,A208
+Mrs. S.Ponmani,INFORMATION SECURITY AND MANAGEMENT,CSE-4C,lab,FRIDAY,08:00,09:40,KFL01
+Mrs. S.Ponmani,INFORMATION SECURITY AND MANAGEMENT,CSE-4C,lab,MONDAY,15:50,17:30,KFR01
+Mrs. Dr.R.Sabitha,INFORMATION SECURITY AND MANAGEMENT,CSE-4D,lecture,WEDNESDAY,08:00,08:50,A208
+Mrs. Dr.R.Sabitha,INFORMATION SECURITY AND MANAGEMENT,CSE-4D,lecture,THURSDAY,10:00,10:50,A208
+Mrs. Dr.R.Sabitha,INFORMATION SECURITY AND MANAGEMENT,CSE-4D,lab,MONDAY,09:50,11:30,JR3
+Mrs. Dr.R.Sabitha,INFORMATION SECURITY AND MANAGEMENT,CSE-4D,lab,MONDAY,11:50,13:30,TLFR1
+Mrs. S.Ponmani,INFORMATION SECURITY AND MANAGEMENT,CSE-4E,lecture,MONDAY,12:00,12:50,A109
+Mrs. S.Ponmani,INFORMATION SECURITY AND MANAGEMENT,CSE-4E,lecture,MONDAY,14:00,14:50,A109
+Mrs. S.Ponmani,INFORMATION SECURITY AND MANAGEMENT,CSE-4E,lab,THURSDAY,13:50,15:30,KFR02
+Mrs. S.Ponmani,INFORMATION SECURITY AND MANAGEMENT,CSE-4E,lab,FRIDAY,11:50,13:30,TLFR3
+Mr. Vijayakumar R,Python Programming for Design,CSD-2A,lab,MONDAY,08:00,09:40,JR3
+Mr. Vijayakumar R,Python Programming for Design,CSD-2A,lab,TUESDAY,11:50,13:30,TLFR1
+Mr. Vijayakumar R,Python Programming for Design,CSD-2A,lab,FRIDAY,15:50,17:30,KFR02
+Mr. Vijayakumar R,Python Programming for Design,CSD-2A,lab,WEDNESDAY,08:00,09:40,KFL01
+Mr. Vijayakumar R,Python Programming for Design,CSD-2A,lab,MONDAY,11:50,13:30,TLFR2
+Mr. Vijayakumar R,Python Programming for Design,CSD-2A,lab,WEDNESDAY,11:50,13:30,TLFR3
+Mrs. Revathy Padmanabhan,Design and Analysis of Algorithms,CSD-2A,lecture,THURSDAY,08:00,08:50,A205
+Mrs. Revathy Padmanabhan,Design and Analysis of Algorithms,CSD-2A,lecture,MONDAY,11:00,11:50,A208
+Mrs. Revathy Padmanabhan,Design and Analysis of Algorithms,CSD-2A,lecture,WEDNESDAY,16:00,16:50,A108
+Mrs. Revathy Padmanabhan,Design and Analysis of Algorithms,CSD-2A,lab,FRIDAY,09:50,11:30,JR3
+Mrs. Revathy Padmanabhan,Design and Analysis of Algorithms,CSD-2A,lab,THURSDAY,09:50,11:30,KFL02
+Mrs. Kalpana D,Database Management Systems,CSD-2A,lecture,THURSDAY,09:00,09:50,A205
+Mrs. Kalpana D,Database Management Systems,CSD-2A,lecture,WEDNESDAY,10:00,10:50,A208
+Mrs. Kalpana D,Database Management Systems,CSD-2A,lecture,FRIDAY,12:00,12:50,A108
+Mrs. Kalpana D,Database Management Systems,CSD-2A,lab,TUESDAY,08:00,09:40,KFL02
+Mrs. Kalpana D,Database Management Systems,CSD-2A,lab,MONDAY,11:50,13:30,TLFR3
+Mrs. Kalpana D,Database Management Systems,CSD-2A,lab,TUESDAY,11:50,13:30,TLFR2
+Mrs. Kalpana D,Database Management Systems,CSD-2A,lab,THURSDAY,11:50,13:30,TLFR3
+Mrs. J.Julie,Discrete Mathematics for AI,CSD-2A,lecture,FRIDAY,08:00,08:50,A205
+Mrs. J.Julie,Discrete Mathematics for AI,CSD-2A,lecture,WEDNESDAY,11:00,11:50,A208
+Mrs. J.Julie,Discrete Mathematics for AI,CSD-2A,lecture,MONDAY,15:00,15:50,A109
+Mrs. J.Julie,Discrete Mathematics for AI,CSD-2A,tutorial,TUESDAY,10:00,10:50,A209
+Mr. S Pradeep Kumar,Design Processes and Perspectives,CSD-2A,lecture,FRIDAY,09:00,09:50,A205
+Mr. S Pradeep Kumar,Design Processes and Perspectives,CSD-2A,lecture,MONDAY,10:00,10:50,A209
+Mr. S Pradeep Kumar,Design Processes and Perspectives,CSD-2A,lecture,TUESDAY,14:00,14:50,A109
+Mr. S Pradeep Kumar,Design Processes and Perspectives,CSD-2A,lab,WEDNESDAY,08:00,09:40,KFL02
+Mr. S Pradeep Kumar,Design Processes and Perspectives,CSD-2A,lab,MONDAY,15:50,17:30,KFR02
+New Staff - 01,UI and UX design,CSD-2A,lecture,TUESDAY,11:00,11:50,A209
+New Staff - 01,UI and UX design,CSD-2A,lecture,FRIDAY,15:00,15:50,A108
+New Staff - 01,UI and UX design,CSD-2A,lab,THURSDAY,09:50,11:30,KFL03
+New Staff - 01,UI and UX design,CSD-2A,lab,WEDNESDAY,11:50,13:30,TLFR4
+New Staff - 01,UI and UX design,CSD-2A,lab,MONDAY,08:00,09:40,KFL01
+New Staff - 01,UI and UX design,CSD-2A,lab,TUESDAY,08:00,09:40,KFL03
+Dr. Gunasekar S,Operating Systems,CSD-3A,lecture,MONDAY,09:00,09:50,A205
+Dr. Gunasekar S,Operating Systems,CSD-3A,lecture,THURSDAY,11:00,11:50,A208
+Dr. Gunasekar S,Operating Systems,CSD-3A,lecture,TUESDAY,12:00,12:50,A109
+Dr. Gunasekar S,Operating Systems,CSD-3A,lab,FRIDAY,09:50,11:30,KFL01
+Dr. Gunasekar S,Operating Systems,CSD-3A,lab,MONDAY,11:50,13:30,TLFR4
+Dr. Gunasekar S,Operating Systems,CSD-3A,lab,FRIDAY,11:50,13:30,TLFR4
+Dr. Gunasekar S,Operating Systems,CSD-3A,lab,WEDNESDAY,11:50,13:30,TLFR5
+Mrs. Kalpana D,Design Thinking and Innovation,CSD-3A,lab,WEDNESDAY,11:50,13:30,TLGL1
+Mrs. Kalpana D,Design Thinking and Innovation,CSD-3A,lab,MONDAY,09:50,11:30,KFL01
+Mrs. Kalpana D,Design Thinking and Innovation,CSD-3A,lab,MONDAY,13:50,15:30,KFR03
+Mrs. Kalpana D,Design Thinking and Innovation,CSD-3A,lab,WEDNESDAY,15:50,17:30,KFR03
+Mr. S Umamaheswararao,3D Modelling and Texturing,CSD-3A,lecture,WEDNESDAY,09:00,09:50,A205
+Mr. S Umamaheswararao,3D Modelling and Texturing,CSD-3A,lecture,THURSDAY,10:00,10:50,A209
+Mr. S Umamaheswararao,3D Modelling and Texturing,CSD-3A,lab,MONDAY,15:50,17:30,KFR03
+Mr. S Umamaheswararao,3D Modelling and Texturing,CSD-3A,lab,TUESDAY,09:50,11:30,KFL02
+Mr. Thirumalairajan G,Web Programming,CSD-3A,lecture,TUESDAY,08:00,08:50,A208
+Mr. Thirumalairajan G,Web Programming,CSD-3A,lecture,WEDNESDAY,10:00,10:50,A209
+Mr. Thirumalairajan G,Web Programming,CSD-3A,lecture,THURSDAY,12:00,12:50,A109
+Mr. Thirumalairajan G,Web Programming,CSD-3A,lab,FRIDAY,08:00,09:40,KFL02
+Mr. Thirumalairajan G,Web Programming,CSD-3A,lab,TUESDAY,09:50,11:30,KFL03
+Mr. Thirumalairajan G,Web Programming,CSD-3A,lab,MONDAY,11:50,13:30,TLFR5
+Mr. Thirumalairajan G,Web Programming,CSD-3A,lab,MONDAY,09:50,11:30,KFL02
+Mr. Vijayakumar R,Graphics and Multimedia,CSD-3A,lecture,THURSDAY,08:00,08:50,A208
+Mr. Vijayakumar R,Graphics and Multimedia,CSD-3A,lecture,TUESDAY,15:00,15:50,A109
+Mr. Vijayakumar R,Graphics and Multimedia,CSD-3A,lab,THURSDAY,13:50,15:30,KFR03
+Mr. Vijayakumar R,Graphics and Multimedia,CSD-3A,lab,FRIDAY,13:50,15:30,KFR03
+Mr. S Umamaheswararao,Introduction to 3D Animation,CSD-4A,lecture,FRIDAY,10:00,10:50,A208
+Dr. K.Vigneshwaran,3D Printing and Design,CSD-4A,lecture,MONDAY,09:00,09:50,A208
+Dr. K.Vigneshwaran,3D Printing and Design,CSD-4A,lecture,WEDNESDAY,11:00,11:50,A209
+Dr. K.Vigneshwaran,3D Printing and Design,CSD-4A,lecture,TUESDAY,13:00,13:50,A109
+Dr. K.Vigneshwaran,3D Printing and Design,CSD-4A,lab,THURSDAY,08:00,09:40,KFL02
+Dr. K.Vigneshwaran,3D Printing and Design,CSD-4A,lab,THURSDAY,11:50,13:30,TLFR4
+Dr. K.Vigneshwaran,3D Printing and Design,CSD-4A,lab,FRIDAY,11:50,13:30,TLFR5
+Dr. K.Vigneshwaran,3D Printing and Design,CSD-4A,lab,MONDAY,11:50,13:30,TLGL1
+Mr. S Pradeep Kumar,Project-I,CSD-4A,lab,FRIDAY,11:50,13:30,TLGL1
+Mr. S Pradeep Kumar,Project-I,CSD-4A,lab,MONDAY,11:50,13:30,TLGL2
+Mr. S Pradeep Kumar,Project-I,CSD-4A,lab,WEDNESDAY,11:50,13:30,TLGL2
+Mr. S Pradeep Kumar,Project-I,CSD-4A,lab,THURSDAY,11:50,13:30,TLFR5
+Mr. S Pradeep Kumar,Project-I,CSD-4A,lab,THURSDAY,08:00,09:40,KFL03
+Mr. S Pradeep Kumar,Project-I,CSD-4A,lab,TUESDAY,15:50,17:30,KFR03
+Dr. Gunasekar S,Foundations of Machine Learning Concepts,CSD-4A,lecture,FRIDAY,08:00,08:50,A208
+Dr. Gunasekar S,Foundations of Machine Learning Concepts,CSD-4A,lecture,WEDNESDAY,10:00,10:50,A210
+Dr. Gunasekar S,Foundations of Machine Learning Concepts,CSD-4A,lab,WEDNESDAY,08:00,09:40,KFL03
+Dr. Gunasekar S,Foundations of Machine Learning Concepts,CSD-4A,lab,THURSDAY,15:50,17:30,KFR03
+New Staff - 01,Fundamentals of Video for Engineers,CSD-4A,lecture,MONDAY,11:00,11:50,A209
+New Staff - 01,Fundamentals of Video for Engineers,CSD-4A,lecture,MONDAY,16:00,16:50,A109
+New Staff - 01,Fundamentals of Video for Engineers,CSD-4A,lecture,WEDNESDAY,14:00,14:50,A109
+Mr. Thirumalairajan G,Digital Media Entrepreneurship,CSD-4A,lecture,MONDAY,08:00,08:50,A209
+Mr. Thirumalairajan G,Digital Media Entrepreneurship,CSD-4A,lecture,FRIDAY,11:00,11:50,A209
+Mr. Thirumalairajan G,Digital Media Entrepreneurship,CSD-4A,lab,TUESDAY,13:50,15:30,KSL03
+Mr. Thirumalairajan G,Digital Media Entrepreneurship,CSD-4A,lab,WEDNESDAY,11:50,13:30,TLGL3
+Mr. Magesh M P,Fundamentals of Machine Learning,AIML-2A,lecture,TUESDAY,09:00,09:50,A208
+Mr. Magesh M P,Fundamentals of Machine Learning,AIML-2A,lecture,THURSDAY,11:00,11:50,A209
+Mr. Magesh M P,Fundamentals of Machine Learning,AIML-2A,lecture,MONDAY,13:00,13:50,A109
+Mr. Magesh M P,Fundamentals of Machine Learning,AIML-2A,lab,FRIDAY,09:50,11:30,KFL02
+Mr. Magesh M P,Fundamentals of Machine Learning,AIML-2A,lab,TUESDAY,11:50,13:30,TLFR3
+Mrs. Priya M,Fundamentals of Machine Learning,AIML-2B,lecture,WEDNESDAY,09:00,09:50,A208
+Mrs. Priya M,Fundamentals of Machine Learning,AIML-2B,lecture,FRIDAY,10:00,10:50,A209
+Mrs. Priya M,Fundamentals of Machine Learning,AIML-2B,lecture,TUESDAY,16:00,16:50,A109
+Mrs. Priya M,Fundamentals of Machine Learning,AIML-2B,lab,MONDAY,08:00,09:40,KFL02
+Mrs. Priya M,Fundamentals of Machine Learning,AIML-2B,lab,THURSDAY,11:50,13:30,TLGL1
+Mrs. J Jasmine Gabriel,Fundamentals of Machine Learning,AIML-2C,lecture,THURSDAY,09:00,09:50,A208
+Mrs. J Jasmine Gabriel,Fundamentals of Machine Learning,AIML-2C,lecture,MONDAY,10:00,10:50,A210
+Mrs. J Jasmine Gabriel,Fundamentals of Machine Learning,AIML-2C,lecture,WEDNESDAY,12:00,12:50,A109
+Mrs. J Jasmine Gabriel,Fundamentals of Machine Learning,AIML-2C,lab,FRIDAY,08:00,09:40,KFL03
+Mrs. J Jasmine Gabriel,Fundamentals of Machine Learning,AIML-2C,lab,TUESDAY,11:50,13:30,TLFR4
+New Faculty Humanities & Sciences (PLACEHOLDER),Fundamentals of Machine Learning,AIML-2D,lecture,FRIDAY,09:00,09:50,A208
+New Faculty Humanities & Sciences (PLACEHOLDER),Fundamentals of Machine Learning,AIML-2D,lecture,MONDAY,11:00,11:50,A210
+New Faculty Humanities & Sciences (PLACEHOLDER),Fundamentals of Machine Learning,AIML-2D,lecture,WEDNESDAY,13:00,13:50,A109
+New Faculty Humanities & Sciences (PLACEHOLDER),Fundamentals of Machine Learning,AIML-2D,lab,TUESDAY,08:00,09:40,KFR01
+New Faculty Humanities & Sciences (PLACEHOLDER),Fundamentals of Machine Learning,AIML-2D,lab,TUESDAY,11:50,13:30,TLFR5
+New Staff - 05,Design and Analysis of Algorithms,AIML-2A,lecture,MONDAY,09:00,09:50,A209
+New Staff - 05,Design and Analysis of Algorithms,AIML-2A,lecture,TUESDAY,10:00,10:50,A210
+New Staff - 05,Design and Analysis of Algorithms,AIML-2A,lecture,WEDNESDAY,15:00,15:50,A109
+New Staff - 05,Design and Analysis of Algorithms,AIML-2A,lab,THURSDAY,08:00,09:40,KFR01
+New Staff - 05,Design and Analysis of Algorithms,AIML-2A,lab,THURSDAY,11:50,13:30,TLGL2
+Dr. Raja Ramamoorthi,Design and Analysis of Algorithms,AIML-2B,lecture,TUESDAY,08:00,08:50,A209
+Dr. Raja Ramamoorthi,Design and Analysis of Algorithms,AIML-2B,lecture,WEDNESDAY,11:00,11:50,A210
+Dr. Raja Ramamoorthi,Design and Analysis of Algorithms,AIML-2B,lecture,THURSDAY,14:00,14:50,A109
+Dr. Raja Ramamoorthi,Design and Analysis of Algorithms,AIML-2B,lab,MONDAY,09:50,11:30,KFL03
+Dr. Raja Ramamoorthi,Design and Analysis of Algorithms,AIML-2B,lab,TUESDAY,09:50,11:30,KFR01
+Mrs. Divya S,Design and Analysis of Algorithms,AIML-2C,lecture,TUESDAY,09:00,09:50,A209
+Mrs. Divya S,Design and Analysis of Algorithms,AIML-2C,lecture,THURSDAY,10:00,10:50,A210
+Mrs. Divya S,Design and Analysis of Algorithms,AIML-2C,lecture,WEDNESDAY,16:00,16:50,A109
+Mrs. Divya S,Design and Analysis of Algorithms,AIML-2C,lab,MONDAY,08:00,09:40,KFL03
+Mrs. Divya S,Design and Analysis of Algorithms,AIML-2C,lab,FRIDAY,11:50,13:30,TLGL2
+New Staff - 05,Design and Analysis of Algorithms,AIML-2D,lecture,FRIDAY,10:00,10:50,A210
+New Staff - 05,Design and Analysis of Algorithms,AIML-2D,lecture,THURSDAY,10:00,10:50,A211
+New Staff - 05,Design and Analysis of Algorithms,AIML-2D,lecture,FRIDAY,08:00,08:50,A209
+New Staff - 05,Design and Analysis of Algorithms,AIML-2D,lab,TUESDAY,11:50,13:30,TLGL1
+New Staff - 05,Design and Analysis of Algorithms,AIML-2D,lab,MONDAY,11:50,13:30,TLGL3
+Mr. Kumaran U,Database Management Systems,AIML-2A,lecture,WEDNESDAY,08:00,08:50,A209
+Mr. Kumaran U,Database Management Systems,AIML-2A,lecture,TUESDAY,11:00,11:50,A210
+Mr. Kumaran U,Database Management Systems,AIML-2A,lecture,THURSDAY,15:00,15:50,A109
+Mr. Kumaran U,Database Management Systems,AIML-2A,lab,WEDNESDAY,09:50,11:30,KFL03
+Mr. Kumaran U,Database Management Systems,AIML-2A,lab,MONDAY,09:50,11:30,KFR01
+Mr. Kumaran U,Database Management Systems,AIML-2A,lab,FRIDAY,11:50,13:30,TLGL3
+Mr. Kumaran U,Database Management Systems,AIML-2A,lab,WEDNESDAY,11:50,13:30,TLGL4
+Ms. R.Anitha,Database Management Systems,AIML-2B,lecture,THURSDAY,08:00,08:50,A209
+Ms. R.Anitha,Database Management Systems,AIML-2B,lecture,FRIDAY,11:00,11:50,A210
+Ms. R.Anitha,Database Management Systems,AIML-2B,lecture,MONDAY,12:00,12:50,A110
+Ms. R.Anitha,Database Management Systems,AIML-2B,lab,THURSDAY,09:50,11:30,KFR01
+Ms. R.Anitha,Database Management Systems,AIML-2B,lab,TUESDAY,09:50,11:30,KFR02
+Ms. R.Anitha,Database Management Systems,AIML-2B,lab,TUESDAY,11:50,13:30,TLGL2
+Ms. R.Anitha,Database Management Systems,AIML-2B,lab,WEDNESDAY,11:50,13:30,TLSL1
+Ms. Saranya S,Database Management Systems,AIML-2C,lecture,WEDNESDAY,09:00,09:50,A209
+Ms. Saranya S,Database Management Systems,AIML-2C,lecture,THURSDAY,11:00,11:50,A210
+Ms. Saranya S,Database Management Systems,AIML-2C,lecture,FRIDAY,14:00,14:50,A109
+Ms. Saranya S,Database Management Systems,AIML-2C,lab,TUESDAY,09:50,11:30,KFR03
+Ms. Saranya S,Database Management Systems,AIML-2C,lab,TUESDAY,11:50,13:30,TLGL3
+Ms. Saranya S,Database Management Systems,AIML-2C,lab,MONDAY,11:50,13:30,TLGL4
+Ms. Saranya S,Database Management Systems,AIML-2C,lab,MONDAY,08:00,09:40,KFR01
+AIML  NS2,Database Management Systems,AIML-2D,lecture,THURSDAY,09:00,09:50,A209
+AIML  NS2,Database Management Systems,AIML-2D,lecture,MONDAY,10:00,10:50,A211
+AIML  NS2,Database Management Systems,AIML-2D,lecture,FRIDAY,12:00,12:50,A109
+AIML  NS2,Database Management Systems,AIML-2D,lab,WEDNESDAY,08:00,09:40,KFR01
+AIML  NS2,Database Management Systems,AIML-2D,lab,THURSDAY,11:50,13:30,TLGL3
+AIML  NS2,Database Management Systems,AIML-2D,lab,TUESDAY,08:00,09:40,KFR02
+AIML  NS2,Database Management Systems,AIML-2D,lab,FRIDAY,15:50,17:30,KFR03
+Mr. J.Venkatamuthukumar,Environmental Science and Engineering,AIML-2A,lecture,FRIDAY,09:00,09:50,A209
+Mr. J.Venkatamuthukumar,Environmental Science and Engineering,AIML-2A,lecture,THURSDAY,10:00,10:50,A302
+Mr. J.Venkatamuthukumar,Environmental Science and Engineering,AIML-2A,lecture,MONDAY,14:00,14:50,A110
+Mr. Dr.P Vasudevan,Environmental Science and Engineering,AIML-2B,lecture,TUESDAY,09:00,09:50,A210
+Mr. Dr.P Vasudevan,Environmental Science and Engineering,AIML-2B,lecture,WEDNESDAY,10:00,10:50,A211
+Mr. Dr.P Vasudevan,Environmental Science and Engineering,AIML-2B,lecture,THURSDAY,16:00,16:50,A109
+Mr. M Sankar Kumar,Environmental Science and Engineering,AIML-2C,lecture,TUESDAY,08:00,08:50,A210
+Mr. M Sankar Kumar,Environmental Science and Engineering,AIML-2C,lecture,MONDAY,11:00,11:50,A211
+Mr. M Sankar Kumar,Environmental Science and Engineering,AIML-2C,lecture,THURSDAY,13:00,13:50,A109
+Dr. Mahesh R,Environmental Science and Engineering,AIML-2D,lecture,MONDAY,08:00,08:50,A210
+Dr. Mahesh R,Environmental Science and Engineering,AIML-2D,lecture,TUESDAY,10:00,10:50,A211
+Dr. Mahesh R,Environmental Science and Engineering,AIML-2D,lecture,FRIDAY,13:00,13:50,A109
+Ms. Manasa K,Discrete Mathematics for AI,AIML-2A,lecture,WEDNESDAY,09:00,09:50,A210
+Ms. Manasa K,Discrete Mathematics for AI,AIML-2A,lecture,FRIDAY,15:00,15:50,A109
+Ms. Manasa K,Discrete Mathematics for AI,AIML-2A,lecture,MONDAY,08:00,08:50,A211
+Ms. Manasa K,Discrete Mathematics for AI,AIML-2A,tutorial,TUESDAY,08:00,08:50,A211
+Mrs. S.Vasanthi,Discrete Mathematics for AI,AIML-2B,lecture,WEDNESDAY,08:00,08:50,A210
+Mrs. S.Vasanthi,Discrete Mathematics for AI,AIML-2B,lecture,FRIDAY,16:00,16:50,A109
+Mrs. S.Vasanthi,Discrete Mathematics for AI,AIML-2B,lecture,THURSDAY,09:00,09:50,A210
+Mrs. S.Vasanthi,Discrete Mathematics for AI,AIML-2B,tutorial,MONDAY,13:00,13:50,A110
+Mrs. Anbarasi.V,Discrete Mathematics for AI,AIML-2C,lecture,THURSDAY,08:00,08:50,A210
+Mrs. Anbarasi.V,Discrete Mathematics for AI,AIML-2C,lecture,WEDNESDAY,11:00,11:50,A211
+Mrs. Anbarasi.V,Discrete Mathematics for AI,AIML-2C,lecture,MONDAY,15:00,15:50,A110
+Mrs. Anbarasi.V,Discrete Mathematics for AI,AIML-2C,tutorial,FRIDAY,10:00,10:50,A211
+Mrs. V. Shakila,Discrete Mathematics for AI,AIML-2D,lecture,MONDAY,09:00,09:50,A210
+Mrs. V. Shakila,Discrete Mathematics for AI,AIML-2D,lecture,TUESDAY,11:00,11:50,A211
+Mrs. V. Shakila,Discrete Mathematics for AI,AIML-2D,lecture,WEDNESDAY,12:00,12:50,A110
+Mrs. V. Shakila,Discrete Mathematics for AI,AIML-2D,tutorial,THURSDAY,08:00,08:50,A211
+Mrs. Sree Subha S,Object Oriented Programming Using JAVA,AIML-2A,lecture,FRIDAY,08:00,08:50,A210
+Mrs. Sree Subha S,Object Oriented Programming Using JAVA,AIML-2A,lecture,MONDAY,16:00,16:50,A110
+Mrs. Sree Subha S,Object Oriented Programming Using JAVA,AIML-2A,lecture,TUESDAY,14:00,14:50,A110
+Mrs. Sree Subha S,Object Oriented Programming Using JAVA,AIML-2A,lab,TUESDAY,11:50,13:30,TLGL4
+Mrs. Sree Subha S,Object Oriented Programming Using JAVA,AIML-2A,lab,THURSDAY,11:50,13:30,TLGL4
+Mrs. Sree Subha S,Object Oriented Programming Using JAVA,AIML-2A,lab,FRIDAY,09:50,11:30,KFL03
+Mrs. Sree Subha S,Object Oriented Programming Using JAVA,AIML-2A,lab,WEDNESDAY,09:50,11:30,KFR01
+Mrs. Sowmia K R,Object Oriented Programming Using JAVA,AIML-2B,lecture,FRIDAY,09:00,09:50,A210
+Mrs. Sowmia K R,Object Oriented Programming Using JAVA,AIML-2B,lecture,TUESDAY,15:00,15:50,A110
+Mrs. Sowmia K R,Object Oriented Programming Using JAVA,AIML-2B,lecture,WEDNESDAY,14:00,14:50,A110
+Mrs. Sowmia K R,Object Oriented Programming Using JAVA,AIML-2B,lab,TUESDAY,11:50,13:30,TLSL1
+Mrs. Sowmia K R,Object Oriented Programming Using JAVA,AIML-2B,lab,FRIDAY,11:50,13:30,TLGL4
+Mrs. Sowmia K R,Object Oriented Programming Using JAVA,AIML-2B,lab,MONDAY,08:00,09:40,KFR02
+Mrs. Sowmia K R,Object Oriented Programming Using JAVA,AIML-2B,lab,THURSDAY,09:50,11:30,KFR02
+AIML  NS4,Object Oriented Programming Using JAVA,AIML-2C,lecture,WEDNESDAY,08:00,08:50,A211
+AIML  NS4,Object Oriented Programming Using JAVA,AIML-2C,lecture,FRIDAY,11:00,11:50,A211
+AIML  NS4,Object Oriented Programming Using JAVA,AIML-2C,lecture,TUESDAY,16:00,16:50,A110
+AIML  NS4,Object Oriented Programming Using JAVA,AIML-2C,lab,MONDAY,11:50,13:30,TLSL1
+AIML  NS4,Object Oriented Programming Using JAVA,AIML-2C,lab,MONDAY,15:50,17:30,KSL03
+AIML  NS4,Object Oriented Programming Using JAVA,AIML-2C,lab,FRIDAY,08:00,09:40,KFR01
+AIML  NS4,Object Oriented Programming Using JAVA,AIML-2C,lab,WEDNESDAY,13:50,15:30,KSL03
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,AIML-2D,lecture,THURSDAY,11:00,11:50,A211
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,AIML-2D,lecture,WEDNESDAY,15:00,15:50,A110
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,AIML-2D,lecture,FRIDAY,11:00,11:50,A302
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,AIML-2D,lab,WEDNESDAY,09:50,11:30,KFR02
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,AIML-2D,lab,MONDAY,13:50,15:30,KSL03
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,AIML-2D,lab,TUESDAY,15:50,17:30,KSL03
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,AIML-2D,lab,THURSDAY,13:50,15:30,KSL03
+Mr. Srinivasan T,Computer Vision and Applications,AIML-3A,lecture,MONDAY,09:00,09:50,A211
+Mr. Srinivasan T,Computer Vision and Applications,AIML-3A,lecture,TUESDAY,10:00,10:50,A302
+Mr. Srinivasan T,Computer Vision and Applications,AIML-3A,lab,WEDNESDAY,15:50,17:30,KSL03
+Mr. Srinivasan T,Computer Vision and Applications,AIML-3A,lab,FRIDAY,09:50,11:30,KFR01
+Mrs. Sangeetha K,Computer Vision and Applications,AIML-3B,lecture,TUESDAY,09:00,09:50,A211
+Mrs. Sangeetha K,Computer Vision and Applications,AIML-3B,lecture,MONDAY,10:00,10:50,A302
+Mrs. Sangeetha K,Computer Vision and Applications,AIML-3B,lab,THURSDAY,15:50,17:30,KSL03
+Mrs. Sangeetha K,Computer Vision and Applications,AIML-3B,lab,WEDNESDAY,08:00,09:40,KFR02
+Mr. Srinivasan T,Computer Vision and Applications,AIML-3C,lecture,FRIDAY,08:00,08:50,A211
+Mr. Srinivasan T,Computer Vision and Applications,AIML-3C,lecture,MONDAY,11:00,11:50,A302
+Mr. Srinivasan T,Computer Vision and Applications,AIML-3C,lab,THURSDAY,11:50,13:30,TLSL1
+Mr. Srinivasan T,Computer Vision and Applications,AIML-3C,lab,FRIDAY,11:50,13:30,TLSL1
+New Staff - 05,Recommendation Systems (Professional Elective I),AIML-3A,lecture,WEDNESDAY,13:00,13:50,A110
+New Staff - 05,Recommendation Systems (Professional Elective I),AIML-3A,lecture,THURSDAY,14:00,14:50,A110
+New Staff - 05,Recommendation Systems (Professional Elective I),AIML-3A,lab,FRIDAY,11:50,13:30,TLSL2
+New Staff - 05,Recommendation Systems (Professional Elective I),AIML-3A,lab,FRIDAY,13:50,15:30,KSL03
+New Staff - 05,Recommendation Systems (Professional Elective I),AIML-3B,lecture,MONDAY,14:00,14:50,A202
+New Staff - 05,Recommendation Systems (Professional Elective I),AIML-3B,lecture,MONDAY,16:00,16:50,A202
+New Staff - 05,Recommendation Systems (Professional Elective I),AIML-3B,lab,TUESDAY,13:50,15:30,TLFL1
+New Staff - 05,Recommendation Systems (Professional Elective I),AIML-3B,lab,WEDNESDAY,17:30,19:10,JL3
+New Staff - 05,Recommendation Systems (Professional Elective I),AIML-3C,lecture,TUESDAY,16:00,16:50,A202
+New Staff - 05,Recommendation Systems (Professional Elective I),AIML-3C,lecture,THURSDAY,16:00,16:50,A110
+New Staff - 05,Recommendation Systems (Professional Elective I),AIML-3C,lab,TUESDAY,08:00,09:40,KFR03
+New Staff - 05,Recommendation Systems (Professional Elective I),AIML-3C,lab,WEDNESDAY,09:50,11:30,KFR03
+Ms. Saranya S,Build and Deploy Machine Learning Applications,AIML-3A,lab,FRIDAY,15:50,17:30,KSL03
+Ms. Saranya S,Build and Deploy Machine Learning Applications,AIML-3A,lab,MONDAY,13:50,15:30,TLFL1
+AIML  NS3,Build and Deploy Machine Learning Applications,AIML-3B,lab,THURSDAY,08:00,09:40,KFR02
+AIML  NS3,Build and Deploy Machine Learning Applications,AIML-3B,lab,MONDAY,11:50,13:30,TLSL2
+AIML  NS4,Build and Deploy Machine Learning Applications,AIML-3C,lab,WEDNESDAY,09:50,11:30,KSL03
+AIML  NS4,Build and Deploy Machine Learning Applications,AIML-3C,lab,THURSDAY,11:50,13:30,TLSL2
+Dr. Raju K,Deep Learning,AIML-3A,lecture,WEDNESDAY,09:00,09:50,A211
+Dr. Raju K,Deep Learning,AIML-3A,lecture,TUESDAY,11:00,11:50,A302
+Dr. Raju K,Deep Learning,AIML-3A,lecture,THURSDAY,12:00,12:50,A110
+Dr. Raju K,Deep Learning,AIML-3A,lab,MONDAY,09:50,11:30,KFR02
+Dr. Raju K,Deep Learning,AIML-3A,lab,MONDAY,11:50,13:30,TLSR1
+Ms. V Akshaya,Deep Learning,AIML-3B,lecture,FRIDAY,09:00,09:50,A211
+Ms. V Akshaya,Deep Learning,AIML-3B,lecture,WEDNESDAY,10:00,10:50,A302
+Ms. V Akshaya,Deep Learning,AIML-3B,lecture,TUESDAY,12:00,12:50,A110
+Ms. V Akshaya,Deep Learning,AIML-3B,lab,MONDAY,08:00,09:40,KFR03
+Ms. V Akshaya,Deep Learning,AIML-3B,lab,WEDNESDAY,11:50,13:30,TLSL2
+Mrs. Divya S,Deep Learning,AIML-3C,lecture,FRIDAY,10:00,10:50,A302
+Mrs. Divya S,Deep Learning,AIML-3C,lecture,MONDAY,10:00,10:50,A303
+Mrs. Divya S,Deep Learning,AIML-3C,lecture,TUESDAY,11:00,11:50,A303
+Mrs. Divya S,Deep Learning,AIML-3C,lab,THURSDAY,08:00,09:40,KFR03
+Mrs. Divya S,Deep Learning,AIML-3C,lab,WEDNESDAY,13:50,15:30,TLFL1
+Mrs. J Jasmine Gabriel,Framework for data and visual Analytics,AIML-3A,lecture,THURSDAY,11:00,11:50,A302
+Mrs. J Jasmine Gabriel,Framework for data and visual Analytics,AIML-3A,lecture,MONDAY,08:00,08:50,A302
+Mrs. J Jasmine Gabriel,Framework for data and visual Analytics,AIML-3A,lecture,THURSDAY,13:00,13:50,A110
+Mrs. J Jasmine Gabriel,Framework for data and visual Analytics,AIML-3A,lab,TUESDAY,15:50,17:30,TLFL1
+Mrs. J Jasmine Gabriel,Framework for data and visual Analytics,AIML-3A,lab,FRIDAY,11:50,13:30,TLSR1
+Mrs. Priya M,Framework for data and visual Analytics,AIML-3B,lecture,WEDNESDAY,11:00,11:50,A302
+Mrs. Priya M,Framework for data and visual Analytics,AIML-3B,lecture,MONDAY,11:00,11:50,A303
+Mrs. Priya M,Framework for data and visual Analytics,AIML-3B,lecture,THURSDAY,10:00,10:50,A303
+Mrs. Priya M,Framework for data and visual Analytics,AIML-3B,lab,WEDNESDAY,15:50,17:30,TLFL1
+Mrs. Priya M,Framework for data and visual Analytics,AIML-3B,lab,THURSDAY,08:00,09:40,KSL03
+Dr. Rajasekaran Annamalai,Framework for data and visual Analytics,AIML-3C,lecture,MONDAY,09:00,09:50,A302
+Dr. Rajasekaran Annamalai,Framework for data and visual Analytics,AIML-3C,lecture,TUESDAY,10:00,10:50,A303
+Dr. Rajasekaran Annamalai,Framework for data and visual Analytics,AIML-3C,lecture,WEDNESDAY,16:00,16:50,A110
+Dr. Rajasekaran Annamalai,Framework for data and visual Analytics,AIML-3C,lab,THURSDAY,09:50,11:30,KFR03
+Dr. Rajasekaran Annamalai,Framework for data and visual Analytics,AIML-3C,lab,TUESDAY,11:50,13:30,TLSL2
+Dr. N M Balamurugan,Computer Networks,AIML-3A,lecture,THURSDAY,09:00,09:50,A211
+Dr. N M Balamurugan,Computer Networks,AIML-3A,lecture,WEDNESDAY,10:00,10:50,A303
+Dr. N M Balamurugan,Computer Networks,AIML-3A,lecture,TUESDAY,13:00,13:50,A110
+Dr. N M Balamurugan,Computer Networks,AIML-3A,lab,FRIDAY,08:00,09:40,KFR02
+Dr. N M Balamurugan,Computer Networks,AIML-3A,lab,MONDAY,15:50,17:30,TLFL1
+Dr. N M Balamurugan,Computer Networks,AIML-3A,lab,MONDAY,09:50,11:30,KFR03
+Dr. N M Balamurugan,Computer Networks,AIML-3A,lab,THURSDAY,15:50,17:30,TLFL1
+Mr. Vijay K,Computer Networks,AIML-3B,lecture,TUESDAY,08:00,08:50,A302
+Mr. Vijay K,Computer Networks,AIML-3B,lecture,THURSDAY,11:00,11:50,A303
+Mr. Vijay K,Computer Networks,AIML-3B,lecture,FRIDAY,12:00,12:50,A110
+Mr. Vijay K,Computer Networks,AIML-3B,lab,WEDNESDAY,08:00,09:40,KFR03
+Mr. Vijay K,Computer Networks,AIML-3B,lab,TUESDAY,09:50,11:30,KSL03
+Mr. Vijay K,Computer Networks,AIML-3B,lab,MONDAY,08:00,09:40,KSL03
+Mr. Vijay K,Computer Networks,AIML-3B,lab,THURSDAY,13:50,15:30,TLFL1
+Ms. Soundarya M,Computer Networks,AIML-3C,lecture,WEDNESDAY,08:00,08:50,A302
+Ms. Soundarya M,Computer Networks,AIML-3C,lecture,FRIDAY,11:00,11:50,A303
+Ms. Soundarya M,Computer Networks,AIML-3C,lecture,THURSDAY,15:00,15:50,A110
+Ms. Soundarya M,Computer Networks,AIML-3C,lab,TUESDAY,11:50,13:30,TLSR1
+Ms. Soundarya M,Computer Networks,AIML-3C,lab,WEDNESDAY,11:50,13:30,TLSR1
+Ms. Soundarya M,Computer Networks,AIML-3C,lab,TUESDAY,08:00,09:40,KSL03
+Ms. Soundarya M,Computer Networks,AIML-3C,lab,FRIDAY,13:50,15:30,TLFL1
+Mrs. Sowmia K R,DataEngineering,AIML-3A,lecture,THURSDAY,08:00,08:50,A302
+Mrs. Sowmia K R,DataEngineering,AIML-3A,lecture,WEDNESDAY,12:00,12:50,A202
+Mrs. Sowmia K R,DataEngineering,AIML-3A,lecture,THURSDAY,15:00,15:50,A202
+Mrs. Sree Subha S,DataEngineering,AIML-3B,lecture,FRIDAY,13:00,13:50,A110
+Mrs. Sree Subha S,DataEngineering,AIML-3B,lecture,FRIDAY,15:00,15:50,A110
+Mrs. Sree Subha S,DataEngineering,AIML-3B,lecture,WEDNESDAY,14:00,14:50,A202
+Dr. Rajasekaran Annamalai,DataEngineering,AIML-3C,lecture,FRIDAY,09:00,09:50,A302
+Dr. Rajasekaran Annamalai,DataEngineering,AIML-3C,lecture,FRIDAY,16:00,16:50,A110
+Dr. Rajasekaran Annamalai,DataEngineering,AIML-3C,lecture,MONDAY,12:00,12:50,A202
+New Faculty Humanities & Sciences (PLACEHOLDER),Social and Ethical Issues in AI,AIML-4A,lecture,TUESDAY,09:00,09:50,A302
+New Faculty Humanities & Sciences (PLACEHOLDER),Social and Ethical Issues in AI,AIML-4B,lecture,TUESDAY,10:00,10:50,A304
+New Faculty Humanities & Sciences (PLACEHOLDER),Social and Ethical Issues in AI,AIML-4C,lecture,WEDNESDAY,09:00,09:50,A302
+Mrs. Sree Subha S,Project-I,AIML-4A,lab,THURSDAY,09:50,11:30,KSL03
+Mrs. Sree Subha S,Project-I,AIML-4A,lab,MONDAY,13:50,15:30,TLFL2
+Mrs. Sree Subha S,Project-I,AIML-4A,lab,TUESDAY,15:50,17:30,TLFL2
+Mrs. Sree Subha S,Project-I,AIML-4A,lab,WEDNESDAY,15:50,17:30,TLFL2
+Mrs. Sree Subha S,Project-I,AIML-4A,lab,THURSDAY,13:50,15:30,TLFL2
+Mrs. Sree Subha S,Project-I,AIML-4A,lab,MONDAY,17:30,19:10,JL2
+HOD AIML,Project-I,AIML-4B,lab,FRIDAY,09:50,11:30,KFR02
+HOD AIML,Project-I,AIML-4B,lab,THURSDAY,11:50,13:30,TLSR1
+HOD AIML,Project-I,AIML-4B,lab,MONDAY,15:50,17:30,TLFL2
+HOD AIML,Project-I,AIML-4B,lab,WEDNESDAY,08:00,09:40,KSL03
+HOD AIML,Project-I,AIML-4B,lab,TUESDAY,08:00,09:40,TLFL1
+HOD AIML,Project-I,AIML-4B,lab,FRIDAY,15:50,17:30,TLFL1
+Mrs. Sowmia K R,Project-I,AIML-4C,lab,FRIDAY,13:50,15:30,TLFL2
+Mrs. Sowmia K R,Project-I,AIML-4C,lab,MONDAY,13:50,15:30,TLFL3
+Mrs. Sowmia K R,Project-I,AIML-4C,lab,WEDNESDAY,15:50,17:30,TLFL3
+Mrs. Sowmia K R,Project-I,AIML-4C,lab,TUESDAY,17:30,19:10,JL3
+Mrs. Sowmia K R,Project-I,AIML-4C,lab,FRIDAY,15:50,17:30,TLFL2
+Mrs. Sowmia K R,Project-I,AIML-4C,lab,WEDNESDAY,09:50,11:30,TLFL1
+Ms. V Akshaya,Big Data Technology,AIML-4A,lecture,MONDAY,10:00,10:50,A304
+Ms. V Akshaya,Big Data Technology,AIML-4A,lecture,FRIDAY,11:00,11:50,A304
+Ms. V Akshaya,Big Data Technology,AIML-4A,lecture,THURSDAY,09:00,09:50,A302
+Ms. V Akshaya,Big Data Technology,AIML-4A,lab,TUESDAY,13:50,15:30,TLFL2
+Ms. V Akshaya,Big Data Technology,AIML-4A,lab,WEDNESDAY,13:50,15:30,TLFL2
+HOD AIML,Big Data Technology,AIML-4B,lecture,WEDNESDAY,11:00,11:50,A303
+HOD AIML,Big Data Technology,AIML-4B,lecture,TUESDAY,11:00,11:50,A304
+HOD AIML,Big Data Technology,AIML-4B,lecture,THURSDAY,10:00,10:50,A304
+HOD AIML,Big Data Technology,AIML-4B,lab,THURSDAY,15:50,17:30,TLFL2
+HOD AIML,Big Data Technology,AIML-4B,lab,TUESDAY,13:50,15:30,TLFL3
+Mrs. Sangeetha K,Big Data Technology,AIML-4C,lecture,FRIDAY,10:00,10:50,A303
+Mrs. Sangeetha K,Big Data Technology,AIML-4C,lecture,TUESDAY,11:00,11:50,A305
+Mrs. Sangeetha K,Big Data Technology,AIML-4C,lecture,FRIDAY,08:00,08:50,A302
+Mrs. Sangeetha K,Big Data Technology,AIML-4C,lab,MONDAY,15:50,17:30,TLFL3
+Mrs. Sangeetha K,Big Data Technology,AIML-4C,lab,TUESDAY,15:50,17:30,TLFL3
+Mr. Kumaran U,Information Retrieval (Professional Elective V),AIML-4A,lecture,MONDAY,08:00,08:50,A303
+Mr. Kumaran U,Information Retrieval (Professional Elective V),AIML-4A,lecture,FRIDAY,10:00,10:50,A304
+Mr. Kumaran U,Information Retrieval (Professional Elective V),AIML-4A,lab,FRIDAY,08:00,09:40,KFR03
+Mr. Kumaran U,Information Retrieval (Professional Elective V),AIML-4A,lab,MONDAY,13:50,15:30,TLFL4
+Mr. Magesh M P,Information Retrieval (Professional Elective V),AIML-4B,lecture,FRIDAY,08:00,08:50,A303
+Mr. Magesh M P,Information Retrieval (Professional Elective V),AIML-4B,lecture,WEDNESDAY,10:00,10:50,A304
+Mr. Magesh M P,Information Retrieval (Professional Elective V),AIML-4B,lab,WEDNESDAY,08:00,09:40,TLFL1
+Mr. Magesh M P,Information Retrieval (Professional Elective V),AIML-4B,lab,WEDNESDAY,13:50,15:30,TLFL3
+Mr. Kumaran U,Information Retrieval (Professional Elective V),AIML-4C,lecture,TUESDAY,13:00,13:50,A202
+Mr. Kumaran U,Information Retrieval (Professional Elective V),AIML-4C,lecture,TUESDAY,15:00,15:50,A202
+Mr. Kumaran U,Information Retrieval (Professional Elective V),AIML-4C,lab,THURSDAY,17:30,19:10,JL2
+Mr. Kumaran U,Information Retrieval (Professional Elective V),AIML-4C,lab,FRIDAY,13:50,15:30,TLFL3
+Dr. Raju K,Supply Chain Analytics (Professional Elective V),AIML-4A,lecture,WEDNESDAY,11:00,11:50,A304
+Dr. Raju K,Supply Chain Analytics (Professional Elective V),AIML-4A,lecture,FRIDAY,14:00,14:50,A110
+Dr. Raju K,Supply Chain Analytics (Professional Elective V),AIML-4A,lecture,THURSDAY,08:00,08:50,A303
+Dr. Raju K,Supply Chain Analytics (Professional Elective V),AIML-4B,lecture,MONDAY,08:00,08:50,A304
+Dr. Raju K,Supply Chain Analytics (Professional Elective V),AIML-4B,lecture,MONDAY,15:00,15:50,A202
+Dr. Raju K,Supply Chain Analytics (Professional Elective V),AIML-4B,lecture,WEDNESDAY,13:00,13:50,A202
+Dr. Raju K,Supply Chain Analytics (Professional Elective V),AIML-4C,lecture,THURSDAY,10:00,10:50,A305
+Dr. Raju K,Supply Chain Analytics (Professional Elective V),AIML-4C,lecture,TUESDAY,14:00,14:50,A202
+Dr. Raju K,Supply Chain Analytics (Professional Elective V),AIML-4C,lecture,WEDNESDAY,15:00,15:50,A202
+Mrs. Dr. S. Poonkuzhali,Data Visualization using Python (Professional Elective III),AIML-4A,lecture,MONDAY,09:00,09:50,A303
+Mrs. Dr. S. Poonkuzhali,Data Visualization using Python (Professional Elective III),AIML-4A,lecture,TUESDAY,10:00,10:50,A305
+Mrs. Dr. S. Poonkuzhali,Data Visualization using Python (Professional Elective III),AIML-4A,lab,THURSDAY,13:50,15:30,TLFL3
+Mrs. Dr. S. Poonkuzhali,Data Visualization using Python (Professional Elective III),AIML-4A,lab,FRIDAY,08:00,09:40,KSL03
+Mr. Vijay K,Data Visualization using Python (Professional Elective III),AIML-4B,lecture,MONDAY,11:00,11:50,A304
+Mr. Vijay K,Data Visualization using Python (Professional Elective III),AIML-4B,lecture,MONDAY,13:00,13:50,A202
+Mr. Vijay K,Data Visualization using Python (Professional Elective III),AIML-4B,lab,FRIDAY,15:50,17:30,TLFL3
+Mr. Vijay K,Data Visualization using Python (Professional Elective III),AIML-4B,lab,THURSDAY,15:50,17:30,TLFL3
+Mrs. Dr. S. Poonkuzhali,Data Visualization using Python (Professional Elective III),AIML-4C,lecture,MONDAY,11:00,11:50,A305
+Mrs. Dr. S. Poonkuzhali,Data Visualization using Python (Professional Elective III),AIML-4C,lecture,FRIDAY,11:00,11:50,A305
+Mrs. Dr. S. Poonkuzhali,Data Visualization using Python (Professional Elective III),AIML-4C,lab,WEDNESDAY,09:50,11:30,TLFL2
+Mrs. Dr. S. Poonkuzhali,Data Visualization using Python (Professional Elective III),AIML-4C,lab,MONDAY,15:50,17:30,TLFL4
+Ms. Soundarya M,Secure Systems Engineering,AIML-4A,lecture,WEDNESDAY,10:00,10:50,A305
+Ms. Soundarya M,Secure Systems Engineering,AIML-4A,lecture,MONDAY,11:00,11:50,A308
+Ms. Soundarya M,Secure Systems Engineering,AIML-4A,lecture,THURSDAY,12:00,12:50,A202
+Dr. N M Balamurugan,Secure Systems Engineering,AIML-4B,lecture,THURSDAY,11:00,11:50,A304
+Dr. N M Balamurugan,Secure Systems Engineering,AIML-4B,lecture,WEDNESDAY,16:00,16:50,A202
+Dr. N M Balamurugan,Secure Systems Engineering,AIML-4B,lecture,THURSDAY,14:00,14:50,A202
+Ms. R.Anitha,Secure Systems Engineering,AIML-4C,lecture,TUESDAY,08:00,08:50,A303
+Ms. R.Anitha,Secure Systems Engineering,AIML-4C,lecture,WEDNESDAY,08:00,08:50,A303
+Ms. R.Anitha,Secure Systems Engineering,AIML-4C,lecture,THURSDAY,13:00,13:50,A202
+Ms. M.Brenda,Analog and Digital Communication,IT-2A,lecture,TUESDAY,09:00,09:50,A303
+Ms. M.Brenda,Analog and Digital Communication,IT-2A,lecture,MONDAY,10:00,10:50,A305
+Ms. M.Brenda,Analog and Digital Communication,IT-2A,lecture,THURSDAY,16:00,16:50,A202
+Mr. Ganesamoorthy R,Analog and Digital Communication,IT-2B,lecture,WEDNESDAY,09:00,09:50,A303
+Mr. Ganesamoorthy R,Analog and Digital Communication,IT-2B,lecture,THURSDAY,11:00,11:50,A305
+Mr. Ganesamoorthy R,Analog and Digital Communication,IT-2B,lecture,TUESDAY,12:00,12:50,A202
+Mrs. R Bharathy,Analog and Digital Communication,IT-2C,lecture,THURSDAY,09:00,09:50,A303
+Mrs. R Bharathy,Analog and Digital Communication,IT-2C,lecture,WEDNESDAY,11:00,11:50,A305
+Mrs. R Bharathy,Analog and Digital Communication,IT-2C,lecture,FRIDAY,12:00,12:50,A202
+Mr. Karthi J,Analog and Digital Communication,IT-2D,lecture,FRIDAY,09:00,09:50,A303
+Mr. Karthi J,Analog and Digital Communication,IT-2D,lecture,MONDAY,10:00,10:50,A308
+Mr. Karthi J,Analog and Digital Communication,IT-2D,lecture,TUESDAY,12:00,12:50,A203
+Mrs. Tamilarasi M,Analog and Digital Communication,IT-2E,lecture,MONDAY,09:00,09:50,A304
+Mrs. Tamilarasi M,Analog and Digital Communication,IT-2E,lecture,FRIDAY,10:00,10:50,A305
+Mrs. Tamilarasi M,Analog and Digital Communication,IT-2E,lecture,TUESDAY,13:00,13:50,A203
+Mr. Dr B Muthu Kumar,Design and Analysis of Algorithms,IT-2A,lecture,TUESDAY,08:00,08:50,A304
+Mr. Dr B Muthu Kumar,Design and Analysis of Algorithms,IT-2A,lecture,WEDNESDAY,10:00,10:50,A308
+Mr. Dr B Muthu Kumar,Design and Analysis of Algorithms,IT-2A,lecture,FRIDAY,13:00,13:50,A202
+Mr. Dr B Muthu Kumar,Design and Analysis of Algorithms,IT-2A,lab,MONDAY,08:00,09:40,TLFL1
+Mr. Dr B Muthu Kumar,Design and Analysis of Algorithms,IT-2A,lab,TUESDAY,09:50,11:30,TLFL1
+Mrs. L.Leena Jenifer,Design and Analysis of Algorithms,IT-2B,lecture,TUESDAY,09:00,09:50,A304
+Mrs. L.Leena Jenifer,Design and Analysis of Algorithms,IT-2B,lecture,WEDNESDAY,11:00,11:50,A308
+Mrs. L.Leena Jenifer,Design and Analysis of Algorithms,IT-2B,lecture,FRIDAY,14:00,14:50,A202
+Mrs. L.Leena Jenifer,Design and Analysis of Algorithms,IT-2B,lab,MONDAY,09:50,11:30,KSL03
+Mrs. L.Leena Jenifer,Design and Analysis of Algorithms,IT-2B,lab,THURSDAY,08:00,09:40,TLFL1
+Ms. Janani M,Design and Analysis of Algorithms,IT-2C,lecture,WEDNESDAY,08:00,08:50,A304
+Ms. Janani M,Design and Analysis of Algorithms,IT-2C,lecture,TUESDAY,10:00,10:50,A308
+Ms. Janani M,Design and Analysis of Algorithms,IT-2C,lecture,FRIDAY,15:00,15:50,A202
+Ms. Janani M,Design and Analysis of Algorithms,IT-2C,lab,MONDAY,09:50,11:30,TLFL1
+Ms. Janani M,Design and Analysis of Algorithms,IT-2C,lab,THURSDAY,09:50,11:30,TLFL1
+Ms. Priyanka D,Design and Analysis of Algorithms,IT-2D,lecture,WEDNESDAY,09:00,09:50,A304
+Ms. Priyanka D,Design and Analysis of Algorithms,IT-2D,lecture,TUESDAY,11:00,11:50,A308
+Ms. Priyanka D,Design and Analysis of Algorithms,IT-2D,lecture,FRIDAY,16:00,16:50,A202
+Ms. Priyanka D,Design and Analysis of Algorithms,IT-2D,lab,MONDAY,08:00,09:40,TLFL2
+Ms. Priyanka D,Design and Analysis of Algorithms,IT-2D,lab,THURSDAY,08:00,09:40,TLFL2
+Mrs. Dr.P.Neelaveni,Design and Analysis of Algorithms,IT-2E,lecture,THURSDAY,08:00,08:50,A304
+Mrs. Dr.P.Neelaveni,Design and Analysis of Algorithms,IT-2E,lecture,FRIDAY,11:00,11:50,A308
+Mrs. Dr.P.Neelaveni,Design and Analysis of Algorithms,IT-2E,lecture,MONDAY,12:00,12:50,A203
+Mrs. Dr.P.Neelaveni,Design and Analysis of Algorithms,IT-2E,lab,TUESDAY,08:00,09:40,TLFL2
+Mrs. Dr.P.Neelaveni,Design and Analysis of Algorithms,IT-2E,lab,THURSDAY,09:50,11:30,TLFL2
+Mrs. C. Renuga,Fourier series and Number theory,IT-2A,lecture,THURSDAY,10:00,10:50,A308
+Mrs. C. Renuga,Fourier series and Number theory,IT-2A,lecture,MONDAY,11:00,11:50,A309
+Mrs. C. Renuga,Fourier series and Number theory,IT-2A,lecture,FRIDAY,11:00,11:50,A309
+Mrs. C. Renuga,Fourier series and Number theory,IT-2A,tutorial,WEDNESDAY,08:00,08:50,A305
+Dr. Ramalakshmi K,Fourier series and Number theory,IT-2B,lecture,FRIDAY,08:00,08:50,A304
+Dr. Ramalakshmi K,Fourier series and Number theory,IT-2B,lecture,TUESDAY,10:00,10:50,A309
+Dr. Ramalakshmi K,Fourier series and Number theory,IT-2B,lecture,MONDAY,13:00,13:50,A203
+Dr. Ramalakshmi K,Fourier series and Number theory,IT-2B,tutorial,WEDNESDAY,08:00,08:50,A308
+Mr. Venkatesan J,Fourier series and Number theory,IT-2C,lecture,MONDAY,08:00,08:50,A305
+Mr. Venkatesan J,Fourier series and Number theory,IT-2C,lecture,MONDAY,14:00,14:50,A203
+Mr. Venkatesan J,Fourier series and Number theory,IT-2C,lecture,MONDAY,16:00,16:50,A203
+Mr. Venkatesan J,Fourier series and Number theory,IT-2C,tutorial,TUESDAY,14:00,14:50,A203
+Mr. A. Azhagarasu,Fourier series and Number theory,IT-2D,lecture,TUESDAY,08:00,08:50,A305
+Mr. A. Azhagarasu,Fourier series and Number theory,IT-2D,lecture,THURSDAY,11:00,11:50,A308
+Mr. A. Azhagarasu,Fourier series and Number theory,IT-2D,lecture,MONDAY,15:00,15:50,A203
+Mr. A. Azhagarasu,Fourier series and Number theory,IT-2D,tutorial,FRIDAY,08:00,08:50,A305
+Mrs. Arulmozhi Shanmugam,Fourier series and Number theory,IT-2E,lecture,THURSDAY,09:00,09:50,A304
+Mrs. Arulmozhi Shanmugam,Fourier series and Number theory,IT-2E,lecture,MONDAY,10:00,10:50,A309
+Mrs. Arulmozhi Shanmugam,Fourier series and Number theory,IT-2E,lecture,TUESDAY,15:00,15:50,A203
+Mrs. Arulmozhi Shanmugam,Fourier series and Number theory,IT-2E,tutorial,FRIDAY,09:00,09:50,A304
+Dr. Shunmuganathan K L,Database Management Systems,IT-2A,lecture,WEDNESDAY,09:00,09:50,A305
+Dr. Shunmuganathan K L,Database Management Systems,IT-2A,lecture,FRIDAY,10:00,10:50,A308
+Dr. Shunmuganathan K L,Database Management Systems,IT-2A,lecture,TUESDAY,16:00,16:50,A203
+Dr. Shunmuganathan K L,Database Management Systems,IT-2A,lab,THURSDAY,08:00,09:40,TLFL3
+Dr. Shunmuganathan K L,Database Management Systems,IT-2A,lab,TUESDAY,13:50,15:30,TLFL4
+Dr. Shunmuganathan K L,Database Management Systems,IT-2A,lab,MONDAY,08:00,09:40,TLFL3
+Dr. Shunmuganathan K L,Database Management Systems,IT-2A,lab,WEDNESDAY,13:50,15:30,TLFL4
+Mrs. Premalatha Anand,Database Management Systems,IT-2B,lecture,MONDAY,09:00,09:50,A305
+Mrs. Premalatha Anand,Database Management Systems,IT-2B,lecture,TUESDAY,11:00,11:50,A309
+Mrs. Premalatha Anand,Database Management Systems,IT-2B,lecture,WEDNESDAY,12:00,12:50,A203
+Mrs. Premalatha Anand,Database Management Systems,IT-2B,lab,FRIDAY,09:50,11:30,KFR03
+Mrs. Premalatha Anand,Database Management Systems,IT-2B,lab,THURSDAY,08:00,09:40,TLFL4
+Mrs. Premalatha Anand,Database Management Systems,IT-2B,lab,TUESDAY,15:50,17:30,TLFL4
+Mrs. Premalatha Anand,Database Management Systems,IT-2B,lab,WEDNESDAY,15:50,17:30,TLFL4
+Mrs. A.P.Aruna Jameela,Database Management Systems,IT-2C,lecture,TUESDAY,09:00,09:50,A305
+Mrs. A.P.Aruna Jameela,Database Management Systems,IT-2C,lecture,WEDNESDAY,10:00,10:50,A309
+Mrs. A.P.Aruna Jameela,Database Management Systems,IT-2C,lecture,THURSDAY,12:00,12:50,A203
+Mrs. A.P.Aruna Jameela,Database Management Systems,IT-2C,lab,FRIDAY,09:50,11:30,KSL03
+Mrs. A.P.Aruna Jameela,Database Management Systems,IT-2C,lab,THURSDAY,13:50,15:30,TLFL4
+Mrs. A.P.Aruna Jameela,Database Management Systems,IT-2C,lab,MONDAY,09:50,11:30,TLFL2
+Mrs. A.P.Aruna Jameela,Database Management Systems,IT-2C,lab,THURSDAY,15:50,17:30,TLFL4
+Mr. Vimalan M,Database Management Systems,IT-2D,lecture,TUESDAY,09:00,09:50,A308
+Mr. Vimalan M,Database Management Systems,IT-2D,lecture,WEDNESDAY,11:00,11:50,A309
+Mr. Vimalan M,Database Management Systems,IT-2D,lecture,THURSDAY,13:00,13:50,A203
+Mr. Vimalan M,Database Management Systems,IT-2D,lab,FRIDAY,09:50,11:30,TLFL1
+Mr. Vimalan M,Database Management Systems,IT-2D,lab,FRIDAY,13:50,15:30,TLFL4
+Mr. Vimalan M,Database Management Systems,IT-2D,lab,MONDAY,08:00,09:40,TLFL4
+Mr. Vimalan M,Database Management Systems,IT-2D,lab,TUESDAY,13:50,15:30,TLFL5
+Dr. Shunmuganathan K L,Database Management Systems,IT-2E,lecture,MONDAY,11:00,11:50,A310
+Dr. Shunmuganathan K L,Database Management Systems,IT-2E,lecture,WEDNESDAY,11:00,11:50,A310
+Dr. Shunmuganathan K L,Database Management Systems,IT-2E,lecture,WEDNESDAY,16:00,16:50,A203
+Dr. Shunmuganathan K L,Database Management Systems,IT-2E,lab,FRIDAY,15:50,17:30,TLFL4
+Dr. Shunmuganathan K L,Database Management Systems,IT-2E,lab,MONDAY,13:50,15:30,TLFL5
+Dr. Shunmuganathan K L,Database Management Systems,IT-2E,lab,THURSDAY,13:50,15:30,TLFL5
+Dr. Shunmuganathan K L,Database Management Systems,IT-2E,lab,FRIDAY,13:50,15:30,TLFL5
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,IT-2A,lecture,FRIDAY,09:00,09:50,A305
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,IT-2A,lecture,THURSDAY,11:00,11:50,A309
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,IT-2A,lecture,WEDNESDAY,13:00,13:50,A203
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,IT-2A,lab,TUESDAY,09:50,11:30,TLFL2
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,IT-2A,lab,MONDAY,15:50,17:30,TLFL5
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,IT-2A,lab,WEDNESDAY,15:50,17:30,TLFL5
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,IT-2A,lab,FRIDAY,15:50,17:30,TLFL5
+Mrs. Priya Vijay,Object Oriented Programming Using JAVA,IT-2B,lecture,MONDAY,08:00,08:50,A308
+Mrs. Priya Vijay,Object Oriented Programming Using JAVA,IT-2B,lecture,THURSDAY,10:00,10:50,A309
+Mrs. Priya Vijay,Object Oriented Programming Using JAVA,IT-2B,lecture,WEDNESDAY,14:00,14:50,A203
+Mrs. Priya Vijay,Object Oriented Programming Using JAVA,IT-2B,lab,TUESDAY,15:50,17:30,TLFL5
+Mrs. Priya Vijay,Object Oriented Programming Using JAVA,IT-2B,lab,THURSDAY,15:50,17:30,TLFL5
+Mrs. Priya Vijay,Object Oriented Programming Using JAVA,IT-2B,lab,FRIDAY,09:50,11:30,TLFL2
+Mrs. Priya Vijay,Object Oriented Programming Using JAVA,IT-2B,lab,MONDAY,09:50,11:30,TLFL3
+Mr. Narayana K E,Object Oriented Programming Using JAVA,IT-2C,lecture,THURSDAY,08:00,08:50,A305
+Mr. Narayana K E,Object Oriented Programming Using JAVA,IT-2C,lecture,TUESDAY,11:00,11:50,A310
+Mr. Narayana K E,Object Oriented Programming Using JAVA,IT-2C,lecture,WEDNESDAY,15:00,15:50,A203
+Mr. Narayana K E,Object Oriented Programming Using JAVA,IT-2C,lab,FRIDAY,08:00,09:40,TLFL1
+Mr. Narayana K E,Object Oriented Programming Using JAVA,IT-2C,lab,THURSDAY,09:50,11:30,TLFL3
+Mr. Narayana K E,Object Oriented Programming Using JAVA,IT-2C,lab,TUESDAY,15:50,17:30,TLFR1
+Mr. Narayana K E,Object Oriented Programming Using JAVA,IT-2C,lab,THURSDAY,13:50,15:30,TLFR1
+Mrs. Usha S,Object Oriented Programming Using JAVA,IT-2D,lecture,WEDNESDAY,08:00,08:50,A309
+Mrs. Usha S,Object Oriented Programming Using JAVA,IT-2D,lecture,TUESDAY,10:00,10:50,A310
+Mrs. Usha S,Object Oriented Programming Using JAVA,IT-2D,lecture,THURSDAY,14:00,14:50,A203
+Mrs. Usha S,Object Oriented Programming Using JAVA,IT-2D,lab,WEDNESDAY,13:50,15:30,TLFL5
+Mrs. Usha S,Object Oriented Programming Using JAVA,IT-2D,lab,MONDAY,15:50,17:30,TLFR1
+Mrs. Usha S,Object Oriented Programming Using JAVA,IT-2D,lab,FRIDAY,09:50,11:30,TLFL3
+Mrs. Usha S,Object Oriented Programming Using JAVA,IT-2D,lab,THURSDAY,15:50,17:30,TLFR1
+Mr. Suresh Kumar K,Object Oriented Programming Using JAVA,IT-2E,lecture,WEDNESDAY,09:00,09:50,A308
+Mr. Suresh Kumar K,Object Oriented Programming Using JAVA,IT-2E,lecture,TUESDAY,10:00,10:50,A311
+Mr. Suresh Kumar K,Object Oriented Programming Using JAVA,IT-2E,lecture,THURSDAY,16:00,16:50,A203
+Mr. Suresh Kumar K,Object Oriented Programming Using JAVA,IT-2E,lab,WEDNESDAY,13:50,15:30,TLFR1
+Mr. Suresh Kumar K,Object Oriented Programming Using JAVA,IT-2E,lab,FRIDAY,13:50,15:30,TLFR1
+Mr. Suresh Kumar K,Object Oriented Programming Using JAVA,IT-2E,lab,FRIDAY,15:50,17:30,TLFR1
+Mr. Suresh Kumar K,Object Oriented Programming Using JAVA,IT-2E,lab,TUESDAY,15:50,17:30,TLFR2
+Mr. Dr.S.Subbiah,Digital Logic and Computer Architecture,IT-2A,lecture,FRIDAY,08:00,08:50,A308
+Mr. Dr.S.Subbiah,Digital Logic and Computer Architecture,IT-2A,lecture,WEDNESDAY,11:00,11:50,A311
+Mr. Dr.S.Subbiah,Digital Logic and Computer Architecture,IT-2A,lecture,THURSDAY,15:00,15:50,A203
+Mr. Dr.S.Subbiah,Digital Logic and Computer Architecture,IT-2A,lab,MONDAY,13:50,15:30,TLFR1
+Mr. Dr.S.Subbiah,Digital Logic and Computer Architecture,IT-2A,lab,THURSDAY,08:00,09:40,TLFL5
+Mrs. Padmini S,Digital Logic and Computer Architecture,IT-2B,lecture,TUESDAY,08:00,08:50,A308
+Mrs. Padmini S,Digital Logic and Computer Architecture,IT-2B,lecture,WEDNESDAY,10:00,10:50,A310
+Mrs. Padmini S,Digital Logic and Computer Architecture,IT-2B,lecture,FRIDAY,12:00,12:50,A203
+Mrs. Padmini S,Digital Logic and Computer Architecture,IT-2B,lab,TUESDAY,13:50,15:30,TLFR1
+Mrs. Padmini S,Digital Logic and Computer Architecture,IT-2B,lab,MONDAY,13:50,15:30,TLFR2
+Mr. Dr.S.Subbiah,Digital Logic and Computer Architecture,IT-2C,lecture,TUESDAY,08:00,08:50,A309
+Mr. Dr.S.Subbiah,Digital Logic and Computer Architecture,IT-2C,lecture,FRIDAY,13:00,13:50,A203
+Mr. Dr.S.Subbiah,Digital Logic and Computer Architecture,IT-2C,lecture,FRIDAY,16:00,16:50,A203
+Mr. Dr.S.Subbiah,Digital Logic and Computer Architecture,IT-2C,lab,WEDNESDAY,15:50,17:30,TLFR1
+Mr. Dr.S.Subbiah,Digital Logic and Computer Architecture,IT-2C,lab,FRIDAY,09:50,11:30,TLFL4
+Mrs. Padmini S,Digital Logic and Computer Architecture,IT-2D,lecture,THURSDAY,10:00,10:50,A310
+Mrs. Padmini S,Digital Logic and Computer Architecture,IT-2D,lecture,MONDAY,11:00,11:50,A311
+Mrs. Padmini S,Digital Logic and Computer Architecture,IT-2D,lecture,TUESDAY,16:00,16:50,A204
+Mrs. Padmini S,Digital Logic and Computer Architecture,IT-2D,lab,THURSDAY,08:00,09:40,TLFR1
+Mrs. Padmini S,Digital Logic and Computer Architecture,IT-2D,lab,MONDAY,15:50,17:30,TLFR2
+Mr. Dr.S.Subbiah,Digital Logic and Computer Architecture,IT-2E,lecture,TUESDAY,11:00,11:50,A311
+Mr. Dr.S.Subbiah,Digital Logic and Computer Architecture,IT-2E,lecture,MONDAY,16:00,16:50,A204
+Mr. Dr.S.Subbiah,Digital Logic and Computer Architecture,IT-2E,lecture,TUESDAY,14:00,14:50,A204
+Mr. Dr.S.Subbiah,Digital Logic and Computer Architecture,IT-2E,lab,MONDAY,17:30,19:10,JL3
+Mr. Dr.S.Subbiah,Digital Logic and Computer Architecture,IT-2E,lab,WEDNESDAY,13:50,15:30,TLFR2
+Ms. Bhuvaneshwari Muthukumaran,Principles of Artificial Intelligence,IT-3A,lecture,THURSDAY,09:00,09:50,A305
+Ms. Bhuvaneshwari Muthukumaran,Principles of Artificial Intelligence,IT-3A,lecture,FRIDAY,10:00,10:50,A309
+Ms. Bhuvaneshwari Muthukumaran,Principles of Artificial Intelligence,IT-3A,lecture,MONDAY,12:00,12:50,A204
+Ms. Bhuvaneshwari Muthukumaran,Principles of Artificial Intelligence,IT-3A,lab,WEDNESDAY,08:00,09:40,TLFL2
+Ms. Bhuvaneshwari Muthukumaran,Principles of Artificial Intelligence,IT-3A,lab,TUESDAY,08:00,09:40,TLFL3
+Mr. Sathish M,Principles of Artificial Intelligence,IT-3B,lecture,MONDAY,09:00,09:50,A308
+Mr. Sathish M,Principles of Artificial Intelligence,IT-3B,lecture,THURSDAY,11:00,11:50,A310
+Mr. Sathish M,Principles of Artificial Intelligence,IT-3B,lecture,FRIDAY,14:00,14:50,A203
+Mr. Sathish M,Principles of Artificial Intelligence,IT-3B,lab,TUESDAY,09:50,11:30,TLFL3
+Mr. Sathish M,Principles of Artificial Intelligence,IT-3B,lab,WEDNESDAY,08:00,09:40,TLFL3
+Mrs. K Indumathi,Principles of Artificial Intelligence,IT-3C,lecture,THURSDAY,08:00,08:50,A308
+Mrs. K Indumathi,Principles of Artificial Intelligence,IT-3C,lecture,MONDAY,10:00,10:50,A310
+Mrs. K Indumathi,Principles of Artificial Intelligence,IT-3C,lecture,FRIDAY,15:00,15:50,A203
+Mrs. K Indumathi,Principles of Artificial Intelligence,IT-3C,lab,WEDNESDAY,09:50,11:30,TLFL3
+Mrs. K Indumathi,Principles of Artificial Intelligence,IT-3C,lab,THURSDAY,09:50,11:30,TLFL4
+Ms. Bhuvaneshwari Muthukumaran,Principles of Artificial Intelligence,IT-3D,lecture,WEDNESDAY,10:00,10:50,A311
+Ms. Bhuvaneshwari Muthukumaran,Principles of Artificial Intelligence,IT-3D,lecture,THURSDAY,11:00,11:50,A311
+Ms. Bhuvaneshwari Muthukumaran,Principles of Artificial Intelligence,IT-3D,lecture,TUESDAY,10:00,10:50,B106
+Ms. Bhuvaneshwari Muthukumaran,Principles of Artificial Intelligence,IT-3D,lab,TUESDAY,13:50,15:30,TLFR2
+Ms. Bhuvaneshwari Muthukumaran,Principles of Artificial Intelligence,IT-3D,lab,THURSDAY,13:50,15:30,TLFR2
+Mr. Dr.S.Subbiah,Soft Skills – II,IT-3A,lab,MONDAY,09:50,11:30,TLFL4
+Mr. Dr.S.Subbiah,Soft Skills – II,IT-3A,lab,TUESDAY,15:50,17:30,TLFR3
+Mr. Dr B Muthu Kumar,Soft Skills – II,IT-3B,lab,THURSDAY,08:00,09:40,TLFR2
+Mr. Dr B Muthu Kumar,Soft Skills – II,IT-3B,lab,WEDNESDAY,15:50,17:30,TLFR2
+Mrs. Dr.A.Kalaivani,Soft Skills – II,IT-3C,lab,FRIDAY,08:00,09:40,TLFL2
+Mrs. Dr.A.Kalaivani,Soft Skills – II,IT-3C,lab,THURSDAY,15:50,17:30,TLFR2
+New Faculty Humanities & Sciences (PLACEHOLDER),Soft Skills – II,IT-3D,lab,FRIDAY,08:00,09:40,TLFL3
+New Faculty Humanities & Sciences (PLACEHOLDER),Soft Skills – II,IT-3D,lab,MONDAY,13:50,15:30,TLFR3
+Mrs. M.Sandhiya,Web Programming,IT-3A,lecture,FRIDAY,09:00,09:50,A308
+Mrs. M.Sandhiya,Web Programming,IT-3A,lecture,THURSDAY,10:00,10:50,A311
+Mrs. M.Sandhiya,Web Programming,IT-3A,lecture,MONDAY,13:00,13:50,A204
+Mrs. M.Sandhiya,Web Programming,IT-3A,lab,TUESDAY,08:00,09:40,TLFL4
+Mrs. M.Sandhiya,Web Programming,IT-3A,lab,WEDNESDAY,09:50,11:30,TLFL4
+Mrs. M.Sandhiya,Web Programming,IT-3A,lab,FRIDAY,13:50,15:30,TLFR2
+Mrs. M.Sandhiya,Web Programming,IT-3A,lab,FRIDAY,15:50,17:30,TLFR2
+Mr. Narayana K E,Web Programming,IT-3B,lecture,FRIDAY,10:00,10:50,A310
+Mr. Narayana K E,Web Programming,IT-3B,lecture,MONDAY,10:00,10:50,A311
+Mr. Narayana K E,Web Programming,IT-3B,lecture,MONDAY,08:00,08:50,A309
+Mr. Narayana K E,Web Programming,IT-3B,lab,TUESDAY,13:50,15:30,TLFR3
+Mr. Narayana K E,Web Programming,IT-3B,lab,MONDAY,13:50,15:30,TLFR4
+Mr. Narayana K E,Web Programming,IT-3B,lab,WEDNESDAY,17:30,19:10,JR1
+Mr. Narayana K E,Web Programming,IT-3B,lab,WEDNESDAY,09:50,11:30,TLFL5
+Mr. Dr B Muthu Kumar,Web Programming,IT-3C,lecture,MONDAY,11:00,11:50,B106
+Mr. Dr B Muthu Kumar,Web Programming,IT-3C,lecture,MONDAY,14:00,14:50,A204
+Mr. Dr B Muthu Kumar,Web Programming,IT-3C,lecture,TUESDAY,12:00,12:50,A204
+Mr. Dr B Muthu Kumar,Web Programming,IT-3C,lab,WEDNESDAY,13:50,15:30,TLFR3
+Mr. Dr B Muthu Kumar,Web Programming,IT-3C,lab,THURSDAY,13:50,15:30,TLFR3
+Mr. Dr B Muthu Kumar,Web Programming,IT-3C,lab,FRIDAY,15:50,17:30,TLFR3
+Mr. Dr B Muthu Kumar,Web Programming,IT-3C,lab,TUESDAY,13:50,15:30,TLFR4
+Mrs. M.Sandhiya,Web Programming,IT-3D,lecture,WEDNESDAY,08:00,08:50,A310
+Mrs. M.Sandhiya,Web Programming,IT-3D,lecture,FRIDAY,11:00,11:50,A310
+Mrs. M.Sandhiya,Web Programming,IT-3D,lecture,TUESDAY,11:00,11:50,B106
+Mrs. M.Sandhiya,Web Programming,IT-3D,lab,MONDAY,15:50,17:30,TLFR3
+Mrs. M.Sandhiya,Web Programming,IT-3D,lab,THURSDAY,15:50,17:30,TLFR3
+Mrs. M.Sandhiya,Web Programming,IT-3D,lab,WEDNESDAY,13:50,15:30,TLFR4
+Mrs. M.Sandhiya,Web Programming,IT-3D,lab,TUESDAY,13:50,15:30,TLFR5
+Mrs. Dr.V.Prasannakumari,Automata Theory & Compiler Design,IT-3A,lecture,MONDAY,09:00,09:50,A309
+Mrs. Dr.V.Prasannakumari,Automata Theory & Compiler Design,IT-3A,lecture,FRIDAY,11:00,11:50,A311
+Mrs. Dr.V.Prasannakumari,Automata Theory & Compiler Design,IT-3A,lecture,TUESDAY,13:00,13:50,A204
+Mrs. Dr.P.Neelaveni,Automata Theory & Compiler Design,IT-3B,lecture,WEDNESDAY,12:00,12:50,A204
+Mrs. Dr.P.Neelaveni,Automata Theory & Compiler Design,IT-3B,lecture,WEDNESDAY,14:00,14:50,A204
+Mrs. Dr.P.Neelaveni,Automata Theory & Compiler Design,IT-3B,lecture,THURSDAY,12:00,12:50,A204
+Mrs. M.Madhu Rani,Automata Theory & Compiler Design,IT-3C,lecture,THURSDAY,09:00,09:50,A308
+Mrs. M.Madhu Rani,Automata Theory & Compiler Design,IT-3C,lecture,FRIDAY,10:00,10:50,A311
+Mrs. M.Madhu Rani,Automata Theory & Compiler Design,IT-3C,lecture,MONDAY,15:00,15:50,A204
+Mrs. Dr.V.Prasannakumari,Automata Theory & Compiler Design,IT-3D,lecture,WEDNESDAY,09:00,09:50,A309
+Mrs. Dr.V.Prasannakumari,Automata Theory & Compiler Design,IT-3D,lecture,WEDNESDAY,11:00,11:50,B106
+Mrs. Dr.V.Prasannakumari,Automata Theory & Compiler Design,IT-3D,lecture,THURSDAY,10:00,10:50,B106
+Mrs. Dr.A.Kalaivani,Computer Vision,IT-3A,lecture,TUESDAY,10:00,10:50,B107
+Mrs. Dr.A.Kalaivani,Computer Vision,IT-3A,lecture,MONDAY,08:00,08:50,A310
+Mrs. Dr.A.Kalaivani,Computer Vision,IT-3A,lecture,TUESDAY,15:00,15:50,A204
+Mrs. Dr.A.Kalaivani,Computer Vision,IT-3A,lab,WEDNESDAY,15:50,17:30,TLFR3
+Mrs. Dr.A.Kalaivani,Computer Vision,IT-3A,lab,MONDAY,09:50,11:30,TLFL5
+Mrs. L.Leena Jenifer,Computer Vision,IT-3B,lecture,THURSDAY,10:00,10:50,B107
+Mrs. L.Leena Jenifer,Computer Vision,IT-3B,lecture,WEDNESDAY,13:00,13:50,A204
+Mrs. L.Leena Jenifer,Computer Vision,IT-3B,lecture,WEDNESDAY,15:00,15:50,A204
+Mrs. L.Leena Jenifer,Computer Vision,IT-3B,lab,MONDAY,15:50,17:30,TLFR4
+Mrs. L.Leena Jenifer,Computer Vision,IT-3B,lab,TUESDAY,15:50,17:30,TLFR4
+Ms. Priyanka D,Computer Vision,IT-3C,lecture,WEDNESDAY,16:00,16:50,A204
+Ms. Priyanka D,Computer Vision,IT-3C,lecture,THURSDAY,13:00,13:50,A204
+Ms. Priyanka D,Computer Vision,IT-3C,lecture,FRIDAY,12:00,12:50,A204
+Ms. Priyanka D,Computer Vision,IT-3C,lab,TUESDAY,15:50,17:30,TLFR5
+Ms. Priyanka D,Computer Vision,IT-3C,lab,WEDNESDAY,13:50,15:30,TLFR5
+Mrs. Dr.A.Kalaivani,Computer Vision,IT-3D,lecture,FRIDAY,10:00,10:50,B106
+Mrs. Dr.A.Kalaivani,Computer Vision,IT-3D,lecture,THURSDAY,09:00,09:50,A309
+Mrs. Dr.A.Kalaivani,Computer Vision,IT-3D,lecture,FRIDAY,13:00,13:50,A204
+Mrs. Dr.A.Kalaivani,Computer Vision,IT-3D,lab,THURSDAY,13:50,15:30,TLFR4
+Mrs. Dr.A.Kalaivani,Computer Vision,IT-3D,lab,TUESDAY,08:00,09:40,TLFL5
+Mr. Dr.S.Subbiah,Computer Networks,IT-3A,lecture,THURSDAY,11:00,11:50,B106
+Mr. Dr.S.Subbiah,Computer Networks,IT-3A,lecture,THURSDAY,13:00,13:50,A205
+Mr. Dr.S.Subbiah,Computer Networks,IT-3A,lecture,WEDNESDAY,18:00,18:50,A102
+Mr. Dr.S.Subbiah,Computer Networks,IT-3A,lab,FRIDAY,17:30,19:10,JL2
+Mr. Dr.S.Subbiah,Computer Networks,IT-3A,lab,THURSDAY,17:30,19:10,JL3
+Mr. Dr.S.Subbiah,Computer Networks,IT-3A,lab,WEDNESDAY,08:00,09:40,TLFL4
+Mr. Dr.S.Subbiah,Computer Networks,IT-3A,lab,WEDNESDAY,15:50,17:30,TLFR4
+Mrs. Bhalashri Sethuraman,Computer Networks,IT-3B,lecture,TUESDAY,09:00,09:50,A309
+Mrs. Bhalashri Sethuraman,Computer Networks,IT-3B,lecture,FRIDAY,11:00,11:50,B106
+Mrs. Bhalashri Sethuraman,Computer Networks,IT-3B,lecture,THURSDAY,14:00,14:50,A204
+Mrs. Bhalashri Sethuraman,Computer Networks,IT-3B,lab,WEDNESDAY,08:00,09:40,TLFL5
+Mrs. Bhalashri Sethuraman,Computer Networks,IT-3B,lab,THURSDAY,15:50,17:30,TLFR4
+Mrs. Bhalashri Sethuraman,Computer Networks,IT-3B,lab,FRIDAY,15:50,17:30,TLFR4
+Mrs. Bhalashri Sethuraman,Computer Networks,IT-3B,lab,MONDAY,13:50,15:30,TLFR5
+Mrs. Padmini S,Computer Networks,IT-3C,lecture,TUESDAY,11:00,11:50,B107
+Mrs. Padmini S,Computer Networks,IT-3C,lecture,MONDAY,09:00,09:50,A310
+Mrs. Padmini S,Computer Networks,IT-3C,lecture,FRIDAY,14:00,14:50,A204
+Mrs. Padmini S,Computer Networks,IT-3C,lab,FRIDAY,15:50,17:30,TLFR5
+Mrs. Padmini S,Computer Networks,IT-3C,lab,WEDNESDAY,08:00,09:40,TLFR1
+Mrs. Padmini S,Computer Networks,IT-3C,lab,THURSDAY,13:50,15:30,TLFR5
+Mrs. Padmini S,Computer Networks,IT-3C,lab,FRIDAY,08:00,09:40,TLFL4
+Mrs. Dr. Nalini Subramanian,Computer Networks,IT-3D,lecture,THURSDAY,08:00,08:50,A309
+Mrs. Dr. Nalini Subramanian,Computer Networks,IT-3D,lecture,MONDAY,10:00,10:50,B106
+Mrs. Dr. Nalini Subramanian,Computer Networks,IT-3D,lecture,FRIDAY,15:00,15:50,A204
+Mrs. Dr. Nalini Subramanian,Computer Networks,IT-3D,lab,TUESDAY,08:00,09:40,TLFR1
+Mrs. Dr. Nalini Subramanian,Computer Networks,IT-3D,lab,WEDNESDAY,15:50,17:30,TLFR5
+Mrs. Dr. Nalini Subramanian,Computer Networks,IT-3D,lab,FRIDAY,08:00,09:40,TLFL5
+Mrs. Dr. Nalini Subramanian,Computer Networks,IT-3D,lab,MONDAY,15:50,17:30,TLFR5
+Ms. Janani M,Industry Practices Lab,IT-4A,lab,WEDNESDAY,09:50,11:30,TLFR1
+Ms. Janani M,Industry Practices Lab,IT-4A,lab,THURSDAY,15:50,17:30,TLFR5
+Ms. Janani M,Industry Practices Lab,IT-4A,lab,MONDAY,13:50,15:30,TLGL1
+Ms. Janani M,Industry Practices Lab,IT-4A,lab,MONDAY,15:50,17:30,TLGL1
+Mr. Suresh Kumar K,Industry Practices Lab,IT-4B,lab,MONDAY,08:00,09:40,TLFL5
+Mr. Suresh Kumar K,Industry Practices Lab,IT-4B,lab,THURSDAY,09:50,11:30,TLFL5
+Mr. Suresh Kumar K,Industry Practices Lab,IT-4B,lab,TUESDAY,13:50,15:30,TLGL1
+Mr. Suresh Kumar K,Industry Practices Lab,IT-4B,lab,WEDNESDAY,15:50,17:30,TLGL1
+Mr. Vimalan M,Industry Practices Lab,IT-4C,lab,TUESDAY,15:50,17:30,TLGL1
+Mr. Vimalan M,Industry Practices Lab,IT-4C,lab,WEDNESDAY,13:50,15:30,TLGL1
+Mr. Vimalan M,Industry Practices Lab,IT-4C,lab,THURSDAY,15:50,17:30,TLGL1
+Mr. Vimalan M,Industry Practices Lab,IT-4C,lab,FRIDAY,15:50,17:30,TLGL1
+Mrs. Dr. Nalini Subramanian,Cloud and Big Data Analytics,IT-4A,lecture,THURSDAY,11:00,11:50,B107
+Mrs. Dr. Nalini Subramanian,Cloud and Big Data Analytics,IT-4A,lecture,FRIDAY,10:00,10:50,B107
+Mrs. Dr. Nalini Subramanian,Cloud and Big Data Analytics,IT-4A,lecture,TUESDAY,10:00,10:50,B210
+Mrs. Dr. Nalini Subramanian,Cloud and Big Data Analytics,IT-4A,lab,THURSDAY,13:50,15:30,TLGL1
+Mrs. Dr. Nalini Subramanian,Cloud and Big Data Analytics,IT-4A,lab,MONDAY,13:50,15:30,TLGL2
+Mrs. Dr. Nalini Subramanian,Cloud and Big Data Analytics,IT-4A,lab,TUESDAY,13:50,15:30,TLGL2
+Mrs. Dr. Nalini Subramanian,Cloud and Big Data Analytics,IT-4A,lab,WEDNESDAY,13:50,15:30,TLGL2
+Mrs. M.Madhu Rani,Cloud and Big Data Analytics,IT-4B,lecture,TUESDAY,08:00,08:50,A310
+Mrs. M.Madhu Rani,Cloud and Big Data Analytics,IT-4B,lecture,WEDNESDAY,10:00,10:50,B106
+Mrs. M.Madhu Rani,Cloud and Big Data Analytics,IT-4B,lecture,TUESDAY,11:00,11:50,B210
+Mrs. M.Madhu Rani,Cloud and Big Data Analytics,IT-4B,lab,FRIDAY,08:00,09:40,TLFR1
+Mrs. M.Madhu Rani,Cloud and Big Data Analytics,IT-4B,lab,FRIDAY,13:50,15:30,TLFR3
+Mrs. M.Madhu Rani,Cloud and Big Data Analytics,IT-4B,lab,THURSDAY,13:50,15:30,TLGL2
+Mrs. M.Madhu Rani,Cloud and Big Data Analytics,IT-4B,lab,THURSDAY,15:50,17:30,TLGL2
+Mrs. Bhalashri Sethuraman,Cloud and Big Data Analytics,IT-4C,lecture,MONDAY,10:00,10:50,B107
+Mrs. Bhalashri Sethuraman,Cloud and Big Data Analytics,IT-4C,lecture,WEDNESDAY,10:00,10:50,B107
+Mrs. Bhalashri Sethuraman,Cloud and Big Data Analytics,IT-4C,lecture,TUESDAY,11:00,11:50,B211
+Mrs. Bhalashri Sethuraman,Cloud and Big Data Analytics,IT-4C,lab,MONDAY,08:00,09:40,TLFR1
+Mrs. Bhalashri Sethuraman,Cloud and Big Data Analytics,IT-4C,lab,FRIDAY,13:50,15:30,TLFR4
+Mrs. Bhalashri Sethuraman,Cloud and Big Data Analytics,IT-4C,lab,TUESDAY,15:50,17:30,TLGL2
+Mrs. Bhalashri Sethuraman,Cloud and Big Data Analytics,IT-4C,lab,TUESDAY,13:50,15:30,TLGL3
+Dr. Valarmathie Dinakaran,Software Testing,IT-4A,lecture,FRIDAY,08:00,08:50,A309
+Dr. Valarmathie Dinakaran,Software Testing,IT-4A,lecture,MONDAY,11:00,11:50,B107
+Dr. Valarmathie Dinakaran,Software Testing,IT-4A,lecture,TUESDAY,12:00,12:50,A205
+Mrs. K Indumathi,Software Testing,IT-4B,lecture,WEDNESDAY,08:00,08:50,A311
+Mrs. K Indumathi,Software Testing,IT-4B,lecture,TUESDAY,10:00,10:50,B211
+Mrs. K Indumathi,Software Testing,IT-4B,lecture,MONDAY,12:00,12:50,A205
+Dr. Valarmathie Dinakaran,Software Testing,IT-4C,lecture,WEDNESDAY,09:00,09:50,A310
+Dr. Valarmathie Dinakaran,Software Testing,IT-4C,lecture,WEDNESDAY,11:00,11:50,B107
+Dr. Valarmathie Dinakaran,Software Testing,IT-4C,lecture,FRIDAY,11:00,11:50,B107
+Mrs. Dr.P.Neelaveni,Project Phase I,IT-4A,lab,MONDAY,08:00,09:40,TLFR2
+Mrs. Dr.P.Neelaveni,Project Phase I,IT-4A,lab,FRIDAY,13:50,15:30,TLFR5
+Mrs. Dr.P.Neelaveni,Project Phase I,IT-4A,lab,WEDNESDAY,15:50,17:30,TLGL2
+Mrs. Dr.P.Neelaveni,Project Phase I,IT-4A,lab,FRIDAY,15:50,17:30,TLGL2
+Mrs. Dr.P.Neelaveni,Project Phase I,IT-4A,lab,THURSDAY,13:50,15:30,TLGL3
+Mrs. Dr.P.Neelaveni,Project Phase I,IT-4A,lab,WEDNESDAY,09:50,11:30,TLFR2
+Mrs. Dr.P.Neelaveni,Project Phase I,IT-4A,lab,TUESDAY,15:50,17:30,TLGL3
+Mrs. Dr.P.Neelaveni,Project Phase I,IT-4A,lab,THURSDAY,15:50,17:30,TLGL3
+Mr. Dr.M.Babu,Project Phase I,IT-4B,lab,FRIDAY,09:50,11:30,TLFL5
+Mr. Dr.M.Babu,Project Phase I,IT-4B,lab,MONDAY,15:50,17:30,TLGL2
+Mr. Dr.M.Babu,Project Phase I,IT-4B,lab,THURSDAY,08:00,09:40,TLFR3
+Mr. Dr.M.Babu,Project Phase I,IT-4B,lab,MONDAY,13:50,15:30,TLGL3
+Mr. Dr.M.Babu,Project Phase I,IT-4B,lab,FRIDAY,13:50,15:30,TLGL1
+Mr. Dr.M.Babu,Project Phase I,IT-4B,lab,WEDNESDAY,13:50,15:30,TLGL3
+Mr. Dr.M.Babu,Project Phase I,IT-4B,lab,MONDAY,09:50,11:30,TLFR1
+Mr. Dr.M.Babu,Project Phase I,IT-4B,lab,FRIDAY,15:50,17:30,TLGL3
+Mrs. M.Madhu Rani,Project Phase I,IT-4C,lab,WEDNESDAY,15:50,17:30,TLGL3
+Mrs. M.Madhu Rani,Project Phase I,IT-4C,lab,TUESDAY,13:50,15:30,TLGL4
+Mrs. M.Madhu Rani,Project Phase I,IT-4C,lab,MONDAY,17:30,19:10,JR1
+Mrs. M.Madhu Rani,Project Phase I,IT-4C,lab,FRIDAY,15:50,17:30,TLGL4
+Mrs. M.Madhu Rani,Project Phase I,IT-4C,lab,WEDNESDAY,13:50,15:30,TLGL4
+Mrs. M.Madhu Rani,Project Phase I,IT-4C,lab,TUESDAY,17:30,19:10,JR1
+Mrs. M.Madhu Rani,Project Phase I,IT-4C,lab,MONDAY,08:00,09:40,TLFR3
+Mrs. M.Madhu Rani,Project Phase I,IT-4C,lab,MONDAY,11:00,11:50,JL1
+Mr. Suresh Kumar K,Professional Elective-II - NPTEL,IT-4A,lecture,THURSDAY,08:00,08:50,A310
+Mr. Suresh Kumar K,Professional Elective-II - NPTEL,IT-4A,lecture,MONDAY,10:00,10:50,B210
+Mr. Suresh Kumar K,Professional Elective-II - NPTEL,IT-4A,lecture,MONDAY,13:00,13:50,A205
+Mr. Suresh Kumar K,Professional Elective-II - NPTEL,IT-4B,lecture,WEDNESDAY,11:00,11:50,B210
+Mr. Suresh Kumar K,Professional Elective-II - NPTEL,IT-4B,lecture,THURSDAY,12:00,12:50,A205
+Mr. Suresh Kumar K,Professional Elective-II - NPTEL,IT-4B,lecture,FRIDAY,12:00,12:50,A205
+Mr. Suresh Kumar K,Professional Elective-II - NPTEL,IT-4C,lecture,MONDAY,15:00,15:50,A205
+Mr. Suresh Kumar K,Professional Elective-II - NPTEL,IT-4C,lecture,THURSDAY,14:00,14:50,A205
+Mr. Suresh Kumar K,Professional Elective-II - NPTEL,IT-4C,lecture,TUESDAY,12:00,12:50,A208
+Dr. Vishnu Kumar A,Formal Language and Automata Theory,CSBS-2A,lecture,FRIDAY,09:00,09:50,A309
+Dr. Vishnu Kumar A,Formal Language and Automata Theory,CSBS-2A,lecture,MONDAY,11:00,11:50,B210
+Dr. Vishnu Kumar A,Formal Language and Automata Theory,CSBS-2A,lecture,THURSDAY,15:00,15:50,A204
+New Faculty Humanities & Sciences (PLACEHOLDER),Formal Language and Automata Theory,CSBS-2B,lecture,TUESDAY,09:00,09:50,A310
+New Faculty Humanities & Sciences (PLACEHOLDER),Formal Language and Automata Theory,CSBS-2B,lecture,WEDNESDAY,10:00,10:50,B210
+New Faculty Humanities & Sciences (PLACEHOLDER),Formal Language and Automata Theory,CSBS-2B,lecture,THURSDAY,16:00,16:50,A204
+Mrs. Jayanthi M,Computer Organization and Architecture,CSBS-2A,lecture,THURSDAY,09:00,09:50,A310
+Mrs. Jayanthi M,Computer Organization and Architecture,CSBS-2A,lecture,FRIDAY,10:00,10:50,B210
+Mrs. Jayanthi M,Computer Organization and Architecture,CSBS-2A,lecture,MONDAY,14:00,14:50,A205
+New Faculty Humanities & Sciences (PLACEHOLDER),Computer Organization and Architecture,CSBS-2B,lecture,FRIDAY,08:00,08:50,A310
+New Faculty Humanities & Sciences (PLACEHOLDER),Computer Organization and Architecture,CSBS-2B,lecture,THURSDAY,10:00,10:50,B210
+New Faculty Humanities & Sciences (PLACEHOLDER),Computer Organization and Architecture,CSBS-2B,lecture,MONDAY,16:00,16:50,A205
+Mrs. R Nathiya,Computational Statistics,CSBS-2A,lecture,MONDAY,08:00,08:50,A311
+Mrs. R Nathiya,Computational Statistics,CSBS-2A,lecture,THURSDAY,11:00,11:50,B210
+Mrs. R Nathiya,Computational Statistics,CSBS-2A,lecture,FRIDAY,16:00,16:50,A204
+Mrs. R Nathiya,Computational Statistics,CSBS-2A,lab,TUESDAY,09:50,11:30,TLFL4
+Mrs. R Nathiya,Computational Statistics,CSBS-2A,lab,WEDNESDAY,08:00,09:40,TLFR2
+Dr. V. R. Sunil Kumar,Computational Statistics,CSBS-2B,lecture,FRIDAY,09:00,09:50,A310
+Dr. V. R. Sunil Kumar,Computational Statistics,CSBS-2B,lecture,MONDAY,10:00,10:50,B211
+Dr. V. R. Sunil Kumar,Computational Statistics,CSBS-2B,lecture,TUESDAY,13:00,13:50,A205
+Dr. V. R. Sunil Kumar,Computational Statistics,CSBS-2B,lab,WEDNESDAY,08:00,09:40,TLFR3
+Dr. V. R. Sunil Kumar,Computational Statistics,CSBS-2B,lab,THURSDAY,08:00,09:40,TLFR4
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,CSBS-2A,lecture,MONDAY,09:00,09:50,A311
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,CSBS-2A,lecture,FRIDAY,11:00,11:50,B210
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,CSBS-2A,lecture,TUESDAY,14:00,14:50,A205
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,CSBS-2A,lab,WEDNESDAY,09:50,11:30,TLFR3
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,CSBS-2A,lab,FRIDAY,13:50,15:30,TLGL2
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,CSBS-2A,lab,MONDAY,15:50,17:30,TLGL3
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,CSBS-2A,lab,TUESDAY,15:50,17:30,TLGL4
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,CSBS-2B,lecture,TUESDAY,08:00,08:50,A311
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,CSBS-2B,lecture,MONDAY,11:00,11:50,B211
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,CSBS-2B,lecture,WEDNESDAY,12:00,12:50,A205
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,CSBS-2B,lab,TUESDAY,09:50,11:30,TLFL5
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,CSBS-2B,lab,FRIDAY,09:50,11:30,TLFR1
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,CSBS-2B,lab,FRIDAY,13:50,15:30,TLGL3
+New Faculty Humanities & Sciences (PLACEHOLDER),Object Oriented Programming Using JAVA,CSBS-2B,lab,MONDAY,13:50,15:30,TLGL4
+Mr. Manigandan Ramadoss,Environmental Sciences,CSBS-2A,lecture,TUESDAY,09:00,09:50,A311
+Mr. Manigandan Ramadoss,Environmental Sciences,CSBS-2A,lecture,THURSDAY,10:00,10:50,B211
+Mr. Manigandan Ramadoss,Environmental Sciences,CSBS-2A,lecture,WEDNESDAY,13:00,13:50,A205
+Mrs. Dr. D. Udhayakumari,Environmental Sciences,CSBS-2B,lecture,MONDAY,08:00,08:50,B106
+Mrs. Dr. D. Udhayakumari,Environmental Sciences,CSBS-2B,lecture,WEDNESDAY,11:00,11:50,B211
+Mrs. Dr. D. Udhayakumari,Environmental Sciences,CSBS-2B,lecture,TUESDAY,15:00,15:50,A205
+Mrs. Dr. K Devaki,Software Engineering,CSBS-2A,lecture,THURSDAY,08:00,08:50,A311
+Mrs. Dr. K Devaki,Software Engineering,CSBS-2A,lecture,MONDAY,10:00,10:50,B212
+Mrs. Dr. K Devaki,Software Engineering,CSBS-2A,lecture,WEDNESDAY,14:00,14:50,A205
+Mrs. Dr. K Devaki,Software Engineering,CSBS-2A,lab,MONDAY,15:50,17:30,TLGL4
+Mrs. Dr. K Devaki,Software Engineering,CSBS-2A,lab,TUESDAY,09:50,11:30,TLFR1
+Dr. Manikandan Thirumalaisamy,Software Engineering,CSBS-2B,lecture,MONDAY,09:00,09:50,B106
+Dr. Manikandan Thirumalaisamy,Software Engineering,CSBS-2B,lecture,THURSDAY,11:00,11:50,B211
+Dr. Manikandan Thirumalaisamy,Software Engineering,CSBS-2B,lecture,TUESDAY,16:00,16:50,A205
+Dr. Manikandan Thirumalaisamy,Software Engineering,CSBS-2B,lab,WEDNESDAY,15:50,17:30,TLGL4
+Dr. Manikandan Thirumalaisamy,Software Engineering,CSBS-2B,lab,TUESDAY,09:50,11:30,TLFR2
+Mrs. Nisha R S,Database Technology,CSBS-2A,lecture,FRIDAY,08:00,08:50,A311
+Mrs. Nisha R S,Database Technology,CSBS-2A,lecture,WEDNESDAY,15:00,15:50,A205
+Mrs. Nisha R S,Database Technology,CSBS-2A,lecture,TUESDAY,08:00,08:50,B106
+Mrs. Nisha R S,Database Technology,CSBS-2A,lab,THURSDAY,15:50,17:30,TLGL4
+Mrs. Nisha R S,Database Technology,CSBS-2A,lab,WEDNESDAY,09:50,11:30,TLFR4
+Mrs. Rajammal K,Database Technology,CSBS-2B,lecture,THURSDAY,15:00,15:50,A205
+Mrs. Rajammal K,Database Technology,CSBS-2B,lecture,FRIDAY,13:00,13:50,A205
+Mrs. Rajammal K,Database Technology,CSBS-2B,lecture,FRIDAY,16:00,16:50,A205
+Mrs. Rajammal K,Database Technology,CSBS-2B,lab,THURSDAY,08:00,09:40,TLFR5
+Mrs. Rajammal K,Database Technology,CSBS-2B,lab,WEDNESDAY,08:00,09:40,TLFR4
+Dr. Ramanathan V K,Principles of Financial Management,CSBS-3A,lecture,WEDNESDAY,09:00,09:50,A311
+Dr. Ramanathan V K,Principles of Financial Management,CSBS-3A,lecture,FRIDAY,10:00,10:50,B211
+Dr. Ramanathan V K,Principles of Financial Management,CSBS-3B,lecture,THURSDAY,16:00,16:50,A205
+Dr. Ramanathan V K,Principles of Financial Management,CSBS-3B,lecture,TUESDAY,09:00,09:50,B106
+Ms. Janani U,Design Thinking and Innovation,CSBS-3A,lecture,THURSDAY,09:00,09:50,A311
+Ms. Janani U,Design Thinking and Innovation,CSBS-3A,lab,FRIDAY,13:50,15:30,TLGL4
+Ms. Janani U,Design Thinking and Innovation,CSBS-3A,lab,MONDAY,09:50,11:30,TLFR2
+Ms. Janani U,Design Thinking and Innovation,CSBS-3B,lecture,WEDNESDAY,10:00,10:50,B211
+Ms. Janani U,Design Thinking and Innovation,CSBS-3B,lab,TUESDAY,09:50,11:30,TLFR3
+Ms. Janani U,Design Thinking and Innovation,CSBS-3B,lab,THURSDAY,13:50,15:30,TLGL4
+Mrs. S.Bakiyalakshmi,Computer Network Technology,CSBS-3A,lecture,FRIDAY,09:00,09:50,A311
+Mrs. S.Bakiyalakshmi,Computer Network Technology,CSBS-3A,lecture,TUESDAY,10:00,10:50,B212
+Mrs. S.Bakiyalakshmi,Computer Network Technology,CSBS-3A,lecture,WEDNESDAY,16:00,16:50,A205
+Mrs. S.Bakiyalakshmi,Computer Network Technology,CSBS-3A,lab,THURSDAY,09:50,11:30,TLFR1
+Mrs. S.Bakiyalakshmi,Computer Network Technology,CSBS-3A,lab,MONDAY,08:00,09:40,TLFR4
+Dr. Vishnu Kumar A,Computer Network Technology,CSBS-3B,lecture,WEDNESDAY,08:00,08:50,B106
+Dr. Vishnu Kumar A,Computer Network Technology,CSBS-3B,lecture,FRIDAY,11:00,11:50,B211
+Dr. Vishnu Kumar A,Computer Network Technology,CSBS-3B,lecture,WEDNESDAY,11:00,11:50,B212
+Dr. Vishnu Kumar A,Computer Network Technology,CSBS-3B,lab,MONDAY,13:50,15:30,TLSL1
+Dr. Vishnu Kumar A,Computer Network Technology,CSBS-3B,lab,TUESDAY,09:50,11:30,TLFR4
+New Faculty Humanities & Sciences (PLACEHOLDER),Artificial Intelligence,CSBS-3A,lecture,TUESDAY,08:00,08:50,B107
+New Faculty Humanities & Sciences (PLACEHOLDER),Artificial Intelligence,CSBS-3A,lecture,TUESDAY,11:00,11:50,B212
+New Faculty Humanities & Sciences (PLACEHOLDER),Artificial Intelligence,CSBS-3A,lecture,WEDNESDAY,10:00,10:50,B212
+New Faculty Humanities & Sciences (PLACEHOLDER),Artificial Intelligence,CSBS-3A,lab,TUESDAY,13:50,15:30,TLSL1
+New Faculty Humanities & Sciences (PLACEHOLDER),Artificial Intelligence,CSBS-3A,lab,WEDNESDAY,13:50,15:30,TLSL1
+New Faculty Humanities & Sciences (PLACEHOLDER),Artificial Intelligence,CSBS-3B,lecture,WEDNESDAY,09:00,09:50,B106
+New Faculty Humanities & Sciences (PLACEHOLDER),Artificial Intelligence,CSBS-3B,lecture,MONDAY,11:00,11:50,B212
+New Faculty Humanities & Sciences (PLACEHOLDER),Artificial Intelligence,CSBS-3B,lecture,FRIDAY,14:00,14:50,A205
+New Faculty Humanities & Sciences (PLACEHOLDER),Artificial Intelligence,CSBS-3B,lab,THURSDAY,09:50,11:30,TLFR2
+New Faculty Humanities & Sciences (PLACEHOLDER),Artificial Intelligence,CSBS-3B,lab,MONDAY,15:50,17:30,TLSL1
+Mrs. S.Bakiyalakshmi,Data Mining and Analytics,CSBS-3A,lecture,THURSDAY,08:00,08:50,B106
+Mrs. S.Bakiyalakshmi,Data Mining and Analytics,CSBS-3A,lecture,FRIDAY,11:00,11:50,B212
+Mrs. S.Bakiyalakshmi,Data Mining and Analytics,CSBS-3A,lecture,MONDAY,12:00,12:50,A208
+Mrs. S.Bakiyalakshmi,Data Mining and Analytics,CSBS-3A,lab,TUESDAY,15:50,17:30,TLSL1
+Mrs. S.Bakiyalakshmi,Data Mining and Analytics,CSBS-3A,lab,THURSDAY,13:50,15:30,TLSL1
+Mrs. Dr. P. Tamil Selvi,Data Mining and Analytics,CSBS-3B,lecture,THURSDAY,09:00,09:50,B106
+Mrs. Dr. P. Tamil Selvi,Data Mining and Analytics,CSBS-3B,lecture,FRIDAY,10:00,10:50,B212
+Mrs. Dr. P. Tamil Selvi,Data Mining and Analytics,CSBS-3B,lecture,MONDAY,13:00,13:50,A208
+Mrs. Dr. P. Tamil Selvi,Data Mining and Analytics,CSBS-3B,lab,WEDNESDAY,15:50,17:30,TLSL1
+Mrs. Dr. P. Tamil Selvi,Data Mining and Analytics,CSBS-3B,lab,MONDAY,08:00,09:40,TLFR5
+Mrs. Immaculate Amali J,Essentials of Human Resources  Management,CSBS-4A,lecture,FRIDAY,08:00,08:50,B106
+Mrs. Immaculate Amali J,Essentials of Human Resources  Management,CSBS-4A,lecture,THURSDAY,10:00,10:50,B212
+Mrs. Preetha T,Essentials of Human Resources  Management,CSBS-4B,lecture,FRIDAY,09:00,09:50,B106
+Mrs. Preetha T,Essentials of Human Resources  Management,CSBS-4B,lecture,THURSDAY,11:00,11:50,B212
+Mr. Sudhan Sk,Principles of Financial Management,CSBS-4A,lecture,MONDAY,08:00,08:50,B107
+Mr. Sudhan Sk,Principles of Financial Management,CSBS-4A,lecture,TUESDAY,10:00,10:50,B213
+Dr. Sindhu Al,Principles of Financial Management,CSBS-4B,lecture,MONDAY,09:00,09:50,B107
+Dr. Sindhu Al,Principles of Financial Management,CSBS-4B,lecture,TUESDAY,11:00,11:50,B213
+Mrs. Nisha R S,Usability Design of Software  Applications,CSBS-4A,lecture,MONDAY,10:00,10:50,B213
+Mrs. Nisha R S,Usability Design of Software  Applications,CSBS-4A,lecture,WEDNESDAY,08:00,08:50,B107
+Mrs. Nisha R S,Usability Design of Software  Applications,CSBS-4A,lecture,FRIDAY,10:00,10:50,B213
+Mrs. Nisha R S,Usability Design of Software  Applications,CSBS-4A,lab,FRIDAY,13:50,15:30,TLSL1
+Mrs. Nisha R S,Usability Design of Software  Applications,CSBS-4A,lab,MONDAY,13:50,15:30,TLSL2
+Mrs. Rajammal K,Usability Design of Software  Applications,CSBS-4B,lecture,MONDAY,11:00,11:50,B213
+Mrs. Rajammal K,Usability Design of Software  Applications,CSBS-4B,lecture,WEDNESDAY,10:00,10:50,B213
+Mrs. Rajammal K,Usability Design of Software  Applications,CSBS-4B,lecture,THURSDAY,10:00,10:50,B213

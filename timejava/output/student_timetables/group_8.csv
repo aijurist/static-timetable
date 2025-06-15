@@ -1,32 +1,29 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,10:00,10:50,Analog and Digital Communication,Mr. Karthi J,B106
-THURSDAY,09:00,09:50,Analog and Digital Communication,Mr. Karthi J,B404
-WEDNESDAY,08:00,08:50,Analog and Digital Communication,Mr. Karthi J,A310
-FRIDAY,13:00,13:50,Design and Analysis of Algorithms,Ms. Priyanka D,A204
-MONDAY,08:00,08:50,Design and Analysis of Algorithms,Ms. Priyanka D,B106
-WEDNESDAY,15:00,15:50,Design and Analysis of Algorithms,Ms. Priyanka D,B404
-MONDAY,13:50,15:30,Design and Analysis of Algorithms,Ms. Priyanka D,TLFL1
-FRIDAY,09:50,11:30,Design and Analysis of Algorithms,Ms. Priyanka D,JR2
-MONDAY,09:00,09:50,Fourier series and Number theory,Mr. A. Azhagarasu,B221
-THURSDAY,12:00,12:50,Fourier series and Number theory,Mr. A. Azhagarasu,A103
-MONDAY,11:00,11:50,Fourier series and Number theory,Mr. A. Azhagarasu,B423
-FRIDAY,12:00,12:50,Fourier series and Number theory,Mr. A. Azhagarasu,B210
-FRIDAY,08:00,08:50,Database Management Systems,Mr. Vimalan M,B409
-MONDAY,16:00,16:50,Database Management Systems,Mr. Vimalan M,B325
-MONDAY,10:00,10:50,Database Management Systems,Mr. Vimalan M,A104/105
-TUESDAY,13:50,15:30,Database Management Systems,Mr. Vimalan M,KFL02
-WEDNESDAY,11:50,13:30,Database Management Systems,Mr. Vimalan M,TLFR5
-THURSDAY,17:30,19:10,Database Management Systems,Mr. Vimalan M,TLFL3
-FRIDAY,13:50,15:30,Database Management Systems,Mr. Vimalan M,KFL02
-WEDNESDAY,11:00,11:50,Object Oriented Programming Using JAVA,Mrs. Usha S,B321
-MONDAY,13:00,13:50,Object Oriented Programming Using JAVA,Mrs. Usha S,B403
-TUESDAY,12:00,12:50,Object Oriented Programming Using JAVA,Mrs. Usha S,A110
-THURSDAY,09:50,11:30,Object Oriented Programming Using JAVA,Mrs. Usha S,TLFL2
-FRIDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mrs. Usha S,TLFL1
-TUESDAY,08:00,09:40,Object Oriented Programming Using JAVA,Mrs. Usha S,JL2
-TUESDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mrs. Usha S,TLFR1
-FRIDAY,16:00,16:50,Digital Logic and Computer Architecture,Mrs. Padmini S,B409
-THURSDAY,08:00,08:50,Digital Logic and Computer Architecture,Mrs. Padmini S,A203
-TUESDAY,13:00,13:50,Digital Logic and Computer Architecture,Mrs. Padmini S,A210
-FRIDAY,09:50,11:30,Digital Logic and Computer Architecture,Mrs. Padmini S,TLFL2
-THURSDAY,13:50,15:30,Digital Logic and Computer Architecture,Mrs. Padmini S,TLGL1
+FRIDAY,09:50,11:30,Control and Instrumentation Laboratory,Dr. Dhandayuthapani S,Power System Simulation Lab
+THURSDAY,11:50,13:30,Control and Instrumentation Laboratory,Dr. Dhandayuthapani S,Power Electronics Lab
+TUESDAY,17:30,19:10,Design Thinking and Innovation,Mr. Santhanakrishnan T,Electronic Devices & Circuits Lab
+THURSDAY,08:00,09:40,Design Thinking and Innovation,Mr. Santhanakrishnan T,Electronic Devices & Circuits Lab
+FRIDAY,11:50,13:30,Design Thinking and Innovation,Mr. Santhanakrishnan T,Electronic Devices & Circuits Lab
+MONDAY,11:50,13:30,Design Thinking and Innovation,Mr. Santhanakrishnan T,Electronic Devices & Circuits Lab
+TUESDAY,08:00,08:50,Microprocessors, Microcontrollers and Applications,Mr. D Shyam,A305
+TUESDAY,11:00,11:50,Microprocessors, Microcontrollers and Applications,Mr. D Shyam,A204
+MONDAY,09:00,09:50,Microprocessors, Microcontrollers and Applications,Mr. D Shyam,B423
+FRIDAY,11:50,13:30,Microprocessors, Microcontrollers and Applications,Mr. D Shyam,Microprocessor and Microcontrollers Lab
+THURSDAY,15:50,17:30,Microprocessors, Microcontrollers and Applications,Mr. D Shyam,Microprocessor and Microcontrollers Lab
+MONDAY,11:50,13:30,Soft Skills – II,Ms. A Sowmiya,Manufacturing Technology II
+THURSDAY,08:00,09:40,Soft Skills – II,Ms. A Sowmiya,Machine Shop FF2 - EPL - 2
+MONDAY,11:00,11:50,Power System Analysis,Mrs. Brindhu Kumari,B325
+THURSDAY,10:00,10:50,Power System Analysis,Mrs. Brindhu Kumari,B405
+WEDNESDAY,12:00,12:50,Power System Analysis,Mrs. Brindhu Kumari,A305
+TUESDAY,14:00,14:50,Power Electronics,Mr. A.Nazar Ali,A308
+WEDNESDAY,18:00,18:50,Power Electronics,Mr. A.Nazar Ali,B401
+FRIDAY,09:00,09:50,Power Electronics,Mr. A.Nazar Ali,A308
+TUESDAY,16:00,16:50,Control Systems,Mr. Dr.R. Essaki Raj,A211
+TUESDAY,12:00,12:50,Control Systems,Mr. Dr.R. Essaki Raj,A211
+THURSDAY,11:00,11:50,Control Systems,Mr. Dr.R. Essaki Raj,B409
+WEDNESDAY,09:50,11:30,Wiring Harness Design Engineering,Mr. Santhanakrishnan T,Mech CAD Lab
+FRIDAY,13:50,15:30,Wiring Harness Design Engineering,Mr. Santhanakrishnan T,Genetic Engineering Lab
+THURSDAY,13:50,15:30,Wiring Harness Design Engineering,Mr. Santhanakrishnan T,Isaac Asimov Laboratory
+MONDAY,17:30,19:10,Wiring Harness Design Engineering,Mr. Santhanakrishnan T,Dynamics Lab
+WEDNESDAY,15:50,17:30,Wiring Harness Design Engineering,Mr. Santhanakrishnan T,Technical Analysis Lab
+FRIDAY,15:50,17:30,Wiring Harness Design Engineering,Mr. Santhanakrishnan T,Medical Image Processing Lab

@@ -1,27 +1,24 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,11:00,11:50,Theory of Computation,Mrs. S.Vinothini,B322
-FRIDAY,14:00,14:50,Theory of Computation,Mrs. S.Vinothini,B322
-TUESDAY,15:00,15:50,Theory of Computation,Mrs. S.Vinothini,B210
-WEDNESDAY,12:00,12:50,Theory of Computation,Mrs. S.Vinothini,B210
-FRIDAY,18:00,18:50,Fundamentals of Mobile Computing,Mr. Dr.P.Shanmugam,B401
-TUESDAY,16:00,16:50,Fundamentals of Mobile Computing,Mr. Dr.P.Shanmugam,B219
-MONDAY,11:00,11:50,Fundamentals of Mobile Computing,Mr. Dr.P.Shanmugam,A204
-TUESDAY,10:00,10:50,Web Programming,Mrs. Sathiyavathi S,A102
-THURSDAY,10:00,10:50,Web Programming,Mrs. Sathiyavathi S,A109
-THURSDAY,16:00,16:50,Web Programming,Mrs. Sathiyavathi S,A204
-MONDAY,15:50,17:30,Web Programming,Mrs. Sathiyavathi S,TLFR4
-WEDNESDAY,13:50,15:30,Web Programming,Mrs. Sathiyavathi S,KFL02
-THURSDAY,13:50,15:30,Web Programming,Mrs. Sathiyavathi S,KSL03
-THURSDAY,08:00,09:40,Web Programming,Mrs. Sathiyavathi S,TLGL1
-FRIDAY,08:00,08:50,Computer Networks,Dr. Chettiyar Vani Vivekanand,A303
-FRIDAY,16:00,16:50,Computer Networks,Dr. Chettiyar Vani Vivekanand,A302
-WEDNESDAY,18:00,18:50,Computer Networks,Dr. Chettiyar Vani Vivekanand,B212
-FRIDAY,09:50,11:30,Computer Networks,Dr. Chettiyar Vani Vivekanand,KFL03
-THURSDAY,13:50,15:30,Computer Networks,Dr. Chettiyar Vani Vivekanand,TLGL3
-FRIDAY,11:50,13:30,Computer Networks,Dr. Chettiyar Vani Vivekanand,TLFL2
-THURSDAY,11:50,13:30,Computer Networks,Dr. Chettiyar Vani Vivekanand,TLFR2
-WEDNESDAY,10:00,10:50,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,B410
-TUESDAY,08:00,08:50,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,A210
-WEDNESDAY,13:00,13:50,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,A308
-MONDAY,17:30,19:10,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,TLGL3
-MONDAY,13:50,15:30,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,JL3
+TUESDAY,10:00,10:50,Enzyme Technology and Biotransformations,New Staff - 02,A210
+WEDNESDAY,14:00,14:50,Enzyme Technology and Biotransformations,New Staff - 02,C308
+MONDAY,09:00,09:50,Enzyme Technology and Biotransformations,New Staff - 02,B409
+THURSDAY,09:00,09:50,Transforms and Applied Partial Differential Equations,Mrs. Bharathi D,C201
+WEDNESDAY,10:00,10:50,Transforms and Applied Partial Differential Equations,Mrs. Bharathi D,A308
+TUESDAY,11:00,11:50,Transforms and Applied Partial Differential Equations,Mrs. Bharathi D,B404
+MONDAY,14:00,14:50,Transforms and Applied Partial Differential Equations,Mrs. Bharathi D,A204
+TUESDAY,12:00,12:50,Stoichiometry and Fluid Mechanics,Mrs. Divya Lakshmi. S,B426
+MONDAY,08:00,08:50,Stoichiometry and Fluid Mechanics,Mrs. Divya Lakshmi. S,A103
+TUESDAY,09:00,09:50,Stoichiometry and Fluid Mechanics,Mrs. Divya Lakshmi. S,A310
+THURSDAY,11:00,11:50,Stoichiometry and Fluid Mechanics,Mrs. Divya Lakshmi. S,B221
+THURSDAY,10:00,10:50,Molecular Genetics,Mrs. Muneeswari Alias Surya S,B418
+THURSDAY,12:00,12:50,Molecular Genetics,Mrs. Muneeswari Alias Surya S,B424
+FRIDAY,18:00,18:50,Molecular Genetics,Mrs. Muneeswari Alias Surya S,A110
+WEDNESDAY,15:00,15:50,Cell Biology,New Staff - 08,B411
+THURSDAY,08:00,08:50,Cell Biology,New Staff - 08,B211
+MONDAY,11:00,11:50,Cell Biology,New Staff - 08,B415
+WEDNESDAY,15:50,17:30,Basic Food and Enzyme Technology Laboratory,Mrs. Divya Lakshmi. S,Microbiology Lab
+FRIDAY,08:00,09:40,Basic Food and Enzyme Technology Laboratory,Mrs. Divya Lakshmi. S,Microbiology Lab
+TUESDAY,15:00,15:50,Analytical Techniques in Biotechnology,Dr. Shanthi M,C102
+TUESDAY,17:00,17:50,Analytical Techniques in Biotechnology,Dr. Shanthi M,B403
+WEDNESDAY,11:50,13:30,Analytical Techniques in Biotechnology,Dr. Shanthi M,Technical Analysis Lab
+THURSDAY,15:50,17:30,Analytical Techniques in Biotechnology,Dr. Shanthi M,Technical Analysis Lab

@@ -1,0 +1,21 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+WEDNESDAY,10:00,10:50,Principles of Financial Management,Dr. Ramanathan V K,A305
+FRIDAY,08:00,08:50,Principles of Financial Management,Dr. Ramanathan V K,C201
+THURSDAY,13:00,13:50,Design Thinking and Innovation,Ms. Janani U,B106
+MONDAY,11:50,13:30,Design Thinking and Innovation,Ms. Janani U,TLGL3
+FRIDAY,11:50,13:30,Design Thinking and Innovation,Ms. Janani U,TLFL1
+WEDNESDAY,14:00,14:50,Computer Network Technology,Dr. Vishnu Kumar A,B404
+THURSDAY,12:00,12:50,Computer Network Technology,Dr. Vishnu Kumar A,B404
+THURSDAY,10:00,10:50,Computer Network Technology,Dr. Vishnu Kumar A,A102
+FRIDAY,13:50,15:30,Computer Network Technology,Dr. Vishnu Kumar A,KFR02
+TUESDAY,11:50,13:30,Computer Network Technology,Dr. Vishnu Kumar A,TLFL5
+THURSDAY,09:00,09:50,Artificial Intelligence,New Faculty Humanities & Sciences (PLACEHOLDER),A211
+TUESDAY,17:00,17:50,Artificial Intelligence,New Faculty Humanities & Sciences (PLACEHOLDER),A309
+MONDAY,10:00,10:50,Artificial Intelligence,New Faculty Humanities & Sciences (PLACEHOLDER),A108
+MONDAY,08:00,09:40,Artificial Intelligence,New Faculty Humanities & Sciences (PLACEHOLDER),TLFR2
+WEDNESDAY,11:50,13:30,Artificial Intelligence,New Faculty Humanities & Sciences (PLACEHOLDER),JR1
+TUESDAY,14:00,14:50,Data Mining and Analytics,Mrs. Dr. P. Tamil Selvi,A202
+FRIDAY,17:00,17:50,Data Mining and Analytics,Mrs. Dr. P. Tamil Selvi,A304
+THURSDAY,11:00,11:50,Data Mining and Analytics,Mrs. Dr. P. Tamil Selvi,B220
+FRIDAY,09:50,11:30,Data Mining and Analytics,Mrs. Dr. P. Tamil Selvi,KSL03
+MONDAY,13:50,15:30,Data Mining and Analytics,Mrs. Dr. P. Tamil Selvi,KFR03

@@ -1,10 +1,10 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,14:00,14:50,Database Management Systems,CSE-CS-2B,B419
-WEDNESDAY,10:00,10:50,Database Management Systems,CSE-CS-2B,B403
-THURSDAY,10:00,10:50,Database Management Systems,CSE-CS-2B,B320
-FRIDAY,09:50,11:30,Database Management Systems,CSE-CS-2B,TLFL1
-WEDNESDAY,15:50,17:30,Database Management Systems,CSE-CS-2B,KFL02
-THURSDAY,13:50,15:30,Database Management Systems,CSE-CS-2B,TLFL3
-MONDAY,17:30,19:10,Database Management Systems,CSE-CS-2B,TLFR3
-THURSDAY,11:50,13:30,Soft Skills – II,CSE-CS-3A,KFL02
-THURSDAY,08:00,09:40,Soft Skills – II,CSE-CS-3A,TLFR4
+WEDNESDAY,08:00,08:50,Database Management Systems,CSE-CS 2.1,B405
+MONDAY,16:00,16:50,Database Management Systems,CSE-CS 2.1,B320
+FRIDAY,15:00,15:50,Database Management Systems,CSE-CS 2.1,A210
+THURSDAY,11:50,13:30,Database Management Systems,CSE-CS 2.1,Concrete & Survey Lab
+FRIDAY,11:50,13:30,Database Management Systems,CSE-CS 2.1,Networks Lab
+THURSDAY,17:30,19:10,Database Management Systems,CSE-CS 2.1,Genetic Engineering Lab
+TUESDAY,08:00,09:40,Database Management Systems,CSE-CS 2.1,Engineering Practices Lab (Electronics)
+FRIDAY,17:30,19:10,Soft Skills – II,CSE-CS 3.1,Chemical Reaction Engineering Lab
+WEDNESDAY,11:50,13:30,Soft Skills – II,CSE-CS 3.1,Machine Shop FF2 - EPL - 2

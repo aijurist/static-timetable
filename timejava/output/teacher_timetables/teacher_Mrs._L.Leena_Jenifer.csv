@@ -1,11 +1,11 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,17:00,17:50,Design and Analysis of Algorithms,IT-2B,A202
-FRIDAY,16:00,16:50,Design and Analysis of Algorithms,IT-2B,B322
-TUESDAY,15:00,15:50,Design and Analysis of Algorithms,IT-2B,B424
-WEDNESDAY,08:00,09:40,Design and Analysis of Algorithms,IT-2B,JR2
-THURSDAY,09:50,11:30,Design and Analysis of Algorithms,IT-2B,TLFR4
-MONDAY,16:00,16:50,Computer Vision,IT-3B,B320
-MONDAY,08:00,08:50,Computer Vision,IT-3B,B419
-WEDNESDAY,12:00,12:50,Computer Vision,IT-3B,B401
-MONDAY,09:50,11:30,Computer Vision,IT-3B,TLFL1
-FRIDAY,09:50,11:30,Computer Vision,IT-3B,KFR02
+TUESDAY,16:00,16:50,Design and Analysis of Algorithms,IT 2.2,A304
+MONDAY,14:00,14:50,Design and Analysis of Algorithms,IT 2.2,B212
+THURSDAY,11:00,11:50,Design and Analysis of Algorithms,IT 2.2,B424
+MONDAY,17:30,19:10,Design and Analysis of Algorithms,IT 2.2,TLSL1
+WEDNESDAY,11:50,13:30,Design and Analysis of Algorithms,IT 2.2,TLSR1
+TUESDAY,11:00,11:50,Computer Vision,IT 3.2,C307
+FRIDAY,11:00,11:50,Computer Vision,IT 3.2,B426
+FRIDAY,09:00,09:50,Computer Vision,IT 3.2,A104/105
+TUESDAY,13:50,15:30,Computer Vision,IT 3.2,JL2
+THURSDAY,08:00,09:40,Computer Vision,IT 3.2,TLFR1

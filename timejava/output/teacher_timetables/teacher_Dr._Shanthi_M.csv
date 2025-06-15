@@ -1,0 +1,12 @@
+Day,StartTime,EndTime,Course,Group,Room
+TUESDAY,15:00,15:50,Analytical Techniques in Biotechnology,BT 2.2,C102
+TUESDAY,17:00,17:50,Analytical Techniques in Biotechnology,BT 2.2,B403
+WEDNESDAY,11:50,13:30,Analytical Techniques in Biotechnology,BT 2.2,Technical Analysis Lab
+THURSDAY,15:50,17:30,Analytical Techniques in Biotechnology,BT 2.2,Technical Analysis Lab
+WEDNESDAY,17:30,19:10,Bioinformatics Laboratory,BT 4.3,Power Electronics Lab
+FRIDAY,13:50,15:30,Bioinformatics Laboratory,BT 4.3,Auto CAD Lab
+MONDAY,09:50,11:30,Bioinformatics Laboratory,BT 4.3,Genetic Engineering Lab
+THURSDAY,09:50,11:30,Bioinformatics Laboratory,BT 4.3,Avionics Lab
+WEDNESDAY,16:00,16:50,Bioinformatics,BT 4.1,B418
+THURSDAY,13:00,13:50,Bioinformatics,BT 4.1,B321
+TUESDAY,11:00,11:50,Bioinformatics,BT 4.1,B424

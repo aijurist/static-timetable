@@ -1,49 +1,43 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,13:50,15:30,Advanced Robotic Process Automation,CSE-4A,TLFL3
-TUESDAY,15:50,17:30,Advanced Robotic Process Automation,CSE-4A,TLFL5
-FRIDAY,08:00,09:40,Advanced Robotic Process Automation,CSE-4A,KFR01
-THURSDAY,15:50,17:30,Advanced Robotic Process Automation,CSE-4A,KFL02
-FRIDAY,13:50,15:30,Advanced Robotic Process Automation,CSE-4A,JL2
-FRIDAY,15:50,17:30,Advanced Robotic Process Automation,CSE-4A,TLFR5
-WEDNESDAY,11:50,13:30,Advanced Robotic Process Automation,CSE-4C,JR2
-THURSDAY,13:50,15:30,Advanced Robotic Process Automation,CSE-4C,TLFL4
-TUESDAY,09:50,11:30,Advanced Robotic Process Automation,CSE-4C,TLFL5
-FRIDAY,11:50,13:30,Advanced Robotic Process Automation,CSE-4C,TLFR3
-MONDAY,15:50,17:30,Advanced Robotic Process Automation,CSE-4C,TLFR5
-TUESDAY,11:50,13:30,Advanced Robotic Process Automation,CSE-4C,TLFL3
-MONDAY,13:50,15:30,Advanced Robotic Process Automation,CSE-4E,JR3
-THURSDAY,09:50,11:30,Advanced Robotic Process Automation,CSE-4E,TLFR2
-WEDNESDAY,17:30,19:10,Advanced Robotic Process Automation,CSE-4E,TLSL1
-WEDNESDAY,08:00,09:40,Advanced Robotic Process Automation,CSE-4E,TLFR4
-THURSDAY,11:50,13:30,Advanced Robotic Process Automation,CSE-4E,TLFR4
-TUESDAY,13:50,15:30,Advanced Robotic Process Automation,CSE-4E,TLSR1
-FRIDAY,15:50,17:30,Advanced Application Development with Oracle APEX,CSE-4A,TLFL3
-MONDAY,11:50,13:30,Advanced Application Development with Oracle APEX,CSE-4A,JR1
-FRIDAY,10:00,10:50,Advanced Application Development with Oracle APEX,CSE-4A,TLFL5
-TUESDAY,11:50,13:30,Advanced Application Development with Oracle APEX,CSE-4A,KFL01
-WEDNESDAY,11:50,13:30,Advanced Application Development with Oracle APEX,CSE-4A,JR1
-FRIDAY,11:50,13:30,Advanced Application Development with Oracle APEX,CSE-4A,TLGL4
-THURSDAY,13:50,15:30,Advanced Application Development with Oracle APEX,CSE-4B,TLGL2
-TUESDAY,13:50,15:30,Advanced Application Development with Oracle APEX,CSE-4B,KFR01
-WEDNESDAY,08:00,09:40,Advanced Application Development with Oracle APEX,CSE-4B,TLFL2
-TUESDAY,08:00,08:50,Advanced Application Development with Oracle APEX,CSE-4B,TLFR1
-MONDAY,10:00,10:50,Advanced Application Development with Oracle APEX,CSE-4B,TLSL1
-FRIDAY,13:50,15:30,Advanced Application Development with Oracle APEX,CSE-4B,TLFL2
-THURSDAY,08:00,08:50,Advanced Application Development with Oracle APEX,CSE-4C,JL1
-MONDAY,15:50,17:30,Advanced Application Development with Oracle APEX,CSE-4C,JR2
-WEDNESDAY,17:30,19:10,Advanced Application Development with Oracle APEX,CSE-4C,JR3
-THURSDAY,09:50,11:30,Advanced Application Development with Oracle APEX,CSE-4C,KFL02
-TUESDAY,09:50,11:30,Advanced Application Development with Oracle APEX,CSE-4C,KFR03
-FRIDAY,18:00,18:50,Advanced Application Development with Oracle APEX,CSE-4C,TLSR1
-TUESDAY,15:50,17:30,Advanced Application Development with Oracle APEX,CSE-4D,TLGL2
-THURSDAY,11:50,13:30,Advanced Application Development with Oracle APEX,CSE-4D,JR2
-FRIDAY,08:00,09:40,Advanced Application Development with Oracle APEX,CSE-4D,TLFL2
-MONDAY,08:00,09:40,Advanced Application Development with Oracle APEX,CSE-4D,JL2
-WEDNESDAY,13:50,15:30,Advanced Application Development with Oracle APEX,CSE-4D,TLFR1
-WEDNESDAY,10:00,10:50,Advanced Application Development with Oracle APEX,CSE-4D,TLFR1
-MONDAY,18:00,18:50,Advanced Application Development with Oracle APEX,CSE-4E,TLSR1
-WEDNESDAY,16:00,16:50,Advanced Application Development with Oracle APEX,CSE-4E,TLSR1
-TUESDAY,18:00,18:50,Advanced Application Development with Oracle APEX,CSE-4E,TLFL4
-MONDAY,13:50,15:30,Advanced Application Development with Oracle APEX,CSE-4E,TLSL2
-THURSDAY,18:00,18:50,Advanced Application Development with Oracle APEX,CSE-4E,TLFL4
-THURSDAY,15:50,17:30,Advanced Application Development with Oracle APEX,CSE-4E,TLFR2
+MONDAY,08:00,09:40,Advanced Robotic Process Automation,CSE 4.2,JL3
+TUESDAY,09:50,11:30,Advanced Robotic Process Automation,CSE 4.2,TLSR1
+TUESDAY,11:50,13:30,Advanced Robotic Process Automation,CSE 4.2,JL1
+WEDNESDAY,15:50,17:30,Advanced Robotic Process Automation,CSE 4.2,TLFL4
+THURSDAY,15:50,17:30,Advanced Robotic Process Automation,CSE 4.2,JL1
+WEDNESDAY,11:50,13:30,Advanced Robotic Process Automation,CSE 4.2,JL2
+THURSDAY,09:50,11:30,Advanced Robotic Process Automation,CSE 4.4,TLFL4
+FRIDAY,15:50,17:30,Advanced Robotic Process Automation,CSE 4.4,TLFR1
+MONDAY,11:50,13:30,Advanced Robotic Process Automation,CSE 4.4,TLFR3
+WEDNESDAY,08:00,09:40,Advanced Robotic Process Automation,CSE 4.4,TLFR2
+FRIDAY,13:50,15:30,Advanced Robotic Process Automation,CSE 4.4,JL2
+FRIDAY,08:00,09:40,Advanced Robotic Process Automation,CSE 4.4,JR2
+TUESDAY,18:00,18:50,Advanced Application Development with Oracle APEX,CSE 4.1,KFR03
+MONDAY,10:00,10:50,Advanced Application Development with Oracle APEX,CSE 4.1,KFL01
+FRIDAY,15:50,17:30,Advanced Application Development with Oracle APEX,CSE 4.1,JR2
+THURSDAY,18:00,18:50,Advanced Application Development with Oracle APEX,CSE 4.1,TLFL3
+THURSDAY,11:50,13:30,Advanced Application Development with Oracle APEX,CSE 4.1,KFR01
+MONDAY,15:50,17:30,Advanced Application Development with Oracle APEX,CSE 4.1,JL3
+TUESDAY,13:50,15:30,Advanced Application Development with Oracle APEX,CSE 4.2,TLFR2
+WEDNESDAY,13:50,15:30,Advanced Application Development with Oracle APEX,CSE 4.2,KFR01
+THURSDAY,15:50,17:30,Advanced Application Development with Oracle APEX,CSE 4.2,KFR02
+FRIDAY,18:00,18:50,Advanced Application Development with Oracle APEX,CSE 4.2,TLFL1
+WEDNESDAY,18:00,18:50,Advanced Application Development with Oracle APEX,CSE 4.2,TLFL1
+FRIDAY,10:00,10:50,Advanced Application Development with Oracle APEX,CSE 4.2,KFL01
+TUESDAY,11:50,13:30,Advanced Application Development with Oracle APEX,CSE 4.3,KFL01
+TUESDAY,09:50,11:30,Advanced Application Development with Oracle APEX,CSE 4.3,JL3
+FRIDAY,11:50,13:30,Advanced Application Development with Oracle APEX,CSE 4.3,TLFR4
+THURSDAY,09:50,11:30,Advanced Application Development with Oracle APEX,CSE 4.3,KFR02
+THURSDAY,13:50,15:30,Advanced Application Development with Oracle APEX,CSE 4.3,TLFL2
+FRIDAY,08:00,09:40,Advanced Application Development with Oracle APEX,CSE 4.3,TLSR1
+FRIDAY,13:50,15:30,Advanced Application Development with Oracle APEX,CSE 4.4,TLFR2
+MONDAY,13:50,15:30,Advanced Application Development with Oracle APEX,CSE 4.4,KFL01
+MONDAY,18:00,18:50,Advanced Application Development with Oracle APEX,CSE 4.4,TLFL3
+MONDAY,08:00,09:40,Advanced Application Development with Oracle APEX,CSE 4.4,TLSL2
+MONDAY,11:50,13:30,Advanced Application Development with Oracle APEX,CSE 4.4,KFR03
+WEDNESDAY,15:50,17:30,Advanced Application Development with Oracle APEX,CSE 4.4,JL2
+WEDNESDAY,10:00,10:50,Advanced Application Development with Oracle APEX,CSE 4.5,TLSL1
+TUESDAY,15:50,17:30,Advanced Application Development with Oracle APEX,CSE 4.5,TLFL4
+THURSDAY,08:00,08:50,Advanced Application Development with Oracle APEX,CSE 4.5,TLFR4
+TUESDAY,08:00,08:50,Advanced Application Development with Oracle APEX,CSE 4.5,TLFR3
+WEDNESDAY,08:00,09:40,Advanced Application Development with Oracle APEX,CSE 4.5,TLFL1
+WEDNESDAY,11:50,13:30,Advanced Application Development with Oracle APEX,CSE 4.5,TLFR2

@@ -21,22 +21,48 @@ import java.util.stream.Collectors;
 public class TimetableDataLoader {
     private static final Logger LOGGER = Logger.getLogger(TimetableDataLoader.class.getName());
 
-    private static final Map<String, String> DEPT_NAME_TO_CODE = Map.of(
-            "Computer Science & Design", "CSD",
-            "Computer Science & Engineering", "CSE",
-            "Computer Science & Engineering (Cyber Security)", "CSE-CS",
-            "Computer Science & Business Systems", "CSBS",
-            "Information Technology", "IT",
-            "Artificial Intelligence & Machine Learning", "AIML"
+    private static final Map<String, String> DEPT_NAME_TO_CODE = Map.ofEntries(
+            Map.entry("Computer Science & Design", "CSD"),
+            Map.entry("Computer Science & Engineering", "CSE"),
+            Map.entry("Computer Science & Engineering (Cyber Security)", "CSE-CS"),
+            Map.entry("Computer Science & Business Systems", "CSBS"),
+            Map.entry("Information Technology", "IT"),
+            Map.entry("Artificial Intelligence & Machine Learning", "AIML"),
+            Map.entry("AI & Data Science", "AIDS"),
+            Map.entry("Electronics & Communication Engineering", "ECE"),
+            Map.entry("Electrical & Electronics Engineering", "EEE"),
+            Map.entry("Aeronautical Engineering", "AERO"),
+            Map.entry("Automobile Engineering", "AUTO"),
+            Map.entry("Mechatronics Engineering", "MCT"),
+            Map.entry("Mechanical Engineering", "MECH"),
+            Map.entry("Biotechnology", "BT"),
+            Map.entry("Biomedical Engineering", "BME"),
+            Map.entry("Robotics & Automation", "R&A"),
+            Map.entry("Food Technology", "FT"),
+            Map.entry("Civil Engineering", "CIVIL"),
+            Map.entry("Chemical Engineering", "CHEM")
     );
 
-    private static final Map<String, Map<String, Integer>> DEPARTMENT_DATA = Map.of(
-            "CSE-CS", Map.of("2", 2, "3", 1),
-            "CSE", Map.of("2", 10, "3", 6, "4", 5),
-            "CSBS", Map.of("2", 2, "3", 2, "4", 2),
-            "CSD", Map.of("2", 1, "3", 1, "4", 1),
-            "IT", Map.of("2", 5, "3", 4, "4", 3),
-            "AIML", Map.of("2", 4, "3", 3, "4", 3)
+    private static final Map<String, Map<String, Integer>> DEPARTMENT_DATA = Map.ofEntries(
+            Map.entry("CSE-CS", Map.of("2", 2, "3", 1)),
+            Map.entry("CSE", Map.of("2", 10, "3", 6, "4", 5)),
+            Map.entry("CSBS", Map.of("2", 2, "3", 2, "4", 2)),
+            Map.entry("CSD", Map.of("2", 1, "3", 1, "4", 1)),
+            Map.entry("IT", Map.of("2", 5, "3", 4, "4", 3)),
+            Map.entry("AIML", Map.of("2", 4, "3", 3, "4", 3)),
+            Map.entry("AIDS", Map.of("2", 5, "3", 3, "4", 1)),
+            Map.entry("ECE", Map.of("2", 6, "3", 4, "4", 4)),
+            Map.entry("EEE", Map.of("2", 2, "3", 2, "4", 2)),
+            Map.entry("AERO", Map.of("2", 1, "3", 1, "4", 1)),
+            Map.entry("AUTO", Map.of("2", 1, "3", 1, "4", 1)),
+            Map.entry("MCT", Map.of("2", 1, "3", 1, "4", 1)),
+            Map.entry("MECH", Map.of("2", 2, "3", 2, "4", 2)),
+            Map.entry("BT", Map.of("2", 3, "3", 3, "4", 3)),
+            Map.entry("BME", Map.of("2", 2, "3", 2, "4", 2)),
+            Map.entry("R&A", Map.of("2", 1, "3", 1, "4", 1)),
+            Map.entry("FT", Map.of("2", 1, "3", 1, "4", 1)),
+            Map.entry("CIVIL", Map.of("2", 1, "3", 1, "4", 1)),
+            Map.entry("CHEM", Map.of("2", 1, "3", 1, "4", 1))
     );
 
     private static class RawDataRecord {
@@ -75,7 +101,17 @@ public class TimetableDataLoader {
 
     public static TimetableProblem loadProblem(String coursesFile, String roomsDir) {
         try {
-            List<RawDataRecord> rawData = loadRawData(coursesFile);
+            List<RawDataRecord> rawData;
+            if (coursesFile.contains(",")) {
+                // Multiple files separated by comma
+                String[] files = coursesFile.split(",");
+                rawData = new ArrayList<>();
+                for (String file : files) {
+                    rawData.addAll(loadRawData(file.trim()));
+                }
+            } else {
+                rawData = loadRawData(coursesFile);
+            }
             
                 
             
@@ -175,24 +211,36 @@ public class TimetableDataLoader {
                 ))
                 .collect(Collectors.toSet());
 
-        for (Map.Entry<String, Integer> pair : deptYearPairs) {
-            String dept = pair.getKey();
-            int year = pair.getValue();
-            int numSections = DEPARTMENT_DATA.getOrDefault(dept, Collections.emptyMap())
-                    .getOrDefault(String.valueOf(year), 0);
-            LOGGER.info(String.format("Creating %d sections for %s Year %d", numSections, dept, year));
-
-            for (int i = 0; i < numSections; i++) {
-                char section = (char) ('A' + i);
-                String groupName = String.format("%s-%d%c", dept, year, section);
+        for (Map.Entry<String, Integer> entry : deptYearPairs) {
+            String dept = entry.getKey();
+            Integer year = entry.getValue();
+            
+            // Map full department name to short code
+            String deptCode = DEPT_NAME_TO_CODE.getOrDefault(dept, dept);
+            
+            Map<String, Integer> yearToSections = DEPARTMENT_DATA.get(deptCode);
+            if (yearToSections == null) {
+                LOGGER.info("Creating 0 sections for " + dept + " Year " + year + " (mapped to " + deptCode + ")");
+                continue;
+            }
+            
+            Integer sections = yearToSections.get(year.toString());
+            if (sections == null || sections == 0) {
+                LOGGER.info("Creating 0 sections for " + dept + " Year " + year + " (mapped to " + deptCode + ")");
+                continue;
+            }
+            
+            LOGGER.info("Creating " + sections + " sections for " + dept + " Year " + year + " (mapped to " + deptCode + ")");
+            
+            for (int i = 1; i <= sections; i++) {
+                String groupName = dept + " " + year + "." + i;
                 studentGroups.add(new StudentGroup(
                         String.valueOf(groupCounter++),
                         groupName,
-                        TimetableConfig.CLASS_STRENGTH,
+                        "AUTO".equals(deptCode) ? 35 : TimetableConfig.CLASS_STRENGTH,
                         dept,
                         year
                 ));
-                LOGGER.info("Created student group: " + groupName);
             }
         }
         LOGGER.info("Created " + studentGroups.size() + " total student groups");
@@ -332,7 +380,7 @@ public class TimetableDataLoader {
         return timeSlots;
     }
 
-    private static List<Room> loadRooms(String roomsDir) throws IOException {
+    public static List<Room> loadRooms(String roomsDir) throws IOException {
         List<Room> rooms = new ArrayList<>();
         File classroomDir = new File(roomsDir, "classroom");
         if (classroomDir.exists() && classroomDir.isDirectory()) {
@@ -364,9 +412,23 @@ public class TimetableDataLoader {
                 try {
                     String name = record.get("room_number");
                     String block = record.get("block");
+                    String description = record.get("description");
                     String uniqueId = block.replaceAll("\\s+", "") + "_" + name;
                     int capacity = parseIntSafely(record.get("room_max_cap"), 70);
-                    rooms.add(new Room(uniqueId, name, block, "", capacity, isLab));
+                    
+                    // Read lab_type if available
+                    String labType = null;
+                    try {
+                        labType = record.get("lab_type");
+                        if (labType != null && labType.trim().isEmpty()) {
+                            labType = null;
+                        }
+                    } catch (IllegalArgumentException e) {
+                        // lab_type column doesn't exist, that's fine
+                        labType = null;
+                    }
+                    
+                    rooms.add(new Room(uniqueId, name, block, description, capacity, isLab, labType));
                 } catch (IllegalArgumentException e) {
                     System.err.println("Skipping record in " + filePath + " due to missing fields: " + e.getMessage());
                 }

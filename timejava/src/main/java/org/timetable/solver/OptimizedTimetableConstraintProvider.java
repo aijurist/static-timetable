@@ -9,9 +9,12 @@ import org.timetable.domain.Lesson;
 import org.timetable.domain.Teacher;
 import org.timetable.domain.TimeSlot;
 import org.timetable.config.TimetableConfig;
+import org.timetable.persistence.CourseLabMappingUtil;
+import org.timetable.domain.Room;
 
 import java.time.Duration;
 import java.util.Objects;
+import java.util.Set;
 
 import static org.optaplanner.core.api.score.stream.ConstraintCollectors.*;
 
@@ -52,7 +55,12 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 balanceTeacherDailyLoad(constraintFactory),
                 minimizeTeacherTravelTime(constraintFactory),
                 preferConsecutiveLessons(constraintFactory),
-                avoidLateClasses(constraintFactory)
+                avoidLateClasses(constraintFactory),
+                specialRoomForAuto(constraintFactory),
+                teacherShiftPattern(constraintFactory),
+                computerDepartmentsMustUseComputerLabs(constraintFactory),
+                coreDepartmentsMustUseCoreOrComputerLabs(constraintFactory),
+                courseLabMustMatchMapping(constraintFactory)
         };
     }
 
@@ -362,6 +370,91 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 .asConstraint("Avoid late classes");
     }
 
+    /**
+     * HARD: Room numbers 61, 62, C108 in block C are restricted to Automobile department (AUTO).
+     */
+    private Constraint specialRoomForAuto(ConstraintFactory constraintFactory) {
+        Set<String> SPECIAL_ROOMS = java.util.Set.of("61", "62", "C108");
+        return constraintFactory
+                .forEach(Lesson.class)
+                .filter(lesson -> lesson.getRoom() != null && SPECIAL_ROOMS.contains(lesson.getRoom().getName()))
+                .filter(lesson -> !"AUTO".equalsIgnoreCase(lesson.getStudentGroup().getDepartment()))
+                .penalize(HardSoftScore.ONE_HARD)
+                .asConstraint("Special room AUTO only");
+    }
+
+    // NEW: Encourage a 2-2-1 shift distribution (permutation of two days in two different shifts and one day in the third)
+    private Constraint teacherShiftPattern(ConstraintFactory constraintFactory) {
+        return constraintFactory
+                .forEach(Lesson.class)
+                .groupBy(Lesson::getTeacher, toList())
+                .filter((teacher, lessons) -> calculateShiftPenalty(lessons) > 0)
+                .penalize(HardSoftScore.of(0, 4),
+                        (teacher, lessons) -> calculateShiftPenalty(lessons))
+                .asConstraint("Teacher shift pattern");
+    }
+
+    /**
+     * Calculates a penalty based on how far a teacher's weekly timetable deviates from the desired 2-2-1 shift distribution.
+     * <p>
+     * Shift buckets:
+     *   0 – Early shift  (first lesson starts before 10:00)  →  8-3 shift
+     *   1 – Mid shift    (first lesson starts between 10:00 ‑ 11:59) → 10-5 shift
+     *   2 – Late shift   (first lesson starts at/after 12:00) → 12-7 shift
+     * <p>
+     * For every week day we only consider the EARLIEST lesson start time when classifying the shift for that day.
+     * The ideal distribution for the five working days is two days in two of the buckets and one day in the remaining bucket (any permutation).
+     * The function returns 0 if the ideal distribution is achieved; otherwise it returns a positive integer representing the magnitude of deviation.
+     */
+    private static int calculateShiftPenalty(java.util.List<Lesson> lessons) {
+        // Earliest start time per day
+        java.util.EnumMap<java.time.DayOfWeek, java.time.LocalTime> earliestByDay = new java.util.EnumMap<>(java.time.DayOfWeek.class);
+        for (Lesson l : lessons) {
+            if (l.getTimeSlot() == null) continue;
+            var ts = l.getTimeSlot();
+            var day = ts.getDayOfWeek();
+            var start = ts.getStartTime();
+            var current = earliestByDay.get(day);
+            if (current == null || start.isBefore(current)) {
+                earliestByDay.put(day, start);
+            }
+        }
+        // Count shifts based on earliest appearance per day
+        int[] shiftCounts = new int[3]; // [early, mid, late]
+        for (java.time.LocalTime start : earliestByDay.values()) {
+            int bucket = classifyShift(start);
+            shiftCounts[bucket]++;
+        }
+        // Desired pattern after sorting should be [1,2,2]
+        int[] sorted = java.util.Arrays.stream(shiftCounts).sorted().toArray();
+        if (sorted[0] == 1 && sorted[1] == 2 && sorted[2] == 2) {
+            return 0; // perfect match
+        }
+        // Otherwise compute deviation penalty.
+        int penalty = 0;
+        for (int c : shiftCounts) {
+            if (c == 0) {
+                penalty += 2; // missing a shift bucket entirely
+            } else if (c > 2) {
+                penalty += c - 2; // more than 2 days in same shift
+            }
+            // count==1 or 2 is acceptable, so no penalty
+        }
+        return penalty;
+    }
+
+    // Helper to map a lesson start time to a shift bucket (0,1,2)
+    private static int classifyShift(java.time.LocalTime start) {
+        int hour = start.getHour();
+        if (hour < 10) {
+            return 0; // 8-3 shift
+        } else if (hour < 12) {
+            return 1; // 10-5 shift
+        } else {
+            return 2; // 12-7 shift
+        }
+    }
+
     // ############################################################################
     // Helper Methods
     // ############################################################################
@@ -381,5 +474,54 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
         java.time.LocalTime start1 = lesson1.getTimeSlot().getStartTime();
         
         return end1.equals(start2) || end2.equals(start1);
+    }
+
+    // Lab type matching constraints
+    Constraint computerDepartmentsMustUseComputerLabs(ConstraintFactory constraintFactory) {
+        return constraintFactory.forEach(Lesson.class)
+                .filter(lesson -> lesson.getSessionType().equals("lab"))
+                .filter(lesson -> isComputerDepartment(lesson.getStudentGroup().getDepartment()))
+                .join(Room.class, Joiners.equal(Lesson::getRoom, room -> room))
+                .filter((lesson, room) -> !"computer".equals(room.getLabType()))
+                .penalize(HardSoftScore.ONE_HARD.multiply(100))
+                .asConstraint("Computer departments must use computer labs");
+    }
+
+    Constraint coreDepartmentsMustUseCoreOrComputerLabs(ConstraintFactory constraintFactory) {
+        return constraintFactory.forEach(Lesson.class)
+                .filter(lesson -> lesson.getSessionType().equals("lab"))
+                .filter(lesson -> !isComputerDepartment(lesson.getStudentGroup().getDepartment()))
+                .join(Room.class, Joiners.equal(Lesson::getRoom, room -> room))
+                .filter((lesson, room) -> {
+                    // Core departments can use core labs or computer labs (if mapped)
+                    String labType = room.getLabType();
+                    if ("core".equals(labType)) {
+                        return false; // Core labs are always allowed
+                    }
+                    if ("computer".equals(labType)) {
+                        // Check if this course is explicitly mapped to computer labs
+                        return !CourseLabMappingUtil.isRoomAllowedForCourse(lesson.getCourse().getCode(), room.getDescription());
+                    }
+                    return true; // Other lab types not allowed
+                })
+                .penalize(HardSoftScore.ONE_HARD.multiply(50))
+                .asConstraint("Core departments must use appropriate labs");
+    }
+
+    // Helper method to identify computer departments
+    private boolean isComputerDepartment(String department) {
+        return "CSE".equals(department) || "IT".equals(department) || "AIDS".equals(department) || "CSBS".equals(department);
+    }
+
+    // Enforce that courses with explicit lab mappings must be scheduled in one of their allowed labs
+    private Constraint courseLabMustMatchMapping(ConstraintFactory constraintFactory) {
+        return constraintFactory.forEach(Lesson.class)
+                .filter(lesson -> lesson.getSessionType().equals("lab"))
+                .filter(lesson -> CourseLabMappingUtil.isCoreLabCourse(lesson.getCourse().getCode()))
+                .join(Room.class, Joiners.equal(Lesson::getRoom, room -> room))
+                .filter((lesson, room) -> !CourseLabMappingUtil.isRoomAllowedForCourse(
+                        lesson.getCourse().getCode(), room.getDescription()))
+                .penalize(HardSoftScore.ONE_HARD.multiply(1000))
+                .asConstraint("Course lab must match mapping");
     }
 } 

@@ -11,6 +11,7 @@ public class Room {
     private int capacity;
     private boolean isLab;
     private boolean isPriorityRoom; // For special rooms
+    private String labType; // "core", "computer", or null for non-labs
     
     public Room() {
     }
@@ -23,6 +24,18 @@ public class Room {
         this.capacity = capacity;
         this.isLab = isLab;
         this.isPriorityRoom = false; // Default to false, can be set explicitly if needed
+        this.labType = null; // Default to null
+    }
+
+    public Room(String id, String name, String block, String description, int capacity, boolean isLab, String labType) {
+        this.id = id;
+        this.name = name;
+        this.block = block;
+        this.description = description;
+        this.capacity = capacity;
+        this.isLab = isLab;
+        this.isPriorityRoom = false; // Default to false, can be set explicitly if needed
+        this.labType = labType;
     }
 
     public String getId() {
@@ -81,8 +94,17 @@ public class Room {
         isPriorityRoom = priorityRoom;
     }
 
+    public String getLabType() {
+        return labType;
+    }
+
+    public void setLabType(String labType) {
+        this.labType = labType;
+    }
+
     @Override
     public String toString() {
-        return name + (isLab ? " (Lab)" : "") + (isPriorityRoom ? " (Priority)" : "");
+        return name + (isLab ? " (Lab)" : "") + (isPriorityRoom ? " (Priority)" : "") + 
+               (labType != null ? " (" + labType + ")" : "");
     }
 } 

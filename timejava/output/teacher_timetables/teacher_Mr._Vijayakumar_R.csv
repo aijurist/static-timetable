@@ -1,11 +1,11 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,15:50,17:30,Python Programming for Design,CSD-2A,KFR01
-FRIDAY,15:50,17:30,Python Programming for Design,CSD-2A,TLFL5
-TUESDAY,08:00,09:40,Python Programming for Design,CSD-2A,TLGL1
-WEDNESDAY,15:50,17:30,Python Programming for Design,CSD-2A,KFR02
-WEDNESDAY,11:50,13:30,Python Programming for Design,CSD-2A,TLGL1
-WEDNESDAY,13:50,15:30,Python Programming for Design,CSD-2A,KSL03
-THURSDAY,15:00,15:50,Graphics and Multimedia,CSD-3A,B322
-THURSDAY,11:00,11:50,Graphics and Multimedia,CSD-3A,B415
-TUESDAY,13:50,15:30,Graphics and Multimedia,CSD-3A,TLFR4
-THURSDAY,17:30,19:10,Graphics and Multimedia,CSD-3A,TLFL2
+FRIDAY,11:50,13:30,Python Programming for Design,CSD 2.1,Machine Shop FF2 - EPL - 2
+TUESDAY,17:30,19:10,Python Programming for Design,CSD 2.1,Technical Analysis Lab
+FRIDAY,15:50,17:30,Python Programming for Design,CSD 2.1,Auto CAD Lab
+THURSDAY,13:50,15:30,Python Programming for Design,CSD 2.1,Computer Application in Chemical Engg Lab
+WEDNESDAY,09:50,11:30,Python Programming for Design,CSD 2.1,Machine Shop FF1 - EPL - 1
+WEDNESDAY,13:50,15:30,Python Programming for Design,CSD 2.1,Engineering Practices Lab (Electrical)
+FRIDAY,09:00,09:50,Graphics and Multimedia,CSD 3.1,A109
+MONDAY,16:00,16:50,Graphics and Multimedia,CSD 3.1,C101
+MONDAY,13:50,15:30,Graphics and Multimedia,CSD 3.1,Engineering Practices Lab (Electrical)
+THURSDAY,11:50,13:30,Graphics and Multimedia,CSD 3.1,Automotive Components Lab

@@ -48,7 +48,10 @@ public class TimetableJsonExporter {
                     lessonMap.put("teacherId", l.getTeacher().getId());
                     lessonMap.put("group", l.getStudentGroup().getName());
                     lessonMap.put("groupId", l.getStudentGroup().getId());
-                    lessonMap.put("room", l.getRoom().getName());
+                    String roomLabel = (l.getRoom().isLab() && "core".equals(l.getRoom().getLabType()))
+                            ? l.getRoom().getDescription()
+                            : l.getRoom().getName();
+                    lessonMap.put("room", roomLabel);
                     lessonMap.put("type", l.getSessionType());
                     lessonMap.put("batch", l.getBatch());
                     return lessonMap;

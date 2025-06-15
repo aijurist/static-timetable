@@ -1,19 +1,19 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,11:00,11:50,Automata Theory & Compiler Design,IT-3C,B418
-FRIDAY,14:00,14:50,Automata Theory & Compiler Design,IT-3C,B410
-WEDNESDAY,18:00,18:50,Automata Theory & Compiler Design,IT-3C,B222
-THURSDAY,13:00,13:50,Cloud and Big Data Analytics,IT-4B,A109
-THURSDAY,16:00,16:50,Cloud and Big Data Analytics,IT-4B,A203
-FRIDAY,08:00,08:50,Cloud and Big Data Analytics,IT-4B,B404
-TUESDAY,13:50,15:30,Cloud and Big Data Analytics,IT-4B,TLSL2
-MONDAY,15:50,17:30,Cloud and Big Data Analytics,IT-4B,TLFL3
-FRIDAY,11:50,13:30,Cloud and Big Data Analytics,IT-4B,TLGL3
-FRIDAY,09:50,11:30,Cloud and Big Data Analytics,IT-4B,TLGL1
-MONDAY,09:50,11:30,Project Phase I,IT-4C,KSL03
-TUESDAY,09:50,11:30,Project Phase I,IT-4C,TLGL3
-MONDAY,11:50,13:30,Project Phase I,IT-4C,JR3
-TUESDAY,11:50,13:30,Project Phase I,IT-4C,TLSL2
-WEDNESDAY,15:50,17:30,Project Phase I,IT-4C,KFR03
-WEDNESDAY,11:50,13:30,Project Phase I,IT-4C,TLSL1
-THURSDAY,17:30,19:10,Project Phase I,IT-4C,TLSL2
-TUESDAY,15:50,17:30,Project Phase I,IT-4C,TLFR1
+FRIDAY,18:00,18:50,Automata Theory & Compiler Design,IT 3.3,C301
+TUESDAY,10:00,10:50,Automata Theory & Compiler Design,IT 3.3,C101
+MONDAY,09:00,09:50,Automata Theory & Compiler Design,IT 3.3,A208
+FRIDAY,11:00,11:50,Cloud and Big Data Analytics,IT 4.3,C302
+THURSDAY,08:00,08:50,Cloud and Big Data Analytics,IT 4.3,C202
+THURSDAY,16:00,16:50,Cloud and Big Data Analytics,IT 4.3,C102
+MONDAY,15:50,17:30,Cloud and Big Data Analytics,IT 4.3,TLSL1
+TUESDAY,08:00,09:40,Cloud and Big Data Analytics,IT 4.3,TLFR3
+WEDNESDAY,13:50,15:30,Cloud and Big Data Analytics,IT 4.3,TLFL4
+FRIDAY,15:50,17:30,Cloud and Big Data Analytics,IT 4.3,TLFR4
+TUESDAY,11:50,13:30,Project Phase I,IT 4.1,TLFL4
+THURSDAY,11:50,13:30,Project Phase I,IT 4.1,KFR02
+MONDAY,11:50,13:30,Project Phase I,IT 4.1,KFR01
+THURSDAY,09:50,11:30,Project Phase I,IT 4.1,KFL02
+MONDAY,13:50,15:30,Project Phase I,IT 4.1,KFL03
+WEDNESDAY,09:50,11:30,Project Phase I,IT 4.1,TLFL5
+WEDNESDAY,15:50,17:30,Project Phase I,IT 4.1,TLFL3
+FRIDAY,13:50,15:30,Project Phase I,IT 4.1,TLGL2

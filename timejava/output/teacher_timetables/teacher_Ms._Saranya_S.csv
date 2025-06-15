@@ -1,10 +1,10 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,14:00,14:50,Database Management Systems,AIML-2C,A310
-MONDAY,08:00,08:50,Database Management Systems,AIML-2C,B411
-TUESDAY,16:00,16:50,Database Management Systems,AIML-2C,B405
-TUESDAY,13:50,15:30,Database Management Systems,AIML-2C,JR3
-THURSDAY,09:50,11:30,Database Management Systems,AIML-2C,TLGL4
-MONDAY,13:50,15:30,Database Management Systems,AIML-2C,JR1
-WEDNESDAY,09:50,11:30,Database Management Systems,AIML-2C,TLGL4
-MONDAY,09:50,11:30,Build and Deploy Machine Learning Applications,AIML-3A,TLSL2
-FRIDAY,08:00,09:40,Build and Deploy Machine Learning Applications,AIML-3A,TLFL3
+WEDNESDAY,14:00,14:50,Database Management Systems,AIML 2.2,A103
+FRIDAY,11:00,11:50,Database Management Systems,AIML 2.2,A110
+FRIDAY,16:00,16:50,Database Management Systems,AIML 2.2,C102
+WEDNESDAY,11:50,13:30,Database Management Systems,AIML 2.2,Electrical Machines I Lab
+MONDAY,09:50,11:30,Database Management Systems,AIML 2.2,Power Electronics Lab
+WEDNESDAY,09:50,11:30,Database Management Systems,AIML 2.2,Chemistry Lab
+TUESDAY,15:50,17:30,Database Management Systems,AIML 2.2,Technical Analysis Lab
+MONDAY,11:50,13:30,Build and Deploy Machine Learning Applications,AIML 3.3,Metrology & Measurement Lab
+FRIDAY,17:30,19:10,Build and Deploy Machine Learning Applications,AIML 3.3,LIC Lab

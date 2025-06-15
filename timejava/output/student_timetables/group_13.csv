@@ -1,26 +1,30 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,08:00,09:40,Industry Practices Lab,Ms. Janani M,JR3
-TUESDAY,11:50,13:30,Industry Practices Lab,Ms. Janani M,JR3
-FRIDAY,11:50,13:30,Industry Practices Lab,Ms. Janani M,TLFR5
-MONDAY,09:50,11:30,Industry Practices Lab,Ms. Janani M,TLGL1
-WEDNESDAY,09:00,09:50,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,A208
-MONDAY,16:00,16:50,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,B220
-WEDNESDAY,11:00,11:50,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,A210
-MONDAY,08:00,09:40,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,TLFR2
-FRIDAY,15:50,17:30,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,KFL02
-THURSDAY,08:00,09:40,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,TLFL2
-WEDNESDAY,13:50,15:30,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,JR2
-FRIDAY,11:00,11:50,Software Testing,Dr. Valarmathie Dinakaran,A210
-TUESDAY,11:00,11:50,Software Testing,Dr. Valarmathie Dinakaran,B320
-MONDAY,12:00,12:50,Software Testing,Dr. Valarmathie Dinakaran,B106
-FRIDAY,11:50,13:30,Project Phase I,Mrs. Dr.P.Neelaveni,JL1
-THURSDAY,15:50,17:30,Project Phase I,Mrs. Dr.P.Neelaveni,TLFR3
-WEDNESDAY,17:30,19:10,Project Phase I,Mrs. Dr.P.Neelaveni,TLFR4
-FRIDAY,13:50,15:30,Project Phase I,Mrs. Dr.P.Neelaveni,JL3
-THURSDAY,11:50,13:30,Project Phase I,Mrs. Dr.P.Neelaveni,TLFL2
-WEDNESDAY,11:50,13:30,Project Phase I,Mrs. Dr.P.Neelaveni,JL2
-MONDAY,13:50,15:30,Project Phase I,Mrs. Dr.P.Neelaveni,KFR01
-TUESDAY,11:50,13:30,Project Phase I,Mrs. Dr.P.Neelaveni,KFR02
-WEDNESDAY,16:00,16:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,A211
-FRIDAY,10:00,10:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,B213
-TUESDAY,08:00,08:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,A202
+MONDAY,12:00,12:50,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,B107
+FRIDAY,10:00,10:50,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,B412
+THURSDAY,17:00,17:50,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,C307
+WEDNESDAY,11:50,13:30,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,KFL03
+THURSDAY,11:50,13:30,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,TLFR5
+TUESDAY,13:50,15:30,Soft Skills – II,Mr. Dr.S.Subbiah,JR3
+WEDNESDAY,11:50,13:30,Soft Skills – II,Mr. Dr.S.Subbiah,TLFR3
+MONDAY,13:00,13:50,Web Programming,Mrs. M.Sandhiya,B416
+FRIDAY,12:00,12:50,Web Programming,Mrs. M.Sandhiya,B106
+THURSDAY,16:00,16:50,Web Programming,Mrs. M.Sandhiya,C201
+TUESDAY,15:50,17:30,Web Programming,Mrs. M.Sandhiya,TLFR4
+FRIDAY,13:50,15:30,Web Programming,Mrs. M.Sandhiya,TLFL4
+WEDNESDAY,13:50,15:30,Web Programming,Mrs. M.Sandhiya,TLSL2
+TUESDAY,13:50,15:30,Web Programming,Mrs. M.Sandhiya,TLFR5
+FRIDAY,13:00,13:50,Automata Theory & Compiler Design,Mrs. Dr.V.Prasannakumari,B401
+TUESDAY,09:00,09:50,Automata Theory & Compiler Design,Mrs. Dr.V.Prasannakumari,B107
+TUESDAY,12:00,12:50,Automata Theory & Compiler Design,Mrs. Dr.V.Prasannakumari,B403
+WEDNESDAY,17:00,17:50,Computer Vision,Mrs. Dr.A.Kalaivani,B411
+WEDNESDAY,11:00,11:50,Computer Vision,Mrs. Dr.A.Kalaivani,A103
+FRIDAY,08:00,08:50,Computer Vision,Mrs. Dr.A.Kalaivani,A304
+MONDAY,09:50,11:30,Computer Vision,Mrs. Dr.A.Kalaivani,KFR03
+TUESDAY,17:30,19:10,Computer Vision,Mrs. Dr.A.Kalaivani,TLSL2
+FRIDAY,11:00,11:50,Computer Networks,Mr. Dr.S.Subbiah,A203
+MONDAY,18:00,18:50,Computer Networks,Mr. Dr.S.Subbiah,B424
+FRIDAY,18:00,18:50,Computer Networks,Mr. Dr.S.Subbiah,B404
+THURSDAY,13:50,15:30,Computer Networks,Mr. Dr.S.Subbiah,TLGL2
+FRIDAY,15:50,17:30,Computer Networks,Mr. Dr.S.Subbiah,TLGL4
+MONDAY,13:50,15:30,Computer Networks,Mr. Dr.S.Subbiah,TLFR1
+MONDAY,15:50,17:30,Computer Networks,Mr. Dr.S.Subbiah,TLGL3

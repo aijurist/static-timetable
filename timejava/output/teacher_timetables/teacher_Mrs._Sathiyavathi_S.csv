@@ -1,22 +1,15 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,09:00,09:50,Database Management Systems,CSE-2A,B322
-WEDNESDAY,16:00,16:50,Database Management Systems,CSE-2A,A305
-MONDAY,12:00,12:50,Database Management Systems,CSE-2A,B222
-MONDAY,09:50,11:30,Database Management Systems,CSE-2A,TLGL4
-TUESDAY,08:00,09:40,Database Management Systems,CSE-2A,JL3
-WEDNESDAY,11:50,13:30,Database Management Systems,CSE-2A,KFL03
-FRIDAY,11:50,13:30,Database Management Systems,CSE-2A,TLSR1
-THURSDAY,12:00,12:50,Database Management Systems,CSE-2J,B426
-TUESDAY,15:00,15:50,Database Management Systems,CSE-2J,B220
-WEDNESDAY,10:00,10:50,Database Management Systems,CSE-2J,A109
-WEDNESDAY,08:00,09:40,Database Management Systems,CSE-2J,JL2
-FRIDAY,13:50,15:30,Database Management Systems,CSE-2J,TLFR4
-TUESDAY,11:50,13:30,Database Management Systems,CSE-2J,KFR01
-MONDAY,13:50,15:30,Database Management Systems,CSE-2J,TLFR4
-TUESDAY,10:00,10:50,Web Programming,CSE-3E,A102
-THURSDAY,10:00,10:50,Web Programming,CSE-3E,A109
-THURSDAY,16:00,16:50,Web Programming,CSE-3E,A204
-MONDAY,15:50,17:30,Web Programming,CSE-3E,TLFR4
-WEDNESDAY,13:50,15:30,Web Programming,CSE-3E,KFL02
-THURSDAY,13:50,15:30,Web Programming,CSE-3E,KSL03
-THURSDAY,08:00,09:40,Web Programming,CSE-3E,TLGL1
+MONDAY,13:00,13:50,Database Management Systems,CSE 2.5,B411
+WEDNESDAY,12:00,12:50,Database Management Systems,CSE 2.5,B213
+WEDNESDAY,18:00,18:50,Database Management Systems,CSE 2.5,B408
+WEDNESDAY,13:50,15:30,Database Management Systems,CSE 2.5,TLFR3
+FRIDAY,11:50,13:30,Database Management Systems,CSE 2.5,KFR01
+TUESDAY,15:50,17:30,Database Management Systems,CSE 2.5,KFR03
+MONDAY,08:00,09:40,Database Management Systems,CSE 2.5,KSL03
+MONDAY,10:00,10:50,Web Programming,CSE 3.2,B424
+TUESDAY,10:00,10:50,Web Programming,CSE 3.2,B426
+FRIDAY,10:00,10:50,Web Programming,CSE 3.2,A308
+THURSDAY,13:50,15:30,Web Programming,CSE 3.2,JR3
+THURSDAY,08:00,09:40,Web Programming,CSE 3.2,TLFR5
+TUESDAY,11:50,13:30,Web Programming,CSE 3.2,TLSR1
+THURSDAY,11:50,13:30,Web Programming,CSE 3.2,TLFR2

@@ -1,10 +1,10 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,12:00,12:50,Object Oriented Programming Using JAVA,AIML-2C,A304
-TUESDAY,08:00,08:50,Object Oriented Programming Using JAVA,AIML-2C,B423
-MONDAY,16:00,16:50,Object Oriented Programming Using JAVA,AIML-2C,B401
-WEDNESDAY,08:00,09:40,Object Oriented Programming Using JAVA,AIML-2C,KFR02
-FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,AIML-2C,TLFL3
-WEDNESDAY,13:50,15:30,Object Oriented Programming Using JAVA,AIML-2C,KFR03
-THURSDAY,17:30,19:10,Object Oriented Programming Using JAVA,AIML-2C,KFR03
-MONDAY,17:30,19:10,Build and Deploy Machine Learning Applications,AIML-3C,JR3
-FRIDAY,09:50,11:30,Build and Deploy Machine Learning Applications,AIML-3C,TLFR2
+THURSDAY,10:00,10:50,Object Oriented Programming Using JAVA,AIML 2.2,A104/105
+THURSDAY,18:00,18:50,Object Oriented Programming Using JAVA,AIML 2.2,A211
+TUESDAY,13:00,13:50,Object Oriented Programming Using JAVA,AIML 2.2,B418
+WEDNESDAY,09:50,11:30,Object Oriented Programming Using JAVA,AIML 2.2,Aero CAD Lab
+TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,AIML 2.2,Manufacturing Technology II
+FRIDAY,08:00,09:40,Object Oriented Programming Using JAVA,AIML 2.2,Genetic Engineering Lab
+MONDAY,08:00,09:40,Object Oriented Programming Using JAVA,AIML 2.2,Food Chemistry Lab
+THURSDAY,11:50,13:30,Build and Deploy Machine Learning Applications,AIML 3.2,Electrical Machines II Lab
+THURSDAY,13:50,15:30,Build and Deploy Machine Learning Applications,AIML 3.2,Diagnostic and Therapeutic Equipment Lab

@@ -1,0 +1,32 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+MONDAY,09:00,09:50,Formal Language and Automata Theory,Dr. Vishnu Kumar A,B320
+TUESDAY,09:00,09:50,Formal Language and Automata Theory,Dr. Vishnu Kumar A,B210
+WEDNESDAY,16:00,16:50,Formal Language and Automata Theory,Dr. Vishnu Kumar A,A304
+THURSDAY,11:00,11:50,Computer Organization and Architecture,Mrs. Jayanthi M,B418
+MONDAY,15:00,15:50,Computer Organization and Architecture,Mrs. Jayanthi M,A104/105
+FRIDAY,09:00,09:50,Computer Organization and Architecture,Mrs. Jayanthi M,A108
+FRIDAY,10:00,10:50,Computational Statistics,Mrs. R Nathiya,B411
+FRIDAY,08:00,08:50,Computational Statistics,Mrs. R Nathiya,B220
+TUESDAY,08:00,08:50,Computational Statistics,Mrs. R Nathiya,B403
+THURSDAY,15:50,17:30,Computational Statistics,Mrs. R Nathiya,KFL03
+MONDAY,11:50,13:30,Computational Statistics,Mrs. R Nathiya,TLFL4
+THURSDAY,08:00,08:50,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),A204
+WEDNESDAY,09:00,09:50,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),B422
+FRIDAY,12:00,12:50,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),B418
+MONDAY,11:50,13:30,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),TLFL5
+TUESDAY,13:50,15:30,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),JR1
+MONDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),JR1
+TUESDAY,11:50,13:30,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),TLFL1
+TUESDAY,18:00,18:50,Environmental Sciences,Mr. Manigandan Ramadoss,B417
+MONDAY,08:00,08:50,Environmental Sciences,Mr. Manigandan Ramadoss,B401
+THURSDAY,12:00,12:50,Environmental Sciences,Mr. Manigandan Ramadoss,A102
+WEDNESDAY,11:00,11:50,Software Engineering,Mrs. Dr. K Devaki,A310
+FRIDAY,13:00,13:50,Software Engineering,Mrs. Dr. K Devaki,C301
+THURSDAY,09:00,09:50,Software Engineering,Mrs. Dr. K Devaki,A209
+WEDNESDAY,17:30,19:10,Software Engineering,Mrs. Dr. K Devaki,JL1
+TUESDAY,09:50,11:30,Software Engineering,Mrs. Dr. K Devaki,TLGL3
+THURSDAY,15:00,15:50,Database Technology,Mrs. Nisha R S,A103
+WEDNESDAY,10:00,10:50,Database Technology,Mrs. Nisha R S,B106
+MONDAY,11:00,11:50,Database Technology,Mrs. Nisha R S,A308
+TUESDAY,11:50,13:30,Database Technology,Mrs. Nisha R S,JL3
+TUESDAY,15:50,17:30,Database Technology,Mrs. Nisha R S,JR2

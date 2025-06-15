@@ -1,13 +1,13 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,11:00,11:50,Computer Networks,CSE-CS-2B,B107
-MONDAY,10:00,10:50,Computer Networks,CSE-CS-2B,B412
-WEDNESDAY,13:00,13:50,Computer Networks,CSE-CS-2B,A103
-TUESDAY,08:00,09:40,Computer Networks,CSE-CS-2B,TLSL1
-FRIDAY,11:50,13:30,Computer Networks,CSE-CS-2B,TLGL1
-MONDAY,15:50,17:30,Computer Networks,CSE-CS-2B,TLGL4
-WEDNESDAY,17:30,19:10,Computer Networks,CSE-CS-2B,TLFL2
-MONDAY,18:00,18:50,Cryptography,CSE-CS-2A,B107
-FRIDAY,16:00,16:50,Cryptography,CSE-CS-2A,B107
-FRIDAY,09:00,09:50,Cryptography,CSE-CS-2A,A202
-THURSDAY,17:30,19:10,Cryptography,CSE-CS-2A,TLGL2
-MONDAY,11:50,13:30,Cryptography,CSE-CS-2A,KFR01
+TUESDAY,18:00,18:50,Computer Networks,CSE-CS 2.1,A102
+THURSDAY,15:00,15:50,Computer Networks,CSE-CS 2.1,B213
+WEDNESDAY,18:00,18:50,Computer Networks,CSE-CS 2.1,B416
+MONDAY,09:50,11:30,Computer Networks,CSE-CS 2.1,LIC Lab
+WEDNESDAY,13:50,15:30,Computer Networks,CSE-CS 2.1,Aero CAD Lab
+TUESDAY,11:50,13:30,Computer Networks,CSE-CS 2.1,Aero CAD Lab
+TUESDAY,15:50,17:30,Computer Networks,CSE-CS 2.1,Manufacturing Technology I
+THURSDAY,12:00,12:50,Cryptography,CSE-CS 2.2,A204
+FRIDAY,14:00,14:50,Cryptography,CSE-CS 2.2,C102
+THURSDAY,08:00,08:50,Cryptography,CSE-CS 2.2,B213
+MONDAY,11:50,13:30,Cryptography,CSE-CS 2.2,Strength of Materials Lab
+THURSDAY,09:50,11:30,Cryptography,CSE-CS 2.2,Genetic Engineering Lab

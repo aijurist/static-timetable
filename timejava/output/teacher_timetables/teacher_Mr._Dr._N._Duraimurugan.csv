@@ -1,13 +1,19 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,13:50,15:30,Advanced Robotic Process Automation,CSE-4B,TLSL1
-WEDNESDAY,15:50,17:30,Advanced Robotic Process Automation,CSE-4B,TLGL1
-THURSDAY,09:50,11:30,Advanced Robotic Process Automation,CSE-4B,TLFR3
-TUESDAY,13:50,15:30,Advanced Robotic Process Automation,CSE-4B,KSL03
-THURSDAY,15:50,17:30,Advanced Robotic Process Automation,CSE-4B,JR2
-MONDAY,15:50,17:30,Advanced Robotic Process Automation,CSE-4B,TLSL2
-WEDNESDAY,09:50,11:30,Advanced Robotic Process Automation,CSE-4D,JR1
-TUESDAY,17:30,19:10,Advanced Robotic Process Automation,CSE-4D,TLFR2
-FRIDAY,09:50,11:30,Advanced Robotic Process Automation,CSE-4D,KFR01
-MONDAY,09:50,11:30,Advanced Robotic Process Automation,CSE-4D,KFR02
-FRIDAY,15:50,17:30,Advanced Robotic Process Automation,CSE-4D,TLSL1
-TUESDAY,11:50,13:30,Advanced Robotic Process Automation,CSE-4D,TLGL1
+MONDAY,17:30,19:10,Advanced Robotic Process Automation,CSE 4.1,TLFL4
+THURSDAY,15:50,17:30,Advanced Robotic Process Automation,CSE 4.1,TLGL2
+THURSDAY,11:50,13:30,Advanced Robotic Process Automation,CSE 4.1,KFL03
+TUESDAY,11:50,13:30,Advanced Robotic Process Automation,CSE 4.1,TLGL2
+TUESDAY,09:50,11:30,Advanced Robotic Process Automation,CSE 4.1,TLFR1
+WEDNESDAY,15:50,17:30,Advanced Robotic Process Automation,CSE 4.1,KFR02
+THURSDAY,09:50,11:30,Advanced Robotic Process Automation,CSE 4.3,KFL03
+WEDNESDAY,13:50,15:30,Advanced Robotic Process Automation,CSE 4.3,TLGL3
+WEDNESDAY,09:50,11:30,Advanced Robotic Process Automation,CSE 4.3,TLFR4
+FRIDAY,09:50,11:30,Advanced Robotic Process Automation,CSE 4.3,KFR01
+TUESDAY,13:50,15:30,Advanced Robotic Process Automation,CSE 4.3,TLFR4
+MONDAY,11:50,13:30,Advanced Robotic Process Automation,CSE 4.3,TLFL2
+WEDNESDAY,11:50,13:30,Advanced Robotic Process Automation,CSE 4.5,KSL03
+FRIDAY,15:50,17:30,Advanced Robotic Process Automation,CSE 4.5,TLFR3
+MONDAY,13:50,15:30,Advanced Robotic Process Automation,CSE 4.5,TLFR2
+THURSDAY,13:50,15:30,Advanced Robotic Process Automation,CSE 4.5,TLGL1
+FRIDAY,11:50,13:30,Advanced Robotic Process Automation,CSE 4.5,JR1
+FRIDAY,13:50,15:30,Advanced Robotic Process Automation,CSE 4.5,TLSR1

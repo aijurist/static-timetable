@@ -1,20 +1,18 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,14:00,14:50,Object Oriented Programming Using JAVA,CSE-2A,B408
-THURSDAY,18:00,18:50,Object Oriented Programming Using JAVA,CSE-2A,A103
-THURSDAY,10:00,10:50,Object Oriented Programming Using JAVA,CSE-2A,A211
-MONDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSE-2A,TLFL5
-FRIDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE-2A,TLFL4
-MONDAY,09:50,11:30,Object Oriented Programming Using JAVA,CSE-2A,TLFL3
-WEDNESDAY,08:00,09:40,Object Oriented Programming Using JAVA,CSE-2A,TLFR3
-THURSDAY,14:00,14:50,Object Oriented Programming Using JAVA,CSE-2H,B412
-WEDNESDAY,13:00,13:50,Object Oriented Programming Using JAVA,CSE-2H,B213
-WEDNESDAY,10:00,10:50,Object Oriented Programming Using JAVA,CSE-2H,B422
-FRIDAY,17:30,19:10,Object Oriented Programming Using JAVA,CSE-2H,KSL03
-THURSDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE-2H,JL2
-TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSE-2H,KFL01
-TUESDAY,09:50,11:30,Object Oriented Programming Using JAVA,CSE-2H,TLGL1
-TUESDAY,14:00,14:50,Fundamentals of Data Science,CSE-2H,A305
-MONDAY,12:00,12:50,Fundamentals of Data Science,CSE-2H,B419
-WEDNESDAY,15:00,15:50,Fundamentals of Data Science,CSE-2H,A208
-THURSDAY,15:50,17:30,Fundamentals of Data Science,CSE-2H,TLFR5
-TUESDAY,11:50,13:30,Fundamentals of Data Science,CSE-2H,TLSL1
+TUESDAY,18:00,18:50,Object Oriented Programming Using JAVA,CSE 2.6,C101
+FRIDAY,16:00,16:50,Object Oriented Programming Using JAVA,CSE 2.6,B425
+TUESDAY,16:00,16:50,Object Oriented Programming Using JAVA,CSE 2.6,B220
+MONDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE 2.6,KFR02
+FRIDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE 2.6,TLFR3
+FRIDAY,08:00,09:40,Object Oriented Programming Using JAVA,CSE 2.6,TLGL3
+WEDNESDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE 2.6,TLSL2
+WEDNESDAY,15:00,15:50,Fundamentals of Data Science,CSE 2.1,B418
+FRIDAY,14:00,14:50,Fundamentals of Data Science,CSE 2.1,B411
+THURSDAY,08:00,08:50,Fundamentals of Data Science,CSE 2.1,B419
+THURSDAY,11:50,13:30,Fundamentals of Data Science,CSE 2.1,JR3
+TUESDAY,13:50,15:30,Fundamentals of Data Science,CSE 2.1,KSL03
+MONDAY,16:00,16:50,Fundamentals of Data Science,CSE 2.9,B213
+TUESDAY,12:00,12:50,Fundamentals of Data Science,CSE 2.9,A304
+WEDNESDAY,09:00,09:50,Fundamentals of Data Science,CSE 2.9,B412
+THURSDAY,09:50,11:30,Fundamentals of Data Science,CSE 2.9,JL1
+MONDAY,11:50,13:30,Fundamentals of Data Science,CSE 2.9,TLGL1

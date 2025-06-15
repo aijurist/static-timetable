@@ -1,0 +1,27 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+MONDAY,18:00,18:50,Manufacturing Technology I,Mr. Dr. A. Rajkumar,A103
+WEDNESDAY,10:00,10:50,Manufacturing Technology I,Mr. Dr. A. Rajkumar,A209
+TUESDAY,09:00,09:50,Manufacturing Technology I,Mr. Dr. A. Rajkumar,B411
+TUESDAY,17:00,17:50,Kinematics of Machinery,Mr. Dr.S.Arulmurugan,B402
+FRIDAY,11:00,11:50,Kinematics of Machinery,Mr. Dr.S.Arulmurugan,B213
+WEDNESDAY,09:00,09:50,Kinematics of Machinery,Mr. Dr.S.Arulmurugan,A304
+MONDAY,09:50,11:30,Manufacturing Technology Laboratory I,Mr. Dr.S.Dhandapani,Machine Shop FF2 - EPL - 2
+WEDNESDAY,11:50,13:30,Manufacturing Technology Laboratory I,Mr. Dr.S.Dhandapani,Manufacturing Technology I
+WEDNESDAY,15:00,15:50,Strength of Materials,Mr. Hariram S,A305
+WEDNESDAY,08:00,08:50,Strength of Materials,Mr. Hariram S,C302
+MONDAY,15:00,15:50,Strength of Materials,Mr. Hariram S,B106
+FRIDAY,08:00,09:40,Strength of Materials,Mr. Hariram S,Strength of Materials Lab
+TUESDAY,09:50,11:30,Strength of Materials,Mr. Hariram S,Strength of Materials Lab
+FRIDAY,15:00,15:50,Transforms and Statistics,Dr. Vikram S T,C308
+THURSDAY,09:00,09:50,Transforms and Statistics,Dr. Vikram S T,A308
+MONDAY,12:00,12:50,Transforms and Statistics,Dr. Vikram S T,C308
+TUESDAY,11:50,13:30,Transforms and Statistics,Dr. Vikram S T,Metrology & Measurement Lab
+MONDAY,08:00,09:40,Transforms and Statistics,Dr. Vikram S T,Machine Shop FF3 - EPL - 3
+WEDNESDAY,11:00,11:50,Engineering Thermodynamics,Mr. Dr. S. Sekar,B320
+THURSDAY,18:00,18:50,Engineering Thermodynamics,Mr. Dr. S. Sekar,A305
+FRIDAY,13:00,13:50,Engineering Thermodynamics,Mr. Dr. S. Sekar,B402
+MONDAY,13:00,13:50,Engineering Thermodynamics,Mr. Dr. S. Sekar,A205
+MONDAY,14:00,14:50,Python Programming for Machine Learning,Mr. Vinoth Babu N,DSP Lab
+TUESDAY,13:50,15:30,Python Programming for Machine Learning,Mr. Vinoth Babu N,DSP Lab
+FRIDAY,08:00,09:40,Python Programming for Machine Learning,Mr. Vinoth Babu N,DSP Lab
+MONDAY,10:00,10:50,Python Programming for Machine Learning,Mr. Vinoth Babu N,DSP Lab

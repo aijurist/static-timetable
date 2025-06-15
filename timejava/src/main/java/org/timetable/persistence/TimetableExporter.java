@@ -27,6 +27,9 @@ public class TimetableExporter {
             // Write lessons
             for (Lesson lesson : solution.getLessons()) {
                 if (lesson.getTimeSlot() != null && lesson.getRoom() != null) {
+                    String roomLabel = (lesson.getRoom().isLab() && "core".equals(lesson.getRoom().getLabType()))
+                            ? lesson.getRoom().getDescription()
+                            : lesson.getRoom().getName();
                     writer.write(String.format("%s,%s,%s,%s,%s,%s,%s,%s\n",
                         lesson.getTeacher().getName(),
                         lesson.getCourse().getName(),
@@ -35,7 +38,7 @@ public class TimetableExporter {
                         lesson.getTimeSlot().getDayOfWeek(),
                         lesson.getTimeSlot().getStartTime().format(TIME_FORMATTER),
                         lesson.getTimeSlot().getEndTime().format(TIME_FORMATTER),
-                        lesson.getRoom().getName()
+                        roomLabel
                     ));
                 }
             }
@@ -71,13 +74,16 @@ public class TimetableExporter {
                 
                 // Write lessons
                 for (Lesson lesson : teacherLessons) {
+                    String roomLabel = (lesson.getRoom().isLab() && "core".equals(lesson.getRoom().getLabType()))
+                            ? lesson.getRoom().getDescription()
+                            : lesson.getRoom().getName();
                     writer.write(String.format("%s,%s,%s,%s,%s,%s\n",
                         lesson.getTimeSlot().getDayOfWeek(),
                         lesson.getTimeSlot().getStartTime().format(TIME_FORMATTER),
                         lesson.getTimeSlot().getEndTime().format(TIME_FORMATTER),
                         lesson.getCourse().getName(),
                         lesson.getStudentGroup().getName(),
-                        lesson.getRoom().getName()
+                        roomLabel
                     ));
                 }
             }
@@ -112,13 +118,16 @@ public class TimetableExporter {
                 
                 // Write lessons
                 for (Lesson lesson : groupLessons) {
+                    String roomLabel = (lesson.getRoom().isLab() && "core".equals(lesson.getRoom().getLabType()))
+                            ? lesson.getRoom().getDescription()
+                            : lesson.getRoom().getName();
                     writer.write(String.format("%s,%s,%s,%s,%s,%s\n",
                         lesson.getTimeSlot().getDayOfWeek(),
                         lesson.getTimeSlot().getStartTime().format(TIME_FORMATTER),
                         lesson.getTimeSlot().getEndTime().format(TIME_FORMATTER),
                         lesson.getCourse().getName(),
                         lesson.getTeacher().getName(),
-                        lesson.getRoom().getName()
+                        roomLabel
                     ));
                 }
             }

@@ -1,16 +1,23 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,17:00,17:50,Computer Architecture,CSE-2H,A202
-WEDNESDAY,14:00,14:50,Computer Architecture,CSE-2H,B409
-FRIDAY,15:00,15:50,Computer Architecture,CSE-2H,B424
-FRIDAY,08:00,08:50,Object Oriented Programming Using JAVA,CSE-2D,B320
-THURSDAY,11:00,11:50,Object Oriented Programming Using JAVA,CSE-2D,A311
-WEDNESDAY,09:00,09:50,Object Oriented Programming Using JAVA,CSE-2D,B415
-THURSDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE-2D,KFR01
-FRIDAY,09:50,11:30,Object Oriented Programming Using JAVA,CSE-2D,TLFL5
-TUESDAY,17:30,19:10,Object Oriented Programming Using JAVA,CSE-2D,TLFR1
-WEDNESDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE-2D,KFR02
-TUESDAY,11:00,11:50,Foundations of Artificial Intelligence,CSE-3C,B408
-MONDAY,09:00,09:50,Foundations of Artificial Intelligence,CSE-3C,B219
-THURSDAY,17:00,17:50,Foundations of Artificial Intelligence,CSE-3C,B221
-WEDNESDAY,15:50,17:30,Foundations of Artificial Intelligence,CSE-3C,JR1
-MONDAY,11:50,13:30,Foundations of Artificial Intelligence,CSE-3C,TLGL2
+WEDNESDAY,10:00,10:50,Computer Architecture,CSE 2.3,C102
+MONDAY,16:00,16:50,Computer Architecture,CSE 2.3,B321
+WEDNESDAY,18:00,18:50,Computer Architecture,CSE 2.3,B402
+THURSDAY,17:00,17:50,Object Oriented Programming Using JAVA,CSE 2.2,B222
+WEDNESDAY,16:00,16:50,Object Oriented Programming Using JAVA,CSE 2.2,C202
+TUESDAY,11:00,11:50,Object Oriented Programming Using JAVA,CSE 2.2,B220
+MONDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE 2.2,JR3
+FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE 2.2,TLFL3
+MONDAY,08:00,09:40,Object Oriented Programming Using JAVA,CSE 2.2,KFR01
+THURSDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE 2.2,TLFR4
+THURSDAY,09:00,09:50,Object Oriented Programming Using JAVA,CSE 2.9,B419
+TUESDAY,09:00,09:50,Object Oriented Programming Using JAVA,CSE 2.9,B408
+MONDAY,10:00,10:50,Object Oriented Programming Using JAVA,CSE 2.9,B210
+WEDNESDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE 2.9,KFL01
+TUESDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE 2.9,JR2
+MONDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE 2.9,TLFL4
+WEDNESDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE 2.9,JL1
+FRIDAY,16:00,16:50,Foundations of Artificial Intelligence,CSE 3.6,B320
+FRIDAY,10:00,10:50,Foundations of Artificial Intelligence,CSE 3.6,C102
+FRIDAY,12:00,12:50,Foundations of Artificial Intelligence,CSE 3.6,B401
+FRIDAY,08:00,09:40,Foundations of Artificial Intelligence,CSE 3.6,TLSL2
+TUESDAY,15:50,17:30,Foundations of Artificial Intelligence,CSE 3.6,KSL03

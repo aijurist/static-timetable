@@ -1,8 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,09:00,09:50,Database Management Systems,CSE-2D,B212
-FRIDAY,16:00,16:50,Database Management Systems,CSE-2D,B423
-WEDNESDAY,11:00,11:50,Database Management Systems,CSE-2D,A211
-THURSDAY,17:30,19:10,Database Management Systems,CSE-2D,JR3
-TUESDAY,09:50,11:30,Database Management Systems,CSE-2D,TLFL3
-MONDAY,08:00,09:40,Database Management Systems,CSE-2D,KFL03
-WEDNESDAY,15:50,17:30,Database Management Systems,CSE-2D,TLFR1
+MONDAY,14:00,14:50,Database Management Systems,CSE 2.8,B404
+MONDAY,08:00,08:50,Database Management Systems,CSE 2.8,B325
+MONDAY,10:00,10:50,Database Management Systems,CSE 2.8,B213
+FRIDAY,08:00,09:40,Database Management Systems,CSE 2.8,JL1
+THURSDAY,17:30,19:10,Database Management Systems,CSE 2.8,TLFL5
+WEDNESDAY,11:50,13:30,Database Management Systems,CSE 2.8,KFL01
+TUESDAY,15:50,17:30,Database Management Systems,CSE 2.8,TLFL5

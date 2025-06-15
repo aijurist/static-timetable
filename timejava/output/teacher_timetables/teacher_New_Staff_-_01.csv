@@ -1,10 +1,4 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,14:00,14:50,UI and UX design,CSD-2A,A302
-MONDAY,08:00,08:50,UI and UX design,CSD-2A,A305
-MONDAY,09:50,11:30,UI and UX design,CSD-2A,KFL01
-THURSDAY,08:00,09:40,UI and UX design,CSD-2A,TLSL1
-TUESDAY,17:30,19:10,UI and UX design,CSD-2A,TLFL5
-FRIDAY,17:30,19:10,UI and UX design,CSD-2A,JL3
-WEDNESDAY,16:00,16:50,Fundamentals of Video for Engineers,CSD-4A,A110
-WEDNESDAY,13:00,13:50,Fundamentals of Video for Engineers,CSD-4A,B322
-MONDAY,16:00,16:50,Fundamentals of Video for Engineers,CSD-4A,A108
+WEDNESDAY,16:00,16:50,Analog Circuits –I,ECE 2.4,C302
+THURSDAY,09:00,09:50,Analog Circuits –I,ECE 2.4,B218
+MONDAY,11:00,11:50,Analog Circuits –I,ECE 2.4,A109

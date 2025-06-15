@@ -1,9 +1,5 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,13:00,13:50,Data Visualization using Python (Professional Elective III),AIML-4A,A208
-FRIDAY,09:00,09:50,Data Visualization using Python (Professional Elective III),AIML-4A,A203
-MONDAY,11:50,13:30,Data Visualization using Python (Professional Elective III),AIML-4A,JL2
-MONDAY,08:00,09:40,Data Visualization using Python (Professional Elective III),AIML-4A,TLFR5
-WEDNESDAY,08:00,08:50,Data Visualization using Python (Professional Elective III),AIML-4C,A203
-WEDNESDAY,14:00,14:50,Data Visualization using Python (Professional Elective III),AIML-4C,A210
-WEDNESDAY,09:50,11:30,Data Visualization using Python (Professional Elective III),AIML-4C,JL2
-TUESDAY,17:30,19:10,Data Visualization using Python (Professional Elective III),AIML-4C,TLSR1
+MONDAY,13:00,13:50,Data Visualization using Python (Professional Elective III),AIML 4.2,B212
+FRIDAY,09:00,09:50,Data Visualization using Python (Professional Elective III),AIML 4.2,A210
+FRIDAY,13:50,15:30,Data Visualization using Python (Professional Elective III),AIML 4.2,Food Microbiology Lab
+THURSDAY,08:00,09:40,Data Visualization using Python (Professional Elective III),AIML 4.2,Machine Shop FF3 - EPL - 3

@@ -1,0 +1,12 @@
+Day,StartTime,EndTime,Course,Group,Room
+THURSDAY,15:00,15:50,Diagnostic and Therapeutic Equipment,BME 3.1,C102
+WEDNESDAY,13:00,13:50,Diagnostic and Therapeutic Equipment,BME 3.1,A110
+WEDNESDAY,15:00,15:50,Diagnostic and Therapeutic Equipment,BME 3.1,C201
+THURSDAY,17:30,19:10,Diagnostic and Therapeutic Equipment Laboratory,BME 3.2,Diagnostic and Therapeutic Equipment Lab
+TUESDAY,11:50,13:30,Diagnostic and Therapeutic Equipment Laboratory,BME 3.2,Diagnostic and Therapeutic Equipment Lab
+WEDNESDAY,09:50,11:30,Diagnostic and Therapeutic Equipment Laboratory,BME 3.2,Diagnostic and Therapeutic Equipment Lab
+FRIDAY,17:30,19:10,Diagnostic and Therapeutic Equipment Laboratory,BME 3.2,Diagnostic and Therapeutic Equipment Lab
+TUESDAY,15:50,17:30,Python Programming for Machine Learning,BME 3.2,DSP Lab
+TUESDAY,18:00,18:50,Python Programming for Machine Learning,BME 3.2,DSP Lab
+TUESDAY,14:00,14:50,Python Programming for Machine Learning,BME 3.2,DSP Lab
+MONDAY,08:00,09:40,Python Programming for Machine Learning,BME 3.2,DSP Lab

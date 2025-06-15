@@ -1,7 +1,7 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,11:00,11:50,Software Testing,IT-4A,A210
-TUESDAY,11:00,11:50,Software Testing,IT-4A,B320
-MONDAY,12:00,12:50,Software Testing,IT-4A,B106
-WEDNESDAY,08:00,08:50,Software Testing,IT-4C,A109
-THURSDAY,09:00,09:50,Software Testing,IT-4C,B320
-MONDAY,09:00,09:50,Software Testing,IT-4C,B320
+MONDAY,11:00,11:50,Software Testing,IT 4.1,B412
+TUESDAY,08:00,08:50,Software Testing,IT 4.1,C301
+WEDNESDAY,08:00,08:50,Software Testing,IT 4.1,A305
+THURSDAY,11:00,11:50,Software Testing,IT 4.3,A103
+THURSDAY,09:00,09:50,Software Testing,IT 4.3,A108
+FRIDAY,14:00,14:50,Software Testing,IT 4.3,B417

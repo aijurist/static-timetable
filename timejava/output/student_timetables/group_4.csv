@@ -1,30 +1,28 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,12:00,12:50,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,B415
-MONDAY,11:00,11:50,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,B218
-FRIDAY,08:00,08:50,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,B321
-WEDNESDAY,09:50,11:30,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,TLFL2
-FRIDAY,09:50,11:30,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,TLFR5
-FRIDAY,09:50,11:30,Soft Skills – II,New Faculty Humanities & Sciences (PLACEHOLDER),KFL01
-MONDAY,15:50,17:30,Soft Skills – II,New Faculty Humanities & Sciences (PLACEHOLDER),TLSR1
-THURSDAY,13:00,13:50,Web Programming,Mrs. M.Sandhiya,A309
-THURSDAY,11:00,11:50,Web Programming,Mrs. M.Sandhiya,B425
-THURSDAY,09:00,09:50,Web Programming,Mrs. M.Sandhiya,B218
-MONDAY,13:50,15:30,Web Programming,Mrs. M.Sandhiya,TLFR3
-MONDAY,11:50,13:30,Web Programming,Mrs. M.Sandhiya,JR2
-FRIDAY,15:50,17:30,Web Programming,Mrs. M.Sandhiya,JR3
-WEDNESDAY,08:00,09:40,Web Programming,Mrs. M.Sandhiya,TLFR1
-MONDAY,08:00,08:50,Automata Theory & Compiler Design,Mrs. Dr.V.Prasannakumari,B426
-THURSDAY,14:00,14:50,Automata Theory & Compiler Design,Mrs. Dr.V.Prasannakumari,B426
-FRIDAY,09:00,09:50,Automata Theory & Compiler Design,Mrs. Dr.V.Prasannakumari,B425
-TUESDAY,12:00,12:50,Computer Vision,Mrs. Dr.A.Kalaivani,B220
-WEDNESDAY,15:00,15:50,Computer Vision,Mrs. Dr.A.Kalaivani,A108
-WEDNESDAY,13:00,13:50,Computer Vision,Mrs. Dr.A.Kalaivani,B415
-TUESDAY,15:50,17:30,Computer Vision,Mrs. Dr.A.Kalaivani,KSL03
-WEDNESDAY,09:50,11:30,Computer Vision,Mrs. Dr.A.Kalaivani,TLFR3
-THURSDAY,10:00,10:50,Computer Networks,Mrs. Dr. Nalini Subramanian,B221
-WEDNESDAY,16:00,16:50,Computer Networks,Mrs. Dr. Nalini Subramanian,A205
-THURSDAY,16:00,16:50,Computer Networks,Mrs. Dr. Nalini Subramanian,A311
-FRIDAY,11:50,13:30,Computer Networks,Mrs. Dr. Nalini Subramanian,JR2
-FRIDAY,13:50,15:30,Computer Networks,Mrs. Dr. Nalini Subramanian,TLFR5
-TUESDAY,15:50,17:30,Computer Networks,Mrs. Dr. Nalini Subramanian,TLFR3
-MONDAY,11:50,13:30,Computer Networks,Mrs. Dr. Nalini Subramanian,TLFR2
+FRIDAY,09:00,09:50,Hybrid Electric Vehicles,Mrs. V Devi Maheswaran,A110
+WEDNESDAY,10:00,10:50,Hybrid Electric Vehicles,Mrs. V Devi Maheswaran,C301
+TUESDAY,17:00,17:50,Hybrid Electric Vehicles,Mrs. V Devi Maheswaran,A310
+MONDAY,11:50,13:30,Project Work / Phase -I,Mr. A.Nazar Ali,Power System Simulation Lab
+THURSDAY,13:50,15:30,Project Work / Phase -I,Mr. A.Nazar Ali,Power System Simulation Lab
+THURSDAY,11:50,13:30,Project Work / Phase -I,Mr. A.Nazar Ali,Power System Simulation Lab
+THURSDAY,08:00,09:40,Project Work / Phase -I,Mr. A.Nazar Ali,Power System Simulation Lab
+FRIDAY,11:50,13:30,Project Work / Phase -I,Mr. A.Nazar Ali,Power System Simulation Lab
+MONDAY,17:30,19:10,Project Work / Phase -I,Mr. A.Nazar Ali,Power System Simulation Lab
+TUESDAY,09:50,11:30,Project Work / Phase -I,Mr. A.Nazar Ali,Power System Simulation Lab
+FRIDAY,13:50,15:30,Project Work / Phase -I,Mr. A.Nazar Ali,Power System Simulation Lab
+FRIDAY,11:00,11:50,Renewable Energy Systems,Mr. Dr.R. Essaki Raj,B210
+MONDAY,08:00,08:50,Renewable Energy Systems,Mr. Dr.R. Essaki Raj,B403
+WEDNESDAY,14:00,14:50,Renewable Energy Systems,Mr. Dr.R. Essaki Raj,C102
+MONDAY,09:50,11:30,Renewable Energy Systems,Mr. Dr.R. Essaki Raj,Power System Simulation Lab
+MONDAY,13:50,15:30,Renewable Energy Systems,Mr. Dr.R. Essaki Raj,Power System Simulation Lab
+WEDNESDAY,11:00,11:50,Power System Operation and Control,Mrs. Dr.R.Kalaivani,C101
+FRIDAY,18:00,18:50,Power System Operation and Control,Mrs. Dr.R.Kalaivani,A103
+THURSDAY,11:00,11:50,Power System Operation and Control,Mrs. Dr.R.Kalaivani,B325
+TUESDAY,08:00,09:40,Power System Operation and Control,Mrs. Dr.R.Kalaivani,Power System Simulation Lab
+MONDAY,15:50,17:30,Power System Operation and Control,Mrs. Dr.R.Kalaivani,Power System Simulation Lab
+FRIDAY,10:00,10:50,High Voltage Engineering,Mrs. Padmavathi R,B219
+TUESDAY,14:00,14:50,High Voltage Engineering,Mrs. Padmavathi R,B211
+WEDNESDAY,13:00,13:50,High Voltage Engineering,Mrs. Padmavathi R,B410
+TUESDAY,12:00,12:50,Fundamentals of Embedded Systems,Mr. Sivakumar P,B412
+WEDNESDAY,08:00,08:50,Fundamentals of Embedded Systems,Mr. Sivakumar P,C308
+THURSDAY,10:00,10:50,Fundamentals of Embedded Systems,Mr. Sivakumar P,A308

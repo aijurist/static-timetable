@@ -1,0 +1,17 @@
+Day,StartTime,EndTime,Course,Group,Room
+TUESDAY,17:00,17:50,Bioinformatics,BT 3.1,A108
+WEDNESDAY,13:00,13:50,Bioinformatics,BT 3.1,B424
+WEDNESDAY,16:00,16:50,Bioinformatics,BT 3.1,A311
+FRIDAY,09:00,09:50,Bioinformatics,BT 3.3,B212
+FRIDAY,17:00,17:50,Bioinformatics,BT 3.3,B403
+TUESDAY,14:00,14:50,Bioinformatics,BT 3.3,A108
+TUESDAY,11:50,13:30,Bioinformatics Laboratory,BT 3.3,Dynamics Lab
+WEDNESDAY,08:00,09:40,Bioinformatics Laboratory,BT 3.3,Aero CAD Lab
+MONDAY,13:50,15:30,Bioinformatics Laboratory,BT 3.3,Metrology & Measurement Lab
+MONDAY,11:50,13:30,Bioinformatics Laboratory,BT 3.3,Technical Analysis Lab
+MONDAY,10:00,10:50,Comprehensive Course for Biotechnologists,BT 4.1,B221
+TUESDAY,10:00,10:50,Comprehensive Course for Biotechnologists,BT 4.1,B322
+THURSDAY,18:00,18:50,Comprehensive Course for Biotechnologists,BT 4.1,B218
+FRIDAY,12:00,12:50,Comprehensive Course for Biotechnologists,BT 4.3,B412
+WEDNESDAY,11:00,11:50,Comprehensive Course for Biotechnologists,BT 4.3,A303
+THURSDAY,14:00,14:50,Comprehensive Course for Biotechnologists,BT 4.3,C301

@@ -1,11 +1,11 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,14:00,14:50,Fundamentals of Data Science,CSE-2F,B410
-MONDAY,13:00,13:50,Fundamentals of Data Science,CSE-2F,B107
-MONDAY,10:00,10:50,Fundamentals of Data Science,CSE-2F,A209
-FRIDAY,11:50,13:30,Fundamentals of Data Science,CSE-2F,JR3
-MONDAY,08:00,09:40,Fundamentals of Data Science,CSE-2F,TLFL3
-FRIDAY,09:00,09:50,Foundations of Artificial Intelligence,CSE-3B,B419
-FRIDAY,17:00,17:50,Foundations of Artificial Intelligence,CSE-3B,B213
-TUESDAY,10:00,10:50,Foundations of Artificial Intelligence,CSE-3B,B302
-TUESDAY,08:00,09:40,Foundations of Artificial Intelligence,CSE-3B,KFR02
-WEDNESDAY,08:00,09:40,Foundations of Artificial Intelligence,CSE-3B,TLFR2
+MONDAY,10:00,10:50,Fundamentals of Data Science,CSE 2.7,B402
+THURSDAY,10:00,10:50,Fundamentals of Data Science,CSE 2.7,A210
+TUESDAY,13:00,13:50,Fundamentals of Data Science,CSE 2.7,A311
+THURSDAY,11:50,13:30,Fundamentals of Data Science,CSE 2.7,TLFL3
+WEDNESDAY,09:50,11:30,Fundamentals of Data Science,CSE 2.7,JR3
+THURSDAY,16:00,16:50,Foundations of Artificial Intelligence,CSE 3.5,B419
+FRIDAY,14:00,14:50,Foundations of Artificial Intelligence,CSE 3.5,C307
+THURSDAY,18:00,18:50,Foundations of Artificial Intelligence,CSE 3.5,B412
+TUESDAY,09:50,11:30,Foundations of Artificial Intelligence,CSE 3.5,TLSL2
+MONDAY,08:00,09:40,Foundations of Artificial Intelligence,CSE 3.5,TLFR3

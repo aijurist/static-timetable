@@ -1,12 +1,12 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,11:50,13:30,Project-I,AIML-4B,TLGL2
-THURSDAY,09:50,11:30,Project-I,AIML-4B,TLFL3
-MONDAY,15:50,17:30,Project-I,AIML-4B,KFR02
-FRIDAY,17:30,19:10,Project-I,AIML-4B,TLFR3
-WEDNESDAY,11:50,13:30,Project-I,AIML-4B,TLFR1
-TUESDAY,17:30,19:10,Project-I,AIML-4B,TLFL3
-WEDNESDAY,10:00,10:50,Big Data Technology,AIML-4B,A304
-THURSDAY,12:00,12:50,Big Data Technology,AIML-4B,B212
-TUESDAY,16:00,16:50,Big Data Technology,AIML-4B,B106
-MONDAY,11:50,13:30,Big Data Technology,AIML-4B,TLFL4
-WEDNESDAY,15:50,17:30,Big Data Technology,AIML-4B,TLSR1
+FRIDAY,11:50,13:30,Project-I,AIML 4.3,Thermal Lab 2
+THURSDAY,09:50,11:30,Project-I,AIML 4.3,Machine Shop FF3 - EPL - 3
+MONDAY,11:50,13:30,Project-I,AIML 4.3,Machine Shop FF2 - EPL - 2
+WEDNESDAY,11:50,13:30,Project-I,AIML 4.3,Electrical Machines II Lab
+WEDNESDAY,08:00,09:40,Project-I,AIML 4.3,Fluid Mechanics Lab
+FRIDAY,13:50,15:30,Project-I,AIML 4.3,Immunology Lab
+THURSDAY,14:00,14:50,Big Data Technology,AIML 4.3,B425
+WEDNESDAY,10:00,10:50,Big Data Technology,AIML 4.3,C307
+TUESDAY,16:00,16:50,Big Data Technology,AIML 4.3,C302
+FRIDAY,09:50,11:30,Big Data Technology,AIML 4.3,Computer Application in Chemical Engg Lab
+TUESDAY,17:30,19:10,Big Data Technology,AIML 4.3,Digital Lab-2

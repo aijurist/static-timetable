@@ -1,32 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,10:00,10:50,Fundamentals of Machine Learning,Mrs. J Jasmine Gabriel,A309
-FRIDAY,13:00,13:50,Fundamentals of Machine Learning,Mrs. J Jasmine Gabriel,A109
-FRIDAY,16:00,16:50,Fundamentals of Machine Learning,Mrs. J Jasmine Gabriel,B404
-TUESDAY,17:30,19:10,Fundamentals of Machine Learning,Mrs. J Jasmine Gabriel,TLGL3
-WEDNESDAY,08:00,09:40,Fundamentals of Machine Learning,Mrs. J Jasmine Gabriel,JR1
-MONDAY,13:00,13:50,Design and Analysis of Algorithms,Mrs. Divya S,A208
-MONDAY,11:00,11:50,Design and Analysis of Algorithms,Mrs. Divya S,B212
-FRIDAY,11:00,11:50,Design and Analysis of Algorithms,Mrs. Divya S,B419
-WEDNESDAY,13:50,15:30,Design and Analysis of Algorithms,Mrs. Divya S,TLFL5
-THURSDAY,09:50,11:30,Design and Analysis of Algorithms,Mrs. Divya S,TLSR1
-THURSDAY,14:00,14:50,Database Management Systems,Ms. Saranya S,A310
-MONDAY,08:00,08:50,Database Management Systems,Ms. Saranya S,B411
-TUESDAY,16:00,16:50,Database Management Systems,Ms. Saranya S,B405
-TUESDAY,13:50,15:30,Database Management Systems,Ms. Saranya S,JR3
-THURSDAY,09:50,11:30,Database Management Systems,Ms. Saranya S,TLGL4
-MONDAY,13:50,15:30,Database Management Systems,Ms. Saranya S,JR1
-WEDNESDAY,09:50,11:30,Database Management Systems,Ms. Saranya S,TLGL4
-TUESDAY,11:00,11:50,Environmental Science and Engineering,Mr. M Sankar Kumar,B423
-THURSDAY,09:00,09:50,Environmental Science and Engineering,Mr. M Sankar Kumar,B423
-WEDNESDAY,12:00,12:50,Environmental Science and Engineering,Mr. M Sankar Kumar,B417
-THURSDAY,08:00,08:50,Discrete Mathematics for AI,Mrs. Anbarasi.V,A103
-THURSDAY,15:00,15:50,Discrete Mathematics for AI,Mrs. Anbarasi.V,B218
-MONDAY,12:00,12:50,Discrete Mathematics for AI,Mrs. Anbarasi.V,A305
-TUESDAY,09:00,09:50,Discrete Mathematics for AI,Mrs. Anbarasi.V,A305
-TUESDAY,12:00,12:50,Object Oriented Programming Using JAVA,AIML  NS4,A304
-TUESDAY,08:00,08:50,Object Oriented Programming Using JAVA,AIML  NS4,B423
-MONDAY,16:00,16:50,Object Oriented Programming Using JAVA,AIML  NS4,B401
-WEDNESDAY,08:00,09:40,Object Oriented Programming Using JAVA,AIML  NS4,KFR02
-FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,AIML  NS4,TLFL3
-WEDNESDAY,13:50,15:30,Object Oriented Programming Using JAVA,AIML  NS4,KFR03
-THURSDAY,17:30,19:10,Object Oriented Programming Using JAVA,AIML  NS4,KFR03
+FRIDAY,18:00,18:50,Computer Architecture,Mrs. Dharani Devi G,B211
+WEDNESDAY,17:00,17:50,Computer Architecture,Mrs. Dharani Devi G,A204
+TUESDAY,10:00,10:50,Computer Architecture,Mrs. Dharani Devi G,C201
+THURSDAY,10:00,10:50,Design and Analysis of Algorithms,New Staff - 03,A110
+TUESDAY,15:00,15:50,Design and Analysis of Algorithms,New Staff - 03,B426
+FRIDAY,10:00,10:50,Design and Analysis of Algorithms,New Staff - 03,B401
+MONDAY,17:30,19:10,Design and Analysis of Algorithms,New Staff - 03,TLFR2
+WEDNESDAY,09:50,11:30,Design and Analysis of Algorithms,New Staff - 03,TLSR1
+THURSDAY,09:00,09:50,Fourier series and Number theory,Mr. Charles Sagayaraj A C,B221
+THURSDAY,11:00,11:50,Fourier series and Number theory,Mr. Charles Sagayaraj A C,B222
+TUESDAY,16:00,16:50,Fourier series and Number theory,Mr. Charles Sagayaraj A C,C202
+TUESDAY,09:00,09:50,Fourier series and Number theory,Mr. Charles Sagayaraj A C,B222
+THURSDAY,08:00,08:50,Database Management Systems,Dr. Bhuvaneswari R,B402
+FRIDAY,13:00,13:50,Database Management Systems,Dr. Bhuvaneswari R,A204
+TUESDAY,17:00,17:50,Database Management Systems,Dr. Bhuvaneswari R,C302
+MONDAY,15:50,17:30,Database Management Systems,Dr. Bhuvaneswari R,TLFR1
+FRIDAY,08:00,09:40,Database Management Systems,Dr. Bhuvaneswari R,KFR02
+MONDAY,13:50,15:30,Database Management Systems,Dr. Bhuvaneswari R,KFL02
+TUESDAY,11:50,13:30,Database Management Systems,Dr. Bhuvaneswari R,TLSL1
+THURSDAY,17:00,17:50,Object Oriented Programming Using JAVA,Mrs. Deepa B,B222
+WEDNESDAY,16:00,16:50,Object Oriented Programming Using JAVA,Mrs. Deepa B,C202
+TUESDAY,11:00,11:50,Object Oriented Programming Using JAVA,Mrs. Deepa B,B220
+MONDAY,11:50,13:30,Object Oriented Programming Using JAVA,Mrs. Deepa B,JR3
+FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mrs. Deepa B,TLFL3
+MONDAY,08:00,09:40,Object Oriented Programming Using JAVA,Mrs. Deepa B,KFR01
+THURSDAY,11:50,13:30,Object Oriented Programming Using JAVA,Mrs. Deepa B,TLFR4
+THURSDAY,14:00,14:50,Fundamentals of Data Science,New Staff - 07,C201
+WEDNESDAY,14:00,14:50,Fundamentals of Data Science,New Staff - 07,B219
+FRIDAY,11:00,11:50,Fundamentals of Data Science,New Staff - 07,A108
+WEDNESDAY,09:50,11:30,Fundamentals of Data Science,New Staff - 07,TLGL1
+FRIDAY,15:50,17:30,Fundamentals of Data Science,New Staff - 07,TLFL3

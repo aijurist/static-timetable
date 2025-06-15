@@ -1,8 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,08:00,08:50,Database Management Systems,AIML-2D,B404
-TUESDAY,08:00,08:50,Database Management Systems,AIML-2D,B404
-WEDNESDAY,11:00,11:50,Database Management Systems,AIML-2D,A310
-FRIDAY,08:00,09:40,Database Management Systems,AIML-2D,JL1
-MONDAY,13:50,15:30,Database Management Systems,AIML-2D,TLGL2
-MONDAY,09:50,11:30,Database Management Systems,AIML-2D,KFR01
-TUESDAY,11:50,13:30,Database Management Systems,AIML-2D,TLFR1
+FRIDAY,10:00,10:50,Database Management Systems,AIML 2.3,B424
+TUESDAY,11:00,11:50,Database Management Systems,AIML 2.3,C201
+MONDAY,14:00,14:50,Database Management Systems,AIML 2.3,A202
+THURSDAY,08:00,09:40,Database Management Systems,AIML 2.3,Auto CAD Lab
+TUESDAY,13:50,15:30,Database Management Systems,AIML 2.3,LIC Lab
+WEDNESDAY,15:50,17:30,Database Management Systems,AIML 2.3,Diagnostic and Therapeutic Equipment Lab
+FRIDAY,15:50,17:30,Database Management Systems,AIML 2.3,VLSI Lab

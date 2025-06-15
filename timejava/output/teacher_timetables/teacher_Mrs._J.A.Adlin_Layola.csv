@@ -1,16 +1,12 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,08:00,08:50,Theory of Computation,CSE-3A,B219
-MONDAY,11:00,11:50,Theory of Computation,CSE-3A,A110
-WEDNESDAY,13:00,13:50,Theory of Computation,CSE-3A,A310
-MONDAY,15:00,15:50,Theory of Computation,CSE-3A,B405
-WEDNESDAY,11:00,11:50,Theory of Computation,CSE-3F,B320
-WEDNESDAY,09:00,09:50,Theory of Computation,CSE-3F,A102
-FRIDAY,11:00,11:50,Theory of Computation,CSE-3F,B415
-THURSDAY,11:00,11:50,Theory of Computation,CSE-3F,B219
-FRIDAY,16:00,16:50,Web Programming,CSE-3F,B218
-THURSDAY,16:00,16:50,Web Programming,CSE-3F,B221
-TUESDAY,09:00,09:50,Web Programming,CSE-3F,B218
-TUESDAY,13:50,15:30,Web Programming,CSE-3F,KFR03
-THURSDAY,13:50,15:30,Web Programming,CSE-3F,TLFR5
-TUESDAY,15:50,17:30,Web Programming,CSE-3F,JR3
-FRIDAY,13:50,15:30,Web Programming,CSE-3F,KFR02
+TUESDAY,15:00,15:50,Theory of Computation,CSE 3.4,A308
+THURSDAY,14:00,14:50,Theory of Computation,CSE 3.4,B218
+MONDAY,10:00,10:50,Theory of Computation,CSE 3.4,B222
+FRIDAY,10:00,10:50,Theory of Computation,CSE 3.4,B403
+TUESDAY,11:00,11:50,Web Programming,CSE 3.3,B107
+FRIDAY,12:00,12:50,Web Programming,CSE 3.3,B411
+WEDNESDAY,15:00,15:50,Web Programming,CSE 3.3,C202
+MONDAY,08:00,09:40,Web Programming,CSE 3.3,KFR02
+THURSDAY,08:00,09:40,Web Programming,CSE 3.3,TLSL1
+TUESDAY,17:30,19:10,Web Programming,CSE 3.3,TLFL1
+FRIDAY,15:50,17:30,Web Programming,CSE 3.3,TLSL2

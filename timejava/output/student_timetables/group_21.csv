@@ -1,26 +1,26 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,09:00,09:50,Introduction to 3D Animation,Mr. S Umamaheswararao,B419
-WEDNESDAY,10:00,10:50,3D Printing and Design,Dr. K.Vigneshwaran,B423
-THURSDAY,08:00,08:50,3D Printing and Design,Dr. K.Vigneshwaran,A305
-FRIDAY,10:00,10:50,3D Printing and Design,Dr. K.Vigneshwaran,B423
-TUESDAY,09:50,11:30,3D Printing and Design,Dr. K.Vigneshwaran,TLGL4
-THURSDAY,13:50,15:30,3D Printing and Design,Dr. K.Vigneshwaran,TLFR3
-MONDAY,11:50,13:30,3D Printing and Design,Dr. K.Vigneshwaran,TLGL1
-MONDAY,08:00,09:40,3D Printing and Design,Dr. K.Vigneshwaran,KSL03
-THURSDAY,09:50,11:30,Project-I,Mr. S Pradeep Kumar,TLFL1
-MONDAY,08:00,09:40,Project-I,Mr. S Pradeep Kumar,TLGL2
-MONDAY,11:50,13:30,Project-I,Mr. S Pradeep Kumar,TLSL1
-FRIDAY,13:50,15:30,Project-I,Mr. S Pradeep Kumar,KFR03
-FRIDAY,15:50,17:30,Project-I,Mr. S Pradeep Kumar,TLFL2
-THURSDAY,15:50,17:30,Project-I,Mr. S Pradeep Kumar,KSL03
-THURSDAY,13:00,13:50,Foundations of Machine Learning Concepts,Dr. Gunasekar S,B322
-WEDNESDAY,11:00,11:50,Foundations of Machine Learning Concepts,Dr. Gunasekar S,B210
-TUESDAY,13:50,15:30,Foundations of Machine Learning Concepts,Dr. Gunasekar S,TLFL2
-TUESDAY,17:30,19:10,Foundations of Machine Learning Concepts,Dr. Gunasekar S,KFR02
-WEDNESDAY,16:00,16:50,Fundamentals of Video for Engineers,New Staff - 01,A110
-WEDNESDAY,13:00,13:50,Fundamentals of Video for Engineers,New Staff - 01,B322
-MONDAY,16:00,16:50,Fundamentals of Video for Engineers,New Staff - 01,A108
-THURSDAY,18:00,18:50,Digital Media Entrepreneurship,Mr. Thirumalairajan G,B424
-WEDNESDAY,18:00,18:50,Digital Media Entrepreneurship,Mr. Thirumalairajan G,A104/105
-MONDAY,09:50,11:30,Digital Media Entrepreneurship,Mr. Thirumalairajan G,TLSL1
-TUESDAY,13:50,15:30,Digital Media Entrepreneurship,Mr. Thirumalairajan G,TLFL5
+TUESDAY,09:50,11:30,Industry Practices Lab,Mr. Vimalan M,TLGL1
+MONDAY,15:50,17:30,Industry Practices Lab,Mr. Vimalan M,TLFL5
+MONDAY,11:50,13:30,Industry Practices Lab,Mr. Vimalan M,TLSL1
+FRIDAY,09:50,11:30,Industry Practices Lab,Mr. Vimalan M,TLGL2
+MONDAY,10:00,10:50,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,C201
+THURSDAY,16:00,16:50,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,B325
+FRIDAY,16:00,16:50,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,A211
+THURSDAY,13:50,15:30,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,TLFR1
+MONDAY,13:50,15:30,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,TLFL2
+FRIDAY,11:50,13:30,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,TLSR1
+MONDAY,08:00,09:40,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,JL1
+MONDAY,11:00,11:50,Software Testing,Dr. Valarmathie Dinakaran,B412
+TUESDAY,08:00,08:50,Software Testing,Dr. Valarmathie Dinakaran,C301
+WEDNESDAY,08:00,08:50,Software Testing,Dr. Valarmathie Dinakaran,A305
+TUESDAY,11:50,13:30,Project Phase I,Mrs. M.Madhu Rani,TLFL4
+THURSDAY,11:50,13:30,Project Phase I,Mrs. M.Madhu Rani,KFR02
+MONDAY,11:50,13:30,Project Phase I,Mrs. M.Madhu Rani,KFR01
+THURSDAY,09:50,11:30,Project Phase I,Mrs. M.Madhu Rani,KFL02
+MONDAY,13:50,15:30,Project Phase I,Mrs. M.Madhu Rani,KFL03
+WEDNESDAY,09:50,11:30,Project Phase I,Mrs. M.Madhu Rani,TLFL5
+WEDNESDAY,15:50,17:30,Project Phase I,Mrs. M.Madhu Rani,TLFL3
+FRIDAY,13:50,15:30,Project Phase I,Mrs. M.Madhu Rani,TLGL2
+THURSDAY,08:00,08:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,B212
+TUESDAY,18:00,18:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,A310
+TUESDAY,14:00,14:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,B325

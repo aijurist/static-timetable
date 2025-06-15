@@ -1,0 +1,27 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+THURSDAY,10:00,10:50,Social and Ethical Issues in AI,New Faculty Humanities & Sciences (PLACEHOLDER),A109
+MONDAY,11:50,13:30,Project-I,Mrs. Sowmia K R,Electrical Machines I Lab
+WEDNESDAY,15:50,17:30,Project-I,Mrs. Sowmia K R,Machine Shop FF3 - EPL - 3
+WEDNESDAY,11:50,13:30,Project-I,Mrs. Sowmia K R,Aero CAD Lab
+MONDAY,13:50,15:30,Project-I,Mrs. Sowmia K R,Diagnostic and Therapeutic Equipment Lab
+TUESDAY,08:00,09:40,Project-I,Mrs. Sowmia K R,Automotive Components Lab
+TUESDAY,11:50,13:30,Project-I,Mrs. Sowmia K R,Computer Application in Chemical Engg Lab
+FRIDAY,16:00,16:50,Big Data Technology,Mrs. Sangeetha K,B302
+TUESDAY,10:00,10:50,Big Data Technology,Mrs. Sangeetha K,B424
+WEDNESDAY,11:00,11:50,Big Data Technology,Mrs. Sangeetha K,B405
+FRIDAY,08:00,09:40,Big Data Technology,Mrs. Sangeetha K,Computer Application in Chemical Engg Lab
+WEDNESDAY,17:30,19:10,Big Data Technology,Mrs. Sangeetha K,Chemistry Lab
+THURSDAY,18:00,18:50,Information Retrieval (Professional Elective V),Mr. Magesh M P,B423
+TUESDAY,18:00,18:50,Information Retrieval (Professional Elective V),Mr. Magesh M P,A209
+FRIDAY,11:50,13:30,Information Retrieval (Professional Elective V),Mr. Magesh M P,Soil Mechanics & Highway Lab
+TUESDAY,13:50,15:30,Information Retrieval (Professional Elective V),Mr. Magesh M P,Chemical Reaction Engineering Lab
+FRIDAY,10:00,10:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,B325
+MONDAY,11:00,11:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,B418
+THURSDAY,08:00,08:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,B410
+THURSDAY,16:00,16:50,Data Visualization using Python (Professional Elective III),Mr. Vijay K,B418
+TUESDAY,17:00,17:50,Data Visualization using Python (Professional Elective III),Mr. Vijay K,B401
+FRIDAY,17:30,19:10,Data Visualization using Python (Professional Elective III),Mr. Vijay K,Concrete & Survey Lab
+MONDAY,08:00,09:40,Data Visualization using Python (Professional Elective III),Mr. Vijay K,Soil Mechanics & Highway Lab
+TUESDAY,11:00,11:50,Secure Systems Engineering,Ms. R.Anitha,A304
+THURSDAY,11:00,11:50,Secure Systems Engineering,Ms. R.Anitha,B212
+MONDAY,16:00,16:50,Secure Systems Engineering,Ms. R.Anitha,B423

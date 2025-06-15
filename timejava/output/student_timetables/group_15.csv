@@ -1,26 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,09:50,11:30,Industry Practices Lab,Mr. Vimalan M,TLSL1
-WEDNESDAY,15:50,17:30,Industry Practices Lab,Mr. Vimalan M,TLFL1
-TUESDAY,11:50,13:30,Industry Practices Lab,Mr. Vimalan M,TLGL3
-FRIDAY,09:50,11:30,Industry Practices Lab,Mr. Vimalan M,TLFR4
-THURSDAY,14:00,14:50,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,A303
-MONDAY,17:00,17:50,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,B325
-TUESDAY,09:00,09:50,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,B403
-FRIDAY,15:50,17:30,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,JR1
-THURSDAY,11:50,13:30,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,KFR02
-THURSDAY,09:50,11:30,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,JL3
-MONDAY,13:50,15:30,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,KFL01
-WEDNESDAY,08:00,08:50,Software Testing,Dr. Valarmathie Dinakaran,A109
-THURSDAY,09:00,09:50,Software Testing,Dr. Valarmathie Dinakaran,B320
-MONDAY,09:00,09:50,Software Testing,Dr. Valarmathie Dinakaran,B320
-MONDAY,09:50,11:30,Project Phase I,Mrs. M.Madhu Rani,KSL03
-TUESDAY,09:50,11:30,Project Phase I,Mrs. M.Madhu Rani,TLGL3
-MONDAY,11:50,13:30,Project Phase I,Mrs. M.Madhu Rani,JR3
-TUESDAY,11:50,13:30,Project Phase I,Mrs. M.Madhu Rani,TLSL2
-WEDNESDAY,15:50,17:30,Project Phase I,Mrs. M.Madhu Rani,KFR03
-WEDNESDAY,11:50,13:30,Project Phase I,Mrs. M.Madhu Rani,TLSL1
-THURSDAY,17:30,19:10,Project Phase I,Mrs. M.Madhu Rani,TLSL2
-TUESDAY,15:50,17:30,Project Phase I,Mrs. M.Madhu Rani,TLFR1
-THURSDAY,16:00,16:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,A308
-FRIDAY,08:00,08:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,B213
-TUESDAY,14:00,14:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,A203
+THURSDAY,17:00,17:50,Analog and Digital Communication,Ms. M.Brenda,B425
+THURSDAY,13:00,13:50,Analog and Digital Communication,Ms. M.Brenda,C301
+TUESDAY,11:00,11:50,Analog and Digital Communication,Ms. M.Brenda,B219
+THURSDAY,14:00,14:50,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,B212
+WEDNESDAY,08:00,08:50,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,A308
+WEDNESDAY,12:00,12:50,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,B408
+FRIDAY,08:00,09:40,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,TLFL3
+THURSDAY,08:00,09:40,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,TLFR2
+MONDAY,09:00,09:50,Fourier series and Number theory,Mrs. C. Renuga,B418
+WEDNESDAY,09:00,09:50,Fourier series and Number theory,Mrs. C. Renuga,C102
+MONDAY,15:00,15:50,Fourier series and Number theory,Mrs. C. Renuga,B403
+FRIDAY,10:00,10:50,Fourier series and Number theory,Mrs. C. Renuga,B422
+MONDAY,14:00,14:50,Database Management Systems,Mrs. A.P.Aruna Jameela,B409
+FRIDAY,16:00,16:50,Database Management Systems,Mrs. A.P.Aruna Jameela,B221
+THURSDAY,12:00,12:50,Database Management Systems,Mrs. A.P.Aruna Jameela,A103
+MONDAY,17:30,19:10,Database Management Systems,Mrs. A.P.Aruna Jameela,JR3
+FRIDAY,17:30,19:10,Database Management Systems,Mrs. A.P.Aruna Jameela,TLSR1
+FRIDAY,11:50,13:30,Database Management Systems,Mrs. A.P.Aruna Jameela,JL1
+FRIDAY,13:50,15:30,Database Management Systems,Mrs. A.P.Aruna Jameela,TLFR1
+TUESDAY,10:00,10:50,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),B415
+THURSDAY,15:00,15:50,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),A309
+MONDAY,12:00,12:50,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),B408
+MONDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),TLFL3
+TUESDAY,13:50,15:30,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),KFL03
+WEDNESDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),TLFR1
+MONDAY,09:50,11:30,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),JL2
+THURSDAY,16:00,16:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,B415
+WEDNESDAY,10:00,10:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,A108
+TUESDAY,16:00,16:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,A309
+TUESDAY,17:30,19:10,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,JR3
+TUESDAY,11:50,13:30,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,TLFR4

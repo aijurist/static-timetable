@@ -1,30 +1,26 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,11:00,11:50,Principles of Artificial Intelligence,Mr. Sathish M,A205
-WEDNESDAY,08:00,08:50,Principles of Artificial Intelligence,Mr. Sathish M,A204
-FRIDAY,16:00,16:50,Principles of Artificial Intelligence,Mr. Sathish M,B320
-THURSDAY,11:50,13:30,Principles of Artificial Intelligence,Mr. Sathish M,TLSL2
-WEDNESDAY,09:50,11:30,Principles of Artificial Intelligence,Mr. Sathish M,JR2
-WEDNESDAY,13:50,15:30,Soft Skills – II,Mr. Dr B Muthu Kumar,TLFL2
-MONDAY,11:50,13:30,Soft Skills – II,Mr. Dr B Muthu Kumar,TLFR3
-WEDNESDAY,09:00,09:50,Web Programming,Mr. Narayana K E,B210
-THURSDAY,08:00,08:50,Web Programming,Mr. Narayana K E,A308
-TUESDAY,13:00,13:50,Web Programming,Mr. Narayana K E,A108
-FRIDAY,17:30,19:10,Web Programming,Mr. Narayana K E,JL2
-MONDAY,11:50,13:30,Web Programming,Mr. Narayana K E,KSL03
-MONDAY,13:50,15:30,Web Programming,Mr. Narayana K E,TLFR1
-TUESDAY,08:00,09:40,Web Programming,Mr. Narayana K E,TLFR2
-TUESDAY,10:00,10:50,Automata Theory & Compiler Design,Mrs. Dr.P.Neelaveni,B404
-THURSDAY,14:00,14:50,Automata Theory & Compiler Design,Mrs. Dr.P.Neelaveni,A210
-THURSDAY,10:00,10:50,Automata Theory & Compiler Design,Mrs. Dr.P.Neelaveni,A103
-MONDAY,16:00,16:50,Computer Vision,Mrs. L.Leena Jenifer,B320
-MONDAY,08:00,08:50,Computer Vision,Mrs. L.Leena Jenifer,B419
-WEDNESDAY,12:00,12:50,Computer Vision,Mrs. L.Leena Jenifer,B401
-MONDAY,09:50,11:30,Computer Vision,Mrs. L.Leena Jenifer,TLFL1
-FRIDAY,09:50,11:30,Computer Vision,Mrs. L.Leena Jenifer,KFR02
-WEDNESDAY,17:00,17:50,Computer Networks,Mrs. Bhalashri Sethuraman,B417
-FRIDAY,14:00,14:50,Computer Networks,Mrs. Bhalashri Sethuraman,B213
-THURSDAY,17:00,17:50,Computer Networks,Mrs. Bhalashri Sethuraman,B401
-FRIDAY,09:50,11:30,Computer Networks,Mrs. Bhalashri Sethuraman,JR3
-WEDNESDAY,09:50,11:30,Computer Networks,Mrs. Bhalashri Sethuraman,TLSR1
-MONDAY,09:50,11:30,Computer Networks,Mrs. Bhalashri Sethuraman,TLFR2
-FRIDAY,11:50,13:30,Computer Networks,Mrs. Bhalashri Sethuraman,KFL02
+TUESDAY,15:00,15:50,Construction Techniques, Equipment and Practice,Mr. Ammaiappan.M,A211
+FRIDAY,11:00,11:50,Construction Techniques, Equipment and Practice,Mr. Ammaiappan.M,C202
+WEDNESDAY,09:00,09:50,Construction Techniques, Equipment and Practice,Mr. Ammaiappan.M,B404
+TUESDAY,09:50,11:30,Construction Materials Laboratory,Mrs. A.J.Jeya Arthi,Concrete & Survey Lab
+TUESDAY,11:50,13:30,Construction Materials Laboratory,Mrs. A.J.Jeya Arthi,Concrete & Survey Lab
+MONDAY,15:50,17:30,Construction Materials Laboratory,Mrs. A.J.Jeya Arthi,Concrete & Survey Lab
+THURSDAY,17:30,19:10,Construction Materials Laboratory,Mrs. A.J.Jeya Arthi,Concrete & Survey Lab
+MONDAY,09:00,09:50,Surveying,Mrs. Yugasini S,B408
+FRIDAY,12:00,12:50,Surveying,Mrs. Yugasini S,A210
+TUESDAY,09:00,09:50,Surveying,Mrs. Yugasini S,A209
+THURSDAY,11:50,13:30,Surveying,Mrs. Yugasini S,Soil Mechanics & Highway Lab
+WEDNESDAY,11:50,13:30,Surveying,Mrs. Yugasini S,Soil Mechanics & Highway Lab
+TUESDAY,08:00,08:50,Strength of Materials I,Mrs. S. Muthu Lakshmi,B416
+MONDAY,08:00,08:50,Strength of Materials I,Mrs. S. Muthu Lakshmi,B425
+WEDNESDAY,16:00,16:50,Strength of Materials I,Mrs. S. Muthu Lakshmi,B210
+MONDAY,13:00,13:50,Fundamentals of Management for Engineers,Mr. Mahamood Ul Hasan N,B423
+THURSDAY,16:00,16:50,Fundamentals of Management for Engineers,Mr. Mahamood Ul Hasan N,A211
+WEDNESDAY,10:00,10:50,Fundamentals of Management for Engineers,Mr. Mahamood Ul Hasan N,B418
+FRIDAY,13:50,15:30,Python Programming for Machine Learning,Dr. M.Manoharan,DSP Lab
+WEDNESDAY,11:50,13:30,Python Programming for Machine Learning,Dr. M.Manoharan,DSP Lab
+THURSDAY,11:00,11:50,Python Programming for Machine Learning,Dr. M.Manoharan,DSP Lab
+TUESDAY,09:50,11:30,Python Programming for Machine Learning,Dr. M.Manoharan,DSP Lab
+WEDNESDAY,08:00,08:50,Fluid Mechanics,Mrs. A.J.Jeya Arthi,B212
+MONDAY,10:00,10:50,Fluid Mechanics,Mrs. A.J.Jeya Arthi,C101
+MONDAY,14:00,14:50,Fluid Mechanics,Mrs. A.J.Jeya Arthi,B405

@@ -1,0 +1,27 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+FRIDAY,15:00,15:50,Manufacturing Technology I,Mr. M.S.Natarajan,B218
+THURSDAY,09:00,09:50,Manufacturing Technology I,Mr. M.S.Natarajan,B423
+TUESDAY,14:00,14:50,Manufacturing Technology I,Mr. M.S.Natarajan,B410
+WEDNESDAY,16:00,16:50,Kinematics of Machinery,Mr. Loganathan.K,B416
+TUESDAY,18:00,18:50,Kinematics of Machinery,Mr. Loganathan.K,A308
+MONDAY,12:00,12:50,Kinematics of Machinery,Mr. Loganathan.K,B412
+TUESDAY,11:50,13:30,Manufacturing Technology Laboratory I,Mr. S. Panneer Selvan,Manufacturing Technology I
+WEDNESDAY,17:30,19:10,Manufacturing Technology Laboratory I,Mr. S. Panneer Selvan,Manufacturing Technology I
+MONDAY,13:00,13:50,Strength of Materials,Mr. P.Arumugam,A210
+FRIDAY,12:00,12:50,Strength of Materials,Mr. P.Arumugam,C103
+THURSDAY,08:00,08:50,Strength of Materials,Mr. P.Arumugam,C301
+THURSDAY,11:50,13:30,Strength of Materials,Mr. P.Arumugam,Strength of Materials Lab
+WEDNESDAY,11:50,13:30,Strength of Materials,Mr. P.Arumugam,Strength of Materials Lab
+MONDAY,15:00,15:50,Transforms and Statistics,Mr. Dr.V.Bharathi,A303
+WEDNESDAY,14:00,14:50,Transforms and Statistics,Mr. Dr.V.Bharathi,A204
+THURSDAY,10:00,10:50,Transforms and Statistics,Mr. Dr.V.Bharathi,A205
+MONDAY,08:00,09:40,Transforms and Statistics,Mr. Dr.V.Bharathi,Genetic Engineering Lab
+FRIDAY,08:00,09:40,Transforms and Statistics,Mr. Dr.V.Bharathi,Downstream Processing Lab
+FRIDAY,13:00,13:50,Engineering Thermodynamics,Mr. P T Dineshkumar,A303
+FRIDAY,17:00,17:50,Engineering Thermodynamics,Mr. P T Dineshkumar,B321
+TUESDAY,17:00,17:50,Engineering Thermodynamics,Mr. P T Dineshkumar,C102
+TUESDAY,09:00,09:50,Engineering Thermodynamics,Mr. P T Dineshkumar,B218
+MONDAY,09:50,11:30,Python Programming for Machine Learning,Mr. P T Dineshkumar,DSP Lab
+FRIDAY,11:00,11:50,Python Programming for Machine Learning,Mr. P T Dineshkumar,DSP Lab
+THURSDAY,15:50,17:30,Python Programming for Machine Learning,Mr. P T Dineshkumar,DSP Lab
+TUESDAY,11:50,13:30,Python Programming for Machine Learning,Mr. P T Dineshkumar,DSP Lab

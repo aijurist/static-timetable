@@ -1,0 +1,16 @@
+Day,StartTime,EndTime,Course,Group,Room
+MONDAY,10:00,10:50,Introduction to Python Programming,ECE 2.3,B322
+MONDAY,08:00,08:50,Introduction to Python Programming,ECE 2.3,MCT CAD Lab
+WEDNESDAY,11:50,13:30,Introduction to Python Programming,ECE 2.3,MCT CAD Lab
+THURSDAY,09:50,11:30,Introduction to Python Programming,ECE 2.3,MCT CAD Lab
+FRIDAY,10:00,10:50,Introduction to Python Programming,ECE 2.3,MCT CAD Lab
+WEDNESDAY,09:50,11:30,Communication Systems Laboratory,ECE 3.2,Communication Systems Lab
+THURSDAY,11:50,13:30,Communication Systems Laboratory,ECE 3.2,Communication Systems Lab
+TUESDAY,15:50,17:30,Communication Systems Laboratory,ECE 3.2,Communication Systems Lab
+MONDAY,11:50,13:30,Communication Systems Laboratory,ECE 3.2,Communication Systems Lab
+TUESDAY,10:00,10:50,Medical electronics,ECE 3.1,A302
+WEDNESDAY,08:00,08:50,Medical electronics,ECE 3.1,C307
+TUESDAY,18:00,18:50,Medical electronics,ECE 3.1,C202
+MONDAY,14:00,14:50,Medical electronics,ECE 3.3,C302
+FRIDAY,13:00,13:50,Medical electronics,ECE 3.3,B107
+WEDNESDAY,14:00,14:50,Medical electronics,ECE 3.3,B107

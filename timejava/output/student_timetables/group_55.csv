@@ -1,21 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,08:00,08:50,Principles of Financial Management,Dr. Ramanathan V K,B412
-THURSDAY,18:00,18:50,Principles of Financial Management,Dr. Ramanathan V K,B325
-TUESDAY,10:00,10:50,Design Thinking and Innovation,Ms. Janani U,B322
-MONDAY,09:50,11:30,Design Thinking and Innovation,Ms. Janani U,TLFR3
-FRIDAY,09:50,11:30,Design Thinking and Innovation,Ms. Janani U,TLFR3
-TUESDAY,11:00,11:50,Computer Network Technology,Dr. Vishnu Kumar A,A210
-WEDNESDAY,11:00,11:50,Computer Network Technology,Dr. Vishnu Kumar A,B418
-FRIDAY,08:00,08:50,Computer Network Technology,Dr. Vishnu Kumar A,B210
-WEDNESDAY,15:50,17:30,Computer Network Technology,Dr. Vishnu Kumar A,TLGL4
-MONDAY,17:30,19:10,Computer Network Technology,Dr. Vishnu Kumar A,JR2
-MONDAY,13:00,13:50,Artificial Intelligence,New Faculty Humanities & Sciences (PLACEHOLDER),A203
-TUESDAY,14:00,14:50,Artificial Intelligence,New Faculty Humanities & Sciences (PLACEHOLDER),B222
-FRIDAY,16:00,16:50,Artificial Intelligence,New Faculty Humanities & Sciences (PLACEHOLDER),A303
-WEDNESDAY,11:50,13:30,Artificial Intelligence,New Faculty Humanities & Sciences (PLACEHOLDER),JR3
-MONDAY,09:50,11:30,Artificial Intelligence,New Faculty Humanities & Sciences (PLACEHOLDER),TLFR4
-WEDNESDAY,15:00,15:50,Data Mining and Analytics,Mrs. Dr. P. Tamil Selvi,B107
-MONDAY,09:00,09:50,Data Mining and Analytics,Mrs. Dr. P. Tamil Selvi,B404
-TUESDAY,09:00,09:50,Data Mining and Analytics,Mrs. Dr. P. Tamil Selvi,B219
-THURSDAY,09:50,11:30,Data Mining and Analytics,Mrs. Dr. P. Tamil Selvi,TLFL4
-THURSDAY,11:50,13:30,Data Mining and Analytics,Mrs. Dr. P. Tamil Selvi,TLFR1
+TUESDAY,08:00,08:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,A303
+FRIDAY,16:00,16:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,A104/105
+FRIDAY,14:00,14:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,B220
+MONDAY,12:00,12:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,A309
+TUESDAY,16:00,16:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,B322
+TUESDAY,13:00,13:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,A109
+MONDAY,13:50,15:30,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,TLSL1
+THURSDAY,11:50,13:30,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,KFL01
+WEDNESDAY,10:00,10:50,Fourier series and Number theory,New Faculty Humanities & Sciences (PLACEHOLDER),B409
+TUESDAY,11:00,11:50,Fourier series and Number theory,New Faculty Humanities & Sciences (PLACEHOLDER),C102
+MONDAY,08:00,08:50,Fourier series and Number theory,New Faculty Humanities & Sciences (PLACEHOLDER),A303
+FRIDAY,17:00,17:50,Fourier series and Number theory,New Faculty Humanities & Sciences (PLACEHOLDER),B412
+FRIDAY,12:00,12:50,Database Management Systems,Mrs. Dharani Devi G,B221
+TUESDAY,15:00,15:50,Database Management Systems,Mrs. Dharani Devi G,B417
+WEDNESDAY,15:00,15:50,Database Management Systems,Mrs. Dharani Devi G,A308
+THURSDAY,11:50,13:30,Database Management Systems,Mrs. Dharani Devi G,TLSL2
+WEDNESDAY,11:50,13:30,Database Management Systems,Mrs. Dharani Devi G,TLGL3
+THURSDAY,17:30,19:10,Database Management Systems,Mrs. Dharani Devi G,JR3
+MONDAY,17:30,19:10,Database Management Systems,Mrs. Dharani Devi G,JR1
+TUESDAY,18:00,18:50,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,B401
+THURSDAY,16:00,16:50,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,C101
+THURSDAY,10:00,10:50,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,B211
+MONDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,TLGL3
+THURSDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,TLFL3
+MONDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,KSL03
+FRIDAY,09:50,11:30,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,TLFL4
+THURSDAY,08:00,08:50,Fundamentals of Data Science,New Staff - 07,B320
+TUESDAY,17:00,17:50,Fundamentals of Data Science,New Staff - 07,B325
+TUESDAY,12:00,12:50,Fundamentals of Data Science,New Staff - 07,C101
+WEDNESDAY,15:50,17:30,Fundamentals of Data Science,New Staff - 07,JL1
+WEDNESDAY,11:50,13:30,Fundamentals of Data Science,New Staff - 07,TLFL3

@@ -1,31 +1,26 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,10:00,10:50,Computer Vision and Applications,Mr. Srinivasan T,B405
-TUESDAY,08:00,08:50,Computer Vision and Applications,Mr. Srinivasan T,B302
-MONDAY,08:00,09:40,Computer Vision and Applications,Mr. Srinivasan T,KFR03
-FRIDAY,08:00,09:40,Computer Vision and Applications,Mr. Srinivasan T,KFL02
-TUESDAY,18:00,18:50,Recommendation Systems (Professional Elective I),New Staff - 05,B322
-THURSDAY,10:00,10:50,Recommendation Systems (Professional Elective I),New Staff - 05,B423
-WEDNESDAY,13:50,15:30,Recommendation Systems (Professional Elective I),New Staff - 05,TLGL2
-MONDAY,15:50,17:30,Recommendation Systems (Professional Elective I),New Staff - 05,TLFR1
-MONDAY,17:30,19:10,Build and Deploy Machine Learning Applications,AIML  NS4,JR3
-FRIDAY,09:50,11:30,Build and Deploy Machine Learning Applications,AIML  NS4,TLFR2
-TUESDAY,15:00,15:50,Deep Learning,Mrs. Divya S,A204
-FRIDAY,18:00,18:50,Deep Learning,Mrs. Divya S,B218
-THURSDAY,08:00,08:50,Deep Learning,Mrs. Divya S,B418
-FRIDAY,15:50,17:30,Deep Learning,Mrs. Divya S,TLFL4
-MONDAY,08:00,09:40,Deep Learning,Mrs. Divya S,TLFR4
-MONDAY,14:00,14:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,B210
-MONDAY,11:00,11:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,A205
-TUESDAY,09:00,09:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,B320
-TUESDAY,15:50,17:30,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,TLSL2
-THURSDAY,15:50,17:30,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,KFL01
-THURSDAY,14:00,14:50,Computer Networks,Ms. Soundarya M,B302
-WEDNESDAY,09:00,09:50,Computer Networks,Ms. Soundarya M,A109
-WEDNESDAY,12:00,12:50,Computer Networks,Ms. Soundarya M,B213
-FRIDAY,08:00,09:40,Computer Networks,Ms. Soundarya M,TLFL1
-THURSDAY,11:50,13:30,Computer Networks,Ms. Soundarya M,KFL03
-WEDNESDAY,13:50,15:30,Computer Networks,Ms. Soundarya M,KFL03
-TUESDAY,15:50,17:30,Computer Networks,Ms. Soundarya M,TLSL1
-THURSDAY,11:00,11:50,DataEngineering,Dr. Rajasekaran Annamalai,A310
-WEDNESDAY,16:00,16:50,DataEngineering,Dr. Rajasekaran Annamalai,B213
-TUESDAY,11:00,11:50,DataEngineering,Dr. Rajasekaran Annamalai,B404
+WEDNESDAY,11:00,11:50,Bioprocess Principles,New Staff - 02,B325
+THURSDAY,12:00,12:50,Bioprocess Principles,New Staff - 02,B302
+WEDNESDAY,18:00,18:50,Bioprocess Principles,New Staff - 02,B222
+FRIDAY,18:00,18:50,Immunology,Mr. Dr. Saravanan Periasamy,C202
+MONDAY,17:00,17:50,Immunology,Mr. Dr. Saravanan Periasamy,A208
+THURSDAY,11:00,11:50,Immunology,Mr. Dr. Saravanan Periasamy,B302
+FRIDAY,09:00,09:50,Bioinformatics,Mrs. Dr. Sujata Roy,B415
+FRIDAY,14:00,14:50,Bioinformatics,Mrs. Dr. Sujata Roy,B210
+THURSDAY,08:00,08:50,Bioinformatics,Mrs. Dr. Sujata Roy,B425
+TUESDAY,14:00,14:50,Separation Process Principles,Mrs. Sangeetha Gandhi S,B405
+TUESDAY,10:00,10:50,Separation Process Principles,Mrs. Sangeetha Gandhi S,C301
+FRIDAY,17:00,17:50,Separation Process Principles,Mrs. Sangeetha Gandhi S,B417
+MONDAY,08:00,08:50,Separation Process Principles,Mrs. Sangeetha Gandhi S,B106
+WEDNESDAY,11:50,13:30,Bioprocess Laboratory- I,Mrs. Dr.T.Anitha,Downstream Processing Lab
+FRIDAY,09:50,11:30,Bioprocess Laboratory- I,Mrs. Dr.T.Anitha,Downstream Processing Lab
+FRIDAY,11:50,13:30,Bioprocess Laboratory- I,Mrs. Dr.T.Anitha,Bioprocess Lab
+WEDNESDAY,15:50,17:30,Bioprocess Laboratory- I,Mrs. Dr.T.Anitha,Bioprocess Lab
+THURSDAY,13:50,15:30,Bioinformatics Laboratory,Mrs. Muneeswari Alias Surya S,Automotive Components Lab
+WEDNESDAY,15:50,17:30,Bioinformatics Laboratory,Mrs. Muneeswari Alias Surya S,Networks Lab
+WEDNESDAY,11:50,13:30,Bioinformatics Laboratory,Mrs. Muneeswari Alias Surya S,Isaac Asimov Laboratory
+THURSDAY,15:50,17:30,Bioinformatics Laboratory,Mrs. Muneeswari Alias Surya S,Soil Mechanics & Highway Lab
+WEDNESDAY,08:00,09:40,Immunology lab,Mr. Dr. Saravanan Periasamy,Immunology Lab
+TUESDAY,08:00,09:40,Immunology lab,Mr. Dr. Saravanan Periasamy,Immunology Lab
+MONDAY,13:50,15:30,Immunology lab,Mr. Dr. Saravanan Periasamy,Immunology Lab
+MONDAY,09:50,11:30,Immunology lab,Mr. Dr. Saravanan Periasamy,Immunology Lab

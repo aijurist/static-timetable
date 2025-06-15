@@ -1,17 +1,17 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,13:00,13:50,Object Oriented Programming Using JAVA,AIML-2B,B401
-WEDNESDAY,17:00,17:50,Object Oriented Programming Using JAVA,AIML-2B,A308
-WEDNESDAY,15:00,15:50,Object Oriented Programming Using JAVA,AIML-2B,B409
-TUESDAY,17:30,19:10,Object Oriented Programming Using JAVA,AIML-2B,JR3
-TUESDAY,13:50,15:30,Object Oriented Programming Using JAVA,AIML-2B,KFL01
-THURSDAY,13:50,15:30,Object Oriented Programming Using JAVA,AIML-2B,JR3
-THURSDAY,11:50,13:30,Object Oriented Programming Using JAVA,AIML-2B,KSL03
-TUESDAY,11:00,11:50,DataEngineering,AIML-3A,B220
-THURSDAY,10:00,10:50,DataEngineering,AIML-3A,A108
-FRIDAY,12:00,12:50,DataEngineering,AIML-3A,B211
-FRIDAY,17:30,19:10,Project-I,AIML-4C,TLFR1
-MONDAY,11:50,13:30,Project-I,AIML-4C,TLFL5
-FRIDAY,13:50,15:30,Project-I,AIML-4C,TLFL1
-THURSDAY,08:00,09:40,Project-I,AIML-4C,TLGL4
-MONDAY,17:30,19:10,Project-I,AIML-4C,TLGL1
-WEDNESDAY,09:50,11:30,Project-I,AIML-4C,TLFL3
+FRIDAY,12:00,12:50,Object Oriented Programming Using JAVA,AIML 2.1,B220
+TUESDAY,10:00,10:50,Object Oriented Programming Using JAVA,AIML 2.1,A308
+FRIDAY,14:00,14:50,Object Oriented Programming Using JAVA,AIML 2.1,B322
+FRIDAY,17:30,19:10,Object Oriented Programming Using JAVA,AIML 2.1,Vehicle Maintenance Lab
+THURSDAY,11:50,13:30,Object Oriented Programming Using JAVA,AIML 2.1,Avionics Lab
+TUESDAY,13:50,15:30,Object Oriented Programming Using JAVA,AIML 2.1,Auto CAD Lab
+MONDAY,08:00,09:40,Object Oriented Programming Using JAVA,AIML 2.1,Engineering Practices Lab (Electronics)
+THURSDAY,16:00,16:50,DataEngineering,AIML 3.3,B424
+WEDNESDAY,10:00,10:50,DataEngineering,AIML 3.3,C101
+THURSDAY,09:00,09:50,DataEngineering,AIML 3.3,B404
+MONDAY,11:50,13:30,Project-I,AIML 4.1,Electrical Machines I Lab
+WEDNESDAY,15:50,17:30,Project-I,AIML 4.1,Machine Shop FF3 - EPL - 3
+WEDNESDAY,11:50,13:30,Project-I,AIML 4.1,Aero CAD Lab
+MONDAY,13:50,15:30,Project-I,AIML 4.1,Diagnostic and Therapeutic Equipment Lab
+TUESDAY,08:00,09:40,Project-I,AIML 4.1,Automotive Components Lab
+TUESDAY,11:50,13:30,Project-I,AIML 4.1,Computer Application in Chemical Engg Lab

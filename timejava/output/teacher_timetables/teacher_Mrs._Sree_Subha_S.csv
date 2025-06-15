@@ -1,17 +1,17 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,12:00,12:50,Object Oriented Programming Using JAVA,AIML-2A,B411
-MONDAY,10:00,10:50,Object Oriented Programming Using JAVA,AIML-2A,B422
-WEDNESDAY,12:00,12:50,Object Oriented Programming Using JAVA,AIML-2A,B218
-THURSDAY,09:50,11:30,Object Oriented Programming Using JAVA,AIML-2A,JL1
-TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,AIML-2A,TLGL3
-TUESDAY,09:50,11:30,Object Oriented Programming Using JAVA,AIML-2A,JL3
-FRIDAY,08:00,09:40,Object Oriented Programming Using JAVA,AIML-2A,JR2
-FRIDAY,14:00,14:50,DataEngineering,AIML-3B,A102
-FRIDAY,11:00,11:50,DataEngineering,AIML-3B,B403
-WEDNESDAY,10:00,10:50,DataEngineering,AIML-3B,B416
-WEDNESDAY,08:00,09:40,Project-I,AIML-4A,KFL03
-MONDAY,08:00,09:40,Project-I,AIML-4A,TLFL5
-TUESDAY,11:50,13:30,Project-I,AIML-4A,JL2
-THURSDAY,13:50,15:30,Project-I,AIML-4A,TLFL5
-WEDNESDAY,13:50,15:30,Project-I,AIML-4A,TLGL4
-THURSDAY,15:50,17:30,Project-I,AIML-4A,TLFL5
+FRIDAY,18:00,18:50,Object Oriented Programming Using JAVA,AIML 2.4,B422
+WEDNESDAY,12:00,12:50,Object Oriented Programming Using JAVA,AIML 2.4,B417
+THURSDAY,08:00,08:50,Object Oriented Programming Using JAVA,AIML 2.4,B416
+TUESDAY,13:50,15:30,Object Oriented Programming Using JAVA,AIML 2.4,Industrial Automation Lab
+WEDNESDAY,13:50,15:30,Object Oriented Programming Using JAVA,AIML 2.4,Biochemistry Lab
+THURSDAY,11:50,13:30,Object Oriented Programming Using JAVA,AIML 2.4,Networks Lab
+TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,AIML 2.4,Machine Shop FF2 - EPL - 2
+MONDAY,12:00,12:50,DataEngineering,AIML 3.1,B220
+WEDNESDAY,16:00,16:50,DataEngineering,AIML 3.1,A210
+FRIDAY,11:00,11:50,DataEngineering,AIML 3.1,B106
+WEDNESDAY,08:00,09:40,Project-I,AIML 4.2,Bioprocess Lab
+MONDAY,15:50,17:30,Project-I,AIML 4.2,Microprocessor Lab-2
+FRIDAY,15:50,17:30,Project-I,AIML 4.2,Digital Lab-2
+MONDAY,09:50,11:30,Project-I,AIML 4.2,Downstream Processing Lab
+THURSDAY,09:50,11:30,Project-I,AIML 4.2,Electronic Devices & Circuits Lab
+MONDAY,13:50,15:30,Project-I,AIML 4.2,Microbiology Lab

@@ -1,32 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,16:00,16:50,Fundamentals of Machine Learning,New Faculty Humanities & Sciences (PLACEHOLDER),B422
-FRIDAY,10:00,10:50,Fundamentals of Machine Learning,New Faculty Humanities & Sciences (PLACEHOLDER),A305
-WEDNESDAY,10:00,10:50,Fundamentals of Machine Learning,New Faculty Humanities & Sciences (PLACEHOLDER),B411
-THURSDAY,09:50,11:30,Fundamentals of Machine Learning,New Faculty Humanities & Sciences (PLACEHOLDER),JR3
-FRIDAY,08:00,09:40,Fundamentals of Machine Learning,New Faculty Humanities & Sciences (PLACEHOLDER),TLFR1
-FRIDAY,12:00,12:50,Design and Analysis of Algorithms,New Staff - 05,A103
-TUESDAY,10:00,10:50,Design and Analysis of Algorithms,New Staff - 05,B222
-FRIDAY,15:00,15:50,Design and Analysis of Algorithms,New Staff - 05,B218
-WEDNESDAY,11:50,13:30,Design and Analysis of Algorithms,New Staff - 05,TLSL2
-WEDNESDAY,17:30,19:10,Design and Analysis of Algorithms,New Staff - 05,TLFR1
-MONDAY,08:00,08:50,Database Management Systems,AIML  NS2,B404
-TUESDAY,08:00,08:50,Database Management Systems,AIML  NS2,B404
-WEDNESDAY,11:00,11:50,Database Management Systems,AIML  NS2,A310
-FRIDAY,08:00,09:40,Database Management Systems,AIML  NS2,JL1
-MONDAY,13:50,15:30,Database Management Systems,AIML  NS2,TLGL2
-MONDAY,09:50,11:30,Database Management Systems,AIML  NS2,KFR01
-TUESDAY,11:50,13:30,Database Management Systems,AIML  NS2,TLFR1
-TUESDAY,18:00,18:50,Environmental Science and Engineering,Dr. Mahesh R,B404
-THURSDAY,08:00,08:50,Environmental Science and Engineering,Dr. Mahesh R,B417
-WEDNESDAY,09:00,09:50,Environmental Science and Engineering,Dr. Mahesh R,B423
-FRIDAY,14:00,14:50,Discrete Mathematics for AI,Mrs. V. Shakila,B423
-THURSDAY,09:00,09:50,Discrete Mathematics for AI,Mrs. V. Shakila,A211
-THURSDAY,13:00,13:50,Discrete Mathematics for AI,Mrs. V. Shakila,B107
-MONDAY,13:00,13:50,Discrete Mathematics for AI,Mrs. V. Shakila,B418
-FRIDAY,11:00,11:50,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),B106
-WEDNESDAY,14:00,14:50,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),A209
-TUESDAY,16:00,16:50,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),A304
-THURSDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),TLFR4
-FRIDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),TLFR2
-THURSDAY,09:50,11:30,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),TLFR5
-MONDAY,17:30,19:10,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),TLFL1
+WEDNESDAY,10:00,10:50,Computer Architecture,Mrs. Deepa B,C102
+MONDAY,16:00,16:50,Computer Architecture,Mrs. Deepa B,B321
+WEDNESDAY,18:00,18:50,Computer Architecture,Mrs. Deepa B,B402
+THURSDAY,13:00,13:50,Design and Analysis of Algorithms,Ms. T.Ramala,B409
+THURSDAY,11:00,11:50,Design and Analysis of Algorithms,Ms. T.Ramala,B408
+MONDAY,08:00,08:50,Design and Analysis of Algorithms,Ms. T.Ramala,B210
+WEDNESDAY,08:00,09:40,Design and Analysis of Algorithms,Ms. T.Ramala,JL3
+THURSDAY,08:00,09:40,Design and Analysis of Algorithms,Ms. T.Ramala,TLFL1
+WEDNESDAY,11:00,11:50,Fourier series and Number theory,Mrs. C. Renuga,B426
+TUESDAY,12:00,12:50,Fourier series and Number theory,Mrs. C. Renuga,A210
+MONDAY,13:00,13:50,Fourier series and Number theory,Mrs. C. Renuga,B107
+FRIDAY,14:00,14:50,Fourier series and Number theory,Mrs. C. Renuga,A308
+THURSDAY,10:00,10:50,Database Management Systems,Mr. Dr Parthasarathy C,C307
+WEDNESDAY,15:00,15:50,Database Management Systems,Mr. Dr Parthasarathy C,B417
+THURSDAY,15:00,15:50,Database Management Systems,Mr. Dr Parthasarathy C,B106
+TUESDAY,15:50,17:30,Database Management Systems,Mr. Dr Parthasarathy C,JR1
+FRIDAY,09:50,11:30,Database Management Systems,Mr. Dr Parthasarathy C,KFR03
+WEDNESDAY,11:50,13:30,Database Management Systems,Mr. Dr Parthasarathy C,TLFL1
+FRIDAY,15:50,17:30,Database Management Systems,Mr. Dr Parthasarathy C,KFL01
+TUESDAY,11:00,11:50,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,B322
+WEDNESDAY,14:00,14:50,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,A305
+TUESDAY,14:00,14:50,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,B408
+WEDNESDAY,11:50,13:30,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,TLGL2
+FRIDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,TLFR2
+FRIDAY,11:50,13:30,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,TLSL2
+TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,JL3
+THURSDAY,16:00,16:50,Fundamentals of Data Science,Ms. Sana,B422
+TUESDAY,13:00,13:50,Fundamentals of Data Science,Ms. Sana,B402
+MONDAY,10:00,10:50,Fundamentals of Data Science,Ms. Sana,C302
+WEDNESDAY,15:50,17:30,Fundamentals of Data Science,Ms. Sana,TLGL4
+MONDAY,13:50,15:30,Fundamentals of Data Science,Ms. Sana,TLFL5

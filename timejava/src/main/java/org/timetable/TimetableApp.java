@@ -14,6 +14,7 @@ import org.timetable.persistence.TimetableExporter;
 import org.timetable.persistence.TimetableJsonExporter;
 import org.timetable.solver.OptimizedTimetableConstraintProvider;
 import org.timetable.validation.OptimizationValidator;
+import org.timetable.validation.CoreLabMappingValidator;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -77,6 +78,9 @@ public class TimetableApp {
         OptimizationValidator.ValidationReport report = OptimizationValidator.validateSolution(solution);
         report.printReport();
 
+        // Validate core lab mappings
+        CoreLabMappingValidator.validateCoreLabMappings(solution);
+
         try {
             String timestamp = DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss").format(LocalDateTime.now());
             String outputFile = "output/timetable_solution_" + timestamp + ".csv";
@@ -106,7 +110,7 @@ public class TimetableApp {
                 .withScoreDirectorFactory(new ScoreDirectorFactoryConfig()
                         .withConstraintProviderClass(OptimizedTimetableConstraintProvider.class))
                 .withTerminationConfig(new TerminationConfig()
-                        .withMinutesSpentLimit(5L)
+                        .withMinutesSpentLimit(getSolveMinutes())
                         .withBestScoreFeasible(true));
 
         return SolverFactory.<TimetableProblem>create(solverConfig).buildSolver();
@@ -121,5 +125,18 @@ public class TimetableApp {
                 (absSeconds % 3600) / 60,
                 absSeconds % 60);
         return seconds < 0 ? "-" + positive : positive;
+    }
+
+    private static long getSolveMinutes() {
+        // Allow overriding via system property or environment variable; default 20
+        String prop = System.getProperty("solver.minutes");
+        if (prop == null) {
+            prop = System.getenv("SOLVER_MINUTES");
+        }
+        try {
+            return prop != null ? Long.parseLong(prop) : 20L;
+        } catch (NumberFormatException e) {
+            return 20L;
+        }
     }
 }

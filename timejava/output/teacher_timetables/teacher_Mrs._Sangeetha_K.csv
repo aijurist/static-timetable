@@ -1,10 +1,14 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,09:00,09:50,Computer Vision and Applications,AIML-3B,B424
-THURSDAY,11:00,11:50,Computer Vision and Applications,AIML-3B,B405
-MONDAY,09:50,11:30,Computer Vision and Applications,AIML-3B,TLFR5
-WEDNESDAY,13:50,15:30,Computer Vision and Applications,AIML-3B,JR3
-WEDNESDAY,16:00,16:50,Big Data Technology,AIML-4C,A103
-FRIDAY,08:00,08:50,Big Data Technology,AIML-4C,B425
-THURSDAY,16:00,16:50,Big Data Technology,AIML-4C,B415
-TUESDAY,08:00,09:40,Big Data Technology,AIML-4C,TLGL3
-WEDNESDAY,17:30,19:10,Big Data Technology,AIML-4C,JL1
+FRIDAY,14:00,14:50,Computer Vision and Applications,AIML 3.1,B412
+THURSDAY,15:00,15:50,Computer Vision and Applications,AIML 3.1,B221
+MONDAY,13:50,15:30,Computer Vision and Applications,AIML 3.1,Automotive Components Lab
+THURSDAY,17:30,19:10,Computer Vision and Applications,AIML 3.1,Food Microbiology Lab
+WEDNESDAY,16:00,16:50,Computer Vision and Applications,AIML 3.3,B404
+FRIDAY,10:00,10:50,Computer Vision and Applications,AIML 3.3,B320
+TUESDAY,11:50,13:30,Computer Vision and Applications,AIML 3.3,Networks Lab
+TUESDAY,15:50,17:30,Computer Vision and Applications,AIML 3.3,Thermal Lab 1
+FRIDAY,16:00,16:50,Big Data Technology,AIML 4.1,B302
+TUESDAY,10:00,10:50,Big Data Technology,AIML 4.1,B424
+WEDNESDAY,11:00,11:50,Big Data Technology,AIML 4.1,B405
+FRIDAY,08:00,09:40,Big Data Technology,AIML 4.1,Computer Application in Chemical Engg Lab
+WEDNESDAY,17:30,19:10,Big Data Technology,AIML 4.1,Chemistry Lab

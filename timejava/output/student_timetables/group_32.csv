@@ -1,32 +1,27 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-THURSDAY,14:00,14:50,Computer Architecture,New Staff - 04,A102
-MONDAY,16:00,16:50,Computer Architecture,New Staff - 04,B321
-FRIDAY,10:00,10:50,Computer Architecture,New Staff - 04,B218
-THURSDAY,16:00,16:50,Design and Analysis of Algorithms,Mrs. Santhiya M,B410
-THURSDAY,11:00,11:50,Design and Analysis of Algorithms,Mrs. Santhiya M,B210
-TUESDAY,11:00,11:50,Design and Analysis of Algorithms,Mrs. Santhiya M,A202
-TUESDAY,08:00,09:40,Design and Analysis of Algorithms,Mrs. Santhiya M,TLSL2
-FRIDAY,13:50,15:30,Design and Analysis of Algorithms,Mrs. Santhiya M,TLFR2
-WEDNESDAY,11:00,11:50,Fourier series and Number theory,New Faculty Humanities & Sciences (PLACEHOLDER),A311
-WEDNESDAY,15:00,15:50,Fourier series and Number theory,New Faculty Humanities & Sciences (PLACEHOLDER),A109
-MONDAY,11:00,11:50,Fourier series and Number theory,New Faculty Humanities & Sciences (PLACEHOLDER),B106
-FRIDAY,11:00,11:50,Fourier series and Number theory,New Faculty Humanities & Sciences (PLACEHOLDER),B401
-THURSDAY,12:00,12:50,Database Management Systems,Mrs. Sathiyavathi S,B426
-TUESDAY,15:00,15:50,Database Management Systems,Mrs. Sathiyavathi S,B220
-WEDNESDAY,10:00,10:50,Database Management Systems,Mrs. Sathiyavathi S,A109
-WEDNESDAY,08:00,09:40,Database Management Systems,Mrs. Sathiyavathi S,JL2
-FRIDAY,13:50,15:30,Database Management Systems,Mrs. Sathiyavathi S,TLFR4
-TUESDAY,11:50,13:30,Database Management Systems,Mrs. Sathiyavathi S,KFR01
-MONDAY,13:50,15:30,Database Management Systems,Mrs. Sathiyavathi S,TLFR4
-MONDAY,10:00,10:50,Object Oriented Programming Using JAVA,New Staff - 04,B210
-TUESDAY,10:00,10:50,Object Oriented Programming Using JAVA,New Staff - 04,A110
-WEDNESDAY,16:00,16:50,Object Oriented Programming Using JAVA,New Staff - 04,A104/105
-MONDAY,08:00,09:40,Object Oriented Programming Using JAVA,New Staff - 04,TLSL2
-MONDAY,11:50,13:30,Object Oriented Programming Using JAVA,New Staff - 04,JL1
-FRIDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Staff - 04,TLFR1
-TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Staff - 04,TLFR2
-WEDNESDAY,12:00,12:50,Fundamentals of Data Science,Ms. Sana,A305
-WEDNESDAY,14:00,14:50,Fundamentals of Data Science,Ms. Sana,A211
-FRIDAY,12:00,12:50,Fundamentals of Data Science,Ms. Sana,B423
-THURSDAY,08:00,09:40,Fundamentals of Data Science,Ms. Sana,TLFL1
-MONDAY,11:50,13:30,Fundamentals of Data Science,Ms. Sana,TLSR1
+FRIDAY,08:00,09:40,Project-1,Mr. Srinivasan N,TLFR4
+WEDNESDAY,11:50,13:30,Project-1,Mr. Srinivasan N,TLFL4
+TUESDAY,15:50,17:30,Project-1,Mr. Srinivasan N,JL2
+THURSDAY,11:50,13:30,Project-1,Mr. Srinivasan N,TLSR1
+THURSDAY,09:50,11:30,Project-1,Mr. Srinivasan N,JR3
+MONDAY,11:50,13:30,Project-1,Mr. Srinivasan N,KFL01
+MONDAY,08:00,09:40,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,JL3
+TUESDAY,09:50,11:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLSR1
+TUESDAY,11:50,13:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,JL1
+WEDNESDAY,15:50,17:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLFL4
+THURSDAY,15:50,17:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,JL1
+WEDNESDAY,11:50,13:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,JL2
+TUESDAY,13:50,15:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLFR2
+WEDNESDAY,13:50,15:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KFR01
+THURSDAY,15:50,17:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KFR02
+FRIDAY,18:00,18:50,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLFL1
+WEDNESDAY,18:00,18:50,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLFL1
+FRIDAY,10:00,10:50,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KFL01
+TUESDAY,08:00,08:50,Cloud Computing,Mr. Ayyadurai M,C201
+FRIDAY,16:00,16:50,Cloud Computing,Mr. Ayyadurai M,B416
+WEDNESDAY,08:00,09:40,Cloud Computing,Mr. Ayyadurai M,TLSL2
+MONDAY,15:50,17:30,Cloud Computing,Mr. Ayyadurai M,TLGL4
+WEDNESDAY,10:00,10:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,A104/105
+TUESDAY,18:00,18:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,B320
+FRIDAY,17:30,19:10,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,TLFL1
+TUESDAY,11:50,13:30,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,KFL03

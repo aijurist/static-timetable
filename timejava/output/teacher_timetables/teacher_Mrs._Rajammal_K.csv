@@ -1,11 +1,11 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,10:00,10:50,Database Technology,CSBS-2B,B409
-TUESDAY,09:00,09:50,Database Technology,CSBS-2B,B416
-FRIDAY,10:00,10:50,Database Technology,CSBS-2B,B302
-FRIDAY,11:50,13:30,Database Technology,CSBS-2B,TLFL1
-MONDAY,15:50,17:30,Database Technology,CSBS-2B,JR1
-MONDAY,14:00,14:50,Usability Design of Software  Applications,CSBS-4B,B321
-WEDNESDAY,15:00,15:50,Usability Design of Software  Applications,CSBS-4B,B401
-THURSDAY,08:00,08:50,Usability Design of Software  Applications,CSBS-4B,B322
-MONDAY,09:50,11:30,Usability Design of Software  Applications,CSBS-4B,TLFL5
-WEDNESDAY,08:00,09:40,Usability Design of Software  Applications,CSBS-4B,TLGL3
+WEDNESDAY,10:00,10:50,Database Technology,CSBS 2.1,B302
+MONDAY,14:00,14:50,Database Technology,CSBS 2.1,C103
+TUESDAY,11:00,11:50,Database Technology,CSBS 2.1,A103
+WEDNESDAY,15:50,17:30,Database Technology,CSBS 2.1,TLFL5
+TUESDAY,08:00,09:40,Database Technology,CSBS 2.1,TLFL5
+THURSDAY,15:00,15:50,Usability Design of Software  Applications,CSBS 4.1,B412
+FRIDAY,18:00,18:50,Usability Design of Software  Applications,CSBS 4.1,B321
+FRIDAY,16:00,16:50,Usability Design of Software  Applications,CSBS 4.1,B423
+MONDAY,15:50,17:30,Usability Design of Software  Applications,CSBS 4.1,JL2
+MONDAY,09:50,11:30,Usability Design of Software  Applications,CSBS 4.1,KSL03

@@ -1,0 +1,13 @@
+Day,StartTime,EndTime,Course,Group,Room
+MONDAY,12:00,12:50,Separation Process Principles,BT 3.1,B422
+TUESDAY,08:00,08:50,Separation Process Principles,BT 3.1,C101
+WEDNESDAY,10:00,10:50,Separation Process Principles,BT 3.1,A303
+TUESDAY,15:00,15:50,Separation Process Principles,BT 3.1,A302
+THURSDAY,09:00,09:50,Separation Process Principles,BT 3.3,B219
+TUESDAY,10:00,10:50,Separation Process Principles,BT 3.3,B422
+THURSDAY,15:00,15:50,Separation Process Principles,BT 3.3,B321
+FRIDAY,13:00,13:50,Separation Process Principles,BT 3.3,C201
+THURSDAY,11:50,13:30,Downstream processing lab,BT 4.3,Downstream Processing Lab
+WEDNESDAY,15:50,17:30,Downstream processing lab,BT 4.3,Downstream Processing Lab
+WEDNESDAY,13:50,15:30,Downstream processing lab,BT 4.3,Downstream Processing Lab
+FRIDAY,17:30,19:10,Downstream processing lab,BT 4.3,Downstream Processing Lab

@@ -1,11 +1,11 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,13:00,13:50,Fundamentals of Machine Learning,AIML-2B,B410
-TUESDAY,12:00,12:50,Fundamentals of Machine Learning,AIML-2B,B419
-FRIDAY,10:00,10:50,Fundamentals of Machine Learning,AIML-2B,A204
-THURSDAY,08:00,09:40,Fundamentals of Machine Learning,AIML-2B,TLFR5
-MONDAY,13:50,15:30,Fundamentals of Machine Learning,AIML-2B,TLFR5
-WEDNESDAY,17:00,17:50,Framework for data and visual Analytics,AIML-3B,B321
-THURSDAY,16:00,16:50,Framework for data and visual Analytics,AIML-3B,B404
-MONDAY,17:00,17:50,Framework for data and visual Analytics,AIML-3B,B211
-THURSDAY,11:50,13:30,Framework for data and visual Analytics,AIML-3B,TLFL1
-MONDAY,09:50,11:30,Framework for data and visual Analytics,AIML-3B,KFL02
+WEDNESDAY,18:00,18:50,Fundamentals of Machine Learning,AIML 2.1,C307
+WEDNESDAY,13:00,13:50,Fundamentals of Machine Learning,AIML 2.1,A109
+WEDNESDAY,16:00,16:50,Fundamentals of Machine Learning,AIML 2.1,B401
+MONDAY,08:00,09:40,Fundamentals of Machine Learning,AIML 2.1,Metrology & Measurement Lab
+THURSDAY,13:50,15:30,Fundamentals of Machine Learning,AIML 2.1,Food Processing and Preservation Lab
+TUESDAY,11:00,11:50,Framework for data and visual Analytics,AIML 3.1,B402
+FRIDAY,08:00,08:50,Framework for data and visual Analytics,AIML 3.1,A203
+THURSDAY,08:00,08:50,Framework for data and visual Analytics,AIML 3.1,A310
+TUESDAY,15:50,17:30,Framework for data and visual Analytics,AIML 3.1,Microprocessor and Microcontrollers Lab
+FRIDAY,11:50,13:30,Framework for data and visual Analytics,AIML 3.1,LIC Lab

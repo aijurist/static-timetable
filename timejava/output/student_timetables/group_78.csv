@@ -1,0 +1,32 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+WEDNESDAY,18:00,18:50,Fundamentals of Machine Learning,Mrs. Priya M,C307
+WEDNESDAY,13:00,13:50,Fundamentals of Machine Learning,Mrs. Priya M,A109
+WEDNESDAY,16:00,16:50,Fundamentals of Machine Learning,Mrs. Priya M,B401
+MONDAY,08:00,09:40,Fundamentals of Machine Learning,Mrs. Priya M,Metrology & Measurement Lab
+THURSDAY,13:50,15:30,Fundamentals of Machine Learning,Mrs. Priya M,Food Processing and Preservation Lab
+THURSDAY,18:00,18:50,Design and Analysis of Algorithms,New Staff - 05,C301
+THURSDAY,16:00,16:50,Design and Analysis of Algorithms,New Staff - 05,B408
+FRIDAY,10:00,10:50,Design and Analysis of Algorithms,New Staff - 05,A203
+TUESDAY,13:50,15:30,Design and Analysis of Algorithms,New Staff - 05,Avionics Lab
+WEDNESDAY,13:50,15:30,Design and Analysis of Algorithms,New Staff - 05,Thermal Lab 1
+MONDAY,18:00,18:50,Database Management Systems,Ms. R.Anitha,A209
+WEDNESDAY,08:00,08:50,Database Management Systems,Ms. R.Anitha,B415
+FRIDAY,11:00,11:50,Database Management Systems,Ms. R.Anitha,B211
+THURSDAY,13:50,15:30,Database Management Systems,Ms. R.Anitha,Thermal Lab 1
+THURSDAY,08:00,09:40,Database Management Systems,Ms. R.Anitha,Manufacturing Technology I
+FRIDAY,17:30,19:10,Database Management Systems,Ms. R.Anitha,Technical Analysis Lab
+TUESDAY,17:30,19:10,Database Management Systems,Ms. R.Anitha,Microprocessor and Microcontrollers Lab
+WEDNESDAY,10:00,10:50,Environmental Science and Engineering,Mr. Dr.P Vasudevan,A208
+TUESDAY,09:00,09:50,Environmental Science and Engineering,Mr. Dr.P Vasudevan,B219
+MONDAY,17:00,17:50,Environmental Science and Engineering,Mr. Dr.P Vasudevan,A303
+WEDNESDAY,11:00,11:50,Discrete Mathematics for AI,Mrs. V. Shakila,B422
+FRIDAY,09:00,09:50,Discrete Mathematics for AI,Mrs. V. Shakila,A209
+MONDAY,10:00,10:50,Discrete Mathematics for AI,Mrs. V. Shakila,B212
+TUESDAY,12:00,12:50,Discrete Mathematics for AI,Mrs. V. Shakila,B418
+FRIDAY,12:00,12:50,Object Oriented Programming Using JAVA,Mrs. Sowmia K R,B220
+TUESDAY,10:00,10:50,Object Oriented Programming Using JAVA,Mrs. Sowmia K R,A308
+FRIDAY,14:00,14:50,Object Oriented Programming Using JAVA,Mrs. Sowmia K R,B322
+FRIDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mrs. Sowmia K R,Vehicle Maintenance Lab
+THURSDAY,11:50,13:30,Object Oriented Programming Using JAVA,Mrs. Sowmia K R,Avionics Lab
+TUESDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mrs. Sowmia K R,Auto CAD Lab
+MONDAY,08:00,09:40,Object Oriented Programming Using JAVA,Mrs. Sowmia K R,Engineering Practices Lab (Electronics)

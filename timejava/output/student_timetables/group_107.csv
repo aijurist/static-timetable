@@ -1,0 +1,29 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+MONDAY,09:00,09:50,Modern Digital Communication,Mr. S Sudharsan,A210
+WEDNESDAY,11:00,11:50,Modern Digital Communication,Mr. S Sudharsan,A305
+MONDAY,13:00,13:50,Modern Digital Communication,Mr. S Sudharsan,A310
+TUESDAY,13:50,15:30,Communication Systems Laboratory,Mrs. Anitha Mary M,Communication Systems Lab
+MONDAY,09:50,11:30,Communication Systems Laboratory,Mrs. Anitha Mary M,Communication Systems Lab
+TUESDAY,17:30,19:10,Communication Systems Laboratory,Mrs. Anitha Mary M,Communication Systems Lab
+TUESDAY,11:50,13:30,Communication Systems Laboratory,Mrs. Anitha Mary M,Communication Systems Lab
+THURSDAY,09:50,11:30,Industrial Internship,Mrs. Indhu Bala B,Microbiology Lab
+THURSDAY,13:50,15:30,Industrial Internship,Mrs. Indhu Bala B,Mechatronics Lab
+FRIDAY,08:00,08:50,Digital Signal Processing,Mr. Asokan V,B325
+THURSDAY,12:00,12:50,Digital Signal Processing,Mr. Asokan V,B412
+THURSDAY,17:00,17:50,Digital Signal Processing,Mr. Asokan V,C102
+WEDNESDAY,17:30,19:10,Digital Signal Processing,Mr. Asokan V,DSP Lab
+FRIDAY,09:50,11:30,Digital Signal Processing,Mr. Asokan V,DSP Lab
+FRIDAY,09:50,11:30,Soft Skills – II,Mrs. Jhanani Shree U,Basic Electronics Lab-2
+MONDAY,09:50,11:30,Soft Skills – II,Mrs. Jhanani Shree U,Automotive Components Lab
+WEDNESDAY,16:00,16:50,Information theory and coding,Ms. M. Latha,A109
+FRIDAY,09:00,09:50,Information theory and coding,Ms. M. Latha,B322
+THURSDAY,13:00,13:50,Information theory and coding,Ms. M. Latha,A208
+MONDAY,14:00,14:50,Medical electronics,Mr. Murali Krishna K,C302
+FRIDAY,13:00,13:50,Medical electronics,Mr. Murali Krishna K,B107
+WEDNESDAY,14:00,14:50,Medical electronics,Mr. Murali Krishna K,B107
+THURSDAY,08:00,08:50,Introduction to MEMS,Mr. Dr.V.S.Selvakumar,B412
+FRIDAY,14:00,14:50,Introduction to MEMS,Mr. Dr.V.S.Selvakumar,B415
+TUESDAY,16:00,16:50,Introduction to MEMS,Mr. Dr.V.S.Selvakumar,B106
+TUESDAY,08:00,08:50,Control System Engineering,Mrs. Dr B Priya,B107
+WEDNESDAY,15:00,15:50,Control System Engineering,Mrs. Dr B Priya,A204
+MONDAY,08:00,08:50,Control System Engineering,Mrs. Dr B Priya,A208

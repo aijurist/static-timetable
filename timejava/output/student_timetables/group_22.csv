@@ -1,27 +1,26 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-THURSDAY,09:00,09:50,Operating Systems,Dr. Gunasekar S,B302
-TUESDAY,11:00,11:50,Operating Systems,Dr. Gunasekar S,B401
-FRIDAY,10:00,10:50,Operating Systems,Dr. Gunasekar S,B426
-FRIDAY,08:00,09:40,Operating Systems,Dr. Gunasekar S,JR1
-MONDAY,15:50,17:30,Operating Systems,Dr. Gunasekar S,JL2
-FRIDAY,11:50,13:30,Operating Systems,Dr. Gunasekar S,JR1
-WEDNESDAY,17:30,19:10,Operating Systems,Dr. Gunasekar S,KFR01
-FRIDAY,17:30,19:10,Design Thinking and Innovation,Mrs. Kalpana D,TLFL3
-TUESDAY,08:00,09:40,Design Thinking and Innovation,Mrs. Kalpana D,KFL02
-MONDAY,15:50,17:30,Design Thinking and Innovation,Mrs. Kalpana D,TLFL1
-TUESDAY,11:50,13:30,Design Thinking and Innovation,Mrs. Kalpana D,TLGL4
-THURSDAY,08:00,08:50,3D Modelling and Texturing,Mr. S Umamaheswararao,B419
-MONDAY,09:00,09:50,3D Modelling and Texturing,Mr. S Umamaheswararao,B325
-WEDNESDAY,08:00,09:40,3D Modelling and Texturing,Mr. S Umamaheswararao,TLGL1
-WEDNESDAY,13:50,15:30,3D Modelling and Texturing,Mr. S Umamaheswararao,TLSR1
-MONDAY,08:00,08:50,Web Programming,Mr. Thirumalairajan G,B418
-THURSDAY,10:00,10:50,Web Programming,Mr. Thirumalairajan G,B222
-MONDAY,15:00,15:50,Web Programming,Mr. Thirumalairajan G,B325
-THURSDAY,15:50,17:30,Web Programming,Mr. Thirumalairajan G,TLFL4
-THURSDAY,11:50,13:30,Web Programming,Mr. Thirumalairajan G,TLGL4
-WEDNESDAY,11:50,13:30,Web Programming,Mr. Thirumalairajan G,KSL03
-FRIDAY,13:50,15:30,Web Programming,Mr. Thirumalairajan G,TLGL4
-THURSDAY,15:00,15:50,Graphics and Multimedia,Mr. Vijayakumar R,B322
-THURSDAY,11:00,11:50,Graphics and Multimedia,Mr. Vijayakumar R,B415
-TUESDAY,13:50,15:30,Graphics and Multimedia,Mr. Vijayakumar R,TLFR4
-THURSDAY,17:30,19:10,Graphics and Multimedia,Mr. Vijayakumar R,TLFL2
+WEDNESDAY,13:50,15:30,Industry Practices Lab,Ms. Janani M,JR3
+THURSDAY,09:50,11:30,Industry Practices Lab,Ms. Janani M,KFL01
+FRIDAY,11:50,13:30,Industry Practices Lab,Ms. Janani M,TLFR2
+FRIDAY,13:50,15:30,Industry Practices Lab,Ms. Janani M,TLFR3
+THURSDAY,15:00,15:50,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,A308
+FRIDAY,18:00,18:50,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,B213
+WEDNESDAY,10:00,10:50,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,B401
+WEDNESDAY,08:00,09:40,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,KFL01
+MONDAY,15:50,17:30,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,JR2
+FRIDAY,15:50,17:30,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,KFL02
+MONDAY,11:50,13:30,Cloud and Big Data Analytics,Mrs. Dr. Nalini Subramanian,TLSL2
+THURSDAY,18:00,18:50,Software Testing,Mrs. K Indumathi,A203
+TUESDAY,09:00,09:50,Software Testing,Mrs. K Indumathi,B321
+WEDNESDAY,11:00,11:50,Software Testing,Mrs. K Indumathi,B211
+WEDNESDAY,11:50,13:30,Project Phase I,Mrs. Dr.P.Neelaveni,TLFR1
+FRIDAY,11:50,13:30,Project Phase I,Mrs. Dr.P.Neelaveni,KFL02
+THURSDAY,11:50,13:30,Project Phase I,Mrs. Dr.P.Neelaveni,KSL03
+FRIDAY,13:50,15:30,Project Phase I,Mrs. Dr.P.Neelaveni,JL1
+THURSDAY,08:00,09:40,Project Phase I,Mrs. Dr.P.Neelaveni,TLGL1
+WEDNESDAY,08:00,09:40,Project Phase I,Mrs. Dr.P.Neelaveni,TLFR4
+MONDAY,15:50,17:30,Project Phase I,Mrs. Dr.P.Neelaveni,KFR02
+TUESDAY,13:50,15:30,Project Phase I,Mrs. Dr.P.Neelaveni,KFR03
+TUESDAY,16:00,16:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,A209
+FRIDAY,10:00,10:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,B426
+MONDAY,10:00,10:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,A302

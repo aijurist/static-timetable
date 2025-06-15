@@ -1,12 +1,12 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,11:00,11:50,Design Processes and Perspectives,CSD-2A,A310
-TUESDAY,11:00,11:50,Design Processes and Perspectives,CSD-2A,B419
-MONDAY,14:00,14:50,Design Processes and Perspectives,CSD-2A,B218
-WEDNESDAY,08:00,09:40,Design Processes and Perspectives,CSD-2A,TLSL2
-THURSDAY,11:50,13:30,Design Processes and Perspectives,CSD-2A,KFR03
-THURSDAY,09:50,11:30,Project-I,CSD-4A,TLFL1
-MONDAY,08:00,09:40,Project-I,CSD-4A,TLGL2
-MONDAY,11:50,13:30,Project-I,CSD-4A,TLSL1
-FRIDAY,13:50,15:30,Project-I,CSD-4A,KFR03
-FRIDAY,15:50,17:30,Project-I,CSD-4A,TLFL2
-THURSDAY,15:50,17:30,Project-I,CSD-4A,KSL03
+MONDAY,09:00,09:50,Design Processes and Perspectives,CSD 2.1,B410
+FRIDAY,18:00,18:50,Design Processes and Perspectives,CSD 2.1,A211
+THURSDAY,10:00,10:50,Design Processes and Perspectives,CSD 2.1,B325
+THURSDAY,13:50,15:30,Design Processes and Perspectives,CSD 2.1,Strength of Materials Lab
+TUESDAY,09:50,11:30,Design Processes and Perspectives,CSD 2.1,Food Microbiology Lab
+FRIDAY,15:50,17:30,Project-I,CSD 4.1,Thermal Lab 1
+THURSDAY,11:50,13:30,Project-I,CSD 4.1,Microprocessor and Microcontrollers Lab
+THURSDAY,15:50,17:30,Project-I,CSD 4.1,Metrology & Measurement Lab
+TUESDAY,15:50,17:30,Project-I,CSD 4.1,Microbiology Lab
+MONDAY,13:50,15:30,Project-I,CSD 4.1,Computer Application in Chemical Engg Lab
+WEDNESDAY,08:00,09:40,Project-I,CSD 4.1,Communication Systems Lab

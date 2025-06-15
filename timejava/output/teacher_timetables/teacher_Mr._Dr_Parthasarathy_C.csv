@@ -1,14 +1,14 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,11:00,11:50,Database Management Systems,CSE-2H,A302
-MONDAY,11:00,11:50,Database Management Systems,CSE-2H,B422
-MONDAY,13:00,13:50,Database Management Systems,CSE-2H,B410
-FRIDAY,15:50,17:30,Database Management Systems,CSE-2H,TLGL1
-WEDNESDAY,15:50,17:30,Database Management Systems,CSE-2H,JR3
-FRIDAY,11:50,13:30,Database Management Systems,CSE-2H,JL2
-THURSDAY,17:30,19:10,Database Management Systems,CSE-2H,TLFL1
-TUESDAY,13:50,15:30,Project-1,CSE-4E,JR2
-FRIDAY,09:50,11:30,Project-1,CSE-4E,TLGL2
-TUESDAY,15:50,17:30,Project-1,CSE-4E,KFR02
-MONDAY,17:30,19:10,Project-1,CSE-4E,KFL01
-WEDNESDAY,13:50,15:30,Project-1,CSE-4E,JL1
-TUESDAY,09:50,11:30,Project-1,CSE-4E,TLGL2
+THURSDAY,10:00,10:50,Database Management Systems,CSE 2.3,C307
+WEDNESDAY,15:00,15:50,Database Management Systems,CSE 2.3,B417
+THURSDAY,15:00,15:50,Database Management Systems,CSE 2.3,B106
+TUESDAY,15:50,17:30,Database Management Systems,CSE 2.3,JR1
+FRIDAY,09:50,11:30,Database Management Systems,CSE 2.3,KFR03
+WEDNESDAY,11:50,13:30,Database Management Systems,CSE 2.3,TLFL1
+FRIDAY,15:50,17:30,Database Management Systems,CSE 2.3,KFL01
+MONDAY,11:50,13:30,Project-1,CSE 4.5,JL3
+WEDNESDAY,17:30,19:10,Project-1,CSE 4.5,TLFR4
+TUESDAY,13:50,15:30,Project-1,CSE 4.5,KFL01
+MONDAY,09:50,11:30,Project-1,CSE 4.5,KFR01
+THURSDAY,08:00,09:40,Project-1,CSE 4.5,KFL03
+MONDAY,15:50,17:30,Project-1,CSE 4.5,TLSL2

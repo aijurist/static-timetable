@@ -1,0 +1,32 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+WEDNESDAY,12:00,12:50,Fundamentals of Machine Learning,New Faculty Humanities & Sciences (PLACEHOLDER),A110
+FRIDAY,13:00,13:50,Fundamentals of Machine Learning,New Faculty Humanities & Sciences (PLACEHOLDER),B417
+MONDAY,11:00,11:50,Fundamentals of Machine Learning,New Faculty Humanities & Sciences (PLACEHOLDER),A309
+FRIDAY,17:30,19:10,Fundamentals of Machine Learning,New Faculty Humanities & Sciences (PLACEHOLDER),Avionics Lab
+THURSDAY,09:50,11:30,Fundamentals of Machine Learning,New Faculty Humanities & Sciences (PLACEHOLDER),Power System Simulation Lab
+TUESDAY,09:00,09:50,Design and Analysis of Algorithms,Mrs. Divya S,B220
+MONDAY,10:00,10:50,Design and Analysis of Algorithms,Mrs. Divya S,A308
+MONDAY,15:00,15:50,Design and Analysis of Algorithms,Mrs. Divya S,A202
+MONDAY,11:50,13:30,Design and Analysis of Algorithms,Mrs. Divya S,Digital Lab-2
+TUESDAY,11:50,13:30,Design and Analysis of Algorithms,Mrs. Divya S,Thermal Lab 1
+FRIDAY,10:00,10:50,Database Management Systems,AIML  NS2,B424
+TUESDAY,11:00,11:50,Database Management Systems,AIML  NS2,C201
+MONDAY,14:00,14:50,Database Management Systems,AIML  NS2,A202
+THURSDAY,08:00,09:40,Database Management Systems,AIML  NS2,Auto CAD Lab
+TUESDAY,13:50,15:30,Database Management Systems,AIML  NS2,LIC Lab
+WEDNESDAY,15:50,17:30,Database Management Systems,AIML  NS2,Diagnostic and Therapeutic Equipment Lab
+FRIDAY,15:50,17:30,Database Management Systems,AIML  NS2,VLSI Lab
+FRIDAY,11:00,11:50,Environmental Science and Engineering,Dr. Mahesh R,A102
+THURSDAY,18:00,18:50,Environmental Science and Engineering,Dr. Mahesh R,A309
+MONDAY,09:00,09:50,Environmental Science and Engineering,Dr. Mahesh R,B219
+MONDAY,08:00,08:50,Discrete Mathematics for AI,Ms. Manasa K,B222
+WEDNESDAY,11:00,11:50,Discrete Mathematics for AI,Ms. Manasa K,B106
+TUESDAY,17:00,17:50,Discrete Mathematics for AI,Ms. Manasa K,B419
+FRIDAY,12:00,12:50,Discrete Mathematics for AI,Ms. Manasa K,B213
+WEDNESDAY,13:00,13:50,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),B213
+TUESDAY,10:00,10:50,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),B321
+FRIDAY,08:00,08:50,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),B222
+THURSDAY,13:50,15:30,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),Networks Lab
+TUESDAY,11:50,13:30,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),Digital Lab-2
+THURSDAY,11:50,13:30,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),Chemical Reaction Engineering Lab
+TUESDAY,13:50,15:30,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),Thermal Lab 1

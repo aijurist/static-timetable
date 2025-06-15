@@ -1,34 +1,27 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,15:50,17:30,Python Programming for Design,Mr. Vijayakumar R,KFR01
-FRIDAY,15:50,17:30,Python Programming for Design,Mr. Vijayakumar R,TLFL5
-TUESDAY,08:00,09:40,Python Programming for Design,Mr. Vijayakumar R,TLGL1
-WEDNESDAY,15:50,17:30,Python Programming for Design,Mr. Vijayakumar R,KFR02
-WEDNESDAY,11:50,13:30,Python Programming for Design,Mr. Vijayakumar R,TLGL1
-WEDNESDAY,13:50,15:30,Python Programming for Design,Mr. Vijayakumar R,KSL03
-MONDAY,09:00,09:50,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,B402
-FRIDAY,08:00,08:50,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,B325
-THURSDAY,16:00,16:50,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,B419
-WEDNESDAY,15:50,17:30,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,KFL01
-FRIDAY,11:50,13:30,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,KFL03
-TUESDAY,10:00,10:50,Database Management Systems,Mrs. Kalpana D,B219
-THURSDAY,15:00,15:50,Database Management Systems,Mrs. Kalpana D,B415
-THURSDAY,11:00,11:50,Database Management Systems,Mrs. Kalpana D,B222
-WEDNESDAY,11:50,13:30,Database Management Systems,Mrs. Kalpana D,TLGL4
-FRIDAY,11:50,13:30,Database Management Systems,Mrs. Kalpana D,TLSL2
-WEDNESDAY,09:50,11:30,Database Management Systems,Mrs. Kalpana D,TLFL4
-MONDAY,09:50,11:30,Database Management Systems,Mrs. Kalpana D,KFR03
-MONDAY,13:00,13:50,Discrete Mathematics for AI,Mrs. J.Julie,A204
-TUESDAY,14:00,14:50,Discrete Mathematics for AI,Mrs. J.Julie,B423
-THURSDAY,10:00,10:50,Discrete Mathematics for AI,Mrs. J.Julie,B419
-FRIDAY,09:00,09:50,Discrete Mathematics for AI,Mrs. J.Julie,A303
-FRIDAY,11:00,11:50,Design Processes and Perspectives,Mr. S Pradeep Kumar,A310
-TUESDAY,11:00,11:50,Design Processes and Perspectives,Mr. S Pradeep Kumar,B419
-MONDAY,14:00,14:50,Design Processes and Perspectives,Mr. S Pradeep Kumar,B218
-WEDNESDAY,08:00,09:40,Design Processes and Perspectives,Mr. S Pradeep Kumar,TLSL2
-THURSDAY,11:50,13:30,Design Processes and Perspectives,Mr. S Pradeep Kumar,KFR03
-FRIDAY,14:00,14:50,UI and UX design,New Staff - 01,A302
-MONDAY,08:00,08:50,UI and UX design,New Staff - 01,A305
-MONDAY,09:50,11:30,UI and UX design,New Staff - 01,KFL01
-THURSDAY,08:00,09:40,UI and UX design,New Staff - 01,TLSL1
-TUESDAY,17:30,19:10,UI and UX design,New Staff - 01,TLFL5
-FRIDAY,17:30,19:10,UI and UX design,New Staff - 01,JL3
+WEDNESDAY,11:50,13:30,Project-1,Mr. Dr.K.Anand,KFR02
+MONDAY,13:50,15:30,Project-1,Mr. Dr.K.Anand,TLFL1
+WEDNESDAY,15:50,17:30,Project-1,Mr. Dr.K.Anand,TLFL2
+THURSDAY,08:00,09:40,Project-1,Mr. Dr.K.Anand,KFL02
+THURSDAY,11:50,13:30,Project-1,Mr. Dr.K.Anand,TLFL5
+TUESDAY,09:50,11:30,Project-1,Mr. Dr.K.Anand,KFR03
+THURSDAY,09:50,11:30,Advanced Robotic Process Automation,Mr. Dr. N. Duraimurugan,KFL03
+WEDNESDAY,13:50,15:30,Advanced Robotic Process Automation,Mr. Dr. N. Duraimurugan,TLGL3
+WEDNESDAY,09:50,11:30,Advanced Robotic Process Automation,Mr. Dr. N. Duraimurugan,TLFR4
+FRIDAY,09:50,11:30,Advanced Robotic Process Automation,Mr. Dr. N. Duraimurugan,KFR01
+TUESDAY,13:50,15:30,Advanced Robotic Process Automation,Mr. Dr. N. Duraimurugan,TLFR4
+MONDAY,11:50,13:30,Advanced Robotic Process Automation,Mr. Dr. N. Duraimurugan,TLFL2
+TUESDAY,11:50,13:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KFL01
+TUESDAY,09:50,11:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,JL3
+FRIDAY,11:50,13:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLFR4
+THURSDAY,09:50,11:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KFR02
+THURSDAY,13:50,15:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLFL2
+FRIDAY,08:00,09:40,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLSR1
+MONDAY,11:00,11:50,Cloud Computing,Mr.Vasu Vadlamani,A311
+MONDAY,17:00,17:50,Cloud Computing,Mr.Vasu Vadlamani,A305
+FRIDAY,08:00,09:40,Cloud Computing,Mr.Vasu Vadlamani,TLGL2
+TUESDAY,15:50,17:30,Cloud Computing,Mr.Vasu Vadlamani,TLFL3
+MONDAY,18:00,18:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. Dr.R.Sabitha,B411
+MONDAY,16:00,16:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. Dr.R.Sabitha,B415
+MONDAY,11:50,13:30,INFORMATION SECURITY AND MANAGEMENT,Mrs. Dr.R.Sabitha,KFL03
+WEDNESDAY,11:50,13:30,INFORMATION SECURITY AND MANAGEMENT,Mrs. Dr.R.Sabitha,TLFR4

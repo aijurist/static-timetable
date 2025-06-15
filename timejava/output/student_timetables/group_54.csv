@@ -1,21 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,14:00,14:50,Principles of Financial Management,Dr. Ramanathan V K,B412
-THURSDAY,12:00,12:50,Principles of Financial Management,Dr. Ramanathan V K,A304
-THURSDAY,17:00,17:50,Design Thinking and Innovation,Ms. Janani U,A103
-MONDAY,11:50,13:30,Design Thinking and Innovation,Ms. Janani U,TLFR5
-WEDNESDAY,09:50,11:30,Design Thinking and Innovation,Ms. Janani U,KFR03
-THURSDAY,18:00,18:50,Computer Network Technology,Mrs. S.Bakiyalakshmi,B220
-TUESDAY,13:00,13:50,Computer Network Technology,Mrs. S.Bakiyalakshmi,A205
-FRIDAY,11:00,11:50,Computer Network Technology,Mrs. S.Bakiyalakshmi,B302
-WEDNESDAY,15:50,17:30,Computer Network Technology,Mrs. S.Bakiyalakshmi,TLFL5
-MONDAY,15:50,17:30,Computer Network Technology,Mrs. S.Bakiyalakshmi,TLFL4
-THURSDAY,11:00,11:50,Artificial Intelligence,New Faculty Humanities & Sciences (PLACEHOLDER),B409
-FRIDAY,16:00,16:50,Artificial Intelligence,New Faculty Humanities & Sciences (PLACEHOLDER),A211
-TUESDAY,17:00,17:50,Artificial Intelligence,New Faculty Humanities & Sciences (PLACEHOLDER),B221
-THURSDAY,08:00,09:40,Artificial Intelligence,New Faculty Humanities & Sciences (PLACEHOLDER),TLFL5
-MONDAY,11:50,13:30,Artificial Intelligence,New Faculty Humanities & Sciences (PLACEHOLDER),TLFR1
-FRIDAY,09:00,09:50,Data Mining and Analytics,Mrs. S.Bakiyalakshmi,A308
-THURSDAY,13:00,13:50,Data Mining and Analytics,Mrs. S.Bakiyalakshmi,A305
-TUESDAY,08:00,08:50,Data Mining and Analytics,Mrs. S.Bakiyalakshmi,B424
-WEDNESDAY,09:50,11:30,Data Mining and Analytics,Mrs. S.Bakiyalakshmi,KSL03
-MONDAY,09:50,11:30,Data Mining and Analytics,Mrs. S.Bakiyalakshmi,JL1
+MONDAY,17:00,17:50,Computer Architecture,Mrs. Farjana U,B302
+WEDNESDAY,17:00,17:50,Computer Architecture,Mrs. Farjana U,B402
+TUESDAY,08:00,08:50,Computer Architecture,Mrs. Farjana U,B221
+TUESDAY,10:00,10:50,Design and Analysis of Algorithms,Ms. T.Ramala,B220
+FRIDAY,13:00,13:50,Design and Analysis of Algorithms,Ms. T.Ramala,A109
+TUESDAY,13:00,13:50,Design and Analysis of Algorithms,Ms. T.Ramala,B415
+MONDAY,13:50,15:30,Design and Analysis of Algorithms,Ms. T.Ramala,JR1
+FRIDAY,15:50,17:30,Design and Analysis of Algorithms,Ms. T.Ramala,JR1
+THURSDAY,17:00,17:50,Fourier series and Number theory,New Faculty Humanities & Sciences (PLACEHOLDER),B321
+FRIDAY,09:00,09:50,Fourier series and Number theory,New Faculty Humanities & Sciences (PLACEHOLDER),B403
+FRIDAY,11:00,11:50,Fourier series and Number theory,New Faculty Humanities & Sciences (PLACEHOLDER),A303
+WEDNESDAY,11:00,11:50,Fourier series and Number theory,New Faculty Humanities & Sciences (PLACEHOLDER),C308
+WEDNESDAY,18:00,18:50,Database Management Systems,Ms. Sana,A202
+TUESDAY,18:00,18:50,Database Management Systems,Ms. Sana,A205
+TUESDAY,11:00,11:50,Database Management Systems,Ms. Sana,A102
+MONDAY,08:00,09:40,Database Management Systems,Ms. Sana,TLFL5
+TUESDAY,15:50,17:30,Database Management Systems,Ms. Sana,TLGL3
+WEDNESDAY,13:50,15:30,Database Management Systems,Ms. Sana,TLSL1
+THURSDAY,11:50,13:30,Database Management Systems,Ms. Sana,JL1
+THURSDAY,09:00,09:50,Object Oriented Programming Using JAVA,Mrs. Deepa B,B419
+TUESDAY,09:00,09:50,Object Oriented Programming Using JAVA,Mrs. Deepa B,B408
+MONDAY,10:00,10:50,Object Oriented Programming Using JAVA,Mrs. Deepa B,B210
+WEDNESDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mrs. Deepa B,KFL01
+TUESDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mrs. Deepa B,JR2
+MONDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mrs. Deepa B,TLFL4
+WEDNESDAY,11:50,13:30,Object Oriented Programming Using JAVA,Mrs. Deepa B,JL1
+MONDAY,16:00,16:50,Fundamentals of Data Science,Ms. Dharshini B S,B213
+TUESDAY,12:00,12:50,Fundamentals of Data Science,Ms. Dharshini B S,A304
+WEDNESDAY,09:00,09:50,Fundamentals of Data Science,Ms. Dharshini B S,B412
+THURSDAY,09:50,11:30,Fundamentals of Data Science,Ms. Dharshini B S,JL1
+MONDAY,11:50,13:30,Fundamentals of Data Science,Ms. Dharshini B S,TLGL1

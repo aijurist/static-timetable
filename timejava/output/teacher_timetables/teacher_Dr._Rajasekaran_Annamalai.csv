@@ -1,9 +1,9 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,14:00,14:50,Framework for data and visual Analytics,AIML-3C,B210
-MONDAY,11:00,11:50,Framework for data and visual Analytics,AIML-3C,A205
-TUESDAY,09:00,09:50,Framework for data and visual Analytics,AIML-3C,B320
-TUESDAY,15:50,17:30,Framework for data and visual Analytics,AIML-3C,TLSL2
-THURSDAY,15:50,17:30,Framework for data and visual Analytics,AIML-3C,KFL01
-THURSDAY,11:00,11:50,DataEngineering,AIML-3C,A310
-WEDNESDAY,16:00,16:50,DataEngineering,AIML-3C,B213
-TUESDAY,11:00,11:50,DataEngineering,AIML-3C,B404
+THURSDAY,09:00,09:50,Framework for data and visual Analytics,AIML 3.2,B412
+WEDNESDAY,10:00,10:50,Framework for data and visual Analytics,AIML 3.2,B412
+TUESDAY,12:00,12:50,Framework for data and visual Analytics,AIML 3.2,A202
+FRIDAY,11:50,13:30,Framework for data and visual Analytics,AIML 3.2,Vehicle Maintenance Lab
+TUESDAY,08:00,09:40,Framework for data and visual Analytics,AIML 3.2,Manufacturing Technology II
+FRIDAY,10:00,10:50,DataEngineering,AIML 3.2,C301
+FRIDAY,08:00,08:50,DataEngineering,AIML 3.2,A202
+MONDAY,14:00,14:50,DataEngineering,AIML 3.2,B320

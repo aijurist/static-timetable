@@ -1,31 +1,26 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,11:00,11:50,Computer Vision and Applications,Mr. Srinivasan T,A102
-THURSDAY,11:00,11:50,Computer Vision and Applications,Mr. Srinivasan T,A210
-THURSDAY,08:00,09:40,Computer Vision and Applications,Mr. Srinivasan T,JR2
-WEDNESDAY,17:30,19:10,Computer Vision and Applications,Mr. Srinivasan T,TLFL4
-FRIDAY,10:00,10:50,Recommendation Systems (Professional Elective I),New Staff - 05,B221
-MONDAY,18:00,18:50,Recommendation Systems (Professional Elective I),New Staff - 05,B325
-MONDAY,11:50,13:30,Recommendation Systems (Professional Elective I),New Staff - 05,TLFL2
-MONDAY,13:50,15:30,Recommendation Systems (Professional Elective I),New Staff - 05,TLFL2
-MONDAY,09:50,11:30,Build and Deploy Machine Learning Applications,Ms. Saranya S,TLSL2
-FRIDAY,08:00,09:40,Build and Deploy Machine Learning Applications,Ms. Saranya S,TLFL3
-MONDAY,16:00,16:50,Deep Learning,Dr. Raju K,B417
-WEDNESDAY,08:00,08:50,Deep Learning,Dr. Raju K,B222
-FRIDAY,13:00,13:50,Deep Learning,Dr. Raju K,B411
-FRIDAY,15:50,17:30,Deep Learning,Dr. Raju K,TLGL3
-MONDAY,09:50,11:30,Deep Learning,Dr. Raju K,JL2
-TUESDAY,15:00,15:50,Framework for data and visual Analytics,Mrs. J Jasmine Gabriel,A203
-MONDAY,09:00,09:50,Framework for data and visual Analytics,Mrs. J Jasmine Gabriel,B302
-WEDNESDAY,10:00,10:50,Framework for data and visual Analytics,Mrs. J Jasmine Gabriel,B424
-TUESDAY,11:50,13:30,Framework for data and visual Analytics,Mrs. J Jasmine Gabriel,KSL03
-WEDNESDAY,11:50,13:30,Framework for data and visual Analytics,Mrs. J Jasmine Gabriel,KFR03
-MONDAY,17:00,17:50,Computer Networks,Dr. N M Balamurugan,B222
-THURSDAY,18:00,18:50,Computer Networks,Dr. N M Balamurugan,A102
-WEDNESDAY,11:00,11:50,Computer Networks,Dr. N M Balamurugan,B322
-THURSDAY,15:50,17:30,Computer Networks,Dr. N M Balamurugan,TLFR1
-TUESDAY,08:00,09:40,Computer Networks,Dr. N M Balamurugan,TLFL5
-FRIDAY,17:30,19:10,Computer Networks,Dr. N M Balamurugan,KFL02
-THURSDAY,13:50,15:30,Computer Networks,Dr. N M Balamurugan,TLFR4
-TUESDAY,11:00,11:50,DataEngineering,Mrs. Sowmia K R,B220
-THURSDAY,10:00,10:50,DataEngineering,Mrs. Sowmia K R,A108
-FRIDAY,12:00,12:50,DataEngineering,Mrs. Sowmia K R,B211
+FRIDAY,10:00,10:50,Introduction to 3D Animation,Mr. S Umamaheswararao,C103
+FRIDAY,14:00,14:50,3D Printing and Design,Dr. K.Vigneshwaran,A305
+WEDNESDAY,10:00,10:50,3D Printing and Design,Dr. K.Vigneshwaran,B210
+MONDAY,16:00,16:50,3D Printing and Design,Dr. K.Vigneshwaran,A210
+TUESDAY,09:50,11:30,3D Printing and Design,Dr. K.Vigneshwaran,Engineering Practices Lab (Electrical)
+WEDNESDAY,11:50,13:30,3D Printing and Design,Dr. K.Vigneshwaran,Thermal Lab 1
+WEDNESDAY,15:50,17:30,3D Printing and Design,Dr. K.Vigneshwaran,Chemical Reaction Engineering Lab
+FRIDAY,15:50,17:30,3D Printing and Design,Dr. K.Vigneshwaran,Metrology & Measurement Lab
+FRIDAY,15:50,17:30,Project-I,Mr. S Pradeep Kumar,Thermal Lab 1
+THURSDAY,11:50,13:30,Project-I,Mr. S Pradeep Kumar,Microprocessor and Microcontrollers Lab
+THURSDAY,15:50,17:30,Project-I,Mr. S Pradeep Kumar,Metrology & Measurement Lab
+TUESDAY,15:50,17:30,Project-I,Mr. S Pradeep Kumar,Microbiology Lab
+MONDAY,13:50,15:30,Project-I,Mr. S Pradeep Kumar,Computer Application in Chemical Engg Lab
+WEDNESDAY,08:00,09:40,Project-I,Mr. S Pradeep Kumar,Communication Systems Lab
+THURSDAY,11:00,11:50,Foundations of Machine Learning Concepts,Dr. Gunasekar S,A303
+MONDAY,11:00,11:50,Foundations of Machine Learning Concepts,Dr. Gunasekar S,C101
+WEDNESDAY,08:00,09:40,Foundations of Machine Learning Concepts,Dr. Gunasekar S,Dynamics Lab
+THURSDAY,13:50,15:30,Foundations of Machine Learning Concepts,Dr. Gunasekar S,Concrete & Survey Lab
+MONDAY,17:00,17:50,Fundamentals of Video for Engineers,New Staff - 01,C308
+TUESDAY,13:00,13:50,Fundamentals of Video for Engineers,New Staff - 01,C302
+THURSDAY,10:00,10:50,Fundamentals of Video for Engineers,New Staff - 01,B106
+FRIDAY,11:00,11:50,Digital Media Entrepreneurship,Mr. Thirumalairajan G,C103
+TUESDAY,12:00,12:50,Digital Media Entrepreneurship,Mr. Thirumalairajan G,A311
+FRIDAY,17:30,19:10,Digital Media Entrepreneurship,Mr. Thirumalairajan G,Food Microbiology Lab
+TUESDAY,09:50,11:30,Digital Media Entrepreneurship,Mr. Thirumalairajan G,Bioprocess Lab

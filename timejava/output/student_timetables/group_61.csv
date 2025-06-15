@@ -1,0 +1,27 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+THURSDAY,09:00,09:50,Theory of Computation,Mr. Dr.K.Ananthajothi,B409
+FRIDAY,11:00,11:50,Theory of Computation,Mr. Dr.K.Ananthajothi,A310
+WEDNESDAY,14:00,14:50,Theory of Computation,Mr. Dr.K.Ananthajothi,B416
+WEDNESDAY,12:00,12:50,Theory of Computation,Mr. Dr.K.Ananthajothi,B425
+TUESDAY,15:00,15:50,Fundamentals of Mobile Computing,Dr. Chettiyar Vani Vivekanand,C307
+FRIDAY,14:00,14:50,Fundamentals of Mobile Computing,Dr. Chettiyar Vani Vivekanand,B408
+THURSDAY,18:00,18:50,Fundamentals of Mobile Computing,Dr. Chettiyar Vani Vivekanand,A202
+MONDAY,11:00,11:50,Web Programming,Dr. Madhusudhanan S,A208
+MONDAY,16:00,16:50,Web Programming,Dr. Madhusudhanan S,A304
+WEDNESDAY,15:00,15:50,Web Programming,Dr. Madhusudhanan S,B403
+THURSDAY,15:50,17:30,Web Programming,Dr. Madhusudhanan S,KSL03
+TUESDAY,08:00,09:40,Web Programming,Dr. Madhusudhanan S,TLFL4
+WEDNESDAY,09:50,11:30,Web Programming,Dr. Madhusudhanan S,TLFL2
+MONDAY,08:00,09:40,Web Programming,Dr. Madhusudhanan S,TLSR1
+FRIDAY,18:00,18:50,Computer Networks,Mrs. Dr.R.Sabitha,B416
+THURSDAY,08:00,08:50,Computer Networks,Mrs. Dr.R.Sabitha,C307
+TUESDAY,14:00,14:50,Computer Networks,Mrs. Dr.R.Sabitha,B222
+TUESDAY,09:50,11:30,Computer Networks,Mrs. Dr.R.Sabitha,TLFL5
+THURSDAY,11:50,13:30,Computer Networks,Mrs. Dr.R.Sabitha,JR1
+THURSDAY,09:50,11:30,Computer Networks,Mrs. Dr.R.Sabitha,TLFR4
+FRIDAY,15:50,17:30,Computer Networks,Mrs. Dr.R.Sabitha,KFR02
+MONDAY,10:00,10:50,Foundations of Artificial Intelligence,Mr. Dr. Kumar P,B422
+FRIDAY,15:00,15:50,Foundations of Artificial Intelligence,Mr. Dr. Kumar P,A308
+WEDNESDAY,09:00,09:50,Foundations of Artificial Intelligence,Mr. Dr. Kumar P,B107
+THURSDAY,09:50,11:30,Foundations of Artificial Intelligence,Mr. Dr. Kumar P,JR1
+TUESDAY,11:50,13:30,Foundations of Artificial Intelligence,Mr. Dr. Kumar P,TLGL1

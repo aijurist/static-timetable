@@ -1,0 +1,589 @@
+Teacher,Course,Group,Type,Day,StartTime,EndTime,Room
+Mr. Ammaiappan.M,Construction Techniques, Equipment and Practice,CIVIL 2.1,lecture,MONDAY,08:00,08:50,A102
+Mr. Ammaiappan.M,Construction Techniques, Equipment and Practice,CIVIL 2.1,lecture,TUESDAY,10:00,10:50,A102
+Mr. Ammaiappan.M,Construction Techniques, Equipment and Practice,CIVIL 2.1,lecture,WEDNESDAY,12:00,12:50,A102
+Mrs. A.J.Jeya Arthi,Construction Materials Laboratory,CIVIL 2.1,lab,MONDAY,09:50,11:30,202
+Mrs. A.J.Jeya Arthi,Construction Materials Laboratory,CIVIL 2.1,lab,TUESDAY,11:50,13:30,202
+Mrs. A.J.Jeya Arthi,Construction Materials Laboratory,CIVIL 2.1,lab,WEDNESDAY,13:50,15:30,202
+Mrs. A.J.Jeya Arthi,Construction Materials Laboratory,CIVIL 2.1,lab,MONDAY,11:50,13:30,202
+Mrs. Yugasini S,Surveying,CIVIL 2.1,lecture,MONDAY,09:00,09:50,A102
+Mrs. Yugasini S,Surveying,CIVIL 2.1,lecture,TUESDAY,11:00,11:50,A102
+Mrs. Yugasini S,Surveying,CIVIL 2.1,lecture,WEDNESDAY,13:00,13:50,A102
+Mrs. Yugasini S,Surveying,CIVIL 2.1,lab,THURSDAY,08:00,09:40,202
+Mrs. Yugasini S,Surveying,CIVIL 2.1,lab,THURSDAY,11:50,13:30,202
+Mrs. S. Muthu Lakshmi,Strength of Materials I,CIVIL 2.1,lecture,TUESDAY,08:00,08:50,A102
+Mrs. S. Muthu Lakshmi,Strength of Materials I,CIVIL 2.1,lecture,WEDNESDAY,10:00,10:50,A102
+Mrs. S. Muthu Lakshmi,Strength of Materials I,CIVIL 2.1,lecture,MONDAY,14:00,14:50,A102
+Mr. Mahamood Ul Hasan N,Fundamentals of Management for Engineers,CIVIL 2.1,lecture,TUESDAY,09:00,09:50,A102
+Mr. Mahamood Ul Hasan N,Fundamentals of Management for Engineers,CIVIL 2.1,lecture,WEDNESDAY,11:00,11:50,A102
+Mr. Mahamood Ul Hasan N,Fundamentals of Management for Engineers,CIVIL 2.1,lecture,MONDAY,15:00,15:50,A102
+Dr. M.Manoharan,Python Programming for Machine Learning,CIVIL 2.1,lab,MONDAY,11:50,13:30,127
+Dr. M.Manoharan,Python Programming for Machine Learning,CIVIL 2.1,lab,WEDNESDAY,08:00,09:40,127
+Dr. M.Manoharan,Python Programming for Machine Learning,CIVIL 2.1,lab,TUESDAY,13:50,15:30,127
+Dr. M.Manoharan,Python Programming for Machine Learning,CIVIL 2.1,lab,THURSDAY,08:00,09:40,127
+Mrs. A.J.Jeya Arthi,Fluid Mechanics,CIVIL 2.1,lecture,THURSDAY,10:00,10:50,A102
+Mrs. A.J.Jeya Arthi,Fluid Mechanics,CIVIL 2.1,lecture,FRIDAY,08:00,08:50,A102
+Mrs. A.J.Jeya Arthi,Fluid Mechanics,CIVIL 2.1,lecture,FRIDAY,10:00,10:50,A102
+Mr. Dr. M. Selvakumar,Waste Water Engineering,CIVIL 3.1,lecture,MONDAY,10:00,10:50,A102
+Mr. Dr. M. Selvakumar,Waste Water Engineering,CIVIL 3.1,lecture,WEDNESDAY,08:00,08:50,A102
+Mr. Dr. M. Selvakumar,Waste Water Engineering,CIVIL 3.1,lecture,TUESDAY,12:00,12:50,A102
+Mr. Ammaiappan.M,Water and Waste Water Analysis Laboratory,CIVIL 3.1,lab,MONDAY,11:50,13:30,CH01
+Mr. Ammaiappan.M,Water and Waste Water Analysis Laboratory,CIVIL 3.1,lab,THURSDAY,08:00,09:40,CH01
+Mr. Ammaiappan.M,Water and Waste Water Analysis Laboratory,CIVIL 3.1,lab,THURSDAY,11:50,13:30,CH01
+Mr. Ammaiappan.M,Water and Waste Water Analysis Laboratory,CIVIL 3.1,lab,FRIDAY,11:50,13:30,CH01
+Dr. S Premkumar,URBAN PLANNING AND DEVELOPMENT,CIVIL 3.1,lecture,MONDAY,11:00,11:50,A102
+Dr. S Premkumar,URBAN PLANNING AND DEVELOPMENT,CIVIL 3.1,lecture,WEDNESDAY,09:00,09:50,A102
+Dr. S Premkumar,URBAN PLANNING AND DEVELOPMENT,CIVIL 3.1,lecture,TUESDAY,13:00,13:50,A102
+Mr. Mahamood Ul Hasan N,Structural Analysis,CIVIL 3.1,lecture,THURSDAY,11:00,11:50,A102
+Mr. Mahamood Ul Hasan N,Structural Analysis,CIVIL 3.1,lecture,FRIDAY,09:00,09:50,A102
+Mr. Mahamood Ul Hasan N,Structural Analysis,CIVIL 3.1,lecture,FRIDAY,11:00,11:50,A102
+Mr. Mahamood Ul Hasan N,Structural Analysis,CIVIL 3.1,lab,TUESDAY,13:50,15:30,A102
+Mr. Mahamood Ul Hasan N,Structural Analysis,CIVIL 3.1,lab,THURSDAY,08:00,09:40,A102
+Mrs. S. Muthu Lakshmi,CREATIVE AND INNOVATIVE PROJECT,CIVIL 3.1,lab,TUESDAY,09:50,11:30,A102
+Mrs. S. Muthu Lakshmi,CREATIVE AND INNOVATIVE PROJECT,CIVIL 3.1,lab,WEDNESDAY,11:50,13:30,A102
+Mrs. S. Muthu Lakshmi,CREATIVE AND INNOVATIVE PROJECT,CIVIL 3.1,lab,THURSDAY,11:50,13:30,A102
+Mrs. S. Muthu Lakshmi,CREATIVE AND INNOVATIVE PROJECT,CIVIL 3.1,lab,MONDAY,15:50,17:30,A102
+Mrs. S. Muthu Lakshmi,CREATIVE AND INNOVATIVE PROJECT,CIVIL 3.1,lab,WEDNESDAY,13:50,15:30,A102
+Mrs. S. Muthu Lakshmi,CREATIVE AND INNOVATIVE PROJECT,CIVIL 3.1,lab,THURSDAY,13:50,15:30,A102
+Mrs. Dr. S. Geetha,Design of Reinforced Concrete Elements,CIVIL 3.1,lecture,MONDAY,08:00,08:50,A103
+Mrs. Dr. S. Geetha,Design of Reinforced Concrete Elements,CIVIL 3.1,lecture,WEDNESDAY,10:00,10:50,A103
+Mrs. Dr. S. Geetha,Design of Reinforced Concrete Elements,CIVIL 3.1,lecture,TUESDAY,16:00,16:50,A102
+Mrs. Dr. S. Geetha,Design of Reinforced Concrete Elements,CIVIL 3.1,tutorial,THURSDAY,10:00,10:50,A103
+Dr. T Eswary Devi,ADVANCED CONSTRUCTION TECHNIQUES,CIVIL 3.1,lecture,MONDAY,09:00,09:50,A103
+Dr. T Eswary Devi,ADVANCED CONSTRUCTION TECHNIQUES,CIVIL 3.1,lecture,WEDNESDAY,11:00,11:50,A103
+Dr. T Eswary Devi,ADVANCED CONSTRUCTION TECHNIQUES,CIVIL 3.1,lecture,THURSDAY,16:00,16:50,A102
+Mrs. S. Muthu Lakshmi,Foundation Engineering,CIVIL 3.1,lecture,FRIDAY,08:00,08:50,A103
+Mrs. S. Muthu Lakshmi,Foundation Engineering,CIVIL 3.1,lecture,FRIDAY,10:00,10:50,A103
+Mrs. S. Muthu Lakshmi,Foundation Engineering,CIVIL 3.1,lecture,WEDNESDAY,16:00,16:50,A102
+Dr. T Eswary Devi,COMPUTER AIDED DESIGN AND DRAFTING LABORATORY,CIVIL 4.1,lab,MONDAY,11:50,13:30,A102
+Dr. T Eswary Devi,COMPUTER AIDED DESIGN AND DRAFTING LABORATORY,CIVIL 4.1,lab,TUESDAY,08:00,09:40,A102
+Dr. T Eswary Devi,COMPUTER AIDED DESIGN AND DRAFTING LABORATORY,CIVIL 4.1,lab,TUESDAY,11:50,13:30,A102
+Dr. T Eswary Devi,COMPUTER AIDED DESIGN AND DRAFTING LABORATORY,CIVIL 4.1,lab,FRIDAY,11:50,13:30,A102
+Dr. S Premkumar,PROBLEM SOLVING USING MACHINE LEARNING IN CIVIL ENGINEERING,CIVIL 4.1,lab,THURSDAY,09:50,11:30,A102
+Dr. S Premkumar,PROBLEM SOLVING USING MACHINE LEARNING IN CIVIL ENGINEERING,CIVIL 4.1,lab,WEDNESDAY,11:50,13:30,A103
+Dr. S Premkumar,PROBLEM SOLVING USING MACHINE LEARNING IN CIVIL ENGINEERING,CIVIL 4.1,lab,THURSDAY,11:50,13:30,A103
+Dr. S Premkumar,PROBLEM SOLVING USING MACHINE LEARNING IN CIVIL ENGINEERING,CIVIL 4.1,lab,FRIDAY,08:00,09:40,A102
+Dr. S Premkumar,WATER RESOURCES AND IRRIGATION ENGINEERING,CIVIL 4.1,lecture,THURSDAY,08:00,08:50,A102
+Dr. S Premkumar,WATER RESOURCES AND IRRIGATION ENGINEERING,CIVIL 4.1,lecture,FRIDAY,11:00,11:50,A103
+Dr. S Premkumar,WATER RESOURCES AND IRRIGATION ENGINEERING,CIVIL 4.1,lecture,MONDAY,16:00,16:50,A102
+Mrs. Dr.M.Uma Maguesvari,PRESTRESSED CONCRETE STRUCTURES,CIVIL 4.1,lecture,THURSDAY,09:00,09:50,A102
+Mrs. Dr.M.Uma Maguesvari,PRESTRESSED CONCRETE STRUCTURES,CIVIL 4.1,lecture,MONDAY,10:00,10:50,A103
+Mrs. Dr.M.Uma Maguesvari,PRESTRESSED CONCRETE STRUCTURES,CIVIL 4.1,lecture,TUESDAY,14:00,14:50,A102
+Mr. R Madhava Perumal,GLOBAL CLIMATIC CHANGE,CIVIL 4.1,lecture,MONDAY,11:00,11:50,A103
+Mr. R Madhava Perumal,GLOBAL CLIMATIC CHANGE,CIVIL 4.1,lecture,WEDNESDAY,08:00,08:50,A103
+Mr. R Madhava Perumal,GLOBAL CLIMATIC CHANGE,CIVIL 4.1,lecture,TUESDAY,15:00,15:50,A102
+Mr. Zahir Hussain M,Computer Aided Machine Drawing Laboratory,AUTO 2.1,lab,MONDAY,08:00,09:40,152
+Mr. Zahir Hussain M,Computer Aided Machine Drawing Laboratory,AUTO 2.1,lab,TUESDAY,11:50,13:30,152
+Mr. Rajkumar V,Transforms and Statistics,AUTO 2.1,lecture,TUESDAY,08:00,08:50,A103
+Mr. Rajkumar V,Transforms and Statistics,AUTO 2.1,lecture,THURSDAY,11:00,11:50,A103
+Mr. Rajkumar V,Transforms and Statistics,AUTO 2.1,lecture,MONDAY,12:00,12:50,A102
+Mr. Rajkumar V,Transforms and Statistics,AUTO 2.1,lab,TUESDAY,09:50,11:30,113
+HOD AUTO,Automotive Engines,AUTO 2.1,lecture,TUESDAY,09:00,09:50,A103
+HOD AUTO,Automotive Engines,AUTO 2.1,lecture,MONDAY,10:00,10:50,A104/105
+HOD AUTO,Automotive Engines,AUTO 2.1,lecture,WEDNESDAY,14:00,14:50,A102
+HOD AUTO,Automotive Engines,AUTO 2.1,lab,THURSDAY,08:00,09:40,207
+Mrs. B.Mullai Sudaroli,Applied Thermodynamics,AUTO 2.1,lecture,WEDNESDAY,09:00,09:50,A103
+Mrs. B.Mullai Sudaroli,Applied Thermodynamics,AUTO 2.1,lecture,MONDAY,11:00,11:50,A104/105
+Mrs. B.Mullai Sudaroli,Applied Thermodynamics,AUTO 2.1,tutorial,THURSDAY,12:00,12:50,A102
+Mrs. B.Mullai Sudaroli,Applied Thermodynamics,AUTO 2.1,lab,WEDNESDAY,11:50,13:30,207
+Dr. Selvaraju P N,Strength of Materials for Automobile Engineers,AUTO 2.1,lecture,FRIDAY,09:00,09:50,A103
+Dr. Selvaraju P N,Strength of Materials for Automobile Engineers,AUTO 2.1,lecture,WEDNESDAY,10:00,10:50,A104/105
+Dr. Selvaraju P N,Strength of Materials for Automobile Engineers,AUTO 2.1,tutorial,MONDAY,13:00,13:50,A102
+Dr. Selvaraju P N,Strength of Materials for Automobile Engineers,AUTO 2.1,lab,FRIDAY,11:50,13:30,213
+Mr. R.Karthikeyan,Production Technology - II,AUTO 2.1,lecture,WEDNESDAY,08:00,08:50,A104/105
+Mr. R.Karthikeyan,Production Technology - II,AUTO 2.1,lecture,THURSDAY,10:00,10:50,A104/105
+Mr. R.Karthikeyan,Production Technology - II,AUTO 2.1,lecture,FRIDAY,14:00,14:50,A102
+Mr. R.Karthikeyan,Production Technology - II,AUTO 2.1,lab,MONDAY,13:50,15:30,212
+Mr. Mohanraj K,Two and Three Wheelers,AUTO 3.1,lecture,TUESDAY,10:00,10:50,A103
+Mr. Mohanraj K,Two and Three Wheelers,AUTO 3.1,lecture,THURSDAY,08:00,08:50,A103
+Mr. Mohanraj K,Two and Three Wheelers,AUTO 3.1,lecture,WEDNESDAY,15:00,15:50,A102
+Mr. R. Edwin Joseph,Design of Machine Elements,AUTO 3.1,lecture,TUESDAY,11:00,11:50,A103
+Mr. R. Edwin Joseph,Design of Machine Elements,AUTO 3.1,lecture,THURSDAY,09:00,09:50,A103
+Mr. R. Edwin Joseph,Design of Machine Elements,AUTO 3.1,tutorial,FRIDAY,12:00,12:50,A102
+Mr. Mohanraj K,Two and Three wheelers Laboratory,AUTO 3.1,lab,MONDAY,08:00,09:40,AC01
+Mr. Zahir Hussain M,Computer Aided Vehicle Design Data Characteristics Laboratory,AUTO 3.1,lab,WEDNESDAY,15:50,17:30,152
+Mr. Zahir Hussain M,Automotive Electrical and Electronics,AUTO 3.1,lecture,THURSDAY,11:00,11:50,A104/105
+Mr. Zahir Hussain M,Automotive Electrical and Electronics,AUTO 3.1,lecture,TUESDAY,08:00,08:50,A104/105
+Mr. Zahir Hussain M,Automotive Electrical and Electronics,AUTO 3.1,lecture,FRIDAY,10:00,10:50,A104/105
+Mr. Zahir Hussain M,Automotive Electrical and Electronics,AUTO 3.1,lab,MONDAY,11:50,13:30,118
+Mr. Pavan.P,Electric and Hybrid Vehicles - II,AUTO 3.1,lecture,TUESDAY,09:00,09:50,A104/105
+Mr. Pavan.P,Electric and Hybrid Vehicles - II,AUTO 3.1,lecture,WEDNESDAY,11:00,11:50,A104/105
+Mr. Pavan.P,Electric and Hybrid Vehicles - II,AUTO 3.1,lecture,THURSDAY,13:00,13:50,A102
+Mr. Pavan.P,Electric and Hybrid Vehicles - II,AUTO 3.1,lab,MONDAY,09:50,11:30,152
+Mr. R.Karthikeyan,Fundamentals of Management for Engineers,AUTO 3.1,lecture,FRIDAY,08:00,08:50,A104/105
+Mr. R.Karthikeyan,Fundamentals of Management for Engineers,AUTO 3.1,lecture,FRIDAY,11:00,11:50,A104/105
+Mr. R.Karthikeyan,Fundamentals of Management for Engineers,AUTO 3.1,lecture,WEDNESDAY,10:00,10:50,A108
+Mr. R.Anbalagan,Automotive Safety,AUTO 4.1,lecture,MONDAY,08:00,08:50,A104/105
+Mr. R.Anbalagan,Automotive Safety,AUTO 4.1,lecture,TUESDAY,10:00,10:50,A104/105
+Mr. R.Anbalagan,Automotive Safety,AUTO 4.1,lecture,THURSDAY,14:00,14:50,A102
+Mr. R.Anbalagan,Vehicle Maintenance Laboratory,AUTO 4.1,lab,MONDAY,09:50,11:30,VM01
+Mr. R. Edwin Joseph,Computer Aided Analysis Laboratory,AUTO 4.1,lab,MONDAY,11:50,13:30,113
+Mr. R.Anbalagan,Comprehension,AUTO 4.1,lab,TUESDAY,11:50,13:30,VM01
+Mr. Pavan.P,AI and ML for Automobile  Engineers,AUTO 4.1,lab,FRIDAY,11:50,13:30,113
+Mr. Pavan.P,AI and ML for Automobile  Engineers,AUTO 4.1,lab,WEDNESDAY,08:00,09:40,113
+Mr. Pavan.P,AI and ML for Automobile  Engineers,AUTO 4.1,lab,MONDAY,13:50,15:30,113
+Mr. Mohanraj K,Project Phase I,AUTO 4.1,lab,THURSDAY,09:50,11:30,VM01
+Mr. Mohanraj K,Project Phase I,AUTO 4.1,lab,THURSDAY,11:50,13:30,VM01
+Mr. Mohanraj K,Vehicle Mangement System,AUTO 4.1,lecture,FRIDAY,10:00,10:50,A108
+Mr. Mohanraj K,Vehicle Mangement System,AUTO 4.1,lecture,TUESDAY,08:00,08:50,A108
+Mr. Mohanraj K,Vehicle Mangement System,AUTO 4.1,lecture,THURSDAY,15:00,15:50,A102
+Mr. Zahir Hussain M,Intelligent Vehicle System,AUTO 4.1,lecture,THURSDAY,08:00,08:50,A104/105
+Mr. Zahir Hussain M,Intelligent Vehicle System,AUTO 4.1,lecture,FRIDAY,15:00,15:50,A102
+Mr. Zahir Hussain M,Intelligent Vehicle System,AUTO 4.1,lecture,MONDAY,16:00,16:50,A103
+New Staff - 02,Enzyme Technology and Biotransformations,BT 2.1,lecture,MONDAY,09:00,09:50,A104/105
+New Staff - 02,Enzyme Technology and Biotransformations,BT 2.1,lecture,TUESDAY,11:00,11:50,A104/105
+New Staff - 02,Enzyme Technology and Biotransformations,BT 2.1,lecture,FRIDAY,13:00,13:50,A102
+Mr. Arun Kumar S,Enzyme Technology and Biotransformations,BT 2.2,lecture,WEDNESDAY,09:00,09:50,A104/105
+Mr. Arun Kumar S,Enzyme Technology and Biotransformations,BT 2.2,lecture,MONDAY,10:00,10:50,A108
+Mr. Arun Kumar S,Enzyme Technology and Biotransformations,BT 2.2,lecture,FRIDAY,16:00,16:50,A102
+New Staff - 02,Enzyme Technology and Biotransformations,BT 2.3,lecture,THURSDAY,09:00,09:50,A104/105
+New Staff - 02,Enzyme Technology and Biotransformations,BT 2.3,lecture,MONDAY,11:00,11:50,A108
+New Staff - 02,Enzyme Technology and Biotransformations,BT 2.3,lecture,WEDNESDAY,11:00,11:50,A108
+Mrs. Bharathi D,Transforms and Applied Partial Differential Equations,BT 2.1,lecture,FRIDAY,09:00,09:50,A104/105
+Mrs. Bharathi D,Transforms and Applied Partial Differential Equations,BT 2.1,lecture,TUESDAY,10:00,10:50,A108
+Mrs. Bharathi D,Transforms and Applied Partial Differential Equations,BT 2.1,lecture,MONDAY,12:00,12:50,A103
+Mrs. Bharathi D,Transforms and Applied Partial Differential Equations,BT 2.1,tutorial,WEDNESDAY,08:00,08:50,A108
+Mrs. Yuvashri P,Transforms and Applied Partial Differential Equations,BT 2.2,lecture,MONDAY,08:00,08:50,A108
+Mrs. Yuvashri P,Transforms and Applied Partial Differential Equations,BT 2.2,lecture,TUESDAY,11:00,11:50,A108
+Mrs. Yuvashri P,Transforms and Applied Partial Differential Equations,BT 2.2,lecture,WEDNESDAY,12:00,12:50,A103
+Mrs. Yuvashri P,Transforms and Applied Partial Differential Equations,BT 2.2,tutorial,THURSDAY,08:00,08:50,A108
+Mrs. Ms. D. Rajalakshmy,Transforms and Applied Partial Differential Equations,BT 2.3,lecture,MONDAY,09:00,09:50,A108
+Mrs. Ms. D. Rajalakshmy,Transforms and Applied Partial Differential Equations,BT 2.3,lecture,THURSDAY,10:00,10:50,A108
+Mrs. Ms. D. Rajalakshmy,Transforms and Applied Partial Differential Equations,BT 2.3,lecture,TUESDAY,12:00,12:50,A103
+Mrs. Ms. D. Rajalakshmy,Transforms and Applied Partial Differential Equations,BT 2.3,tutorial,WEDNESDAY,09:00,09:50,A108
+Mrs. Divya Lakshmi. S,Stoichiometry and Fluid Mechanics,BT 2.1,lecture,TUESDAY,09:00,09:50,A108
+Mrs. Divya Lakshmi. S,Stoichiometry and Fluid Mechanics,BT 2.1,lecture,THURSDAY,11:00,11:50,A108
+Mrs. Divya Lakshmi. S,Stoichiometry and Fluid Mechanics,BT 2.1,lecture,MONDAY,13:00,13:50,A103
+Mrs. Divya Lakshmi. S,Stoichiometry and Fluid Mechanics,BT 2.1,tutorial,FRIDAY,08:00,08:50,A108
+Dr. Vimala Devi,Stoichiometry and Fluid Mechanics,BT 2.2,lecture,THURSDAY,09:00,09:50,A108
+Dr. Vimala Devi,Stoichiometry and Fluid Mechanics,BT 2.2,lecture,FRIDAY,11:00,11:50,A108
+Dr. Vimala Devi,Stoichiometry and Fluid Mechanics,BT 2.2,lecture,MONDAY,14:00,14:50,A103
+Dr. Vimala Devi,Stoichiometry and Fluid Mechanics,BT 2.2,tutorial,TUESDAY,08:00,08:50,A109
+Mrs. Divya Lakshmi. S,Stoichiometry and Fluid Mechanics,BT 2.3,lecture,TUESDAY,11:00,11:50,A109
+Mrs. Divya Lakshmi. S,Stoichiometry and Fluid Mechanics,BT 2.3,lecture,WEDNESDAY,10:00,10:50,A109
+Mrs. Divya Lakshmi. S,Stoichiometry and Fluid Mechanics,BT 2.3,lecture,FRIDAY,10:00,10:50,A109
+Mrs. Divya Lakshmi. S,Stoichiometry and Fluid Mechanics,BT 2.3,tutorial,WEDNESDAY,08:00,08:50,A109
+Mrs. Muneeswari Alias Surya S,Molecular Genetics,BT 2.1,lecture,MONDAY,08:00,08:50,A109
+Mrs. Muneeswari Alias Surya S,Molecular Genetics,BT 2.1,lecture,WEDNESDAY,11:00,11:50,A109
+Mrs. Muneeswari Alias Surya S,Molecular Genetics,BT 2.1,lecture,TUESDAY,13:00,13:50,A103
+Mrs. Sinduja M E,Molecular Genetics,BT 2.2,lecture,FRIDAY,09:00,09:50,A108
+Mrs. Sinduja M E,Molecular Genetics,BT 2.2,lecture,MONDAY,11:00,11:50,A109
+Mrs. Sinduja M E,Molecular Genetics,BT 2.2,lecture,TUESDAY,14:00,14:50,A103
+Mrs. Muneeswari Alias Surya S,Molecular Genetics,BT 2.3,lecture,MONDAY,10:00,10:50,A109
+Mrs. Muneeswari Alias Surya S,Molecular Genetics,BT 2.3,lecture,THURSDAY,08:00,08:50,A109
+Mrs. Muneeswari Alias Surya S,Molecular Genetics,BT 2.3,lecture,THURSDAY,11:00,11:50,A109
+New Staff - 08,Cell Biology,BT 2.1,lecture,WEDNESDAY,09:00,09:50,A109
+New Staff - 08,Cell Biology,BT 2.1,lecture,THURSDAY,10:00,10:50,A109
+New Staff - 08,Cell Biology,BT 2.1,lecture,MONDAY,15:00,15:50,A103
+Mrs. Preethi B,Cell Biology,BT 2.2,lecture,MONDAY,09:00,09:50,A109
+Mrs. Preethi B,Cell Biology,BT 2.2,lecture,TUESDAY,10:00,10:50,A109
+Mrs. Preethi B,Cell Biology,BT 2.2,lecture,WEDNESDAY,13:00,13:50,A103
+New Staff - 07,Cell Biology,BT 2.3,lecture,TUESDAY,09:00,09:50,A109
+New Staff - 07,Cell Biology,BT 2.3,lecture,FRIDAY,11:00,11:50,A109
+New Staff - 07,Cell Biology,BT 2.3,lecture,WEDNESDAY,14:00,14:50,A103
+Mrs. Divya Lakshmi. S,Basic Food and Enzyme Technology Laboratory,BT 2.1,lab,WEDNESDAY,11:50,13:30,115
+Mrs. Divya Lakshmi. S,Basic Food and Enzyme Technology Laboratory,BT 2.1,lab,MONDAY,15:50,17:30,115
+New Staff - 02,Basic Food and Enzyme Technology Laboratory,BT 2.2,lab,THURSDAY,11:50,13:30,115
+New Staff - 02,Basic Food and Enzyme Technology Laboratory,BT 2.2,lab,TUESDAY,15:50,17:30,115
+Mr. Dr. P. Rajasekar,Basic Food and Enzyme Technology Laboratory,BT 2.3,lab,MONDAY,11:50,13:30,115
+Mr. Dr. P. Rajasekar,Basic Food and Enzyme Technology Laboratory,BT 2.3,lab,FRIDAY,08:00,09:40,115
+Dr. Shanthi M,Analytical Techniques in Biotechnology,BT 2.1,lecture,THURSDAY,09:00,09:50,A109
+Dr. Shanthi M,Analytical Techniques in Biotechnology,BT 2.1,lecture,MONDAY,10:00,10:50,A110
+Dr. Shanthi M,Analytical Techniques in Biotechnology,BT 2.1,lab,TUESDAY,13:50,15:30,116
+Dr. Shanthi M,Analytical Techniques in Biotechnology,BT 2.1,lab,WEDNESDAY,11:50,13:30,116
+Mrs. Muneeswari Alias Surya S,Analytical Techniques in Biotechnology,BT 2.2,lecture,FRIDAY,10:00,10:50,A110
+Mrs. Muneeswari Alias Surya S,Analytical Techniques in Biotechnology,BT 2.2,lecture,FRIDAY,08:00,08:50,A109
+Mrs. Muneeswari Alias Surya S,Analytical Techniques in Biotechnology,BT 2.2,lab,MONDAY,11:50,13:30,116
+Mrs. Muneeswari Alias Surya S,Analytical Techniques in Biotechnology,BT 2.2,lab,FRIDAY,11:50,13:30,116
+Dr. Vimala Devi,Analytical Techniques in Biotechnology,BT 2.3,lecture,TUESDAY,10:00,10:50,A110
+Dr. Vimala Devi,Analytical Techniques in Biotechnology,BT 2.3,lecture,TUESDAY,15:00,15:50,A103
+Dr. Vimala Devi,Analytical Techniques in Biotechnology,BT 2.3,lab,THURSDAY,11:50,13:30,116
+Dr. Vimala Devi,Analytical Techniques in Biotechnology,BT 2.3,lab,WEDNESDAY,11:50,13:30,117
+Mrs. Dr.T.Anitha,Bioprocess Principles,BT 3.1,lecture,FRIDAY,09:00,09:50,A109
+Mrs. Dr.T.Anitha,Bioprocess Principles,BT 3.1,lecture,MONDAY,11:00,11:50,A110
+Mrs. Dr.T.Anitha,Bioprocess Principles,BT 3.1,lecture,TUESDAY,16:00,16:50,A103
+New Staff - 02,Bioprocess Principles,BT 3.2,lecture,TUESDAY,09:00,09:50,A110
+New Staff - 02,Bioprocess Principles,BT 3.2,lecture,WEDNESDAY,15:00,15:50,A103
+New Staff - 02,Bioprocess Principles,BT 3.2,lecture,THURSDAY,14:00,14:50,A103
+Mrs. Dr.R.Anila,Bioprocess Principles,BT 3.3,lecture,MONDAY,08:00,08:50,A110
+Mrs. Dr.R.Anila,Bioprocess Principles,BT 3.3,lecture,TUESDAY,11:00,11:50,A110
+Mrs. Dr.R.Anila,Bioprocess Principles,BT 3.3,lecture,WEDNESDAY,16:00,16:50,A103
+Dr. S.Thiruvengadam,Immunology,BT 3.1,lecture,MONDAY,09:00,09:50,A110
+Dr. S.Thiruvengadam,Immunology,BT 3.1,lecture,WEDNESDAY,10:00,10:50,A110
+Dr. S.Thiruvengadam,Immunology,BT 3.1,lecture,THURSDAY,12:00,12:50,A103
+Mr. Dr. Saravanan Periasamy,Immunology,BT 3.2,lecture,TUESDAY,08:00,08:50,A110
+Mr. Dr. Saravanan Periasamy,Immunology,BT 3.2,lecture,WEDNESDAY,11:00,11:50,A110
+Mr. Dr. Saravanan Periasamy,Immunology,BT 3.2,lecture,THURSDAY,13:00,13:50,A103
+Mr. M Sankar,Immunology,BT 3.3,lecture,WEDNESDAY,08:00,08:50,A110
+Mr. M Sankar,Immunology,BT 3.3,lecture,THURSDAY,10:00,10:50,A110
+Mr. M Sankar,Immunology,BT 3.3,lecture,FRIDAY,12:00,12:50,A103
+Mrs. Dr. G. Carlin Geor Malar,Bioinformatics,BT 3.1,lecture,WEDNESDAY,09:00,09:50,A110
+Mrs. Dr. G. Carlin Geor Malar,Bioinformatics,BT 3.1,lecture,THURSDAY,11:00,11:50,A110
+Mrs. Dr. G. Carlin Geor Malar,Bioinformatics,BT 3.1,lecture,FRIDAY,13:00,13:50,A103
+Mrs. Dr. Sujata Roy,Bioinformatics,BT 3.2,lecture,THURSDAY,08:00,08:50,A110
+Mrs. Dr. Sujata Roy,Bioinformatics,BT 3.2,lecture,FRIDAY,11:00,11:50,A110
+Mrs. Dr. Sujata Roy,Bioinformatics,BT 3.2,lecture,MONDAY,12:00,12:50,A104/105
+Mrs. Dr. G. Carlin Geor Malar,Bioinformatics,BT 3.3,lecture,MONDAY,09:00,09:50,A202
+Mrs. Dr. G. Carlin Geor Malar,Bioinformatics,BT 3.3,lecture,MONDAY,11:00,11:50,A202
+Mrs. Dr. G. Carlin Geor Malar,Bioinformatics,BT 3.3,lecture,TUESDAY,10:00,10:50,A202
+Mrs. N.Premalatha,Separation Process Principles,BT 3.1,lecture,THURSDAY,09:00,09:50,A110
+Mrs. N.Premalatha,Separation Process Principles,BT 3.1,lecture,MONDAY,10:00,10:50,A202
+Mrs. N.Premalatha,Separation Process Principles,BT 3.1,lecture,FRIDAY,14:00,14:50,A103
+Mrs. N.Premalatha,Separation Process Principles,BT 3.1,tutorial,TUESDAY,08:00,08:50,A202
+Mrs. Sangeetha Gandhi S,Separation Process Principles,BT 3.2,lecture,FRIDAY,08:00,08:50,A110
+Mrs. Sangeetha Gandhi S,Separation Process Principles,BT 3.2,lecture,TUESDAY,11:00,11:50,A202
+Mrs. Sangeetha Gandhi S,Separation Process Principles,BT 3.2,lecture,THURSDAY,15:00,15:50,A103
+Mrs. Sangeetha Gandhi S,Separation Process Principles,BT 3.2,tutorial,MONDAY,08:00,08:50,A202
+Mrs. N.Premalatha,Separation Process Principles,BT 3.3,lecture,WEDNESDAY,10:00,10:50,A202
+Mrs. N.Premalatha,Separation Process Principles,BT 3.3,lecture,THURSDAY,11:00,11:50,A202
+Mrs. N.Premalatha,Separation Process Principles,BT 3.3,lecture,THURSDAY,16:00,16:50,A103
+Mrs. N.Premalatha,Separation Process Principles,BT 3.3,tutorial,FRIDAY,16:00,16:50,A103
+Mrs. Dr.M.Millicent Mabel,Bioprocess Laboratory- I,BT 3.1,lab,MONDAY,11:50,13:30,119
+Mrs. Dr.M.Millicent Mabel,Bioprocess Laboratory- I,BT 3.1,lab,TUESDAY,09:50,11:30,119
+Mrs. Dr.M.Millicent Mabel,Bioprocess Laboratory- I,BT 3.1,lab,WEDNESDAY,13:50,15:30,119
+Mrs. Dr.M.Millicent Mabel,Bioprocess Laboratory- I,BT 3.1,lab,TUESDAY,11:50,13:30,119
+Mrs. Dr.T.Anitha,Bioprocess Laboratory- I,BT 3.2,lab,WEDNESDAY,08:00,09:40,119
+Mrs. Dr.T.Anitha,Bioprocess Laboratory- I,BT 3.2,lab,WEDNESDAY,11:50,13:30,119
+Mrs. Dr.T.Anitha,Bioprocess Laboratory- I,BT 3.2,lab,FRIDAY,11:50,13:30,119
+Mrs. Dr.T.Anitha,Bioprocess Laboratory- I,BT 3.2,lab,THURSDAY,09:50,11:30,119
+Mrs. Dr.R.Anila,Bioprocess Laboratory- I,BT 3.3,lab,THURSDAY,08:00,09:40,119
+Mrs. Dr.R.Anila,Bioprocess Laboratory- I,BT 3.3,lab,THURSDAY,11:50,13:30,119
+Mrs. Dr.R.Anila,Bioprocess Laboratory- I,BT 3.3,lab,MONDAY,11:50,13:30,120
+Mrs. Dr.R.Anila,Bioprocess Laboratory- I,BT 3.3,lab,FRIDAY,08:00,09:40,119
+Mr. Arun Kumar S,Bioinformatics Laboratory,BT 3.1,lab,TUESDAY,11:50,13:30,113
+Mr. Arun Kumar S,Bioinformatics Laboratory,BT 3.1,lab,WEDNESDAY,11:50,13:30,113
+Mr. Arun Kumar S,Bioinformatics Laboratory,BT 3.1,lab,MONDAY,11:50,13:30,114
+Mr. Arun Kumar S,Bioinformatics Laboratory,BT 3.1,lab,TUESDAY,09:50,11:30,114
+Mrs. Muneeswari Alias Surya S,Bioinformatics Laboratory,BT 3.2,lab,TUESDAY,15:50,17:30,113
+Mrs. Muneeswari Alias Surya S,Bioinformatics Laboratory,BT 3.2,lab,WEDNESDAY,15:50,17:30,113
+Mrs. Muneeswari Alias Surya S,Bioinformatics Laboratory,BT 3.2,lab,FRIDAY,13:50,15:30,113
+Mrs. Muneeswari Alias Surya S,Bioinformatics Laboratory,BT 3.2,lab,MONDAY,13:50,15:30,114
+Mrs. Dr. G. Carlin Geor Malar,Bioinformatics Laboratory,BT 3.3,lab,TUESDAY,11:50,13:30,114
+Mrs. Dr. G. Carlin Geor Malar,Bioinformatics Laboratory,BT 3.3,lab,WEDNESDAY,11:50,13:30,114
+Mrs. Dr. G. Carlin Geor Malar,Bioinformatics Laboratory,BT 3.3,lab,TUESDAY,08:00,09:40,113
+Mrs. Dr. G. Carlin Geor Malar,Bioinformatics Laboratory,BT 3.3,lab,MONDAY,15:50,17:30,113
+Mrs. Sinduja M E,Immunology lab,BT 3.1,lab,WEDNESDAY,13:50,15:30,113
+Mrs. Sinduja M E,Immunology lab,BT 3.1,lab,FRIDAY,15:50,17:30,113
+Mrs. Sinduja M E,Immunology lab,BT 3.1,lab,MONDAY,17:30,19:10,113
+Mrs. Sinduja M E,Immunology lab,BT 3.1,lab,TUESDAY,17:30,19:10,113
+Mr. Dr. Saravanan Periasamy,Immunology lab,BT 3.2,lab,MONDAY,09:50,11:30,113
+Mr. Dr. Saravanan Periasamy,Immunology lab,BT 3.2,lab,TUESDAY,13:50,15:30,113
+Mr. Dr. Saravanan Periasamy,Immunology lab,BT 3.2,lab,THURSDAY,15:50,17:30,113
+Mr. Dr. Saravanan Periasamy,Immunology lab,BT 3.2,lab,WEDNESDAY,17:30,19:10,113
+Mr. M Sankar,Immunology lab,BT 3.3,lab,THURSDAY,13:50,15:30,113
+Mr. M Sankar,Immunology lab,BT 3.3,lab,FRIDAY,17:30,19:10,113
+Mr. M Sankar,Immunology lab,BT 3.3,lab,THURSDAY,11:50,13:30,113
+Mr. M Sankar,Immunology lab,BT 3.3,lab,THURSDAY,08:00,09:40,113
+Dr. Preethy K R,Bioinformatics Laboratory,BT 4.1,lab,MONDAY,08:00,09:40,113
+Dr. Preethy K R,Bioinformatics Laboratory,BT 4.1,lab,THURSDAY,11:50,13:30,114
+Dr. Preethy K R,Bioinformatics Laboratory,BT 4.1,lab,TUESDAY,13:50,15:30,114
+Dr. Preethy K R,Bioinformatics Laboratory,BT 4.1,lab,WEDNESDAY,09:50,11:30,113
+Dr. Shanthi M,Bioinformatics Laboratory,BT 4.2,lab,FRIDAY,08:00,09:40,113
+Dr. Shanthi M,Bioinformatics Laboratory,BT 4.2,lab,FRIDAY,11:50,13:30,114
+Dr. Shanthi M,Bioinformatics Laboratory,BT 4.2,lab,MONDAY,11:50,13:30,117
+Dr. Shanthi M,Bioinformatics Laboratory,BT 4.2,lab,THURSDAY,11:50,13:30,117
+Mrs. S.R.Saranya Arunkumar,Bioinformatics Laboratory,BT 4.3,lab,THURSDAY,09:50,11:30,113
+Mrs. S.R.Saranya Arunkumar,Bioinformatics Laboratory,BT 4.3,lab,TUESDAY,11:50,13:30,115
+Mrs. S.R.Saranya Arunkumar,Bioinformatics Laboratory,BT 4.3,lab,MONDAY,15:50,17:30,114
+Mrs. S.R.Saranya Arunkumar,Bioinformatics Laboratory,BT 4.3,lab,FRIDAY,09:50,11:30,113
+New Staff - 03,DOWNSTREAM PROCESSING,BT 4.1,lecture,FRIDAY,09:00,09:50,A110
+New Staff - 03,DOWNSTREAM PROCESSING,BT 4.1,lecture,THURSDAY,10:00,10:50,A202
+New Staff - 03,DOWNSTREAM PROCESSING,BT 4.1,lecture,MONDAY,13:00,13:50,A104/105
+Mrs. Dr. K. Sathya,DOWNSTREAM PROCESSING,BT 4.2,lecture,TUESDAY,09:00,09:50,A202
+Mrs. Dr. K. Sathya,DOWNSTREAM PROCESSING,BT 4.2,lecture,WEDNESDAY,11:00,11:50,A202
+Mrs. Dr. K. Sathya,DOWNSTREAM PROCESSING,BT 4.2,lecture,FRIDAY,15:00,15:50,A103
+Mrs. Sangeetha Gandhi S,DOWNSTREAM PROCESSING,BT 4.3,lecture,MONDAY,10:00,10:50,A203
+Mrs. Sangeetha Gandhi S,DOWNSTREAM PROCESSING,BT 4.3,lecture,WEDNESDAY,10:00,10:50,A203
+Mrs. Sangeetha Gandhi S,DOWNSTREAM PROCESSING,BT 4.3,lecture,WEDNESDAY,08:00,08:50,A202
+New Staff - 05,Bioinformatics,BT 4.1,lecture,WEDNESDAY,09:00,09:50,A202
+New Staff - 05,Bioinformatics,BT 4.1,lecture,FRIDAY,10:00,10:50,A202
+New Staff - 05,Bioinformatics,BT 4.1,lecture,MONDAY,14:00,14:50,A104/105
+Mr. A. Arun,Bioinformatics,BT 4.2,lecture,THURSDAY,08:00,08:50,A202
+Mr. A. Arun,Bioinformatics,BT 4.2,lecture,FRIDAY,11:00,11:50,A202
+Mr. A. Arun,Bioinformatics,BT 4.2,lecture,MONDAY,15:00,15:50,A104/105
+Dr. Shanthi M,Bioinformatics,BT 4.3,lecture,MONDAY,08:00,08:50,A203
+Dr. Shanthi M,Bioinformatics,BT 4.3,lecture,TUESDAY,16:00,16:50,A104/105
+Dr. Shanthi M,Bioinformatics,BT 4.3,lecture,WEDNESDAY,14:00,14:50,A104/105
+Mr. Dr. P. Rajasekar,Animal Biotechnology,BT 4.1,lecture,TUESDAY,12:00,12:50,A104/105
+Mr. Dr. P. Rajasekar,Animal Biotechnology,BT 4.1,lecture,THURSDAY,09:00,09:50,A202
+Mr. Dr. P. Rajasekar,Animal Biotechnology,BT 4.1,lecture,THURSDAY,11:00,11:50,A203
+Mrs. Dr.M.Millicent Mabel,Animal Biotechnology,BT 4.2,lecture,TUESDAY,08:00,08:50,A203
+Mrs. Dr.M.Millicent Mabel,Animal Biotechnology,BT 4.2,lecture,THURSDAY,09:00,09:50,A203
+Mrs. Dr.M.Millicent Mabel,Animal Biotechnology,BT 4.2,lecture,FRIDAY,10:00,10:50,A203
+Mr. Dr. P. Rajasekar,Animal Biotechnology,BT 4.3,lecture,WEDNESDAY,11:00,11:50,A203
+Mr. Dr. P. Rajasekar,Animal Biotechnology,BT 4.3,lecture,MONDAY,09:00,09:50,A203
+Mr. Dr. P. Rajasekar,Animal Biotechnology,BT 4.3,lecture,TUESDAY,14:00,14:50,A104/105
+Mrs. Dr.D.Haripriya,PROTEIN ENGINEERING TECHNIQUES,BT 4.1,lecture,FRIDAY,08:00,08:50,A202
+Mrs. Dr.D.Haripriya,PROTEIN ENGINEERING TECHNIQUES,BT 4.1,lecture,MONDAY,11:00,11:50,A203
+Mrs. Dr.D.Haripriya,PROTEIN ENGINEERING TECHNIQUES,BT 4.1,lecture,TUESDAY,13:00,13:50,A104/105
+Mrs. Dr Rekha Ravindran,PROTEIN ENGINEERING TECHNIQUES,BT 4.2,lecture,TUESDAY,10:00,10:50,A203
+Mrs. Dr Rekha Ravindran,PROTEIN ENGINEERING TECHNIQUES,BT 4.2,lecture,WEDNESDAY,08:00,08:50,A203
+Mrs. Dr Rekha Ravindran,PROTEIN ENGINEERING TECHNIQUES,BT 4.2,lecture,MONDAY,16:00,16:50,A104/105
+Mrs. Dr.D.Haripriya,PROTEIN ENGINEERING TECHNIQUES,BT 4.3,lecture,WEDNESDAY,09:00,09:50,A203
+Mrs. Dr.D.Haripriya,PROTEIN ENGINEERING TECHNIQUES,BT 4.3,lecture,THURSDAY,08:00,08:50,A203
+Mrs. Dr.D.Haripriya,PROTEIN ENGINEERING TECHNIQUES,BT 4.3,lecture,TUESDAY,15:00,15:50,A104/105
+Dr. Preethy K R,Comprehensive Course for Biotechnologists,BT 4.1,lecture,FRIDAY,11:00,11:50,A203
+Dr. Preethy K R,Comprehensive Course for Biotechnologists,BT 4.1,lecture,MONDAY,10:00,10:50,A204
+Dr. Preethy K R,Comprehensive Course for Biotechnologists,BT 4.1,lecture,WEDNESDAY,08:00,08:50,A204
+Mrs. Dr. G. Carlin Geor Malar,Comprehensive Course for Biotechnologists,BT 4.2,lecture,WEDNESDAY,15:00,15:50,A104/105
+Mrs. Dr. G. Carlin Geor Malar,Comprehensive Course for Biotechnologists,BT 4.2,lecture,THURSDAY,14:00,14:50,A104/105
+Mrs. Dr. G. Carlin Geor Malar,Comprehensive Course for Biotechnologists,BT 4.2,lecture,THURSDAY,16:00,16:50,A104/105
+Dr. Preethy K R,Comprehensive Course for Biotechnologists,BT 4.3,lecture,FRIDAY,09:00,09:50,A202
+Dr. Preethy K R,Comprehensive Course for Biotechnologists,BT 4.3,lecture,WEDNESDAY,12:00,12:50,A104/105
+Dr. Preethy K R,Comprehensive Course for Biotechnologists,BT 4.3,lecture,WEDNESDAY,16:00,16:50,A104/105
+New Staff - 03,Downstream processing lab,BT 4.1,lab,TUESDAY,08:00,09:40,119
+New Staff - 03,Downstream processing lab,BT 4.1,lab,WEDNESDAY,09:50,11:30,119
+New Staff - 03,Downstream processing lab,BT 4.1,lab,MONDAY,15:50,17:30,119
+New Staff - 03,Downstream processing lab,BT 4.1,lab,WEDNESDAY,15:50,17:30,119
+Mrs. N.Premalatha,Downstream processing lab,BT 4.2,lab,MONDAY,08:00,09:40,119
+Mrs. N.Premalatha,Downstream processing lab,BT 4.2,lab,TUESDAY,13:50,15:30,119
+Mrs. N.Premalatha,Downstream processing lab,BT 4.2,lab,FRIDAY,17:30,19:10,119
+Mrs. N.Premalatha,Downstream processing lab,BT 4.2,lab,WEDNESDAY,17:30,19:10,119
+Mrs. Sangeetha Gandhi S,Downstream processing lab,BT 4.3,lab,FRIDAY,09:50,11:30,119
+Mrs. Sangeetha Gandhi S,Downstream processing lab,BT 4.3,lab,MONDAY,13:50,15:30,119
+Mrs. Sangeetha Gandhi S,Downstream processing lab,BT 4.3,lab,FRIDAY,13:50,15:30,119
+Mrs. Sangeetha Gandhi S,Downstream processing lab,BT 4.3,lab,TUESDAY,17:30,19:10,119
+Mrs. Dr.Johanna Rajkumar,Cancer Biology,BT 4.1,lecture,TUESDAY,11:00,11:50,A203
+Mrs. Dr.Johanna Rajkumar,Cancer Biology,BT 4.1,lecture,THURSDAY,08:00,08:50,A204
+Mrs. Dr.Johanna Rajkumar,Cancer Biology,BT 4.1,lecture,WEDNESDAY,13:00,13:50,A104/105
+Mrs. Dr.B.Vijaya Geetha,Cancer Biology,BT 4.2,lecture,THURSDAY,10:00,10:50,A203
+Mrs. Dr.B.Vijaya Geetha,Cancer Biology,BT 4.2,lecture,WEDNESDAY,09:00,09:50,A204
+Mrs. Dr.B.Vijaya Geetha,Cancer Biology,BT 4.2,lecture,FRIDAY,14:00,14:50,A104/105
+Mrs. Dr.Johanna Rajkumar,Cancer Biology,BT 4.3,lecture,FRIDAY,08:00,08:50,A203
+Mrs. Dr.Johanna Rajkumar,Cancer Biology,BT 4.3,lecture,MONDAY,11:00,11:50,A204
+Mrs. Dr.Johanna Rajkumar,Cancer Biology,BT 4.3,lecture,TUESDAY,09:00,09:50,A203
+Mrs. Dr Rekha Ravindran,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.1,lab,FRIDAY,11:50,13:30,115
+Mrs. Dr Rekha Ravindran,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.1,lab,TUESDAY,15:50,17:30,114
+Mrs. Dr Rekha Ravindran,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.1,lab,THURSDAY,11:50,13:30,118
+Mrs. Dr Rekha Ravindran,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.1,lab,WEDNESDAY,13:50,15:30,114
+Mrs. Dr. Sujata Roy,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.2,lab,TUESDAY,11:50,13:30,116
+Mrs. Dr. Sujata Roy,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.2,lab,THURSDAY,11:50,13:30,120
+Mrs. Dr. Sujata Roy,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.2,lab,FRIDAY,08:00,09:40,114
+Mrs. Dr. Sujata Roy,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.2,lab,WEDNESDAY,11:50,13:30,118
+Mr. A. Arun,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.3,lab,TUESDAY,09:50,11:30,115
+Mr. A. Arun,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.3,lab,THURSDAY,11:50,13:30,121
+Mr. A. Arun,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.3,lab,THURSDAY,09:50,11:30,114
+Mr. A. Arun,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.3,lab,TUESDAY,11:50,13:30,117
+Mr. G Vijayaraghavan,Solid Mechanics,CHEM 2.1,lecture,FRIDAY,09:00,09:50,A203
+Mr. G Vijayaraghavan,Solid Mechanics,CHEM 2.1,lecture,TUESDAY,10:00,10:50,A204
+Mr. G Vijayaraghavan,Solid Mechanics,CHEM 2.1,tutorial,THURSDAY,12:00,12:50,A104/105
+Mr. Gurunathan S,Transforms and Applied Partial Differential Equations,CHEM 2.1,lecture,MONDAY,08:00,08:50,A204
+Mr. Gurunathan S,Transforms and Applied Partial Differential Equations,CHEM 2.1,lecture,TUESDAY,11:00,11:50,A204
+Mr. Gurunathan S,Transforms and Applied Partial Differential Equations,CHEM 2.1,lecture,THURSDAY,13:00,13:50,A104/105
+Mr. Gurunathan S,Transforms and Applied Partial Differential Equations,CHEM 2.1,tutorial,WEDNESDAY,10:00,10:50,A204
+Mr. Dr.T.R.Sundararaman,Chemical Process Calculations,CHEM 2.1,lecture,MONDAY,09:00,09:50,A204
+Mr. Dr.T.R.Sundararaman,Chemical Process Calculations,CHEM 2.1,lecture,WEDNESDAY,11:00,11:50,A204
+Mr. Dr.T.R.Sundararaman,Chemical Process Calculations,CHEM 2.1,tutorial,THURSDAY,15:00,15:50,A104/105
+Mrs. Ambigadevi J,Chemical Process Industries,CHEM 2.1,lecture,TUESDAY,08:00,08:50,A204
+Mrs. Ambigadevi J,Chemical Process Industries,CHEM 2.1,lecture,THURSDAY,10:00,10:50,A204
+Mrs. Ambigadevi J,Chemical Process Industries,CHEM 2.1,lecture,FRIDAY,12:00,12:50,A104/105
+Ms. Mangaleswari S,Fluid Mechanics for Chemical Engineers,CHEM 2.1,lecture,TUESDAY,09:00,09:50,A204
+Ms. Mangaleswari S,Fluid Mechanics for Chemical Engineers,CHEM 2.1,lecture,THURSDAY,11:00,11:50,A204
+Ms. Mangaleswari S,Fluid Mechanics for Chemical Engineers,CHEM 2.1,lecture,FRIDAY,13:00,13:50,A104/105
+Ms. Mangaleswari S,Fluid Mechanics for Chemical Engineers,CHEM 2.1,tutorial,MONDAY,10:00,10:50,A205
+Ms. Mangaleswari S,Fluid Mechanics for Chemical Engineers,CHEM 2.1,lab,MONDAY,11:50,13:30,210
+Ms. Mangaleswari S,Fluid Mechanics for Chemical Engineers,CHEM 2.1,lab,TUESDAY,11:50,13:30,210
+Mrs. Geetha Chandrasekran,Physical and Organic Chemistry,CHEM 2.1,lecture,THURSDAY,09:00,09:50,A204
+Mrs. Geetha Chandrasekran,Physical and Organic Chemistry,CHEM 2.1,lecture,FRIDAY,10:00,10:50,A204
+Mrs. Geetha Chandrasekran,Physical and Organic Chemistry,CHEM 2.1,lecture,MONDAY,14:00,14:50,A108
+Mrs. Geetha Chandrasekran,Physical and Organic Chemistry,CHEM 2.1,lab,TUESDAY,11:50,13:30,CH01
+Mrs. Geetha Chandrasekran,Physical and Organic Chemistry,CHEM 2.1,lab,WEDNESDAY,08:00,09:40,CH01
+Ms. Abhilasha Krishnamurthy,Microfluidics Laboratory,CHEM 3.1,lab,MONDAY,08:00,09:40,114
+Ms. Abhilasha Krishnamurthy,Microfluidics Laboratory,CHEM 3.1,lab,FRIDAY,11:50,13:30,117
+Mr. Dr. S. Sivamani,Petroleum chemistry and Refining Fundamemtals,CHEM 3.1,lecture,FRIDAY,08:00,08:50,A204
+Mr. Dr. S. Sivamani,Petroleum chemistry and Refining Fundamemtals,CHEM 3.1,lecture,MONDAY,11:00,11:50,A205
+Mr. Dr. S. Sivamani,Petroleum chemistry and Refining Fundamemtals,CHEM 3.1,lecture,TUESDAY,12:00,12:50,A108
+Mr. G Vijayaraghavan,Process Plant Utilities,CHEM 3.1,lecture,FRIDAY,11:00,11:50,A204
+Mr. G Vijayaraghavan,Process Plant Utilities,CHEM 3.1,lecture,WEDNESDAY,08:00,08:50,A205
+Mr. G Vijayaraghavan,Process Plant Utilities,CHEM 3.1,lecture,WEDNESDAY,10:00,10:50,A205
+Mr. Dr. Seelam Narasimha Reddy,Chemical Engineering Thermodynamics,CHEM 3.1,lecture,FRIDAY,09:00,09:50,A204
+Mr. Dr. Seelam Narasimha Reddy,Chemical Engineering Thermodynamics,CHEM 3.1,lecture,TUESDAY,10:00,10:50,A205
+Mr. Dr. Seelam Narasimha Reddy,Chemical Engineering Thermodynamics,CHEM 3.1,lecture,MONDAY,12:00,12:50,A108
+Mrs. N Kalaiarasi,Mass Transfer I,CHEM 3.1,lecture,TUESDAY,08:00,08:50,A205
+Mrs. N Kalaiarasi,Mass Transfer I,CHEM 3.1,lecture,WEDNESDAY,11:00,11:50,A205
+Mrs. N Kalaiarasi,Mass Transfer I,CHEM 3.1,lecture,FRIDAY,15:00,15:50,A104/105
+Mrs. Dr. Mary Rosana Nt,Chemical Reaction Engineering I,CHEM 3.1,lecture,TUESDAY,09:00,09:50,A205
+Mrs. Dr. Mary Rosana Nt,Chemical Reaction Engineering I,CHEM 3.1,lecture,THURSDAY,10:00,10:50,A205
+Mrs. Dr. Mary Rosana Nt,Chemical Reaction Engineering I,CHEM 3.1,lecture,FRIDAY,16:00,16:50,A104/105
+Mrs. N Kalaiarasi,Heat Transfer Lab,CHEM 3.1,lab,THURSDAY,11:50,13:30,207
+Mrs. N Kalaiarasi,Heat Transfer Lab,CHEM 3.1,lab,MONDAY,13:50,15:30,207
+Mrs. N Kalaiarasi,Heat Transfer Lab,CHEM 3.1,lab,MONDAY,08:00,09:40,207
+Mrs. N Kalaiarasi,Heat Transfer Lab,CHEM 3.1,lab,TUESDAY,13:50,15:30,207
+Mr. Dr. Vincent Joseph Kl,Environmental Technology,CHEM 4.1,lecture,MONDAY,08:00,08:50,A205
+Mr. Dr. Vincent Joseph Kl,Environmental Technology,CHEM 4.1,lecture,TUESDAY,11:00,11:50,A205
+Mr. Dr. Vincent Joseph Kl,Environmental Technology,CHEM 4.1,lecture,WEDNESDAY,12:00,12:50,A108
+Mr. Dr. S. Sivamani,Process Control Lab,CHEM 4.1,lab,WEDNESDAY,08:00,09:40,114
+Mr. Dr. S. Sivamani,Process Control Lab,CHEM 4.1,lab,FRIDAY,09:50,11:30,114
+Mr. Dr. S. Sivamani,Process Control Lab,CHEM 4.1,lab,FRIDAY,11:50,13:30,118
+Mr. Dr. S. Sivamani,Process Control Lab,CHEM 4.1,lab,THURSDAY,11:50,13:30,122
+Mr. Dr. Seelam Narasimha Reddy,Comprehensive Chemical  Engineering,CHEM 4.1,lecture,THURSDAY,08:00,08:50,A205
+Mr. Dr. Seelam Narasimha Reddy,Comprehensive Chemical  Engineering,CHEM 4.1,lecture,THURSDAY,11:00,11:50,A205
+Mr. Dr. Seelam Narasimha Reddy,Comprehensive Chemical  Engineering,CHEM 4.1,lecture,WEDNESDAY,10:00,10:50,A208
+Ms. Abhilasha Krishnamurthy,Computer Applications in Chemical Engineering,CHEM 4.1,lecture,TUESDAY,13:00,13:50,A108
+Ms. Abhilasha Krishnamurthy,Computer Applications in Chemical Engineering,CHEM 4.1,lecture,THURSDAY,09:00,09:50,A205
+Ms. Abhilasha Krishnamurthy,Computer Applications in Chemical Engineering,CHEM 4.1,lecture,MONDAY,10:00,10:50,A208
+Mrs. Dr. Mary Rosana Nt,Chemical Reaction Engineering  lab,CHEM 4.1,lab,MONDAY,13:50,15:30,118
+Mrs. Dr. Mary Rosana Nt,Chemical Reaction Engineering  lab,CHEM 4.1,lab,WEDNESDAY,08:00,09:40,118
+Mr. Dr. S. Sivamani,Transport Phenomena,CHEM 4.1,lecture,WEDNESDAY,11:00,11:50,A208
+Mr. Dr. S. Sivamani,Transport Phenomena,CHEM 4.1,lecture,THURSDAY,10:00,10:50,A208
+Mr. Dr. S. Sivamani,Transport Phenomena,CHEM 4.1,lecture,MONDAY,09:00,09:50,A205
+Mr. Dr. S. Sivamani,Transport Phenomena,CHEM 4.1,tutorial,MONDAY,13:00,13:50,A108
+Ms. Abhilasha Krishnamurthy,Computer Applications In  Chemical Engineering Lab,CHEM 4.1,lab,THURSDAY,11:50,13:30,123
+Ms. Abhilasha Krishnamurthy,Computer Applications In  Chemical Engineering Lab,CHEM 4.1,lab,WEDNESDAY,15:50,17:30,114
+Mrs. Padmavathi R,Power Plant Engineering,EEE 2.1,lecture,WEDNESDAY,09:00,09:50,A205
+Mrs. Padmavathi R,Power Plant Engineering,EEE 2.1,lecture,FRIDAY,10:00,10:50,A205
+Mrs. Padmavathi R,Power Plant Engineering,EEE 2.1,lecture,MONDAY,15:00,15:50,A108
+Mr. Dr. A. Selvaraj,Power Plant Engineering,EEE 2.2,lecture,FRIDAY,08:00,08:50,A205
+Mr. Dr. A. Selvaraj,Power Plant Engineering,EEE 2.2,lecture,MONDAY,11:00,11:50,A208
+Mr. Dr. A. Selvaraj,Power Plant Engineering,EEE 2.2,lecture,TUESDAY,14:00,14:50,A108
+Mrs. Dr Sridevi M,Electronic Devices and Circuits Laboratory,EEE 2.1,lab,MONDAY,08:00,09:40,134
+Mrs. Dr Sridevi M,Electronic Devices and Circuits Laboratory,EEE 2.1,lab,TUESDAY,11:50,13:30,134
+Mrs. Anto Sheeba J,Electronic Devices and Circuits Laboratory,EEE 2.2,lab,MONDAY,11:50,13:30,134
+Mrs. Anto Sheeba J,Electronic Devices and Circuits Laboratory,EEE 2.2,lab,TUESDAY,08:00,09:40,134
+Mrs. Dr. V. Geetha Priya,Introduction to Machine Learning,EEE 2.1,lecture,FRIDAY,09:00,09:50,A205
+Mrs. Dr. V. Geetha Priya,Introduction to Machine Learning,EEE 2.1,lecture,TUESDAY,10:00,10:50,A208
+Mrs. Dr. V. Geetha Priya,Introduction to Machine Learning,EEE 2.1,lecture,MONDAY,16:00,16:50,A108
+Mrs. Dr. V. Geetha Priya,Introduction to Machine Learning,EEE 2.2,lecture,FRIDAY,11:00,11:50,A205
+Mrs. Dr. V. Geetha Priya,Introduction to Machine Learning,EEE 2.2,lecture,WEDNESDAY,08:00,08:50,A208
+Mrs. Dr. V. Geetha Priya,Introduction to Machine Learning,EEE 2.2,lecture,THURSDAY,11:00,11:50,A208
+Mrs. Dr. J. Kavitha,Embedded System Development,EEE 2.1,lecture,TUESDAY,08:00,08:50,A208
+Mrs. Dr. J. Kavitha,Embedded System Development,EEE 2.1,lecture,FRIDAY,11:00,11:50,A208
+Mrs. Dr. J. Kavitha,Embedded System Development,EEE 2.1,lecture,WEDNESDAY,13:00,13:50,A108
+Mrs. Dr. J. Kavitha,Embedded System Development,EEE 2.2,lecture,MONDAY,08:00,08:50,A208
+Mrs. Dr. J. Kavitha,Embedded System Development,EEE 2.2,lecture,TUESDAY,11:00,11:50,A208
+Mrs. Dr. J. Kavitha,Embedded System Development,EEE 2.2,lecture,MONDAY,10:00,10:50,A209
+Mrs. Dr. Priya Nair,Fourier series and Number theory,EEE 2.1,lecture,TUESDAY,09:00,09:50,A208
+Mrs. Dr. Priya Nair,Fourier series and Number theory,EEE 2.1,lecture,MONDAY,11:00,11:50,A209
+Mrs. Dr. Priya Nair,Fourier series and Number theory,EEE 2.1,lecture,WEDNESDAY,14:00,14:50,A108
+Mrs. Dr. Priya Nair,Fourier series and Number theory,EEE 2.1,tutorial,THURSDAY,08:00,08:50,A208
+Mr. V James,Fourier series and Number theory,EEE 2.2,lecture,MONDAY,09:00,09:50,A208
+Mr. V James,Fourier series and Number theory,EEE 2.2,lecture,FRIDAY,10:00,10:50,A208
+Mr. V James,Fourier series and Number theory,EEE 2.2,lecture,TUESDAY,15:00,15:50,A108
+Mr. V James,Fourier series and Number theory,EEE 2.2,tutorial,WEDNESDAY,09:00,09:50,A208
+Mrs. Amutha C,IOT for Embedded Applications Laboratory,EEE 2.1,lab,WEDNESDAY,09:50,11:30,114
+Mrs. Amutha C,IOT for Embedded Applications Laboratory,EEE 2.1,lab,TUESDAY,11:50,13:30,118
+Mrs. Amutha C,IOT for Embedded Applications Laboratory,EEE 2.1,lab,THURSDAY,13:50,15:30,114
+Mrs. Amutha C,IOT for Embedded Applications Laboratory,EEE 2.1,lab,MONDAY,08:00,09:40,115
+Mrs. Amutha C,IOT for Embedded Applications Laboratory,EEE 2.2,lab,WEDNESDAY,11:50,13:30,120
+Mrs. Amutha C,IOT for Embedded Applications Laboratory,EEE 2.2,lab,FRIDAY,11:50,13:30,120
+Mrs. Amutha C,IOT for Embedded Applications Laboratory,EEE 2.2,lab,MONDAY,11:50,13:30,121
+Mrs. Amutha C,IOT for Embedded Applications Laboratory,EEE 2.2,lab,THURSDAY,15:50,17:30,114
+Mrs. Dr. V. Geetha Priya,Electromagnetic Theory,EEE 2.1,lecture,THURSDAY,09:00,09:50,A208
+Mrs. Dr. V. Geetha Priya,Electromagnetic Theory,EEE 2.1,lecture,TUESDAY,16:00,16:50,A108
+Mrs. Dr. V. Geetha Priya,Electromagnetic Theory,EEE 2.1,lecture,WEDNESDAY,15:00,15:50,A108
+Mrs. Anto Sheeba J,Electromagnetic Theory,EEE 2.2,lecture,WEDNESDAY,16:00,16:50,A108
+Mrs. Anto Sheeba J,Electromagnetic Theory,EEE 2.2,lecture,FRIDAY,09:00,09:50,A208
+Mrs. Anto Sheeba J,Electromagnetic Theory,EEE 2.2,lecture,TUESDAY,10:00,10:50,A209
+Mrs. Dr A Rajalakshmi,Electrical Machines – I,EEE 2.1,lecture,FRIDAY,08:00,08:50,A208
+Mrs. Dr A Rajalakshmi,Electrical Machines – I,EEE 2.1,lecture,TUESDAY,11:00,11:50,A209
+Mrs. Dr A Rajalakshmi,Electrical Machines – I,EEE 2.1,lecture,THURSDAY,12:00,12:50,A108
+Dr. A.Sangari,Electrical Machines – I,EEE 2.2,lecture,WEDNESDAY,10:00,10:50,A209
+Dr. A.Sangari,Electrical Machines – I,EEE 2.2,lecture,THURSDAY,08:00,08:50,A209
+Dr. A.Sangari,Electrical Machines – I,EEE 2.2,lecture,FRIDAY,14:00,14:50,A108
+Mr. Ron Carter Sb,Measurements and Instrumentation,EEE 2.1,lecture,WEDNESDAY,08:00,08:50,A209
+Mr. Ron Carter Sb,Measurements and Instrumentation,EEE 2.1,lecture,THURSDAY,10:00,10:50,A209
+Mr. Ron Carter Sb,Measurements and Instrumentation,EEE 2.1,lecture,FRIDAY,12:00,12:50,A108
+Dr. Dhandayuthapani S,Measurements and Instrumentation,EEE 2.2,lecture,WEDNESDAY,11:00,11:50,A209
+Dr. Dhandayuthapani S,Measurements and Instrumentation,EEE 2.2,lecture,THURSDAY,09:00,09:50,A209
+Dr. Dhandayuthapani S,Measurements and Instrumentation,EEE 2.2,lecture,FRIDAY,15:00,15:50,A108
+Mrs. Dr.Alice Hepzibah.A,Electronic Devices and Circuits,EEE 2.1,lecture,THURSDAY,11:00,11:50,A209
+Mrs. Dr.Alice Hepzibah.A,Electronic Devices and Circuits,EEE 2.1,lecture,FRIDAY,13:00,13:50,A108
+Mrs. Dr.Alice Hepzibah.A,Electronic Devices and Circuits,EEE 2.1,lecture,MONDAY,10:00,10:50,A210
+Mrs. Dr Sridevi M,Electronic Devices and Circuits,EEE 2.2,lecture,THURSDAY,13:00,13:50,A108
+Mrs. Dr Sridevi M,Electronic Devices and Circuits,EEE 2.2,lecture,THURSDAY,15:00,15:50,A108
+Mrs. Dr Sridevi M,Electronic Devices and Circuits,EEE 2.2,lecture,FRIDAY,16:00,16:50,A108
+Mrs. Sivamani.D,Introduction to Python Programming,EEE 2.1,lecture,THURSDAY,16:00,16:50,A108
+Mrs. Sivamani.D,Introduction to Python Programming,EEE 2.1,lab,MONDAY,11:50,13:30,133
+Mrs. Sivamani.D,Introduction to Python Programming,EEE 2.1,lab,TUESDAY,13:50,15:30,133
+Mrs. Sivamani.D,Introduction to Python Programming,EEE 2.1,lab,WEDNESDAY,09:50,11:30,133
+Mrs. Sivamani.D,Introduction to Python Programming,EEE 2.1,lab,WEDNESDAY,15:50,17:30,133
+Mrs. Aswini A,Introduction to Python Programming,EEE 2.2,lecture,THURSDAY,10:00,10:50,A210
+Mrs. Aswini A,Introduction to Python Programming,EEE 2.2,lab,TUESDAY,08:00,09:40,133
+Mrs. Aswini A,Introduction to Python Programming,EEE 2.2,lab,MONDAY,13:50,15:30,133
+Mrs. Aswini A,Introduction to Python Programming,EEE 2.2,lab,TUESDAY,11:50,13:30,133
+Mrs. Aswini A,Introduction to Python Programming,EEE 2.2,lab,WEDNESDAY,11:50,13:30,133
+Mrs. V Devi Maheswaran,Control and Instrumentation Laboratory,EEE 3.1,lab,MONDAY,08:00,09:40,135
+Mrs. V Devi Maheswaran,Control and Instrumentation Laboratory,EEE 3.1,lab,TUESDAY,11:50,13:30,135
+Dr. Dhandayuthapani S,Control and Instrumentation Laboratory,EEE 3.2,lab,MONDAY,09:50,11:30,135
+Dr. Dhandayuthapani S,Control and Instrumentation Laboratory,EEE 3.2,lab,MONDAY,11:50,13:30,135
+Mrs. Padmavathi R,Design Thinking and Innovation,EEE 3.1,lab,TUESDAY,09:50,11:30,134
+Mrs. Padmavathi R,Design Thinking and Innovation,EEE 3.1,lab,WEDNESDAY,11:50,13:30,134
+Mrs. Padmavathi R,Design Thinking and Innovation,EEE 3.1,lab,THURSDAY,11:50,13:30,134
+Mrs. Padmavathi R,Design Thinking and Innovation,EEE 3.1,lab,FRIDAY,11:50,13:30,134
+Dr. Kandaswamy K V,Design Thinking and Innovation,EEE 3.2,lab,WEDNESDAY,08:00,09:40,134
+Dr. Kandaswamy K V,Design Thinking and Innovation,EEE 3.2,lab,MONDAY,13:50,15:30,134
+Dr. Kandaswamy K V,Design Thinking and Innovation,EEE 3.2,lab,THURSDAY,08:00,09:40,134
+Dr. Kandaswamy K V,Design Thinking and Innovation,EEE 3.2,lab,FRIDAY,08:00,09:40,134
+Mrs. Amutha C,Microprocessors, Microcontrollers and Applications,EEE 3.1,lecture,FRIDAY,10:00,10:50,A209
+Mrs. Amutha C,Microprocessors, Microcontrollers and Applications,EEE 3.1,lecture,WEDNESDAY,08:00,08:50,A210
+Mrs. Amutha C,Microprocessors, Microcontrollers and Applications,EEE 3.1,lecture,MONDAY,10:00,10:50,A211
+Mrs. Amutha C,Microprocessors, Microcontrollers and Applications,EEE 3.1,lab,TUESDAY,08:00,09:40,142
+Mrs. Amutha C,Microprocessors, Microcontrollers and Applications,EEE 3.1,lab,TUESDAY,13:50,15:30,134
+Mr. D Shyam,Microprocessors, Microcontrollers and Applications,EEE 3.2,lecture,MONDAY,08:00,08:50,A209
+Mr. D Shyam,Microprocessors, Microcontrollers and Applications,EEE 3.2,lecture,FRIDAY,11:00,11:50,A209
+Mr. D Shyam,Microprocessors, Microcontrollers and Applications,EEE 3.2,lecture,THURSDAY,14:00,14:50,A108
+Mr. D Shyam,Microprocessors, Microcontrollers and Applications,EEE 3.2,lab,WEDNESDAY,09:50,11:30,134
+Mr. D Shyam,Microprocessors, Microcontrollers and Applications,EEE 3.2,lab,MONDAY,09:50,11:30,134
+Mrs. Brindhu Kumari,Soft Skills – II,EEE 3.1,lab,THURSDAY,08:00,09:40,114
+Mrs. Brindhu Kumari,Soft Skills – II,EEE 3.1,lab,WEDNESDAY,11:50,13:30,121
+Ms. A Sowmiya,Soft Skills – II,EEE 3.2,lab,TUESDAY,08:00,09:40,114
+Ms. A Sowmiya,Soft Skills – II,EEE 3.2,lab,FRIDAY,11:50,13:30,121
+Mrs. Jayashree K,Power System Analysis,EEE 3.1,lecture,WEDNESDAY,09:00,09:50,A209
+Mrs. Jayashree K,Power System Analysis,EEE 3.1,lecture,MONDAY,11:00,11:50,A210
+Mrs. Jayashree K,Power System Analysis,EEE 3.1,lecture,TUESDAY,16:00,16:50,A109
+Mrs. Brindhu Kumari,Power System Analysis,EEE 3.2,lecture,MONDAY,16:00,16:50,A109
+Mrs. Brindhu Kumari,Power System Analysis,EEE 3.2,lecture,TUESDAY,10:00,10:50,A210
+Mrs. Brindhu Kumari,Power System Analysis,EEE 3.2,lecture,THURSDAY,11:00,11:50,A210
+Mr. Dr. S.Rama Reddy,Power Electronics,EEE 3.1,lecture,FRIDAY,08:00,08:50,A209
+Mr. Dr. S.Rama Reddy,Power Electronics,EEE 3.1,lecture,WEDNESDAY,10:00,10:50,A210
+Mr. Dr. S.Rama Reddy,Power Electronics,EEE 3.1,lecture,MONDAY,12:00,12:50,A109
+Mr. A.Nazar Ali,Power Electronics,EEE 3.2,lecture,MONDAY,09:00,09:50,A209
+Mr. A.Nazar Ali,Power Electronics,EEE 3.2,lecture,TUESDAY,11:00,11:50,A210
+Mr. A.Nazar Ali,Power Electronics,EEE 3.2,lecture,WEDNESDAY,12:00,12:50,A109
+Mrs. Dr. J. Kavitha,Control Systems,EEE 3.1,lecture,THURSDAY,10:00,10:50,A211
+Mrs. Dr. J. Kavitha,Control Systems,EEE 3.1,lecture,FRIDAY,09:00,09:50,A209
+Mrs. Dr. J. Kavitha,Control Systems,EEE 3.1,lecture,MONDAY,13:00,13:50,A109
+Mr. Dr.R. Essaki Raj,Control Systems,EEE 3.2,lecture,FRIDAY,10:00,10:50,A210
+Mr. Dr.R. Essaki Raj,Control Systems,EEE 3.2,lecture,TUESDAY,12:00,12:50,A109
+Mr. Dr.R. Essaki Raj,Control Systems,EEE 3.2,lecture,THURSDAY,10:00,10:50,A302
+Mr. Dr. P. Thirusenthil Kumaran,Wiring Harness Design Engineering,EEE 3.1,lab,TUESDAY,11:50,13:30,120
+Mr. Dr. P. Thirusenthil Kumaran,Wiring Harness Design Engineering,EEE 3.1,lab,FRIDAY,13:50,15:30,114
+Mr. Dr. P. Thirusenthil Kumaran,Wiring Harness Design Engineering,EEE 3.1,lab,THURSDAY,11:50,13:30,124
+Mr. Dr. P. Thirusenthil Kumaran,Wiring Harness Design Engineering,EEE 3.1,lab,TUESDAY,08:00,09:40,115
+Mr. Dr. P. Thirusenthil Kumaran,Wiring Harness Design Engineering,EEE 3.1,lab,MONDAY,08:00,09:40,116
+Mr. Dr. P. Thirusenthil Kumaran,Wiring Harness Design Engineering,EEE 3.1,lab,FRIDAY,15:50,17:30,114
+Mr. Santhanakrishnan T,Wiring Harness Design Engineering,EEE 3.2,lab,THURSDAY,08:00,09:40,115
+Mr. Santhanakrishnan T,Wiring Harness Design Engineering,EEE 3.2,lab,MONDAY,11:50,13:30,122
+Mr. Santhanakrishnan T,Wiring Harness Design Engineering,EEE 3.2,lab,TUESDAY,13:50,15:30,115
+Mr. Santhanakrishnan T,Wiring Harness Design Engineering,EEE 3.2,lab,WEDNESDAY,08:00,09:40,115
+Mr. Santhanakrishnan T,Wiring Harness Design Engineering,EEE 3.2,lab,THURSDAY,11:50,13:30,125
+Mr. Santhanakrishnan T,Wiring Harness Design Engineering,EEE 3.2,lab,MONDAY,13:50,15:30,115
+Mr. Dr. A. Selvaraj,Hybrid Electric Vehicles,EEE 4.1,lecture,WEDNESDAY,09:00,09:50,A210
+Mr. Dr. A. Selvaraj,Hybrid Electric Vehicles,EEE 4.1,lecture,WEDNESDAY,11:00,11:50,A210
+Mr. Dr. A. Selvaraj,Hybrid Electric Vehicles,EEE 4.1,lecture,FRIDAY,11:00,11:50,A210
+Mrs. V Devi Maheswaran,Hybrid Electric Vehicles,EEE 4.2,lecture,WEDNESDAY,13:00,13:50,A109
+Mrs. V Devi Maheswaran,Hybrid Electric Vehicles,EEE 4.2,lecture,THURSDAY,08:00,08:50,A210
+Mrs. V Devi Maheswaran,Hybrid Electric Vehicles,EEE 4.2,lecture,MONDAY,11:00,11:50,A211
+Mr. T. S. Saravanan,Project Work / Phase -I,EEE 4.1,lab,TUESDAY,08:00,09:40,135
+Mr. T. S. Saravanan,Project Work / Phase -I,EEE 4.1,lab,WEDNESDAY,11:50,13:30,135
+Mr. T. S. Saravanan,Project Work / Phase -I,EEE 4.1,lab,MONDAY,13:50,15:30,135
+Mr. T. S. Saravanan,Project Work / Phase -I,EEE 4.1,lab,THURSDAY,08:00,09:40,135
+Mr. T. S. Saravanan,Project Work / Phase -I,EEE 4.1,lab,THURSDAY,11:50,13:30,135
+Mr. T. S. Saravanan,Project Work / Phase -I,EEE 4.1,lab,FRIDAY,11:50,13:30,135
+Mr. T. S. Saravanan,Project Work / Phase -I,EEE 4.1,lab,FRIDAY,08:00,09:40,135
+Mr. T. S. Saravanan,Project Work / Phase -I,EEE 4.1,lab,MONDAY,15:50,17:30,135
+Mr. A.Nazar Ali,Project Work / Phase -I,EEE 4.2,lab,THURSDAY,09:50,11:30,135
+Mr. A.Nazar Ali,Project Work / Phase -I,EEE 4.2,lab,FRIDAY,09:50,11:30,135
+Mr. A.Nazar Ali,Project Work / Phase -I,EEE 4.2,lab,TUESDAY,13:50,15:30,135
+Mr. A.Nazar Ali,Project Work / Phase -I,EEE 4.2,lab,TUESDAY,15:50,17:30,135
+Mr. A.Nazar Ali,Project Work / Phase -I,EEE 4.2,lab,WEDNESDAY,13:50,15:30,135
+Mr. A.Nazar Ali,Project Work / Phase -I,EEE 4.2,lab,WEDNESDAY,15:50,17:30,135
+Mr. A.Nazar Ali,Project Work / Phase -I,EEE 4.2,lab,THURSDAY,13:50,15:30,135
+Mr. A.Nazar Ali,Project Work / Phase -I,EEE 4.2,lab,THURSDAY,15:50,17:30,135
+Mrs. Dr.M.G.Umamaheswari,Renewable Energy Systems,EEE 4.1,lecture,MONDAY,08:00,08:50,A210
+Mrs. Dr.M.G.Umamaheswari,Renewable Energy Systems,EEE 4.1,lecture,TUESDAY,10:00,10:50,A211
+Mrs. Dr.M.G.Umamaheswari,Renewable Energy Systems,EEE 4.1,lecture,WEDNESDAY,14:00,14:50,A109
+Mrs. Dr.M.G.Umamaheswari,Renewable Energy Systems,EEE 4.1,lab,FRIDAY,13:50,15:30,135
+Mrs. Dr.M.G.Umamaheswari,Renewable Energy Systems,EEE 4.1,lab,FRIDAY,15:50,17:30,135
+Mr. Dr.R. Essaki Raj,Renewable Energy Systems,EEE 4.2,lecture,MONDAY,09:00,09:50,A210
+Mr. Dr.R. Essaki Raj,Renewable Energy Systems,EEE 4.2,lecture,FRIDAY,08:00,08:50,A210

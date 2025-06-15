@@ -1,0 +1,32 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+MONDAY,08:00,08:50,Fundamentals of Machine Learning,Mr. Magesh M P,A109
+MONDAY,14:00,14:50,Fundamentals of Machine Learning,Mr. Magesh M P,A305
+THURSDAY,11:00,11:50,Fundamentals of Machine Learning,Mr. Magesh M P,C102
+FRIDAY,08:00,09:40,Fundamentals of Machine Learning,Mr. Magesh M P,Vehicle Maintenance Lab
+THURSDAY,13:50,15:30,Fundamentals of Machine Learning,Mr. Magesh M P,Food Chemistry Lab
+MONDAY,10:00,10:50,Design and Analysis of Algorithms,New Staff - 05,A110
+FRIDAY,16:00,16:50,Design and Analysis of Algorithms,New Staff - 05,A308
+TUESDAY,10:00,10:50,Design and Analysis of Algorithms,New Staff - 05,B417
+TUESDAY,11:50,13:30,Design and Analysis of Algorithms,New Staff - 05,LIC Lab
+WEDNESDAY,15:50,17:30,Design and Analysis of Algorithms,New Staff - 05,Thermal Lab 2
+FRIDAY,10:00,10:50,Database Management Systems,Mr. Kumaran U,A305
+MONDAY,12:00,12:50,Database Management Systems,Mr. Kumaran U,C302
+TUESDAY,18:00,18:50,Database Management Systems,Mr. Kumaran U,A311
+FRIDAY,11:50,13:30,Database Management Systems,Mr. Kumaran U,Medical Image Processing Lab
+THURSDAY,11:50,13:30,Database Management Systems,Mr. Kumaran U,Industrial Automation Lab
+TUESDAY,11:50,13:30,Database Management Systems,Mr. Kumaran U,Machine Shop FF3 - EPL - 3
+FRIDAY,13:50,15:30,Database Management Systems,Mr. Kumaran U,Mechatronics Lab
+WEDNESDAY,11:00,11:50,Environmental Science and Engineering,Mr. J.Venkatamuthukumar,B220
+TUESDAY,08:00,08:50,Environmental Science and Engineering,Mr. J.Venkatamuthukumar,A110
+MONDAY,16:00,16:50,Environmental Science and Engineering,Mr. J.Venkatamuthukumar,B222
+THURSDAY,18:00,18:50,Discrete Mathematics for AI,Mrs. S.Vasanthi,A103
+MONDAY,09:00,09:50,Discrete Mathematics for AI,Mrs. S.Vasanthi,A202
+FRIDAY,11:00,11:50,Discrete Mathematics for AI,Mrs. S.Vasanthi,C201
+WEDNESDAY,08:00,08:50,Discrete Mathematics for AI,Mrs. S.Vasanthi,A304
+FRIDAY,18:00,18:50,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,B422
+WEDNESDAY,12:00,12:50,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,B417
+THURSDAY,08:00,08:50,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,B416
+TUESDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,Industrial Automation Lab
+WEDNESDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,Biochemistry Lab
+THURSDAY,11:50,13:30,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,Networks Lab
+TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,Machine Shop FF2 - EPL - 2

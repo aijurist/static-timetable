@@ -1,8 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,11:00,11:50,Object Oriented Programming Using JAVA,IT-2D,B321
-MONDAY,13:00,13:50,Object Oriented Programming Using JAVA,IT-2D,B403
-TUESDAY,12:00,12:50,Object Oriented Programming Using JAVA,IT-2D,A110
-THURSDAY,09:50,11:30,Object Oriented Programming Using JAVA,IT-2D,TLFL2
-FRIDAY,17:30,19:10,Object Oriented Programming Using JAVA,IT-2D,TLFL1
-TUESDAY,08:00,09:40,Object Oriented Programming Using JAVA,IT-2D,JL2
-TUESDAY,13:50,15:30,Object Oriented Programming Using JAVA,IT-2D,TLFR1
+MONDAY,12:00,12:50,Object Oriented Programming Using JAVA,IT 2.4,B410
+MONDAY,14:00,14:50,Object Oriented Programming Using JAVA,IT 2.4,A108
+FRIDAY,14:00,14:50,Object Oriented Programming Using JAVA,IT 2.4,C103
+THURSDAY,08:00,09:40,Object Oriented Programming Using JAVA,IT 2.4,TLGL4
+FRIDAY,11:50,13:30,Object Oriented Programming Using JAVA,IT 2.4,TLFL3
+MONDAY,08:00,09:40,Object Oriented Programming Using JAVA,IT 2.4,KFL01
+TUESDAY,17:30,19:10,Object Oriented Programming Using JAVA,IT 2.4,TLFL4

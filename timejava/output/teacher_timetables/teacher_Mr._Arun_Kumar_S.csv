@@ -1,0 +1,11 @@
+Day,StartTime,EndTime,Course,Group,Room
+MONDAY,08:00,08:50,Enzyme Technology and Biotransformations,BT 2.1,B107
+WEDNESDAY,11:00,11:50,Enzyme Technology and Biotransformations,BT 2.1,B404
+TUESDAY,13:00,13:50,Enzyme Technology and Biotransformations,BT 2.1,A204
+MONDAY,15:00,15:50,Enzyme Technology and Biotransformations,BT 2.3,C301
+THURSDAY,16:00,16:50,Enzyme Technology and Biotransformations,BT 2.3,B320
+THURSDAY,13:00,13:50,Enzyme Technology and Biotransformations,BT 2.3,B416
+MONDAY,09:50,11:30,Bioinformatics Laboratory,BT 3.1,Technical Analysis Lab
+FRIDAY,13:50,15:30,Bioinformatics Laboratory,BT 3.1,Networks Lab
+FRIDAY,11:50,13:30,Bioinformatics Laboratory,BT 3.1,Manufacturing Technology II
+FRIDAY,09:50,11:30,Bioinformatics Laboratory,BT 3.1,Microprocessor Lab-1

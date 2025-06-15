@@ -1,32 +1,28 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,08:00,08:50,Analog and Digital Communication,Ms. M.Brenda,B412
-TUESDAY,08:00,08:50,Analog and Digital Communication,Ms. M.Brenda,B416
-MONDAY,08:00,08:50,Analog and Digital Communication,Ms. M.Brenda,B415
-WEDNESDAY,12:00,12:50,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,B107
-MONDAY,17:00,17:50,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,B416
-TUESDAY,16:00,16:50,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,A203
-FRIDAY,11:50,13:30,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,TLFL5
-THURSDAY,11:50,13:30,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,TLFR3
-MONDAY,18:00,18:50,Fourier series and Number theory,Mrs. C. Renuga,B418
-THURSDAY,08:00,08:50,Fourier series and Number theory,Mrs. C. Renuga,A204
-FRIDAY,11:00,11:50,Fourier series and Number theory,Mrs. C. Renuga,A103
-WEDNESDAY,11:00,11:50,Fourier series and Number theory,Mrs. C. Renuga,A204
-FRIDAY,16:00,16:50,Database Management Systems,Dr. Shunmuganathan K L,A308
-WEDNESDAY,15:00,15:50,Database Management Systems,Dr. Shunmuganathan K L,A311
-WEDNESDAY,10:00,10:50,Database Management Systems,Dr. Shunmuganathan K L,A110
-THURSDAY,13:50,15:30,Database Management Systems,Dr. Shunmuganathan K L,JR2
-TUESDAY,11:50,13:30,Database Management Systems,Dr. Shunmuganathan K L,TLGL2
-MONDAY,09:50,11:30,Database Management Systems,Dr. Shunmuganathan K L,KFL03
-THURSDAY,15:50,17:30,Database Management Systems,Dr. Shunmuganathan K L,TLSL1
-THURSDAY,11:00,11:50,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),B422
-FRIDAY,08:00,08:50,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),B212
-THURSDAY,09:00,09:50,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),B325
-FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),JL1
-MONDAY,09:50,11:30,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),JR1
-FRIDAY,11:50,13:30,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),JL3
-TUESDAY,17:30,19:10,Object Oriented Programming Using JAVA,New Faculty Humanities & Sciences (PLACEHOLDER),TLFL4
-MONDAY,16:00,16:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,A104/105
-THURSDAY,18:00,18:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,B411
-THURSDAY,10:00,10:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,B401
-TUESDAY,09:50,11:30,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,TLFL2
-MONDAY,11:50,13:30,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,TLFR4
+THURSDAY,11:00,11:50,Hybrid Electric Vehicles,Mr. Dr. A. Selvaraj,A210
+FRIDAY,11:00,11:50,Hybrid Electric Vehicles,Mr. Dr. A. Selvaraj,B325
+THURSDAY,13:00,13:50,Hybrid Electric Vehicles,Mr. Dr. A. Selvaraj,B423
+FRIDAY,08:00,09:40,Project Work / Phase -I,Mr. T. S. Saravanan,Power System Simulation Lab
+THURSDAY,15:50,17:30,Project Work / Phase -I,Mr. T. S. Saravanan,Power System Simulation Lab
+WEDNESDAY,11:50,13:30,Project Work / Phase -I,Mr. T. S. Saravanan,Power System Simulation Lab
+TUESDAY,11:50,13:30,Project Work / Phase -I,Mr. T. S. Saravanan,Power System Simulation Lab
+MONDAY,08:00,09:40,Project Work / Phase -I,Mr. T. S. Saravanan,Power System Simulation Lab
+WEDNESDAY,13:50,15:30,Project Work / Phase -I,Mr. T. S. Saravanan,Power System Simulation Lab
+WEDNESDAY,17:30,19:10,Project Work / Phase -I,Mr. T. S. Saravanan,Power System Simulation Lab
+TUESDAY,13:50,15:30,Project Work / Phase -I,Mr. T. S. Saravanan,Power System Simulation Lab
+TUESDAY,11:00,11:50,Renewable Energy Systems,Mrs. Dr.M.G.Umamaheswari,A303
+THURSDAY,10:00,10:50,Renewable Energy Systems,Mrs. Dr.M.G.Umamaheswari,B417
+TUESDAY,08:00,08:50,Renewable Energy Systems,Mrs. Dr.M.G.Umamaheswari,B322
+WEDNESDAY,08:00,09:40,Renewable Energy Systems,Mrs. Dr.M.G.Umamaheswari,Power System Simulation Lab
+FRIDAY,15:50,17:30,Renewable Energy Systems,Mrs. Dr.M.G.Umamaheswari,Power System Simulation Lab
+TUESDAY,09:00,09:50,Power System Operation and Control,Mrs. Jayashree K,B412
+THURSDAY,12:00,12:50,Power System Operation and Control,Mrs. Jayashree K,A302
+FRIDAY,10:00,10:50,Power System Operation and Control,Mrs. Jayashree K,A209
+TUESDAY,15:50,17:30,Power System Operation and Control,Mrs. Jayashree K,Power System Simulation Lab
+WEDNESDAY,09:50,11:30,Power System Operation and Control,Mrs. Jayashree K,Power System Simulation Lab
+MONDAY,12:00,12:50,High Voltage Engineering,Mrs. Padmavathi R,A104/105
+THURSDAY,18:00,18:50,High Voltage Engineering,Mrs. Padmavathi R,B219
+MONDAY,15:00,15:50,High Voltage Engineering,Mrs. Padmavathi R,C102
+MONDAY,18:00,18:50,Fundamentals of Embedded Systems,Mrs. Amutha C,B212
+FRIDAY,12:00,12:50,Fundamentals of Embedded Systems,Mrs. Amutha C,C301
+THURSDAY,09:00,09:50,Fundamentals of Embedded Systems,Mrs. Amutha C,C307

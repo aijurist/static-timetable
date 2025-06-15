@@ -1,32 +1,27 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,09:00,09:50,Fundamentals of Machine Learning,Mr. Magesh M P,B219
-WEDNESDAY,16:00,16:50,Fundamentals of Machine Learning,Mr. Magesh M P,B412
-MONDAY,13:00,13:50,Fundamentals of Machine Learning,Mr. Magesh M P,B416
-TUESDAY,11:50,13:30,Fundamentals of Machine Learning,Mr. Magesh M P,KFR03
-MONDAY,17:30,19:10,Fundamentals of Machine Learning,Mr. Magesh M P,JL1
-THURSDAY,16:00,16:50,Design and Analysis of Algorithms,New Staff - 05,A305
-FRIDAY,17:00,17:50,Design and Analysis of Algorithms,New Staff - 05,B418
-THURSDAY,14:00,14:50,Design and Analysis of Algorithms,New Staff - 05,B320
-TUESDAY,13:50,15:30,Design and Analysis of Algorithms,New Staff - 05,TLGL3
-TUESDAY,15:50,17:30,Design and Analysis of Algorithms,New Staff - 05,JL1
-MONDAY,16:00,16:50,Database Management Systems,Mr. Kumaran U,B219
-THURSDAY,17:00,17:50,Database Management Systems,Mr. Kumaran U,B402
-MONDAY,08:00,08:50,Database Management Systems,Mr. Kumaran U,A110
-THURSDAY,11:50,13:30,Database Management Systems,Mr. Kumaran U,JL1
-TUESDAY,09:50,11:30,Database Management Systems,Mr. Kumaran U,JR3
-THURSDAY,09:50,11:30,Database Management Systems,Mr. Kumaran U,JL2
-WEDNESDAY,09:50,11:30,Database Management Systems,Mr. Kumaran U,TLFL5
-FRIDAY,11:00,11:50,Environmental Science and Engineering,Mr. J.Venkatamuthukumar,B213
-TUESDAY,08:00,08:50,Environmental Science and Engineering,Mr. J.Venkatamuthukumar,B410
-FRIDAY,16:00,16:50,Environmental Science and Engineering,Mr. J.Venkatamuthukumar,A110
-MONDAY,11:00,11:50,Discrete Mathematics for AI,Ms. Manasa K,B415
-WEDNESDAY,15:00,15:50,Discrete Mathematics for AI,Ms. Manasa K,B426
-TUESDAY,09:00,09:50,Discrete Mathematics for AI,Ms. Manasa K,B222
-FRIDAY,10:00,10:50,Discrete Mathematics for AI,Ms. Manasa K,B320
-MONDAY,12:00,12:50,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,B411
-MONDAY,10:00,10:50,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,B422
-WEDNESDAY,12:00,12:50,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,B218
-THURSDAY,09:50,11:30,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,JL1
-TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,TLGL3
-TUESDAY,09:50,11:30,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,JL3
-FRIDAY,08:00,09:40,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,JR2
+TUESDAY,09:00,09:50,Operating Systems,Dr. Gunasekar S,C202
+WEDNESDAY,10:00,10:50,Operating Systems,Dr. Gunasekar S,B322
+FRIDAY,15:00,15:50,Operating Systems,Dr. Gunasekar S,A208
+TUESDAY,15:50,17:30,Operating Systems,Dr. Gunasekar S,Genetic Engineering Lab
+WEDNESDAY,11:50,13:30,Operating Systems,Dr. Gunasekar S,Machine Shop FF3 - EPL - 3
+MONDAY,08:00,09:40,Operating Systems,Dr. Gunasekar S,Concrete & Survey Lab
+THURSDAY,17:30,19:10,Operating Systems,Dr. Gunasekar S,Thermal Lab 2
+TUESDAY,13:50,15:30,Design Thinking and Innovation,Mrs. Kalpana D,Electronic Devices & Circuits Lab
+MONDAY,09:50,11:30,Design Thinking and Innovation,Mrs. Kalpana D,Electronic Devices & Circuits Lab
+WEDNESDAY,11:50,13:30,Design Thinking and Innovation,Mrs. Kalpana D,Electronic Devices & Circuits Lab
+FRIDAY,17:30,19:10,Design Thinking and Innovation,Mrs. Kalpana D,Electronic Devices & Circuits Lab
+WEDNESDAY,08:00,08:50,3D Modelling and Texturing,Mr. S Umamaheswararao,A109
+THURSDAY,11:00,11:50,3D Modelling and Texturing,Mr. S Umamaheswararao,B403
+FRIDAY,11:50,13:30,3D Modelling and Texturing,Mr. S Umamaheswararao,Power Electronics Lab
+TUESDAY,13:50,15:30,3D Modelling and Texturing,Mr. S Umamaheswararao,Technical Analysis Lab
+FRIDAY,14:00,14:50,Web Programming,Mr. Thirumalairajan G,B422
+TUESDAY,08:00,08:50,Web Programming,Mr. Thirumalairajan G,B415
+FRIDAY,16:00,16:50,Web Programming,Mr. Thirumalairajan G,B419
+MONDAY,08:00,09:40,Web Programming,Mr. Thirumalairajan G,Manufacturing Technology I
+THURSDAY,11:50,13:30,Web Programming,Mr. Thirumalairajan G,Genetic Engineering Lab
+MONDAY,11:50,13:30,Web Programming,Mr. Thirumalairajan G,Machine Shop FF1 - EPL - 1
+WEDNESDAY,13:50,15:30,Web Programming,Mr. Thirumalairajan G,Manufacturing Technology I
+FRIDAY,09:00,09:50,Graphics and Multimedia,Mr. Vijayakumar R,A109
+MONDAY,16:00,16:50,Graphics and Multimedia,Mr. Vijayakumar R,C101
+MONDAY,13:50,15:30,Graphics and Multimedia,Mr. Vijayakumar R,Engineering Practices Lab (Electrical)
+THURSDAY,11:50,13:30,Graphics and Multimedia,Mr. Vijayakumar R,Automotive Components Lab

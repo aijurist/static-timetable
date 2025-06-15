@@ -1,8 +1,13 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,10:00,10:50,3D Printing and Design,CSD-4A,B423
-THURSDAY,08:00,08:50,3D Printing and Design,CSD-4A,A305
-FRIDAY,10:00,10:50,3D Printing and Design,CSD-4A,B423
-TUESDAY,09:50,11:30,3D Printing and Design,CSD-4A,TLGL4
-THURSDAY,13:50,15:30,3D Printing and Design,CSD-4A,TLFR3
-MONDAY,11:50,13:30,3D Printing and Design,CSD-4A,TLGL1
-MONDAY,08:00,09:40,3D Printing and Design,CSD-4A,KSL03
+FRIDAY,14:00,14:50,3D Printing and Design,CSD 4.1,A305
+WEDNESDAY,10:00,10:50,3D Printing and Design,CSD 4.1,B210
+MONDAY,16:00,16:50,3D Printing and Design,CSD 4.1,A210
+TUESDAY,09:50,11:30,3D Printing and Design,CSD 4.1,Engineering Practices Lab (Electrical)
+WEDNESDAY,11:50,13:30,3D Printing and Design,CSD 4.1,Thermal Lab 1
+WEDNESDAY,15:50,17:30,3D Printing and Design,CSD 4.1,Chemical Reaction Engineering Lab
+FRIDAY,15:50,17:30,3D Printing and Design,CSD 4.1,Metrology & Measurement Lab
+TUESDAY,16:00,16:50,Metrology and Measurements,MECH 3.1,A108
+FRIDAY,10:00,10:50,Metrology and Measurements,MECH 3.1,C201
+MONDAY,18:00,18:50,Metrology and Measurements,MECH 3.1,B425
+THURSDAY,09:50,11:30,Metrology and Measurements,MECH 3.1,Metrology & Measurement Lab
+THURSDAY,11:50,13:30,Metrology and Measurements,MECH 3.1,Metrology & Measurement Lab
