@@ -24,6 +24,12 @@ public class Course {
         this.name = name;
     }
 
+    public Course(String code, String name, String courseType) {
+        this.code = code;
+        this.name = name;
+        this.courseType = courseType;
+    }
+
     public Course(String code, String name, String department, String courseType, 
                  int lectureHours, int labHours, int tutorialHours, int projectHours) {
         this.code = code;
@@ -36,12 +42,12 @@ public class Course {
         this.projectHours = projectHours;
     }
 
-    public String getCode() {
+    public String getId() {
         return code;
     }
 
-    public void setCode(String code) {
-        this.code = code;
+    public String getCode() {
+        return code;
     }
 
     public String getName() {

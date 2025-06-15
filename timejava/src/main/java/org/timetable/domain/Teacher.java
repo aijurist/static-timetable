@@ -1,7 +1,5 @@
 package org.timetable.domain;
 
-import org.optaplanner.core.api.domain.lookup.PlanningId;
-
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
@@ -10,29 +8,24 @@ import java.util.Set;
  * Represents a teacher in the timetable system.
  */
 public class Teacher {
-    @PlanningId
     private String id;
     private String name;
     private String department;
-    private int maxHoursPerWeek;
-    private Set<TimeSlot> unavailableTimeSlots;
+    private String email;
+    private String phone;
 
     public Teacher() {
-        this.unavailableTimeSlots = new HashSet<>();
     }
 
     public Teacher(String id, String name) {
         this.id = id;
         this.name = name;
-        this.unavailableTimeSlots = new HashSet<>();
     }
 
-    public Teacher(String id, String name, String department, int maxHoursPerWeek) {
+    public Teacher(String id, String name, String department) {
         this.id = id;
         this.name = name;
         this.department = department;
-        this.maxHoursPerWeek = maxHoursPerWeek;
-        this.unavailableTimeSlots = new HashSet<>();
     }
 
     public String getId() {
@@ -59,34 +52,20 @@ public class Teacher {
         this.department = department;
     }
 
-    public int getMaxHoursPerWeek() {
-        return maxHoursPerWeek;
+    public String getEmail() {
+        return email;
     }
 
-    public void setMaxHoursPerWeek(int maxHoursPerWeek) {
-        this.maxHoursPerWeek = maxHoursPerWeek;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public Set<TimeSlot> getUnavailableTimeSlots() {
-        return unavailableTimeSlots;
+    public String getPhone() {
+        return phone;
     }
 
-    public void setUnavailableTimeSlots(Set<TimeSlot> unavailableTimeSlots) {
-        this.unavailableTimeSlots = unavailableTimeSlots;
-    }
-
-    /**
-     * Add a time slot to the list of unavailable time slots.
-     */
-    public void addUnavailableTimeSlot(TimeSlot timeSlot) {
-        this.unavailableTimeSlots.add(timeSlot);
-    }
-
-    /**
-     * Check if the teacher is available at the given time slot.
-     */
-    public boolean isAvailable(TimeSlot timeSlot) {
-        return !unavailableTimeSlots.contains(timeSlot);
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     @Override
@@ -104,6 +83,6 @@ public class Teacher {
 
     @Override
     public String toString() {
-        return name;
+        return name + " (" + id + ")";
     }
 } 

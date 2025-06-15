@@ -1,13 +1,12 @@
 package org.timetable.domain;
 
-import org.optaplanner.core.api.domain.lookup.PlanningId;
+import org.timetable.util.Department;
 import java.util.Objects;
 
 /**
  * Represents a student group in the timetable system.
  */
 public class StudentGroup {
-    @PlanningId
     private String id;
     private String name;
     private int size;
