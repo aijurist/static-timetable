@@ -28,8 +28,7 @@ venv/
 
 # Generated / temporary data
 output/
-*.sqlite3
-filtered_course_data.csv
+
 
 # OS generated files
 ehthumbs.db
