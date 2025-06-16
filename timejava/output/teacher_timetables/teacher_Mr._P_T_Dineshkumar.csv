@@ -1,9 +1,0 @@
-Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,13:00,13:50,Engineering Thermodynamics,MECH 2.1,A303
-FRIDAY,17:00,17:50,Engineering Thermodynamics,MECH 2.1,B321
-TUESDAY,17:00,17:50,Engineering Thermodynamics,MECH 2.1,C102
-TUESDAY,09:00,09:50,Engineering Thermodynamics,MECH 2.1,B218
-MONDAY,09:50,11:30,Python Programming for Machine Learning,MECH 2.1,DSP Lab
-FRIDAY,11:00,11:50,Python Programming for Machine Learning,MECH 2.1,DSP Lab
-THURSDAY,15:50,17:30,Python Programming for Machine Learning,MECH 2.1,DSP Lab
-TUESDAY,11:50,13:30,Python Programming for Machine Learning,MECH 2.1,DSP Lab

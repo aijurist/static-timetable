@@ -42,37 +42,91 @@ This will create a JAR file with all dependencies in the `target` directory.
 
 ## Running the Application
 
-### Using the Main Script
+### Quick start via helper script
 
-The simplest way to run the application is using the provided shell script:
-
+For **Unix / macOS / WSL** users:
 ```bash
-./run.sh [courses_file] [data_dir]
+./run-app.sh [OPTIONS] [core|cse|both|custom]
+```
+For **Windows (PowerShell)** users:
+```powershell
+./run-app.ps1 [OPTIONS] [core|cse|both|custom]
 ```
 
-### Using Java Directly
+Department selectors:
+* `core`  – run only the core-department CSV (`data/courses/core_dept_red.csv`)
+* `cse`   – run only the computer-science CSV (`data/courses/cse_dept_red.csv`)
+* `both`  – run both CSVs (default)
+* `custom` – supply one or more `-f/--file <csv>` arguments and the solver will use exactly those files.
 
-After building, you can run the application directly:
+Additional options (both scripts):
+* `-m | --minutes <N>` – time limit in minutes (default 20 or `$SOLVER_MINUTES` env-var)
+* `-f | --file <csv>`  – add a course CSV (only in `custom` mode)
+* `-h | --help`        – show full usage
 
+Examples:
 ```bash
-java -jar target/timejava-1.0-SNAPSHOT-jar-with-dependencies.jar [courses_file] [data_dir]
+# Core depts for 30 min
+./run-app.sh core -m 30
+
+# CSE only (Windows)
+./run-app.ps1 cse
+
+# Custom mix
+./run-app.sh custom -f my_dept.csv -f electives.csv -m 10
 ```
 
-### Parameters
+### Running manually
+You can still execute the fat-jar directly after building:
+```bash
+java -Dsolver.minutes=20 -jar target/timejava-1.0-SNAPSHOT.jar "data/courses/cse_dept_red.csv,data/courses/core_dept_red.csv" data
+```
 
-- `[courses_file]` is the path to the CSV file containing course and teacher data (default: `data/courses/cse_dept_red.csv`)
-- `[data_dir]` is the path to the directory containing all data files (default: `data`)
+---
 
-## Data Directory Structure
-
-The application expects the following directory structure for data:
-
+## Data Directory Layout (v1.1)
 ```
 data/
-├── classroom/     # CSV files containing classroom data
-├── courses/       # CSV files containing course and teacher data
-└── labs/          # CSV files containing lab room data
+├── courses/           # course CSVs (one per department mix)
+├── labs/              # *lab* room CSVs (now include lab_type column)
+├── classroom/         # regular classroom CSVs
+└── config/
+    └── course_lab_mapping.csv   # explicit course→lab mapping (optional)
 ```
+
+### `lab_type` column
+All lab CSVs now end with a `lab_type` column:
+* `core`      – specialised core-department labs
+* `computer`  – computer labs for CSE/IT
+
+The scheduler enforces that:
+1. Computer-dept courses must be placed in `computer` labs.
+2. Core-dept courses prefer `core` labs, and may use `computer` labs only if the mapping file allows it.
+
+### Course-lab mapping CSV
+`data/config/course_lab_mapping.csv` (header shown below) lets you restrict **specific courses** to **specific lab descriptions**:
+```
+course_code,course_name,department,total_labs,lab_1,lab_2,lab_3
+EE23521,Control and Instrumentation Laboratory,EEE,1,Control and Instrumentation Lab,,
+AT19721,Vehicle Maintenance Laboratory,AUTO,1,Vehicle Maintenance Lab,,
+...
+```
+If a course appears here the solver treats the list as *hard* constraints (cannot place the course elsewhere).
+
+---
+
+## Output
+Same as before, but room labels for *core labs* are exported using their **description** (e.g. `"Vehicle Maintenance Lab"`) instead of the numeric `room_number` for better readability in CSV/JSON.
+
+---
+
+## Constraint Highlights (v1.1)
+New hard constraints:
+* **courseLabMustMatchMapping** – Courses listed in the mapping CSV must be in an allowed lab.
+* **computerDepartmentsMustUseComputerLabs** – CSE/IT/AIDS/CSBS labs only.
+* **coreDepartmentsMustUseCoreOrComputerLabs** – Core departments: must use `core` labs unless mapping permits `computer`.
+
+These are on top of the existing room/teacher/student conflicts, capacity checks, and teacher-shift patterns.
 
 ## Configuration
 
