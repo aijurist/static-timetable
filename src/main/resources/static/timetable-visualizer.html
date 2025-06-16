@@ -86,10 +86,11 @@
             max-width: 1800px;
             margin: 0 auto;
             background: var(--bg-secondary);
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
             border: 1px solid var(--border-color);
+            backdrop-filter: blur(10px);
         }
 
         /* Responsive design for 6-day layout */
@@ -128,8 +129,11 @@
 
         h1 {
             color: var(--text-primary);
-            margin-bottom: 20px;
+            margin-bottom: 25px;
             font-weight: 500;
+            font-size: 2.2em;
+            letter-spacing: -0.5px;
+            line-height: 1.2;
         }
 
         .controls {
@@ -620,15 +624,592 @@
             contain: none !important;
         }
 
+        /* Analytics Panel Styles */
+        .analytics-container {
+            margin-top: 20px;
+        }
 
+        .main-content {
+            margin-top: 0;
+        }
+
+        .analytics-menu-bar {
+            background: var(--bg-secondary);
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            margin-bottom: 20px;
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+            backdrop-filter: blur(5px);
+        }
+
+        .analytics-tabs {
+            display: flex;
+            background: var(--header-bg);
+            border-bottom: 2px solid var(--border-color);
+            overflow-x: auto;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+
+        .analytics-tabs::-webkit-scrollbar {
+            display: none;
+        }
+
+        .analytics-tab {
+            flex: 0 0 auto;
+            padding: 15px 25px;
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            cursor: pointer;
+            font-size: 0.9em;
+            font-weight: 600;
+            transition: all 0.2s;
+            border-bottom: 3px solid transparent;
+            white-space: nowrap;
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .analytics-tab::before {
+            content: '';
+            width: 12px;
+            height: 12px;
+            border-radius: 2px;
+            background: currentColor;
+            opacity: 0.6;
+            transition: all 0.2s;
+        }
+
+        .analytics-tab.active::before {
+            opacity: 1;
+            background: var(--theory-color);
+        }
+
+        .analytics-tab.active {
+            color: var(--text-primary);
+            border-bottom-color: var(--theory-color);
+            background: rgba(96, 165, 250, 0.08);
+        }
+
+        .analytics-tab:hover {
+            background: rgba(96, 165, 250, 0.05);
+            color: var(--text-primary);
+        }
+
+        .analytics-tab:not(.active):hover {
+            border-bottom-color: rgba(96, 165, 250, 0.3);
+        }
+
+        .analytics-panels {
+            padding: 0;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+        }
+
+        .analytics-panels.expanded {
+            max-height: 70vh;
+            padding: 20px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* Scroll indicator shadows */
+        .analytics-panels.expanded::before {
+            content: '';
+            position: sticky;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 10px;
+            background: linear-gradient(to bottom, var(--bg-secondary), transparent);
+            z-index: 10;
+            pointer-events: none;
+        }
+
+        .analytics-panels.expanded::after {
+            content: '';
+            position: sticky;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 10px;
+            background: linear-gradient(to top, var(--bg-secondary), transparent);
+            z-index: 10;
+            pointer-events: none;
+        }
+
+        /* Custom Scrollbar Styling */
+        .analytics-panels.expanded::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .analytics-panels.expanded::-webkit-scrollbar-track {
+            background: var(--cell-bg);
+            border-radius: 4px;
+        }
+
+        .analytics-panels.expanded::-webkit-scrollbar-thumb {
+            background: var(--theory-color);
+            border-radius: 4px;
+            transition: background 0.2s ease;
+        }
+
+        .analytics-panels.expanded::-webkit-scrollbar-thumb:hover {
+            background: var(--theory-border);
+        }
+
+        /* Firefox scrollbar */
+        .analytics-panels.expanded {
+            scrollbar-width: thin;
+            scrollbar-color: var(--theory-color) var(--cell-bg);
+        }
+
+        .analytics-panel {
+            display: none;
+            animation: fadeIn 0.3s ease-in;
+        }
+
+        .analytics-panel.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 0.6; }
+            50% { opacity: 1; }
+        }
+
+        .scroll-indicator {
+            animation: pulse 2s infinite;
+        }
+
+        .analytics-section {
+            margin-bottom: 30px;
+            background: var(--cell-bg);
+            border-radius: 10px;
+            padding: 16px;
+            border: 1px solid var(--border-color);
+            min-height: 100px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            transition: all 0.2s ease;
+        }
+
+        .analytics-section:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-color: rgba(96, 165, 250, 0.3);
+        }
+
+        .analytics-section:last-child {
+            margin-bottom: 20px;
+        }
+
+        .analytics-section h4 {
+            margin: 0 0 12px 0;
+            color: var(--text-primary);
+            font-size: 1em;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .analytics-section h4::before {
+            content: '';
+            width: 3px;
+            height: 16px;
+            background: var(--theory-color);
+            border-radius: 2px;
+        }
+
+        .stat-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(75, 85, 99, 0.2);
+        }
+
+        .stat-item:last-child {
+            border-bottom: none;
+        }
+
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.95em;
+            flex: 1;
+            font-weight: 500;
+        }
+
+        .stat-value {
+            color: var(--text-primary);
+            font-weight: 700;
+            margin-left: 10px;
+            font-size: 1.05em;
+        }
+
+        .utilization-bar {
+            width: 100%;
+            height: 8px;
+            background: var(--cell-bg);
+            border-radius: 4px;
+            margin: 4px 0;
+            overflow: hidden;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        .utilization-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #10b981, #3b82f6, #8b5cf6);
+            border-radius: 4px;
+            transition: width 0.3s ease;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .room-item {
+            margin-bottom: 12px;
+            padding: 16px;
+            background: var(--cell-bg);
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            transition: all 0.2s ease;
+        }
+
+        .room-item:hover {
+            border-color: var(--theory-color);
+            box-shadow: 0 2px 8px rgba(96, 165, 250, 0.1);
+            transform: translateY(-1px);
+        }
+
+        .room-name {
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.05em;
+        }
+
+        .room-type {
+            font-size: 0.65em;
+            padding: 3px 8px;
+            border-radius: 4px;
+            background: var(--theory-color);
+            color: white;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        .room-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+
+        .room-stat {
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .analytics-toggle-btn {
+            background: var(--theory-color);
+            color: white;
+            border: none;
+            padding: 10px 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 0.85em;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-left: auto;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .analytics-toggle-btn:hover {
+            background: var(--theory-border);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(96, 165, 250, 0.3);
+        }
+
+        .analytics-toggle-btn.expanded {
+            background: var(--theory-color);
+        }
+
+        .analytics-toggle-btn .toggle-icon {
+            transition: transform 0.3s ease;
+        }
+
+        .analytics-toggle-btn.expanded .toggle-icon {
+            transform: rotate(180deg);
+        }
+
+        .menu-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            background: var(--header-bg);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .menu-title {
+            color: var(--text-primary);
+            font-weight: 600;
+            font-size: 1.2em;
+            margin: 0;
+            padding: 15px 0;
+            letter-spacing: -0.3px;
+            text-transform: uppercase;
+            font-size: 1em;
+        }
+
+        .efficiency-indicator {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-left: 10px;
+            box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+        }
+
+        .efficiency-high { background: #10b981; }
+        .efficiency-medium { background: #f59e0b; }
+        .efficiency-low { background: #ef4444; }
+
+        .department-item {
+            padding: 14px;
+            background: var(--cell-bg);
+            border-radius: 8px;
+            margin-bottom: 10px;
+            border: 1px solid var(--border-color);
+            transition: all 0.2s ease;
+        }
+
+        .department-item:hover {
+            border-color: var(--theory-color);
+            box-shadow: 0 2px 6px rgba(96, 165, 250, 0.1);
+        }
+
+        .department-name {
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+            font-size: 1.05em;
+        }
+
+        .teacher-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0;
+            border-bottom: 1px solid var(--border-color);
+            transition: all 0.2s ease;
+        }
+
+        .teacher-item:hover {
+            background: rgba(96, 165, 250, 0.05);
+            margin: 0 -8px;
+            padding-left: 8px;
+            padding-right: 8px;
+            border-radius: 4px;
+        }
+
+        .teacher-item:last-child {
+            border-bottom: none;
+        }
+
+        .teacher-name {
+            color: var(--text-primary);
+            font-size: 0.95em;
+            font-weight: 500;
+        }
+
+        .teacher-load {
+            font-size: 0.85em;
+            color: var(--text-secondary);
+            font-weight: 600;
+        }
+
+        .workload-high { color: #ef4444; }
+        .workload-medium { color: #f59e0b; }
+        .workload-normal { color: #10b981; }
+
+        .chart-container {
+            margin: 20px 0;
+            padding: 15px;
+            background: var(--cell-bg);
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+
+        .time-slot-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0;
+            font-size: 0.9em;
+            transition: all 0.2s ease;
+        }
+
+        .time-slot-item:hover {
+            background: rgba(96, 165, 250, 0.05);
+            margin: 0 -8px;
+            padding-left: 8px;
+            padding-right: 8px;
+            border-radius: 4px;
+        }
+
+        .slot-time {
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .slot-usage {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .stats-card {
+            background: var(--cell-bg);
+            padding: 20px 16px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            text-align: center;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .stats-card:hover {
+            border-color: var(--theory-color);
+            box-shadow: 0 6px 16px rgba(96, 165, 250, 0.15);
+            transform: translateY(-2px);
+        }
+
+        .stats-card-value {
+            font-size: 2.2em;
+            font-weight: 700;
+            color: var(--theory-color);
+            margin-bottom: 6px;
+            line-height: 1;
+        }
+
+        .stats-card-label {
+            color: var(--text-secondary);
+            font-size: 0.85em;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .analytics-tabs {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+            
+            .analytics-tab {
+                min-width: 120px;
+            }
+            
+            .stats-grid {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                gap: 10px;
+            }
+            
+            .room-item, .department-item {
+                padding: 12px;
+            }
+            
+            .analytics-panels.expanded {
+                max-height: 60vh;
+                padding: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .analytics-panels.expanded {
+                max-height: 50vh;
+                padding: 10px;
+            }
+            
+            .stats-grid {
+                grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+                gap: 8px;
+            }
+            
+            .analytics-section {
+                padding: 12px;
+                margin-bottom: 20px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .analytics-panels.expanded {
+                max-height: 75vh;
+            }
+        }
+
+        @media (min-width: 1600px) {
+            .analytics-panels.expanded {
+                max-height: 80vh;
+            }
+        }
+
+        .info-banner {
+            background: linear-gradient(135deg, var(--cell-bg) 0%, var(--header-bg) 100%);
+            padding: 16px 20px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            border-left: 4px solid var(--theory-color);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border: 1px solid var(--border-color);
+        }
+
+        .info-banner p {
+            margin: 0;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            font-size: 0.95em;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Advanced Timetable Visualizer - 6 Day Schedule</h1>
-        <div style="background: var(--cell-bg); padding: 10px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid var(--theory-color);">
+        <div class="info-banner">
             <p style="margin: 0; color: var(--text-secondary);">
-                📅 <strong>Six-Day Schedule Support:</strong> This visualizer now supports Monday through Saturday scheduling with department-specific workday policies.
+                <strong>Six-Day Schedule Support:</strong> This visualizer supports Monday through Saturday scheduling with department-specific workday policies.
             </p>
         </div>
         
@@ -683,8 +1264,110 @@
             </div>
         </div>
 
-        <div id="timetableContainer">
-            <div class="timetable" id="timetable"></div>
+        <div class="analytics-container">
+            <div class="main-content">
+                <div class="analytics-menu-bar">
+                    <div class="menu-header">
+                        <h2 class="menu-title">Analytics Dashboard</h2>
+                        <button class="analytics-toggle-btn" onclick="toggleAnalytics()">
+                            <span class="toggle-icon">▼</span>
+                            <span>Show Analytics</span>
+                        </button>
+                    </div>
+                    <div class="analytics-tabs">
+                        <button class="analytics-tab active" onclick="switchAnalyticsTab('rooms')">
+                            Rooms
+                        </button>
+                        <button class="analytics-tab" onclick="switchAnalyticsTab('departments')">
+                            Departments
+                        </button>
+                        <button class="analytics-tab" onclick="switchAnalyticsTab('teachers')">
+                            Teachers
+                        </button>
+                        <button class="analytics-tab" onclick="switchAnalyticsTab('timeslots')">
+                            Time Slots
+                        </button>
+                    </div>
+                    
+                    <div class="analytics-panels">
+                        <!-- Room Analytics Panel -->
+                        <div id="rooms-panel" class="analytics-panel active">
+                            <div class="analytics-section">
+                                <h4>Room Utilization Overview</h4>
+                                <div id="room-overview-stats"></div>
+                            </div>
+                            
+                            <div class="analytics-section">
+                                <h4>Classroom Utilization</h4>
+                                <div id="classroom-details"></div>
+                            </div>
+                            
+                            <div class="analytics-section">
+                                <h4>Laboratory Utilization</h4>
+                                <div id="lab-details"></div>
+                            </div>
+                        </div>
+
+                        <!-- Department Analytics Panel -->
+                        <div id="departments-panel" class="analytics-panel">
+                            <div class="analytics-section">
+                                <h4>Department Overview</h4>
+                                <div id="department-overview-stats"></div>
+                            </div>
+                            
+                            <div class="analytics-section">
+                                <h4>Workday Distribution</h4>
+                                <div id="workday-distribution"></div>
+                            </div>
+                            
+                            <div class="analytics-section">
+                                <h4>Course Load by Department</h4>
+                                <div id="department-course-load"></div>
+                            </div>
+                        </div>
+
+                        <!-- Teacher Analytics Panel -->
+                        <div id="teachers-panel" class="analytics-panel">
+                            <div class="analytics-section">
+                                <h4>Teacher Overview</h4>
+                                <div id="teacher-overview-stats"></div>
+                            </div>
+                            
+                            <div class="analytics-section">
+                                <h4>Workload Distribution</h4>
+                                <div id="teacher-workload"></div>
+                            </div>
+                            
+                            <div class="analytics-section">
+                                <h4>Most Active Teachers</h4>
+                                <div id="top-teachers"></div>
+                            </div>
+                        </div>
+
+                        <!-- Time Slots Analytics Panel -->
+                        <div id="timeslots-panel" class="analytics-panel">
+                            <div class="analytics-section">
+                                <h4>Time Slot Usage</h4>
+                                <div id="timeslot-overview-stats"></div>
+                            </div>
+                            
+                            <div class="analytics-section">
+                                <h4>Peak Hours Analysis</h4>
+                                <div id="peak-hours-analysis"></div>
+                            </div>
+                            
+                            <div class="analytics-section">
+                                <h4>Daily Distribution</h4>
+                                <div id="daily-distribution"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="timetableContainer">
+                    <div class="timetable" id="timetable"></div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -856,8 +1539,7 @@
         function showTooltip(event, lesson) {
             const tooltip = document.getElementById('tooltip');
             tooltip.style.display = 'block';
-            tooltip.style.left = event.pageX + 10 + 'px';
-            tooltip.style.top = event.pageY + 10 + 'px';
+            positionTooltip(tooltip, event.pageX + 10, event.pageY + 10);
 
             let tooltipContent = `
                 <div class="tooltip-title">${lesson.course}</div>
@@ -903,8 +1585,7 @@
         function showCombinedLabTooltip(event, labLessons, startTime, endTime) {
             const tooltip = document.getElementById('tooltip');
             tooltip.style.display = 'block';
-            tooltip.style.left = event.pageX + 15 + 'px';
-            tooltip.style.top = event.pageY + 15 + 'px';
+            positionTooltip(tooltip, event.pageX + 15, event.pageY + 15);
 
             const uniqueCourses = new Set(labLessons.map(l => l.course));
             const uniqueBatches = new Set(labLessons.map(l => l.batch).filter(b => b));
@@ -1023,31 +1704,67 @@
         function findTimeSlotIndex(startTime, endTime, scheduleType) {
             const startMinutes = parseTime(startTime);
             const endMinutes = parseTime(endTime);
-            
+
             if (scheduleType === 'lab') {
-                // For lab view, find matching lab slot
+                // For lab view, choose the lab slot that overlaps the session (any overlap)
                 for (let i = 0; i < LAB_TIME_SLOTS.length; i++) {
                     const slotStart = parseTime(LAB_TIME_SLOTS[i].start);
                     const slotEnd = parseTime(LAB_TIME_SLOTS[i].end);
-                    
-                    // Allow some tolerance (30 minutes)
-                    if (Math.abs(startMinutes - slotStart) <= 30 && Math.abs(endMinutes - slotEnd) <= 30) {
+
+                    // Overlap if session starts before slot end and ends after slot start
+                    if (startMinutes < slotEnd && endMinutes > slotStart) {
                         return i;
                     }
                 }
             } else {
-                // For theory view, find matching theory slot
+                // For theory view, pick slot containing the session start time
                 for (let i = 0; i < THEORY_TIME_SLOTS.length; i++) {
                     const slotStart = parseTime(THEORY_TIME_SLOTS[i].start);
                     const slotEnd = parseTime(THEORY_TIME_SLOTS[i].end);
-                    
-                    if (startMinutes >= slotStart && startMinutes < slotEnd) {
+
+                    if (startMinutes < slotEnd && endMinutes > slotStart) {
                         return i;
                     }
                 }
             }
-            
+
             return -1; // Not found
+        }
+
+        // Helper to position tooltip within viewport boundaries
+        function positionTooltip(el, pageX, pageY) {
+            const padding = 12; // distance from viewport edges
+
+            const tooltipWidth = el.offsetWidth;
+            const tooltipHeight = el.offsetHeight;
+
+            let x = pageX;
+            let y = pageY;
+
+            // Horizontal overflow → shift left
+            const viewportRight = window.scrollX + window.innerWidth;
+            if (x + tooltipWidth + padding > viewportRight) {
+                x = viewportRight - tooltipWidth - padding;
+            }
+
+            // Vertical overflow → show above cursor
+            const viewportBottom = window.scrollY + window.innerHeight;
+            if (y + tooltipHeight + padding > viewportBottom) {
+                y = pageY - tooltipHeight - padding;
+            }
+
+            // Ensure not off the top
+            if (y < window.scrollY + padding) {
+                y = window.scrollY + padding;
+            }
+
+            // Ensure not off the left
+            if (x < window.scrollX + padding) {
+                x = window.scrollX + padding;
+            }
+
+            el.style.left = x + 'px';
+            el.style.top = y + 'px';
         }
 
         function createCombinedLabBlock(labLessons, spanHeight, startTime, endTime) {
@@ -1143,8 +1860,7 @@
                 // Update tooltip position on mouse move
                 const tooltip = document.getElementById('tooltip');
                 if (tooltip.style.display === 'block') {
-                    tooltip.style.left = e.pageX + 15 + 'px';
-                    tooltip.style.top = e.pageY + 15 + 'px';
+                    positionTooltip(tooltip, e.pageX + 15, e.pageY + 15);
                 }
             });
             
@@ -1436,6 +2152,17 @@
 
             console.log(`Filtered lessons for ${viewType} ${selectedId}:`, filteredLessons);
             displayLessons(filteredLessons);
+            
+            // Update analytics with filtered data
+            if (selectedId) {
+                const originalData = timetableData;
+                timetableData = { ...originalData, lessons: filteredLessons };
+                calculateAnalytics();
+                timetableData = originalData; // Restore original data
+            } else {
+                // If showing all data, recalculate with full dataset
+                calculateAnalytics();
+            }
         }
 
         // Initialize
@@ -1457,6 +2184,7 @@
                 }
                 timetableData = data;
                 updateEntitySelector();
+                initializeAnalytics(); // Initialize analytics with loaded data
                 filterLessons();
             })
             .catch(error => {
@@ -1474,6 +2202,514 @@
 
         // Theme toggle listener
         document.getElementById('themeToggle').addEventListener('click', toggleTheme);
+
+        // ############################################################################
+        // Analytics Functions
+        // ############################################################################
+
+        let analyticsData = null;
+        let roomsData = null;
+        let isAnalyticsVisible = false;
+
+        // Load room data from CSV files
+        async function loadRoomsData() {
+            try {
+                const [aBlock, bBlock, cBlock, labCore, jBlock, kBlock, techlongue] = await Promise.all([
+                    fetch('data/classroom/a_block.csv').then(r => r.text()),
+                    fetch('data/classroom/b_block.csv').then(r => r.text()),
+                    fetch('data/classroom/c_block.csv').then(r => r.text()),
+                    fetch('data/labs/lab_core.csv').then(r => r.text()),
+                    fetch('data/labs/j_block.csv').then(r => r.text()),
+                    fetch('data/labs/k_block.csv').then(r => r.text()),
+                    fetch('data/labs/techlongue.csv').then(r => r.text())
+                ]);
+
+                const rooms = [];
+                
+                // Parse CSV data
+                [aBlock, bBlock, cBlock, labCore, jBlock, kBlock, techlongue].forEach(csvData => {
+                    const lines = csvData.split('\n').filter(line => line.trim());
+                    const headers = lines[0].split(',');
+                    
+                    for (let i = 1; i < lines.length; i++) {
+                        const values = lines[i].split(',');
+                        if (values.length >= headers.length) {
+                            const room = {};
+                            headers.forEach((header, index) => {
+                                room[header.trim()] = values[index]?.trim() || '';
+                            });
+                            rooms.push(room);
+                        }
+                    }
+                });
+
+                roomsData = rooms;
+                console.log('Loaded rooms data:', rooms.length, 'rooms');
+                return rooms;
+            } catch (error) {
+                console.warn('Could not load room data:', error);
+                return [];
+            }
+        }
+
+        function calculateAnalytics() {
+            if (!timetableData || !timetableData.lessons) return;
+
+            const lessons = timetableData.lessons;
+            const totalTheorySlots = 6 * 11; // 6 days × 11 theory slots per day = 66 slots
+            const totalLabSlots = 6 * 6; // 6 days × 6 lab slots per day = 36 slots
+
+            // Room utilization analytics
+            const roomUsage = new Map();
+            const roomTypes = new Map();
+            
+            lessons.forEach(lesson => {
+                if (lesson.room) {
+                    if (!roomUsage.has(lesson.room)) {
+                        roomUsage.set(lesson.room, { theory: 0, lab: 0, total: 0 });
+                    }
+                    
+                    const usage = roomUsage.get(lesson.room);
+                    if (lesson.type === 'lab') {
+                        usage.lab++;
+                    } else {
+                        usage.theory++;
+                    }
+                    usage.total++;
+                    
+                    // Determine room type from lesson type or room name
+                    if (!roomTypes.has(lesson.room)) {
+                        const isLab = lesson.type === 'lab' || 
+                                     lesson.room.toLowerCase().includes('lab') ||
+                                     lesson.room.toLowerCase().includes('workshop');
+                        roomTypes.set(lesson.room, isLab ? 'lab' : 'classroom');
+                    }
+                }
+            });
+
+            // Department analytics
+            const departmentData = new Map();
+            const teacherData = new Map();
+            const timeSlotData = new Map();
+            const dailyData = new Map();
+
+            lessons.forEach(lesson => {
+                // Department analytics
+                const dept = lesson.group?.split(' ')[0] || 'Unknown';
+                if (!departmentData.has(dept)) {
+                    departmentData.set(dept, { lessons: 0, courses: new Set(), teachers: new Set() });
+                }
+                const deptInfo = departmentData.get(dept);
+                deptInfo.lessons++;
+                deptInfo.courses.add(lesson.course);
+                deptInfo.teachers.add(lesson.teacher);
+
+                // Teacher analytics
+                if (!teacherData.has(lesson.teacher)) {
+                    teacherData.set(lesson.teacher, { lessons: 0, hours: 0, departments: new Set(), courses: new Set() });
+                }
+                const teacherInfo = teacherData.get(lesson.teacher);
+                teacherInfo.lessons++;
+                teacherInfo.hours += lesson.type === 'lab' ? 2 : 1;
+                teacherInfo.departments.add(dept);
+                teacherInfo.courses.add(lesson.course);
+
+                // Time slot analytics
+                const timeKey = `${lesson.startTime}-${lesson.endTime}`;
+                if (!timeSlotData.has(timeKey)) {
+                    timeSlotData.set(timeKey, { count: 0, type: lesson.type === 'lab' ? 'lab' : 'theory' });
+                }
+                timeSlotData.get(timeKey).count++;
+
+                // Daily analytics
+                if (!dailyData.has(lesson.day)) {
+                    dailyData.set(lesson.day, { lessons: 0, rooms: new Set(), teachers: new Set() });
+                }
+                const dayInfo = dailyData.get(lesson.day);
+                dayInfo.lessons++;
+                dayInfo.rooms.add(lesson.room);
+                dayInfo.teachers.add(lesson.teacher);
+            });
+
+            analyticsData = {
+                rooms: { usage: roomUsage, types: roomTypes, totalTheorySlots, totalLabSlots },
+                departments: departmentData,
+                teachers: teacherData,
+                timeSlots: timeSlotData,
+                daily: dailyData,
+                totalLessons: lessons.length
+            };
+
+            updateAnalyticsDisplay();
+        }
+
+        function updateAnalyticsDisplay() {
+            if (!analyticsData) return;
+
+            updateRoomAnalytics();
+            updateDepartmentAnalytics();
+            updateTeacherAnalytics();
+            updateTimeSlotAnalytics();
+        }
+
+        function updateRoomAnalytics() {
+            const { usage, types, totalTheorySlots, totalLabSlots } = analyticsData.rooms;
+            
+            // Overview stats
+            const overviewStats = document.getElementById('room-overview-stats');
+            const totalRooms = usage.size;
+            const classrooms = Array.from(types.entries()).filter(([_, type]) => type === 'classroom').length;
+            const labs = Array.from(types.entries()).filter(([_, type]) => type === 'lab').length;
+            
+            let totalUtilization = 0;
+            usage.forEach((roomUsage, roomName) => {
+                const roomType = types.get(roomName);
+                const maxSlots = roomType === 'lab' ? totalLabSlots : totalTheorySlots;
+                totalUtilization += (roomUsage.total / maxSlots) * 100;
+            });
+            const avgUtilization = totalRooms > 0 ? (totalUtilization / totalRooms).toFixed(1) : 0;
+
+            overviewStats.innerHTML = `
+                <div class="stats-grid">
+                    <div class="stats-card">
+                        <div class="stats-card-value">${totalRooms}</div>
+                        <div class="stats-card-label">Total Rooms</div>
+                    </div>
+                    <div class="stats-card">
+                        <div class="stats-card-value">${classrooms}</div>
+                        <div class="stats-card-label">Classrooms</div>
+                    </div>
+                    <div class="stats-card">
+                        <div class="stats-card-value">${labs}</div>
+                        <div class="stats-card-label">Laboratories</div>
+                    </div>
+                    <div class="stats-card">
+                        <div class="stats-card-value">${avgUtilization}%</div>
+                        <div class="stats-card-label">Avg Utilization</div>
+                    </div>
+                 </div>
+            `;
+
+            // Classroom details
+            const classroomDetails = document.getElementById('classroom-details');
+            const classroomUsage = Array.from(usage.entries())
+                .filter(([roomName, _]) => types.get(roomName) === 'classroom')
+                .sort((a, b) => b[1].total - a[1].total);
+
+            classroomDetails.innerHTML = classroomUsage.map(([roomName, roomUsage]) => {
+                const utilization = ((roomUsage.total / totalTheorySlots) * 100).toFixed(1);
+                const efficiency = utilization > 70 ? 'high' : utilization > 40 ? 'medium' : 'low';
+                
+                return `
+                    <div class="room-item">
+                        <div class="room-name">
+                            ${roomName}
+                            <span class="room-type">Classroom</span>
+                        </div>
+                        <div class="utilization-bar">
+                            <div class="utilization-fill" style="width: ${utilization}%"></div>
+                        </div>
+                        <div class="room-stats">
+                            <div class="room-stat">Usage: ${roomUsage.total}/${totalTheorySlots}</div>
+                            <div class="room-stat">Utilization: ${utilization}%</div>
+                        </div>
+                        <span class="efficiency-indicator efficiency-${efficiency}"></span>
+                    </div>
+                `;
+            }).join('');
+
+            // Lab details
+            const labDetails = document.getElementById('lab-details');
+            const labUsage = Array.from(usage.entries())
+                .filter(([roomName, _]) => types.get(roomName) === 'lab')
+                .sort((a, b) => b[1].total - a[1].total);
+
+            labDetails.innerHTML = labUsage.map(([roomName, roomUsage]) => {
+                const utilization = ((roomUsage.total / totalLabSlots) * 100).toFixed(1);
+                const efficiency = utilization > 60 ? 'high' : utilization > 30 ? 'medium' : 'low';
+                
+                return `
+                    <div class="room-item">
+                        <div class="room-name">
+                            ${roomName}
+                            <span class="room-type" style="background: var(--lab-same-color)">Laboratory</span>
+                        </div>
+                        <div class="utilization-bar">
+                            <div class="utilization-fill" style="width: ${utilization}%"></div>
+                        </div>
+                        <div class="room-stats">
+                            <div class="room-stat">Usage: ${roomUsage.total}/${totalLabSlots}</div>
+                            <div class="room-stat">Utilization: ${utilization}%</div>
+                        </div>
+                        <span class="efficiency-indicator efficiency-${efficiency}"></span>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function updateDepartmentAnalytics() {
+            const departments = analyticsData.departments;
+            
+            // Department overview
+            const overviewStats = document.getElementById('department-overview-stats');
+            const deptArray = Array.from(departments.entries()).sort((a, b) => b[1].lessons - a[1].lessons);
+            
+            overviewStats.innerHTML = `
+                <div class="stats-grid">
+                    <div class="stats-card">
+                        <div class="stats-card-value">${departments.size}</div>
+                        <div class="stats-card-label">Total Departments</div>
+                    </div>
+                    <div class="stats-card">
+                        <div class="stats-card-value">${analyticsData.totalLessons}</div>
+                        <div class="stats-card-label">Total Lessons</div>
+                    </div>
+                    <div class="stats-card">
+                        <div class="stats-card-value">${deptArray[0]?.[0] || 'N/A'}</div>
+                        <div class="stats-card-label">Most Active Dept</div>
+                    </div>
+                 </div>
+            `;
+
+            // Workday distribution
+            const workdayDist = document.getElementById('workday-distribution');
+            const mondayFriday = ['AERO', 'AUTO', 'MECH', 'MCT', 'CIVIL', 'CHEM', 'EEE', 'ECE'];
+            const tuesdaySaturday = ['BME', 'BT', 'FT', 'AIDS', 'CSBS', 'CSE', 'CSD', 'AIML', 'IT'];
+            
+            let monFriCount = 0, tuesSatCount = 0, otherCount = 0;
+            deptArray.forEach(([deptName, _]) => {
+                if (mondayFriday.includes(deptName)) monFriCount++;
+                else if (tuesdaySaturday.includes(deptName)) tuesSatCount++;
+                else otherCount++;
+            });
+
+            workdayDist.innerHTML = `
+                <div class="stat-item">
+                    <span class="stat-label">Monday-Friday Departments</span>
+                    <span class="stat-value">${monFriCount}</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Tuesday-Saturday Departments</span>
+                    <span class="stat-value">${tuesSatCount}</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Other Departments</span>
+                    <span class="stat-value">${otherCount}</span>
+                </div>
+            `;
+
+            // Course load by department
+            const courseLoad = document.getElementById('department-course-load');
+            courseLoad.innerHTML = deptArray.slice(0, 10).map(([deptName, deptData]) => `
+                <div class="department-item">
+                    <div class="department-name">${deptName}</div>
+                    <div class="stat-item">
+                        <span class="stat-label">Lessons</span>
+                        <span class="stat-value">${deptData.lessons}</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Courses</span>
+                        <span class="stat-value">${deptData.courses.size}</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Teachers</span>
+                        <span class="stat-value">${deptData.teachers.size}</span>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function updateTeacherAnalytics() {
+            const teachers = analyticsData.teachers;
+            const teacherArray = Array.from(teachers.entries()).sort((a, b) => b[1].hours - a[1].hours);
+            
+            // Teacher overview
+            const overviewStats = document.getElementById('teacher-overview-stats');
+            const totalTeachers = teachers.size;
+            const avgHours = totalTeachers > 0 ? (teacherArray.reduce((sum, [_, data]) => sum + data.hours, 0) / totalTeachers).toFixed(1) : 0;
+            const maxHours = teacherArray[0]?.[1]?.hours || 0;
+            
+            overviewStats.innerHTML = `
+                <div class="stats-grid">
+                    <div class="stats-card">
+                        <div class="stats-card-value">${totalTeachers}</div>
+                        <div class="stats-card-label">Total Teachers</div>
+                    </div>
+                    <div class="stats-card">
+                        <div class="stats-card-value">${avgHours}</div>
+                        <div class="stats-card-label">Average Hours</div>
+                    </div>
+                    <div class="stats-card">
+                        <div class="stats-card-value">${maxHours}</div>
+                        <div class="stats-card-label">Maximum Hours</div>
+                    </div>
+                 </div>
+            `;
+
+            // Workload distribution
+            const workloadDist = document.getElementById('teacher-workload');
+            let lightLoad = 0, normalLoad = 0, heavyLoad = 0;
+            teacherArray.forEach(([_, data]) => {
+                if (data.hours <= 8) lightLoad++;
+                else if (data.hours <= 16) normalLoad++;
+                else heavyLoad++;
+            });
+
+            workloadDist.innerHTML = `
+                <div class="stat-item">
+                    <span class="stat-label">Light Load (≤8h)</span>
+                    <span class="stat-value workload-normal">${lightLoad}</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Normal Load (9-16h)</span>
+                    <span class="stat-value workload-medium">${normalLoad}</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Heavy Load (>16h)</span>
+                    <span class="stat-value workload-high">${heavyLoad}</span>
+                </div>
+            `;
+
+            // Top teachers
+            const topTeachers = document.getElementById('top-teachers');
+            topTeachers.innerHTML = teacherArray.slice(0, 10).map(([teacherName, data]) => {
+                const workloadClass = data.hours <= 8 ? 'workload-normal' : data.hours <= 16 ? 'workload-medium' : 'workload-high';
+                return `
+                    <div class="teacher-item">
+                        <div class="teacher-name">${teacherName}</div>
+                        <div class="teacher-load ${workloadClass}">${data.hours}h (${data.lessons} lessons)</div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function updateTimeSlotAnalytics() {
+            const timeSlots = analyticsData.timeSlots;
+            const daily = analyticsData.daily;
+            
+            // Time slot overview
+            const overviewStats = document.getElementById('timeslot-overview-stats');
+            const slotArray = Array.from(timeSlots.entries()).sort((a, b) => b[1].count - a[1].count);
+            const totalSlots = slotArray.length;
+            const mostUsed = slotArray[0];
+            const leastUsed = slotArray[slotArray.length - 1];
+            
+            overviewStats.innerHTML = `
+                <div class="stats-grid">
+                    <div class="stats-card">
+                        <div class="stats-card-value">${totalSlots}</div>
+                        <div class="stats-card-label">Active Time Slots</div>
+                    </div>
+                    <div class="stats-card">
+                        <div class="stats-card-value">${mostUsed?.[1]?.count || 0}</div>
+                        <div class="stats-card-label">Peak Usage</div>
+                    </div>
+                    <div class="stats-card">
+                        <div class="stats-card-value">${mostUsed?.[0] || 'N/A'}</div>
+                        <div class="stats-card-label">Most Used Slot</div>
+                    </div>
+                 </div>
+            `;
+
+            // Peak hours analysis
+            const peakHours = document.getElementById('peak-hours-analysis');
+            peakHours.innerHTML = slotArray.slice(0, 8).map(([timeSlot, data]) => `
+                <div class="time-slot-item">
+                    <span class="slot-time">${timeSlot}</span>
+                    <span class="slot-usage">${data.count} lessons</span>
+                </div>
+            `).join('');
+
+            // Daily distribution
+            const dailyDist = document.getElementById('daily-distribution');
+            const dayOrder = ['MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY'];
+            dailyDist.innerHTML = dayOrder.map(day => {
+                const dayData = daily.get(day) || { lessons: 0, rooms: new Set(), teachers: new Set() };
+                return `
+                    <div class="stat-item">
+                        <span class="stat-label">${day.charAt(0) + day.slice(1).toLowerCase()}</span>
+                        <span class="stat-value">${dayData.lessons} lessons</span>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function switchAnalyticsTab(tabName) {
+            // Update tab buttons
+            document.querySelectorAll('.analytics-tab').forEach(tab => tab.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            // Update panels
+            document.querySelectorAll('.analytics-panel').forEach(panel => panel.classList.remove('active'));
+            document.getElementById(`${tabName}-panel`).classList.add('active');
+        }
+
+        function toggleAnalytics() {
+            const panels = document.querySelector('.analytics-panels');
+            const button = document.querySelector('.analytics-toggle-btn');
+            const toggleIcon = button.querySelector('.toggle-icon');
+            const toggleText = button.querySelector('span:last-child');
+            
+            isAnalyticsVisible = !isAnalyticsVisible;
+            
+            if (isAnalyticsVisible) {
+                panels.classList.add('expanded');
+                button.classList.add('expanded');
+                toggleIcon.textContent = '▲';
+                toggleText.textContent = 'Hide Analytics';
+                
+                // Check if content is scrollable and add indicator
+                setTimeout(() => {
+                    checkScrollableContent();
+                }, 350); // Wait for animation to complete
+            } else {
+                panels.classList.remove('expanded');
+                button.classList.remove('expanded');
+                toggleIcon.textContent = '▼';
+                toggleText.textContent = 'Show Analytics';
+                
+                // Remove scroll indicator when collapsed
+                const indicator = button.querySelector('.scroll-indicator');
+                if (indicator) {
+                    indicator.remove();
+                }
+            }
+        }
+
+        // Initialize analytics when data is loaded
+        function initializeAnalytics() {
+            if (timetableData && timetableData.lessons) {
+                calculateAnalytics();
+                loadRoomsData();
+            }
+        }
+
+        function checkScrollableContent() {
+            const panels = document.querySelector('.analytics-panels');
+            const button = document.querySelector('.analytics-toggle-btn');
+            
+            if (panels && panels.scrollHeight > panels.clientHeight) {
+                // Content is scrollable, add indicator
+                if (!button.querySelector('.scroll-indicator')) {
+                    const scrollIndicator = document.createElement('span');
+                    scrollIndicator.className = 'scroll-indicator';
+                    scrollIndicator.textContent = '↕';
+                    scrollIndicator.style.cssText = `
+                        color: rgba(255,255,255,0.7);
+                        font-size: 0.8em;
+                        margin-left: 4px;
+                        opacity: 0.8;
+                    `;
+                    button.appendChild(scrollIndicator);
+                }
+            } else {
+                // Remove indicator if content is not scrollable
+                const indicator = button.querySelector('.scroll-indicator');
+                if (indicator) {
+                    indicator.remove();
+                }
+            }
+        }
     </script>
 </body>
 </html>
