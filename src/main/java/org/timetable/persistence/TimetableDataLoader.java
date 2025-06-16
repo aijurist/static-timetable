@@ -364,7 +364,7 @@ public class TimetableDataLoader {
     private static List<TimeSlot> createTimeSlots() {
         List<TimeSlot> timeSlots = new ArrayList<>();
         int idCounter = 1;
-        DayOfWeek[] days = {DayOfWeek.MONDAY, DayOfWeek.TUESDAY, DayOfWeek.WEDNESDAY, DayOfWeek.THURSDAY, DayOfWeek.FRIDAY};
+        DayOfWeek[] days = {DayOfWeek.MONDAY, DayOfWeek.TUESDAY, DayOfWeek.WEDNESDAY, DayOfWeek.THURSDAY, DayOfWeek.FRIDAY, DayOfWeek.SATURDAY};
 
         LOGGER.info("Creating theory and lab timeslots...");
 

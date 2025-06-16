@@ -9,6 +9,7 @@ import org.timetable.domain.Lesson;
 import org.timetable.domain.Teacher;
 import org.timetable.domain.TimeSlot;
 import org.timetable.config.TimetableConfig;
+import org.timetable.config.DepartmentWorkdayConfig;
 import org.timetable.persistence.CourseLabMappingUtil;
 import org.timetable.domain.Room;
 
@@ -45,6 +46,9 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 minimumBreakBetweenClasses(constraintFactory),
                 teacherMaxConsecutiveHours(constraintFactory),
                 
+                // --- Department Workday Constraints ---
+                departmentOutsideAllowedDays(constraintFactory),
+                
                 // --- Soft Constraints (Performance Optimized) ---
                 teacherMaxWeeklyHours(constraintFactory),
                 teacherWorkdaySpan(constraintFactory),
@@ -55,12 +59,15 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 balanceTeacherDailyLoad(constraintFactory),
                 minimizeTeacherTravelTime(constraintFactory),
                 preferConsecutiveLessons(constraintFactory),
-                avoidLateClasses(constraintFactory),
                 specialRoomForAuto(constraintFactory),
-                teacherShiftPattern(constraintFactory),
                 computerDepartmentsMustUseComputerLabs(constraintFactory),
                 coreDepartmentsMustUseCoreOrComputerLabs(constraintFactory),
-                courseLabMustMatchMapping(constraintFactory)
+                courseLabMustMatchMapping(constraintFactory),
+                preventRandomLabAssignmentForMappedCourses(constraintFactory),
+                studentGroupShiftPattern(constraintFactory),
+                
+                // --- Department Workday Preferences ---
+                preferHotspotLabsOnMonday(constraintFactory)
         };
     }
 
@@ -359,18 +366,6 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
     }
 
     /**
-     * Avoid late classes (after 5 PM)
-     */
-    private Constraint avoidLateClasses(ConstraintFactory constraintFactory) {
-        return constraintFactory
-                .forEach(Lesson.class)
-                .filter(lesson -> lesson.getTimeSlot() != null && 
-                        lesson.getTimeSlot().getStartTime().getHour() >= 17)
-                .penalize(HardSoftScore.of(0, 1))
-                .asConstraint("Avoid late classes");
-    }
-
-    /**
      * HARD: Room numbers 61, 62, C108 in block C are restricted to Automobile department (AUTO).
      */
     private Constraint specialRoomForAuto(ConstraintFactory constraintFactory) {
@@ -389,7 +384,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 .forEach(Lesson.class)
                 .groupBy(Lesson::getTeacher, toList())
                 .filter((teacher, lessons) -> calculateShiftPenalty(lessons) > 0)
-                .penalize(HardSoftScore.of(0, 4),
+                .penalize(HardSoftScore.of(0, 1),
                         (teacher, lessons) -> calculateShiftPenalty(lessons))
                 .asConstraint("Teacher shift pattern");
     }
@@ -440,7 +435,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
             }
             // count==1 or 2 is acceptable, so no penalty
         }
-        return penalty;
+        return penalty * 10;
     }
 
     // Helper to map a lesson start time to a shift bucket (0,1,2)
@@ -518,10 +513,122 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
         return constraintFactory.forEach(Lesson.class)
                 .filter(lesson -> lesson.getSessionType().equals("lab"))
                 .filter(lesson -> CourseLabMappingUtil.isCoreLabCourse(lesson.getCourse().getCode()))
-                .join(Room.class, Joiners.equal(Lesson::getRoom, room -> room))
-                .filter((lesson, room) -> !CourseLabMappingUtil.isRoomAllowedForCourse(
-                        lesson.getCourse().getCode(), room.getDescription()))
-                .penalize(HardSoftScore.ONE_HARD.multiply(1000))
+                .filter(lesson -> lesson.getRoom() != null) // Only check assigned lessons
+                .filter(lesson -> !CourseLabMappingUtil.isRoomAllowedForCourse(
+                        lesson.getCourse().getCode(), lesson.getRoom().getDescription()))
+                .penalize(HardSoftScore.ONE_HARD.multiply(10000)) // Maximum penalty
                 .asConstraint("Course lab must match mapping");
     }
-} 
+
+    // Prevent any lab assignment for mapped courses that's not in their allowed list
+    private Constraint preventRandomLabAssignmentForMappedCourses(ConstraintFactory constraintFactory) {
+        return constraintFactory.forEach(Lesson.class)
+                .filter(lesson -> lesson.requiresLabRoom()) // Any lab lesson
+                .filter(lesson -> CourseLabMappingUtil.isCoreLabCourse(lesson.getCourse().getCode()))
+                .filter(lesson -> lesson.getRoom() != null)
+                .filter(lesson -> {
+                    // Check if this room is in the allowed list for this course
+                    String courseCode = lesson.getCourse().getCode();
+                    String roomDesc = lesson.getRoom().getDescription();
+                    return !CourseLabMappingUtil.isRoomAllowedForCourse(courseCode, roomDesc);
+                })
+                .penalize(HardSoftScore.ONE_HARD.multiply(50000)) // Even higher penalty
+                .asConstraint("Prevent random lab assignment for mapped courses");
+    }
+
+    // FIXED: Student group shift pattern now as soft constraint with improved penalty calculation
+    private Constraint studentGroupShiftPattern(ConstraintFactory constraintFactory) {
+        return constraintFactory
+                .forEach(Lesson.class)
+                .groupBy(Lesson::getStudentGroup, toList())
+                .filter((studentGroup, lessons) -> calculateStudentGroupShiftPenalty(lessons) > 0)
+                .penalize(HardSoftScore.ONE_SOFT, // Changed from HARD to SOFT
+                        (studentGroup, lessons) -> calculateStudentGroupShiftPenalty(lessons))
+                .asConstraint("Student group shift pattern");
+    }
+
+    /**
+     * Calculates a penalty based on how far a student group's weekly timetable deviates from the desired 2-2-1 shift distribution.
+     * <p>
+     * Shift buckets:
+     *   0 – Early shift  (first lesson starts before 10:00)  →  8-3 shift
+     *   1 – Mid shift    (first lesson starts between 10:00 ‑ 11:59) → 10-5 shift
+     *   2 – Late shift   (first lesson starts at/after 12:00) → 12-7 shift
+     * <p>
+     * For every week day we only consider the EARLIEST lesson start time when classifying the shift for that day.
+     * The ideal distribution for the five working days is two days in two of the buckets and one day in the remaining bucket (any permutation).
+     * The function returns 0 if the ideal distribution is achieved; otherwise it returns a positive integer representing the magnitude of deviation.
+     */
+    private static int calculateStudentGroupShiftPenalty(java.util.List<Lesson> lessons) {
+        // Earliest start time per day
+        java.util.EnumMap<java.time.DayOfWeek, java.time.LocalTime> earliestByDay = new java.util.EnumMap<>(java.time.DayOfWeek.class);
+        for (Lesson l : lessons) {
+            if (l.getTimeSlot() == null) continue;
+            var ts = l.getTimeSlot();
+            var day = ts.getDayOfWeek();
+            var start = ts.getStartTime();
+            var current = earliestByDay.get(day);
+            if (current == null || start.isBefore(current)) {
+                earliestByDay.put(day, start);
+            }
+        }
+        // Count shifts based on earliest appearance per day
+        int[] shiftCounts = new int[3]; // [early, mid, late]
+        for (java.time.LocalTime start : earliestByDay.values()) {
+            int bucket = classifyShift(start);
+            shiftCounts[bucket]++;
+        }
+        // Desired pattern after sorting should be [1,2,2]
+        int[] sorted = java.util.Arrays.stream(shiftCounts).sorted().toArray();
+        if (sorted[0] == 1 && sorted[1] == 2 && sorted[2] == 2) {
+            return 0; // perfect match
+        }
+        // Otherwise compute deviation penalty.
+        int penalty = 0;
+        for (int c : shiftCounts) {
+            if (c == 0) {
+                penalty += 2; // missing a shift bucket entirely
+            } else if (c > 2) {
+                penalty += c - 2; // more than 2 days in same shift
+            }
+            // count==1 or 2 is acceptable, so no penalty
+        }
+        return penalty * 10;
+    }
+
+    // ############################################################################
+    // Department Workday Constraints
+    // ############################################################################
+
+    /**
+     * HARD: Ensure departments only schedule lessons on their allowed working days
+     */
+    private Constraint departmentOutsideAllowedDays(ConstraintFactory constraintFactory) {
+        return constraintFactory
+                .forEach(Lesson.class)
+                .filter(lesson -> lesson.getTimeSlot() != null && lesson.getStudentGroup() != null)
+                .filter(lesson -> !DepartmentWorkdayConfig.isAllowedDay(
+                        lesson.getStudentGroup().getDepartment(), 
+                        lesson.getTimeSlot().getDayOfWeek()))
+                .penalize(HardSoftScore.ONE_HARD.multiply(1000)) // Very high penalty
+                .asConstraint("Department outside allowed working days");
+    }
+
+    /**
+     * SOFT: Prefer hotspot labs on Monday for Monday-Friday departments
+     */
+    private Constraint preferHotspotLabsOnMonday(ConstraintFactory constraintFactory) {
+        return constraintFactory
+                .forEach(Lesson.class)
+                .filter(lesson -> lesson.getTimeSlot() != null && 
+                        lesson.getRoom() != null && 
+                        lesson.getStudentGroup() != null)
+                .filter(lesson -> lesson.getTimeSlot().getDayOfWeek() == java.time.DayOfWeek.MONDAY)
+                .filter(lesson -> DepartmentWorkdayConfig.isMondayFridayDepartment(
+                        lesson.getStudentGroup().getDepartment()))
+                .filter(lesson -> DepartmentWorkdayConfig.isHotspotLab(
+                        lesson.getRoom().getDescription()))
+                .reward(HardSoftScore.of(0, 50)) // Moderate reward
+                .asConstraint("Prefer hotspot labs on Monday");
+    }
+}

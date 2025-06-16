@@ -5,7 +5,7 @@ import java.util.List;
 
 public class TimetableConfig {
     
-    public static final List<String> DAYS = List.of("Monday", "Tuesday", "Wednesday", "Thursday", "Friday");
+    public static final List<String> DAYS = List.of("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
 
     // Theory time slots
     public static final List<LocalTime[]> THEORY_TIME_SLOTS = List.of(

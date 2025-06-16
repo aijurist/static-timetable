@@ -62,6 +62,35 @@ public final class CourseLabMappingUtil {
         return new HashSet<>(COURSE_TO_LABS.keySet());
     }
 
+    /**
+     * Gets detailed mapping information for debugging.
+     */
+    public static void printMappingInfo() {
+        ensureLoaded();
+        LOGGER.info("=== COURSE LAB MAPPING INFO ===");
+        LOGGER.info("Total mapped courses: " + COURSE_TO_LABS.size());
+        
+        COURSE_TO_LABS.forEach((course, labs) -> {
+            LOGGER.info("Course " + course + " -> Labs: " + labs);
+        });
+        
+        LOGGER.info("=== END MAPPING INFO ===");
+    }
+
+    /**
+     * Validates that all mapped labs exist in the system.
+     */
+    public static Set<String> getUnmappedLabs(Set<String> availableLabs) {
+        ensureLoaded();
+        Set<String> allMappedLabs = new HashSet<>();
+        COURSE_TO_LABS.values().forEach(allMappedLabs::addAll);
+        
+        Set<String> unmappedLabs = new HashSet<>(allMappedLabs);
+        unmappedLabs.removeAll(availableLabs);
+        
+        return unmappedLabs;
+    }
+
     private static synchronized void ensureLoaded() {
         if (loaded) return;
         try {

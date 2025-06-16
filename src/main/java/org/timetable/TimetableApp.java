@@ -13,8 +13,12 @@ import org.timetable.persistence.TimetableDataLoader;
 import org.timetable.persistence.TimetableExporter;
 import org.timetable.persistence.TimetableJsonExporter;
 import org.timetable.solver.OptimizedTimetableConstraintProvider;
+import org.timetable.solver.EnhancedSolverConfig;
+import org.timetable.solver.SolverProgressMonitor;
+import org.timetable.config.SolverProperties;
 import org.timetable.validation.OptimizationValidator;
 import org.timetable.validation.CoreLabMappingValidator;
+import org.timetable.validation.CoreLabMappingEnforcer;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -40,6 +44,10 @@ public class TimetableApp {
 
         logger.info("Loading timetable problem from {} and {}", coursesFile, dataDir);
         TimetableProblem problem = TimetableDataLoader.loadProblem(coursesFile, dataDir);
+        
+        // Validate core lab mappings before solving
+        logger.info("--- Pre-Solve Validation ---");
+        CoreLabMappingEnforcer.validateMappingsBeforeSolving(problem);
 
         logger.info("--- Problem Statistics ---");
         logger.info("Loaded {} teachers", problem.getTeachers().size());
@@ -50,13 +58,21 @@ public class TimetableApp {
         logger.info("Created {} lessons to schedule", problem.getLessons().size());
 
         logger.info("--- Solver Phase ---");
-        logger.info("Creating basic solver with OptimizedTimetableConstraintProvider...");
-        Solver<TimetableProblem> solver = createBasicSolver();
+        SolverProperties.logCurrentConfiguration();
+        logger.info("Creating enhanced multithreaded solver...");
+        Solver<TimetableProblem> solver = EnhancedSolverConfig.createEnhancedSolver();
+        
+        // Add progress monitoring
+        SolverProgressMonitor progressMonitor = new SolverProgressMonitor();
+        solver.addEventListener(progressMonitor);
 
         logger.info("Solving timetable problem...");
         LocalDateTime solveStartTime = LocalDateTime.now();
         TimetableProblem solution = solver.solve(problem);
         LocalDateTime solveEndTime = LocalDateTime.now();
+        
+        // Log final solver statistics
+        progressMonitor.logFinalStats();
 
         Duration solvingTime = Duration.between(solveStartTime, solveEndTime);
         logger.info("Solved in {}.", formatDuration(solvingTime));
@@ -80,6 +96,15 @@ public class TimetableApp {
 
         // Validate core lab mappings
         CoreLabMappingValidator.validateCoreLabMappings(solution);
+        
+        // Enforce core lab mapping constraints
+        CoreLabMappingEnforcer.ValidationResult mappingResult = CoreLabMappingEnforcer.validateSolutionMappings(solution);
+        if (mappingResult.hasViolations()) {
+            logger.error("CRITICAL: Found {} core lab mapping violations in final solution!", mappingResult.getViolationCount());
+            logger.error("This indicates the constraint system needs strengthening.");
+        } else {
+            logger.info("✓ Perfect core lab mapping achieved - no violations found!");
+        }
 
         try {
             String timestamp = DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss").format(LocalDateTime.now());
@@ -96,6 +121,9 @@ public class TimetableApp {
 
             logger.info("Exporting JSON for visualizer to output/timetable.json");
             TimetableJsonExporter.exportTimetableToJson(solution, "output/timetable.json");
+
+            logger.info("Generating room availability CSV files...");
+            RoomAvailabilityAnalyzer.generateRoomAvailabilityCSV(solution);
 
             logger.info("Export completed successfully.");
         } catch (IOException e) {

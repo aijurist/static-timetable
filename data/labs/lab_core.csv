@@ -61,3 +61,15 @@ id,room_number,block,description,is_lab,room_type,room_min_cap,room_max_cap,has_
 300,VM01,C Block,Vehicle Maintenance Lab,1,Laboratory,20,35,1,0,Basic,23,0,0,0,core
 301,AC01,C Block,Automotive Components Lab,1,Laboratory,20,35,1,0,Basic,23,0,0,0,core
 302,CH01,C Block,Chemistry Lab,1,Laboratory,20,35,1,0,Basic,10,0,0,0,core
+303,215,D Block,Aerodynamics Lab,1,Laboratory,20,35,1,0,Basic,23,0,0,0,core
+304,216,D Block,Aircraft Structures Lab,1,Laboratory,20,35,1,0,Basic,23,0,0,0,core
+305,217,D Block,Airframe Repair and Aero Engine Lab,1,Laboratory,20,35,1,0,Basic,23,0,0,0,core
+306,218,D Block,Classroom,1,Laboratory,20,35,1,0,Basic,23,0,0,0,core
+307,219,D Block,Embedded System Laboratory(EEE),1,Laboratory,20,35,1,0,Basic,23,0,0,0,core
+308,220,D Block,Heat Transfer Lab,1,Laboratory,20,35,1,0,Basic,23,0,0,0,core
+309,221,D Block,Livestock Lab,1,Laboratory,20,35,1,0,Basic,23,0,0,0,core
+310,222,D Block,MEMS Lab,1,Laboratory,20,35,1,0,Basic,23,0,0,0,core
+311,223,D Block,Particle Science and Technology Lab,1,Laboratory,20,35,1,0,Basic,23,0,0,0,core
+312,224,D Block,Physics LAB - 1,1,Laboratory,20,35,1,0,Basic,23,0,0,0,core
+313,225,D Block,Physics LAB - 2,1,Laboratory,20,35,1,0,Basic,23,0,0,0,core
+314,226,D Block,Process Control Lab,1,Laboratory,20,35,1,0,Basic,23,0,0,0,core
