@@ -56,7 +56,7 @@ public class TimetableDataLoader {
             Map.entry("AERO", Map.of("2", 1, "3", 1, "4", 1)),
             Map.entry("AUTO", Map.of("2", 1, "3", 1, "4", 1)),
             Map.entry("MCT", Map.of("2", 1, "3", 1, "4", 1)),
-            Map.entry("MECH", Map.of("2", 2, "3", 2, "4", 2)),
+            Map.entry("MECH", Map.of("2", 2, "3", 2, "4", 3)),
             Map.entry("BT", Map.of("2", 3, "3", 3, "4", 3)),
             Map.entry("BME", Map.of("2", 2, "3", 2, "4", 2)),
             Map.entry("R&A", Map.of("2", 1, "3", 1, "4", 1)),

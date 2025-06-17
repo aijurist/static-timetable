@@ -472,40 +472,60 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
     }
 
     // Lab type matching constraints
+    /**
+     * Originally this was a HARD constraint which rendered many solutions infeasible when
+     * computer-lab capacity was insufficient. We now keep it as a strong SOFT preference so
+     * that the solver still tries to honour it, but feasibility is no longer broken.
+     */
     Constraint computerDepartmentsMustUseComputerLabs(ConstraintFactory constraintFactory) {
         return constraintFactory.forEach(Lesson.class)
                 .filter(lesson -> lesson.getSessionType().equals("lab"))
                 .filter(lesson -> isComputerDepartment(lesson.getStudentGroup().getDepartment()))
                 .join(Room.class, Joiners.equal(Lesson::getRoom, room -> room))
                 .filter((lesson, room) -> !"computer".equals(room.getLabType()))
-                .penalize(HardSoftScore.ONE_HARD.multiply(100))
-                .asConstraint("Computer departments must use computer labs");
+                .penalize(HardSoftScore.ONE_SOFT.multiply(1000)) // high soft penalty
+                .asConstraint("Computer departments should use computer labs");
     }
 
+    /**
+     * Core departments strongly prefer their own core labs; they MAY use computer labs when
+     * explicitly mapped. This is now a SOFT constraint to avoid infeasibility when capacity
+     * is tight.
+     */
     Constraint coreDepartmentsMustUseCoreOrComputerLabs(ConstraintFactory constraintFactory) {
         return constraintFactory.forEach(Lesson.class)
                 .filter(lesson -> lesson.getSessionType().equals("lab"))
                 .filter(lesson -> !isComputerDepartment(lesson.getStudentGroup().getDepartment()))
                 .join(Room.class, Joiners.equal(Lesson::getRoom, room -> room))
                 .filter((lesson, room) -> {
-                    // Core departments can use core labs or computer labs (if mapped)
+                    // Core departments can freely use core labs
                     String labType = room.getLabType();
                     if ("core".equals(labType)) {
-                        return false; // Core labs are always allowed
+                        return false;
                     }
                     if ("computer".equals(labType)) {
-                        // Check if this course is explicitly mapped to computer labs
+                        // Allowed only if explicitly mapped
                         return !CourseLabMappingUtil.isRoomAllowedForCourse(lesson.getCourse().getCode(), room.getDescription());
                     }
-                    return true; // Other lab types not allowed
+                    // Any other lab type is discouraged
+                    return true;
                 })
-                .penalize(HardSoftScore.ONE_HARD.multiply(50))
-                .asConstraint("Core departments must use appropriate labs");
+                .penalize(HardSoftScore.ONE_SOFT.multiply(500))
+                .asConstraint("Core departments should use appropriate labs");
     }
 
     // Helper method to identify computer departments
     private boolean isComputerDepartment(String department) {
-        return "CSE".equals(department) || "IT".equals(department) || "AIDS".equals(department) || "CSBS".equals(department);
+        // Recognize all computer-related departments so they are constrained to computer labs
+        return java.util.Set.of(
+                "CSE",
+                "IT", 
+                "AIDS",
+                "CSBS", 
+                "AIML", 
+                "CSD",    
+                "CSE-CS"  
+        ).contains(department);
     }
 
     // Enforce that courses with explicit lab mappings must be scheduled in one of their allowed labs
