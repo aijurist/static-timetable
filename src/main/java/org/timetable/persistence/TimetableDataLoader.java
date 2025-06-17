@@ -322,8 +322,19 @@ public class TimetableDataLoader {
                         // Create lab lessons if needed
                         if (course.getPracticalHours() > 0) {
                             int labSessions = course.getPracticalHours() / 2; // Each session is 2 hours
-                            boolean needsBatching = group.getSize() > TimetableConfig.LAB_BATCH_SIZE;
 
+                            // Certain project/industry-style labs must run with the FULL class in a 70-seat lab;
+                            // do NOT split them even if class strength > 35.
+                            final java.util.Set<String> UNBATCHED_COURSES = java.util.Set.of(
+                                    "CD23321", 
+                                    "CS19P23",
+                                    "CS19P21"
+                            );
+
+                            boolean forceFullGroup = UNBATCHED_COURSES.contains(course.getCode());
+
+                            boolean needsBatching = !forceFullGroup && group.getSize() > TimetableConfig.LAB_BATCH_SIZE;
+                             
                             if (needsBatching) {
                                 // CORRECTED FIX: Each batch gets the full practical hours allocation
                                 LOGGER.info(String.format(

@@ -30,28 +30,31 @@ public class DepartmentWorkdayConfig {
     // Department code aliases
     // These are short codes used across the system (e.g., in StudentGroup objects)
     public static final Set<String> MONDAY_FRIDAY_CODES = Set.of(
+        // Core departments
         "AERO",  // Aeronautical Engineering
-        "AUTO",  // Automobile Engineering
+        "AUTO",  // Automobile Engineering  
         "MECH",  // Mechanical Engineering
-        "MCT",   // Mechatronics Engineering
-        "RA", "R&A", // Robotics & Automation (two common variations)
         "CIVIL", // Civil Engineering
         "CHEM",  // Chemical Engineering
         "EEE",   // Electrical & Electronics Engineering
-        "ECE"    // Electronics & Communication Engineering
+        // Computer departments for balance
+        "CSE",   // Computer Science and Engineering  // Information Technology
+        "AIDS",
+        "CSBS"
     );
     
     // Batch B departments (Tuesday to Saturday)
     public static final Set<String> TUESDAY_SATURDAY_CODES = Set.of(
+        // Core departments
         "BME",   // Biomedical Engineering
         "BT",    // Biotechnology
         "FT",    // Food Technology
-        "AIDS",  // Artificial Intelligence and Data Science
-        "CSBS",  // Computer Science and Business Systems
-        "CSE",   // Computer Science and Engineering
-        "CSD",   // Computer Science & Design
-        "AIML", // Artificial Intelligence & Machine Learning
-        "IT" // Information Technology
+        "ECE",   // Electronics & Communication Engineering
+        "MCT",   // Mechatronics Engineering
+        "RA", "R&A", // Robotics & Automation
+        "CSD",
+        "IT",   // Computer Science & Design
+        "AIML"   // Artificial Intelligence & Machine Learning
     );
     
     public static final Set<String> TUESDAY_SATURDAY_DEPARTMENTS = Set.of(

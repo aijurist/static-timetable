@@ -156,7 +156,7 @@
             min-width: 80px;
         }
 
-        select, .toggle-btn {
+        select, .toggle-btn, input[type="text"] {
             padding: 8px 12px;
             border: 1px solid var(--border-color);
             border-radius: 8px;
@@ -166,6 +166,16 @@
             cursor: pointer;
             min-width: 120px;
             transition: all 0.2s;
+        }
+
+        input[type="text"] {
+            cursor: text;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: var(--theory-color);
+            box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.2);
         }
 
         .toggle-btn {
@@ -1235,6 +1245,14 @@
                 <select id="entitySelector"></select>
             </div>
 
+            <div class="control-group" id="teacherSearchGroup" style="display: none;">
+                <label>Search Teacher:</label>
+                <input type="text" id="teacherSearch" placeholder="Type teacher name..." 
+                       style="padding: 8px 12px; border: 1px solid var(--border-color); border-radius: 8px; 
+                              background-color: var(--cell-bg); color: var(--text-primary); font-size: 14px; 
+                              min-width: 200px; transition: all 0.2s;">
+            </div>
+
             <!-- Theme toggle button -->
             <div class="control-group" style="margin-left:auto;">
                 <button id="themeToggle" class="toggle-btn">Light Mode</button>
@@ -2069,6 +2087,8 @@
 
             const selector = document.getElementById('entitySelector');
             const viewType = document.getElementById('viewType').value;
+            const searchGroup = document.getElementById('teacherSearchGroup');
+            
             selector.innerHTML = '';
 
             const showAllOption = document.createElement('option');
@@ -2077,12 +2097,19 @@
             selector.appendChild(showAllOption);
 
             if (viewType === 'teacher') {
+                // Show search field for teacher view
+                searchGroup.style.display = 'flex';
+                
                 const teachers = new Map();
                 timetableData.lessons.forEach(lesson => {
                     if (!teachers.has(lesson.teacherId)) {
                         teachers.set(lesson.teacherId, lesson.teacher);
                     }
                 });
+
+                // Store all teachers for search functionality
+                window.allTeachers = teachers;
+                console.log('Stored teachers for search:', teachers.size, 'teachers');
 
                 teachers.forEach((name, id) => {
                     const option = document.createElement('option');
@@ -2091,6 +2118,9 @@
                     selector.appendChild(option);
                 });
             } else {
+                // Hide search field for non-teacher views
+                searchGroup.style.display = 'none';
+                
                 const groups = new Map();
                 timetableData.lessons.forEach(lesson => {
                     if (!groups.has(lesson.groupId)) {
@@ -2107,6 +2137,12 @@
             }
             
             selector.value = '';
+            
+            // Clear search field when switching views
+            const searchField = document.getElementById('teacherSearch');
+            if (searchField) {
+                searchField.value = '';
+            }
         }
 
         function showErrorMessage(message) {
@@ -2184,6 +2220,7 @@
                 }
                 timetableData = data;
                 updateEntitySelector();
+                setupTeacherSearch(); // Initialize search after data is loaded
                 initializeAnalytics(); // Initialize analytics with loaded data
                 filterLessons();
             })
@@ -2192,16 +2229,104 @@
                 showErrorMessage(`Failed to load timetable.json: ${error.message}`);
             });
 
+        // Teacher search functionality
+        function setupTeacherSearch() {
+            const searchField = document.getElementById('teacherSearch');
+            const entitySelector = document.getElementById('entitySelector');
+            
+            if (!searchField || !entitySelector) {
+                console.warn('Search elements not found, skipping search setup');
+                return;
+            }
+            
+            // Clear any existing event listeners by cloning the element
+            const newSearchField = searchField.cloneNode(true);
+            searchField.parentNode.replaceChild(newSearchField, searchField);
+            
+            // Add input event listener for real-time search
+            newSearchField.addEventListener('input', function() {
+                const searchTerm = this.value.toLowerCase().trim();
+                
+                if (searchTerm === '') {
+                    // If search is empty, show all teachers
+                    entitySelector.value = '';
+                    filterLessons();
+                    return;
+                }
+                
+                // Find matching teacher
+                if (window.allTeachers && window.allTeachers.size > 0) {
+                    let matchedTeacherId = null;
+                    let exactMatch = false;
+                    
+                    // Search through all teachers
+                    for (const [id, name] of window.allTeachers) {
+                        const teacherName = name.toLowerCase();
+                        
+                        // Check for exact match first
+                        if (teacherName === searchTerm) {
+                            matchedTeacherId = id;
+                            exactMatch = true;
+                            break;
+                        }
+                        
+                        // Check for partial match if no exact match found
+                        if (!exactMatch && teacherName.includes(searchTerm)) {
+                            matchedTeacherId = id;
+                        }
+                    }
+                    
+                    if (matchedTeacherId) {
+                        entitySelector.value = matchedTeacherId;
+                        filterLessons();
+                    } else {
+                        // No match found, show all
+                        entitySelector.value = '';
+                        filterLessons();
+                    }
+                } else {
+                    console.warn('No teachers data available for search');
+                }
+            });
+            
+            // Handle search field focus styling
+            newSearchField.addEventListener('focus', function() {
+                this.style.borderColor = 'var(--theory-color)';
+                this.style.boxShadow = '0 0 0 2px rgba(96, 165, 250, 0.2)';
+            });
+            
+            newSearchField.addEventListener('blur', function() {
+                this.style.borderColor = 'var(--border-color)';
+                this.style.boxShadow = 'none';
+            });
+            
+            console.log('Teacher search functionality initialized');
+        }
+
         // Event listeners
         document.getElementById('viewType').addEventListener('change', function() {
             updateEntitySelector();
             filterLessons();
         });
 
-        document.getElementById('entitySelector').addEventListener('change', filterLessons);
+        document.getElementById('entitySelector').addEventListener('change', function() {
+            // Update search field when manually selecting from dropdown
+            const searchField = document.getElementById('teacherSearch');
+            if (searchField && document.getElementById('viewType').value === 'teacher') {
+                const selectedOption = this.options[this.selectedIndex];
+                if (selectedOption && selectedOption.value !== '') {
+                    searchField.value = selectedOption.textContent;
+                } else {
+                    searchField.value = '';
+                }
+            }
+            filterLessons();
+        });
 
         // Theme toggle listener
         document.getElementById('themeToggle').addEventListener('click', toggleTheme);
+
+        // Teacher search will be initialized after data is loaded
 
         // ############################################################################
         // Analytics Functions

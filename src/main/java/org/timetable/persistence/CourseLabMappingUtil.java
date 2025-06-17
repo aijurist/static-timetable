@@ -91,6 +91,15 @@ public final class CourseLabMappingUtil {
         return unmappedLabs;
     }
 
+    /**
+     * Returns the required lab type for a course if specified ("computer" or "core").
+     * Currently returns null for all courses as lab type is not stored in the mapping.
+     * This method exists to support constraint logic that may reference it.
+     */
+    public static String getRequiredLabType(String courseCode) {
+        return null; // Not implemented yet - can be extended later
+    }
+
     private static synchronized void ensureLoaded() {
         if (loaded) return;
         try {

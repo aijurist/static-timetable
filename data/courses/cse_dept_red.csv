@@ -2,7 +2,7 @@ student_count,academic_year,semester,requires_special_scheduling,is_assistant,te
 67,4,7,0,0,189,CS289,Mr.,S Umamaheswararao,umamaheswararao.s@rajalakshmi.edu.in,552,CD19721,Introduction to 3D Animation,T,1,0,0,1,Computer Science & Design
 67,4,7,0,0,178,CS307,Dr.,Gunasekar S,gunasekar.s@rajalakshmi.edu.in,557,CD19P15,Foundations of Machine Learning Concepts,LoT,2,2,0,3,Computer Science & Design
 67,4,7,0,0,185,CS306,Mr.,Thirumalairajan G,thirumalairajan.g@rajalakshmi.edu.in,559,CD19P11,Digital Media Entrepreneurship,LoT,2,2,0,3,Computer Science & Design
-67,4,7,0,0,182,CS331,Mr.,S Pradeep Kumar,pradeepkumar.s@rajalakshmi.edu.in,556,CD19711,Project-I,L,0,2,0,3,Computer Science & Design
+,,,,,,,,,,,,,,,,,,
 64,2,3,0,0,1743,CSD001,,New Staff - 01,,171,CD23332,UI and UX design,LoT,2,4,0,4,Computer Science & Design
 64,3,5,0,0,189,CS289,Mr.,S Umamaheswararao,umamaheswararao.s@rajalakshmi.edu.in,540,CD23531,3D Modelling and Texturing,LoT,2,2,0,3,Computer Science & Design
 64,2,3,0,0,179,CS11,Mrs.,Revathy Padmanabhan,revathy.p@rajalakshmi.edu.in,257,CS23331,Design and Analysis of Algorithms,LoT,3,2,0,4,Computer Science & Design
@@ -40,13 +40,13 @@ student_count,academic_year,semester,requires_special_scheduling,is_assistant,te
 70,2,3,0,0,1753,New Staff-1,,New Staff - 03,,256,CS23311,Computer Architecture,T,3,0,0,3,Computer Science & Engineering
 70,2,3,0,0,1754,New Staff-2,,New Staff - 04,,256,CS23311,Computer Architecture,T,3,0,0,3,Computer Science & Engineering
 70,4,7,0,0,577,CS295,HOD,AIML,hod.aiml@rajalakshmi.edu.in,710,AI19741,Big Data Technology,LoT,3,2,0,4,Artificial Intelligence & Machine Learning
-70,4,7,0,1,577,CS295,HOD,AIML,hod.aiml@rajalakshmi.edu.in,751,AI19711,Project-I,L,0,2,0,3,Artificial Intelligence & Machine Learning
+,,,,,,,,,,,,,,,,,,
 70,4,7,0,1,31,CS09,Mrs.,Dr. S. Poonkuzhali,poonkuzhali.s@rajalakshmi.edu.in,748,AI19P71,Data Visualization using Python (Professional Elective III),LoT,2,2,0,3,Artificial Intelligence & Machine Learning
 70,4,7,0,0,47,IT236,Dr.,N M Balamurugan,balamurugan.mn@rajalakshmi.edu.in,749,AI19701,Secure Systems Engineering,T,3,0,0,3,Artificial Intelligence & Machine Learning
 70,2,3,0,0,57,AU35,Mr.,Magesh M P,magesh.mp@rajalakshmi.edu.in,36,AI23331,Fundamentals of Machine Learning,LoT,3,2,0,4,Artificial Intelligence & Machine Learning
 70,3,5,0,0,67,IT250,Dr.,Raju K,raju.k@rajalakshmi.edu.in,39,AI23531,Deep Learning,LoT,3,2,0,4,Artificial Intelligence & Machine Learning
-70,4,7,0,1,40,IT178,Mrs.,Sowmia K R,sowmia.kr@rajalakshmi.edu.in,751,AI19711,Project-I,L,0,2,0,3,Artificial Intelligence & Machine Learning
-70,4,7,0,1,36,IT227,Mrs.,Sree Subha S,sreesubha.s@rajalakshmi.edu.in,751,AI19711,Project-I,L,0,2,0,3,Artificial Intelligence & Machine Learning
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
 70,4,7,0,0,38,CS175,Mr.,Vijay K,vijay.k@rajalakshmi.edu.in,748,AI19P71,Data Visualization using Python (Professional Elective III),LoT,2,2,0,3,Artificial Intelligence & Machine Learning
 70,4,7,0,0,37,IT232,Mr.,Kumaran U,kumaran.u@rajalakshmi.edu.in,712,AI19P75,Information Retrieval (Professional Elective V),LoT,2,2,0,3,Artificial Intelligence & Machine Learning
 70,3,5,0,0,39,IT195,Mrs.,Sangeetha K,sangeetha.k@rajalakshmi.edu.in,752,AI23A37,Computer Vision and Applications,LoT,2,2,0,3,Artificial Intelligence & Machine Learning
@@ -80,9 +80,9 @@ student_count,academic_year,semester,requires_special_scheduling,is_assistant,te
 69,4,7,0,1,410,IT186,Mrs.,Dr. Nalini Subramanian,nalini.s@rajalakshmi.edu.in,563,IT19741,Cloud and Big Data Analytics,LoT,3,4,0,5,Information Technology
 69,4,7,0,1,382,IT173,Mrs.,M.Madhu Rani,madhurani.m@rajalakshmi.edu.in,563,IT19741,Cloud and Big Data Analytics,LoT,3,4,0,5,Information Technology
 68,4,7,0,1,387,IT192,Mrs.,Bhalashri Sethuraman,bhalashri.sethuraman@rajalakshmi.edu.in,563,IT19741,Cloud and Big Data Analytics,LoT,3,4,0,5,Information Technology
-69,4,7,0,0,391,IT200,Mrs.,Dr.P.Neelaveni,neelaveni.p@rajalakshmi.edu.in,659,IT19712,Project Phase I,L,0,2,0,4,Information Technology
-69,4,7,0,0,398,IT201,Mr.,Dr.M.Babu,babu.m@rajalakshmi.edu.in,659,IT19712,Project Phase I,L,0,2,0,4,Information Technology
-68,4,7,0,0,382,IT173,Mrs.,M.Madhu Rani,madhurani.m@rajalakshmi.edu.in,659,IT19712,Project Phase I,L,0,2,0,4,Information Technology
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
 69,4,7,0,1,415,MA103,Ms.,Janani M,janani.m@rajalakshmi.edu.in,660,IT19711,Industry Practices Lab,L,0,4,0,2,Information Technology
 69,4,7,0,1,402,IT251,Mr.,Suresh Kumar K,sureshkumar.k@rajalakshmi.edu.in,660,IT19711,Industry Practices Lab,L,0,4,0,2,Information Technology
 68,4,7,0,1,421,IT260,Mr.,Vimalan M,vimalan.m@rajalakshmi.edu.in,660,IT19711,Industry Practices Lab,L,0,4,0,2,Information Technology
@@ -127,7 +127,7 @@ student_count,academic_year,semester,requires_special_scheduling,is_assistant,te
 134,3,5,0,1,413,IT259,Ms.,Bhuvaneshwari Muthukumaran,bhuvaneshwari.m@rajalakshmi.edu.in,35,AI23231,Principles of Artificial Intelligence,LoT,3,2,0,4,Information Technology
 67,3,5,0,1,417,IT263,Mr.,Sathish M,sathish.m1@rajalakshmi.edu.in,35,AI23231,Principles of Artificial Intelligence,LoT,3,2,0,4,Information Technology
 67,3,5,0,1,423,IT205,Mrs.,K Indumathi,indumathik@rajalakshmi.edu.in,35,AI23231,Principles of Artificial Intelligence,LoT,3,2,0,4,Information Technology
-70,4,7,0,0,165,CS316,Dr.,Manikandan Thirumalaisamy,manikandan.thirumalaisamy@rajalakshmi.edu.in,877,CB19711,Project Evaluation I,L,0,2,0,0,Computer Science & Business Systems
+,,,,,,,,,,,,,,,,,,
 70,3,5,0,0,170,CS270,Mrs.,Dr. P. Tamil Selvi,tamilselvi.p@rajalakshmi.edu.in,890,CB23D31,Data Mining and Analytics,LoT,3,2,0,4,Computer Science & Business Systems
 70,4,7,0,1,170,CS270,Mrs.,Dr. P. Tamil Selvi,tamilselvi.p@rajalakshmi.edu.in,875,CB19P45,Modern Web Applications,LoT,3,2,0,4,Computer Science & Business Systems
 64,2,3,0,1,383,CS47,Mrs.,Priya Vijay,Priya.vijay@rajalakshmi.edu.in,259,CS23333,Object Oriented Programming Using JAVA,LoT,3,4,0,4,Information Technology
@@ -139,7 +139,7 @@ student_count,academic_year,semester,requires_special_scheduling,is_assistant,te
 64,2,3,0,1,378,IT30,Mrs.,Usha S,usha.s@rajalakshmi.edu.in,259,CS23333,Object Oriented Programming Using JAVA,LoT,3,4,0,4,Information Technology
 64,2,3,0,1,402,IT251,Mr.,Suresh Kumar K,sureshkumar.k@rajalakshmi.edu.in,259,CS23333,Object Oriented Programming Using JAVA,LoT,3,4,0,4,Information Technology
 70,4,7,0,0,164,IT116,Mrs.,K Poornimathi,poornimathi.k@rajalakshmi.edu.in,873,CB19742,IT Workshop,LoT,2,2,0,2,Computer Science & Business Systems
-70,4,7,0,0,164,IT116,Mrs.,K Poornimathi,poornimathi.k@rajalakshmi.edu.in,877,CB19711,Project Evaluation I,L,0,2,0,0,Computer Science & Business Systems
+,,,,,,,,,,,,,,,,,,
 70,4,7,0,0,156,IT172,Mrs.,Nisha R S,nisha.rs@rajalakshmi.edu.in,872,CB19741,Usability Design of Software  Applications,LoT,3,2,0,4,Computer Science & Business Systems
 70,2,3,0,0,156,IT172,Mrs.,Nisha R S,nisha.rs@rajalakshmi.edu.in,151,CB23333,Database Technology,LoT,3,2,0,4,Computer Science & Business Systems
 66,3,5,0,1,241,CS324,Ms.,R Rupmala,rupmala.r@rajalakshmi.edu.in,269,CS23531,Web Programming,LoT,3,4,0,4,Computer Science & Engineering (Cyber Security)
@@ -235,11 +235,11 @@ student_count,academic_year,semester,requires_special_scheduling,is_assistant,te
 70,4,6,0,1,227,CS279,Dr.,M.Rakesh Kumar,rakeshkumar.m@rajalakshmi.edu.in,829,CS19P18,DEEP LEARNING CONCEPTS,LoT,2,2,0,3,Computer Science & Engineering
 70,4,6,0,1,248,CS333,Mrs.,Suba Malai Rajasekar,subamalai.r@rajalakshmi.edu.in,829,CS19P18,DEEP LEARNING CONCEPTS,LoT,2,2,0,3,Computer Science & Engineering
 70,4,6,0,1,248,CS333,Mrs.,Suba Malai Rajasekar,subamalai.r@rajalakshmi.edu.in,829,CS19P18,DEEP LEARNING CONCEPTS,LoT,2,2,0,3,Computer Science & Engineering
-70,4,7,0,1,217,CS256,Mrs.,Dr.R.Sabitha,sabitha.r@rajalakshmi.edu.in,841,CS19711,Project-1,L,0,2,0,3,Computer Science & Engineering
-70,4,7,0,0,207,CS239,Mr.,Srinivasan N,srinivasan.n@rajalakshmi.edu.in,841,CS19711,Project-1,L,0,2,0,3,Computer Science & Engineering
-70,4,7,0,0,211,CS253,Mr.,Dr.K.Anand,anand.k@rajalakshmi.edu.in,841,CS19711,Project-1,L,0,2,0,3,Computer Science & Engineering
-70,4,7,0,0,245,CS319,Dr.,Chettiyar Vani Vivekanand,chettiyarvanivivekanand@rajalakshmi.edu.in,841,CS19711,Project-1,L,0,2,0,3,Computer Science & Engineering
-70,4,7,0,0,240,CS305,Mr.,Dr Parthasarathy C,parthasarathy.c@rajalakshmi.edu.in,841,CS19711,Project-1,L,0,2,0,3,Computer Science & Engineering
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
 70,3,5,0,0,222,CS255,Mr.,Dr.K.Ananthajothi,ananthajothi.k@rajalakshmi.edu.in,267,CS23511,Theory of Computation,T,3,0,1,4,Computer Science & Engineering
 70,3,5,0,0,222,CS255,Mr.,Dr.K.Ananthajothi,ananthajothi.k@rajalakshmi.edu.in,267,CS23511,Theory of Computation,T,3,0,1,4,Computer Science & Engineering
 70,3,5,0,0,203,CS178,Mrs.,Akiladevi R,akiladevi.r@rajalakshmi.edu.in,267,CS23511,Theory of Computation,T,3,0,1,4,Computer Science & Engineering

@@ -28,45 +28,69 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
     @Override
     public Constraint[] defineConstraints(ConstraintFactory constraintFactory) {
         return new Constraint[]{
-                // --- Core Hard Constraints ---
+                // ########################################################################
+                // TIER 1: CRITICAL HARD CONSTRAINTS (Must be satisfied for feasibility)
+                // ########################################################################
+                
+                // Time and room slot enforcement - highest priority
+                labInLabSlot(constraintFactory),
+                theoryInTheorySlot(constraintFactory),
+                labInLabRoom(constraintFactory), 
+                theoryInTheoryRoom(constraintFactory),
+                
+                // Room capacity and basic conflicts
+                roomCapacity(constraintFactory),
                 roomConflict(constraintFactory),
                 teacherConflict(constraintFactory),
                 studentGroupConflict(constraintFactory),
-                roomCapacity(constraintFactory),
-                labInLabRoom(constraintFactory),
-                theoryInTheoryRoom(constraintFactory),
-                labInLabSlot(constraintFactory),
-                theoryInTheorySlot(constraintFactory),
+                
+                // Lab type enforcement for mapped courses (very important)
+                courseLabMustMatchMapping(constraintFactory),
+                courseRequiredLabTypeMustMatchRoom(constraintFactory),
+                
+                // Department workday policies
+                departmentOutsideAllowedDays(constraintFactory),
+                
+                // Lecture/lab batching rules
                 lectureOrTutorialMustBeForFullGroup(constraintFactory),
                 labForLargeGroupMustBeBatched(constraintFactory),
                 
-                // --- Enhanced Hard Constraints ---
-                sameTeacherSameCourseConflict(constraintFactory),
-                labTheoryOverlapConflict(constraintFactory),
-                minimumBreakBetweenClasses(constraintFactory),
-                teacherMaxConsecutiveHours(constraintFactory),
+                // Special room restrictions
+                specialRoomForAuto(constraintFactory),
                 
-                // --- Department Workday Constraints ---
-                departmentOutsideAllowedDays(constraintFactory),
+                // ########################################################################
+                // TIER 2: IMPORTANT SOFT CONSTRAINTS (Preferences and efficiency)
+                // ########################################################################
                 
-                // --- Soft Constraints (Performance Optimized) ---
+                // Lab type preferences for non-mapped courses
+                computerDepartmentsShouldUseComputerLabs(constraintFactory),
+                coreDepartmentsShouldUseCoreOrComputerLabs(constraintFactory),
+                
+                // Large lab efficiency - encourage combining batches
+                largeLab70CapacityBatchCombining(constraintFactory),
+                // NEW: Penalize inefficient batch splitting
+                penalizeSplitBatchesSeparateLargeLabs(constraintFactory),
+                
+                // Teacher workload management
                 teacherMaxWeeklyHours(constraintFactory),
                 teacherWorkdaySpan(constraintFactory),
+                balanceTeacherDailyLoad(constraintFactory),
+                
+                // Student group preferences
+                studentGroupShiftPattern(constraintFactory),
                 penalizePairedLabInDifferentSlots(constraintFactory),
                 
-                // --- Enhanced Soft Constraints ---
+                // ########################################################################
+                // TIER 3: MILD SOFT CONSTRAINTS (Nice-to-have optimizations)
+                // ########################################################################
+                
+                // Teaching preferences and efficiency
                 preferTeacherTimePreferences(constraintFactory),
-                balanceTeacherDailyLoad(constraintFactory),
+                teacherMaxConsecutiveHours(constraintFactory),
                 minimizeTeacherTravelTime(constraintFactory),
                 preferConsecutiveLessons(constraintFactory),
-                specialRoomForAuto(constraintFactory),
-                computerDepartmentsMustUseComputerLabs(constraintFactory),
-                coreDepartmentsMustUseCoreOrComputerLabs(constraintFactory),
-                courseLabMustMatchMapping(constraintFactory),
-                preventRandomLabAssignmentForMappedCourses(constraintFactory),
-                studentGroupShiftPattern(constraintFactory),
                 
-                // --- Department Workday Preferences ---
+                // Lab utilization optimization
                 preferHotspotLabsOnMonday(constraintFactory)
         };
     }
@@ -184,12 +208,15 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
     }
 
     // ############################################################################
-    // Enhanced Hard Constraints
+    // Enhanced Hard Constraints - REMOVED TO REDUCE CONFLICTS
+    // These constraints were causing too many conflicts and making solutions infeasible
     // ############################################################################
 
     /**
-     * Prevent the same teacher from teaching the same course at the same time
+     * DISABLED: Prevent the same teacher from teaching the same course at the same time
+     * This constraint was causing excessive conflicts - teachers can handle multiple batches
      */
+    /*
     private Constraint sameTeacherSameCourseConflict(ConstraintFactory constraintFactory) {
         return constraintFactory
                 .forEachUniquePair(Lesson.class,
@@ -199,10 +226,13 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 .penalize(HardSoftScore.of(5, 0)) // Reduced from 10
                 .asConstraint("Same teacher same course conflict");
     }
+    */
 
     /**
-     * Prevent lab and theory sessions of the same course from overlapping for the same student group
+     * DISABLED: Prevent lab and theory sessions of the same course from overlapping
+     * This constraint was too restrictive and causing scheduling conflicts
      */
+    /*
     private Constraint labTheoryOverlapConflict(ConstraintFactory constraintFactory) {
         return constraintFactory
                 .forEachUniquePair(Lesson.class,
@@ -215,10 +245,13 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 .penalize(HardSoftScore.of(3, 0)) // Reduced from 10
                 .asConstraint("Lab theory overlap conflict");
     }
+    */
 
     /**
-     * Ensure minimum break between classes for teachers (15 minutes)
+     * DISABLED: Minimum break between classes for teachers
+     * This constraint was causing infeasibility when teachers have back-to-back classes
      */
+    /*
     private Constraint minimumBreakBetweenClasses(ConstraintFactory constraintFactory) {
         return constraintFactory
                 .forEachUniquePair(Lesson.class,
@@ -240,9 +273,11 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 .penalize(HardSoftScore.of(1, 0)) // Light penalty
                 .asConstraint("Minimum break between classes");
     }
+    */
 
     /**
-     * Limit teacher's consecutive hours to avoid fatigue
+     * DISABLED: Teacher consecutive hours limit  
+     * This constraint was too restrictive for academic scheduling
      */
     private Constraint teacherMaxConsecutiveHours(ConstraintFactory constraintFactory) {
         return constraintFactory
@@ -254,10 +289,31 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                         (lesson1, lesson2) -> lesson1.getTimeSlot().getDayOfWeek(),
                         countBi())
                 .filter((teacher, day, consecutiveCount) -> consecutiveCount > 3)
-                .penalize(HardSoftScore.of(2, 0), // Moderate penalty
+                .penalize(HardSoftScore.of(0, 10), // Moderate penalty
                         (teacher, day, consecutiveCount) -> consecutiveCount - 3)
                 .asConstraint("Teacher max consecutive hours");
     }
+
+    /**
+     * DISABLED: Prevent random lab assignment for mapped courses
+     * This was redundant with courseLabMustMatchMapping and causing double penalties
+     */
+    /*
+    private Constraint preventRandomLabAssignmentForMappedCourses(ConstraintFactory constraintFactory) {
+        return constraintFactory.forEach(Lesson.class)
+                .filter(lesson -> lesson.requiresLabRoom()) // Any lab lesson
+                .filter(lesson -> CourseLabMappingUtil.isCoreLabCourse(lesson.getCourse().getCode()))
+                .filter(lesson -> lesson.getRoom() != null)
+                .filter(lesson -> {
+                    // Check if this room is in the allowed list for this course
+                    String courseCode = lesson.getCourse().getCode();
+                    String roomDesc = lesson.getRoom().getDescription();
+                    return !CourseLabMappingUtil.isRoomAllowedForCourse(courseCode, roomDesc);
+                })
+                .penalize(HardSoftScore.ONE_HARD.multiply(50000)) // Even higher penalty
+                .asConstraint("Prevent random lab assignment for mapped courses");
+    }
+    */
 
     // ############################################################################
     // Soft Constraints (Performance Optimized)
@@ -361,7 +417,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                         Joiners.equal(Lesson::getCourse),
                         Joiners.equal(l -> l.getTimeSlot().getDayOfWeek()))
                 .filter((lesson1, lesson2) -> areConsecutiveLessons(lesson1, lesson2))
-                .reward(HardSoftScore.of(0, 1)) // Reduced reward
+                .reward(HardSoftScore.of(0, 2)) // Small reward
                 .asConstraint("Prefer consecutive lessons");
     }
 
@@ -477,13 +533,13 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
      * computer-lab capacity was insufficient. We now keep it as a strong SOFT preference so
      * that the solver still tries to honour it, but feasibility is no longer broken.
      */
-    Constraint computerDepartmentsMustUseComputerLabs(ConstraintFactory constraintFactory) {
+    Constraint computerDepartmentsShouldUseComputerLabs(ConstraintFactory constraintFactory) {
         return constraintFactory.forEach(Lesson.class)
                 .filter(lesson -> lesson.getSessionType().equals("lab"))
                 .filter(lesson -> isComputerDepartment(lesson.getStudentGroup().getDepartment()))
                 .join(Room.class, Joiners.equal(Lesson::getRoom, room -> room))
                 .filter((lesson, room) -> !"computer".equals(room.getLabType()))
-                .penalize(HardSoftScore.ONE_SOFT.multiply(1000)) // high soft penalty
+                .penalize(HardSoftScore.ONE_SOFT.multiply(2000)) // stronger soft penalty
                 .asConstraint("Computer departments should use computer labs");
     }
 
@@ -492,7 +548,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
      * explicitly mapped. This is now a SOFT constraint to avoid infeasibility when capacity
      * is tight.
      */
-    Constraint coreDepartmentsMustUseCoreOrComputerLabs(ConstraintFactory constraintFactory) {
+    Constraint coreDepartmentsShouldUseCoreOrComputerLabs(ConstraintFactory constraintFactory) {
         return constraintFactory.forEach(Lesson.class)
                 .filter(lesson -> lesson.getSessionType().equals("lab"))
                 .filter(lesson -> !isComputerDepartment(lesson.getStudentGroup().getDepartment()))
@@ -538,22 +594,6 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                         lesson.getCourse().getCode(), lesson.getRoom().getDescription()))
                 .penalize(HardSoftScore.ONE_HARD.multiply(10000)) // Maximum penalty
                 .asConstraint("Course lab must match mapping");
-    }
-
-    // Prevent any lab assignment for mapped courses that's not in their allowed list
-    private Constraint preventRandomLabAssignmentForMappedCourses(ConstraintFactory constraintFactory) {
-        return constraintFactory.forEach(Lesson.class)
-                .filter(lesson -> lesson.requiresLabRoom()) // Any lab lesson
-                .filter(lesson -> CourseLabMappingUtil.isCoreLabCourse(lesson.getCourse().getCode()))
-                .filter(lesson -> lesson.getRoom() != null)
-                .filter(lesson -> {
-                    // Check if this room is in the allowed list for this course
-                    String courseCode = lesson.getCourse().getCode();
-                    String roomDesc = lesson.getRoom().getDescription();
-                    return !CourseLabMappingUtil.isRoomAllowedForCourse(courseCode, roomDesc);
-                })
-                .penalize(HardSoftScore.ONE_HARD.multiply(50000)) // Even higher penalty
-                .asConstraint("Prevent random lab assignment for mapped courses");
     }
 
     // FIXED: Student group shift pattern now as soft constraint with improved penalty calculation
@@ -648,7 +688,142 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                         lesson.getStudentGroup().getDepartment()))
                 .filter(lesson -> DepartmentWorkdayConfig.isHotspotLab(
                         lesson.getRoom().getDescription()))
-                .reward(HardSoftScore.of(0, 50)) // Moderate reward
+                .reward(HardSoftScore.of(0, 25)) // Mild reward
                 .asConstraint("Prefer hotspot labs on Monday");
+    }
+
+    /**
+     * SOFT: Encourage combining B1 and B2 batches of the same course and student group
+     * in large-capacity labs (70+ seats) for efficient resource utilization.
+     */
+    private Constraint largeLab70CapacityBatchCombining(ConstraintFactory constraintFactory) {
+        return constraintFactory
+                .forEachUniquePair(Lesson.class,
+                        Joiners.equal(Lesson::getCourse),
+                        Joiners.equal(Lesson::getStudentGroup))
+                .filter((l1, l2) -> {
+                    // Must be lab sessions with different batches of same course/group
+                    if (!(l1.requiresLabRoom() && l2.requiresLabRoom())) return false;
+                    if (!(l1.isSplitBatch() && l2.isSplitBatch())) return false;
+                    if (l1.getLabBatch().equals(l2.getLabBatch())) return false;
+                    
+                    // If both lessons are in the SAME large-capacity room, we reward
+                    Room room1 = l1.getRoom();
+                    Room room2 = l2.getRoom();
+                    if (room1 == null || room2 == null) return false;
+                    if (!room1.equals(room2)) return false; // Must be the same room
+                    if (room1.getCapacity() < TimetableConfig.FULL_CLASS_LAB_THRESHOLD) return false;
+                    
+                    return true;
+                })
+                .filter((l1, l2) -> {
+                    // CRITICAL: Only reward if they're ALSO in the same time slot
+                    // Same room + different time = still wasted capacity!
+                    return Objects.equals(l1.getTimeSlot(), l2.getTimeSlot());
+                })
+                .reward(HardSoftScore.of(0, 100)) // Moderate reward for TRUE batch combining
+                .asConstraint("Encourage large lab batch combining");
+    }
+
+    private Constraint courseRequiredLabTypeMustMatchRoom(ConstraintFactory constraintFactory) {
+        // Courses that ALWAYS require computer labs even if not present in mapping CSV
+        final java.util.Set<String> ALWAYS_COMPUTER = java.util.Set.of(
+                "CD23321", // Python Programming for Design
+                "CS19P23", // Advanced Application Development with Oracle APEX
+                "CS19P21"  // Advanced Robotic Process Automation
+        );
+        return constraintFactory.forEach(Lesson.class)
+                .filter(Lesson::requiresLabRoom)
+                .filter(lesson -> {
+                    String courseCode = lesson.getCourse().getCode();
+                    return CourseLabMappingUtil.getRequiredLabType(courseCode) != null || ALWAYS_COMPUTER.contains(courseCode);
+                })
+                .join(Room.class, Joiners.equal(Lesson::getRoom, r -> r))
+                .filter((lesson, room) -> {
+                    String courseCode = lesson.getCourse().getCode();
+                    String required = CourseLabMappingUtil.getRequiredLabType(courseCode);
+                    if (required == null && ALWAYS_COMPUTER.contains(courseCode)) {
+                        required = "computer";
+                    }
+                    if (required == null) return false;
+                    String actual = room.getLabType();
+                    return !required.equals(actual);
+                })
+                .penalize(HardSoftScore.ONE_HARD.multiply(1000))
+                .asConstraint("Course-required lab type must match room lab type");
+    }
+
+    // NEW: Force efficient utilization of 70-capacity labs for batch combining
+    private Constraint penalizeSplitBatchesSeparateLargeLabs(ConstraintFactory constraintFactory) {
+        return constraintFactory
+                .forEachUniquePair(Lesson.class,
+                        Joiners.equal(Lesson::getCourse),
+                        Joiners.equal(Lesson::getStudentGroup))
+                .filter((l1, l2) -> {
+                    // Must be lab sessions with different batches of same course/group
+                    if (!(l1.requiresLabRoom() && l2.requiresLabRoom())) return false;
+                    if (!(l1.isSplitBatch() && l2.isSplitBatch())) return false;
+                    if (l1.getLabBatch().equals(l2.getLabBatch())) return false;
+                    
+                    Room room1 = l1.getRoom();
+                    Room room2 = l2.getRoom();
+                    if (room1 == null || room2 == null) return false;
+                    
+                    // Penalize if they are NOT efficiently combined
+                    boolean sameRoom = room1.equals(room2);
+                    boolean sameTime = Objects.equals(l1.getTimeSlot(), l2.getTimeSlot());
+                    boolean room1Large = room1.getCapacity() >= TimetableConfig.FULL_CLASS_LAB_THRESHOLD;
+                    boolean room2Large = room2.getCapacity() >= TimetableConfig.FULL_CLASS_LAB_THRESHOLD;
+                    boolean eitherLarge = room1Large || room2Large;
+                    
+                    // If they're efficiently combined (same large room + same time), no penalty
+                    if (eitherLarge && sameRoom && sameTime) {
+                        return false;
+                    }
+                    
+                    // If neither assignment uses a large room, skip – we don't care about small labs here
+                    if (!eitherLarge) {
+                        return false;
+                    }
+                    
+                    // Otherwise, we penalize inefficient splits
+                    return true;
+                })
+                .penalize(HardSoftScore.of(0, 200), (l1, l2) -> {
+                    Room room1 = l1.getRoom();
+                    Room room2 = l2.getRoom();
+                    boolean sameRoom = room1.equals(room2);
+                    boolean sameTime = Objects.equals(l1.getTimeSlot(), l2.getTimeSlot());
+                    boolean room1Large = room1.getCapacity() >= TimetableConfig.FULL_CLASS_LAB_THRESHOLD;
+                    boolean room2Large = room2.getCapacity() >= TimetableConfig.FULL_CLASS_LAB_THRESHOLD;
+                    boolean bothLargeLabs = room1Large && room2Large;
+                    
+                    // PERFECT: Both batches in same large lab at same time (no penalty - this is ideal!)
+                    if (sameRoom && sameTime && room1Large) {
+                        return 0; // Perfect utilization
+                    }
+                    
+                    // SEVERE: Both batches using different large labs (wastes precious 70-capacity resources)
+                    if (!sameRoom && bothLargeLabs) {
+                        if (sameTime) {
+                            return 25; // Worst - two 70-labs wasted simultaneously
+                        } else {
+                            return 20; // Bad - two 70-labs wasted at different times
+                        }
+                    }
+                    
+                    // MODERATE: One batch in large lab, other in small lab (suboptimal but understandable)
+                    if ((room1Large && !room2Large) || (!room1Large && room2Large)) {
+                        return 8; // Encourage moving the small-lab batch to join the large-lab batch
+                    }
+                    
+                    // MINOR: Same large room, different times (underutilizes the large lab)
+                    if (sameRoom && !sameTime && room1Large) {
+                        return 5; // Push toward same time slot
+                    }
+                    
+                    return 2; // Default mild penalty
+                })
+                .asConstraint("Force efficient 70-capacity lab utilization");
     }
 }

@@ -36,6 +36,8 @@ public class TimetableConfig {
     public static final int MAX_TEACHER_HOURS = 21;
     public static final int CLASS_STRENGTH = 70;
     public static final int LAB_BATCH_SIZE = 35;
+    // If a lab room can seat the entire class strength, both B1 and B2 can be combined.
+    public static final int FULL_CLASS_LAB_THRESHOLD = CLASS_STRENGTH;
     public static final int LAB_DURATION_IN_MINUTES = 100; 
 
 }
