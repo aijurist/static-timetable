@@ -1,32 +1,21 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-THURSDAY,10:00,10:50,Computer Architecture,New Staff - 12,B412
-WEDNESDAY,15:00,15:50,Computer Architecture,New Staff - 12,B219
-TUESDAY,15:00,15:50,Computer Architecture,New Staff - 12,A304
-TUESDAY,18:00,18:50,Design and Analysis of Algorithms,New Staff - 03,B321
-MONDAY,10:00,10:50,Design and Analysis of Algorithms,New Staff - 03,B412
-WEDNESDAY,16:00,16:50,Design and Analysis of Algorithms,New Staff - 03,A304
-MONDAY,11:50,13:30,Design and Analysis of Algorithms,New Staff - 03,KFR01
-MONDAY,08:00,09:40,Design and Analysis of Algorithms,New Staff - 03,KFL03
-TUESDAY,14:00,14:50,Fourier series and Number theory,Mrs. Dr S.Bhavani,B222
-FRIDAY,10:00,10:50,Fourier series and Number theory,Mrs. Dr S.Bhavani,B417
-FRIDAY,11:00,11:50,Fourier series and Number theory,Mrs. Dr S.Bhavani,A305
-WEDNESDAY,12:00,12:50,Fourier series and Number theory,Mrs. Dr S.Bhavani,B320
-TUESDAY,17:00,17:50,Database Management Systems,Dr.J Manoranjini,B222
-FRIDAY,12:00,12:50,Database Management Systems,Dr.J Manoranjini,C302
-WEDNESDAY,08:00,08:50,Database Management Systems,Dr.J Manoranjini,B412
-WEDNESDAY,09:50,11:30,Database Management Systems,Dr.J Manoranjini,KFR01
-THURSDAY,13:50,15:30,Database Management Systems,Dr.J Manoranjini,JL3
-THURSDAY,11:50,13:30,Database Management Systems,Dr.J Manoranjini,TLFL4
-FRIDAY,08:00,09:40,Database Management Systems,Dr.J Manoranjini,JR3
-MONDAY,16:00,16:50,Object Oriented Programming Using JAVA,New Staff - 04,B418
-FRIDAY,18:00,18:50,Object Oriented Programming Using JAVA,New Staff - 04,C202
-THURSDAY,11:00,11:50,Object Oriented Programming Using JAVA,New Staff - 04,A202
-THURSDAY,11:50,13:30,Object Oriented Programming Using JAVA,New Staff - 04,TLFL5
-MONDAY,08:00,09:40,Object Oriented Programming Using JAVA,New Staff - 04,TLGL4
-THURSDAY,13:50,15:30,Object Oriented Programming Using JAVA,New Staff - 04,JR3
-FRIDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Staff - 04,JR2
-TUESDAY,13:00,13:50,Fundamentals of Data Science,Mrs. Farjana U,B418
-THURSDAY,18:00,18:50,Fundamentals of Data Science,Mrs. Farjana U,A311
-TUESDAY,12:00,12:50,Fundamentals of Data Science,Mrs. Farjana U,B220
-FRIDAY,08:00,09:40,Fundamentals of Data Science,Mrs. Farjana U,TLFL2
-MONDAY,13:50,15:30,Fundamentals of Data Science,Mrs. Farjana U,TLFR5
+WEDNESDAY,09:00,09:50,Social and Ethical Issues in AI,New Faculty New  Staff - 30,B106
+FRIDAY,18:00,18:50,Big Data Technology,Mrs. Sangeetha K,B221
+WEDNESDAY,12:00,12:50,Big Data Technology,Mrs. Sangeetha K,A104/105
+THURSDAY,16:00,16:50,Big Data Technology,Mrs. Sangeetha K,A104/105
+SATURDAY,17:30,19:10,Big Data Technology,Mrs. Sangeetha K,TLFR1
+SATURDAY,15:50,17:30,Big Data Technology,Mrs. Sangeetha K,TLFL2
+TUESDAY,17:00,17:50,Information Retrieval (Professional Elective V),Mr. Kumaran U,A309
+TUESDAY,11:00,11:50,Information Retrieval (Professional Elective V),Mr. Kumaran U,B107
+WEDNESDAY,15:50,17:30,Information Retrieval (Professional Elective V),Mr. Kumaran U,KFR02
+WEDNESDAY,17:30,19:10,Information Retrieval (Professional Elective V),Mr. Kumaran U,KFL03
+THURSDAY,08:00,08:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,B222
+SATURDAY,13:00,13:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,B424
+FRIDAY,11:00,11:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,B424
+THURSDAY,13:00,13:50,Data Visualization using Python (Professional Elective III),Mrs. Dr. S. Poonkuzhali,B220
+TUESDAY,15:00,15:50,Data Visualization using Python (Professional Elective III),Mrs. Dr. S. Poonkuzhali,B401
+SATURDAY,15:50,17:30,Data Visualization using Python (Professional Elective III),Mrs. Dr. S. Poonkuzhali,TLFL1
+SATURDAY,17:30,19:10,Data Visualization using Python (Professional Elective III),Mrs. Dr. S. Poonkuzhali,TLFR4
+FRIDAY,08:00,08:50,Secure Systems Engineering,Ms. R.Anitha,A110
+FRIDAY,15:00,15:50,Secure Systems Engineering,Ms. R.Anitha,B218
+THURSDAY,14:00,14:50,Secure Systems Engineering,Ms. R.Anitha,A302

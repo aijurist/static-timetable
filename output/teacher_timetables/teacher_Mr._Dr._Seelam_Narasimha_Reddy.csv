@@ -1,7 +1,7 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,09:00,09:50,Chemical Engineering Thermodynamics,CHEM 3.1,B410
-FRIDAY,11:00,11:50,Chemical Engineering Thermodynamics,CHEM 3.1,B416
-MONDAY,08:00,08:50,Chemical Engineering Thermodynamics,CHEM 3.1,B322
-THURSDAY,11:00,11:50,Comprehensive Chemical  Engineering,CHEM 4.1,C301
-WEDNESDAY,10:00,10:50,Comprehensive Chemical  Engineering,CHEM 4.1,B426
-MONDAY,11:00,11:50,Comprehensive Chemical  Engineering,CHEM 4.1,B412
+TUESDAY,11:00,11:50,Chemical Engineering Thermodynamics,CHEM 3.1,B210
+TUESDAY,15:00,15:50,Chemical Engineering Thermodynamics,CHEM 3.1,B320
+TUESDAY,10:00,10:50,Chemical Engineering Thermodynamics,CHEM 3.1,B220
+THURSDAY,13:00,13:50,Comprehensive Chemical  Engineering,CHEM 4.1,A303
+THURSDAY,08:00,08:50,Comprehensive Chemical  Engineering,CHEM 4.1,A309
+TUESDAY,09:00,09:50,Comprehensive Chemical  Engineering,CHEM 4.1,C308

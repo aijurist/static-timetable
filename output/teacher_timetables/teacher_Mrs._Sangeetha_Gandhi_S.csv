@@ -1,12 +1,12 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,16:00,16:50,Separation Process Principles,BT 3.2,C201
-SATURDAY,17:00,17:50,Separation Process Principles,BT 3.2,B219
-SATURDAY,16:00,16:50,Separation Process Principles,BT 3.2,B212
-TUESDAY,08:00,08:50,Separation Process Principles,BT 3.2,A109
-FRIDAY,12:00,12:50,DOWNSTREAM PROCESSING,BT 4.1,C202
-SATURDAY,12:00,12:50,DOWNSTREAM PROCESSING,BT 4.1,B403
-FRIDAY,15:00,15:50,DOWNSTREAM PROCESSING,BT 4.1,B411
-WEDNESDAY,11:50,13:30,Downstream processing lab,BT 4.1,Downstream Processing Lab
+SATURDAY,09:00,09:50,Separation Process Principles,BT 3.2,C102
+WEDNESDAY,13:00,13:50,Separation Process Principles,BT 3.2,A203
+FRIDAY,12:00,12:50,Separation Process Principles,BT 3.2,B419
+SATURDAY,10:00,10:50,Separation Process Principles,BT 3.2,A210
+TUESDAY,10:00,10:50,DOWNSTREAM PROCESSING,BT 4.1,A103
+FRIDAY,15:00,15:50,DOWNSTREAM PROCESSING,BT 4.1,A310
+SATURDAY,11:00,11:50,DOWNSTREAM PROCESSING,BT 4.1,B419
 TUESDAY,11:50,13:30,Downstream processing lab,BT 4.1,Downstream Processing Lab
-WEDNESDAY,08:00,09:40,Downstream processing lab,BT 4.1,Downstream Processing Lab
-THURSDAY,11:50,13:30,Downstream processing lab,BT 4.1,Downstream Processing Lab
+SATURDAY,11:50,13:30,Downstream processing lab,BT 4.1,Downstream Processing Lab
+THURSDAY,09:50,11:30,Downstream processing lab,BT 4.1,Downstream Processing Lab
+WEDNESDAY,09:50,11:30,Downstream processing lab,BT 4.1,Downstream Processing Lab

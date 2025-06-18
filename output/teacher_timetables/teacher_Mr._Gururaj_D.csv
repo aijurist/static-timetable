@@ -1,13 +1,13 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,12:00,12:50,Introduction to Python Programming,ECE 2.4,A303
-SATURDAY,11:50,13:30,Introduction to Python Programming,ECE 2.4,MCT CAD Lab
-FRIDAY,08:00,09:40,Introduction to Python Programming,ECE 2.4,MCT CAD Lab
-WEDNESDAY,15:50,17:30,Introduction to Python Programming,ECE 2.4,MCT CAD Lab
-TUESDAY,09:50,11:30,Introduction to Python Programming,ECE 2.4,MCT CAD Lab
-TUESDAY,09:00,09:50,Digital Signal Processing,ECE 3.4,A204
-FRIDAY,12:00,12:50,Digital Signal Processing,ECE 3.4,B302
-TUESDAY,12:00,12:50,Digital Signal Processing,ECE 3.4,A209
-SATURDAY,08:00,09:40,Digital Signal Processing,ECE 3.4,DSP Lab
-THURSDAY,08:00,09:40,Digital Signal Processing,ECE 3.4,DSP Lab
-THURSDAY,13:50,15:30,Soft Skills – II,ECE 3.1,KFR02
-SATURDAY,09:50,11:30,Soft Skills – II,ECE 3.1,KFR01
+WEDNESDAY,08:00,08:50,Introduction to Python Programming,ECE 2.4,A109
+TUESDAY,13:50,15:30,Introduction to Python Programming,ECE 2.4,MCT CAD Lab
+MONDAY,09:50,11:30,Introduction to Python Programming,ECE 2.4,MCT CAD Lab
+MONDAY,15:50,17:30,Introduction to Python Programming,ECE 2.4,MCT CAD Lab
+THURSDAY,15:50,17:30,Introduction to Python Programming,ECE 2.4,MCT CAD Lab
+THURSDAY,12:00,12:50,Digital Signal Processing,ECE 3.4,A108
+THURSDAY,11:00,11:50,Digital Signal Processing,ECE 3.4,B322
+TUESDAY,16:00,16:50,Digital Signal Processing,ECE 3.4,B107
+FRIDAY,13:00,13:50,Digital Signal Processing,ECE 3.4,DSP Lab
+TUESDAY,11:50,13:30,Digital Signal Processing,ECE 3.4,DSP Lab
+FRIDAY,08:00,09:40,Soft Skills – II,ECE 3.1,KFL02
+SATURDAY,13:50,15:30,Soft Skills – II,ECE 3.1,TLFR4

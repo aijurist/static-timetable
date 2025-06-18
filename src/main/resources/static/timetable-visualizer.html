@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <title>Advanced Timetable Visualizer - 6 Day Schedule</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <style>
@@ -80,6 +83,12 @@
             padding: 20px;
             background-color: var(--bg-primary);
             color: var(--text-primary);
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            /* Improved touch handling */
+            touch-action: manipulation;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
         }
 
         .container {
@@ -112,7 +121,7 @@
         
         @media (max-width: 900px) {
             .timetable {
-                grid-template-columns: 100px repeat(6, 1fr);
+                grid-template-columns: 80px repeat(6, 1fr);
                 font-size: 0.8em;
             }
             
@@ -124,6 +133,309 @@
             .controls {
                 flex-direction: column;
                 gap: 10px;
+            }
+            
+            .control-group {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 5px;
+            }
+            
+            .control-group label {
+                min-width: auto;
+                font-size: 0.9em;
+            }
+        }
+
+        /* Mobile optimizations */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+                font-size: 14px;
+            }
+            
+            .container {
+                padding: 10px;
+                border-radius: 8px;
+            }
+            
+            h1 {
+                font-size: 1.5em;
+                margin-bottom: 15px;
+                text-align: center;
+            }
+            
+            .info-banner {
+                padding: 12px 15px;
+                margin-bottom: 15px;
+            }
+            
+            .info-banner p {
+                font-size: 0.85em;
+            }
+            
+            .controls {
+                flex-direction: column;
+                gap: 8px;
+                margin-bottom: 15px;
+            }
+            
+            .control-group {
+                flex-direction: column;
+                gap: 5px;
+            }
+            
+            .view-toggle {
+                flex-direction: column;
+                border-radius: 6px;
+            }
+            
+            .view-toggle .toggle-btn {
+                border-radius: 0;
+                min-width: auto;
+                padding: 10px 15px;
+                font-size: 0.9em;
+            }
+            
+            .view-toggle .toggle-btn:not(:last-child) {
+                border-right: none;
+                border-bottom: 1px solid var(--border-color);
+            }
+            
+            .view-toggle .toggle-btn:first-child {
+                border-top-left-radius: 6px;
+                border-top-right-radius: 6px;
+            }
+            
+            .view-toggle .toggle-btn:last-child {
+                border-bottom-left-radius: 6px;
+                border-bottom-right-radius: 6px;
+            }
+            
+            select, input[type="text"] {
+                padding: 10px 12px;
+                font-size: 0.9em;
+                min-width: auto;
+                width: 100%;
+            }
+            
+            .timetable {
+                grid-template-columns: 70px repeat(6, 1fr);
+                font-size: 0.7em;
+                gap: 0.5px;
+                border-radius: 6px;
+                margin-bottom: 15px;
+                min-width: 600px; /* Ensure minimum width for readability */
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+            
+            #timetableContainer {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                padding-bottom: 10px;
+            }
+            
+            .header {
+                padding: 8px 4px;
+                font-size: 0.8em;
+                text-align: center;
+            }
+            
+            .time-slot {
+                padding: 6px 2px;
+                font-size: 0.7em;
+            }
+            
+            .cell {
+                min-height: 60px;
+                padding: 2px;
+                gap: 1px;
+            }
+            
+            .lesson-block {
+                padding: 3px;
+                font-size: 0.65em;
+                line-height: 1.1;
+                border-radius: 3px;
+                margin: 0.5px;
+            }
+            
+            .lesson-block div {
+                margin-bottom: 1px;
+            }
+            
+            .batch-indicator {
+                font-size: 0.6em;
+                margin-top: 1px;
+            }
+            
+            .legend {
+                flex-direction: column;
+                gap: 8px;
+                padding: 10px;
+                margin-bottom: 15px;
+            }
+            
+            .legend-item {
+                gap: 6px;
+                font-size: 0.85em;
+            }
+            
+            .legend-color {
+                width: 16px;
+                height: 16px;
+            }
+            
+            /* Mobile tooltip adjustments */
+            .tooltip {
+                max-width: 280px;
+                min-width: 200px;
+                font-size: 12px;
+                padding: 12px;
+            }
+            
+            .tooltip-title {
+                font-size: 14px;
+                margin-bottom: 8px;
+                padding-bottom: 6px;
+            }
+            
+            .tooltip-row {
+                gap: 10px;
+                padding: 1px 0;
+            }
+            
+            .tooltip-label {
+                min-width: 60px;
+                font-size: 0.9em;
+            }
+            
+            .tooltip-value {
+                font-size: 0.9em;
+            }
+        }
+
+        /* Small mobile devices */
+        @media (max-width: 480px) {
+            body {
+                padding: 5px;
+                font-size: 13px;
+            }
+            
+            .container {
+                padding: 8px;
+                margin: 0;
+                border-radius: 6px;
+            }
+            
+            h1 {
+                font-size: 1.3em;
+                margin-bottom: 10px;
+            }
+            
+            .timetable {
+                grid-template-columns: 60px repeat(6, 1fr);
+                font-size: 0.65em;
+                gap: 0.5px;
+                min-width: 500px; /* Ensure minimum width for very small screens */
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+            
+            .header {
+                padding: 6px 2px;
+                font-size: 0.7em;
+            }
+            
+            .time-slot {
+                padding: 4px 1px;
+                font-size: 0.65em;
+            }
+            
+            .cell {
+                min-height: 50px;
+                padding: 1px;
+            }
+            
+            .lesson-block {
+                padding: 2px;
+                font-size: 0.6em;
+                line-height: 1.0;
+            }
+            
+            .lesson-block div:first-child {
+                font-weight: 600;
+                margin-bottom: 1px;
+            }
+            
+            .lesson-block div:nth-child(2),
+            .lesson-block div:nth-child(3) {
+                display: none; /* Hide teacher and room on very small screens */
+            }
+            
+            .batch-indicator {
+                display: none; /* Hide batch info on very small screens */
+            }
+            
+            /* Simplified combined lab blocks for mobile */
+            .combined-lab-block {
+                padding: 4px;
+                border-radius: 6px;
+                border-width: 1px;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+            }
+            
+            .lab-time-header {
+                font-size: 0.8em;
+                padding: 3px 4px;
+                margin-bottom: 4px;
+            }
+            
+            .lab-course-title {
+                font-size: 0.7em;
+                margin-bottom: 2px;
+            }
+            
+            .lab-teacher, .lab-room {
+                font-size: 0.6em;
+                margin-bottom: 1px;
+            }
+            
+            .lab-batches {
+                font-size: 0.55em;
+                margin-top: 2px;
+                padding: 1px 3px;
+            }
+            
+            .lab-multiple-courses {
+                gap: 4px;
+            }
+            
+            .lab-course-item {
+                padding: 2px 0;
+                padding-left: 4px;
+            }
+            
+            .lab-course-name {
+                font-size: 0.65em;
+                margin-bottom: 1px;
+            }
+            
+            .lab-course-details {
+                font-size: 0.55em;
+                display: none; /* Hide details on very small screens */
+            }
+            
+            .tooltip {
+                max-width: 250px;
+                min-width: 180px;
+                font-size: 11px;
+                padding: 10px;
+            }
+            
+            .tooltip-title {
+                font-size: 13px;
             }
         }
 
@@ -166,6 +478,12 @@
             cursor: pointer;
             min-width: 120px;
             transition: all 0.2s;
+            /* Touch-friendly improvements */
+            -webkit-tap-highlight-color: transparent;
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
         }
 
         input[type="text"] {
@@ -213,28 +531,83 @@
             border: 1px solid var(--border-color);
             border-radius: 8px;
             margin-bottom: 20px;
+            /* Enhanced scrolling support */
+            min-width: 800px; /* Ensure minimum width for readability */
+            width: 100%;
+            overflow: auto;
+            -webkit-overflow-scrolling: touch;
+            scroll-behavior: smooth;
         }
 
         .timetable[data-combined="true"] {
-            overflow: visible; /* Allow spanning blocks in combined view */
+            overflow: visible !important; /* Allow spanning blocks in combined view */
             position: relative;
             z-index: 1;
+            contain: none !important; /* Disable CSS containment for spanning elements */
         }
 
-        /* Ensure timetable container doesn't clip spanning elements */
+        /* Enhanced timetable container with scrolling */
         #timetableContainer {
-            overflow: visible;
+            overflow: auto;
             position: relative;
+            contain: none !important;
+            /* Smooth scrolling for all platforms */
+            -webkit-overflow-scrolling: touch;
+            scroll-behavior: smooth;
+            /* Add subtle scrollbar styling */
+            scrollbar-width: thin;
+            scrollbar-color: var(--theory-color) var(--cell-bg);
+            /* Ensure spanning elements can extend beyond visible area */
+            min-height: 400px;
+            max-height: 80vh;
+            /* Enhanced styling for better UX */
+            padding: 12px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+            border: 1px solid var(--border-color);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            /* Better scroll handling */
+            scroll-padding: 10px;
+            /* For mobile, allow horizontal scrolling */
+            overflow-x: auto;
+            overflow-y: auto;
+        }
+
+        /* Custom scrollbar for webkit browsers */
+        #timetableContainer::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+
+        #timetableContainer::-webkit-scrollbar-track {
+            background: var(--cell-bg);
+            border-radius: 4px;
+        }
+
+        #timetableContainer::-webkit-scrollbar-thumb {
+            background: var(--theory-color);
+            border-radius: 4px;
+            transition: background 0.2s ease;
+        }
+
+        #timetableContainer::-webkit-scrollbar-thumb:hover {
+            background: var(--theory-border);
+        }
+
+        #timetableContainer::-webkit-scrollbar-corner {
+            background: var(--cell-bg);
         }
 
         /* Combined lab block styling */
         .combined-lab-block {
-            border: 2px solid rgba(255, 255, 255, 0.3);
+            border: 2px solid rgba(255, 255, 255, 0.4);
             border-radius: 10px;
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.08) 100%);
             backdrop-filter: blur(10px);
             transition: all 0.3s ease;
+            transform: translateZ(0); /* Force hardware acceleration */
+            will-change: transform; /* Optimize for animations */
         }
 
         .combined-lab-block:hover {
@@ -322,14 +695,17 @@
         /* Visual indicator for lab span cells */
         .lab-span-cell {
             background: transparent !important; /* Remove pattern to avoid covering spanning block */
-            pointer-events: none; /* Allow clicks to pass through to combined block */
-            z-index: 0 !important; /* Ensure it stays below spanning block */
+            pointer-events: none !important; /* Allow clicks to pass through to combined block */
+            z-index: 5 !important; /* Ensure it stays below spanning block */
+            overflow: visible !important;
+            contain: none !important;
         }
 
         /* Ensure lab span cells don't hide spanning blocks */
         .lab-span-cell .combined-lab-block {
             position: absolute !important;
-            z-index: 300 !important;
+            z-index: 600 !important;
+            pointer-events: auto !important;
         }
 
         .header {
@@ -363,7 +739,7 @@
             display: flex;
             flex-direction: column;
             gap: 2px;
-            overflow: visible; /* Allow spanning blocks to extend beyond cell boundaries */
+            overflow: visible !important; /* Allow spanning blocks to extend beyond cell boundaries */
         }
 
         .cell:hover {
@@ -383,6 +759,14 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            /* Touch-friendly improvements */
+            -webkit-tap-highlight-color: transparent;
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            /* Minimum touch target size */
+            min-height: 44px;
         }
 
         .lesson-block:hover {
@@ -594,21 +978,23 @@
             z-index: 1;
             overflow: visible !important;
             background-color: var(--border-color);
+            contain: none !important;
         }
 
         .timetable[data-combined="true"] .cell {
             position: relative;
-            z-index: 1;
+            z-index: 10;
             overflow: visible !important;
             border: 1px solid rgba(75, 85, 99, 0.5);
+            contain: none !important;
         }
 
         .timetable[data-combined="true"] .lesson-block.spanning {
-            z-index: 200 !important;
+            z-index: 500 !important;
         }
 
         .timetable[data-combined="true"] .combined-lab-block {
-            z-index: 300 !important;
+            z-index: 600 !important;
         }
 
         /* Ensure non-spanning blocks don't interfere */
@@ -625,13 +1011,20 @@
 
         /* Force visibility for combined lab blocks */
         .combined-lab-block {
-            display: block !important;
+            display: flex !important;
             visibility: visible !important;
+            transform: translateZ(0); /* Force hardware acceleration */
         }
 
         /* Ensure grid doesn't interfere with spanning blocks */
         .timetable[data-combined="true"] {
             contain: none !important;
+            isolation: auto !important;
+        }
+
+        /* Improved stacking context for combined view */
+        .timetable[data-combined="true"] .cell.has-combined-block {
+            z-index: 100 !important;
         }
 
         /* Analytics Panel Styles */
@@ -1143,44 +1536,261 @@
 
         /* Responsive Design */
         @media (max-width: 768px) {
+            .analytics-menu-bar {
+                margin-bottom: 15px;
+                border-radius: 8px;
+            }
+            
+            .menu-title {
+                font-size: 0.9em;
+                padding: 12px 0;
+            }
+            
+            .analytics-toggle-btn {
+                padding: 8px 15px;
+                font-size: 0.8em;
+            }
+            
             .analytics-tabs {
                 overflow-x: auto;
                 -webkit-overflow-scrolling: touch;
+                scrollbar-width: thin;
             }
             
             .analytics-tab {
-                min-width: 120px;
+                min-width: 100px;
+                padding: 12px 20px;
+                font-size: 0.8em;
             }
             
-            .stats-grid {
-                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-                gap: 10px;
-            }
-            
-            .room-item, .department-item {
-                padding: 12px;
+            .analytics-tab::before {
+                width: 10px;
+                height: 10px;
             }
             
             .analytics-panels.expanded {
                 max-height: 60vh;
                 padding: 15px;
             }
+            
+            .stats-grid {
+                grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+                gap: 10px;
+            }
+            
+            .stats-card {
+                padding: 15px 12px;
+            }
+            
+            .stats-card-value {
+                font-size: 1.8em;
+                margin-bottom: 4px;
+            }
+            
+            .stats-card-label {
+                font-size: 0.8em;
+            }
+            
+            .analytics-section {
+                padding: 12px;
+                margin-bottom: 15px;
+            }
+            
+            .analytics-section h4 {
+                font-size: 0.9em;
+                margin-bottom: 10px;
+            }
+            
+            .analytics-section h4::before {
+                width: 2px;
+                height: 14px;
+            }
+            
+            .room-item, .department-item {
+                padding: 12px;
+            }
+            
+            .room-name, .department-name {
+                font-size: 0.95em;
+                margin-bottom: 6px;
+            }
+            
+            .room-type {
+                font-size: 0.6em;
+                padding: 2px 6px;
+            }
+            
+            .room-stats {
+                gap: 8px;
+                font-size: 0.85em;
+                margin-top: 8px;
+            }
+            
+            .stat-item {
+                padding: 8px 0;
+            }
+            
+            .stat-label {
+                font-size: 0.9em;
+            }
+            
+            .stat-value {
+                font-size: 0.95em;
+            }
+            
+            .teacher-item {
+                padding: 6px 0;
+            }
+            
+            .teacher-name {
+                font-size: 0.9em;
+            }
+            
+            .teacher-load {
+                font-size: 0.8em;
+            }
+            
+            .time-slot-item {
+                padding: 6px 0;
+                font-size: 0.85em;
+            }
         }
 
         @media (max-width: 480px) {
+            .analytics-menu-bar {
+                margin-bottom: 10px;
+                border-radius: 6px;
+            }
+            
+            .menu-header {
+                padding: 0 15px;
+            }
+            
+            .menu-title {
+                font-size: 0.85em;
+                padding: 10px 0;
+            }
+            
+            .analytics-toggle-btn {
+                padding: 6px 12px;
+                font-size: 0.75em;
+                border-radius: 6px;
+            }
+            
+            .analytics-tabs {
+                flex-wrap: nowrap;
+                overflow-x: auto;
+            }
+            
+            .analytics-tab {
+                min-width: 80px;
+                padding: 10px 15px;
+                font-size: 0.75em;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+            
+            .analytics-tab::before {
+                width: 8px;
+                height: 8px;
+            }
+            
             .analytics-panels.expanded {
                 max-height: 50vh;
                 padding: 10px;
             }
             
             .stats-grid {
-                grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+                grid-template-columns: repeat(2, 1fr);
                 gap: 8px;
             }
             
+            .stats-card {
+                padding: 12px 8px;
+                text-align: center;
+            }
+            
+            .stats-card-value {
+                font-size: 1.5em;
+                margin-bottom: 3px;
+            }
+            
+            .stats-card-label {
+                font-size: 0.7em;
+                line-height: 1.2;
+            }
+            
             .analytics-section {
-                padding: 12px;
-                margin-bottom: 20px;
+                padding: 10px;
+                margin-bottom: 12px;
+                border-radius: 8px;
+            }
+            
+            .analytics-section h4 {
+                font-size: 0.85em;
+                margin-bottom: 8px;
+            }
+            
+            .room-item, .department-item {
+                padding: 10px;
+                margin-bottom: 8px;
+                border-radius: 8px;
+            }
+            
+            .room-name, .department-name {
+                font-size: 0.9em;
+                margin-bottom: 5px;
+            }
+            
+            .room-type {
+                font-size: 0.55em;
+                padding: 1px 4px;
+            }
+            
+            .room-stats {
+                grid-template-columns: 1fr;
+                gap: 4px;
+                font-size: 0.8em;
+                margin-top: 6px;
+            }
+            
+            .utilization-bar {
+                height: 6px;
+                margin: 3px 0;
+            }
+            
+            .efficiency-indicator {
+                width: 8px;
+                height: 8px;
+            }
+            
+            .stat-item {
+                padding: 6px 0;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 2px;
+            }
+            
+            .stat-label, .stat-value {
+                font-size: 0.8em;
+            }
+            
+            .teacher-item, .time-slot-item {
+                padding: 5px 0;
+                font-size: 0.8em;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 2px;
+            }
+            
+            .teacher-name, .slot-time {
+                font-size: 0.85em;
+            }
+            
+            .teacher-load, .slot-usage {
+                font-size: 0.75em;
+                margin-left: 0;
             }
         }
 
@@ -1211,6 +1821,58 @@
             color: var(--text-secondary);
             line-height: 1.5;
             font-size: 0.95em;
+        }
+
+        /* Scroll indicators for better UX */
+        #timetableContainer::before {
+            content: '';
+            position: sticky;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(to bottom, rgba(96, 165, 250, 0.3), transparent);
+            z-index: 100;
+            pointer-events: none;
+            border-radius: 12px 12px 0 0;
+        }
+
+        #timetableContainer::after {
+            content: '';
+            position: sticky;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(to top, rgba(96, 165, 250, 0.3), transparent);
+            z-index: 100;
+            pointer-events: none;
+            border-radius: 0 0 12px 12px;
+        }
+
+        /* Enhanced mobile scrolling */
+        @media (max-width: 768px) {
+            #timetableContainer {
+                max-height: 70vh;
+                padding: 8px;
+                border-radius: 8px;
+            }
+            
+            .timetable {
+                min-width: 650px; /* Ensure horizontal scroll on mobile */
+            }
+        }
+
+        @media (max-width: 480px) {
+            #timetableContainer {
+                max-height: 65vh;
+                padding: 6px;
+                border-radius: 6px;
+            }
+            
+            .timetable {
+                min-width: 550px; /* Ensure horizontal scroll on small mobile */
+            }
         }
     </style>
 </head>
@@ -1791,19 +2453,55 @@
             
             // Calculate height for spanning blocks
             if (spanHeight > 1) {
-                // Calculate total height: (cell height + padding + border + gap) * span - final gap - margin
-                const totalHeightPx = (80 + 8 + 2 + 1) * spanHeight - 1 - 4;
+                // Dynamic height calculation based on actual cell measurements
+                // Get the first cell to measure actual dimensions
+                const firstCell = document.querySelector('.cell[data-schedule-type="combined"]');
+                let cellHeight = 91; // fallback value
+                let gap = 1;
+                
+                if (firstCell) {
+                    const actualHeight = firstCell.offsetHeight;
+                    // Check if we're in mobile view by screen size
+                    const isMobile = window.innerWidth <= 768;
+                    const isSmallMobile = window.innerWidth <= 480;
+                    
+                    if (isSmallMobile) {
+                        gap = 0.5;
+                        cellHeight = actualHeight + gap;
+                    } else if (isMobile) {
+                        gap = 0.5;
+                        cellHeight = actualHeight + gap;
+                    } else {
+                        gap = 1;
+                        cellHeight = actualHeight + gap;
+                    }
+                    
+                    console.log(`Mobile: ${isMobile}, Small: ${isSmallMobile}, Cell height: ${actualHeight}px, with gap: ${cellHeight}px`);
+                }
+                
+                const totalHeightPx = (cellHeight * spanHeight) - gap - (window.innerWidth <= 480 ? 3 : 6);
                 block.style.height = `${totalHeightPx}px`;
                 console.log(`Spanning block height: ${totalHeightPx}px for ${spanHeight} slots`);
             } else {
-                block.style.height = '76px'; // Single cell height
+                // Responsive single cell height
+                const isMobile = window.innerWidth <= 768;
+                const isSmallMobile = window.innerWidth <= 480;
+                
+                if (isSmallMobile) {
+                    block.style.height = '46px';
+                } else if (isMobile) {
+                    block.style.height = '56px';
+                } else {
+                    block.style.height = '76px';
+                }
             }
             
+            // Improved positioning for CSS grid
             block.style.position = 'absolute';
-            block.style.width = 'calc(100% - 4px)';
-            block.style.zIndex = '200';
-            block.style.top = '2px';
-            block.style.left = '2px';
+            block.style.width = 'calc(100% - 6px)';
+            block.style.zIndex = '300';
+            block.style.top = '3px';
+            block.style.left = '3px';
             block.style.margin = '0';
             block.style.padding = '8px';
             block.style.boxSizing = 'border-box';
@@ -1812,6 +2510,7 @@
             block.style.flexDirection = 'column';
             block.style.justifyContent = 'space-between';
             block.style.cursor = 'pointer';
+            block.style.pointerEvents = 'auto';
             
             // Determine block color based on course diversity
             let blockType = 'lab-same';
@@ -1943,8 +2642,12 @@
             document.querySelectorAll('.cell').forEach(cell => {
                 cell.innerHTML = '';
                 cell.style.position = 'relative';
-                cell.classList.remove('lab-span-cell');
+                cell.classList.remove('lab-span-cell', 'has-combined-block');
                 cell.removeAttribute('data-occupied-by-lab');
+                // Reset inline styles that might interfere
+                cell.style.overflow = '';
+                cell.style.contain = '';
+                cell.style.zIndex = '';
             });
 
             console.log('Displaying lessons:', lessons);
@@ -2038,6 +2741,9 @@
                             const spanCell = document.querySelector(`.cell[data-day="${day}"][data-time-slot="${slotIndex}"][data-schedule-type="combined"]`);
                             if (spanCell) {
                                 spanCell.innerHTML = '';
+                                spanCell.style.overflow = 'visible';
+                                spanCell.style.contain = 'none';
+                                
                                 // Only add the pointer-events-disabling class to FOLLOWING cells
                                 if (index > 0) {
                                     spanCell.classList.add('lab-span-cell');
@@ -2049,6 +2755,12 @@
                                 occupiedCells.set(key, timeKey);
                             }
                         });
+                        
+                        // Ensure the first cell is properly prepared
+                        firstCell.style.overflow = 'visible';
+                        firstCell.style.contain = 'none';
+                        firstCell.style.zIndex = '100';
+                        firstCell.classList.add('has-combined-block');
                         
                         // Create and add the combined lab block to the first cell
                         const combinedBlock = createCombinedLabBlock(labLessons, spannedSlots.length, startTime, endTime);
@@ -2222,6 +2934,7 @@
                 updateEntitySelector();
                 setupTeacherSearch(); // Initialize search after data is loaded
                 initializeAnalytics(); // Initialize analytics with loaded data
+                initializeScrolling(); // Initialize enhanced scrolling
                 filterLessons();
             })
             .catch(error => {
@@ -2303,10 +3016,10 @@
             console.log('Teacher search functionality initialized');
         }
 
-        // Event listeners
+        // Event listeners with enhanced scrolling
         document.getElementById('viewType').addEventListener('change', function() {
             updateEntitySelector();
-            filterLessons();
+            enhancedFilterLessons();
         });
 
         document.getElementById('entitySelector').addEventListener('change', function() {
@@ -2320,11 +3033,34 @@
                     searchField.value = '';
                 }
             }
-            filterLessons();
+            enhancedFilterLessons();
         });
 
         // Theme toggle listener
         document.getElementById('themeToggle').addEventListener('click', toggleTheme);
+
+        // Mobile optimization: Handle orientation change and resize
+        function handleMobileResize() {
+            // Debounce resize events
+            clearTimeout(window.resizeTimeout);
+            window.resizeTimeout = setTimeout(() => {
+                // Refresh display to recalculate spanning block heights
+                if (timetableData && currentScheduleType === 'combined') {
+                    console.log('Recalculating combined view for mobile resize');
+                    filterLessons();
+                }
+            }, 250);
+        }
+
+        // Add resize and orientation change listeners
+        window.addEventListener('resize', handleMobileResize);
+        window.addEventListener('orientationchange', () => {
+            setTimeout(handleMobileResize, 100); // Small delay for orientation change
+        });
+
+        // Mobile touch improvements
+        document.addEventListener('touchstart', function() {}, { passive: true });
+        document.addEventListener('touchmove', function() {}, { passive: true });
 
         // Teacher search will be initialized after data is loaded
 
@@ -2834,6 +3570,135 @@
                     indicator.remove();
                 }
             }
+        }
+
+        // Enhanced scrolling functionality
+        let scrollPosition = { x: 0, y: 0 };
+
+        function saveScrollPosition() {
+            const container = document.getElementById('timetableContainer');
+            if (container) {
+                scrollPosition.x = container.scrollLeft;
+                scrollPosition.y = container.scrollTop;
+            }
+        }
+
+        function restoreScrollPosition() {
+            const container = document.getElementById('timetableContainer');
+            if (container) {
+                container.scrollLeft = scrollPosition.x;
+                container.scrollTop = scrollPosition.y;
+            }
+        }
+
+        function smoothScrollToElement(element) {
+            if (element) {
+                element.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'center',
+                    inline: 'center'
+                });
+            }
+        }
+
+        // Add scroll position memory when switching views
+        function enhancedFilterLessons() {
+            saveScrollPosition();
+            filterLessons();
+            // Restore scroll position after a brief delay to allow DOM updates
+            setTimeout(restoreScrollPosition, 100);
+        }
+
+        // Enhanced mobile resize with scroll preservation
+        function handleMobileResize() {
+            saveScrollPosition();
+            // Debounce resize events
+            clearTimeout(window.resizeTimeout);
+            window.resizeTimeout = setTimeout(() => {
+                // Refresh display to recalculate spanning block heights
+                if (timetableData && currentScheduleType === 'combined') {
+                    console.log('Recalculating combined view for mobile resize');
+                    filterLessons();
+                    setTimeout(restoreScrollPosition, 150);
+                }
+            }, 250);
+        }
+
+        // Initialize scrolling enhancements
+        function initializeScrolling() {
+            const container = document.getElementById('timetableContainer');
+            if (!container) return;
+
+            // Add scroll hint if content overflows
+            function checkScrollable() {
+                const isScrollableX = container.scrollWidth > container.clientWidth;
+                const isScrollableY = container.scrollHeight > container.clientHeight;
+                
+                if (isScrollableX || isScrollableY) {
+                    container.setAttribute('data-scrollable', 'true');
+                    showScrollHint();
+                } else {
+                    container.removeAttribute('data-scrollable');
+                }
+            }
+
+            function showScrollHint() {
+                // Only show hint once per session
+                if (!sessionStorage.getItem('scrollHintShown')) {
+                    const hint = document.createElement('div');
+                    hint.className = 'scroll-hint';
+                    hint.innerHTML = '↔️ Scroll to view full timetable';
+                    hint.style.cssText = `
+                        position: absolute;
+                        top: 10px;
+                        right: 10px;
+                        background: var(--theory-color);
+                        color: white;
+                        padding: 8px 12px;
+                        border-radius: 6px;
+                        font-size: 0.8em;
+                        z-index: 1000;
+                        animation: fadeInOut 3s ease-in-out;
+                        pointer-events: none;
+                    `;
+                    
+                    // Add animation keyframes
+                    if (!document.querySelector('#scrollHintAnimation')) {
+                        const style = document.createElement('style');
+                        style.id = 'scrollHintAnimation';
+                        style.textContent = `
+                            @keyframes fadeInOut {
+                                0%, 100% { opacity: 0; transform: translateY(-10px); }
+                                20%, 80% { opacity: 1; transform: translateY(0); }
+                            }
+                        `;
+                        document.head.appendChild(style);
+                    }
+                    
+                    container.appendChild(hint);
+                    
+                    setTimeout(() => {
+                        if (hint.parentNode) {
+                            hint.remove();
+                        }
+                    }, 3000);
+                    
+                    sessionStorage.setItem('scrollHintShown', 'true');
+                }
+            }
+
+            // Check scrollable state on load and resize
+            checkScrollable();
+            window.addEventListener('resize', checkScrollable);
+            
+            // Add smooth scroll behavior to lesson blocks
+            container.addEventListener('click', function(e) {
+                const lessonBlock = e.target.closest('.lesson-block');
+                if (lessonBlock && !e.target.closest('.combined-lab-block')) {
+                    // Smooth scroll to center the clicked lesson
+                    setTimeout(() => smoothScrollToElement(lessonBlock), 10);
+                }
+            });
         }
     </script>
 </body>

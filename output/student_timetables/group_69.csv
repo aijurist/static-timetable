@@ -1,31 +1,31 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,10:00,10:50,Sensors and Measurements,Mr. Sankar K,B212
-TUESDAY,12:00,12:50,Sensors and Measurements,Mr. Sankar K,C307
+WEDNESDAY,12:00,12:50,Sensors and Measurements,Mr. Sankar K,B409
+FRIDAY,11:00,11:50,Sensors and Measurements,Mr. Sankar K,B424
 TUESDAY,15:50,17:30,Sensors and Measurements,Mr. Sankar K,Power Electronics Lab
-SATURDAY,13:50,15:30,Sensors and Measurements,Mr. Sankar K,Power Electronics Lab
-FRIDAY,14:00,14:50,Fourier series and Number theory,Mr. Charles Sagayaraj A C,C201
-SATURDAY,12:00,12:50,Fourier series and Number theory,Mr. Charles Sagayaraj A C,B426
-FRIDAY,12:00,12:50,Fourier series and Number theory,Mr. Charles Sagayaraj A C,B320
-THURSDAY,11:00,11:50,Fourier series and Number theory,Mr. Charles Sagayaraj A C,B416
-TUESDAY,14:00,14:50,Human Anatomy and Physiology,Ms. Revathy P,B220
-SATURDAY,09:00,09:50,Human Anatomy and Physiology,Ms. Revathy P,B221
-SATURDAY,11:00,11:50,Human Anatomy and Physiology,Ms. Revathy P,B220
-WEDNESDAY,17:00,17:50,Biomedical Instrumentation,Mrs. Subathra Y,B418
-WEDNESDAY,18:00,18:50,Biomedical Instrumentation,Mrs. Subathra Y,A110
-TUESDAY,15:00,15:50,Biomedical Instrumentation,Mrs. Subathra Y,B423
-SATURDAY,13:00,13:50,Biochemical Science,Ms. S. Sudha,B213
-FRIDAY,15:00,15:50,Biochemical Science,Ms. S. Sudha,A209
-THURSDAY,08:00,08:50,Biochemical Science,Ms. S. Sudha,B222
+THURSDAY,15:50,17:30,Sensors and Measurements,Mr. Sankar K,Power Electronics Lab
+SATURDAY,15:00,15:50,Fourier series and Number theory,Mr. Charles Sagayaraj A C,A304
+SATURDAY,13:00,13:50,Fourier series and Number theory,Mr. Charles Sagayaraj A C,A108
+WEDNESDAY,08:00,08:50,Fourier series and Number theory,Mr. Charles Sagayaraj A C,B419
+THURSDAY,18:00,18:50,Fourier series and Number theory,Mr. Charles Sagayaraj A C,C308
+FRIDAY,10:00,10:50,Human Anatomy and Physiology,Ms. Revathy P,B211
+SATURDAY,12:00,12:50,Human Anatomy and Physiology,Ms. Revathy P,C308
+THURSDAY,12:00,12:50,Human Anatomy and Physiology,Ms. Revathy P,A205
+TUESDAY,13:00,13:50,Biomedical Instrumentation,Mrs. Subathra Y,B325
+SATURDAY,14:00,14:50,Biomedical Instrumentation,Mrs. Subathra Y,B409
+TUESDAY,15:00,15:50,Biomedical Instrumentation,Mrs. Subathra Y,C202
+TUESDAY,09:00,09:50,Biochemical Science,Ms. S. Sudha,B320
+THURSDAY,13:00,13:50,Biochemical Science,Ms. S. Sudha,B418
+WEDNESDAY,11:00,11:50,Biochemical Science,Ms. S. Sudha,A108
+WEDNESDAY,15:50,17:30,Biochemistry and Physiology Laboratory,Mrs. S.Abiramy,Biochemistry Lab
+SATURDAY,15:50,17:30,Biochemistry and Physiology Laboratory,Mrs. S.Abiramy,Biochemistry Lab
+FRIDAY,11:50,13:30,Biochemistry and Physiology Laboratory,Mrs. S.Abiramy,Biochemistry Lab
 SATURDAY,17:30,19:10,Biochemistry and Physiology Laboratory,Mrs. S.Abiramy,Biochemistry Lab
-FRIDAY,17:30,19:10,Biochemistry and Physiology Laboratory,Mrs. S.Abiramy,Biochemistry Lab
-FRIDAY,15:50,17:30,Biochemistry and Physiology Laboratory,Mrs. S.Abiramy,Biochemistry Lab
-THURSDAY,15:50,17:30,Biochemistry and Physiology Laboratory,Mrs. S.Abiramy,Biochemistry Lab
-TUESDAY,08:00,09:40,Biomedical Instrumentation Laboratory,Mrs. Subathra Y,Diagnostic and Therapeutic Equipment Lab
-THURSDAY,17:30,19:10,Biomedical Instrumentation Laboratory,Mrs. Subathra Y,Diagnostic and Therapeutic Equipment Lab
-TUESDAY,09:50,11:30,Biomedical Instrumentation Laboratory,Mrs. Subathra Y,Diagnostic and Therapeutic Equipment Lab
-SATURDAY,17:30,19:10,Biomedical Instrumentation Laboratory,Mrs. Subathra Y,Diagnostic and Therapeutic Equipment Lab
-THURSDAY,09:00,09:50,Electronic Devices & Circuits,Mr. Krishnakumar S,A104/105
-SATURDAY,10:00,10:50,Electronic Devices & Circuits,Mr. Krishnakumar S,A103
-WEDNESDAY,16:00,16:50,Electronic Devices & Circuits,Mr. Krishnakumar S,B423
-WEDNESDAY,11:50,13:30,Electronic Devices & Circuits,Mr. Krishnakumar S,Electronics and Instrumentation
-THURSDAY,13:50,15:30,Electronic Devices & Circuits,Mr. Krishnakumar S,Electronics and Instrumentation
+WEDNESDAY,17:30,19:10,Biomedical Instrumentation Laboratory,Mrs. Subathra Y,Diagnostic and Therapeutic Equipment Lab
+FRIDAY,17:30,19:10,Biomedical Instrumentation Laboratory,Mrs. Subathra Y,Diagnostic and Therapeutic Equipment Lab
+WEDNESDAY,15:50,17:30,Biomedical Instrumentation Laboratory,Mrs. Subathra Y,Diagnostic and Therapeutic Equipment Lab
+FRIDAY,13:50,15:30,Biomedical Instrumentation Laboratory,Mrs. Subathra Y,Diagnostic and Therapeutic Equipment Lab
+THURSDAY,09:00,09:50,Electronic Devices & Circuits,Mr. Krishnakumar S,A308
+THURSDAY,15:00,15:50,Electronic Devices & Circuits,Mr. Krishnakumar S,A109
+THURSDAY,11:00,11:50,Electronic Devices & Circuits,Mr. Krishnakumar S,B408
+TUESDAY,09:50,11:30,Electronic Devices & Circuits,Mr. Krishnakumar S,Electronics and Instrumentation
+FRIDAY,08:00,09:40,Electronic Devices & Circuits,Mr. Krishnakumar S,Electronics and Instrumentation

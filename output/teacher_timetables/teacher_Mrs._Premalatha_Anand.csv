@@ -1,8 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,17:00,17:50,Database Management Systems,IT 2.4,A308
-WEDNESDAY,16:00,16:50,Database Management Systems,IT 2.4,B321
-TUESDAY,10:00,10:50,Database Management Systems,IT 2.4,C202
-TUESDAY,11:50,13:30,Database Management Systems,IT 2.4,TLFR2
-TUESDAY,15:50,17:30,Database Management Systems,IT 2.4,KFR01
-SATURDAY,13:50,15:30,Database Management Systems,IT 2.4,TLFL2
-SATURDAY,09:50,11:30,Database Management Systems,IT 2.4,TLGL4
+THURSDAY,10:00,10:50,Database Management Systems,IT 2.2,C201
+TUESDAY,14:00,14:50,Database Management Systems,IT 2.2,B424
+THURSDAY,09:00,09:50,Database Management Systems,IT 2.2,B419
+TUESDAY,08:00,09:40,Database Management Systems,IT 2.2,TLFR2
+WEDNESDAY,13:50,15:30,Database Management Systems,IT 2.2,TLFR5
+THURSDAY,11:50,13:30,Database Management Systems,IT 2.2,JL1
+WEDNESDAY,08:00,09:40,Database Management Systems,IT 2.2,TLFR1

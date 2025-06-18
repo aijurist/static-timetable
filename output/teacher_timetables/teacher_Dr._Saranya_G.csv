@@ -1,8 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,13:50,15:30,Embedded Laboratory,ECE 4.2,Embedded System Laboratory (ECE)
-TUESDAY,09:50,11:30,Embedded Laboratory,ECE 4.2,Embedded System Laboratory (ECE)
-FRIDAY,11:50,13:30,Embedded Laboratory,ECE 4.2,Embedded System Laboratory (ECE)
-TUESDAY,08:00,09:40,Embedded Laboratory,ECE 4.2,Embedded System Laboratory (ECE)
-FRIDAY,18:00,18:50,Optical Communication and Networks,ECE 4.2,C103
-THURSDAY,13:00,13:50,Optical Communication and Networks,ECE 4.2,C202
-WEDNESDAY,18:00,18:50,Optical Communication and Networks,ECE 4.2,A304
+FRIDAY,08:00,09:40,Embedded Laboratory,ECE 4.2,Embedded System Laboratory (ECE)
+FRIDAY,09:50,11:30,Embedded Laboratory,ECE 4.2,Embedded System Laboratory (ECE)
+THURSDAY,13:50,15:30,Embedded Laboratory,ECE 4.2,Embedded System Laboratory (ECE)
+MONDAY,13:50,15:30,Embedded Laboratory,ECE 4.2,Embedded System Laboratory (ECE)
+TUESDAY,08:00,08:50,Optical Communication and Networks,ECE 4.2,A103
+WEDNESDAY,17:00,17:50,Optical Communication and Networks,ECE 4.2,B221
+MONDAY,18:00,18:50,Optical Communication and Networks,ECE 4.2,B219

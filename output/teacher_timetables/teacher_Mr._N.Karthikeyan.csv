@@ -1,22 +1,15 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,10:00,10:50,Database Management Systems,CSE 2.7,C302
-THURSDAY,11:00,11:50,Database Management Systems,CSE 2.7,B409
-THURSDAY,09:00,09:50,Database Management Systems,CSE 2.7,B410
-WEDNESDAY,11:50,13:30,Database Management Systems,CSE 2.7,JR3
-FRIDAY,15:50,17:30,Database Management Systems,CSE 2.7,JL2
-FRIDAY,17:30,19:10,Database Management Systems,CSE 2.7,TLFL3
-THURSDAY,11:50,13:30,Database Management Systems,CSE 2.7,JR3
-MONDAY,16:00,16:50,Object Oriented Programming Using JAVA,CSE 2.3,B426
-WEDNESDAY,11:00,11:50,Object Oriented Programming Using JAVA,CSE 2.3,C202
-FRIDAY,13:00,13:50,Object Oriented Programming Using JAVA,CSE 2.3,A204
-FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE 2.3,KFR03
-WEDNESDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE 2.3,TLFR4
-THURSDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSE 2.3,TLGL4
-MONDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE 2.3,TLGL4
-WEDNESDAY,18:00,18:50,Object Oriented Programming Using JAVA,CSE 2.10,B219
-WEDNESDAY,10:00,10:50,Object Oriented Programming Using JAVA,CSE 2.10,A209
-WEDNESDAY,17:00,17:50,Object Oriented Programming Using JAVA,CSE 2.10,A110
-MONDAY,17:30,19:10,Object Oriented Programming Using JAVA,CSE 2.10,JL1
-TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSE 2.10,TLFR4
-TUESDAY,17:30,19:10,Object Oriented Programming Using JAVA,CSE 2.10,TLFL1
-MONDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE 2.10,KFR03
+MONDAY,13:00,13:50,Database Management Systems,CSE 2.3,B424
+MONDAY,14:00,14:50,Database Management Systems,CSE 2.3,B321
+WEDNESDAY,13:00,13:50,Database Management Systems,CSE 2.3,A304
+TUESDAY,15:50,17:30,Database Management Systems,CSE 2.3,TLFR1
+TUESDAY,17:30,19:10,Database Management Systems,CSE 2.3,TLFL5
+FRIDAY,08:00,09:40,Database Management Systems,CSE 2.3,TLFR2
+TUESDAY,11:50,13:30,Database Management Systems,CSE 2.3,JL1
+WEDNESDAY,11:00,11:50,Object Oriented Programming Using JAVA,CSE 2.5,B425
+FRIDAY,15:00,15:50,Object Oriented Programming Using JAVA,CSE 2.5,B322
+THURSDAY,14:00,14:50,Object Oriented Programming Using JAVA,CSE 2.5,B415
+MONDAY,17:30,19:10,Object Oriented Programming Using JAVA,CSE 2.5,KFL02
+THURSDAY,17:30,19:10,Object Oriented Programming Using JAVA,CSE 2.5,JR3
+MONDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSE 2.5,KFL01
+THURSDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSE 2.5,JL1

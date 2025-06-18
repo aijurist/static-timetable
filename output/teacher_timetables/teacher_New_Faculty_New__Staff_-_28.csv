@@ -1,7 +1,7 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,14:00,14:50,Fundamentals of Machine Learning,AIML 2.3,B419
-TUESDAY,18:00,18:50,Fundamentals of Machine Learning,AIML 2.3,A303
-FRIDAY,14:00,14:50,Fundamentals of Machine Learning,AIML 2.3,B403
-WEDNESDAY,08:00,09:40,Fundamentals of Machine Learning,AIML 2.3,KFL01
-SATURDAY,09:50,11:30,Fundamentals of Machine Learning,AIML 2.3,JL1
-THURSDAY,13:00,13:50,Social and Ethical Issues in AI,AIML 4.3,A208
+WEDNESDAY,18:00,18:50,Fundamentals of Machine Learning,AIML 2.4,B320
+THURSDAY,14:00,14:50,Fundamentals of Machine Learning,AIML 2.4,B218
+WEDNESDAY,15:00,15:50,Fundamentals of Machine Learning,AIML 2.4,A310
+MONDAY,09:50,11:30,Fundamentals of Machine Learning,AIML 2.4,TLGL2
+TUESDAY,13:50,15:30,Fundamentals of Machine Learning,AIML 2.4,KFL03
+SATURDAY,09:00,09:50,Social and Ethical Issues in AI,AIML 4.2,A211

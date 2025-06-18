@@ -1,28 +1,28 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-THURSDAY,10:00,10:50,Digital System Design,Mrs. Uma Maheswari M,A210
-TUESDAY,11:00,11:50,Digital System Design,Mrs. Uma Maheswari M,B302
-FRIDAY,09:50,11:30,Digital System Design,Mrs. Uma Maheswari M,MCT CAD Lab
-WEDNESDAY,17:30,19:10,Digital System Design,Mrs. Uma Maheswari M,MCT CAD Lab
-FRIDAY,09:00,09:50,Mechanics of Solids,Mr. Prakash E,A108
-TUESDAY,15:00,15:50,Mechanics of Solids,Mr. Prakash E,B422
-THURSDAY,16:00,16:50,Mechanics of Solids,Mr. Prakash E,C302
-WEDNESDAY,13:50,15:30,Mechanics of Solids,Mr. Prakash E,Avionics Lab
-THURSDAY,13:50,15:30,Mechanics of Solids,Mr. Prakash E,Electrical Machines II Lab
-FRIDAY,16:00,16:50,Introduction to Python Programming,Mr. Dr Ramesh Shanmugam,B409
-TUESDAY,17:30,19:10,Introduction to Python Programming,Mr. Dr Ramesh Shanmugam,MCT CAD Lab
-SATURDAY,13:50,15:30,Introduction to Python Programming,Mr. Dr Ramesh Shanmugam,MCT CAD Lab
+TUESDAY,11:00,11:50,Digital System Design,Mrs. Uma Maheswari M,B107
+SATURDAY,11:00,11:50,Digital System Design,Mrs. Uma Maheswari M,B107
+THURSDAY,13:50,15:30,Digital System Design,Mrs. Uma Maheswari M,MCT CAD Lab
+TUESDAY,17:30,19:10,Digital System Design,Mrs. Uma Maheswari M,MCT CAD Lab
+TUESDAY,12:00,12:50,Mechanics of Solids,Mr. Prakash E,A209
+WEDNESDAY,17:00,17:50,Mechanics of Solids,Mr. Prakash E,A305
+THURSDAY,09:00,09:50,Mechanics of Solids,Mr. Prakash E,B425
+FRIDAY,11:50,13:30,Mechanics of Solids,Mr. Prakash E,Food Microbiology Lab
+WEDNESDAY,09:50,11:30,Mechanics of Solids,Mr. Prakash E,Biochemistry Lab
+TUESDAY,13:00,13:50,Introduction to Python Programming,Mr. Dr Ramesh Shanmugam,C308
 TUESDAY,15:50,17:30,Introduction to Python Programming,Mr. Dr Ramesh Shanmugam,MCT CAD Lab
+WEDNESDAY,13:50,15:30,Introduction to Python Programming,Mr. Dr Ramesh Shanmugam,MCT CAD Lab
 SATURDAY,15:50,17:30,Introduction to Python Programming,Mr. Dr Ramesh Shanmugam,MCT CAD Lab
-WEDNESDAY,13:00,13:50,Transforms and Applied Partial Differential Equations,Dr. Akshaya A,B418
-THURSDAY,11:00,11:50,Transforms and Applied Partial Differential Equations,Dr. Akshaya A,A108
-FRIDAY,08:00,08:50,Transforms and Applied Partial Differential Equations,Dr. Akshaya A,A103
-THURSDAY,09:00,09:50,Transforms and Applied Partial Differential Equations,Dr. Akshaya A,C101
-TUESDAY,12:00,12:50,Analog Devices and Drives,Mr. Nareshbabu Gajendran,C302
-THURSDAY,13:00,13:50,Analog Devices and Drives,Mr. Nareshbabu Gajendran,A202
-FRIDAY,11:50,13:30,Analog Devices and Drives,Mr. Nareshbabu Gajendran,Industrial Automation Lab
-SATURDAY,13:50,15:30,Analog Devices and Drives,Mr. Nareshbabu Gajendran,Industrial Automation Lab
-FRIDAY,17:00,17:50,Manufacturing Technology,Mr. Sridharan M,B320
-THURSDAY,17:00,17:50,Manufacturing Technology,Mr. Sridharan M,B107
-SATURDAY,11:00,11:50,Manufacturing Technology,Mr. Sridharan M,C308
-SATURDAY,11:50,13:30,Manufacturing Technology,Mr. Sridharan M,Automotive Components Lab
-FRIDAY,09:50,11:30,Manufacturing Technology,Mr. Sridharan M,Manufacturing Technology II
+SATURDAY,17:30,19:10,Introduction to Python Programming,Mr. Dr Ramesh Shanmugam,MCT CAD Lab
+FRIDAY,18:00,18:50,Transforms and Applied Partial Differential Equations,Dr. Akshaya A,B222
+SATURDAY,08:00,08:50,Transforms and Applied Partial Differential Equations,Dr. Akshaya A,B416
+TUESDAY,14:00,14:50,Transforms and Applied Partial Differential Equations,Dr. Akshaya A,B419
+TUESDAY,15:00,15:50,Transforms and Applied Partial Differential Equations,Dr. Akshaya A,B417
+FRIDAY,09:00,09:50,Analog Devices and Drives,Mr. Nareshbabu Gajendran,B422
+THURSDAY,10:00,10:50,Analog Devices and Drives,Mr. Nareshbabu Gajendran,C301
+FRIDAY,09:50,11:30,Analog Devices and Drives,Mr. Nareshbabu Gajendran,Industrial Automation Lab
+WEDNESDAY,13:50,15:30,Analog Devices and Drives,Mr. Nareshbabu Gajendran,Industrial Automation Lab
+THURSDAY,18:00,18:50,Manufacturing Technology,Mr. Sridharan M,A203
+WEDNESDAY,12:00,12:50,Manufacturing Technology,Mr. Sridharan M,A310
+WEDNESDAY,18:00,18:50,Manufacturing Technology,Mr. Sridharan M,B426
+SATURDAY,17:30,19:10,Manufacturing Technology,Mr. Sridharan M,Power Electronics Lab
+THURSDAY,13:50,15:30,Manufacturing Technology,Mr. Sridharan M,Aircraft Structures Lab

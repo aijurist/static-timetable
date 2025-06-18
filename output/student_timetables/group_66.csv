@@ -1,27 +1,27 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,10:00,10:50,Theory of Computation,Mr. Dr.K.Ananthajothi,A204
-WEDNESDAY,14:00,14:50,Theory of Computation,Mr. Dr.K.Ananthajothi,B221
-MONDAY,15:00,15:50,Theory of Computation,Mr. Dr.K.Ananthajothi,A311
-FRIDAY,08:00,08:50,Theory of Computation,Mr. Dr.K.Ananthajothi,B221
-MONDAY,08:00,08:50,Fundamentals of Mobile Computing,HOD CSE,A309
-WEDNESDAY,17:00,17:50,Fundamentals of Mobile Computing,HOD CSE,B321
-FRIDAY,13:00,13:50,Fundamentals of Mobile Computing,HOD CSE,B302
-TUESDAY,18:00,18:50,Web Programming,New Staff - 04,B423
-WEDNESDAY,11:00,11:50,Web Programming,New Staff - 04,C101
-THURSDAY,16:00,16:50,Web Programming,New Staff - 04,B222
-MONDAY,11:50,13:30,Web Programming,New Staff - 04,JL1
-WEDNESDAY,11:50,13:30,Web Programming,New Staff - 04,JR2
-THURSDAY,08:00,09:40,Web Programming,New Staff - 04,TLFL1
-MONDAY,09:50,11:30,Web Programming,New Staff - 04,KFL02
-TUESDAY,09:00,09:50,Computer Networks,Mrs. Dr.R.Sabitha,A203
-FRIDAY,09:00,09:50,Computer Networks,Mrs. Dr.R.Sabitha,A209
-FRIDAY,15:00,15:50,Computer Networks,Mrs. Dr.R.Sabitha,B219
-FRIDAY,09:50,11:30,Computer Networks,Mrs. Dr.R.Sabitha,TLFR5
-MONDAY,15:50,17:30,Computer Networks,Mrs. Dr.R.Sabitha,TLFR4
-WEDNESDAY,11:50,13:30,Computer Networks,Mrs. Dr.R.Sabitha,TLGL4
-TUESDAY,11:50,13:30,Computer Networks,Mrs. Dr.R.Sabitha,TLGL4
-TUESDAY,10:00,10:50,Foundations of Artificial Intelligence,Mrs. Deepa B,A302
-MONDAY,14:00,14:50,Foundations of Artificial Intelligence,Mrs. Deepa B,C301
-THURSDAY,10:00,10:50,Foundations of Artificial Intelligence,Mrs. Deepa B,B222
-THURSDAY,08:00,09:40,Foundations of Artificial Intelligence,Mrs. Deepa B,TLFR2
-MONDAY,11:50,13:30,Foundations of Artificial Intelligence,Mrs. Deepa B,KFR02
+FRIDAY,12:00,12:50,Theory of Computation,Mr. Dr.K.Ananthajothi,B423
+FRIDAY,18:00,18:50,Theory of Computation,Mr. Dr.K.Ananthajothi,B403
+WEDNESDAY,10:00,10:50,Theory of Computation,Mr. Dr.K.Ananthajothi,B222
+WEDNESDAY,09:00,09:50,Theory of Computation,Mr. Dr.K.Ananthajothi,A102
+TUESDAY,17:00,17:50,Fundamentals of Mobile Computing,HOD CSE,A205
+SATURDAY,10:00,10:50,Fundamentals of Mobile Computing,HOD CSE,B405
+FRIDAY,11:00,11:50,Fundamentals of Mobile Computing,HOD CSE,C102
+SATURDAY,14:00,14:50,Web Programming,New Staff - 04,B321
+SATURDAY,11:00,11:50,Web Programming,New Staff - 04,B425
+WEDNESDAY,08:00,08:50,Web Programming,New Staff - 04,B417
+WEDNESDAY,11:50,13:30,Web Programming,New Staff - 04,KSL03
+SATURDAY,11:50,13:30,Web Programming,New Staff - 04,KFL03
+SATURDAY,17:30,19:10,Web Programming,New Staff - 04,KFR01
+TUESDAY,11:50,13:30,Web Programming,New Staff - 04,TLFR4
+TUESDAY,14:00,14:50,Computer Networks,Mrs. Dr.R.Sabitha,C201
+WEDNESDAY,14:00,14:50,Computer Networks,Mrs. Dr.R.Sabitha,A211
+TUESDAY,15:00,15:50,Computer Networks,Mrs. Dr.R.Sabitha,A109
+WEDNESDAY,15:50,17:30,Computer Networks,Mrs. Dr.R.Sabitha,TLFR1
+THURSDAY,13:50,15:30,Computer Networks,Mrs. Dr.R.Sabitha,KFR02
+WEDNESDAY,17:30,19:10,Computer Networks,Mrs. Dr.R.Sabitha,TLFR2
+THURSDAY,15:50,17:30,Computer Networks,Mrs. Dr.R.Sabitha,TLFL3
+FRIDAY,10:00,10:50,Foundations of Artificial Intelligence,Mrs. Deepa B,B210
+FRIDAY,14:00,14:50,Foundations of Artificial Intelligence,Mrs. Deepa B,B426
+FRIDAY,16:00,16:50,Foundations of Artificial Intelligence,Mrs. Deepa B,A305
+SATURDAY,17:30,19:10,Foundations of Artificial Intelligence,Mrs. Deepa B,TLFR3
+SATURDAY,11:50,13:30,Foundations of Artificial Intelligence,Mrs. Deepa B,TLFR4

@@ -1,12 +1,12 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,12:00,12:50,Analog Devices and Drives,MCT 2.1,C302
-THURSDAY,13:00,13:50,Analog Devices and Drives,MCT 2.1,A202
-FRIDAY,11:50,13:30,Analog Devices and Drives,MCT 2.1,Industrial Automation Lab
-SATURDAY,13:50,15:30,Analog Devices and Drives,MCT 2.1,Industrial Automation Lab
-FRIDAY,17:30,19:10,Soft Skills – II,MCT 3.1,TLGL4
-TUESDAY,13:50,15:30,Soft Skills – II,MCT 3.1,TLFL3
-TUESDAY,09:50,11:30,Industrial Automation Laboratory,MCT 4.1,Livestock Lab
-SATURDAY,11:50,13:30,Industrial Automation Laboratory,MCT 4.1,Particle Science and Technology Lab
-WEDNESDAY,18:00,18:50,Industrial Automation,MCT 4.1,B402
-SATURDAY,10:00,10:50,Industrial Automation,MCT 4.1,C102
-THURSDAY,14:00,14:50,Industrial Automation,MCT 4.1,B422
+FRIDAY,09:00,09:50,Analog Devices and Drives,MCT 2.1,B422
+THURSDAY,10:00,10:50,Analog Devices and Drives,MCT 2.1,C301
+FRIDAY,09:50,11:30,Analog Devices and Drives,MCT 2.1,Industrial Automation Lab
+WEDNESDAY,13:50,15:30,Analog Devices and Drives,MCT 2.1,Industrial Automation Lab
+WEDNESDAY,08:00,09:40,Soft Skills – II,MCT 3.1,TLFL3
+WEDNESDAY,09:50,11:30,Soft Skills – II,MCT 3.1,JL2
+THURSDAY,11:50,13:30,Industrial Automation Laboratory,MCT 4.1,Machine Shop FF3 - EPL - 3
+FRIDAY,13:50,15:30,Industrial Automation Laboratory,MCT 4.1,Engineering Practices Lab (Electrical)
+SATURDAY,17:00,17:50,Industrial Automation,MCT 4.1,A302
+SATURDAY,18:00,18:50,Industrial Automation,MCT 4.1,A209
+THURSDAY,08:00,08:50,Industrial Automation,MCT 4.1,B424

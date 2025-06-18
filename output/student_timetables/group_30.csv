@@ -1,32 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,09:50,11:30,Food Processing and Preservation Laboratory - II,Mrs. Nithya Bala Sundari S,Food Processing and Preservation Lab
-WEDNESDAY,09:50,11:30,Food Processing and Preservation Laboratory - II,Mrs. Nithya Bala Sundari S,Food Processing and Preservation Lab
-SATURDAY,17:30,19:10,Food Processing and Preservation Laboratory - II,Mrs. Nithya Bala Sundari S,Food Processing and Preservation Lab
-THURSDAY,11:50,13:30,Food Processing and Preservation Laboratory - II,Mrs. Nithya Bala Sundari S,Food Processing and Preservation Lab
-WEDNESDAY,08:00,08:50,Professional Elective II,Dr. Priyadarshini S R,A210
-TUESDAY,18:00,18:50,Professional Elective II,Dr. Priyadarshini S R,C301
-THURSDAY,08:00,08:50,Professional Elective II,Dr. Priyadarshini S R,A110
-FRIDAY,13:00,13:50,Food Analysis,Ms. Divyashree J S,A302
-TUESDAY,13:00,13:50,Food Analysis,Ms. Divyashree J S,C202
-THURSDAY,14:00,14:50,Food Analysis,Ms. Divyashree J S,A305
-WEDNESDAY,16:00,16:50,Professional Ethics,Mrs. Kulastic Jassy A,A204
-FRIDAY,17:00,17:50,Professional Ethics,Mrs. Kulastic Jassy A,C307
-SATURDAY,15:00,15:50,Professional Ethics,Mrs. Kulastic Jassy A,A103
-FRIDAY,14:00,14:50,Professional Elective I,Mr. Dr.V.Sudhakar,B325
-TUESDAY,17:00,17:50,Professional Elective I,Mr. Dr.V.Sudhakar,B410
-SATURDAY,14:00,14:50,Professional Elective I,Mr. Dr.V.Sudhakar,C301
-SATURDAY,11:50,13:30,Food Packaging Technology Laboratory,Mrs. Ms.A.Srimagal,Baking Lab
-WEDNESDAY,11:50,13:30,Food Packaging Technology Laboratory,Mrs. Ms.A.Srimagal,Baking Lab
-TUESDAY,09:50,11:30,Food Packaging Technology Laboratory,Mrs. Ms.A.Srimagal,Baking Lab
-WEDNESDAY,09:50,11:30,Food Packaging Technology Laboratory,Mrs. Ms.A.Srimagal,Baking Lab
-THURSDAY,17:00,17:50,Food Process Engineering,Mrs. Nithya Bala Sundari S,B415
-THURSDAY,15:00,15:50,Food Process Engineering,Mrs. Nithya Bala Sundari S,A110
-TUESDAY,08:00,08:50,Food Process Engineering,Mrs. Nithya Bala Sundari S,B408
-FRIDAY,16:00,16:50,Industry training during vacation,HOD FOOD TECH,B411
-SATURDAY,11:00,11:50,Heat and Mass Transfer in Food Processing,Mrs. Dr. P. Bharathi,B210
-WEDNESDAY,17:00,17:50,Heat and Mass Transfer in Food Processing,Mrs. Dr. P. Bharathi,C308
-THURSDAY,09:00,09:50,Heat and Mass Transfer in Food Processing,Mrs. Dr. P. Bharathi,C102
-TUESDAY,13:50,15:30,Food Analysis Laboratory,Mrs. Kulastic Jassy A,Biochemistry Lab
-THURSDAY,11:50,13:30,Food Analysis Laboratory,Mrs. Kulastic Jassy A,Biochemistry Lab
-THURSDAY,09:50,11:30,Food Analysis Laboratory,Mrs. Kulastic Jassy A,Biochemistry Lab
-SATURDAY,15:50,17:30,Food Analysis Laboratory,Mrs. Kulastic Jassy A,Biochemistry Lab
+WEDNESDAY,09:00,09:50,Computer Architecture,Mrs. Deepa B,A209
+WEDNESDAY,17:00,17:50,Computer Architecture,Mrs. Deepa B,B417
+THURSDAY,10:00,10:50,Computer Architecture,Mrs. Deepa B,B418
+MONDAY,10:00,10:50,Design and Analysis of Algorithms,Ms. T.Ramala,B417
+MONDAY,11:00,11:50,Design and Analysis of Algorithms,Ms. T.Ramala,B403
+WEDNESDAY,13:00,13:50,Design and Analysis of Algorithms,Ms. T.Ramala,A204
+FRIDAY,09:50,11:30,Design and Analysis of Algorithms,Ms. T.Ramala,TLGL4
+MONDAY,15:50,17:30,Design and Analysis of Algorithms,Ms. T.Ramala,KFR02
+MONDAY,08:00,08:50,Fourier series and Number theory,Mr. Venkatesan J,A308
+TUESDAY,10:00,10:50,Fourier series and Number theory,Mr. Venkatesan J,B423
+THURSDAY,13:00,13:50,Fourier series and Number theory,Mr. Venkatesan J,A209
+MONDAY,09:00,09:50,Fourier series and Number theory,Mr. Venkatesan J,B403
+MONDAY,18:00,18:50,Database Management Systems,Mr. Dr Parthasarathy C,B416
+TUESDAY,08:00,08:50,Database Management Systems,Mr. Dr Parthasarathy C,B410
+WEDNESDAY,15:00,15:50,Database Management Systems,Mr. Dr Parthasarathy C,A303
+THURSDAY,15:50,17:30,Database Management Systems,Mr. Dr Parthasarathy C,TLFL2
+THURSDAY,17:30,19:10,Database Management Systems,Mr. Dr Parthasarathy C,TLFR1
+FRIDAY,17:30,19:10,Database Management Systems,Mr. Dr Parthasarathy C,JL3
+FRIDAY,15:50,17:30,Database Management Systems,Mr. Dr Parthasarathy C,JL1
+WEDNESDAY,14:00,14:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,B106
+FRIDAY,14:00,14:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,B408
+FRIDAY,08:00,08:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,A108
+TUESDAY,11:50,13:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLFR4
+TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLFL3
+THURSDAY,15:50,17:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLFR1
+THURSDAY,13:50,15:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLFR2
+FRIDAY,15:00,15:50,Fundamentals of Data Science,Ms. Dharshini B S,B408
+TUESDAY,09:00,09:50,Fundamentals of Data Science,Ms. Dharshini B S,A203
+WEDNESDAY,11:00,11:50,Fundamentals of Data Science,Ms. Dharshini B S,A310
+MONDAY,15:50,17:30,Fundamentals of Data Science,Ms. Dharshini B S,TLFL1
+FRIDAY,09:50,11:30,Fundamentals of Data Science,Ms. Dharshini B S,TLFL3

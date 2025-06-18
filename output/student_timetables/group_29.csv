@@ -1,28 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,11:50,13:30,Food Microbiology Laboratory,Mr. Anand R,Food Microbiology Lab
-TUESDAY,09:50,11:30,Food Microbiology Laboratory,Mr. Anand R,Food Microbiology Lab
-SATURDAY,15:50,17:30,Food Microbiology Laboratory,Mr. Anand R,Food Microbiology Lab
-SATURDAY,11:50,13:30,Food Microbiology Laboratory,Mr. Anand R,Food Microbiology Lab
-WEDNESDAY,13:50,15:30,Biochemistry and Nutrition Laboratory,Mrs. Aruthra Devi G,Biochemistry Lab
-SATURDAY,09:50,11:30,Biochemistry and Nutrition Laboratory,Mrs. Aruthra Devi G,Biochemistry Lab
-FRIDAY,11:50,13:30,Biochemistry and Nutrition Laboratory,Mrs. Aruthra Devi G,Biochemistry Lab
-THURSDAY,08:00,09:40,Biochemistry and Nutrition Laboratory,Mrs. Aruthra Devi G,Biochemistry Lab
-FRIDAY,11:00,11:50,Transforms and Applied Partial Differential Equations,Dr. Chitra Rameshbabu,B220
-TUESDAY,13:00,13:50,Transforms and Applied Partial Differential Equations,Dr. Chitra Rameshbabu,B412
-THURSDAY,13:00,13:50,Transforms and Applied Partial Differential Equations,Dr. Chitra Rameshbabu,B210
-TUESDAY,16:00,16:50,Transforms and Applied Partial Differential Equations,Dr. Chitra Rameshbabu,A202
-FRIDAY,17:00,17:50,Food Microbiology,Mr. Anand R,B221
-THURSDAY,15:00,15:50,Food Microbiology,Mr. Anand R,A305
-TUESDAY,15:00,15:50,Food Microbiology,Mr. Anand R,B412
-TUESDAY,09:00,09:50,Biochemistry and Nutrition,Mrs. Aruthra Devi G,A109
-WEDNESDAY,10:00,10:50,Biochemistry and Nutrition,Mrs. Aruthra Devi G,A211
-TUESDAY,12:00,12:50,Biochemistry and Nutrition,Mrs. Aruthra Devi G,B107
-THURSDAY,12:00,12:50,Thermodynamics for Food Technologists,Mr. Dr.S.Kumar,B416
-THURSDAY,11:00,11:50,Thermodynamics for Food Technologists,Mr. Dr.S.Kumar,A204
-THURSDAY,10:00,10:50,Thermodynamics for Food Technologists,Mr. Dr.S.Kumar,A304
-SATURDAY,08:00,08:50,Food Process Calculations,Mrs. Dr. P. Bharathi,A308
-SATURDAY,09:00,09:50,Food Process Calculations,Mrs. Dr. P. Bharathi,B213
-THURSDAY,16:00,16:50,Food Process Calculations,Mrs. Dr. P. Bharathi,B418
-TUESDAY,08:00,08:50,Food Additives,Mrs. Kulastic Jassy A,A208
-WEDNESDAY,18:00,18:50,Food Additives,Mrs. Kulastic Jassy A,B325
-FRIDAY,14:00,14:50,Food Additives,Mrs. Kulastic Jassy A,B416
+WEDNESDAY,08:00,08:50,Computer Architecture,Mrs. Dharani Devi G,C301
+FRIDAY,13:00,13:50,Computer Architecture,Mrs. Dharani Devi G,B220
+TUESDAY,16:00,16:50,Computer Architecture,Mrs. Dharani Devi G,A108
+TUESDAY,15:00,15:50,Design and Analysis of Algorithms,New Staff - 03,A202
+MONDAY,13:00,13:50,Design and Analysis of Algorithms,New Staff - 03,B408
+FRIDAY,14:00,14:50,Design and Analysis of Algorithms,New Staff - 03,B409
+THURSDAY,13:50,15:30,Design and Analysis of Algorithms,New Staff - 03,KFL02
+THURSDAY,11:50,13:30,Design and Analysis of Algorithms,New Staff - 03,TLFL1
+MONDAY,11:00,11:50,Fourier series and Number theory,Dr. Meenakumari R,B418
+WEDNESDAY,09:00,09:50,Fourier series and Number theory,Dr. Meenakumari R,B418
+MONDAY,16:00,16:50,Fourier series and Number theory,Dr. Meenakumari R,B302
+WEDNESDAY,14:00,14:50,Fourier series and Number theory,Dr. Meenakumari R,C308
+WEDNESDAY,17:00,17:50,Database Management Systems,Dr. Bhuvaneswari R,B425
+MONDAY,10:00,10:50,Database Management Systems,Dr. Bhuvaneswari R,B412
+FRIDAY,08:00,08:50,Database Management Systems,Dr. Bhuvaneswari R,B423
+TUESDAY,11:50,13:30,Database Management Systems,Dr. Bhuvaneswari R,KFR03
+THURSDAY,17:30,19:10,Database Management Systems,Dr. Bhuvaneswari R,JR1
+TUESDAY,09:50,11:30,Database Management Systems,Dr. Bhuvaneswari R,JR1
+THURSDAY,15:50,17:30,Database Management Systems,Dr. Bhuvaneswari R,JR3
+WEDNESDAY,10:00,10:50,Object Oriented Programming Using JAVA,Ms. Divya M,C302
+TUESDAY,14:00,14:50,Object Oriented Programming Using JAVA,Ms. Divya M,C302
+WEDNESDAY,16:00,16:50,Object Oriented Programming Using JAVA,Ms. Divya M,A304
+MONDAY,08:00,09:40,Object Oriented Programming Using JAVA,Ms. Divya M,TLFR2
+WEDNESDAY,11:50,13:30,Object Oriented Programming Using JAVA,Ms. Divya M,JR2
+THURSDAY,17:30,19:10,Object Oriented Programming Using JAVA,Ms. Divya M,TLFL5
+TUESDAY,17:30,19:10,Object Oriented Programming Using JAVA,Ms. Divya M,TLFL3
+FRIDAY,15:00,15:50,Fundamentals of Data Science,Mrs. Farjana U,A109
+FRIDAY,16:00,16:50,Fundamentals of Data Science,Mrs. Farjana U,B409
+THURSDAY,09:00,09:50,Fundamentals of Data Science,Mrs. Farjana U,B412
+MONDAY,13:50,15:30,Fundamentals of Data Science,Mrs. Farjana U,TLFL2
+MONDAY,17:30,19:10,Fundamentals of Data Science,Mrs. Farjana U,JL3

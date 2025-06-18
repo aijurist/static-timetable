@@ -1,11 +1,11 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,18:00,18:50,Fundamentals of Machine Learning,AIML 2.2,B416
-SATURDAY,14:00,14:50,Fundamentals of Machine Learning,AIML 2.2,C101
-FRIDAY,17:00,17:50,Fundamentals of Machine Learning,AIML 2.2,B423
-SATURDAY,11:50,13:30,Fundamentals of Machine Learning,AIML 2.2,KFR03
-TUESDAY,08:00,09:40,Fundamentals of Machine Learning,AIML 2.2,KFR02
-FRIDAY,10:00,10:50,Framework for data and visual Analytics,AIML 3.3,B219
-THURSDAY,13:00,13:50,Framework for data and visual Analytics,AIML 3.3,B402
-TUESDAY,10:00,10:50,Framework for data and visual Analytics,AIML 3.3,B410
-TUESDAY,13:50,15:30,Framework for data and visual Analytics,AIML 3.3,TLFL2
-WEDNESDAY,09:50,11:30,Framework for data and visual Analytics,AIML 3.3,TLFL5
+FRIDAY,12:00,12:50,Fundamentals of Machine Learning,AIML 2.3,B422
+WEDNESDAY,14:00,14:50,Fundamentals of Machine Learning,AIML 2.3,B402
+FRIDAY,14:00,14:50,Fundamentals of Machine Learning,AIML 2.3,C102
+MONDAY,11:50,13:30,Fundamentals of Machine Learning,AIML 2.3,JR1
+MONDAY,08:00,09:40,Fundamentals of Machine Learning,AIML 2.3,TLFR3
+SATURDAY,15:00,15:50,Framework for data and visual Analytics,AIML 3.1,A103
+WEDNESDAY,11:00,11:50,Framework for data and visual Analytics,AIML 3.1,A211
+WEDNESDAY,18:00,18:50,Framework for data and visual Analytics,AIML 3.1,A308
+SATURDAY,11:50,13:30,Framework for data and visual Analytics,AIML 3.1,JL3
+THURSDAY,08:00,09:40,Framework for data and visual Analytics,AIML 3.1,TLGL4

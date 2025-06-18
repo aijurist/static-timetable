@@ -66,6 +66,12 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 // Special room restrictions
                 specialRoomForAuto(constraintFactory),
                 
+                // Mandatory lunch break constraint
+                mandatoryLunchBreak(constraintFactory),
+                
+                // Student campus time constraint  
+                studentCampusTimeLimit(constraintFactory),
+                
                 // ########################################################################
                 // TIER 2: IMPORTANT SOFT CONSTRAINTS (Preferences and efficiency)
                 // ########################################################################
@@ -77,9 +83,9 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 departmentBlockPreference(constraintFactory),
                 
                 // Large lab efficiency - encourage combining batches
-                largeLab70CapacityBatchCombining(constraintFactory),
+                // largeLab70CapacityBatchCombining(constraintFactory),
                 // NEW: Penalize inefficient batch splitting
-                penalizeSplitBatchesSeparateLargeLabs(constraintFactory),
+                // penalizeSplitBatchesSeparateLargeLabs(constraintFactory),
                 
                 // Teacher workload management
                 teacherMaxWeeklyHours(constraintFactory),
@@ -87,7 +93,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 balanceTeacherDailyLoad(constraintFactory),
                 
                 // Student group preferences
-                studentGroupShiftPattern(constraintFactory),
+                // studentGroupShiftPattern(constraintFactory),
                 penalizePairedLabInDifferentSlots(constraintFactory),
                 
                 // ########################################################################
@@ -95,7 +101,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 // ########################################################################
                 
                 // Teaching preferences and efficiency
-                preferTeacherTimePreferences(constraintFactory),
+                // preferTeacherTimePreferences(constraintFactory),
                 teacherMaxConsecutiveHours(constraintFactory),
                 minimizeTeacherTravelTime(constraintFactory),
                 preferConsecutiveLessons(constraintFactory),
@@ -447,6 +453,22 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 .asConstraint("Special room AUTO only");
     }
 
+    /**
+     * HARD: Ensure mandatory lunch break between 11:00-14:00
+     * Students must have at least 50 minutes break during this period if they have classes spanning it
+     */
+    private Constraint mandatoryLunchBreak(ConstraintFactory constraintFactory) {
+        return constraintFactory
+                .forEach(Lesson.class)
+                .groupBy(Lesson::getStudentGroup, 
+                        lesson -> lesson.getTimeSlot().getDayOfWeek(),
+                        toList())
+                .filter((studentGroup, day, lessons) -> violatesLunchBreakRule(lessons))
+                .penalize(HardSoftScore.ONE_HARD.multiply(1000), // Very high penalty
+                        (studentGroup, day, lessons) -> calculateLunchBreakViolations(lessons))
+                .asConstraint("Mandatory lunch break violation");
+    }
+
     // NEW: Encourage a 2-2-1 shift distribution (permutation of two days in two different shifts and one day in the third)
     private Constraint teacherShiftPattern(ConstraintFactory constraintFactory) {
         return constraintFactory
@@ -677,17 +699,18 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
     /**
      * SOFT: Prefer assigning theory/tutorial sessions to rooms in the department's preferred block
      * to minimize student travel time between classes.
+     * This constraint only penalizes when departments are assigned to NON-preferred blocks.
      */
     private Constraint departmentBlockPreference(ConstraintFactory constraintFactory) {
         return constraintFactory.forEach(Lesson.class)
                 .filter(lesson -> lesson.requiresTheoryRoom()) // Only theory and tutorial sessions
                 .filter(lesson -> lesson.getRoom() != null && lesson.getStudentGroup() != null)
                 .filter(lesson -> DepartmentBlockConfig.hasBlockPreference(lesson.getStudentGroup().getDepartment()))
-                .penalize(HardSoftScore.ONE_SOFT.multiply(10), 
-                        lesson -> DepartmentBlockConfig.getBlockPreferencePenalty(
-                                lesson.getStudentGroup().getDepartment(), 
-                                lesson.getRoom().getBlock()))
-                .asConstraint("Department block preference");
+                .filter(lesson -> !DepartmentBlockConfig.isPreferredBlock(
+                        lesson.getStudentGroup().getDepartment(), 
+                        lesson.getRoom().getBlock())) // Only penalize violations
+                .penalize(HardSoftScore.ONE_SOFT.multiply(10))
+                .asConstraint("Department block preference violation");
     }
 
     // FIXED: Student group shift pattern now as soft constraint with improved penalty calculation
@@ -756,6 +779,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
 
     /**
      * HARD: Ensure departments only schedule lessons on their allowed working days
+     * Uses optimized department+year grouping for lab utilization
      */
     private Constraint departmentOutsideAllowedDays(ConstraintFactory constraintFactory) {
         return constraintFactory
@@ -763,6 +787,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 .filter(lesson -> lesson.getTimeSlot() != null && lesson.getStudentGroup() != null)
                 .filter(lesson -> !DepartmentWorkdayConfig.isAllowedDay(
                         lesson.getStudentGroup().getDepartment(), 
+                        lesson.getStudentGroup().getYear(),
                         lesson.getTimeSlot().getDayOfWeek()))
                 .penalize(HardSoftScore.ONE_HARD.multiply(1000)) // Very high penalty
                 .asConstraint("Department outside allowed working days");
@@ -770,6 +795,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
 
     /**
      * SOFT: Prefer hotspot labs on Monday for Monday-Friday departments
+     * Uses optimized department+year grouping
      */
     private Constraint preferHotspotLabsOnMonday(ConstraintFactory constraintFactory) {
         return constraintFactory
@@ -779,7 +805,8 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                         lesson.getStudentGroup() != null)
                 .filter(lesson -> lesson.getTimeSlot().getDayOfWeek() == java.time.DayOfWeek.MONDAY)
                 .filter(lesson -> DepartmentWorkdayConfig.isMondayFridayDepartment(
-                        lesson.getStudentGroup().getDepartment()))
+                        lesson.getStudentGroup().getDepartment(),
+                        lesson.getStudentGroup().getYear()))
                 .filter(lesson -> DepartmentWorkdayConfig.isHotspotLab(
                         lesson.getRoom().getDescription()))
                 .reward(HardSoftScore.of(0, 25)) // Mild reward
@@ -819,79 +846,215 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 .asConstraint("Encourage large lab batch combining");
     }
 
-
-
     // NEW: Force efficient utilization of 70-capacity labs for batch combining
-    private Constraint penalizeSplitBatchesSeparateLargeLabs(ConstraintFactory constraintFactory) {
+    // private Constraint penalizeSplitBatchesSeparateLargeLabs(ConstraintFactory constraintFactory) {
+    //     return constraintFactory
+    //             .forEachUniquePair(Lesson.class,
+    //                     Joiners.equal(Lesson::getCourse),
+    //                     Joiners.equal(Lesson::getStudentGroup))
+    //             .filter((l1, l2) -> {
+    //                 // Must be lab sessions with different batches of same course/group
+    //                 if (!(l1.requiresLabRoom() && l2.requiresLabRoom())) return false;
+    //                 if (!(l1.isSplitBatch() && l2.isSplitBatch())) return false;
+    //                 if (l1.getLabBatch().equals(l2.getLabBatch())) return false;
+                    
+    //                 Room room1 = l1.getRoom();
+    //                 Room room2 = l2.getRoom();
+    //                 if (room1 == null || room2 == null) return false;
+                    
+    //                 // Penalize if they are NOT efficiently combined
+    //                 boolean sameRoom = room1.equals(room2);
+    //                 boolean sameTime = Objects.equals(l1.getTimeSlot(), l2.getTimeSlot());
+    //                 boolean room1Large = room1.getCapacity() >= TimetableConfig.FULL_CLASS_LAB_THRESHOLD;
+    //                 boolean room2Large = room2.getCapacity() >= TimetableConfig.FULL_CLASS_LAB_THRESHOLD;
+    //                 boolean eitherLarge = room1Large || room2Large;
+                    
+    //                 // If they're efficiently combined (same large room + same time), no penalty
+    //                 if (eitherLarge && sameRoom && sameTime) {
+    //                     return false;
+    //                 }
+                    
+    //                 // If neither assignment uses a large room, skip – we don't care about small labs here
+    //                 if (!eitherLarge) {
+    //                     return false;
+    //                 }
+                    
+    //                 // Otherwise, we penalize inefficient splits
+    //                 return true;
+    //             })
+    //             .penalize(HardSoftScore.of(0, 200), (l1, l2) -> {
+    //                 Room room1 = l1.getRoom();
+    //                 Room room2 = l2.getRoom();
+    //                 boolean sameRoom = room1.equals(room2);
+    //                 boolean sameTime = Objects.equals(l1.getTimeSlot(), l2.getTimeSlot());
+    //                 boolean room1Large = room1.getCapacity() >= TimetableConfig.FULL_CLASS_LAB_THRESHOLD;
+    //                 boolean room2Large = room2.getCapacity() >= TimetableConfig.FULL_CLASS_LAB_THRESHOLD;
+    //                 boolean bothLargeLabs = room1Large && room2Large;
+                    
+    //                 // PERFECT: Both batches in same large lab at same time (no penalty - this is ideal!)
+    //                 if (sameRoom && sameTime && room1Large) {
+    //                     return 0; // Perfect utilization
+    //                 }
+                    
+    //                 // SEVERE: Both batches using different large labs (wastes precious 70-capacity resources)
+    //                 if (!sameRoom && bothLargeLabs) {
+    //                     if (sameTime) {
+    //                         return 25; // Worst - two 70-labs wasted simultaneously
+    //                     } else {
+    //                         return 20; // Bad - two 70-labs wasted at different times
+    //                     }
+    //                 }
+                    
+    //                 // MODERATE: One batch in large lab, other in small lab (suboptimal but understandable)
+    //                 if ((room1Large && !room2Large) || (!room1Large && room2Large)) {
+    //                     return 8; // Encourage moving the small-lab batch to join the large-lab batch
+    //                 }
+                    
+    //                 // MINOR: Same large room, different times (underutilizes the large lab)
+    //                 if (sameRoom && !sameTime && room1Large) {
+    //                     return 5; // Push toward same time slot
+    //                 }
+                    
+    //                 return 2; // Default mild penalty
+    //             })
+    //             .asConstraint("Force efficient 70-capacity lab utilization");
+    // }
+    
+    // ############################################################################
+    // Lunch Break Helper Methods
+    // ############################################################################
+    
+    /**
+     * Check if a list of lessons for a student group on a particular day violates lunch break rules
+     */
+    private boolean violatesLunchBreakRule(java.util.List<Lesson> lessons) {
+        if (lessons.isEmpty()) return false;
+        
+        // Filter lessons that have time slots assigned
+        java.util.List<Lesson> scheduledLessons = lessons.stream()
+                .filter(lesson -> lesson.getTimeSlot() != null)
+                .collect(java.util.stream.Collectors.toList());
+        
+        if (scheduledLessons.size() < 2) return false; // Need at least 2 lessons to have a break issue
+        
+        // Sort lessons by start time
+        scheduledLessons.sort(java.util.Comparator.comparing(lesson -> lesson.getTimeSlot().getStartTime()));
+        
+        // Check if lessons span the lunch period (11:00-14:00) without adequate break
+        java.time.LocalTime lunchPeriodStart = java.time.LocalTime.of(11, 0);
+        java.time.LocalTime lunchPeriodEnd = java.time.LocalTime.of(14, 0);
+        
+        // Find lessons that overlap with lunch period
+        java.util.List<Lesson> lunchPeriodLessons = scheduledLessons.stream()
+                .filter(lesson -> {
+                    java.time.LocalTime lessonStart = lesson.getTimeSlot().getStartTime();
+                    java.time.LocalTime lessonEnd = lesson.getTimeSlot().getEndTime();
+                    // Lesson overlaps if it starts before 14:00 and ends after 11:00
+                    return lessonStart.isBefore(lunchPeriodEnd) && lessonEnd.isAfter(lunchPeriodStart);
+                })
+                .collect(java.util.stream.Collectors.toList());
+        
+        if (lunchPeriodLessons.size() < 2) return false; // Need overlap to be a problem
+        
+        // Check for continuous scheduling without adequate break
+        for (int i = 0; i < lunchPeriodLessons.size() - 1; i++) {
+            Lesson current = lunchPeriodLessons.get(i);
+            Lesson next = lunchPeriodLessons.get(i + 1);
+            
+            java.time.LocalTime currentEnd = current.getTimeSlot().getEndTime();
+            java.time.LocalTime nextStart = next.getTimeSlot().getStartTime();
+            
+            // If lessons are back-to-back or have less than 50-minute break during lunch period
+            if (currentEnd.equals(nextStart) || 
+                java.time.Duration.between(currentEnd, nextStart).toMinutes() < 50) {
+                
+                // Check if this gap occurs during critical lunch period (11:50-13:00)
+                java.time.LocalTime criticalLunchStart = java.time.LocalTime.of(11, 50);
+                java.time.LocalTime criticalLunchEnd = java.time.LocalTime.of(13, 0);
+                
+                if ((currentEnd.isAfter(criticalLunchStart) || currentEnd.equals(criticalLunchStart)) &&
+                    (nextStart.isBefore(criticalLunchEnd) || nextStart.equals(criticalLunchEnd))) {
+                    return true; // Violation found
+                }
+            }
+        }
+        
+        return false;
+    }
+    
+    /**
+     * Calculate the severity of lunch break violations
+     */
+    private int calculateLunchBreakViolations(java.util.List<Lesson> lessons) {
+        int violations = 0;
+        
+        // Filter and sort lessons
+        java.util.List<Lesson> scheduledLessons = lessons.stream()
+                .filter(lesson -> lesson.getTimeSlot() != null)
+                .sorted(java.util.Comparator.comparing(lesson -> lesson.getTimeSlot().getStartTime()))
+                .collect(java.util.stream.Collectors.toList());
+        
+        java.time.LocalTime lunchPeriodStart = java.time.LocalTime.of(11, 0);
+        java.time.LocalTime lunchPeriodEnd = java.time.LocalTime.of(14, 0);
+        
+        // Find lessons in lunch period
+        java.util.List<Lesson> lunchPeriodLessons = scheduledLessons.stream()
+                .filter(lesson -> {
+                    java.time.LocalTime lessonStart = lesson.getTimeSlot().getStartTime();
+                    java.time.LocalTime lessonEnd = lesson.getTimeSlot().getEndTime();
+                    return lessonStart.isBefore(lunchPeriodEnd) && lessonEnd.isAfter(lunchPeriodStart);
+                })
+                .collect(java.util.stream.Collectors.toList());
+        
+        // Calculate violations based on break gaps
+        for (int i = 0; i < lunchPeriodLessons.size() - 1; i++) {
+            Lesson current = lunchPeriodLessons.get(i);
+            Lesson next = lunchPeriodLessons.get(i + 1);
+            
+            java.time.LocalTime currentEnd = current.getTimeSlot().getEndTime();
+            java.time.LocalTime nextStart = next.getTimeSlot().getStartTime();
+            long breakMinutes = java.time.Duration.between(currentEnd, nextStart).toMinutes();
+            
+            // Critical lunch period check
+            java.time.LocalTime criticalLunchStart = java.time.LocalTime.of(11, 50);
+            java.time.LocalTime criticalLunchEnd = java.time.LocalTime.of(13, 0);
+            
+            if ((currentEnd.isAfter(criticalLunchStart) || currentEnd.equals(criticalLunchStart)) &&
+                (nextStart.isBefore(criticalLunchEnd) || nextStart.equals(criticalLunchEnd))) {
+                
+                if (breakMinutes == 0) {
+                    violations += 10; // Back-to-back classes during lunch - severe violation
+                } else if (breakMinutes < 50) {
+                    violations += (int)(5 + (50 - breakMinutes) / 10); // Graduated penalty
+                }
+            }
+        }
+        
+        return Math.max(1, violations); // Ensure at least penalty of 1 if violation detected
+    }
+    
+    /**
+     * HARD: Limit student campus time to maximum 7 hours per day
+     * Enforces three shift patterns: 8-3, 10-5, 12-7 with some flexibility
+     */
+    private Constraint studentCampusTimeLimit(ConstraintFactory constraintFactory) {
         return constraintFactory
-                .forEachUniquePair(Lesson.class,
-                        Joiners.equal(Lesson::getCourse),
-                        Joiners.equal(Lesson::getStudentGroup))
-                .filter((l1, l2) -> {
-                    // Must be lab sessions with different batches of same course/group
-                    if (!(l1.requiresLabRoom() && l2.requiresLabRoom())) return false;
-                    if (!(l1.isSplitBatch() && l2.isSplitBatch())) return false;
-                    if (l1.getLabBatch().equals(l2.getLabBatch())) return false;
-                    
-                    Room room1 = l1.getRoom();
-                    Room room2 = l2.getRoom();
-                    if (room1 == null || room2 == null) return false;
-                    
-                    // Penalize if they are NOT efficiently combined
-                    boolean sameRoom = room1.equals(room2);
-                    boolean sameTime = Objects.equals(l1.getTimeSlot(), l2.getTimeSlot());
-                    boolean room1Large = room1.getCapacity() >= TimetableConfig.FULL_CLASS_LAB_THRESHOLD;
-                    boolean room2Large = room2.getCapacity() >= TimetableConfig.FULL_CLASS_LAB_THRESHOLD;
-                    boolean eitherLarge = room1Large || room2Large;
-                    
-                    // If they're efficiently combined (same large room + same time), no penalty
-                    if (eitherLarge && sameRoom && sameTime) {
-                        return false;
-                    }
-                    
-                    // If neither assignment uses a large room, skip – we don't care about small labs here
-                    if (!eitherLarge) {
-                        return false;
-                    }
-                    
-                    // Otherwise, we penalize inefficient splits
-                    return true;
+                .forEach(Lesson.class)
+                .filter(lesson -> lesson.getTimeSlot() != null)
+                .groupBy(Lesson::getStudentGroup, 
+                        (Lesson lesson) -> lesson.getTimeSlot().getDayOfWeek(),
+                        min((Lesson lesson) -> lesson.getTimeSlot().getStartTime()),
+                        max((Lesson lesson) -> lesson.getTimeSlot().getEndTime()))
+                .filter((studentGroup, day, earliestStart, latestEnd) -> {
+                    if (earliestStart == null || latestEnd == null) return false;
+                    long campusSpanMinutes = java.time.Duration.between(earliestStart, latestEnd).toMinutes();
+                    return campusSpanMinutes > 420; // More than 7 hours (420 minutes)
                 })
-                .penalize(HardSoftScore.of(0, 200), (l1, l2) -> {
-                    Room room1 = l1.getRoom();
-                    Room room2 = l2.getRoom();
-                    boolean sameRoom = room1.equals(room2);
-                    boolean sameTime = Objects.equals(l1.getTimeSlot(), l2.getTimeSlot());
-                    boolean room1Large = room1.getCapacity() >= TimetableConfig.FULL_CLASS_LAB_THRESHOLD;
-                    boolean room2Large = room2.getCapacity() >= TimetableConfig.FULL_CLASS_LAB_THRESHOLD;
-                    boolean bothLargeLabs = room1Large && room2Large;
-                    
-                    // PERFECT: Both batches in same large lab at same time (no penalty - this is ideal!)
-                    if (sameRoom && sameTime && room1Large) {
-                        return 0; // Perfect utilization
-                    }
-                    
-                    // SEVERE: Both batches using different large labs (wastes precious 70-capacity resources)
-                    if (!sameRoom && bothLargeLabs) {
-                        if (sameTime) {
-                            return 25; // Worst - two 70-labs wasted simultaneously
-                        } else {
-                            return 20; // Bad - two 70-labs wasted at different times
-                        }
-                    }
-                    
-                    // MODERATE: One batch in large lab, other in small lab (suboptimal but understandable)
-                    if ((room1Large && !room2Large) || (!room1Large && room2Large)) {
-                        return 8; // Encourage moving the small-lab batch to join the large-lab batch
-                    }
-                    
-                    // MINOR: Same large room, different times (underutilizes the large lab)
-                    if (sameRoom && !sameTime && room1Large) {
-                        return 5; // Push toward same time slot
-                    }
-                    
-                    return 2; // Default mild penalty
-                })
-                .asConstraint("Force efficient 70-capacity lab utilization");
+                .penalize(HardSoftScore.ONE_HARD.multiply(50), // Moderate penalty to allow flexibility
+                        (studentGroup, day, earliestStart, latestEnd) -> {
+                            long campusSpanMinutes = java.time.Duration.between(earliestStart, latestEnd).toMinutes();
+                            return (int) (campusSpanMinutes - 420); // Penalty based on excess minutes
+                        })
+                .asConstraint("Student campus time limit");
     }
 }

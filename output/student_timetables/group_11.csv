@@ -1,30 +1,31 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-THURSDAY,11:00,11:50,Principles of Artificial Intelligence,Mr. Sathish M,B419
-TUESDAY,17:00,17:50,Principles of Artificial Intelligence,Mr. Sathish M,B221
-THURSDAY,10:00,10:50,Principles of Artificial Intelligence,Mr. Sathish M,B325
-SATURDAY,17:30,19:10,Principles of Artificial Intelligence,Mr. Sathish M,KFR02
-THURSDAY,15:50,17:30,Principles of Artificial Intelligence,Mr. Sathish M,JL3
-TUESDAY,08:00,09:40,Soft Skills – II,Mrs. Dr.A.Kalaivani,JL3
-TUESDAY,09:50,11:30,Soft Skills – II,Mrs. Dr.A.Kalaivani,TLGL3
-FRIDAY,08:00,08:50,Web Programming,Mr. Narayana K E,B106
-THURSDAY,18:00,18:50,Web Programming,Mr. Narayana K E,A109
-FRIDAY,14:00,14:50,Web Programming,Mr. Narayana K E,B212
-THURSDAY,13:50,15:30,Web Programming,Mr. Narayana K E,KFL03
-TUESDAY,09:50,11:30,Web Programming,Mr. Narayana K E,KFR02
-SATURDAY,15:50,17:30,Web Programming,Mr. Narayana K E,KFL03
-WEDNESDAY,15:50,17:30,Web Programming,Mr. Narayana K E,TLGL4
-SATURDAY,08:00,08:50,Automata Theory & Compiler Design,Mrs. Dr.P.Neelaveni,B412
-WEDNESDAY,13:00,13:50,Automata Theory & Compiler Design,Mrs. Dr.P.Neelaveni,A109
-FRIDAY,13:00,13:50,Automata Theory & Compiler Design,Mrs. Dr.P.Neelaveni,B325
-SATURDAY,13:00,13:50,Computer Vision,Mrs. L.Leena Jenifer,B221
-WEDNESDAY,15:00,15:50,Computer Vision,Mrs. L.Leena Jenifer,C308
-TUESDAY,12:00,12:50,Computer Vision,Mrs. L.Leena Jenifer,B405
-FRIDAY,09:50,11:30,Computer Vision,Mrs. L.Leena Jenifer,JR2
-SATURDAY,09:50,11:30,Computer Vision,Mrs. L.Leena Jenifer,JR2
-FRIDAY,09:00,09:50,Computer Networks,Mrs. Padmini S,B417
-WEDNESDAY,14:00,14:50,Computer Networks,Mrs. Padmini S,C102
-SATURDAY,09:00,09:50,Computer Networks,Mrs. Padmini S,B402
-THURSDAY,11:50,13:30,Computer Networks,Mrs. Padmini S,TLFR2
-SATURDAY,15:50,17:30,Computer Networks,Mrs. Padmini S,KFL01
-TUESDAY,08:00,09:40,Computer Networks,Mrs. Padmini S,TLFR2
-FRIDAY,09:50,11:30,Computer Networks,Mrs. Padmini S,TLFR3
+SATURDAY,12:00,12:50,Fourier series and Number theory,Mrs. Dr. Priya Nair,B322
+THURSDAY,08:00,08:50,Fourier series and Number theory,Mrs. Dr. Priya Nair,C102
+WEDNESDAY,18:00,18:50,Fourier series and Number theory,Mrs. Dr. Priya Nair,A203
+THURSDAY,13:00,13:50,Fourier series and Number theory,Mrs. Dr. Priya Nair,C202
+THURSDAY,14:00,14:50,Database Management Systems,New Staff 2 N,C301
+TUESDAY,14:00,14:50,Database Management Systems,New Staff 2 N,A304
+THURSDAY,15:00,15:50,Database Management Systems,New Staff 2 N,A108
+WEDNESDAY,11:50,13:30,Database Management Systems,New Staff 2 N,KSL03
+SATURDAY,13:50,15:30,Database Management Systems,New Staff 2 N,KFL01
+SATURDAY,08:00,09:40,Database Management Systems,New Staff 2 N,JR3
+TUESDAY,15:50,17:30,Database Management Systems,New Staff 2 N,JR2
+THURSDAY,18:00,18:50,Object Oriented Programming Using JAVA,New Staff 5 N,B415
+TUESDAY,08:00,08:50,Object Oriented Programming Using JAVA,New Staff 5 N,A110
+TUESDAY,15:00,15:50,Object Oriented Programming Using JAVA,New Staff 5 N,B321
+FRIDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Staff 5 N,TLFL5
+SATURDAY,08:00,09:40,Object Oriented Programming Using JAVA,New Staff 5 N,KFR03
+FRIDAY,09:50,11:30,Object Oriented Programming Using JAVA,New Staff 5 N,JL3
+WEDNESDAY,13:50,15:30,Object Oriented Programming Using JAVA,New Staff 5 N,JL2
+FRIDAY,09:00,09:50,Computer Networks,HOD CSE(CS),B422
+THURSDAY,17:00,17:50,Computer Networks,HOD CSE(CS),A305
+THURSDAY,11:00,11:50,Computer Networks,HOD CSE(CS),C101
+FRIDAY,11:50,13:30,Computer Networks,HOD CSE(CS),JR2
+SATURDAY,09:50,11:30,Computer Networks,HOD CSE(CS),KFL01
+TUESDAY,11:50,13:30,Computer Networks,HOD CSE(CS),TLFR5
+WEDNESDAY,08:00,09:40,Computer Networks,HOD CSE(CS),KFR03
+SATURDAY,17:00,17:50,Cryptography,Dr. Balasubramanian V,A109
+THURSDAY,09:00,09:50,Cryptography,Dr. Balasubramanian V,A203
+SATURDAY,16:00,16:50,Cryptography,Dr. Balasubramanian V,B107
+WEDNESDAY,08:00,09:40,Cryptography,Dr. Balasubramanian V,TLFL5
+SATURDAY,09:50,11:30,Cryptography,Dr. Balasubramanian V,TLGL1

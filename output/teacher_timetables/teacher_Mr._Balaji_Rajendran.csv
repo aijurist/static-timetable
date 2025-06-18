@@ -1,16 +1,16 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,09:00,09:50,NPTEL,AERO 2.1,B325
-FRIDAY,13:00,13:50,NPTEL,AERO 2.1,A202
-WEDNESDAY,11:00,11:50,NPTEL,AERO 2.1,B210
-WEDNESDAY,16:00,16:50,Aircraft Structures - II,AERO 3.1,B419
-FRIDAY,15:00,15:50,Aircraft Structures - II,AERO 3.1,A311
-TUESDAY,08:00,08:50,Aircraft Structures - II,AERO 3.1,B320
-MONDAY,11:50,13:30,Aircraft Structures - II,AERO 3.1,Aircraft Structures Lab
-TUESDAY,11:50,13:30,Aircraft Structures - II,AERO 3.1,Aircraft Structures Lab
-WEDNESDAY,08:00,08:50,Fatigue and Fracture,AERO 4.1,B320
-TUESDAY,09:00,09:50,Fatigue and Fracture,AERO 4.1,A302
-WEDNESDAY,14:00,14:50,Fatigue and Fracture,AERO 4.1,A305
-MONDAY,09:50,11:30,Aircraft structures lab,AERO 4.1,Physics LAB - 1
-THURSDAY,17:30,19:10,Aircraft structures lab,AERO 4.1,Thermal Lab 1
-THURSDAY,11:50,13:30,Aircraft structures lab,AERO 4.1,Embedded System Laboratory (ECE)
-MONDAY,13:50,15:30,Aircraft structures lab,AERO 4.1,Manufacturing Technology I
+THURSDAY,11:00,11:50,NPTEL,AERO 2.1,A210
+WEDNESDAY,11:00,11:50,NPTEL,AERO 2.1,C307
+THURSDAY,17:00,17:50,NPTEL,AERO 2.1,B325
+WEDNESDAY,08:00,08:50,Aircraft Structures - II,AERO 3.1,B107
+WEDNESDAY,09:00,09:50,Aircraft Structures - II,AERO 3.1,C302
+SATURDAY,14:00,14:50,Aircraft Structures - II,AERO 3.1,B212
+TUESDAY,09:50,11:30,Aircraft Structures - II,AERO 3.1,Aircraft Structures Lab
+TUESDAY,08:00,09:40,Aircraft Structures - II,AERO 3.1,Aircraft Structures Lab
+FRIDAY,12:00,12:50,Fatigue and Fracture,AERO 4.1,A102
+WEDNESDAY,13:00,13:50,Fatigue and Fracture,AERO 4.1,A108
+WEDNESDAY,10:00,10:50,Fatigue and Fracture,AERO 4.1,A205
+SATURDAY,11:50,13:30,Aircraft structures lab,AERO 4.1,Medical Image Processing Lab
+THURSDAY,13:50,15:30,Aircraft structures lab,AERO 4.1,Isaac Asimov Laboratory
+FRIDAY,15:50,17:30,Aircraft structures lab,AERO 4.1,Food Microbiology Lab
+SATURDAY,09:50,11:30,Aircraft structures lab,AERO 4.1,Machine Shop FF3 - EPL - 3

@@ -1,20 +1,25 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,11:00,11:50,Database Management Systems,CSE 2.9,A109
-MONDAY,09:00,09:50,Database Management Systems,CSE 2.9,B424
-THURSDAY,17:00,17:50,Database Management Systems,CSE 2.9,B408
-THURSDAY,09:50,11:30,Database Management Systems,CSE 2.9,TLFL2
-FRIDAY,08:00,09:40,Database Management Systems,CSE 2.9,TLFR2
-MONDAY,11:50,13:30,Database Management Systems,CSE 2.9,KFL01
-MONDAY,13:50,15:30,Database Management Systems,CSE 2.9,TLFL1
-FRIDAY,11:00,11:50,Fundamentals of Data Science,CSE 2.3,B426
-FRIDAY,10:00,10:50,Fundamentals of Data Science,CSE 2.3,C102
-MONDAY,08:00,08:50,Fundamentals of Data Science,CSE 2.3,B424
-WEDNESDAY,11:50,13:30,Fundamentals of Data Science,CSE 2.3,TLFL2
-FRIDAY,13:50,15:30,Fundamentals of Data Science,CSE 2.3,JR3
-THURSDAY,15:00,15:50,Computer Networks,CSE 3.5,B424
-TUESDAY,09:00,09:50,Computer Networks,CSE 3.5,B220
-TUESDAY,10:00,10:50,Computer Networks,CSE 3.5,A311
-WEDNESDAY,13:50,15:30,Computer Networks,CSE 3.5,KFL02
-TUESDAY,11:50,13:30,Computer Networks,CSE 3.5,KFR03
-TUESDAY,13:50,15:30,Computer Networks,CSE 3.5,TLFL4
-WEDNESDAY,08:00,09:40,Computer Networks,CSE 3.5,TLFL1
+WEDNESDAY,10:00,10:50,Database Management Systems,CSE 2.5,B425
+FRIDAY,16:00,16:50,Database Management Systems,CSE 2.5,B422
+MONDAY,08:00,08:50,Database Management Systems,CSE 2.5,C101
+THURSDAY,15:50,17:30,Database Management Systems,CSE 2.5,JL2
+WEDNESDAY,08:00,09:40,Database Management Systems,CSE 2.5,TLFL3
+MONDAY,09:50,11:30,Database Management Systems,CSE 2.5,TLFL4
+MONDAY,13:50,15:30,Database Management Systems,CSE 2.5,KFR02
+THURSDAY,18:00,18:50,Fundamentals of Data Science,CSE 2.2,B412
+MONDAY,12:00,12:50,Fundamentals of Data Science,CSE 2.2,B106
+FRIDAY,17:00,17:50,Fundamentals of Data Science,CSE 2.2,B402
+TUESDAY,13:50,15:30,Fundamentals of Data Science,CSE 2.2,TLFL2
+THURSDAY,13:50,15:30,Fundamentals of Data Science,CSE 2.2,KSL03
+FRIDAY,11:00,11:50,Fundamentals of Data Science,CSE 2.10,B416
+TUESDAY,17:00,17:50,Fundamentals of Data Science,CSE 2.10,A108
+WEDNESDAY,13:00,13:50,Fundamentals of Data Science,CSE 2.10,A211
+WEDNESDAY,13:50,15:30,Fundamentals of Data Science,CSE 2.10,TLFL4
+FRIDAY,13:50,15:30,Fundamentals of Data Science,CSE 2.10,KFR02
+FRIDAY,10:00,10:50,Computer Networks,CSE 3.2,C103
+TUESDAY,16:00,16:50,Computer Networks,CSE 3.2,A204
+THURSDAY,10:00,10:50,Computer Networks,CSE 3.2,A311
+TUESDAY,11:50,13:30,Computer Networks,CSE 3.2,JL2
+SATURDAY,17:30,19:10,Computer Networks,CSE 3.2,TLGL2
+SATURDAY,15:50,17:30,Computer Networks,CSE 3.2,TLFR2
+SATURDAY,11:50,13:30,Computer Networks,CSE 3.2,TLFL2

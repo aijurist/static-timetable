@@ -1,8 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,17:00,17:50,Embedded Systems,ECE 4.4,A210
-FRIDAY,13:00,13:50,Embedded Systems,ECE 4.4,B218
-TUESDAY,08:00,08:50,Embedded Systems,ECE 4.4,B422
-SATURDAY,11:50,13:30,Embedded Laboratory,ECE 4.3,Embedded System Laboratory (ECE)
-WEDNESDAY,15:50,17:30,Embedded Laboratory,ECE 4.3,Embedded System Laboratory (ECE)
-WEDNESDAY,17:30,19:10,Embedded Laboratory,ECE 4.3,Embedded System Laboratory (ECE)
-THURSDAY,09:50,11:30,Embedded Laboratory,ECE 4.3,Embedded System Laboratory (ECE)
+MONDAY,10:00,10:50,Embedded Systems,ECE 4.4,B302
+FRIDAY,14:00,14:50,Embedded Systems,ECE 4.4,A304
+FRIDAY,11:00,11:50,Embedded Systems,ECE 4.4,A305
+THURSDAY,17:30,19:10,Embedded Laboratory,ECE 4.3,Embedded System Laboratory (ECE)
+MONDAY,11:50,13:30,Embedded Laboratory,ECE 4.3,Embedded System Laboratory (ECE)
+THURSDAY,15:50,17:30,Embedded Laboratory,ECE 4.3,Embedded System Laboratory (ECE)
+TUESDAY,08:00,09:40,Embedded Laboratory,ECE 4.3,Embedded System Laboratory (ECE)

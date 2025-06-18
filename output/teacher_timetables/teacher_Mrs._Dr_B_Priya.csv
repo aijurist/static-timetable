@@ -1,7 +1,7 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,10:00,10:50,Control System Engineering,ECE 3.2,B403
-WEDNESDAY,16:00,16:50,Control System Engineering,ECE 3.2,A211
-SATURDAY,16:00,16:50,Control System Engineering,ECE 3.2,A103
-FRIDAY,08:00,08:50,Embedded Systems,ECE 4.2,B403
-WEDNESDAY,10:00,10:50,Embedded Systems,ECE 4.2,B404
-FRIDAY,14:00,14:50,Embedded Systems,ECE 4.2,B322
+FRIDAY,18:00,18:50,Control System Engineering,ECE 3.2,A211
+TUESDAY,15:00,15:50,Control System Engineering,ECE 3.2,B325
+TUESDAY,14:00,14:50,Control System Engineering,ECE 3.2,A209
+WEDNESDAY,13:00,13:50,Embedded Systems,ECE 4.2,A210
+MONDAY,10:00,10:50,Embedded Systems,ECE 4.2,B424
+TUESDAY,13:00,13:50,Embedded Systems,ECE 4.2,B220

@@ -1,15 +1,15 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,11:00,11:50,Mechatronics,MECH 4.1,C301
-WEDNESDAY,11:00,11:50,Mechatronics,MECH 4.1,B213
-WEDNESDAY,09:00,09:50,Mechatronics,MECH 4.1,A203
-TUESDAY,11:50,13:30,Mechatronics,MECH 4.1,Mechatronics Lab
-TUESDAY,08:00,09:40,Mechatronics,MECH 4.1,Mechatronics Lab
-WEDNESDAY,10:00,10:50,Supply Chain and Logistics Management,MECH 4.1,A208
-TUESDAY,10:00,10:50,Supply Chain and Logistics Management,MECH 4.1,B415
-MONDAY,14:00,14:50,Supply Chain and Logistics Management,MECH 4.1,A303
-FRIDAY,13:00,13:50,Supply Chain and Logistics Management,MECH 4.2,B401
-FRIDAY,17:00,17:50,Supply Chain and Logistics Management,MECH 4.2,C308
-MONDAY,08:00,08:50,Supply Chain and Logistics Management,MECH 4.2,A109
-WEDNESDAY,16:00,16:50,Supply Chain and Logistics Management,MECH 4.3,A109
-THURSDAY,08:00,08:50,Supply Chain and Logistics Management,MECH 4.3,A309
-FRIDAY,12:00,12:50,Supply Chain and Logistics Management,MECH 4.3,C101
+MONDAY,10:00,10:50,Mechatronics,MECH 4.1,A210
+MONDAY,13:00,13:50,Mechatronics,MECH 4.1,B107
+WEDNESDAY,16:00,16:50,Mechatronics,MECH 4.1,B222
+THURSDAY,11:50,13:30,Mechatronics,MECH 4.1,Mechatronics Lab
+FRIDAY,09:50,11:30,Mechatronics,MECH 4.1,Mechatronics Lab
+TUESDAY,17:00,17:50,Supply Chain and Logistics Management,MECH 4.1,A103
+FRIDAY,15:00,15:50,Supply Chain and Logistics Management,MECH 4.1,A209
+TUESDAY,15:00,15:50,Supply Chain and Logistics Management,MECH 4.1,B321
+MONDAY,18:00,18:50,Supply Chain and Logistics Management,MECH 4.2,A305
+MONDAY,11:00,11:50,Supply Chain and Logistics Management,MECH 4.2,B220
+WEDNESDAY,15:00,15:50,Supply Chain and Logistics Management,MECH 4.2,A104/105
+THURSDAY,17:00,17:50,Supply Chain and Logistics Management,MECH 4.3,A110
+TUESDAY,14:00,14:50,Supply Chain and Logistics Management,MECH 4.3,C302
+WEDNESDAY,18:00,18:50,Supply Chain and Logistics Management,MECH 4.3,A209

@@ -1,12 +1,12 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,09:50,11:30,COMPREHENSION,MECH 4.2,Physics LAB - 2
-MONDAY,11:50,13:30,COMPREHENSION,MECH 4.2,Physics LAB - 1
-THURSDAY,08:00,08:50,Product Life Cycle Management,MECH 4.1,A102
-WEDNESDAY,18:00,18:50,Product Life Cycle Management,MECH 4.1,B417
-THURSDAY,15:00,15:50,Product Life Cycle Management,MECH 4.1,C101
-THURSDAY,10:00,10:50,Product Life Cycle Management,MECH 4.2,B403
-TUESDAY,16:00,16:50,Product Life Cycle Management,MECH 4.2,A104/105
-MONDAY,09:00,09:50,Product Life Cycle Management,MECH 4.2,B403
-FRIDAY,14:00,14:50,Product Life Cycle Management,MECH 4.3,A203
-TUESDAY,10:00,10:50,Product Life Cycle Management,MECH 4.3,A304
-MONDAY,14:00,14:50,Product Life Cycle Management,MECH 4.3,C102
+MONDAY,13:50,15:30,COMPREHENSION,MECH 4.2,Isaac Asimov Laboratory
+MONDAY,15:50,17:30,COMPREHENSION,MECH 4.2,Manufacturing Technology I
+WEDNESDAY,11:00,11:50,Product Life Cycle Management,MECH 4.1,A303
+WEDNESDAY,13:00,13:50,Product Life Cycle Management,MECH 4.1,C307
+THURSDAY,17:00,17:50,Product Life Cycle Management,MECH 4.1,B221
+WEDNESDAY,16:00,16:50,Product Life Cycle Management,MECH 4.2,B426
+MONDAY,09:00,09:50,Product Life Cycle Management,MECH 4.2,C103
+TUESDAY,15:00,15:50,Product Life Cycle Management,MECH 4.2,B418
+TUESDAY,09:00,09:50,Product Life Cycle Management,MECH 4.3,B404
+WEDNESDAY,08:00,08:50,Product Life Cycle Management,MECH 4.3,B106
+WEDNESDAY,15:00,15:50,Product Life Cycle Management,MECH 4.3,C103

@@ -1,8 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,14:00,14:50,Bioinformatics,BT 4.3,A205
-FRIDAY,08:00,08:50,Bioinformatics,BT 4.3,B423
-TUESDAY,12:00,12:50,Bioinformatics,BT 4.3,B325
-THURSDAY,11:50,13:30,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.1,Food Microbiology Lab
-WEDNESDAY,08:00,09:40,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.1,Mech CAD Lab
-SATURDAY,13:50,15:30,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.1,Food Microbiology Lab
-TUESDAY,13:50,15:30,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.1,Technical Analysis Lab
+WEDNESDAY,15:00,15:50,Bioinformatics,BT 4.3,A302
+SATURDAY,09:00,09:50,Bioinformatics,BT 4.3,C101
+WEDNESDAY,12:00,12:50,Bioinformatics,BT 4.3,B302
+THURSDAY,08:00,09:40,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.1,Power Electronics Lab
+FRIDAY,15:50,17:30,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.1,Aero CAD Lab
+FRIDAY,17:30,19:10,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.1,Microprocessor and Microcontrollers Lab
+WEDNESDAY,17:30,19:10,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.1,Food Chemistry Lab

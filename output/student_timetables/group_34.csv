@@ -1,15 +1,27 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-THURSDAY,13:50,15:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,KSL03
-FRIDAY,11:50,13:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLGL2
-FRIDAY,09:50,11:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLGL2
-WEDNESDAY,09:50,11:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLGL2
-TUESDAY,17:30,19:10,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KSL03
-TUESDAY,15:50,17:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLGL1
-TUESDAY,11:00,11:50,Cloud Computing,Mrs. Santhiya M,B402
-MONDAY,16:00,16:50,Cloud Computing,Mrs. Santhiya M,C102
-WEDNESDAY,15:50,17:30,Cloud Computing,Mrs. Santhiya M,KFR03
-MONDAY,09:50,11:30,Cloud Computing,Mrs. Santhiya M,KFR03
-TUESDAY,10:00,10:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,C302
-FRIDAY,18:00,18:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,C307
-WEDNESDAY,11:50,13:30,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,TLFR5
-MONDAY,08:00,09:40,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,JL3
+FRIDAY,10:00,10:50,Theory of Computation,Mrs. J.A.Adlin Layola,B210
+TUESDAY,13:00,13:50,Theory of Computation,Mrs. J.A.Adlin Layola,A210
+SATURDAY,15:00,15:50,Theory of Computation,Mrs. J.A.Adlin Layola,B220
+TUESDAY,10:00,10:50,Theory of Computation,Mrs. J.A.Adlin Layola,B221
+THURSDAY,12:00,12:50,Fundamentals of Mobile Computing,Mrs. Jananee V,B325
+SATURDAY,16:00,16:50,Fundamentals of Mobile Computing,Mrs. Jananee V,B106
+FRIDAY,18:00,18:50,Fundamentals of Mobile Computing,Mrs. Jananee V,A202
+WEDNESDAY,10:00,10:50,Web Programming,New Staff - 09,A102
+WEDNESDAY,15:00,15:50,Web Programming,New Staff - 09,C202
+SATURDAY,11:00,11:50,Web Programming,New Staff - 09,C103
+WEDNESDAY,11:50,13:30,Web Programming,New Staff - 09,TLGL1
+FRIDAY,15:50,17:30,Web Programming,New Staff - 09,KFR03
+TUESDAY,13:50,15:30,Web Programming,New Staff - 09,KFR02
+THURSDAY,09:50,11:30,Web Programming,New Staff - 09,KFL01
+SATURDAY,17:00,17:50,Computer Networks,New Staff - 09,B422
+WEDNESDAY,14:00,14:50,Computer Networks,New Staff - 09,A209
+SATURDAY,18:00,18:50,Computer Networks,New Staff - 09,B423
+TUESDAY,17:30,19:10,Computer Networks,New Staff - 09,JR2
+THURSDAY,08:00,09:40,Computer Networks,New Staff - 09,TLFR5
+FRIDAY,11:50,13:30,Computer Networks,New Staff - 09,KFR01
+TUESDAY,15:50,17:30,Computer Networks,New Staff - 09,JR1
+WEDNESDAY,18:00,18:50,Foundations of Artificial Intelligence,Ms. Divya M,B325
+SATURDAY,09:00,09:50,Foundations of Artificial Intelligence,Ms. Divya M,B320
+WEDNESDAY,17:00,17:50,Foundations of Artificial Intelligence,Ms. Divya M,C308
+TUESDAY,15:50,17:30,Foundations of Artificial Intelligence,Ms. Divya M,TLFL4
+FRIDAY,13:50,15:30,Foundations of Artificial Intelligence,Ms. Divya M,JL2

@@ -1,11 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-THURSDAY,18:00,18:50,Innovation and Design thinking for Food Technologists,HOD FOOD TECH,B412
-FRIDAY,18:00,18:50,Innovation and Design thinking for Food Technologists,HOD FOOD TECH,A302
-SATURDAY,11:00,11:50,Innovation and Design thinking for Food Technologists,HOD FOOD TECH,C307
-FRIDAY,09:50,11:30,Problem solving using Artificial Intelligence and Machine Learning for Food Technologist,Mr. Anand R,Aircraft Structures Lab
-THURSDAY,08:00,09:40,Problem solving using Artificial Intelligence and Machine Learning for Food Technologist,Mr. Anand R,Diagnostic and Therapeutic Equipment Lab
-THURSDAY,09:50,11:30,Problem solving using Artificial Intelligence and Machine Learning for Food Technologist,Mr. Anand R,Aerodynamics Lab
-FRIDAY,11:50,13:30,Problem solving using Artificial Intelligence and Machine Learning for Food Technologist,Mr. Anand R,LIC Lab
-FRIDAY,16:00,16:50,Livestock and Marine Technology,Dr. Priyadarshini S R,A211
-SATURDAY,10:00,10:50,Livestock and Marine Technology,Dr. Priyadarshini S R,B210
-TUESDAY,13:00,13:50,Livestock and Marine Technology,Dr. Priyadarshini S R,B408
+WEDNESDAY,17:00,17:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,B221
+TUESDAY,09:00,09:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,A308
+WEDNESDAY,10:00,10:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,C103
+MONDAY,12:00,12:50,Design and Analysis of Algorithms,Mrs. Mahesmeena,A302
+THURSDAY,09:00,09:50,Design and Analysis of Algorithms,Mrs. Mahesmeena,C202
+THURSDAY,16:00,16:50,Design and Analysis of Algorithms,Mrs. Mahesmeena,B219
+TUESDAY,09:50,11:30,Design and Analysis of Algorithms,Mrs. Mahesmeena,KFR03
+WEDNESDAY,13:50,15:30,Design and Analysis of Algorithms,Mrs. Mahesmeena,KFL01
+TUESDAY,16:00,16:50,Fourier series and Number theory,Dr. Ponmana Selvan Arumugam,A311
+THURSDAY,18:00,18:50,Fourier series and Number theory,Dr. Ponmana Selvan Arumugam,B423
+WEDNESDAY,08:00,08:50,Fourier series and Number theory,Dr. Ponmana Selvan Arumugam,A203
+FRIDAY,08:00,08:50,Fourier series and Number theory,Dr. Ponmana Selvan Arumugam,B410
+MONDAY,08:00,08:50,Database Management Systems,Mrs. Dharani Devi G,B425
+TUESDAY,08:00,08:50,Database Management Systems,Mrs. Dharani Devi G,A208
+WEDNESDAY,11:00,11:50,Database Management Systems,Mrs. Dharani Devi G,C201
+FRIDAY,17:30,19:10,Database Management Systems,Mrs. Dharani Devi G,JL1
+MONDAY,09:50,11:30,Database Management Systems,Mrs. Dharani Devi G,TLFL1
+THURSDAY,09:50,11:30,Database Management Systems,Mrs. Dharani Devi G,KFL02
+FRIDAY,15:50,17:30,Database Management Systems,Mrs. Dharani Devi G,JR1
+FRIDAY,11:00,11:50,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,C301
+THURSDAY,14:00,14:50,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,B212
+FRIDAY,10:00,10:50,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,B422
+TUESDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,TLFL4
+MONDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,TLFR4
+MONDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,TLFR5
+MONDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,TLFR3
+FRIDAY,15:00,15:50,Fundamentals of Data Science,Mrs. Bhavani M,C302
+TUESDAY,12:00,12:50,Fundamentals of Data Science,Mrs. Bhavani M,B411
+TUESDAY,14:00,14:50,Fundamentals of Data Science,Mrs. Bhavani M,B325
+MONDAY,17:30,19:10,Fundamentals of Data Science,Mrs. Bhavani M,KFL01
+MONDAY,15:50,17:30,Fundamentals of Data Science,Mrs. Bhavani M,KFR03

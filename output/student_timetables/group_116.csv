@@ -1,23 +1,23 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,08:00,09:40,Internship,Ms. Nivethitha S B,Thermal Lab 1
-TUESDAY,11:50,13:30,Internship,Ms. Nivethitha S B,MEMS Lab
-FRIDAY,17:30,19:10,Soft Skills – II,Mr. Nareshbabu Gajendran,TLGL4
-TUESDAY,13:50,15:30,Soft Skills – II,Mr. Nareshbabu Gajendran,TLFL3
-WEDNESDAY,11:50,13:30,Industrial Electronics Laboratory,Ms. Nivethitha S B,Power Electronics Lab
-FRIDAY,09:50,11:30,Industrial Electronics Laboratory,Ms. Nivethitha S B,Power Electronics Lab
-THURSDAY,12:00,12:50,Semiconductor Manufacturing,Mr. Vimalesh. A,B422
-SATURDAY,08:00,08:50,Semiconductor Manufacturing,Mr. Vimalesh. A,B402
-SATURDAY,13:00,13:50,Semiconductor Manufacturing,Mr. Vimalesh. A,B415
-THURSDAY,13:00,13:50,Basic Engineering Research Methods,Mr. Dr Ramesh Shanmugam,A104/105
-TUESDAY,11:00,11:50,Basic Engineering Research Methods,Mr. Dr Ramesh Shanmugam,B403
-SATURDAY,09:00,09:50,Basic Engineering Research Methods,Mr. Dr Ramesh Shanmugam,B424
-SATURDAY,12:00,12:50,Industrial Electronics,Ms. Nivethitha S B,A109
-TUESDAY,08:00,08:50,Industrial Electronics,Ms. Nivethitha S B,B426
-WEDNESDAY,14:00,14:50,Industrial Electronics,Ms. Nivethitha S B,B325
-FRIDAY,15:00,15:50,Fundamentals of Management for Engineers,Ms. Shobana D,B321
-TUESDAY,10:00,10:50,Fundamentals of Management for Engineers,Ms. Shobana D,A102
-TUESDAY,09:00,09:50,Fundamentals of Management for Engineers,Ms. Shobana D,B412
-SATURDAY,17:30,19:10,Python Programming for Machine Learning,Mrs. Uma Maheswari M,DSP Lab
-SATURDAY,15:50,17:30,Python Programming for Machine Learning,Mrs. Uma Maheswari M,DSP Lab
-FRIDAY,08:00,09:40,Python Programming for Machine Learning,Mrs. Uma Maheswari M,DSP Lab
-THURSDAY,15:50,17:30,Python Programming for Machine Learning,Mrs. Uma Maheswari M,DSP Lab
+WEDNESDAY,15:50,17:30,Internship,Ms. Nivethitha S B,Physics LAB - 1
+TUESDAY,17:30,19:10,Internship,Ms. Nivethitha S B,Machine Shop FF1 - EPL - 1
+WEDNESDAY,08:00,09:40,Soft Skills – II,Mr. Nareshbabu Gajendran,TLFL3
+WEDNESDAY,09:50,11:30,Soft Skills – II,Mr. Nareshbabu Gajendran,JL2
+THURSDAY,11:50,13:30,Industrial Electronics Laboratory,Ms. Nivethitha S B,Power Electronics Lab
+FRIDAY,13:50,15:30,Industrial Electronics Laboratory,Ms. Nivethitha S B,Power Electronics Lab
+FRIDAY,18:00,18:50,Semiconductor Manufacturing,Mr. Vimalesh. A,B325
+WEDNESDAY,14:00,14:50,Semiconductor Manufacturing,Mr. Vimalesh. A,A304
+TUESDAY,10:00,10:50,Semiconductor Manufacturing,Mr. Vimalesh. A,C302
+THURSDAY,09:00,09:50,Basic Engineering Research Methods,Mr. Dr Ramesh Shanmugam,B106
+THURSDAY,11:00,11:50,Basic Engineering Research Methods,Mr. Dr Ramesh Shanmugam,A303
+SATURDAY,12:00,12:50,Basic Engineering Research Methods,Mr. Dr Ramesh Shanmugam,A109
+THURSDAY,15:00,15:50,Industrial Electronics,Ms. Nivethitha S B,B404
+TUESDAY,11:00,11:50,Industrial Electronics,Ms. Nivethitha S B,A209
+SATURDAY,13:00,13:50,Industrial Electronics,Ms. Nivethitha S B,B417
+THURSDAY,16:00,16:50,Fundamentals of Management for Engineers,Ms. Shobana D,B419
+SATURDAY,09:00,09:50,Fundamentals of Management for Engineers,Ms. Shobana D,B107
+SATURDAY,10:00,10:50,Fundamentals of Management for Engineers,Ms. Shobana D,B221
+TUESDAY,13:50,15:30,Python Programming for Machine Learning,Mrs. Uma Maheswari M,DSP Lab
+FRIDAY,13:50,15:30,Python Programming for Machine Learning,Mrs. Uma Maheswari M,DSP Lab
+FRIDAY,09:50,11:30,Python Programming for Machine Learning,Mrs. Uma Maheswari M,DSP Lab
+WEDNESDAY,13:00,13:50,Python Programming for Machine Learning,Mrs. Uma Maheswari M,DSP Lab

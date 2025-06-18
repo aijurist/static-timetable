@@ -1,16 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,13:00,13:50,Automotive Safety,Mr. R.Anbalagan,A305
-TUESDAY,18:00,18:50,Automotive Safety,Mr. R.Anbalagan,A103
-FRIDAY,10:00,10:50,Automotive Safety,Mr. R.Anbalagan,A208
-MONDAY,09:50,11:30,Vehicle Maintenance Laboratory,Mr. R.Anbalagan,Vehicle Maintenance Lab
-MONDAY,15:50,17:30,Computer Aided Analysis Laboratory,Mr. R. Edwin Joseph,Physics LAB - 2
-WEDNESDAY,08:00,09:40,Comprehension,Mr. R.Anbalagan,Vehicle Maintenance Lab
-FRIDAY,17:30,19:10,AI and ML for Automobile  Engineers,Mr. Pavan.P,KFL03
-MONDAY,13:50,15:30,AI and ML for Automobile  Engineers,Mr. Pavan.P,JR3
-FRIDAY,11:50,13:30,AI and ML for Automobile  Engineers,Mr. Pavan.P,TLFL5
-WEDNESDAY,11:00,11:50,Vehicle Mangement System,Mr. Mohanraj K,B418
-WEDNESDAY,14:00,14:50,Vehicle Mangement System,Mr. Mohanraj K,B211
-TUESDAY,16:00,16:50,Vehicle Mangement System,Mr. Mohanraj K,A205
-MONDAY,08:00,08:50,Intelligent Vehicle System,Mr. Zahir Hussain M,A204
-MONDAY,09:00,09:50,Intelligent Vehicle System,Mr. Zahir Hussain M,A109
-WEDNESDAY,10:00,10:50,Intelligent Vehicle System,Mr. Zahir Hussain M,C103
+TUESDAY,18:00,18:50,Computer Architecture,Mrs. Farjana U,B302
+THURSDAY,11:00,11:50,Computer Architecture,Mrs. Farjana U,A211
+TUESDAY,17:00,17:50,Computer Architecture,Mrs. Farjana U,B302
+TUESDAY,14:00,14:50,Design and Analysis of Algorithms,Mr. Srinivasan N,B401
+MONDAY,12:00,12:50,Design and Analysis of Algorithms,Mr. Srinivasan N,A305
+FRIDAY,09:00,09:50,Design and Analysis of Algorithms,Mr. Srinivasan N,B411
+MONDAY,13:50,15:30,Design and Analysis of Algorithms,Mr. Srinivasan N,TLFR3
+THURSDAY,17:30,19:10,Design and Analysis of Algorithms,Mr. Srinivasan N,KFL03
+TUESDAY,13:00,13:50,Fourier series and Number theory,Mr. Dr. S. Prabhu,B220
+THURSDAY,08:00,08:50,Fourier series and Number theory,Mr. Dr. S. Prabhu,A303
+FRIDAY,17:00,17:50,Fourier series and Number theory,Mr. Dr. S. Prabhu,B401
+FRIDAY,18:00,18:50,Fourier series and Number theory,Mr. Dr. S. Prabhu,B219
+WEDNESDAY,10:00,10:50,Database Management Systems,Ms. Sana,B425
+FRIDAY,16:00,16:50,Database Management Systems,Ms. Sana,B422
+MONDAY,08:00,08:50,Database Management Systems,Ms. Sana,C101
+THURSDAY,15:50,17:30,Database Management Systems,Ms. Sana,JL2
+WEDNESDAY,08:00,09:40,Database Management Systems,Ms. Sana,TLFL3
+MONDAY,09:50,11:30,Database Management Systems,Ms. Sana,TLFL4
+MONDAY,13:50,15:30,Database Management Systems,Ms. Sana,KFR02
+WEDNESDAY,11:00,11:50,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,B425
+FRIDAY,15:00,15:50,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,B322
+THURSDAY,14:00,14:50,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,B415
+MONDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,KFL02
+THURSDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,JR3
+MONDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,KFL01
+THURSDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,JL1
+TUESDAY,15:00,15:50,Fundamentals of Data Science,Mr. Srinivasan N,B426
+MONDAY,09:00,09:50,Fundamentals of Data Science,Mr. Srinivasan N,B211
+FRIDAY,08:00,08:50,Fundamentals of Data Science,Mr. Srinivasan N,A102
+WEDNESDAY,13:50,15:30,Fundamentals of Data Science,Mr. Srinivasan N,TLFR1
+TUESDAY,08:00,09:40,Fundamentals of Data Science,Mr. Srinivasan N,TLFL2

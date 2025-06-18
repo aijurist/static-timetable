@@ -1,23 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,08:00,09:40,Computer Aided Machine Drawing Laboratory,Mr. Zahir Hussain M,Auto CAD Lab
-FRIDAY,11:50,13:30,Computer Aided Machine Drawing Laboratory,Mr. Zahir Hussain M,Auto CAD Lab
-FRIDAY,11:00,11:50,Transforms and Statistics,Mr. Rajkumar V,A102
-FRIDAY,14:00,14:50,Transforms and Statistics,Mr. Rajkumar V,C103
-TUESDAY,17:00,17:50,Transforms and Statistics,Mr. Rajkumar V,B107
-MONDAY,09:50,11:30,Transforms and Statistics,Mr. Rajkumar V,Electrical Machines II Lab
-MONDAY,13:00,13:50,Automotive Engines,HOD AUTO,B410
-WEDNESDAY,14:00,14:50,Automotive Engines,HOD AUTO,B321
-THURSDAY,18:00,18:50,Automotive Engines,HOD AUTO,A103
-MONDAY,17:30,19:10,Automotive Engines,HOD AUTO,Thermal Lab 2
-WEDNESDAY,11:00,11:50,Applied Thermodynamics,Mrs. B.Mullai Sudaroli,A102
-THURSDAY,15:00,15:50,Applied Thermodynamics,Mrs. B.Mullai Sudaroli,B410
-TUESDAY,18:00,18:50,Applied Thermodynamics,Mrs. B.Mullai Sudaroli,B211
-MONDAY,08:00,09:40,Applied Thermodynamics,Mrs. B.Mullai Sudaroli,Thermal Lab 1
-THURSDAY,13:00,13:50,Strength of Materials for Automobile Engineers,Dr. Selvaraju P N,B416
-THURSDAY,11:00,11:50,Strength of Materials for Automobile Engineers,Dr. Selvaraju P N,A203
-WEDNESDAY,15:00,15:50,Strength of Materials for Automobile Engineers,Dr. Selvaraju P N,B218
-MONDAY,15:50,17:30,Strength of Materials for Automobile Engineers,Dr. Selvaraju P N,Strength of Materials Lab
-FRIDAY,18:00,18:50,Production Technology - II,Mr. R.Karthikeyan,B321
-FRIDAY,10:00,10:50,Production Technology - II,Mr. R.Karthikeyan,A311
-MONDAY,14:00,14:50,Production Technology - II,Mr. R.Karthikeyan,B322
-WEDNESDAY,11:50,13:30,Production Technology - II,Mr. R.Karthikeyan,Manufacturing Technology I
+TUESDAY,18:00,18:50,Computer Architecture,New Staff - 12,B106
+THURSDAY,18:00,18:50,Computer Architecture,New Staff - 12,C202
+THURSDAY,10:00,10:50,Computer Architecture,New Staff - 12,B404
+TUESDAY,11:00,11:50,Design and Analysis of Algorithms,Mrs. Santhiya M,A311
+WEDNESDAY,09:00,09:50,Design and Analysis of Algorithms,Mrs. Santhiya M,A304
+WEDNESDAY,14:00,14:50,Design and Analysis of Algorithms,Mrs. Santhiya M,B322
+WEDNESDAY,09:50,11:30,Design and Analysis of Algorithms,Mrs. Santhiya M,TLFR4
+MONDAY,11:50,13:30,Design and Analysis of Algorithms,Mrs. Santhiya M,JR3
+TUESDAY,10:00,10:50,Fourier series and Number theory,Mrs. C. Renuga,B415
+MONDAY,08:00,08:50,Fourier series and Number theory,Mrs. C. Renuga,A104/105
+THURSDAY,13:00,13:50,Fourier series and Number theory,Mrs. C. Renuga,A205
+MONDAY,14:00,14:50,Fourier series and Number theory,Mrs. C. Renuga,A303
+WEDNESDAY,17:00,17:50,Database Management Systems,Dr.J Manoranjini,C302
+FRIDAY,10:00,10:50,Database Management Systems,Dr.J Manoranjini,B211
+FRIDAY,14:00,14:50,Database Management Systems,Dr.J Manoranjini,C308
+MONDAY,15:50,17:30,Database Management Systems,Dr.J Manoranjini,TLFL4
+MONDAY,09:50,11:30,Database Management Systems,Dr.J Manoranjini,TLFR1
+WEDNESDAY,09:50,11:30,Database Management Systems,Dr.J Manoranjini,TLGL4
+TUESDAY,13:50,15:30,Database Management Systems,Dr.J Manoranjini,TLFL4
+TUESDAY,13:00,13:50,Object Oriented Programming Using JAVA,Mrs. Deepa B,A110
+THURSDAY,16:00,16:50,Object Oriented Programming Using JAVA,Mrs. Deepa B,A210
+WEDNESDAY,15:00,15:50,Object Oriented Programming Using JAVA,Mrs. Deepa B,B425
+THURSDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mrs. Deepa B,JR1
+FRIDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mrs. Deepa B,TLFR5
+FRIDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mrs. Deepa B,TLFR2
+TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mrs. Deepa B,TLGL4
+MONDAY,15:00,15:50,Fundamentals of Data Science,Mrs. Aswana Lal,C101
+MONDAY,18:00,18:50,Fundamentals of Data Science,Mrs. Aswana Lal,C301
+WEDNESDAY,08:00,08:50,Fundamentals of Data Science,Mrs. Aswana Lal,B404
+WEDNESDAY,11:50,13:30,Fundamentals of Data Science,Mrs. Aswana Lal,KFR01
+FRIDAY,11:50,13:30,Fundamentals of Data Science,Mrs. Aswana Lal,TLGL1

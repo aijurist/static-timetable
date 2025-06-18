@@ -1,9 +1,9 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,09:00,09:50,Fourier series and Number theory,IT 2.1,A103
-FRIDAY,11:00,11:50,Fourier series and Number theory,IT 2.1,B408
-SATURDAY,10:00,10:50,Fourier series and Number theory,IT 2.1,B218
-FRIDAY,14:00,14:50,Fourier series and Number theory,IT 2.1,B422
-THURSDAY,18:00,18:50,Fourier series and Number theory,CSE 2.3,A302
-THURSDAY,11:00,11:50,Fourier series and Number theory,CSE 2.3,B210
-TUESDAY,18:00,18:50,Fourier series and Number theory,CSE 2.3,B410
-FRIDAY,12:00,12:50,Fourier series and Number theory,CSE 2.3,B403
+TUESDAY,10:00,10:50,Fourier series and Number theory,CSE 2.4,B415
+MONDAY,08:00,08:50,Fourier series and Number theory,CSE 2.4,A104/105
+THURSDAY,13:00,13:50,Fourier series and Number theory,CSE 2.4,A205
+MONDAY,14:00,14:50,Fourier series and Number theory,CSE 2.4,A303
+FRIDAY,16:00,16:50,Fourier series and Number theory,IT 2.1,B212
+SATURDAY,12:00,12:50,Fourier series and Number theory,IT 2.1,B409
+SATURDAY,18:00,18:50,Fourier series and Number theory,IT 2.1,A208
+WEDNESDAY,13:00,13:50,Fourier series and Number theory,IT 2.1,C307

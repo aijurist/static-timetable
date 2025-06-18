@@ -1,30 +1,30 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,09:50,11:30,Soft Skills – II,Mr. Krishnakumar S,JL3
-SATURDAY,11:50,13:30,Soft Skills – II,Mr. Krishnakumar S,TLFL5
-THURSDAY,15:00,15:50,Pattern Recognition and Neural Networks,Dr. Glory Precious J,B416
-THURSDAY,11:00,11:50,Pattern Recognition and Neural Networks,Dr. Glory Precious J,B412
-TUESDAY,17:00,17:50,Pattern Recognition and Neural Networks,Dr. Glory Precious J,A204
-THURSDAY,13:00,13:50,Introduction to Internet of Things,Mrs. Prathisha M,A102
-THURSDAY,14:00,14:50,Biocontrol systems,Mrs. Jemina Asnoth Sylvia J,B405
-WEDNESDAY,09:00,09:50,Biocontrol systems,Mrs. Jemina Asnoth Sylvia J,B415
-TUESDAY,08:00,08:50,Biocontrol systems,Mrs. Jemina Asnoth Sylvia J,B417
-WEDNESDAY,08:00,08:50,Diagnostic and Therapeutic Equipment,Mrs. Shanthipriya A,A305
-SATURDAY,16:00,16:50,Diagnostic and Therapeutic Equipment,Mrs. Shanthipriya A,B220
-THURSDAY,10:00,10:50,Diagnostic and Therapeutic Equipment,Mrs. Shanthipriya A,B401
-SATURDAY,11:50,13:30,Diagnostic and Therapeutic Equipment Laboratory,Ms. Karuppathal E,Diagnostic and Therapeutic Equipment Lab
-FRIDAY,15:50,17:30,Diagnostic and Therapeutic Equipment Laboratory,Ms. Karuppathal E,Diagnostic and Therapeutic Equipment Lab
-FRIDAY,17:30,19:10,Diagnostic and Therapeutic Equipment Laboratory,Ms. Karuppathal E,Diagnostic and Therapeutic Equipment Lab
-THURSDAY,15:50,17:30,Diagnostic and Therapeutic Equipment Laboratory,Ms. Karuppathal E,Diagnostic and Therapeutic Equipment Lab
-THURSDAY,12:00,12:50,Signals and Systems Analysis,Mr. Senthilkumar P,A311
-SATURDAY,18:00,18:50,Signals and Systems Analysis,Mr. Senthilkumar P,B403
-WEDNESDAY,15:50,17:30,Signals and Systems Analysis,Mr. Senthilkumar P,Medical Image Processing Lab
-WEDNESDAY,11:50,13:30,Signals and Systems Analysis,Mr. Senthilkumar P,Medical Image Processing Lab
-WEDNESDAY,13:50,15:30,Python Programming for Machine Learning,Mr. Ramachandran.R,DSP Lab
-FRIDAY,09:50,11:30,Python Programming for Machine Learning,Mr. Ramachandran.R,DSP Lab
+FRIDAY,09:50,11:30,Soft Skills – II,Mr. Krishnakumar S,JR3
+TUESDAY,11:50,13:30,Soft Skills – II,Mr. Krishnakumar S,TLFL5
+SATURDAY,08:00,08:50,Pattern Recognition and Neural Networks,Dr. Glory Precious J,B107
+SATURDAY,14:00,14:50,Pattern Recognition and Neural Networks,Dr. Glory Precious J,B222
+WEDNESDAY,16:00,16:50,Pattern Recognition and Neural Networks,Dr. Glory Precious J,C301
+TUESDAY,17:00,17:50,Introduction to Internet of Things,Mrs. Prathisha M,B321
+FRIDAY,12:00,12:50,Biocontrol systems,Mrs. Jemina Asnoth Sylvia J,B408
+THURSDAY,15:00,15:50,Biocontrol systems,Mrs. Jemina Asnoth Sylvia J,B409
+FRIDAY,17:00,17:50,Biocontrol systems,Mrs. Jemina Asnoth Sylvia J,C201
+FRIDAY,15:00,15:50,Diagnostic and Therapeutic Equipment,Mrs. Shanthipriya A,B415
+THURSDAY,10:00,10:50,Diagnostic and Therapeutic Equipment,Mrs. Shanthipriya A,B219
+SATURDAY,11:00,11:50,Diagnostic and Therapeutic Equipment,Mrs. Shanthipriya A,A204
+WEDNESDAY,08:00,09:40,Diagnostic and Therapeutic Equipment Laboratory,Ms. Karuppathal E,Diagnostic and Therapeutic Equipment Lab
+FRIDAY,08:00,09:40,Diagnostic and Therapeutic Equipment Laboratory,Ms. Karuppathal E,Diagnostic and Therapeutic Equipment Lab
+SATURDAY,15:50,17:30,Diagnostic and Therapeutic Equipment Laboratory,Ms. Karuppathal E,Diagnostic and Therapeutic Equipment Lab
+FRIDAY,09:50,11:30,Diagnostic and Therapeutic Equipment Laboratory,Ms. Karuppathal E,Diagnostic and Therapeutic Equipment Lab
+FRIDAY,14:00,14:50,Signals and Systems Analysis,Mr. Senthilkumar P,C103
+SATURDAY,09:00,09:50,Signals and Systems Analysis,Mr. Senthilkumar P,A110
+SATURDAY,15:50,17:30,Signals and Systems Analysis,Mr. Senthilkumar P,Medical Image Processing Lab
+WEDNESDAY,08:00,09:40,Signals and Systems Analysis,Mr. Senthilkumar P,Medical Image Processing Lab
 TUESDAY,09:50,11:30,Python Programming for Machine Learning,Mr. Ramachandran.R,DSP Lab
-WEDNESDAY,09:50,11:30,Python Programming for Machine Learning,Mr. Ramachandran.R,DSP Lab
-TUESDAY,18:00,18:50,Microcontroller and Embedded System Design,Mr. Muralidharan C,B417
-SATURDAY,11:00,11:50,Microcontroller and Embedded System Design,Mr. Muralidharan C,A305
-FRIDAY,08:00,08:50,Microcontroller and Embedded System Design,Mr. Muralidharan C,B321
-SATURDAY,13:50,15:30,Microcontroller and Embedded System Design,Mr. Muralidharan C,Microprocessor Lab-1
+WEDNESDAY,11:50,13:30,Python Programming for Machine Learning,Mr. Ramachandran.R,DSP Lab
+FRIDAY,08:00,09:40,Python Programming for Machine Learning,Mr. Ramachandran.R,DSP Lab
+THURSDAY,11:50,13:30,Python Programming for Machine Learning,Mr. Ramachandran.R,DSP Lab
+TUESDAY,15:00,15:50,Microcontroller and Embedded System Design,Mr. Muralidharan C,A204
+FRIDAY,13:00,13:50,Microcontroller and Embedded System Design,Mr. Muralidharan C,B408
+TUESDAY,16:00,16:50,Microcontroller and Embedded System Design,Mr. Muralidharan C,A303
+SATURDAY,17:30,19:10,Microcontroller and Embedded System Design,Mr. Muralidharan C,Microprocessor Lab-1
 WEDNESDAY,13:50,15:30,Microcontroller and Embedded System Design,Mr. Muralidharan C,Microprocessor Lab-1

@@ -1,5 +1,9 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,10:00,10:50,Computer Vision and Applications,AIML 3.2,B416
-TUESDAY,12:00,12:50,Computer Vision and Applications,AIML 3.2,B218
-SATURDAY,13:50,15:30,Computer Vision and Applications,AIML 3.2,TLFR2
-THURSDAY,08:00,09:40,Computer Vision and Applications,AIML 3.2,JL3
+TUESDAY,17:00,17:50,Computer Vision and Applications,AIML 3.1,B424
+TUESDAY,09:00,09:50,Computer Vision and Applications,AIML 3.1,A211
+THURSDAY,15:50,17:30,Computer Vision and Applications,AIML 3.1,TLFL5
+THURSDAY,17:30,19:10,Computer Vision and Applications,AIML 3.1,TLFR2
+FRIDAY,08:00,08:50,Computer Vision and Applications,AIML 3.3,B106
+THURSDAY,14:00,14:50,Computer Vision and Applications,AIML 3.3,A208
+WEDNESDAY,15:50,17:30,Computer Vision and Applications,AIML 3.3,KFR01
+SATURDAY,15:50,17:30,Computer Vision and Applications,AIML 3.3,JR1

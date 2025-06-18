@@ -1,22 +1,19 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,11:50,13:30,Microfluidics Laboratory,Ms. Abhilasha Krishnamurthy,Microprocessor Lab-2
-MONDAY,13:50,15:30,Microfluidics Laboratory,Ms. Abhilasha Krishnamurthy,Auto CAD Lab
-FRIDAY,13:00,13:50,Petroleum chemistry and Refining Fundamemtals,Mr. Dr. S. Sivamani,A203
-MONDAY,10:00,10:50,Petroleum chemistry and Refining Fundamemtals,Mr. Dr. S. Sivamani,C302
-MONDAY,09:00,09:50,Petroleum chemistry and Refining Fundamemtals,Mr. Dr. S. Sivamani,B418
-FRIDAY,15:00,15:50,Process Plant Utilities,Mr. G Vijayaraghavan,B302
-THURSDAY,13:00,13:50,Process Plant Utilities,Mr. G Vijayaraghavan,B221
-TUESDAY,14:00,14:50,Process Plant Utilities,Mr. G Vijayaraghavan,B401
-TUESDAY,09:00,09:50,Chemical Engineering Thermodynamics,Mr. Dr. Seelam Narasimha Reddy,B410
-FRIDAY,11:00,11:50,Chemical Engineering Thermodynamics,Mr. Dr. Seelam Narasimha Reddy,B416
-MONDAY,08:00,08:50,Chemical Engineering Thermodynamics,Mr. Dr. Seelam Narasimha Reddy,B322
-WEDNESDAY,17:00,17:50,Mass Transfer I,Mrs. N Kalaiarasi,B417
-THURSDAY,11:00,11:50,Mass Transfer I,Mrs. N Kalaiarasi,B218
-THURSDAY,18:00,18:50,Mass Transfer I,Mrs. N Kalaiarasi,B320
-THURSDAY,10:00,10:50,Chemical Reaction Engineering I,Mrs. Dr. Mary Rosana Nt,A202
-THURSDAY,12:00,12:50,Chemical Reaction Engineering I,Mrs. Dr. Mary Rosana Nt,B210
-TUESDAY,16:00,16:50,Chemical Reaction Engineering I,Mrs. Dr. Mary Rosana Nt,B425
-TUESDAY,11:50,13:30,Heat Transfer Lab,Mrs. N Kalaiarasi,Thermal Lab 1
-MONDAY,17:30,19:10,Heat Transfer Lab,Mrs. N Kalaiarasi,Thermal Lab 1
-FRIDAY,17:30,19:10,Heat Transfer Lab,Mrs. N Kalaiarasi,Thermal Lab 1
-MONDAY,11:50,13:30,Heat Transfer Lab,Mrs. N Kalaiarasi,Thermal Lab 1
+WEDNESDAY,08:00,08:50,Essentials of Human Resources  Management,Mrs. Preetha T,B419
+THURSDAY,17:00,17:50,Essentials of Human Resources  Management,Mrs. Preetha T,A304
+TUESDAY,18:00,18:50,Principles of Financial Management,Dr. Sindhu Al,B426
+TUESDAY,14:00,14:50,Principles of Financial Management,Dr. Sindhu Al,A303
+WEDNESDAY,14:00,14:50,Usability Design of Software  Applications,Mrs. Rajammal K,A303
+TUESDAY,12:00,12:50,Usability Design of Software  Applications,Mrs. Rajammal K,B106
+FRIDAY,15:00,15:50,Usability Design of Software  Applications,Mrs. Rajammal K,B219
+MONDAY,08:00,09:40,Usability Design of Software  Applications,Mrs. Rajammal K,KFR02
+FRIDAY,11:50,13:30,Usability Design of Software  Applications,Mrs. Rajammal K,TLGL4
+FRIDAY,14:00,14:50,IT Workshop,New Faculty New  Staff - 23,B411
+THURSDAY,12:00,12:50,IT Workshop,New Faculty New  Staff - 23,A202
+TUESDAY,09:50,11:30,IT Workshop,New Faculty New  Staff - 23,TLFR3
+THURSDAY,09:50,11:30,IT Workshop,New Faculty New  Staff - 23,JR3
+MONDAY,13:00,13:50,Modern Web Applications,New Faculty New  Staff - 22,A109
+THURSDAY,08:00,08:50,Modern Web Applications,New Faculty New  Staff - 22,A311
+WEDNESDAY,12:00,12:50,Modern Web Applications,New Faculty New  Staff - 22,A103
+MONDAY,15:50,17:30,Modern Web Applications,New Faculty New  Staff - 22,KFL03
+WEDNESDAY,15:50,17:30,Modern Web Applications,New Faculty New  Staff - 22,JR2

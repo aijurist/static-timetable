@@ -1,9 +1,9 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,10:00,10:50,Digital System Design,MCT 2.1,A210
-TUESDAY,11:00,11:50,Digital System Design,MCT 2.1,B302
-FRIDAY,09:50,11:30,Digital System Design,MCT 2.1,MCT CAD Lab
-WEDNESDAY,17:30,19:10,Digital System Design,MCT 2.1,MCT CAD Lab
-SATURDAY,17:30,19:10,Python Programming for Machine Learning,MCT 3.1,DSP Lab
-SATURDAY,15:50,17:30,Python Programming for Machine Learning,MCT 3.1,DSP Lab
-FRIDAY,08:00,09:40,Python Programming for Machine Learning,MCT 3.1,DSP Lab
-THURSDAY,15:50,17:30,Python Programming for Machine Learning,MCT 3.1,DSP Lab
+TUESDAY,11:00,11:50,Digital System Design,MCT 2.1,B107
+SATURDAY,11:00,11:50,Digital System Design,MCT 2.1,B107
+THURSDAY,13:50,15:30,Digital System Design,MCT 2.1,MCT CAD Lab
+TUESDAY,17:30,19:10,Digital System Design,MCT 2.1,MCT CAD Lab
+TUESDAY,13:50,15:30,Python Programming for Machine Learning,MCT 3.1,DSP Lab
+FRIDAY,13:50,15:30,Python Programming for Machine Learning,MCT 3.1,DSP Lab
+FRIDAY,09:50,11:30,Python Programming for Machine Learning,MCT 3.1,DSP Lab
+WEDNESDAY,13:00,13:50,Python Programming for Machine Learning,MCT 3.1,DSP Lab

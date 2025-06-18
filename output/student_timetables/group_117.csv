@@ -1,31 +1,31 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-THURSDAY,15:50,17:30,Computer Aided Modelling Laboratory,Mr. D.L. Vasthadu Vasu Kannah,Aero CAD Lab
-MONDAY,15:50,17:30,Computer Aided Modelling Laboratory,Mr. D.L. Vasthadu Vasu Kannah,Aero CAD Lab
-WEDNESDAY,11:50,13:30,Computer Aided Modelling Laboratory,Mr. D.L. Vasthadu Vasu Kannah,Aero CAD Lab
-WEDNESDAY,17:30,19:10,Computer Aided Modelling Laboratory,Mr. D.L. Vasthadu Vasu Kannah,Aero CAD Lab
-TUESDAY,09:00,09:50,Solid Mechanics,Mr. Shebaz Ahmed J P,A209
-TUESDAY,17:00,17:50,Solid Mechanics,Mr. Shebaz Ahmed J P,B402
-THURSDAY,15:00,15:50,Solid Mechanics,Mr. Shebaz Ahmed J P,B106
-MONDAY,11:50,13:30,Solid Mechanics,Mr. Shebaz Ahmed J P,Strength of Materials Lab
-MONDAY,13:50,15:30,Solid Mechanics,Mr. Shebaz Ahmed J P,Strength of Materials Lab
-TUESDAY,10:00,10:50,Transforms and Applied Partial Differential Equations,Dr. Santhiya S,A208
-TUESDAY,16:00,16:50,Transforms and Applied Partial Differential Equations,Dr. Santhiya S,B210
-MONDAY,08:00,08:50,Transforms and Applied Partial Differential Equations,Dr. Santhiya S,A305
-MONDAY,10:00,10:50,Transforms and Applied Partial Differential Equations,Dr. Santhiya S,B213
-WEDNESDAY,09:00,09:50,NPTEL,Mr. Balaji Rajendran,B325
-FRIDAY,13:00,13:50,NPTEL,Mr. Balaji Rajendran,A202
-WEDNESDAY,11:00,11:50,NPTEL,Mr. Balaji Rajendran,B210
-TUESDAY,11:00,11:50,Aero Engineering Thermodynamics,Mr. Harikrishnan Ravichandran,A202
-THURSDAY,10:00,10:50,Aero Engineering Thermodynamics,Mr. Harikrishnan Ravichandran,C308
-MONDAY,09:00,09:50,Aero Engineering Thermodynamics,Mr. Harikrishnan Ravichandran,B426
-THURSDAY,11:50,13:30,Aero Engineering Thermodynamics,Mr. Harikrishnan Ravichandran,Thermal Lab 1
-MONDAY,15:50,17:30,Aero Engineering Thermodynamics,Mr. Harikrishnan Ravichandran,Thermal Lab 1
-THURSDAY,11:00,11:50,Fluid Mechanics and Fluid Machinery,Mr. Pradesh S,A109
-WEDNESDAY,15:00,15:50,Fluid Mechanics and Fluid Machinery,Mr. Pradesh S,B419
-MONDAY,11:00,11:50,Fluid Mechanics and Fluid Machinery,Mr. Pradesh S,A303
-MONDAY,17:30,19:10,Fluid Mechanics and Fluid Machinery,Mr. Pradesh S,Fluid Mechanics Lab
-FRIDAY,15:50,17:30,Fluid Mechanics and Fluid Machinery,Mr. Pradesh S,Fluid Mechanics Lab
-TUESDAY,13:50,15:30,Python Programming for Machine Learning,Mr. S Harish,DSP Lab
-MONDAY,13:50,15:30,Python Programming for Machine Learning,Mr. S Harish,DSP Lab
-THURSDAY,11:50,13:30,Python Programming for Machine Learning,Mr. S Harish,DSP Lab
-MONDAY,11:50,13:30,Python Programming for Machine Learning,Mr. S Harish,DSP Lab
+TUESDAY,08:00,09:40,Computer Aided Modelling Laboratory,Mr. D.L. Vasthadu Vasu Kannah,Aero CAD Lab
+FRIDAY,08:00,09:40,Computer Aided Modelling Laboratory,Mr. D.L. Vasthadu Vasu Kannah,Aero CAD Lab
+SATURDAY,15:50,17:30,Computer Aided Modelling Laboratory,Mr. D.L. Vasthadu Vasu Kannah,Aero CAD Lab
+SATURDAY,17:30,19:10,Computer Aided Modelling Laboratory,Mr. D.L. Vasthadu Vasu Kannah,Aero CAD Lab
+WEDNESDAY,15:00,15:50,Solid Mechanics,Mr. Shebaz Ahmed J P,A202
+TUESDAY,18:00,18:50,Solid Mechanics,Mr. Shebaz Ahmed J P,A304
+FRIDAY,15:00,15:50,Solid Mechanics,Mr. Shebaz Ahmed J P,A109
+WEDNESDAY,15:50,17:30,Solid Mechanics,Mr. Shebaz Ahmed J P,Strength of Materials Lab
+WEDNESDAY,17:30,19:10,Solid Mechanics,Mr. Shebaz Ahmed J P,Strength of Materials Lab
+WEDNESDAY,10:00,10:50,Transforms and Applied Partial Differential Equations,Dr. Santhiya S,B417
+FRIDAY,14:00,14:50,Transforms and Applied Partial Differential Equations,Dr. Santhiya S,C307
+TUESDAY,13:00,13:50,Transforms and Applied Partial Differential Equations,Dr. Santhiya S,B212
+SATURDAY,12:00,12:50,Transforms and Applied Partial Differential Equations,Dr. Santhiya S,B107
+THURSDAY,11:00,11:50,NPTEL,Mr. Balaji Rajendran,A210
+WEDNESDAY,11:00,11:50,NPTEL,Mr. Balaji Rajendran,C307
+THURSDAY,17:00,17:50,NPTEL,Mr. Balaji Rajendran,B325
+FRIDAY,13:00,13:50,Aero Engineering Thermodynamics,Mr. Harikrishnan Ravichandran,C101
+SATURDAY,09:00,09:50,Aero Engineering Thermodynamics,Mr. Harikrishnan Ravichandran,B419
+FRIDAY,17:00,17:50,Aero Engineering Thermodynamics,Mr. Harikrishnan Ravichandran,B404
+THURSDAY,13:50,15:30,Aero Engineering Thermodynamics,Mr. Harikrishnan Ravichandran,Thermal Lab 1
+WEDNESDAY,11:50,13:30,Aero Engineering Thermodynamics,Mr. Harikrishnan Ravichandran,Thermal Lab 1
+THURSDAY,09:00,09:50,Fluid Mechanics and Fluid Machinery,Mr. Pradesh S,C102
+THURSDAY,12:00,12:50,Fluid Mechanics and Fluid Machinery,Mr. Pradesh S,A204
+FRIDAY,12:00,12:50,Fluid Mechanics and Fluid Machinery,Mr. Pradesh S,B212
+SATURDAY,15:50,17:30,Fluid Mechanics and Fluid Machinery,Mr. Pradesh S,Fluid Mechanics Lab
+TUESDAY,15:50,17:30,Fluid Mechanics and Fluid Machinery,Mr. Pradesh S,Fluid Mechanics Lab
+SATURDAY,09:50,11:30,Python Programming for Machine Learning,Mr. S Harish,DSP Lab
+THURSDAY,08:00,08:50,Python Programming for Machine Learning,Mr. S Harish,DSP Lab
+THURSDAY,13:00,13:50,Python Programming for Machine Learning,Mr. S Harish,DSP Lab
+THURSDAY,13:50,15:30,Python Programming for Machine Learning,Mr. S Harish,DSP Lab

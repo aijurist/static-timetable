@@ -1,23 +1,23 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,09:50,11:30,COMPREHENSION,Mr. Dr. S Senthil Murugan,Physics LAB - 2
-MONDAY,11:50,13:30,COMPREHENSION,Mr. Dr. S Senthil Murugan,Physics LAB - 1
-FRIDAY,11:00,11:50,Automobile Engineering,Mr. Dr. Chandrasekar P,A109
-FRIDAY,09:00,09:50,Automobile Engineering,Mr. Dr. Chandrasekar P,A204
-WEDNESDAY,16:00,16:50,Automobile Engineering,Mr. Dr. Chandrasekar P,B322
-FRIDAY,16:00,16:50,Automation in Manufacturing,Mr. R.Dhanaraj,B410
-FRIDAY,10:00,10:50,Automation in Manufacturing,Mr. R.Dhanaraj,A202
-THURSDAY,11:00,11:50,Automation in Manufacturing,Mr. R.Dhanaraj,B425
-WEDNESDAY,11:00,11:50,Mechatronics,Mrs. Aruna R,B424
-THURSDAY,08:00,08:50,Mechatronics,Mrs. Aruna R,B212
-WEDNESDAY,17:00,17:50,Mechatronics,Mrs. Aruna R,A103
-THURSDAY,11:50,13:30,Mechatronics,Mrs. Aruna R,Mechatronics Lab
-WEDNESDAY,11:50,13:30,Mechatronics,Mrs. Aruna R,Mechatronics Lab
-FRIDAY,13:00,13:50,Supply Chain and Logistics Management,Mr. Dr.A.Paramasivam,B401
-FRIDAY,17:00,17:50,Supply Chain and Logistics Management,Mr. Dr.A.Paramasivam,C308
-MONDAY,08:00,08:50,Supply Chain and Logistics Management,Mr. Dr.A.Paramasivam,A109
-WEDNESDAY,10:00,10:50,Non-Destructive Testing and Evaluation,Mr. Dr.S.Dhandapani,B410
-WEDNESDAY,15:00,15:50,Non-Destructive Testing and Evaluation,Mr. Dr.S.Dhandapani,B418
-TUESDAY,17:00,17:50,Non-Destructive Testing and Evaluation,Mr. Dr.S.Dhandapani,C307
-THURSDAY,10:00,10:50,Product Life Cycle Management,Mr. Dr. S Senthil Murugan,B403
-TUESDAY,16:00,16:50,Product Life Cycle Management,Mr. Dr. S Senthil Murugan,A104/105
-MONDAY,09:00,09:50,Product Life Cycle Management,Mr. Dr. S Senthil Murugan,B403
+MONDAY,13:50,15:30,COMPREHENSION,Mr. Dr. S Senthil Murugan,Isaac Asimov Laboratory
+MONDAY,15:50,17:30,COMPREHENSION,Mr. Dr. S Senthil Murugan,Manufacturing Technology I
+FRIDAY,13:00,13:50,Automobile Engineering,Mr. Dr. Chandrasekar P,B419
+THURSDAY,12:00,12:50,Automobile Engineering,Mr. Dr. Chandrasekar P,B409
+TUESDAY,13:00,13:50,Automobile Engineering,Mr. Dr. Chandrasekar P,B222
+THURSDAY,10:00,10:50,Automation in Manufacturing,Mr. R.Dhanaraj,A302
+MONDAY,08:00,08:50,Automation in Manufacturing,Mr. R.Dhanaraj,A202
+TUESDAY,16:00,16:50,Automation in Manufacturing,Mr. R.Dhanaraj,A304
+THURSDAY,15:00,15:50,Mechatronics,Mrs. Aruna R,B219
+THURSDAY,11:00,11:50,Mechatronics,Mrs. Aruna R,A103
+MONDAY,13:00,13:50,Mechatronics,Mrs. Aruna R,A103
+TUESDAY,08:00,09:40,Mechatronics,Mrs. Aruna R,Mechatronics Lab
+FRIDAY,17:30,19:10,Mechatronics,Mrs. Aruna R,Mechatronics Lab
+MONDAY,18:00,18:50,Supply Chain and Logistics Management,Mr. Dr.A.Paramasivam,A305
+MONDAY,11:00,11:50,Supply Chain and Logistics Management,Mr. Dr.A.Paramasivam,B220
+WEDNESDAY,15:00,15:50,Supply Chain and Logistics Management,Mr. Dr.A.Paramasivam,A104/105
+TUESDAY,11:00,11:50,Non-Destructive Testing and Evaluation,Mr. Dr.S.Dhandapani,B424
+THURSDAY,16:00,16:50,Non-Destructive Testing and Evaluation,Mr. Dr.S.Dhandapani,A202
+THURSDAY,18:00,18:50,Non-Destructive Testing and Evaluation,Mr. Dr.S.Dhandapani,B404
+WEDNESDAY,16:00,16:50,Product Life Cycle Management,Mr. Dr. S Senthil Murugan,B426
+MONDAY,09:00,09:50,Product Life Cycle Management,Mr. Dr. S Senthil Murugan,C103
+TUESDAY,15:00,15:50,Product Life Cycle Management,Mr. Dr. S Senthil Murugan,B418

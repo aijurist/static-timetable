@@ -1,13 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-SATURDAY,10:00,10:50,3D Printing and Design,CSD 4.1,B418
-SATURDAY,11:00,11:50,3D Printing and Design,CSD 4.1,A110
-FRIDAY,10:00,10:50,3D Printing and Design,CSD 4.1,B106
-WEDNESDAY,17:30,19:10,3D Printing and Design,CSD 4.1,JR3
-WEDNESDAY,11:50,13:30,3D Printing and Design,CSD 4.1,JL1
-THURSDAY,13:50,15:30,3D Printing and Design,CSD 4.1,JR2
-FRIDAY,15:50,17:30,3D Printing and Design,CSD 4.1,JR3
-MONDAY,11:00,11:50,Metrology and Measurements,MECH 3.1,B221
-TUESDAY,11:00,11:50,Metrology and Measurements,MECH 3.1,B106
-WEDNESDAY,14:00,14:50,Metrology and Measurements,MECH 3.1,A211
-THURSDAY,11:50,13:30,Metrology and Measurements,MECH 3.1,Metrology & Measurement Lab
-THURSDAY,08:00,09:40,Metrology and Measurements,MECH 3.1,Metrology & Measurement Lab
+FRIDAY,09:00,09:50,3D Printing and Design,CSD 4.1,B222
+THURSDAY,14:00,14:50,3D Printing and Design,CSD 4.1,C103
+SATURDAY,08:00,08:50,3D Printing and Design,CSD 4.1,A109
+FRIDAY,13:50,15:30,3D Printing and Design,CSD 4.1,KFL03
+FRIDAY,09:50,11:30,3D Printing and Design,CSD 4.1,TLFR4
+THURSDAY,15:50,17:30,3D Printing and Design,CSD 4.1,TLFR4
+WEDNESDAY,08:00,09:40,3D Printing and Design,CSD 4.1,TLFL4

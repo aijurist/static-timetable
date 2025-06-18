@@ -1,7 +1,7 @@
 Day,StartTime,EndTime,Course,Group,Room
-SATURDAY,18:00,18:50,Digital Principles and System Design,ECE 2.5,A104/105
-THURSDAY,14:00,14:50,Digital Principles and System Design,ECE 2.5,A209
-FRIDAY,17:00,17:50,Digital Principles and System Design,ECE 2.5,A311
-SATURDAY,13:00,13:50,Control System Engineering,ECE 3.3,A305
-FRIDAY,13:00,13:50,Control System Engineering,ECE 3.3,C302
-WEDNESDAY,08:00,08:50,Control System Engineering,ECE 3.3,A108
+MONDAY,08:00,08:50,Digital Principles and System Design,ECE 2.5,B402
+MONDAY,10:00,10:50,Digital Principles and System Design,ECE 2.5,A305
+THURSDAY,13:00,13:50,Digital Principles and System Design,ECE 2.5,B107
+TUESDAY,13:00,13:50,Control System Engineering,ECE 3.3,B410
+FRIDAY,15:00,15:50,Control System Engineering,ECE 3.3,A304
+FRIDAY,09:00,09:50,Control System Engineering,ECE 3.3,A311

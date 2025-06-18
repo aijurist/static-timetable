@@ -1,11 +1,11 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,16:00,16:50,Design and Analysis of Algorithms,CSE 2.3,B325
-THURSDAY,14:00,14:50,Design and Analysis of Algorithms,CSE 2.3,A204
-THURSDAY,09:00,09:50,Design and Analysis of Algorithms,CSE 2.3,B424
-MONDAY,13:50,15:30,Design and Analysis of Algorithms,CSE 2.3,JR2
-WEDNESDAY,17:30,19:10,Design and Analysis of Algorithms,CSE 2.3,JL3
-TUESDAY,09:00,09:50,Design and Analysis of Algorithms,CSE 2.9,A103
-TUESDAY,14:00,14:50,Design and Analysis of Algorithms,CSE 2.9,B408
-MONDAY,17:00,17:50,Design and Analysis of Algorithms,CSE 2.9,A103
-MONDAY,11:50,13:30,Design and Analysis of Algorithms,CSE 2.9,TLGL4
-TUESDAY,09:50,11:30,Design and Analysis of Algorithms,CSE 2.9,TLFR4
+MONDAY,09:00,09:50,Design and Analysis of Algorithms,CSE 2.2,A104/105
+THURSDAY,10:00,10:50,Design and Analysis of Algorithms,CSE 2.2,B107
+TUESDAY,10:00,10:50,Design and Analysis of Algorithms,CSE 2.2,B405
+WEDNESDAY,08:00,09:40,Design and Analysis of Algorithms,CSE 2.2,TLGL2
+FRIDAY,13:50,15:30,Design and Analysis of Algorithms,CSE 2.2,TLFL2
+MONDAY,10:00,10:50,Design and Analysis of Algorithms,CSE 2.8,B417
+MONDAY,11:00,11:50,Design and Analysis of Algorithms,CSE 2.8,B403
+WEDNESDAY,13:00,13:50,Design and Analysis of Algorithms,CSE 2.8,A204
+FRIDAY,09:50,11:30,Design and Analysis of Algorithms,CSE 2.8,TLGL4
+MONDAY,15:50,17:30,Design and Analysis of Algorithms,CSE 2.8,KFR02

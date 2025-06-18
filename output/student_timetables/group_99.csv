@@ -1,24 +1,24 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-THURSDAY,11:00,11:50,Wireless Networks,Mrs. Dr.L.Bhagyalakshmi,A305
-SATURDAY,18:00,18:50,Wireless Networks,Mrs. Dr.L.Bhagyalakshmi,A210
-SATURDAY,17:00,17:50,Wireless Networks,Mrs. Dr.L.Bhagyalakshmi,B423
-THURSDAY,09:00,09:50,Multimedia Compression and Networking,Mrs. Dr. A. Asha,B418
-SATURDAY,16:00,16:50,Multimedia Compression and Networking,Mrs. Dr. A. Asha,C302
-WEDNESDAY,18:00,18:50,Multimedia Compression and Networking,Mrs. Dr. A. Asha,C302
-THURSDAY,17:00,17:50,Embedded Systems,Mrs. Dr. Saranya J,A210
-FRIDAY,13:00,13:50,Embedded Systems,Mrs. Dr. Saranya J,B218
-TUESDAY,08:00,08:50,Embedded Systems,Mrs. Dr. Saranya J,B422
-TUESDAY,16:00,16:50,RF and Microwave Engineering,Mrs. Nirmala D,A204
-SATURDAY,13:00,13:50,RF and Microwave Engineering,Mrs. Nirmala D,C302
-SATURDAY,14:00,14:50,RF and Microwave Engineering,Mrs. Nirmala D,C308
-TUESDAY,17:30,19:10,Embedded Laboratory,Mr. Senthilraja B,Embedded System Laboratory (ECE)
-WEDNESDAY,11:50,13:30,Embedded Laboratory,Mr. Senthilraja B,Embedded System Laboratory (ECE)
-FRIDAY,15:50,17:30,Embedded Laboratory,Mr. Senthilraja B,Embedded System Laboratory (ECE)
+THURSDAY,10:00,10:50,Wireless Networks,Mrs. Dr.L.Bhagyalakshmi,B325
+FRIDAY,15:00,15:50,Wireless Networks,Mrs. Dr.L.Bhagyalakshmi,B408
+WEDNESDAY,16:00,16:50,Wireless Networks,Mrs. Dr.L.Bhagyalakshmi,A211
+THURSDAY,15:00,15:50,Multimedia Compression and Networking,Mrs. Dr. A. Asha,C307
+MONDAY,18:00,18:50,Multimedia Compression and Networking,Mrs. Dr. A. Asha,A304
+TUESDAY,18:00,18:50,Multimedia Compression and Networking,Mrs. Dr. A. Asha,B419
+MONDAY,10:00,10:50,Embedded Systems,Mrs. Dr. Saranya J,B302
+FRIDAY,14:00,14:50,Embedded Systems,Mrs. Dr. Saranya J,A304
+FRIDAY,11:00,11:50,Embedded Systems,Mrs. Dr. Saranya J,A305
+TUESDAY,10:00,10:50,RF and Microwave Engineering,Mrs. Nirmala D,A302
+TUESDAY,11:00,11:50,RF and Microwave Engineering,Mrs. Nirmala D,C102
+TUESDAY,15:00,15:50,RF and Microwave Engineering,Mrs. Nirmala D,A203
+THURSDAY,11:50,13:30,Embedded Laboratory,Mr. Senthilraja B,Embedded System Laboratory (ECE)
 FRIDAY,17:30,19:10,Embedded Laboratory,Mr. Senthilraja B,Embedded System Laboratory (ECE)
-FRIDAY,10:00,10:50,Optical Communication and Networks,Mrs. Shanmuga Priya P,C201
-FRIDAY,12:00,12:50,Optical Communication and Networks,Mrs. Shanmuga Priya P,B422
-WEDNESDAY,15:00,15:50,Optical Communication and Networks,Mrs. Shanmuga Priya P,B411
-TUESDAY,13:50,15:30,Advanced Communication Systems Laboratory,Mrs. Nirmala D,Optical and Microwave Lab
-THURSDAY,11:50,13:30,Advanced Communication Systems Laboratory,Mrs. Nirmala D,Optical and Microwave Lab
-FRIDAY,13:50,15:30,Advanced Communication Systems Laboratory,Mrs. Nirmala D,Optical and Microwave Lab
-WEDNESDAY,15:50,17:30,Advanced Communication Systems Laboratory,Mrs. Nirmala D,Optical and Microwave Lab
+WEDNESDAY,17:30,19:10,Embedded Laboratory,Mr. Senthilraja B,Embedded System Laboratory (ECE)
+FRIDAY,15:50,17:30,Embedded Laboratory,Mr. Senthilraja B,Embedded System Laboratory (ECE)
+WEDNESDAY,09:00,09:50,Optical Communication and Networks,Mrs. Shanmuga Priya P,B302
+WEDNESDAY,14:00,14:50,Optical Communication and Networks,Mrs. Shanmuga Priya P,B404
+TUESDAY,12:00,12:50,Optical Communication and Networks,Mrs. Shanmuga Priya P,B408
+TUESDAY,08:00,09:40,Advanced Communication Systems Laboratory,Mrs. Nirmala D,Optical and Microwave Lab
+THURSDAY,15:50,17:30,Advanced Communication Systems Laboratory,Mrs. Nirmala D,Optical and Microwave Lab
+MONDAY,13:50,15:30,Advanced Communication Systems Laboratory,Mrs. Nirmala D,Optical and Microwave Lab
+THURSDAY,17:30,19:10,Advanced Communication Systems Laboratory,Mrs. Nirmala D,Optical and Microwave Lab

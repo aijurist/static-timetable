@@ -1,8 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,11:50,13:30,Bioinformatics Laboratory,BT 4.2,Bioprocess Lab
-FRIDAY,11:50,13:30,Bioinformatics Laboratory,BT 4.2,Technical Analysis Lab
-FRIDAY,09:50,11:30,Bioinformatics Laboratory,BT 4.2,Chemistry Lab
-FRIDAY,08:00,09:40,Bioinformatics Laboratory,BT 4.2,Downstream Processing Lab
-TUESDAY,11:00,11:50,Comprehensive Course for Biotechnologists,BT 4.2,B320
-TUESDAY,18:00,18:50,Comprehensive Course for Biotechnologists,BT 4.2,B422
-WEDNESDAY,12:00,12:50,Comprehensive Course for Biotechnologists,BT 4.2,B415
+TUESDAY,13:50,15:30,Bioinformatics Laboratory,BT 4.2,Avionics Lab
+WEDNESDAY,08:00,09:40,Bioinformatics Laboratory,BT 4.2,Engineering Practices Lab (Electronics)
+FRIDAY,15:50,17:30,Bioinformatics Laboratory,BT 4.2,Automotive Components Lab
+SATURDAY,13:50,15:30,Bioinformatics Laboratory,BT 4.2,Basic Electronics Lab-2
+SATURDAY,08:00,08:50,Comprehensive Course for Biotechnologists,BT 4.2,A202
+THURSDAY,15:00,15:50,Comprehensive Course for Biotechnologists,BT 4.2,C308
+TUESDAY,10:00,10:50,Comprehensive Course for Biotechnologists,BT 4.2,B402

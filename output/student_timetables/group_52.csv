@@ -1,32 +1,21 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,18:00,18:50,Computer Architecture,Mrs. Mahesmeena,B322
-FRIDAY,12:00,12:50,Computer Architecture,Mrs. Mahesmeena,A209
-FRIDAY,09:00,09:50,Computer Architecture,Mrs. Mahesmeena,B222
-THURSDAY,08:00,08:50,Design and Analysis of Algorithms,Mrs. Mahesmeena,B210
-FRIDAY,11:00,11:50,Design and Analysis of Algorithms,Mrs. Mahesmeena,A308
-FRIDAY,15:00,15:50,Design and Analysis of Algorithms,Mrs. Mahesmeena,B220
-MONDAY,15:50,17:30,Design and Analysis of Algorithms,Mrs. Mahesmeena,TLFL1
-TUESDAY,08:00,09:40,Design and Analysis of Algorithms,Mrs. Mahesmeena,KFL02
-THURSDAY,17:00,17:50,Fourier series and Number theory,Mr. Venkatesan J,B409
-WEDNESDAY,16:00,16:50,Fourier series and Number theory,Mr. Venkatesan J,B416
-MONDAY,11:00,11:50,Fourier series and Number theory,Mr. Venkatesan J,B417
-TUESDAY,11:00,11:50,Fourier series and Number theory,Mr. Venkatesan J,A209
-THURSDAY,10:00,10:50,Database Management Systems,Mr. N.Karthikeyan,C302
-THURSDAY,11:00,11:50,Database Management Systems,Mr. N.Karthikeyan,B409
-THURSDAY,09:00,09:50,Database Management Systems,Mr. N.Karthikeyan,B410
-WEDNESDAY,11:50,13:30,Database Management Systems,Mr. N.Karthikeyan,JR3
-FRIDAY,15:50,17:30,Database Management Systems,Mr. N.Karthikeyan,JL2
-FRIDAY,17:30,19:10,Database Management Systems,Mr. N.Karthikeyan,TLFL3
-THURSDAY,11:50,13:30,Database Management Systems,Mr. N.Karthikeyan,JR3
-MONDAY,10:00,10:50,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,B422
-WEDNESDAY,10:00,10:50,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,B320
-WEDNESDAY,11:00,11:50,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,A211
-FRIDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,TLFR4
-THURSDAY,11:50,13:30,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,TLFL1
-MONDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,KFR01
-THURSDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,TLFR4
-FRIDAY,08:00,08:50,Fundamentals of Data Science,Mrs. Bhavani M,A202
-WEDNESDAY,15:00,15:50,Fundamentals of Data Science,Mrs. Bhavani M,A302
-TUESDAY,10:00,10:50,Fundamentals of Data Science,Mrs. Bhavani M,C301
-MONDAY,11:50,13:30,Fundamentals of Data Science,Mrs. Bhavani M,JL3
-WEDNESDAY,11:50,13:30,Fundamentals of Data Science,Mrs. Bhavani M,KFL03
+SATURDAY,09:00,09:50,Social and Ethical Issues in AI,New Faculty New  Staff - 28,A211
+FRIDAY,18:00,18:50,Big Data Technology,HOD AIML,A305
+WEDNESDAY,14:00,14:50,Big Data Technology,HOD AIML,C101
+THURSDAY,10:00,10:50,Big Data Technology,HOD AIML,B419
+TUESDAY,13:50,15:30,Big Data Technology,HOD AIML,KFR03
+TUESDAY,11:50,13:30,Big Data Technology,HOD AIML,TLGL1
+FRIDAY,17:00,17:50,Information Retrieval (Professional Elective V),Mr. Magesh M P,A202
+SATURDAY,16:00,16:50,Information Retrieval (Professional Elective V),Mr. Magesh M P,B322
+WEDNESDAY,15:50,17:30,Information Retrieval (Professional Elective V),Mr. Magesh M P,TLFR3
+FRIDAY,13:50,15:30,Information Retrieval (Professional Elective V),Mr. Magesh M P,TLFL3
+SATURDAY,15:00,15:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,B412
+WEDNESDAY,13:00,13:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,B426
+WEDNESDAY,09:00,09:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,C101
+TUESDAY,10:00,10:50,Data Visualization using Python (Professional Elective III),Mr. Vijay K,B424
+SATURDAY,11:00,11:50,Data Visualization using Python (Professional Elective III),Mr. Vijay K,A108
+FRIDAY,11:50,13:30,Data Visualization using Python (Professional Elective III),Mr. Vijay K,TLFL2
+THURSDAY,11:50,13:30,Data Visualization using Python (Professional Elective III),Mr. Vijay K,TLFL5
+TUESDAY,09:00,09:50,Secure Systems Engineering,Dr. N M Balamurugan,B321
+WEDNESDAY,10:00,10:50,Secure Systems Engineering,Dr. N M Balamurugan,A103
+THURSDAY,15:00,15:50,Secure Systems Engineering,Dr. N M Balamurugan,A102

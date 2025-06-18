@@ -1,11 +1,11 @@
 Day,StartTime,EndTime,Course,Group,Room
-SATURDAY,12:00,12:50,Design and Analysis of Algorithms,IT 2.4,C201
-TUESDAY,14:00,14:50,Design and Analysis of Algorithms,IT 2.4,B322
-FRIDAY,09:00,09:50,Design and Analysis of Algorithms,IT 2.4,B424
-THURSDAY,17:30,19:10,Design and Analysis of Algorithms,IT 2.4,TLFL1
-WEDNESDAY,11:50,13:30,Design and Analysis of Algorithms,IT 2.4,TLFL3
-THURSDAY,16:00,16:50,Computer Vision,IT 3.3,C101
-WEDNESDAY,14:00,14:50,Computer Vision,IT 3.3,B409
-WEDNESDAY,11:00,11:50,Computer Vision,IT 3.3,B402
-SATURDAY,17:30,19:10,Computer Vision,IT 3.3,JR1
-FRIDAY,11:50,13:30,Computer Vision,IT 3.3,KFR03
+THURSDAY,15:00,15:50,Design and Analysis of Algorithms,IT 2.4,B222
+FRIDAY,13:00,13:50,Design and Analysis of Algorithms,IT 2.4,A110
+SATURDAY,16:00,16:50,Design and Analysis of Algorithms,IT 2.4,B212
+SATURDAY,17:30,19:10,Design and Analysis of Algorithms,IT 2.4,KFL02
+TUESDAY,11:50,13:30,Design and Analysis of Algorithms,IT 2.4,KFL01
+WEDNESDAY,10:00,10:50,Computer Vision,IT 3.3,B320
+WEDNESDAY,09:00,09:50,Computer Vision,IT 3.3,C307
+WEDNESDAY,14:00,14:50,Computer Vision,IT 3.3,A205
+FRIDAY,08:00,09:40,Computer Vision,IT 3.3,TLFL3
+TUESDAY,15:50,17:30,Computer Vision,IT 3.3,TLFR3

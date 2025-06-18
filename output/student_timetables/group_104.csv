@@ -1,23 +1,23 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,10:00,10:50,Analog Circuits –I,Mrs. Dr.T.Mariammal,C308
-THURSDAY,15:00,15:50,Analog Circuits –I,Mrs. Dr.T.Mariammal,A211
-FRIDAY,11:00,11:50,Analog Circuits –I,Mrs. Dr.T.Mariammal,B404
-WEDNESDAY,08:00,08:50,Electromagnetic Fields,Mr. Dr. Sathish M,A110
-FRIDAY,14:00,14:50,Electromagnetic Fields,Mr. Dr. Sathish M,A311
-THURSDAY,08:00,08:50,Electromagnetic Fields,Mr. Dr. Sathish M,B423
-SATURDAY,18:00,18:50,Digital Principles and System Design,Dr. Sathiyavathi S,A104/105
-THURSDAY,14:00,14:50,Digital Principles and System Design,Dr. Sathiyavathi S,A209
-FRIDAY,17:00,17:50,Digital Principles and System Design,Dr. Sathiyavathi S,A311
-WEDNESDAY,10:00,10:50,Fourier series and Number theory,Dr. Ramalakshmi K,B106
-WEDNESDAY,09:00,09:50,Fourier series and Number theory,Dr. Ramalakshmi K,C201
-WEDNESDAY,13:00,13:50,Fourier series and Number theory,Dr. Ramalakshmi K,C202
-THURSDAY,09:00,09:50,Fourier series and Number theory,Dr. Ramalakshmi K,B322
-THURSDAY,09:50,11:30,Analog and Digital Circuits Laboratory,Mr. Karthi J,Basic Electronics Lab-1
-THURSDAY,11:50,13:30,Analog and Digital Circuits Laboratory,Mr. Karthi J,Basic Electronics Lab-1
-SATURDAY,08:00,09:40,Analog and Digital Circuits Laboratory,Mr. Karthi J,Basic Electronics Lab-1
-SATURDAY,09:50,11:30,Analog and Digital Circuits Laboratory,Mr. Karthi J,Basic Electronics Lab-1
-SATURDAY,15:00,15:50,Introduction to Python Programming,Mrs. Yogalakshmi.V,C101
-SATURDAY,08:00,09:40,Introduction to Python Programming,Mrs. Yogalakshmi.V,MCT CAD Lab
-SATURDAY,09:50,11:30,Introduction to Python Programming,Mrs. Yogalakshmi.V,MCT CAD Lab
-TUESDAY,17:30,19:10,Introduction to Python Programming,Mrs. Yogalakshmi.V,MCT CAD Lab
-THURSDAY,09:50,11:30,Introduction to Python Programming,Mrs. Yogalakshmi.V,MCT CAD Lab
+FRIDAY,08:00,08:50,Analog Circuits –I,Mrs. Dr.T.Mariammal,B210
+MONDAY,15:00,15:50,Analog Circuits –I,Mrs. Dr.T.Mariammal,B401
+MONDAY,17:00,17:50,Analog Circuits –I,Mrs. Dr.T.Mariammal,B322
+FRIDAY,09:00,09:50,Electromagnetic Fields,Mr. Dr. Sathish M,C307
+WEDNESDAY,12:00,12:50,Electromagnetic Fields,Mr. Dr. Sathish M,B322
+THURSDAY,15:00,15:50,Electromagnetic Fields,Mr. Dr. Sathish M,A102
+MONDAY,08:00,08:50,Digital Principles and System Design,Dr. Sathiyavathi S,B402
+MONDAY,10:00,10:50,Digital Principles and System Design,Dr. Sathiyavathi S,A305
+THURSDAY,13:00,13:50,Digital Principles and System Design,Dr. Sathiyavathi S,B107
+TUESDAY,14:00,14:50,Fourier series and Number theory,Dr. Ramalakshmi K,C102
+THURSDAY,14:00,14:50,Fourier series and Number theory,Dr. Ramalakshmi K,A304
+TUESDAY,13:00,13:50,Fourier series and Number theory,Dr. Ramalakshmi K,B416
+FRIDAY,10:00,10:50,Fourier series and Number theory,Dr. Ramalakshmi K,B219
+WEDNESDAY,08:00,09:40,Analog and Digital Circuits Laboratory,Mr. Karthi J,Basic Electronics Lab-1
+WEDNESDAY,13:50,15:30,Analog and Digital Circuits Laboratory,Mr. Karthi J,Basic Electronics Lab-1
+THURSDAY,17:30,19:10,Analog and Digital Circuits Laboratory,Mr. Karthi J,Basic Electronics Lab-1
+THURSDAY,15:50,17:30,Analog and Digital Circuits Laboratory,Mr. Karthi J,Basic Electronics Lab-1
+MONDAY,12:00,12:50,Introduction to Python Programming,Mrs. Yogalakshmi.V,B325
+FRIDAY,15:50,17:30,Introduction to Python Programming,Mrs. Yogalakshmi.V,MCT CAD Lab
+WEDNESDAY,17:30,19:10,Introduction to Python Programming,Mrs. Yogalakshmi.V,MCT CAD Lab
+WEDNESDAY,15:50,17:30,Introduction to Python Programming,Mrs. Yogalakshmi.V,MCT CAD Lab
+FRIDAY,13:50,15:30,Introduction to Python Programming,Mrs. Yogalakshmi.V,MCT CAD Lab

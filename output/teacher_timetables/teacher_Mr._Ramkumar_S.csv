@@ -1,14 +1,14 @@
 Day,StartTime,EndTime,Course,Group,Room
-SATURDAY,10:00,10:50,Analog and Digital Electronics,R&A 2.1,B412
-FRIDAY,18:00,18:50,Analog and Digital Electronics,R&A 2.1,B417
-SATURDAY,11:00,11:50,Analog and Digital Electronics,R&A 2.1,B321
-THURSDAY,09:50,11:30,Mobile Robotics laboratory,R&A 3.1,Isaac Asimov Laboratory
-FRIDAY,11:50,13:30,Mobile Robotics laboratory,R&A 3.1,Isaac Asimov Laboratory
-SATURDAY,08:00,09:40,Mobile Robotics laboratory,R&A 3.1,Isaac Asimov Laboratory
-THURSDAY,15:50,17:30,Mobile Robotics laboratory,R&A 3.1,Isaac Asimov Laboratory
-THURSDAY,11:50,13:30,Robotics and Automation Problem Solving using AI, ML and DL,R&A 4.1,Isaac Asimov Laboratory
-WEDNESDAY,17:30,19:10,Robotics and Automation Problem Solving using AI, ML and DL,R&A 4.1,Isaac Asimov Laboratory
+SATURDAY,09:00,09:50,Analog and Digital Electronics,R&A 2.1,B426
+THURSDAY,12:00,12:50,Analog and Digital Electronics,R&A 2.1,A305
+THURSDAY,13:00,13:50,Analog and Digital Electronics,R&A 2.1,B419
+WEDNESDAY,17:30,19:10,Mobile Robotics laboratory,R&A 3.1,Isaac Asimov Laboratory
+WEDNESDAY,11:50,13:30,Mobile Robotics laboratory,R&A 3.1,Isaac Asimov Laboratory
+WEDNESDAY,15:50,17:30,Mobile Robotics laboratory,R&A 3.1,Isaac Asimov Laboratory
+FRIDAY,09:50,11:30,Mobile Robotics laboratory,R&A 3.1,Isaac Asimov Laboratory
+THURSDAY,15:50,17:30,Robotics and Automation Problem Solving using AI, ML and DL,R&A 4.1,Isaac Asimov Laboratory
+TUESDAY,08:00,09:40,Robotics and Automation Problem Solving using AI, ML and DL,R&A 4.1,Isaac Asimov Laboratory
+THURSDAY,17:30,19:10,Robotics and Automation Problem Solving using AI, ML and DL,R&A 4.1,Isaac Asimov Laboratory
 SATURDAY,11:50,13:30,Robotics and Automation Problem Solving using AI, ML and DL,R&A 4.1,Isaac Asimov Laboratory
-WEDNESDAY,11:50,13:30,Robotics and Automation Problem Solving using AI, ML and DL,R&A 4.1,Isaac Asimov Laboratory
-FRIDAY,15:50,17:30,Robotics and Automation Problem Solving using AI, ML and DL,R&A 4.1,Isaac Asimov Laboratory
-WEDNESDAY,13:50,15:30,Robotics and Automation Problem Solving using AI, ML and DL,R&A 4.1,Isaac Asimov Laboratory
+FRIDAY,11:50,13:30,Robotics and Automation Problem Solving using AI, ML and DL,R&A 4.1,Isaac Asimov Laboratory
+TUESDAY,13:50,15:30,Robotics and Automation Problem Solving using AI, ML and DL,R&A 4.1,Isaac Asimov Laboratory

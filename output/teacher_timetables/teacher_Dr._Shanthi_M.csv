@@ -1,12 +1,12 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,18:00,18:50,Analytical Techniques in Biotechnology,BT 2.2,B403
-SATURDAY,08:00,08:50,Analytical Techniques in Biotechnology,BT 2.2,B403
-SATURDAY,11:50,13:30,Analytical Techniques in Biotechnology,BT 2.2,Biochemistry Lab
-TUESDAY,11:50,13:30,Analytical Techniques in Biotechnology,BT 2.2,Biochemistry Lab
-WEDNESDAY,15:50,17:30,Bioinformatics Laboratory,BT 4.3,Aero CAD Lab
-WEDNESDAY,17:30,19:10,Bioinformatics Laboratory,BT 4.3,Food Processing and Preservation Lab
-FRIDAY,17:30,19:10,Bioinformatics Laboratory,BT 4.3,Soil Mechanics & Highway Lab
-WEDNESDAY,11:50,13:30,Bioinformatics Laboratory,BT 4.3,Soil Mechanics & Highway Lab
-THURSDAY,10:00,10:50,Bioinformatics,BT 4.1,C307
-TUESDAY,11:00,11:50,Bioinformatics,BT 4.1,B418
-THURSDAY,09:00,09:50,Bioinformatics,BT 4.1,A102
+THURSDAY,11:00,11:50,Analytical Techniques in Biotechnology,BT 2.2,B221
+FRIDAY,13:00,13:50,Analytical Techniques in Biotechnology,BT 2.2,A304
+FRIDAY,13:50,15:30,Analytical Techniques in Biotechnology,BT 2.2,Biochemistry Lab
+THURSDAY,11:50,13:30,Analytical Techniques in Biotechnology,BT 2.2,Biochemistry Lab
+WEDNESDAY,08:00,09:40,Bioinformatics Laboratory,BT 4.3,Electronic Devices & Circuits Lab
+SATURDAY,17:30,19:10,Bioinformatics Laboratory,BT 4.3,Machine Shop FF3 - EPL - 3
+TUESDAY,13:50,15:30,Bioinformatics Laboratory,BT 4.3,Digital Lab-2
+THURSDAY,08:00,09:40,Bioinformatics Laboratory,BT 4.3,Basic Electronics Lab-2
+SATURDAY,15:00,15:50,Bioinformatics,BT 4.1,B417
+FRIDAY,08:00,08:50,Bioinformatics,BT 4.1,B302
+TUESDAY,17:00,17:50,Bioinformatics,BT 4.1,A303

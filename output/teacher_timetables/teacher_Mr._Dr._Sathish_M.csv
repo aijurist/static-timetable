@@ -1,7 +1,7 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,08:00,08:50,Electromagnetic Fields,ECE 2.5,A110
-FRIDAY,14:00,14:50,Electromagnetic Fields,ECE 2.5,A311
-THURSDAY,08:00,08:50,Electromagnetic Fields,ECE 2.5,B423
-FRIDAY,11:00,11:50,RF and Microwave Engineering,ECE 4.1,B419
-WEDNESDAY,15:00,15:50,RF and Microwave Engineering,ECE 4.1,B320
-TUESDAY,10:00,10:50,RF and Microwave Engineering,ECE 4.1,B107
+FRIDAY,09:00,09:50,Electromagnetic Fields,ECE 2.5,C307
+WEDNESDAY,12:00,12:50,Electromagnetic Fields,ECE 2.5,B322
+THURSDAY,15:00,15:50,Electromagnetic Fields,ECE 2.5,A102
+THURSDAY,12:00,12:50,RF and Microwave Engineering,ECE 4.1,B408
+THURSDAY,11:00,11:50,RF and Microwave Engineering,ECE 4.1,B410
+THURSDAY,17:00,17:50,RF and Microwave Engineering,ECE 4.1,B418

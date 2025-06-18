@@ -1,7 +1,7 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,15:00,15:50,Cancer Biology,BT 4.1,B220
-FRIDAY,18:00,18:50,Cancer Biology,BT 4.1,B222
-SATURDAY,08:00,08:50,Cancer Biology,BT 4.1,C102
-WEDNESDAY,11:00,11:50,Cancer Biology,BT 4.3,B218
-SATURDAY,10:00,10:50,Cancer Biology,BT 4.3,C103
-THURSDAY,17:00,17:50,Cancer Biology,BT 4.3,B212
+FRIDAY,10:00,10:50,Cancer Biology,BT 4.1,B320
+SATURDAY,16:00,16:50,Cancer Biology,BT 4.1,B222
+SATURDAY,17:00,17:50,Cancer Biology,BT 4.1,A311
+TUESDAY,17:00,17:50,Cancer Biology,BT 4.3,C102
+TUESDAY,13:00,13:50,Cancer Biology,BT 4.3,A110
+WEDNESDAY,13:00,13:50,Cancer Biology,BT 4.3,B220

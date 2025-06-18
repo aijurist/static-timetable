@@ -1,21 +1,21 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,08:00,08:50,Social and Ethical Issues in AI,New Faculty New  Staff - 30,C301
-TUESDAY,10:00,10:50,Big Data Technology,Mrs. Sangeetha K,A203
-TUESDAY,16:00,16:50,Big Data Technology,Mrs. Sangeetha K,A308
-FRIDAY,18:00,18:50,Big Data Technology,Mrs. Sangeetha K,A205
-THURSDAY,17:30,19:10,Big Data Technology,Mrs. Sangeetha K,JL3
-SATURDAY,09:50,11:30,Big Data Technology,Mrs. Sangeetha K,JL2
-FRIDAY,10:00,10:50,Information Retrieval (Professional Elective V),Mr. Magesh M P,B325
-WEDNESDAY,13:00,13:50,Information Retrieval (Professional Elective V),Mr. Magesh M P,B411
-FRIDAY,13:50,15:30,Information Retrieval (Professional Elective V),Mr. Magesh M P,KFL03
-SATURDAY,11:50,13:30,Information Retrieval (Professional Elective V),Mr. Magesh M P,TLFR5
-THURSDAY,14:00,14:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,A208
-SATURDAY,15:00,15:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,C308
-FRIDAY,16:00,16:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,B221
-TUESDAY,13:00,13:50,Data Visualization using Python (Professional Elective III),Mr. Vijay K,A309
-WEDNESDAY,14:00,14:50,Data Visualization using Python (Professional Elective III),Mr. Vijay K,B218
-SATURDAY,09:50,11:30,Data Visualization using Python (Professional Elective III),Mr. Vijay K,TLFR2
-THURSDAY,17:30,19:10,Data Visualization using Python (Professional Elective III),Mr. Vijay K,JR1
-FRIDAY,11:00,11:50,Secure Systems Engineering,Ms. R.Anitha,B403
-THURSDAY,13:00,13:50,Secure Systems Engineering,Ms. R.Anitha,B220
-SATURDAY,17:00,17:50,Secure Systems Engineering,Ms. R.Anitha,B325
+TUESDAY,16:00,16:50,Social and Ethical Issues in AI,New Faculty New  Staff - 30,A104/105
+WEDNESDAY,15:00,15:50,Big Data Technology,Mrs. Sangeetha K,A110
+THURSDAY,13:00,13:50,Big Data Technology,Mrs. Sangeetha K,A109
+SATURDAY,14:00,14:50,Big Data Technology,Mrs. Sangeetha K,B221
+SATURDAY,11:50,13:30,Big Data Technology,Mrs. Sangeetha K,TLGL1
+TUESDAY,08:00,09:40,Big Data Technology,Mrs. Sangeetha K,TLFR1
+THURSDAY,16:00,16:50,Information Retrieval (Professional Elective V),Mr. Magesh M P,A302
+WEDNESDAY,09:00,09:50,Information Retrieval (Professional Elective V),Mr. Magesh M P,C202
+WEDNESDAY,15:50,17:30,Information Retrieval (Professional Elective V),Mr. Magesh M P,TLFR2
+THURSDAY,08:00,09:40,Information Retrieval (Professional Elective V),Mr. Magesh M P,KFR01
+TUESDAY,10:00,10:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,A202
+SATURDAY,17:00,17:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,A305
+THURSDAY,14:00,14:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,B425
+TUESDAY,11:00,11:50,Data Visualization using Python (Professional Elective III),Mr. Vijay K,C201
+TUESDAY,12:00,12:50,Data Visualization using Python (Professional Elective III),Mr. Vijay K,B403
+TUESDAY,13:50,15:30,Data Visualization using Python (Professional Elective III),Mr. Vijay K,TLFR1
+FRIDAY,09:50,11:30,Data Visualization using Python (Professional Elective III),Mr. Vijay K,TLFR4
+FRIDAY,09:00,09:50,Secure Systems Engineering,Ms. R.Anitha,B418
+SATURDAY,11:00,11:50,Secure Systems Engineering,Ms. R.Anitha,B416
+WEDNESDAY,13:00,13:50,Secure Systems Engineering,Ms. R.Anitha,A103

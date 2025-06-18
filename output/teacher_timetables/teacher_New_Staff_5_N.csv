@@ -1,8 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-SATURDAY,11:00,11:50,Object Oriented Programming Using JAVA,CSE-CS 2.2,A104/105
-SATURDAY,10:00,10:50,Object Oriented Programming Using JAVA,CSE-CS 2.2,B419
-WEDNESDAY,14:00,14:50,Object Oriented Programming Using JAVA,CSE-CS 2.2,B322
-MONDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE-CS 2.2,TLFR4
-THURSDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSE-CS 2.2,TLFR4
-MONDAY,09:50,11:30,Object Oriented Programming Using JAVA,CSE-CS 2.2,TLFR5
-MONDAY,08:00,09:40,Object Oriented Programming Using JAVA,CSE-CS 2.2,TLGL3
+THURSDAY,18:00,18:50,Object Oriented Programming Using JAVA,CSE-CS 2.2,B415
+TUESDAY,08:00,08:50,Object Oriented Programming Using JAVA,CSE-CS 2.2,A110
+TUESDAY,15:00,15:50,Object Oriented Programming Using JAVA,CSE-CS 2.2,B321
+FRIDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSE-CS 2.2,TLFL5
+SATURDAY,08:00,09:40,Object Oriented Programming Using JAVA,CSE-CS 2.2,KFR03
+FRIDAY,09:50,11:30,Object Oriented Programming Using JAVA,CSE-CS 2.2,JL3
+WEDNESDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE-CS 2.2,JL2

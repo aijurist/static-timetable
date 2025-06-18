@@ -1,29 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-THURSDAY,11:50,13:30,Control and Instrumentation Laboratory,Mr. Ron Carter Sb,Power System Simulation Lab
-TUESDAY,09:50,11:30,Control and Instrumentation Laboratory,Mr. Ron Carter Sb,Power System Simulation Lab
-MONDAY,11:50,13:30,Design Thinking and Innovation,Mrs. Padmavathi R,Electronic Devices & Circuits Lab
-FRIDAY,13:50,15:30,Design Thinking and Innovation,Mrs. Padmavathi R,Electronic Devices & Circuits Lab
-WEDNESDAY,17:30,19:10,Design Thinking and Innovation,Mrs. Padmavathi R,Electronic Devices & Circuits Lab
-THURSDAY,17:30,19:10,Design Thinking and Innovation,Mrs. Padmavathi R,Electronic Devices & Circuits Lab
-THURSDAY,10:00,10:50,Microprocessors, Microcontrollers and Applications,Mrs. Amutha C,B422
-FRIDAY,11:00,11:50,Microprocessors, Microcontrollers and Applications,Mrs. Amutha C,A302
-TUESDAY,09:00,09:50,Microprocessors, Microcontrollers and Applications,Mrs. Amutha C,B422
-FRIDAY,11:50,13:30,Microprocessors, Microcontrollers and Applications,Mrs. Amutha C,Microprocessor and Microcontrollers Lab
-TUESDAY,11:50,13:30,Microprocessors, Microcontrollers and Applications,Mrs. Amutha C,Microprocessor and Microcontrollers Lab
-TUESDAY,17:30,19:10,Soft Skills – II,Mrs. Brindhu Kumari,TLFL4
-TUESDAY,15:50,17:30,Soft Skills – II,Mrs. Brindhu Kumari,TLFL2
-MONDAY,08:00,08:50,Power System Analysis,Mrs. Jayashree K,A208
-THURSDAY,11:00,11:50,Power System Analysis,Mrs. Jayashree K,B424
-THURSDAY,14:00,14:50,Power System Analysis,Mrs. Jayashree K,B409
-MONDAY,10:00,10:50,Power Electronics,Mr. Dr. S.Rama Reddy,C201
-MONDAY,09:00,09:50,Power Electronics,Mr. Dr. S.Rama Reddy,C307
-THURSDAY,15:00,15:50,Power Electronics,Mr. Dr. S.Rama Reddy,B213
-FRIDAY,09:00,09:50,Control Systems,Mrs. Dr. J. Kavitha,B415
-TUESDAY,08:00,08:50,Control Systems,Mrs. Dr. J. Kavitha,B404
-FRIDAY,10:00,10:50,Control Systems,Mrs. Dr. J. Kavitha,B322
-FRIDAY,17:30,19:10,Wiring Harness Design Engineering,Mr. Ragupathy P,Power System Simulation Lab
-TUESDAY,11:50,13:30,Wiring Harness Design Engineering,Mr. Ragupathy P,Microprocessor Lab-2
-FRIDAY,15:50,17:30,Wiring Harness Design Engineering,Mr. Ragupathy P,VLSI Lab
-MONDAY,15:50,17:30,Wiring Harness Design Engineering,Mr. Ragupathy P,Auto CAD Lab
-MONDAY,11:50,13:30,Wiring Harness Design Engineering,Mr. Ragupathy P,Electrical Machines I Lab
-THURSDAY,11:50,13:30,Wiring Harness Design Engineering,Mr. Ragupathy P,Basic Electronics Lab-2
+THURSDAY,10:00,10:50,Analog and Digital Communication,Mrs. Tamilarasi M,A305
+FRIDAY,16:00,16:50,Analog and Digital Communication,Mrs. Tamilarasi M,A210
+TUESDAY,08:00,08:50,Analog and Digital Communication,Mrs. Tamilarasi M,A203
+WEDNESDAY,14:00,14:50,Design and Analysis of Algorithms,Mrs. Dr.P.Neelaveni,B419
+THURSDAY,17:00,17:50,Design and Analysis of Algorithms,Mrs. Dr.P.Neelaveni,B408
+FRIDAY,10:00,10:50,Design and Analysis of Algorithms,Mrs. Dr.P.Neelaveni,B219
+SATURDAY,17:30,19:10,Design and Analysis of Algorithms,Mrs. Dr.P.Neelaveni,KFR02
+SATURDAY,15:50,17:30,Design and Analysis of Algorithms,Mrs. Dr.P.Neelaveni,JR2
+THURSDAY,12:00,12:50,Fourier series and Number theory,Mrs. Arulmozhi Shanmugam,B425
+TUESDAY,18:00,18:50,Fourier series and Number theory,Mrs. Arulmozhi Shanmugam,B212
+WEDNESDAY,10:00,10:50,Fourier series and Number theory,Mrs. Arulmozhi Shanmugam,B426
+SATURDAY,10:00,10:50,Fourier series and Number theory,Mrs. Arulmozhi Shanmugam,B404
+THURSDAY,15:00,15:50,Database Management Systems,Dr. Shunmuganathan K L,B210
+THURSDAY,09:00,09:50,Database Management Systems,Dr. Shunmuganathan K L,B410
+TUESDAY,12:00,12:50,Database Management Systems,Dr. Shunmuganathan K L,B426
+WEDNESDAY,08:00,09:40,Database Management Systems,Dr. Shunmuganathan K L,TLFR4
+FRIDAY,11:50,13:30,Database Management Systems,Dr. Shunmuganathan K L,TLFR3
+TUESDAY,09:50,11:30,Database Management Systems,Dr. Shunmuganathan K L,KFR01
+SATURDAY,11:50,13:30,Database Management Systems,Dr. Shunmuganathan K L,JR2
+WEDNESDAY,16:00,16:50,Object Oriented Programming Using JAVA,Mr. Suresh Kumar K,C307
+TUESDAY,15:00,15:50,Object Oriented Programming Using JAVA,Mr. Suresh Kumar K,A304
+TUESDAY,14:00,14:50,Object Oriented Programming Using JAVA,Mr. Suresh Kumar K,A203
+SATURDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mr. Suresh Kumar K,JL2
+SATURDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mr. Suresh Kumar K,JR3
+SATURDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mr. Suresh Kumar K,JL1
+WEDNESDAY,08:00,09:40,Object Oriented Programming Using JAVA,Mr. Suresh Kumar K,JR1
+WEDNESDAY,11:00,11:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,B415
+WEDNESDAY,13:00,13:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,A208
+THURSDAY,16:00,16:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,C302
+FRIDAY,17:30,19:10,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,KFL03
+FRIDAY,13:50,15:30,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,KFL01

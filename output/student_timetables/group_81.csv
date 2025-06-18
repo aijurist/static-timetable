@@ -1,32 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,08:00,08:50,Fundamentals of Machine Learning,Mr. Magesh M P,B402
-WEDNESDAY,14:00,14:50,Fundamentals of Machine Learning,Mr. Magesh M P,B320
-TUESDAY,13:00,13:50,Fundamentals of Machine Learning,Mr. Magesh M P,B422
-SATURDAY,17:30,19:10,Fundamentals of Machine Learning,Mr. Magesh M P,TLFL2
-THURSDAY,15:50,17:30,Fundamentals of Machine Learning,Mr. Magesh M P,TLFL2
-FRIDAY,08:00,08:50,Design and Analysis of Algorithms,New Staff - 05,C301
-FRIDAY,16:00,16:50,Design and Analysis of Algorithms,New Staff - 05,B402
-TUESDAY,11:00,11:50,Design and Analysis of Algorithms,New Staff - 05,A204
-WEDNESDAY,15:50,17:30,Design and Analysis of Algorithms,New Staff - 05,JL2
-FRIDAY,11:50,13:30,Design and Analysis of Algorithms,New Staff - 05,TLFR3
-SATURDAY,10:00,10:50,Database Management Systems,Mr. Kumaran U,B212
-TUESDAY,14:00,14:50,Database Management Systems,Mr. Kumaran U,A305
-TUESDAY,10:00,10:50,Database Management Systems,Mr. Kumaran U,A310
-WEDNESDAY,09:50,11:30,Database Management Systems,Mr. Kumaran U,JR2
-SATURDAY,15:50,17:30,Database Management Systems,Mr. Kumaran U,KFL02
-WEDNESDAY,15:50,17:30,Database Management Systems,Mr. Kumaran U,TLFL4
-TUESDAY,08:00,09:40,Database Management Systems,Mr. Kumaran U,JL1
-THURSDAY,15:00,15:50,Environmental Science and Engineering,Mr. J.Venkatamuthukumar,A303
-FRIDAY,10:00,10:50,Environmental Science and Engineering,Mr. J.Venkatamuthukumar,A309
-TUESDAY,17:00,17:50,Environmental Science and Engineering,Mr. J.Venkatamuthukumar,A302
-THURSDAY,18:00,18:50,Discrete Mathematics for AI,Mrs. S.Vasanthi,B423
-WEDNESDAY,18:00,18:50,Discrete Mathematics for AI,Mrs. S.Vasanthi,B222
-FRIDAY,11:00,11:50,Discrete Mathematics for AI,Mrs. S.Vasanthi,B221
-TUESDAY,15:00,15:50,Discrete Mathematics for AI,Mrs. S.Vasanthi,B325
-SATURDAY,13:00,13:50,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,A108
-SATURDAY,11:00,11:50,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,B417
-WEDNESDAY,13:00,13:50,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,B417
-SATURDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,KFL03
-FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,KFL01
-SATURDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,KFR03
-WEDNESDAY,09:50,11:30,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,KFL03
+FRIDAY,10:00,10:50,Fundamentals of Machine Learning,Mr. Magesh M P,C308
+WEDNESDAY,11:00,11:50,Fundamentals of Machine Learning,Mr. Magesh M P,B302
+THURSDAY,11:00,11:50,Fundamentals of Machine Learning,Mr. Magesh M P,B211
+MONDAY,17:30,19:10,Fundamentals of Machine Learning,Mr. Magesh M P,KFR02
+TUESDAY,11:50,13:30,Fundamentals of Machine Learning,Mr. Magesh M P,TLFL3
+MONDAY,16:00,16:50,Design and Analysis of Algorithms,New Staff - 05,B415
+MONDAY,15:00,15:50,Design and Analysis of Algorithms,New Staff - 05,B106
+FRIDAY,14:00,14:50,Design and Analysis of Algorithms,New Staff - 05,B222
+WEDNESDAY,11:50,13:30,Design and Analysis of Algorithms,New Staff - 05,KFL03
+WEDNESDAY,15:50,17:30,Design and Analysis of Algorithms,New Staff - 05,TLFL3
+WEDNESDAY,10:00,10:50,Database Management Systems,Mr. Kumaran U,A102
+FRIDAY,13:00,13:50,Database Management Systems,Mr. Kumaran U,A108
+MONDAY,09:00,09:50,Database Management Systems,Mr. Kumaran U,B320
+WEDNESDAY,08:00,09:40,Database Management Systems,Mr. Kumaran U,TLFR1
+TUESDAY,11:50,13:30,Database Management Systems,Mr. Kumaran U,TLGL1
+MONDAY,09:50,11:30,Database Management Systems,Mr. Kumaran U,TLFL4
+THURSDAY,08:00,09:40,Database Management Systems,Mr. Kumaran U,JR2
+MONDAY,12:00,12:50,Environmental Science and Engineering,Mr. J.Venkatamuthukumar,A305
+FRIDAY,11:00,11:50,Environmental Science and Engineering,Mr. J.Venkatamuthukumar,B416
+WEDNESDAY,18:00,18:50,Environmental Science and Engineering,Mr. J.Venkatamuthukumar,C301
+TUESDAY,11:00,11:50,Discrete Mathematics for AI,Mrs. S.Vasanthi,B321
+THURSDAY,15:00,15:50,Discrete Mathematics for AI,Mrs. S.Vasanthi,A303
+THURSDAY,12:00,12:50,Discrete Mathematics for AI,Mrs. S.Vasanthi,A309
+FRIDAY,09:00,09:50,Discrete Mathematics for AI,Mrs. S.Vasanthi,C202
+THURSDAY,13:00,13:50,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,A104/105
+MONDAY,08:00,08:50,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,B403
+FRIDAY,18:00,18:50,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,B404
+MONDAY,09:50,11:30,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,TLFR5
+THURSDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,JR1
+TUESDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,TLFL1
+THURSDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,JR2

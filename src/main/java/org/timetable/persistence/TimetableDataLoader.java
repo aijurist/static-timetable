@@ -15,11 +15,14 @@ import java.io.IOException;
 import java.io.Reader;
 import java.time.DayOfWeek;
 import java.time.LocalTime;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.stream.Collectors;
 
 public class TimetableDataLoader {
     private static final Logger LOGGER = Logger.getLogger(TimetableDataLoader.class.getName());
+    private static final Logger LESSON_CREATION_LOGGER = Logger.getLogger("LessonCreation");
 
     private static final Map<String, String> DEPT_NAME_TO_CODE = Map.ofEntries(
             Map.entry("Computer Science & Design", "CSD"),
@@ -103,10 +106,21 @@ public class TimetableDataLoader {
 
     static {
         try {
+            // Setup main logger
             FileHandler fh = new FileHandler("timetable_loader.log");
             fh.setFormatter(new SimpleFormatter());
             LOGGER.addHandler(fh);
             LOGGER.setLevel(Level.INFO);
+            
+            // Setup lesson creation logger
+            String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
+            FileHandler lessonHandler = new FileHandler("lesson_created_" + timestamp + ".log");
+            lessonHandler.setFormatter(new SimpleFormatter());
+            LESSON_CREATION_LOGGER.addHandler(lessonHandler);
+            LESSON_CREATION_LOGGER.setLevel(Level.INFO);
+            LESSON_CREATION_LOGGER.setUseParentHandlers(false); // Don't duplicate to console
+            
+            LOGGER.info("Logging system initialized - Main log: timetable_loader.log, Lesson creation: lesson_created_" + timestamp + ".log");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -265,6 +279,10 @@ public class TimetableDataLoader {
         long lessonIdCounter = 1;
 
         LOGGER.info("Creating lessons and assigning teachers to sections...");
+        LOGGER.info("=== LESSON CREATION PROCESS STARTED ===");
+        
+        LESSON_CREATION_LOGGER.info("=== LESSON CREATION DETAILED LOG STARTED ===");
+        LESSON_CREATION_LOGGER.info("Timestamp: " + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
 
         // First group by course department
         Map<String, List<RawDataRecord>> deptToRecords = rawData.stream()
@@ -274,6 +292,9 @@ public class TimetableDataLoader {
         for (Map.Entry<String, List<RawDataRecord>> deptEntry : deptToRecords.entrySet()) {
             String dept = deptEntry.getKey();
             List<RawDataRecord> deptRecords = deptEntry.getValue();
+
+            LOGGER.info(String.format("Processing department: %s with %d course records", dept, deptRecords.size()));
+            LESSON_CREATION_LOGGER.info(String.format("Processing department: %s with %d course records", dept, deptRecords.size()));
 
             // Group by semester and year
             Map<Integer, List<RawDataRecord>> semesterToRecords = deptRecords.stream()
@@ -285,14 +306,24 @@ public class TimetableDataLoader {
                 List<RawDataRecord> semesterRecords = semesterEntry.getValue();
                 int year = semester == 3 ? 2 : semester == 5 ? 3 : 4;
 
+                LOGGER.info(String.format("Processing semester %d (Year %d) for department %s with %d course records", 
+                        semester, year, dept, semesterRecords.size()));
+
                 // Get all student groups for this department and year
                 List<StudentGroup> relevantGroups = studentGroups.stream()
                     .filter(g -> g.getDepartment().equals(dept) && g.getYear() == year)
                     .collect(Collectors.toList());
 
+                LOGGER.info(String.format("Found %d student groups for %s Year %d: %s", 
+                        relevantGroups.size(), dept, year, 
+                        relevantGroups.stream().map(StudentGroup::getName).collect(Collectors.joining(", "))));
+
                 // Group courses by their ID to ensure we have all courses for the semester
                 Map<String, List<RawDataRecord>> courseToRecords = semesterRecords.stream()
                     .collect(Collectors.groupingBy(r -> r.courseId));
+
+                LOGGER.info(String.format("Processing %d unique courses for %s Year %d", 
+                        courseToRecords.size(), dept, year));
 
                 // For each course in this semester
                 for (Map.Entry<String, List<RawDataRecord>> courseEntry : courseToRecords.entrySet()) {
@@ -305,6 +336,16 @@ public class TimetableDataLoader {
                         continue;
                     }
 
+                    LOGGER.info(String.format("=== PROCESSING COURSE: %s (%s) ===", 
+                            course.getCode(), course.getName()));
+                    LOGGER.info(String.format("Course hours - Lecture: %d, Tutorial: %d, Practical: %d", 
+                            course.getLectureHours(), course.getTutorialHours(), course.getPracticalHours()));
+                    
+                    LESSON_CREATION_LOGGER.info(String.format("=== PROCESSING COURSE: %s (%s) ===", 
+                            course.getCode(), course.getName()));
+                    LESSON_CREATION_LOGGER.info(String.format("Course hours - Lecture: %d, Tutorial: %d, Practical: %d", 
+                            course.getLectureHours(), course.getTutorialHours(), course.getPracticalHours()));
+
                     // Get all teachers who can teach this course (from this department)
                     List<String> availableTeacherIds = courseRecords.stream()
                         .map(r -> r.teacherId)
@@ -316,37 +357,92 @@ public class TimetableDataLoader {
                         continue;
                     }
 
+                    LOGGER.info(String.format("Available teachers for %s: %d teachers", 
+                            course.getCode(), availableTeacherIds.size()));
+                    for (String teacherId : availableTeacherIds) {
+                        Teacher teacher = teachers.get(teacherId);
+                        if (teacher != null) {
+                            LOGGER.info(String.format("  - %s (ID: %s)", teacher.getName(), teacherId));
+                        }
+                    }
+
+                    int totalLessonsForCourse = 0;
+                    int totalGroupsProcessed = 0;
+
                     // For each student group in this department and year
                     for (StudentGroup group : relevantGroups) {
+                        LOGGER.info(String.format("--- Creating lessons for group: %s (Size: %d) ---", 
+                                group.getName(), group.getSize()));
+
                         // Assign a teacher to this group's course
                         int groupIndex = Integer.parseInt(group.getId()) - 1;
                         Teacher teacher = teachers.get(availableTeacherIds.get(groupIndex % availableTeacherIds.size()));
 
+                        LOGGER.info(String.format("Assigned teacher: %s to group %s for course %s", 
+                                teacher.getName(), group.getName(), course.getCode()));
+                                
+                        LESSON_CREATION_LOGGER.info(String.format("--- Creating lessons for group: %s (Size: %d) ---", 
+                                group.getName(), group.getSize()));
+                        LESSON_CREATION_LOGGER.info(String.format("Assigned teacher: %s to group %s for course %s", 
+                                teacher.getName(), group.getName(), course.getCode()));
+
+                        int lessonsForThisGroup = 0;
+
                         // Create lecture lessons
+                        if (course.getLectureHours() > 0) {
+                            LOGGER.info(String.format("Creating %d lecture lessons...", course.getLectureHours()));
+                            LESSON_CREATION_LOGGER.info(String.format("Creating %d lecture lessons for %s - %s", 
+                                    course.getLectureHours(), course.getCode(), group.getName()));
                         for (int i = 0; i < course.getLectureHours(); i++) {
-                            lessons.add(new Lesson("L-" + lessonIdCounter++, teacher, course, group, "lecture", null));
+                                String lessonId = "L-" + lessonIdCounter++;
+                                lessons.add(new Lesson(lessonId, teacher, course, group, "lecture", null));
+                                lessonsForThisGroup++;
+                                LESSON_CREATION_LOGGER.info(String.format("Created LECTURE lesson %s: Teacher=%s, Course=%s, Group=%s", 
+                                        lessonId, teacher.getName(), course.getCode(), group.getName()));
+                            }
                         }
 
                         // Create tutorial lessons
+                        if (course.getTutorialHours() > 0) {
+                            LOGGER.info(String.format("Creating %d tutorial lessons...", course.getTutorialHours()));
+                            LESSON_CREATION_LOGGER.info(String.format("Creating %d tutorial lessons for %s - %s", 
+                                    course.getTutorialHours(), course.getCode(), group.getName()));
                         for (int i = 0; i < course.getTutorialHours(); i++) {
-                            lessons.add(new Lesson("L-" + lessonIdCounter++, teacher, course, group, "tutorial", null));
+                                String lessonId = "L-" + lessonIdCounter++;
+                                lessons.add(new Lesson(lessonId, teacher, course, group, "tutorial", null));
+                                lessonsForThisGroup++;
+                                LESSON_CREATION_LOGGER.info(String.format("Created TUTORIAL lesson %s: Teacher=%s, Course=%s, Group=%s", 
+                                        lessonId, teacher.getName(), course.getCode(), group.getName()));
+                            }
                         }
 
                         // Create lab lessons if needed
                         if (course.getPracticalHours() > 0) {
                             int labSessions = course.getPracticalHours() / 2; // Each session is 2 hours
+                            LOGGER.info(String.format("Processing lab sessions: %d practical hours = %d lab sessions", 
+                                    course.getPracticalHours(), labSessions));
+                            LESSON_CREATION_LOGGER.info(String.format("Processing lab sessions for %s - %s: %d practical hours = %d lab sessions", 
+                                    course.getCode(), group.getName(), course.getPracticalHours(), labSessions));
 
                             // Certain project/industry-style labs must run with the FULL class in a 70-seat lab;
                             // do NOT split them even if class strength > 35.
                             final java.util.Set<String> UNBATCHED_COURSES = java.util.Set.of(
                                     "CD23321", 
                                     "CS19P23",
-                                    "CS19P21"
+                                    "CS19P21",
+                                    "PH23131",
+                                    "PH23132",
+                                    "PH23231",
+                                    "PH23233"
                             );
 
                             boolean forceFullGroup = UNBATCHED_COURSES.contains(course.getCode());
-
                             boolean needsBatching = !forceFullGroup && group.getSize() > TimetableConfig.LAB_BATCH_SIZE;
+                            
+                            LOGGER.info(String.format("Batching analysis: Group size=%d, LAB_BATCH_SIZE=%d, Force full=%b, Needs batching=%b", 
+                                    group.getSize(), TimetableConfig.LAB_BATCH_SIZE, forceFullGroup, needsBatching));
+                            LESSON_CREATION_LOGGER.info(String.format("Batching analysis for %s - %s: Group size=%d, LAB_BATCH_SIZE=%d, Force full=%b, Needs batching=%b", 
+                                    course.getCode(), group.getName(), group.getSize(), TimetableConfig.LAB_BATCH_SIZE, forceFullGroup, needsBatching));
                              
                             if (needsBatching) {
                                 // CORRECTED FIX: Each batch gets the full practical hours allocation
@@ -357,13 +453,24 @@ public class TimetableDataLoader {
                                 
                                 // Batch B1 gets full practical hours (all required sessions)
                                 for (int i = 0; i < labSessions; i++) {
-                                    lessons.add(new Lesson("L-" + lessonIdCounter++, teacher, course, group, "lab", "B1"));
+                                    String lessonId = "L-" + lessonIdCounter++;
+                                    lessons.add(new Lesson(lessonId, teacher, course, group, "lab", "B1"));
+                                    lessonsForThisGroup++;
+                                    LESSON_CREATION_LOGGER.info(String.format("Created LAB lesson %s: Teacher=%s, Course=%s, Group=%s, Batch=B1", 
+                                            lessonId, teacher.getName(), course.getCode(), group.getName()));
                                 }
                                 
                                 // Batch B2 gets full practical hours (all required sessions)
                                 for (int i = 0; i < labSessions; i++) {
-                                    lessons.add(new Lesson("L-" + lessonIdCounter++, teacher, course, group, "lab", "B2"));
+                                    String lessonId = "L-" + lessonIdCounter++;
+                                    lessons.add(new Lesson(lessonId, teacher, course, group, "lab", "B2"));
+                                    lessonsForThisGroup++;
+                                    LESSON_CREATION_LOGGER.info(String.format("Created LAB lesson %s: Teacher=%s, Course=%s, Group=%s, Batch=B2", 
+                                            lessonId, teacher.getName(), course.getCode(), group.getName()));
                                 }
+
+                                LOGGER.info(String.format("Created %d B1 lab sessions and %d B2 lab sessions", 
+                                        labSessions, labSessions));
                             } else {
                                 // If no batching needed, create sessions for whole group
                                 LOGGER.info(String.format(
@@ -372,16 +479,61 @@ public class TimetableDataLoader {
                                 ));
                                 
                                 for (int i = 0; i < labSessions; i++) {
-                                    lessons.add(new Lesson("L-" + lessonIdCounter++, teacher, course, group, "lab", null));
+                                    String lessonId = "L-" + lessonIdCounter++;
+                                    lessons.add(new Lesson(lessonId, teacher, course, group, "lab", null));
+                                    lessonsForThisGroup++;
+                                    LESSON_CREATION_LOGGER.info(String.format("Created LAB lesson %s: Teacher=%s, Course=%s, Group=%s (No batching)", 
+                                            lessonId, teacher.getName(), course.getCode(), group.getName()));
                                 }
+
+                                LOGGER.info(String.format("Created %d lab sessions (no batching)", labSessions));
                             }
                         }
+
+                        totalLessonsForCourse += lessonsForThisGroup;
+                        totalGroupsProcessed++;
+
+                        LOGGER.info(String.format("*** GROUP SUMMARY: Created %d total lessons for group %s ***", 
+                                lessonsForThisGroup, group.getName()));
+                        LESSON_CREATION_LOGGER.info(String.format("*** GROUP SUMMARY: Created %d total lessons for group %s ***", 
+                                lessonsForThisGroup, group.getName()));
                     }
+
+                    LOGGER.info(String.format("=== COURSE SUMMARY: %s ===", course.getCode()));
+                    LOGGER.info(String.format("Total groups processed: %d", totalGroupsProcessed));
+                    LOGGER.info(String.format("Total lessons created for course: %d", totalLessonsForCourse));
+                    LOGGER.info(String.format("Average lessons per group: %.1f", 
+                            totalGroupsProcessed > 0 ? (double) totalLessonsForCourse / totalGroupsProcessed : 0));
+                            
+                    LESSON_CREATION_LOGGER.info(String.format("=== COURSE SUMMARY: %s ===", course.getCode()));
+                    LESSON_CREATION_LOGGER.info(String.format("Total groups processed: %d", totalGroupsProcessed));
+                    LESSON_CREATION_LOGGER.info(String.format("Total lessons created for course: %d", totalLessonsForCourse));
+                    LESSON_CREATION_LOGGER.info(String.format("Average lessons per group: %.1f", 
+                            totalGroupsProcessed > 0 ? (double) totalLessonsForCourse / totalGroupsProcessed : 0));
                 }
             }
         }
 
+        LOGGER.info("=== LESSON CREATION PROCESS COMPLETED ===");
         LOGGER.info("Created " + lessons.size() + " total lessons");
+        
+        // Log final statistics
+        long batchedLessons = lessons.stream()
+            .filter(l -> l.getBatch() != null)
+            .count();
+        
+        LOGGER.info("=== FINAL LESSON STATISTICS ===");
+        LOGGER.info(String.format("Total lessons created: %d", lessons.size()));
+        LOGGER.info(String.format("Batched lessons (B1/B2): %d", batchedLessons));
+        LOGGER.info(String.format("Non-batched lessons: %d", lessons.size() - batchedLessons));
+        
+        LESSON_CREATION_LOGGER.info("=== LESSON CREATION PROCESS COMPLETED ===");
+        LESSON_CREATION_LOGGER.info("=== FINAL LESSON STATISTICS ===");
+        LESSON_CREATION_LOGGER.info(String.format("Total lessons created: %d", lessons.size()));
+        LESSON_CREATION_LOGGER.info(String.format("Batched lessons (B1/B2): %d", batchedLessons));
+        LESSON_CREATION_LOGGER.info(String.format("Non-batched lessons: %d", lessons.size() - batchedLessons));
+        LESSON_CREATION_LOGGER.info("=== LESSON CREATION DETAILED LOG COMPLETED ===");
+
         return lessons;
     }
 

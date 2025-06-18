@@ -1,11 +1,11 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,08:00,08:50,Food Additives,FT 2.1,A208
-WEDNESDAY,18:00,18:50,Food Additives,FT 2.1,B325
-FRIDAY,14:00,14:50,Food Additives,FT 2.1,B416
-WEDNESDAY,16:00,16:50,Professional Ethics,FT 3.1,A204
-FRIDAY,17:00,17:50,Professional Ethics,FT 3.1,C307
-SATURDAY,15:00,15:50,Professional Ethics,FT 3.1,A103
-TUESDAY,13:50,15:30,Food Analysis Laboratory,FT 3.1,Biochemistry Lab
-THURSDAY,11:50,13:30,Food Analysis Laboratory,FT 3.1,Biochemistry Lab
-THURSDAY,09:50,11:30,Food Analysis Laboratory,FT 3.1,Biochemistry Lab
-SATURDAY,15:50,17:30,Food Analysis Laboratory,FT 3.1,Biochemistry Lab
+TUESDAY,14:00,14:50,Food Additives,FT 2.1,B412
+THURSDAY,18:00,18:50,Food Additives,FT 2.1,B415
+FRIDAY,15:00,15:50,Food Additives,FT 2.1,C102
+THURSDAY,14:00,14:50,Professional Ethics,FT 3.1,B404
+SATURDAY,15:00,15:50,Professional Ethics,FT 3.1,A202
+SATURDAY,11:00,11:50,Professional Ethics,FT 3.1,C102
+FRIDAY,08:00,09:40,Food Analysis Laboratory,FT 3.1,Biochemistry Lab
+WEDNESDAY,08:00,09:40,Food Analysis Laboratory,FT 3.1,Biochemistry Lab
+TUESDAY,11:50,13:30,Food Analysis Laboratory,FT 3.1,Biochemistry Lab
+WEDNESDAY,13:50,15:30,Food Analysis Laboratory,FT 3.1,Biochemistry Lab

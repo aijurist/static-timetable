@@ -1,8 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-SATURDAY,08:00,08:50,Immunology,BT 3.3,B107
-TUESDAY,10:00,10:50,Immunology,BT 3.3,A303
-SATURDAY,14:00,14:50,Immunology,BT 3.3,B412
-WEDNESDAY,11:50,13:30,Immunology lab,BT 3.3,Immunology Lab
-FRIDAY,13:50,15:30,Immunology lab,BT 3.3,Immunology Lab
-WEDNESDAY,17:30,19:10,Immunology lab,BT 3.3,Immunology Lab
-FRIDAY,17:30,19:10,Immunology lab,BT 3.3,Immunology Lab
+WEDNESDAY,15:00,15:50,Immunology,BT 3.3,A304
+TUESDAY,14:00,14:50,Immunology,BT 3.3,A208
+TUESDAY,18:00,18:50,Immunology,BT 3.3,C102
+TUESDAY,11:50,13:30,Immunology lab,BT 3.3,Immunology Lab
+THURSDAY,11:50,13:30,Immunology lab,BT 3.3,Immunology Lab
+WEDNESDAY,09:50,11:30,Immunology lab,BT 3.3,Immunology Lab
+THURSDAY,15:50,17:30,Immunology lab,BT 3.3,Immunology Lab

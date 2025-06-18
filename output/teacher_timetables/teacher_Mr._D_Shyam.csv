@@ -1,6 +1,6 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,09:00,09:50,Microprocessors, Microcontrollers and Applications,EEE 3.1,A202
-TUESDAY,13:00,13:50,Microprocessors, Microcontrollers and Applications,EEE 3.1,B402
-MONDAY,10:00,10:50,Microprocessors, Microcontrollers and Applications,EEE 3.1,B321
+TUESDAY,15:00,15:50,Microprocessors, Microcontrollers and Applications,EEE 3.1,A205
+SATURDAY,13:00,13:50,Microprocessors, Microcontrollers and Applications,EEE 3.1,B210
+WEDNESDAY,14:00,14:50,Microprocessors, Microcontrollers and Applications,EEE 3.1,B222
+TUESDAY,08:00,09:40,Microprocessors, Microcontrollers and Applications,EEE 3.1,Microprocessor and Microcontrollers Lab
 THURSDAY,09:50,11:30,Microprocessors, Microcontrollers and Applications,EEE 3.1,Microprocessor and Microcontrollers Lab
-MONDAY,15:50,17:30,Microprocessors, Microcontrollers and Applications,EEE 3.1,Microprocessor and Microcontrollers Lab

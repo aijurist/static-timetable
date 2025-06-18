@@ -1,21 +1,21 @@
 Day,StartTime,EndTime,Course,Group,Room
-SATURDAY,10:00,10:50,Object Oriented Programming Using JAVA,IT 2.5,B220
-SATURDAY,17:00,17:50,Object Oriented Programming Using JAVA,IT 2.5,C202
-WEDNESDAY,12:00,12:50,Object Oriented Programming Using JAVA,IT 2.5,B107
-TUESDAY,17:30,19:10,Object Oriented Programming Using JAVA,IT 2.5,TLFR5
-SATURDAY,11:50,13:30,Object Oriented Programming Using JAVA,IT 2.5,TLFL3
-FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,IT 2.5,JL2
-TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,IT 2.5,JL3
-WEDNESDAY,13:50,15:30,Industry Practices Lab,IT 4.3,TLFL4
-THURSDAY,13:50,15:30,Industry Practices Lab,IT 4.3,KFL02
-FRIDAY,15:50,17:30,Industry Practices Lab,IT 4.3,TLFR3
-FRIDAY,17:30,19:10,Industry Practices Lab,IT 4.3,TLFR3
-WEDNESDAY,11:00,11:50,Professional Elective-II - NPTEL,IT 4.1,A308
-THURSDAY,16:00,16:50,Professional Elective-II - NPTEL,IT 4.1,B402
-WEDNESDAY,10:00,10:50,Professional Elective-II - NPTEL,IT 4.1,B218
-FRIDAY,11:00,11:50,Professional Elective-II - NPTEL,IT 4.2,C308
-THURSDAY,13:00,13:50,Professional Elective-II - NPTEL,IT 4.2,B426
-TUESDAY,14:00,14:50,Professional Elective-II - NPTEL,IT 4.2,C101
-THURSDAY,10:00,10:50,Professional Elective-II - NPTEL,IT 4.3,A109
-SATURDAY,11:00,11:50,Professional Elective-II - NPTEL,IT 4.3,A302
-WEDNESDAY,18:00,18:50,Professional Elective-II - NPTEL,IT 4.3,A305
+WEDNESDAY,16:00,16:50,Object Oriented Programming Using JAVA,IT 2.5,C307
+TUESDAY,15:00,15:50,Object Oriented Programming Using JAVA,IT 2.5,A304
+TUESDAY,14:00,14:50,Object Oriented Programming Using JAVA,IT 2.5,A203
+SATURDAY,15:50,17:30,Object Oriented Programming Using JAVA,IT 2.5,JL2
+SATURDAY,13:50,15:30,Object Oriented Programming Using JAVA,IT 2.5,JR3
+SATURDAY,17:30,19:10,Object Oriented Programming Using JAVA,IT 2.5,JL1
+WEDNESDAY,08:00,09:40,Object Oriented Programming Using JAVA,IT 2.5,JR1
+FRIDAY,13:50,15:30,Industry Practices Lab,IT 4.2,TLFL1
+FRIDAY,17:30,19:10,Industry Practices Lab,IT 4.2,TLFL1
+FRIDAY,15:50,17:30,Industry Practices Lab,IT 4.2,TLFL3
+MONDAY,13:50,15:30,Industry Practices Lab,IT 4.2,TLFR4
+MONDAY,16:00,16:50,Professional Elective-II - NPTEL,IT 4.1,A310
+MONDAY,08:00,08:50,Professional Elective-II - NPTEL,IT 4.1,A208
+TUESDAY,10:00,10:50,Professional Elective-II - NPTEL,IT 4.1,C307
+WEDNESDAY,13:00,13:50,Professional Elective-II - NPTEL,IT 4.2,B412
+THURSDAY,18:00,18:50,Professional Elective-II - NPTEL,IT 4.2,A109
+TUESDAY,09:00,09:50,Professional Elective-II - NPTEL,IT 4.2,B411
+MONDAY,10:00,10:50,Professional Elective-II - NPTEL,IT 4.3,A208
+THURSDAY,13:00,13:50,Professional Elective-II - NPTEL,IT 4.3,A202
+TUESDAY,17:00,17:50,Professional Elective-II - NPTEL,IT 4.3,B416

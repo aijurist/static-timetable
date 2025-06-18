@@ -1,12 +1,12 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,16:00,16:50,RF and Microwave Engineering,ECE 4.4,A204
-SATURDAY,13:00,13:50,RF and Microwave Engineering,ECE 4.4,C302
-SATURDAY,14:00,14:50,RF and Microwave Engineering,ECE 4.4,C308
+TUESDAY,10:00,10:50,RF and Microwave Engineering,ECE 4.4,A302
+TUESDAY,11:00,11:50,RF and Microwave Engineering,ECE 4.4,C102
+TUESDAY,15:00,15:50,RF and Microwave Engineering,ECE 4.4,A203
+FRIDAY,08:00,09:40,Advanced Communication Systems Laboratory,ECE 4.1,Optical and Microwave Lab
+FRIDAY,13:50,15:30,Advanced Communication Systems Laboratory,ECE 4.1,Optical and Microwave Lab
+WEDNESDAY,13:50,15:30,Advanced Communication Systems Laboratory,ECE 4.1,Optical and Microwave Lab
 WEDNESDAY,11:50,13:30,Advanced Communication Systems Laboratory,ECE 4.1,Optical and Microwave Lab
-WEDNESDAY,09:50,11:30,Advanced Communication Systems Laboratory,ECE 4.1,Optical and Microwave Lab
-FRIDAY,17:30,19:10,Advanced Communication Systems Laboratory,ECE 4.1,Optical and Microwave Lab
-THURSDAY,13:50,15:30,Advanced Communication Systems Laboratory,ECE 4.1,Optical and Microwave Lab
-TUESDAY,13:50,15:30,Advanced Communication Systems Laboratory,ECE 4.4,Optical and Microwave Lab
-THURSDAY,11:50,13:30,Advanced Communication Systems Laboratory,ECE 4.4,Optical and Microwave Lab
-FRIDAY,13:50,15:30,Advanced Communication Systems Laboratory,ECE 4.4,Optical and Microwave Lab
-WEDNESDAY,15:50,17:30,Advanced Communication Systems Laboratory,ECE 4.4,Optical and Microwave Lab
+TUESDAY,08:00,09:40,Advanced Communication Systems Laboratory,ECE 4.4,Optical and Microwave Lab
+THURSDAY,15:50,17:30,Advanced Communication Systems Laboratory,ECE 4.4,Optical and Microwave Lab
+MONDAY,13:50,15:30,Advanced Communication Systems Laboratory,ECE 4.4,Optical and Microwave Lab
+THURSDAY,17:30,19:10,Advanced Communication Systems Laboratory,ECE 4.4,Optical and Microwave Lab

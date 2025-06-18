@@ -1,25 +1,27 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,11:00,11:50,Solid Mechanics,Mr. G Vijayaraghavan,C101
-THURSDAY,09:00,09:50,Solid Mechanics,Mr. G Vijayaraghavan,A208
-THURSDAY,10:00,10:50,Solid Mechanics,Mr. G Vijayaraghavan,B418
-WEDNESDAY,14:00,14:50,Transforms and Applied Partial Differential Equations,Mr. Gurunathan S,B107
-THURSDAY,08:00,08:50,Transforms and Applied Partial Differential Equations,Mr. Gurunathan S,A211
-FRIDAY,12:00,12:50,Transforms and Applied Partial Differential Equations,Mr. Gurunathan S,B423
-THURSDAY,16:00,16:50,Transforms and Applied Partial Differential Equations,Mr. Gurunathan S,A209
-FRIDAY,10:00,10:50,Chemical Process Calculations,Mr. Dr.T.R.Sundararaman,B419
-TUESDAY,10:00,10:50,Chemical Process Calculations,Mr. Dr.T.R.Sundararaman,B222
-FRIDAY,14:00,14:50,Chemical Process Calculations,Mr. Dr.T.R.Sundararaman,A305
-MONDAY,17:00,17:50,Chemical Process Industries,Mrs. Ambigadevi J,B415
-THURSDAY,13:00,13:50,Chemical Process Industries,Mrs. Ambigadevi J,B322
-FRIDAY,18:00,18:50,Chemical Process Industries,Mrs. Ambigadevi J,A209
-TUESDAY,18:00,18:50,Fluid Mechanics for Chemical Engineers,Ms. Mangaleswari S,A302
-THURSDAY,18:00,18:50,Fluid Mechanics for Chemical Engineers,Ms. Mangaleswari S,C308
-MONDAY,14:00,14:50,Fluid Mechanics for Chemical Engineers,Ms. Mangaleswari S,A109
-MONDAY,09:00,09:50,Fluid Mechanics for Chemical Engineers,Ms. Mangaleswari S,B222
-MONDAY,11:50,13:30,Fluid Mechanics for Chemical Engineers,Ms. Mangaleswari S,Fluid Mechanics Lab
-MONDAY,09:50,11:30,Fluid Mechanics for Chemical Engineers,Ms. Mangaleswari S,Fluid Mechanics Lab
-WEDNESDAY,18:00,18:50,Physical and Organic Chemistry,Mrs. Geetha Chandrasekran,A210
-TUESDAY,11:00,11:50,Physical and Organic Chemistry,Mrs. Geetha Chandrasekran,B401
-MONDAY,08:00,08:50,Physical and Organic Chemistry,Mrs. Geetha Chandrasekran,A209
-MONDAY,09:50,11:30,Physical and Organic Chemistry,Mrs. Geetha Chandrasekran,Chemistry Lab
-MONDAY,11:50,13:30,Physical and Organic Chemistry,Mrs. Geetha Chandrasekran,Chemistry Lab
+THURSDAY,10:00,10:50,Theory of Computation,Mr. Dr.K.Ananthajothi,B424
+TUESDAY,08:00,08:50,Theory of Computation,Mr. Dr.K.Ananthajothi,B212
+WEDNESDAY,09:00,09:50,Theory of Computation,Mr. Dr.K.Ananthajothi,B404
+TUESDAY,15:00,15:50,Theory of Computation,Mr. Dr.K.Ananthajothi,A104/105
+TUESDAY,09:00,09:50,Fundamentals of Mobile Computing,HOD CSE,A205
+WEDNESDAY,15:00,15:50,Fundamentals of Mobile Computing,HOD CSE,B418
+FRIDAY,08:00,08:50,Fundamentals of Mobile Computing,HOD CSE,B402
+WEDNESDAY,18:00,18:50,Web Programming,New Staff - 04,C302
+TUESDAY,17:00,17:50,Web Programming,New Staff - 04,B410
+THURSDAY,16:00,16:50,Web Programming,New Staff - 04,A102
+SATURDAY,15:50,17:30,Web Programming,New Staff - 04,TLGL3
+SATURDAY,13:50,15:30,Web Programming,New Staff - 04,TLFL3
+SATURDAY,17:30,19:10,Web Programming,New Staff - 04,TLFL2
+WEDNESDAY,11:50,13:30,Web Programming,New Staff - 04,TLGL4
+SATURDAY,11:00,11:50,Computer Networks,Mrs. Dr.R.Sabitha,B213
+WEDNESDAY,16:00,16:50,Computer Networks,Mrs. Dr.R.Sabitha,B106
+FRIDAY,17:00,17:50,Computer Networks,Mrs. Dr.R.Sabitha,B405
+SATURDAY,08:00,09:40,Computer Networks,Mrs. Dr.R.Sabitha,TLFL3
+WEDNESDAY,09:50,11:30,Computer Networks,Mrs. Dr.R.Sabitha,JL1
+THURSDAY,13:50,15:30,Computer Networks,Mrs. Dr.R.Sabitha,TLFL5
+FRIDAY,13:50,15:30,Computer Networks,Mrs. Dr.R.Sabitha,TLGL1
+TUESDAY,12:00,12:50,Foundations of Artificial Intelligence,Mrs. Deepa B,B211
+TUESDAY,14:00,14:50,Foundations of Artificial Intelligence,Mrs. Deepa B,B402
+FRIDAY,13:00,13:50,Foundations of Artificial Intelligence,Mrs. Deepa B,C102
+SATURDAY,17:30,19:10,Foundations of Artificial Intelligence,Mrs. Deepa B,TLFR2
+SATURDAY,15:50,17:30,Foundations of Artificial Intelligence,Mrs. Deepa B,TLFR1

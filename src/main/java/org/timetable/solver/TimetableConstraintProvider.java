@@ -37,6 +37,9 @@ public class TimetableConstraintProvider implements ConstraintProvider {
                 lectureOrTutorialMustBeForFullGroup(constraintFactory),
                 labForLargeGroupMustBeBatched(constraintFactory),
 
+                // Student campus time constraint
+                studentCampusTimeLimit(constraintFactory),
+
                 // --- Soft Constraints ---
                 
                 // Core lab priority preferences (prefer lab_1 over lab_2 over lab_3)
@@ -218,17 +221,18 @@ public class TimetableConstraintProvider implements ConstraintProvider {
     /**
      * SOFT: Prefer assigning theory/tutorial sessions to rooms in the department's preferred block
      * to minimize student travel time between classes.
+     * This constraint only penalizes when departments are assigned to NON-preferred blocks.
      */
     private Constraint departmentBlockPreference(ConstraintFactory constraintFactory) {
         return constraintFactory.forEach(Lesson.class)
                 .filter(lesson -> lesson.requiresTheoryRoom()) // Only theory and tutorial sessions
                 .filter(lesson -> lesson.getRoom() != null && lesson.getStudentGroup() != null)
                 .filter(lesson -> DepartmentBlockConfig.hasBlockPreference(lesson.getStudentGroup().getDepartment()))
-                .penalize(HardSoftScore.ONE_SOFT.multiply(10), 
-                        lesson -> DepartmentBlockConfig.getBlockPreferencePenalty(
-                                lesson.getStudentGroup().getDepartment(), 
-                                lesson.getRoom().getBlock()))
-                .asConstraint("Department block preference");
+                .filter(lesson -> !DepartmentBlockConfig.isPreferredBlock(
+                        lesson.getStudentGroup().getDepartment(), 
+                        lesson.getRoom().getBlock())) // Only penalize violations
+                .penalize(HardSoftScore.ONE_SOFT.multiply(10))
+                .asConstraint("Department block preference violation");
     }
 
     private Constraint teacherMaxWeeklyHours(ConstraintFactory constraintFactory) {
@@ -265,5 +269,27 @@ public class TimetableConstraintProvider implements ConstraintProvider {
                 .filter((lesson1, lesson2) -> !Objects.equals(lesson1.getTimeSlot(), lesson2.getTimeSlot()))
                 .penalize(HardSoftScore.ONE_SOFT)
                 .asConstraint("Paired lab batches in different slots");
+    }
+
+    // Student campus time constraint
+    private Constraint studentCampusTimeLimit(ConstraintFactory constraintFactory) {
+        return constraintFactory
+                .forEach(Lesson.class)
+                .filter(lesson -> lesson.getTimeSlot() != null)
+                .groupBy(Lesson::getStudentGroup, 
+                        (Lesson lesson) -> lesson.getTimeSlot().getDayOfWeek(),
+                        min((Lesson lesson) -> lesson.getTimeSlot().getStartTime()),
+                        max((Lesson lesson) -> lesson.getTimeSlot().getEndTime()))
+                .filter((studentGroup, day, earliestStart, latestEnd) -> {
+                    if (earliestStart == null || latestEnd == null) return false;
+                    long campusSpanMinutes = Duration.between(earliestStart, latestEnd).toMinutes();
+                    return campusSpanMinutes > 420; // More than 7 hours (420 minutes)
+                })
+                .penalize(HardSoftScore.ONE_HARD.multiply(50), // Moderate penalty to allow flexibility
+                        (studentGroup, day, earliestStart, latestEnd) -> {
+                            long campusSpanMinutes = Duration.between(earliestStart, latestEnd).toMinutes();
+                            return (int) (campusSpanMinutes - 420); // Penalty based on excess minutes
+                        })
+                .asConstraint("Student campus time limit");
     }
 }

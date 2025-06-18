@@ -1,16 +1,16 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,14:00,14:50,Introduction to Python Programming,ECE 2.6,B401
+FRIDAY,11:00,11:50,Introduction to Python Programming,ECE 2.6,A205
+MONDAY,15:50,17:30,Introduction to Python Programming,ECE 2.6,MCT CAD Lab
+TUESDAY,08:00,09:40,Introduction to Python Programming,ECE 2.6,MCT CAD Lab
 THURSDAY,11:50,13:30,Introduction to Python Programming,ECE 2.6,MCT CAD Lab
-TUESDAY,13:50,15:30,Introduction to Python Programming,ECE 2.6,MCT CAD Lab
-WEDNESDAY,08:00,09:40,Introduction to Python Programming,ECE 2.6,MCT CAD Lab
-WEDNESDAY,09:50,11:30,Introduction to Python Programming,ECE 2.6,MCT CAD Lab
-FRIDAY,15:50,17:30,Communication Systems Laboratory,ECE 3.3,Communication Systems Lab
+MONDAY,15:00,15:50,Introduction to Python Programming,ECE 2.6,MCT CAD Lab
+THURSDAY,17:30,19:10,Communication Systems Laboratory,ECE 3.3,Communication Systems Lab
+SATURDAY,13:50,15:30,Communication Systems Laboratory,ECE 3.3,Communication Systems Lab
+WEDNESDAY,09:50,11:30,Communication Systems Laboratory,ECE 3.3,Communication Systems Lab
 THURSDAY,15:50,17:30,Communication Systems Laboratory,ECE 3.3,Communication Systems Lab
-SATURDAY,15:50,17:30,Communication Systems Laboratory,ECE 3.3,Communication Systems Lab
-FRIDAY,13:50,15:30,Communication Systems Laboratory,ECE 3.3,Communication Systems Lab
-TUESDAY,18:00,18:50,Multimedia Compression and Networking,ECE 4.1,C101
-FRIDAY,13:00,13:50,Multimedia Compression and Networking,ECE 4.1,B418
-THURSDAY,10:00,10:50,Multimedia Compression and Networking,ECE 4.1,A108
-WEDNESDAY,12:00,12:50,Multimedia Compression and Networking,ECE 4.3,A310
-THURSDAY,09:00,09:50,Multimedia Compression and Networking,ECE 4.3,A204
-FRIDAY,12:00,12:50,Multimedia Compression and Networking,ECE 4.3,A211
+TUESDAY,14:00,14:50,Multimedia Compression and Networking,ECE 4.1,B423
+TUESDAY,13:00,13:50,Multimedia Compression and Networking,ECE 4.1,B425
+MONDAY,12:00,12:50,Multimedia Compression and Networking,ECE 4.1,B405
+MONDAY,18:00,18:50,Multimedia Compression and Networking,ECE 4.3,A109
+FRIDAY,13:00,13:50,Multimedia Compression and Networking,ECE 4.3,A102
+MONDAY,14:00,14:50,Multimedia Compression and Networking,ECE 4.3,B408

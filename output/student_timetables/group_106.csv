@@ -1,29 +1,29 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-THURSDAY,10:00,10:50,Modern Digital Communication,Mrs. Dr.S.Chitra,B423
-THURSDAY,11:00,11:50,Modern Digital Communication,Mrs. Dr.S.Chitra,B325
-FRIDAY,16:00,16:50,Modern Digital Communication,Mrs. Dr.S.Chitra,C103
-SATURDAY,17:30,19:10,Communication Systems Laboratory,Mr. Murali Krishna K,Communication Systems Lab
-FRIDAY,09:50,11:30,Communication Systems Laboratory,Mr. Murali Krishna K,Communication Systems Lab
-TUESDAY,13:50,15:30,Communication Systems Laboratory,Mr. Murali Krishna K,Communication Systems Lab
-WEDNESDAY,11:50,13:30,Communication Systems Laboratory,Mr. Murali Krishna K,Communication Systems Lab
-SATURDAY,11:50,13:30,Industrial Internship,Mr. Karthi J,Electrical Machines I Lab
-TUESDAY,15:50,17:30,Industrial Internship,Mr. Karthi J,Manufacturing Technology I
-SATURDAY,15:00,15:50,Digital Signal Processing,Mrs. Radhamani .V,A104/105
-THURSDAY,16:00,16:50,Digital Signal Processing,Mrs. Radhamani .V,A108
-FRIDAY,09:00,09:50,Digital Signal Processing,Mrs. Radhamani .V,B408
-SATURDAY,09:50,11:30,Digital Signal Processing,Mrs. Radhamani .V,DSP Lab
-WEDNESDAY,17:30,19:10,Digital Signal Processing,Mrs. Radhamani .V,DSP Lab
-THURSDAY,13:50,15:30,Soft Skills – II,Mr. Gururaj D,KFR02
-SATURDAY,09:50,11:30,Soft Skills – II,Mr. Gururaj D,KFR01
-THURSDAY,12:00,12:50,Information theory and coding,Mr. Dr. T. Manikandan,B106
-FRIDAY,18:00,18:50,Information theory and coding,Mr. Dr. T. Manikandan,A103
-THURSDAY,13:00,13:50,Information theory and coding,Mr. Dr. T. Manikandan,B425
-WEDNESDAY,11:00,11:50,Medical electronics,Mrs. B.Thilakavathi,C302
-FRIDAY,13:00,13:50,Medical electronics,Mrs. B.Thilakavathi,B212
-SATURDAY,14:00,14:50,Medical electronics,Mrs. B.Thilakavathi,C102
-FRIDAY,17:00,17:50,Introduction to MEMS,Dr. R Jeevani,B409
-THURSDAY,17:00,17:50,Introduction to MEMS,Dr. R Jeevani,B222
-FRIDAY,12:00,12:50,Introduction to MEMS,Dr. R Jeevani,B218
-SATURDAY,08:00,08:50,Control System Engineering,Mrs. Radhamani .V,B418
-WEDNESDAY,15:00,15:50,Control System Engineering,Mrs. Radhamani .V,A104/105
-WEDNESDAY,16:00,16:50,Control System Engineering,Mrs. Radhamani .V,B402
+TUESDAY,10:00,10:50,Modern Digital Communication,Mrs. Dr.S.Chitra,C202
+FRIDAY,10:00,10:50,Modern Digital Communication,Mrs. Dr.S.Chitra,A102
+TUESDAY,08:00,08:50,Modern Digital Communication,Mrs. Dr.S.Chitra,A311
+SATURDAY,15:50,17:30,Communication Systems Laboratory,Mr. Murali Krishna K,Communication Systems Lab
+FRIDAY,15:50,17:30,Communication Systems Laboratory,Mr. Murali Krishna K,Communication Systems Lab
+THURSDAY,09:50,11:30,Communication Systems Laboratory,Mr. Murali Krishna K,Communication Systems Lab
+FRIDAY,17:30,19:10,Communication Systems Laboratory,Mr. Murali Krishna K,Communication Systems Lab
+TUESDAY,13:50,15:30,Industrial Internship,Mr. Karthi J,MEMS Lab
+FRIDAY,08:00,09:40,Industrial Internship,Mr. Karthi J,Fluid Mechanics Lab
+SATURDAY,11:00,11:50,Digital Signal Processing,Mrs. Radhamani .V,B403
+WEDNESDAY,15:00,15:50,Digital Signal Processing,Mrs. Radhamani .V,B419
+TUESDAY,13:00,13:50,Digital Signal Processing,Mrs. Radhamani .V,B418
+FRIDAY,11:50,13:30,Digital Signal Processing,Mrs. Radhamani .V,DSP Lab
+THURSDAY,08:00,09:40,Digital Signal Processing,Mrs. Radhamani .V,DSP Lab
+FRIDAY,08:00,09:40,Soft Skills – II,Mr. Gururaj D,KFL02
+SATURDAY,13:50,15:30,Soft Skills – II,Mr. Gururaj D,TLFR4
+THURSDAY,13:00,13:50,Information theory and coding,Mr. Dr. T. Manikandan,A208
+SATURDAY,12:00,12:50,Information theory and coding,Mr. Dr. T. Manikandan,B212
+THURSDAY,14:00,14:50,Information theory and coding,Mr. Dr. T. Manikandan,A211
+FRIDAY,15:00,15:50,Medical electronics,Mrs. B.Thilakavathi,B321
+TUESDAY,16:00,16:50,Medical electronics,Mrs. B.Thilakavathi,B222
+WEDNESDAY,10:00,10:50,Medical electronics,Mrs. B.Thilakavathi,B220
+TUESDAY,12:00,12:50,Introduction to MEMS,Dr. R Jeevani,C302
+WEDNESDAY,12:00,12:50,Introduction to MEMS,Dr. R Jeevani,C308
+WEDNESDAY,09:00,09:50,Introduction to MEMS,Dr. R Jeevani,B404
+TUESDAY,17:00,17:50,Control System Engineering,Mrs. Radhamani .V,A208
+WEDNESDAY,18:00,18:50,Control System Engineering,Mrs. Radhamani .V,A202
+SATURDAY,08:00,08:50,Control System Engineering,Mrs. Radhamani .V,C101

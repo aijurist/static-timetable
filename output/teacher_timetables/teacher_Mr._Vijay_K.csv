@@ -1,16 +1,12 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,09:00,09:50,Computer Networks,AIML 3.1,B106
-WEDNESDAY,08:00,08:50,Computer Networks,AIML 3.1,B408
-FRIDAY,11:00,11:50,Computer Networks,AIML 3.1,A203
-WEDNESDAY,09:50,11:30,Computer Networks,AIML 3.1,JL3
-SATURDAY,15:50,17:30,Computer Networks,AIML 3.1,TLGL3
-SATURDAY,11:50,13:30,Computer Networks,AIML 3.1,JR3
-THURSDAY,15:50,17:30,Computer Networks,AIML 3.1,TLFR3
-TUESDAY,13:00,13:50,Data Visualization using Python (Professional Elective III),AIML 4.1,A309
-WEDNESDAY,14:00,14:50,Data Visualization using Python (Professional Elective III),AIML 4.1,B218
-SATURDAY,09:50,11:30,Data Visualization using Python (Professional Elective III),AIML 4.1,TLFR2
-THURSDAY,17:30,19:10,Data Visualization using Python (Professional Elective III),AIML 4.1,JR1
-TUESDAY,15:00,15:50,Data Visualization using Python (Professional Elective III),AIML 4.3,B408
-THURSDAY,11:00,11:50,Data Visualization using Python (Professional Elective III),AIML 4.3,A310
-FRIDAY,15:50,17:30,Data Visualization using Python (Professional Elective III),AIML 4.3,TLFL1
-TUESDAY,08:00,09:40,Data Visualization using Python (Professional Elective III),AIML 4.3,TLGL4
+FRIDAY,14:00,14:50,Computer Networks,AIML 3.2,A210
+WEDNESDAY,14:00,14:50,Computer Networks,AIML 3.2,B220
+TUESDAY,15:00,15:50,Computer Networks,AIML 3.2,B218
+WEDNESDAY,08:00,09:40,Computer Networks,AIML 3.2,JR3
+WEDNESDAY,11:50,13:30,Computer Networks,AIML 3.2,TLGL3
+TUESDAY,15:50,17:30,Computer Networks,AIML 3.2,JL3
+FRIDAY,08:00,09:40,Computer Networks,AIML 3.2,JR2
+TUESDAY,10:00,10:50,Data Visualization using Python (Professional Elective III),AIML 4.2,B424
+SATURDAY,11:00,11:50,Data Visualization using Python (Professional Elective III),AIML 4.2,A108
+FRIDAY,11:50,13:30,Data Visualization using Python (Professional Elective III),AIML 4.2,TLFL2
+THURSDAY,11:50,13:30,Data Visualization using Python (Professional Elective III),AIML 4.2,TLFL5

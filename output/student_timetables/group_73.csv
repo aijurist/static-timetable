@@ -1,31 +1,31 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,15:00,15:50,Computer Vision and Applications,Mrs. Sangeetha K,B417
-SATURDAY,15:00,15:50,Computer Vision and Applications,Mrs. Sangeetha K,B405
-THURSDAY,13:50,15:30,Computer Vision and Applications,Mrs. Sangeetha K,KFR01
-WEDNESDAY,13:50,15:30,Computer Vision and Applications,Mrs. Sangeetha K,TLFR2
-SATURDAY,10:00,10:50,Recommendation Systems (Professional Elective I),New Staff - 05,B403
-SATURDAY,11:00,11:50,Recommendation Systems (Professional Elective I),New Staff - 05,A203
-WEDNESDAY,13:50,15:30,Recommendation Systems (Professional Elective I),New Staff - 05,KFL03
-TUESDAY,11:50,13:30,Recommendation Systems (Professional Elective I),New Staff - 05,TLFL4
-SATURDAY,08:00,09:40,Build and Deploy Machine Learning Applications,Ms. Saranya S,JL1
-WEDNESDAY,08:00,09:40,Build and Deploy Machine Learning Applications,Ms. Saranya S,TLFL2
-FRIDAY,12:00,12:50,Deep Learning,Dr. Raju K,B424
-FRIDAY,09:00,09:50,Deep Learning,Dr. Raju K,B402
-FRIDAY,08:00,08:50,Deep Learning,Dr. Raju K,B412
-WEDNESDAY,09:50,11:30,Deep Learning,Dr. Raju K,TLFR5
-SATURDAY,08:00,09:40,Deep Learning,Dr. Raju K,TLFL1
-FRIDAY,10:00,10:50,Framework for data and visual Analytics,Mrs. J Jasmine Gabriel,B219
-THURSDAY,13:00,13:50,Framework for data and visual Analytics,Mrs. J Jasmine Gabriel,B402
-TUESDAY,10:00,10:50,Framework for data and visual Analytics,Mrs. J Jasmine Gabriel,B410
-TUESDAY,13:50,15:30,Framework for data and visual Analytics,Mrs. J Jasmine Gabriel,TLFL2
-WEDNESDAY,09:50,11:30,Framework for data and visual Analytics,Mrs. J Jasmine Gabriel,TLFL5
-SATURDAY,17:00,17:50,Computer Networks,Dr. N M Balamurugan,A309
-FRIDAY,11:00,11:50,Computer Networks,Dr. N M Balamurugan,B423
-TUESDAY,16:00,16:50,Computer Networks,Dr. N M Balamurugan,B404
-WEDNESDAY,11:50,13:30,Computer Networks,Dr. N M Balamurugan,TLGL3
-WEDNESDAY,08:00,09:40,Computer Networks,Dr. N M Balamurugan,KFR01
-SATURDAY,11:50,13:30,Computer Networks,Dr. N M Balamurugan,TLFL2
-THURSDAY,13:50,15:30,Computer Networks,Dr. N M Balamurugan,TLFR5
-TUESDAY,11:00,11:50,DataEngineering,Mrs. Sowmia K R,B219
-SATURDAY,16:00,16:50,DataEngineering,Mrs. Sowmia K R,A208
-THURSDAY,16:00,16:50,DataEngineering,Mrs. Sowmia K R,B419
+THURSDAY,09:00,09:50,Computer Vision and Applications,Mrs. Sangeetha K,C103
+WEDNESDAY,16:00,16:50,Computer Vision and Applications,Mrs. Sangeetha K,B410
+SATURDAY,17:30,19:10,Computer Vision and Applications,Mrs. Sangeetha K,JR2
+WEDNESDAY,09:50,11:30,Computer Vision and Applications,Mrs. Sangeetha K,TLFR4
+FRIDAY,16:00,16:50,Recommendation Systems (Professional Elective I),New Staff - 05,B210
+WEDNESDAY,14:00,14:50,Recommendation Systems (Professional Elective I),New Staff - 05,B423
+SATURDAY,08:00,09:40,Recommendation Systems (Professional Elective I),New Staff - 05,TLGL4
+THURSDAY,13:50,15:30,Recommendation Systems (Professional Elective I),New Staff - 05,KFL03
+SATURDAY,15:50,17:30,Build and Deploy Machine Learning Applications,Ms. Saranya S,KSL03
+FRIDAY,13:50,15:30,Build and Deploy Machine Learning Applications,Ms. Saranya S,TLGL2
+TUESDAY,12:00,12:50,Deep Learning,Dr. Raju K,A309
+FRIDAY,12:00,12:50,Deep Learning,Dr. Raju K,B219
+WEDNESDAY,15:00,15:50,Deep Learning,Dr. Raju K,B218
+FRIDAY,17:30,19:10,Deep Learning,Dr. Raju K,JR2
+WEDNESDAY,11:50,13:30,Deep Learning,Dr. Raju K,TLFL4
+FRIDAY,09:00,09:50,Framework for data and visual Analytics,Mrs. J Jasmine Gabriel,C308
+THURSDAY,10:00,10:50,Framework for data and visual Analytics,Mrs. J Jasmine Gabriel,A109
+FRIDAY,10:00,10:50,Framework for data and visual Analytics,Mrs. J Jasmine Gabriel,A210
+SATURDAY,09:50,11:30,Framework for data and visual Analytics,Mrs. J Jasmine Gabriel,TLFL1
+SATURDAY,11:50,13:30,Framework for data and visual Analytics,Mrs. J Jasmine Gabriel,JR1
+THURSDAY,17:00,17:50,Computer Networks,Dr. N M Balamurugan,C308
+THURSDAY,11:00,11:50,Computer Networks,Dr. N M Balamurugan,A203
+WEDNESDAY,08:00,08:50,Computer Networks,Dr. N M Balamurugan,B404
+TUESDAY,13:50,15:30,Computer Networks,Dr. N M Balamurugan,JL3
+WEDNESDAY,09:50,11:30,Computer Networks,Dr. N M Balamurugan,TLFL4
+SATURDAY,15:50,17:30,Computer Networks,Dr. N M Balamurugan,TLFR2
+SATURDAY,09:50,11:30,Computer Networks,Dr. N M Balamurugan,KSL03
+FRIDAY,13:00,13:50,DataEngineering,Mrs. Sowmia K R,A204
+THURSDAY,13:00,13:50,DataEngineering,Mrs. Sowmia K R,B221
+FRIDAY,11:00,11:50,DataEngineering,Mrs. Sowmia K R,A303

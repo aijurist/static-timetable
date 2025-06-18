@@ -1,27 +1,27 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,08:00,08:50,Theory of Computation,Mrs. S.Vinothini,C308
-MONDAY,18:00,18:50,Theory of Computation,Mrs. S.Vinothini,B106
-THURSDAY,16:00,16:50,Theory of Computation,Mrs. S.Vinothini,B213
-FRIDAY,11:00,11:50,Theory of Computation,Mrs. S.Vinothini,A309
-TUESDAY,15:00,15:50,Fundamentals of Mobile Computing,Mr. V Karthick,A202
-TUESDAY,13:00,13:50,Fundamentals of Mobile Computing,Mr. V Karthick,B423
-FRIDAY,16:00,16:50,Fundamentals of Mobile Computing,Mr. V Karthick,A304
-FRIDAY,12:00,12:50,Web Programming,Mrs. J.A.Adlin Layola,B321
-THURSDAY,10:00,10:50,Web Programming,Mrs. J.A.Adlin Layola,B219
-WEDNESDAY,10:00,10:50,Web Programming,Mrs. J.A.Adlin Layola,B210
-MONDAY,09:50,11:30,Web Programming,Mrs. J.A.Adlin Layola,KFR02
-WEDNESDAY,11:50,13:30,Web Programming,Mrs. J.A.Adlin Layola,JR1
-MONDAY,15:50,17:30,Web Programming,Mrs. J.A.Adlin Layola,KFL02
-FRIDAY,17:30,19:10,Web Programming,Mrs. J.A.Adlin Layola,TLFR5
-THURSDAY,18:00,18:50,Computer Networks,Dr. Chettiyar Vani Vivekanand,A304
-TUESDAY,14:00,14:50,Computer Networks,Dr. Chettiyar Vani Vivekanand,A309
-WEDNESDAY,14:00,14:50,Computer Networks,Dr. Chettiyar Vani Vivekanand,A205
-WEDNESDAY,15:50,17:30,Computer Networks,Dr. Chettiyar Vani Vivekanand,JR3
-THURSDAY,11:50,13:30,Computer Networks,Dr. Chettiyar Vani Vivekanand,KFR03
-MONDAY,11:50,13:30,Computer Networks,Dr. Chettiyar Vani Vivekanand,JR3
-MONDAY,13:50,15:30,Computer Networks,Dr. Chettiyar Vani Vivekanand,TLFR2
-WEDNESDAY,09:00,09:50,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,A209
-THURSDAY,17:00,17:50,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,A204
-THURSDAY,11:00,11:50,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,A102
-MONDAY,11:50,13:30,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,TLFR2
-WEDNESDAY,15:50,17:30,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,TLFL5
+SATURDAY,17:00,17:50,Theory of Computation,Mrs. S.Vinothini,A202
+FRIDAY,08:00,08:50,Theory of Computation,Mrs. S.Vinothini,B415
+FRIDAY,11:00,11:50,Theory of Computation,Mrs. S.Vinothini,B426
+FRIDAY,09:00,09:50,Theory of Computation,Mrs. S.Vinothini,B107
+TUESDAY,16:00,16:50,Fundamentals of Mobile Computing,Mr. V Karthick,B213
+FRIDAY,10:00,10:50,Fundamentals of Mobile Computing,Mr. V Karthick,B401
+SATURDAY,11:00,11:50,Fundamentals of Mobile Computing,Mr. V Karthick,C302
+FRIDAY,12:00,12:50,Web Programming,Mrs. J.A.Adlin Layola,C102
+WEDNESDAY,18:00,18:50,Web Programming,Mrs. J.A.Adlin Layola,B219
+WEDNESDAY,17:00,17:50,Web Programming,Mrs. J.A.Adlin Layola,B425
+THURSDAY,08:00,09:40,Web Programming,Mrs. J.A.Adlin Layola,TLGL1
+TUESDAY,09:50,11:30,Web Programming,Mrs. J.A.Adlin Layola,TLFR2
+TUESDAY,13:50,15:30,Web Programming,Mrs. J.A.Adlin Layola,TLFR4
+WEDNESDAY,13:50,15:30,Web Programming,Mrs. J.A.Adlin Layola,TLFR4
+THURSDAY,17:00,17:50,Computer Networks,Dr. Chettiyar Vani Vivekanand,B220
+FRIDAY,14:00,14:50,Computer Networks,Dr. Chettiyar Vani Vivekanand,B402
+SATURDAY,15:00,15:50,Computer Networks,Dr. Chettiyar Vani Vivekanand,A102
+TUESDAY,11:50,13:30,Computer Networks,Dr. Chettiyar Vani Vivekanand,TLFL2
+FRIDAY,15:50,17:30,Computer Networks,Dr. Chettiyar Vani Vivekanand,KSL03
+THURSDAY,13:50,15:30,Computer Networks,Dr. Chettiyar Vani Vivekanand,KFR03
+WEDNESDAY,08:00,09:40,Computer Networks,Dr. Chettiyar Vani Vivekanand,TLFR4
+THURSDAY,11:00,11:50,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,B107
+THURSDAY,12:00,12:50,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,C103
+WEDNESDAY,11:00,11:50,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,A109
+WEDNESDAY,08:00,09:40,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,JR1
+WEDNESDAY,11:50,13:30,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,JL2

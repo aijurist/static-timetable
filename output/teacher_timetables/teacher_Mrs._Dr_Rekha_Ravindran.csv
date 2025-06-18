@@ -1,11 +1,11 @@
 Day,StartTime,EndTime,Course,Group,Room
-SATURDAY,11:00,11:50,PROTEIN ENGINEERING TECHNIQUES,BT 4.1,A102
-SATURDAY,13:00,13:50,PROTEIN ENGINEERING TECHNIQUES,BT 4.1,B417
-TUESDAY,10:00,10:50,PROTEIN ENGINEERING TECHNIQUES,BT 4.1,A109
-TUESDAY,15:00,15:50,PROTEIN ENGINEERING TECHNIQUES,BT 4.3,A209
-TUESDAY,18:00,18:50,PROTEIN ENGINEERING TECHNIQUES,BT 4.3,A202
-THURSDAY,18:00,18:50,PROTEIN ENGINEERING TECHNIQUES,BT 4.3,A209
-WEDNESDAY,17:30,19:10,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.2,Embedded System Laboratory(EEE)
-SATURDAY,17:30,19:10,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.2,Manufacturing Technology I
-TUESDAY,11:50,13:30,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.2,Manufacturing Technology I
-FRIDAY,11:50,13:30,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.2,Physics LAB - 1
+WEDNESDAY,08:00,08:50,PROTEIN ENGINEERING TECHNIQUES,BT 4.1,B222
+SATURDAY,09:00,09:50,PROTEIN ENGINEERING TECHNIQUES,BT 4.1,C308
+FRIDAY,13:00,13:50,PROTEIN ENGINEERING TECHNIQUES,BT 4.1,A310
+FRIDAY,08:00,08:50,PROTEIN ENGINEERING TECHNIQUES,BT 4.3,C302
+THURSDAY,14:00,14:50,PROTEIN ENGINEERING TECHNIQUES,BT 4.3,C308
+SATURDAY,12:00,12:50,PROTEIN ENGINEERING TECHNIQUES,BT 4.3,B426
+SATURDAY,15:50,17:30,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.2,Manufacturing Technology II
+TUESDAY,11:50,13:30,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.2,Chemistry Lab
+THURSDAY,15:50,17:30,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.2,Electronic Devices & Circuits Lab
+TUESDAY,17:30,19:10,Artificial Intelligence and Machine Learning for Biotechnologist,BT 4.2,Microprocessor Lab-1

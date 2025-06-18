@@ -1,20 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,12:00,12:50,Two and Three Wheelers,Mr. Mohanraj K,A104/105
-TUESDAY,11:00,11:50,Two and Three Wheelers,Mr. Mohanraj K,C202
-THURSDAY,09:00,09:50,Two and Three Wheelers,Mr. Mohanraj K,A310
-TUESDAY,13:00,13:50,Design of Machine Elements,Mr. R. Edwin Joseph,C101
-FRIDAY,17:00,17:50,Design of Machine Elements,Mr. R. Edwin Joseph,B401
-MONDAY,12:00,12:50,Design of Machine Elements,Mr. R. Edwin Joseph,B321
-THURSDAY,15:50,17:30,Two and Three wheelers Laboratory,Mr. Mohanraj K,Automotive Components Lab
-TUESDAY,08:00,09:40,Computer Aided Vehicle Design Data Characteristics Laboratory,Mr. Zahir Hussain M,Auto CAD Lab
-MONDAY,16:00,16:50,Automotive Electrical and Electronics,Mr. Zahir Hussain M,B219
-THURSDAY,15:00,15:50,Automotive Electrical and Electronics,Mr. Zahir Hussain M,B302
-THURSDAY,10:00,10:50,Automotive Electrical and Electronics,Mr. Zahir Hussain M,A311
-MONDAY,13:50,15:30,Automotive Electrical and Electronics,Mr. Zahir Hussain M,Electrical Machines I Lab
-THURSDAY,12:00,12:50,Electric and Hybrid Vehicles - II,Mr. Pavan.P,B425
-THURSDAY,08:00,08:50,Electric and Hybrid Vehicles - II,Mr. Pavan.P,A302
-FRIDAY,15:00,15:50,Electric and Hybrid Vehicles - II,Mr. Pavan.P,C101
-MONDAY,17:30,19:10,Electric and Hybrid Vehicles - II,Mr. Pavan.P,Auto CAD Lab
-THURSDAY,14:00,14:50,Fundamentals of Management for Engineers,Mr. R.Karthikeyan,B221
-MONDAY,11:00,11:50,Fundamentals of Management for Engineers,Mr. R.Karthikeyan,A103
-TUESDAY,10:00,10:50,Fundamentals of Management for Engineers,Mr. R.Karthikeyan,B417
+FRIDAY,16:00,16:50,Computer Architecture,Mrs. Mahesmeena,C302
+MONDAY,17:00,17:50,Computer Architecture,Mrs. Mahesmeena,A108
+THURSDAY,08:00,08:50,Computer Architecture,Mrs. Mahesmeena,A103
+FRIDAY,12:00,12:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,A310
+MONDAY,11:00,11:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,A204
+WEDNESDAY,08:00,08:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,B409
+FRIDAY,13:50,15:30,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,KSL03
+TUESDAY,15:50,17:30,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,TLFR4
+MONDAY,18:00,18:50,Fourier series and Number theory,Mr. Charles Sagayaraj A C,B212
+TUESDAY,15:00,15:50,Fourier series and Number theory,Mr. Charles Sagayaraj A C,C308
+THURSDAY,10:00,10:50,Fourier series and Number theory,Mr. Charles Sagayaraj A C,C302
+THURSDAY,18:00,18:50,Fourier series and Number theory,Mr. Charles Sagayaraj A C,A311
+MONDAY,13:00,13:50,Database Management Systems,Mr. N.Karthikeyan,B424
+MONDAY,14:00,14:50,Database Management Systems,Mr. N.Karthikeyan,B321
+WEDNESDAY,13:00,13:50,Database Management Systems,Mr. N.Karthikeyan,A304
+TUESDAY,15:50,17:30,Database Management Systems,Mr. N.Karthikeyan,TLFR1
+TUESDAY,17:30,19:10,Database Management Systems,Mr. N.Karthikeyan,TLFL5
+FRIDAY,08:00,09:40,Database Management Systems,Mr. N.Karthikeyan,TLFR2
+TUESDAY,11:50,13:30,Database Management Systems,Mr. N.Karthikeyan,JL1
+TUESDAY,09:00,09:50,Object Oriented Programming Using JAVA,New Staff - 04,C202
+WEDNESDAY,10:00,10:50,Object Oriented Programming Using JAVA,New Staff - 04,B106
+MONDAY,09:00,09:50,Object Oriented Programming Using JAVA,New Staff - 04,B320
+TUESDAY,09:50,11:30,Object Oriented Programming Using JAVA,New Staff - 04,TLGL1
+WEDNESDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Staff - 04,TLFL2
+FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,New Staff - 04,TLFR1
+FRIDAY,09:50,11:30,Object Oriented Programming Using JAVA,New Staff - 04,KFL03
+THURSDAY,15:00,15:50,Fundamentals of Data Science,Mr. Ayyadurai M,A104/105
+MONDAY,15:00,15:50,Fundamentals of Data Science,Mr. Ayyadurai M,C301
+MONDAY,16:00,16:50,Fundamentals of Data Science,Mr. Ayyadurai M,B211
+FRIDAY,09:50,11:30,Fundamentals of Data Science,Mr. Ayyadurai M,TLFL1
+WEDNESDAY,13:50,15:30,Fundamentals of Data Science,Mr. Ayyadurai M,JR1

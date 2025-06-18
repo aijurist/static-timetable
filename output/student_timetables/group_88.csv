@@ -1,21 +1,21 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-THURSDAY,13:00,13:50,Social and Ethical Issues in AI,New Faculty New  Staff - 28,A208
-SATURDAY,18:00,18:50,Big Data Technology,HOD AIML,C103
-FRIDAY,15:00,15:50,Big Data Technology,HOD AIML,A210
-WEDNESDAY,15:00,15:50,Big Data Technology,HOD AIML,A102
-TUESDAY,09:50,11:30,Big Data Technology,HOD AIML,KFL01
-SATURDAY,15:50,17:30,Big Data Technology,HOD AIML,TLFR5
-TUESDAY,18:00,18:50,Information Retrieval (Professional Elective V),Mr. Magesh M P,C307
-SATURDAY,15:00,15:50,Information Retrieval (Professional Elective V),Mr. Magesh M P,B210
-FRIDAY,08:00,09:40,Information Retrieval (Professional Elective V),Mr. Magesh M P,TLFR5
-FRIDAY,11:50,13:30,Information Retrieval (Professional Elective V),Mr. Magesh M P,JR1
-FRIDAY,11:00,11:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,B409
-WEDNESDAY,14:00,14:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,A202
-TUESDAY,14:00,14:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,B213
-TUESDAY,15:00,15:50,Data Visualization using Python (Professional Elective III),Mr. Vijay K,B408
-THURSDAY,11:00,11:50,Data Visualization using Python (Professional Elective III),Mr. Vijay K,A310
-FRIDAY,15:50,17:30,Data Visualization using Python (Professional Elective III),Mr. Vijay K,TLFL1
-TUESDAY,08:00,09:40,Data Visualization using Python (Professional Elective III),Mr. Vijay K,TLGL4
-FRIDAY,18:00,18:50,Secure Systems Engineering,Dr. N M Balamurugan,A304
-FRIDAY,14:00,14:50,Secure Systems Engineering,Dr. N M Balamurugan,A310
-THURSDAY,16:00,16:50,Secure Systems Engineering,Dr. N M Balamurugan,C307
+FRIDAY,09:00,09:50,Social and Ethical Issues in AI,New Faculty New  Staff - 28,A209
+SATURDAY,11:00,11:50,Big Data Technology,HOD AIML,B211
+WEDNESDAY,13:00,13:50,Big Data Technology,HOD AIML,A209
+TUESDAY,10:00,10:50,Big Data Technology,HOD AIML,B408
+SATURDAY,13:50,15:30,Big Data Technology,HOD AIML,TLFR1
+SATURDAY,08:00,09:40,Big Data Technology,HOD AIML,TLFR5
+TUESDAY,15:00,15:50,Information Retrieval (Professional Elective V),Mr. Magesh M P,B218
+FRIDAY,18:00,18:50,Information Retrieval (Professional Elective V),Mr. Magesh M P,C302
+TUESDAY,08:00,09:40,Information Retrieval (Professional Elective V),Mr. Magesh M P,JR1
+FRIDAY,11:50,13:30,Information Retrieval (Professional Elective V),Mr. Magesh M P,KFL01
+THURSDAY,13:00,13:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,B219
+THURSDAY,10:00,10:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,B220
+SATURDAY,10:00,10:50,Supply Chain Analytics (Professional Elective V),Dr. Raju K,A209
+WEDNESDAY,16:00,16:50,Data Visualization using Python (Professional Elective III),Mr. Vijay K,B412
+WEDNESDAY,10:00,10:50,Data Visualization using Python (Professional Elective III),Mr. Vijay K,A203
+SATURDAY,11:50,13:30,Data Visualization using Python (Professional Elective III),Mr. Vijay K,JL3
+TUESDAY,17:30,19:10,Data Visualization using Python (Professional Elective III),Mr. Vijay K,KFR03
+WEDNESDAY,12:00,12:50,Secure Systems Engineering,Dr. N M Balamurugan,B219
+TUESDAY,11:00,11:50,Secure Systems Engineering,Dr. N M Balamurugan,C202
+FRIDAY,15:00,15:50,Secure Systems Engineering,Dr. N M Balamurugan,B410

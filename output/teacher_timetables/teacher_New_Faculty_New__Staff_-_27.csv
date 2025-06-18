@@ -1,8 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-SATURDAY,12:00,12:50,Object Oriented Programming Using JAVA,AIML 2.3,A309
-WEDNESDAY,18:00,18:50,Object Oriented Programming Using JAVA,AIML 2.3,A108
-TUESDAY,13:00,13:50,Object Oriented Programming Using JAVA,AIML 2.3,B320
-THURSDAY,11:50,13:30,Object Oriented Programming Using JAVA,AIML 2.3,JR1
-SATURDAY,15:50,17:30,Object Oriented Programming Using JAVA,AIML 2.3,TLFR2
-SATURDAY,17:30,19:10,Object Oriented Programming Using JAVA,AIML 2.3,TLFR4
-THURSDAY,08:00,09:40,Object Oriented Programming Using JAVA,AIML 2.3,TLFL4
+WEDNESDAY,11:00,11:50,Object Oriented Programming Using JAVA,AIML 2.4,A311
+TUESDAY,08:00,08:50,Object Oriented Programming Using JAVA,AIML 2.4,A202
+MONDAY,14:00,14:50,Object Oriented Programming Using JAVA,AIML 2.4,C102
+THURSDAY,09:50,11:30,Object Oriented Programming Using JAVA,AIML 2.4,TLFR1
+FRIDAY,15:50,17:30,Object Oriented Programming Using JAVA,AIML 2.4,TLFR4
+FRIDAY,17:30,19:10,Object Oriented Programming Using JAVA,AIML 2.4,TLFL3
+MONDAY,08:00,09:40,Object Oriented Programming Using JAVA,AIML 2.4,TLGL1

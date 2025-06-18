@@ -1,30 +1,30 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-SATURDAY,11:00,11:50,Principles of Artificial Intelligence,Mrs. K Indumathi,B218
-TUESDAY,17:00,17:50,Principles of Artificial Intelligence,Mrs. K Indumathi,B218
-TUESDAY,16:00,16:50,Principles of Artificial Intelligence,Mrs. K Indumathi,C308
-FRIDAY,11:50,13:30,Principles of Artificial Intelligence,Mrs. K Indumathi,KFL02
-WEDNESDAY,17:30,19:10,Principles of Artificial Intelligence,Mrs. K Indumathi,KFL02
-WEDNESDAY,17:30,19:10,Soft Skills – II,New Faculty New Staff -18,JL2
-SATURDAY,17:30,19:10,Soft Skills – II,New Faculty New Staff -18,KFL03
-THURSDAY,15:00,15:50,Web Programming,Mr. Dr B Muthu Kumar,B218
-SATURDAY,14:00,14:50,Web Programming,Mr. Dr B Muthu Kumar,B416
-WEDNESDAY,08:00,08:50,Web Programming,Mr. Dr B Muthu Kumar,B218
-FRIDAY,17:30,19:10,Web Programming,Mr. Dr B Muthu Kumar,JL1
-THURSDAY,17:30,19:10,Web Programming,Mr. Dr B Muthu Kumar,JL2
-TUESDAY,09:50,11:30,Web Programming,Mr. Dr B Muthu Kumar,JR2
-TUESDAY,08:00,09:40,Web Programming,Mr. Dr B Muthu Kumar,KFL01
-TUESDAY,18:00,18:50,Automata Theory & Compiler Design,Mrs. M.Madhu Rani,B415
-FRIDAY,11:00,11:50,Automata Theory & Compiler Design,Mrs. M.Madhu Rani,B218
-WEDNESDAY,09:00,09:50,Automata Theory & Compiler Design,Mrs. M.Madhu Rani,B322
-THURSDAY,16:00,16:50,Computer Vision,Ms. Priyanka D,C101
-WEDNESDAY,14:00,14:50,Computer Vision,Ms. Priyanka D,B409
-WEDNESDAY,11:00,11:50,Computer Vision,Ms. Priyanka D,B402
-SATURDAY,17:30,19:10,Computer Vision,Ms. Priyanka D,JR1
-FRIDAY,11:50,13:30,Computer Vision,Ms. Priyanka D,KFR03
-WEDNESDAY,12:00,12:50,Computer Networks,Mrs. Dr. Nalini Subramanian,B424
-WEDNESDAY,10:00,10:50,Computer Networks,Mrs. Dr. Nalini Subramanian,A210
-SATURDAY,10:00,10:50,Computer Networks,Mrs. Dr. Nalini Subramanian,B221
-TUESDAY,08:00,09:40,Computer Networks,Mrs. Dr. Nalini Subramanian,JR3
-TUESDAY,09:50,11:30,Computer Networks,Mrs. Dr. Nalini Subramanian,TLGL4
-TUESDAY,11:50,13:30,Computer Networks,Mrs. Dr. Nalini Subramanian,TLFL2
-SATURDAY,15:50,17:30,Computer Networks,Mrs. Dr. Nalini Subramanian,TLGL4
+WEDNESDAY,18:00,18:50,Software Construction,Mrs. Subashri Meenakshi G,B222
+TUESDAY,14:00,14:50,Software Construction,Mrs. Subashri Meenakshi G,C101
+FRIDAY,13:00,13:50,Software Construction,Mrs. Subashri Meenakshi G,A305
+FRIDAY,17:30,19:10,Software Construction,Mrs. Subashri Meenakshi G,JR3
+SATURDAY,09:50,11:30,Software Construction,Mrs. Subashri Meenakshi G,TLFR4
+TUESDAY,18:00,18:50,Ethical Hacking,Dr. Balasubramanian V,B410
+TUESDAY,12:00,12:50,Ethical Hacking,Dr. Balasubramanian V,B412
+FRIDAY,11:00,11:50,Ethical Hacking,Dr. Balasubramanian V,B425
+SATURDAY,11:50,13:30,Ethical Hacking,Dr. Balasubramanian V,JR3
+THURSDAY,15:50,17:30,Ethical Hacking,Dr. Balasubramanian V,KFL02
+TUESDAY,17:00,17:50,Cyber and Digital Forensics,New Staff 4 N,B425
+FRIDAY,15:00,15:50,Cyber and Digital Forensics,New Staff 4 N,A210
+THURSDAY,10:00,10:50,Cyber and Digital Forensics,New Staff 4 N,A208
+SATURDAY,13:50,15:30,Cyber and Digital Forensics,New Staff 4 N,TLFL5
+SATURDAY,17:30,19:10,Cyber and Digital Forensics,New Staff 4 N,KFL03
+THURSDAY,08:00,09:40,Soft Skills – II,New Staff 2 N,KSL03
+WEDNESDAY,13:50,15:30,Soft Skills – II,New Staff 2 N,KFR01
+TUESDAY,10:00,10:50,Web Programming,Ms. R Rupmala,B213
+WEDNESDAY,10:00,10:50,Web Programming,Ms. R Rupmala,B419
+FRIDAY,08:00,08:50,Web Programming,Ms. R Rupmala,B403
+THURSDAY,11:50,13:30,Web Programming,Ms. R Rupmala,KFL03
+THURSDAY,13:50,15:30,Web Programming,Ms. R Rupmala,TLGL3
+SATURDAY,13:50,15:30,Web Programming,Ms. R Rupmala,TLGL2
+WEDNESDAY,08:00,09:40,Web Programming,Ms. R Rupmala,JL2
+TUESDAY,15:00,15:50,Foundations of Artificial Intelligence,New Staff 3 N,A209
+WEDNESDAY,11:00,11:50,Foundations of Artificial Intelligence,New Staff 3 N,A109
+FRIDAY,16:00,16:50,Foundations of Artificial Intelligence,New Staff 3 N,A303
+SATURDAY,17:30,19:10,Foundations of Artificial Intelligence,New Staff 3 N,KSL03
+SATURDAY,15:50,17:30,Foundations of Artificial Intelligence,New Staff 3 N,KFL01

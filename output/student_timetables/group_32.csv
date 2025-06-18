@@ -1,15 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-THURSDAY,15:50,17:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLGL1
-WEDNESDAY,11:50,13:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLGL2
-TUESDAY,11:50,13:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLGL1
-TUESDAY,09:50,11:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLGL1
-MONDAY,08:00,09:40,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLGL1
-TUESDAY,13:50,15:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLGL2
-WEDNESDAY,18:00,18:50,Cloud Computing,Mr. Ayyadurai M,A202
-TUESDAY,17:00,17:50,Cloud Computing,Mr. Ayyadurai M,A211
-FRIDAY,17:30,19:10,Cloud Computing,Mr. Ayyadurai M,KFL01
-WEDNESDAY,13:50,15:30,Cloud Computing,Mr. Ayyadurai M,JR1
-TUESDAY,08:00,08:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,B222
-WEDNESDAY,16:00,16:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,A205
-THURSDAY,17:30,19:10,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,KFL02
-MONDAY,09:50,11:30,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,JL2
+FRIDAY,17:00,17:50,Computer Architecture,New Staff - 04,B416
+THURSDAY,12:00,12:50,Computer Architecture,New Staff - 04,B222
+MONDAY,10:00,10:50,Computer Architecture,New Staff - 04,B221
+THURSDAY,17:00,17:50,Design and Analysis of Algorithms,Mrs. Santhiya M,A110
+FRIDAY,18:00,18:50,Design and Analysis of Algorithms,Mrs. Santhiya M,A102
+MONDAY,18:00,18:50,Design and Analysis of Algorithms,Mrs. Santhiya M,A305
+THURSDAY,13:50,15:30,Design and Analysis of Algorithms,Mrs. Santhiya M,TLGL2
+MONDAY,13:50,15:30,Design and Analysis of Algorithms,Mrs. Santhiya M,KFL01
+TUESDAY,15:00,15:50,Fourier series and Number theory,New Faculty New  Staff - 32,A309
+TUESDAY,09:00,09:50,Fourier series and Number theory,New Faculty New  Staff - 32,A208
+TUESDAY,16:00,16:50,Fourier series and Number theory,New Faculty New  Staff - 32,B320
+WEDNESDAY,17:00,17:50,Fourier series and Number theory,New Faculty New  Staff - 32,A205
+FRIDAY,16:00,16:50,Database Management Systems,Mrs. Sathiyavathi S,B213
+WEDNESDAY,09:00,09:50,Database Management Systems,Mrs. Sathiyavathi S,B107
+MONDAY,13:00,13:50,Database Management Systems,Mrs. Sathiyavathi S,B320
+FRIDAY,08:00,09:40,Database Management Systems,Mrs. Sathiyavathi S,JL2
+MONDAY,08:00,09:40,Database Management Systems,Mrs. Sathiyavathi S,KFL03
+WEDNESDAY,09:50,11:30,Database Management Systems,Mrs. Sathiyavathi S,TLGL3
+THURSDAY,08:00,09:40,Database Management Systems,Mrs. Sathiyavathi S,KFL01
+TUESDAY,12:00,12:50,Object Oriented Programming Using JAVA,New Staff - 04,A103
+MONDAY,16:00,16:50,Object Oriented Programming Using JAVA,New Staff - 04,B222
+MONDAY,11:00,11:50,Object Oriented Programming Using JAVA,New Staff - 04,A310
+THURSDAY,08:00,09:40,Object Oriented Programming Using JAVA,New Staff - 04,TLFL1
+MONDAY,13:50,15:30,Object Oriented Programming Using JAVA,New Staff - 04,JL3
+WEDNESDAY,13:50,15:30,Object Oriented Programming Using JAVA,New Staff - 04,TLFL3
+THURSDAY,09:50,11:30,Object Oriented Programming Using JAVA,New Staff - 04,TLGL2
+FRIDAY,11:00,11:50,Fundamentals of Data Science,Ms. Sana,B416
+TUESDAY,17:00,17:50,Fundamentals of Data Science,Ms. Sana,A108
+WEDNESDAY,13:00,13:50,Fundamentals of Data Science,Ms. Sana,A211
+WEDNESDAY,13:50,15:30,Fundamentals of Data Science,Ms. Sana,TLFL4
+FRIDAY,13:50,15:30,Fundamentals of Data Science,Ms. Sana,KFR02

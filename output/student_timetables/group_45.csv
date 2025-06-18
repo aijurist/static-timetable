@@ -1,27 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,08:00,08:50,Operating Systems,Dr. Gunasekar S,B302
-WEDNESDAY,09:00,09:50,Operating Systems,Dr. Gunasekar S,B222
-FRIDAY,13:00,13:50,Operating Systems,Dr. Gunasekar S,B419
-SATURDAY,11:50,13:30,Operating Systems,Dr. Gunasekar S,KFR01
-SATURDAY,13:50,15:30,Operating Systems,Dr. Gunasekar S,TLFL3
-TUESDAY,11:50,13:30,Operating Systems,Dr. Gunasekar S,TLFL5
-TUESDAY,09:50,11:30,Operating Systems,Dr. Gunasekar S,TLFR5
-WEDNESDAY,15:50,17:30,Design Thinking and Innovation,Mrs. Kalpana D,Electronic Devices & Circuits Lab
-THURSDAY,11:50,13:30,Design Thinking and Innovation,Mrs. Kalpana D,Electronic Devices & Circuits Lab
-SATURDAY,17:30,19:10,Design Thinking and Innovation,Mrs. Kalpana D,Electronic Devices & Circuits Lab
-FRIDAY,15:50,17:30,Design Thinking and Innovation,Mrs. Kalpana D,Electronic Devices & Circuits Lab
-TUESDAY,14:00,14:50,3D Modelling and Texturing,Mr. S Umamaheswararao,B426
-THURSDAY,18:00,18:50,3D Modelling and Texturing,Mr. S Umamaheswararao,B213
-WEDNESDAY,17:30,19:10,3D Modelling and Texturing,Mr. S Umamaheswararao,TLFR4
-WEDNESDAY,15:50,17:30,3D Modelling and Texturing,Mr. S Umamaheswararao,TLFL3
-SATURDAY,16:00,16:50,Web Programming,Mr. Thirumalairajan G,B422
-FRIDAY,14:00,14:50,Web Programming,Mr. Thirumalairajan G,B221
-SATURDAY,10:00,10:50,Web Programming,Mr. Thirumalairajan G,C307
-THURSDAY,15:50,17:30,Web Programming,Mr. Thirumalairajan G,KFR01
-TUESDAY,17:30,19:10,Web Programming,Mr. Thirumalairajan G,TLGL3
-FRIDAY,17:30,19:10,Web Programming,Mr. Thirumalairajan G,KFR03
-SATURDAY,13:50,15:30,Web Programming,Mr. Thirumalairajan G,TLFR3
-TUESDAY,08:00,08:50,Graphics and Multimedia,Mr. Vijayakumar R,C201
-THURSDAY,14:00,14:50,Graphics and Multimedia,Mr. Vijayakumar R,B212
-SATURDAY,17:30,19:10,Graphics and Multimedia,Mr. Vijayakumar R,JR3
-WEDNESDAY,09:50,11:30,Graphics and Multimedia,Mr. Vijayakumar R,KFR03
+TUESDAY,13:00,13:50,Fundamentals of Machine Learning,Mr. Magesh M P,A202
+TUESDAY,09:00,09:50,Fundamentals of Machine Learning,Mr. Magesh M P,B402
+FRIDAY,10:00,10:50,Fundamentals of Machine Learning,Mr. Magesh M P,C301
+WEDNESDAY,11:50,13:30,Fundamentals of Machine Learning,Mr. Magesh M P,KFL01
+WEDNESDAY,09:50,11:30,Fundamentals of Machine Learning,Mr. Magesh M P,JL3
+MONDAY,17:00,17:50,Design and Analysis of Algorithms,New Staff - 05,B107
+MONDAY,16:00,16:50,Design and Analysis of Algorithms,New Staff - 05,A108
+THURSDAY,17:00,17:50,Design and Analysis of Algorithms,New Staff - 05,B302
+MONDAY,13:50,15:30,Design and Analysis of Algorithms,New Staff - 05,TLGL3
+TUESDAY,15:50,17:30,Design and Analysis of Algorithms,New Staff - 05,KFL02
+TUESDAY,10:00,10:50,Database Management Systems,Mr. Kumaran U,A103
+THURSDAY,09:00,09:50,Database Management Systems,Mr. Kumaran U,B405
+FRIDAY,15:00,15:50,Database Management Systems,Mr. Kumaran U,A110
+MONDAY,08:00,09:40,Database Management Systems,Mr. Kumaran U,JR3
+MONDAY,09:50,11:30,Database Management Systems,Mr. Kumaran U,JL2
+MONDAY,13:50,15:30,Database Management Systems,Mr. Kumaran U,KFR01
+THURSDAY,09:50,11:30,Database Management Systems,Mr. Kumaran U,TLGL3
+THURSDAY,08:00,08:50,Environmental Science and Engineering,Mr. J.Venkatamuthukumar,C308
+WEDNESDAY,08:00,08:50,Environmental Science and Engineering,Mr. J.Venkatamuthukumar,B418
+THURSDAY,14:00,14:50,Environmental Science and Engineering,Mr. J.Venkatamuthukumar,B302
+THURSDAY,15:00,15:50,Discrete Mathematics for AI,Ms. Manasa K,B106
+MONDAY,18:00,18:50,Discrete Mathematics for AI,Ms. Manasa K,A110
+WEDNESDAY,18:00,18:50,Discrete Mathematics for AI,Ms. Manasa K,A303
+WEDNESDAY,15:00,15:50,Discrete Mathematics for AI,Ms. Manasa K,B322
+THURSDAY,12:00,12:50,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,B404
+WEDNESDAY,14:00,14:50,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,B410
+TUESDAY,11:00,11:50,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,B218
+FRIDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,JL2
+THURSDAY,09:50,11:30,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,TLFL1
+FRIDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,TLFR1
+MONDAY,09:50,11:30,Object Oriented Programming Using JAVA,Mrs. Sree Subha S,TLFL2

@@ -1,15 +1,22 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,08:00,08:50,Database Management Systems,CSE 2.5,B302
-TUESDAY,13:00,13:50,Database Management Systems,CSE 2.5,B212
-MONDAY,11:00,11:50,Database Management Systems,CSE 2.5,A309
-THURSDAY,08:00,09:40,Database Management Systems,CSE 2.5,TLFR1
-THURSDAY,11:50,13:30,Database Management Systems,CSE 2.5,JL2
-TUESDAY,13:50,15:30,Database Management Systems,CSE 2.5,JL3
-MONDAY,17:30,19:10,Database Management Systems,CSE 2.5,TLFL5
-MONDAY,12:00,12:50,Web Programming,CSE 3.2,A309
-WEDNESDAY,15:00,15:50,Web Programming,CSE 3.2,C103
-TUESDAY,11:00,11:50,Web Programming,CSE 3.2,C307
-WEDNESDAY,17:30,19:10,Web Programming,CSE 3.2,TLGL3
-THURSDAY,09:50,11:30,Web Programming,CSE 3.2,KFR03
-WEDNESDAY,15:50,17:30,Web Programming,CSE 3.2,TLFR2
-MONDAY,15:50,17:30,Web Programming,CSE 3.2,KFL01
+FRIDAY,10:00,10:50,Database Management Systems,CSE 2.1,B404
+THURSDAY,15:00,15:50,Database Management Systems,CSE 2.1,C308
+MONDAY,15:00,15:50,Database Management Systems,CSE 2.1,A310
+MONDAY,09:50,11:30,Database Management Systems,CSE 2.1,JL1
+TUESDAY,15:50,17:30,Database Management Systems,CSE 2.1,JL2
+WEDNESDAY,15:50,17:30,Database Management Systems,CSE 2.1,JL3
+FRIDAY,13:50,15:30,Database Management Systems,CSE 2.1,TLFR3
+FRIDAY,16:00,16:50,Database Management Systems,CSE 2.10,B213
+WEDNESDAY,09:00,09:50,Database Management Systems,CSE 2.10,B107
+MONDAY,13:00,13:50,Database Management Systems,CSE 2.10,B320
+FRIDAY,08:00,09:40,Database Management Systems,CSE 2.10,JL2
+MONDAY,08:00,09:40,Database Management Systems,CSE 2.10,KFL03
+WEDNESDAY,09:50,11:30,Database Management Systems,CSE 2.10,TLGL3
+THURSDAY,08:00,09:40,Database Management Systems,CSE 2.10,KFL01
+THURSDAY,16:00,16:50,Web Programming,CSE 3.5,A202
+SATURDAY,10:00,10:50,Web Programming,CSE 3.5,B401
+TUESDAY,09:00,09:50,Web Programming,CSE 3.5,B107
+THURSDAY,09:50,11:30,Web Programming,CSE 3.5,TLFL3
+SATURDAY,13:50,15:30,Web Programming,CSE 3.5,TLFR2
+TUESDAY,11:50,13:30,Web Programming,CSE 3.5,TLFR1
+SATURDAY,11:50,13:30,Web Programming,CSE 3.5,TLFR5

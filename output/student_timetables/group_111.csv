@@ -1,31 +1,31 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,13:00,13:50,Fourier series and Number theory,Mrs. Dr. Priya Nair,B409
-WEDNESDAY,18:00,18:50,Fourier series and Number theory,Mrs. Dr. Priya Nair,B213
-THURSDAY,11:00,11:50,Fourier series and Number theory,Mrs. Dr. Priya Nair,C103
-THURSDAY,10:00,10:50,Fourier series and Number theory,Mrs. Dr. Priya Nair,B212
-TUESDAY,15:00,15:50,Database Management Systems,New Staff 2 N,B410
-THURSDAY,15:00,15:50,Database Management Systems,New Staff 2 N,B402
-TUESDAY,14:00,14:50,Database Management Systems,New Staff 2 N,A110
-TUESDAY,11:50,13:30,Database Management Systems,New Staff 2 N,KFL01
-MONDAY,17:30,19:10,Database Management Systems,New Staff 2 N,TLFL3
-MONDAY,15:50,17:30,Database Management Systems,New Staff 2 N,JR2
-WEDNESDAY,11:50,13:30,Database Management Systems,New Staff 2 N,JL3
-SATURDAY,11:00,11:50,Object Oriented Programming Using JAVA,New Staff 5 N,A104/105
-SATURDAY,10:00,10:50,Object Oriented Programming Using JAVA,New Staff 5 N,B419
-WEDNESDAY,14:00,14:50,Object Oriented Programming Using JAVA,New Staff 5 N,B322
-MONDAY,13:50,15:30,Object Oriented Programming Using JAVA,New Staff 5 N,TLFR4
-THURSDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Staff 5 N,TLFR4
-MONDAY,09:50,11:30,Object Oriented Programming Using JAVA,New Staff 5 N,TLFR5
-MONDAY,08:00,09:40,Object Oriented Programming Using JAVA,New Staff 5 N,TLGL3
-TUESDAY,09:00,09:50,Computer Networks,HOD CSE(CS),C301
-MONDAY,12:00,12:50,Computer Networks,HOD CSE(CS),C202
-FRIDAY,12:00,12:50,Computer Networks,HOD CSE(CS),A204
-MONDAY,09:50,11:30,Computer Networks,HOD CSE(CS),JR2
-MONDAY,08:00,09:40,Computer Networks,HOD CSE(CS),KFL01
-TUESDAY,09:50,11:30,Computer Networks,HOD CSE(CS),TLFL2
-FRIDAY,15:50,17:30,Computer Networks,HOD CSE(CS),TLFR2
-TUESDAY,08:00,08:50,Cryptography,Dr. Balasubramanian V,B106
-FRIDAY,14:00,14:50,Cryptography,Dr. Balasubramanian V,A302
-WEDNESDAY,10:00,10:50,Cryptography,Dr. Balasubramanian V,A304
-WEDNESDAY,15:50,17:30,Cryptography,Dr. Balasubramanian V,JL1
-SATURDAY,08:00,09:40,Cryptography,Dr. Balasubramanian V,TLFL3
+WEDNESDAY,14:00,14:50,Fourier series and Number theory,Mrs. Dr. Priya Nair,B106
+THURSDAY,14:00,14:50,Fourier series and Number theory,Mrs. Dr. Priya Nair,B210
+WEDNESDAY,10:00,10:50,Fourier series and Number theory,Mrs. Dr. Priya Nair,A211
+TUESDAY,12:00,12:50,Fourier series and Number theory,Mrs. Dr. Priya Nair,A304
+WEDNESDAY,12:00,12:50,Database Management Systems,New Staff 2 N,B411
+THURSDAY,17:00,17:50,Database Management Systems,New Staff 2 N,B106
+FRIDAY,14:00,14:50,Database Management Systems,New Staff 2 N,B325
+THURSDAY,11:50,13:30,Database Management Systems,New Staff 2 N,JL3
+SATURDAY,11:50,13:30,Database Management Systems,New Staff 2 N,KFL01
+SATURDAY,08:00,09:40,Database Management Systems,New Staff 2 N,TLFL3
+WEDNESDAY,17:30,19:10,Database Management Systems,New Staff 2 N,TLFR4
+SATURDAY,15:00,15:50,Object Oriented Programming Using JAVA,New Staff 5 N,B418
+FRIDAY,16:00,16:50,Object Oriented Programming Using JAVA,New Staff 5 N,A308
+WEDNESDAY,13:00,13:50,Object Oriented Programming Using JAVA,New Staff 5 N,B425
+SATURDAY,17:30,19:10,Object Oriented Programming Using JAVA,New Staff 5 N,TLFR2
+WEDNESDAY,08:00,09:40,Object Oriented Programming Using JAVA,New Staff 5 N,TLFL4
+FRIDAY,11:50,13:30,Object Oriented Programming Using JAVA,New Staff 5 N,KFL02
+SATURDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Staff 5 N,TLFL3
+FRIDAY,15:00,15:50,Computer Networks,HOD CSE(CS),B220
+THURSDAY,18:00,18:50,Computer Networks,HOD CSE(CS),A205
+TUESDAY,15:00,15:50,Computer Networks,HOD CSE(CS),B419
+FRIDAY,11:50,13:30,Computer Networks,HOD CSE(CS),JL3
+TUESDAY,08:00,09:40,Computer Networks,HOD CSE(CS),KFL03
+SATURDAY,17:30,19:10,Computer Networks,HOD CSE(CS),JR1
+FRIDAY,17:30,19:10,Computer Networks,HOD CSE(CS),JL1
+THURSDAY,10:00,10:50,Cryptography,Dr. Balasubramanian V,B402
+TUESDAY,17:00,17:50,Cryptography,Dr. Balasubramanian V,B221
+THURSDAY,09:00,09:50,Cryptography,Dr. Balasubramanian V,A309
+TUESDAY,09:50,11:30,Cryptography,Dr. Balasubramanian V,TLFR5
+SATURDAY,09:50,11:30,Cryptography,Dr. Balasubramanian V,JR2

@@ -1,8 +1,15 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,10:00,10:50,Object Oriented Programming Using JAVA,CSE 2.7,B422
-WEDNESDAY,10:00,10:50,Object Oriented Programming Using JAVA,CSE 2.7,B320
-WEDNESDAY,11:00,11:50,Object Oriented Programming Using JAVA,CSE 2.7,A211
-FRIDAY,17:30,19:10,Object Oriented Programming Using JAVA,CSE 2.7,TLFR4
-THURSDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE 2.7,TLFL1
-MONDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE 2.7,KFR01
-THURSDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE 2.7,TLFR4
+MONDAY,18:00,18:50,Object Oriented Programming Using JAVA,CSE 2.2,B408
+FRIDAY,16:00,16:50,Object Oriented Programming Using JAVA,CSE 2.2,B321
+THURSDAY,11:00,11:50,Object Oriented Programming Using JAVA,CSE 2.2,C307
+TUESDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE 2.2,JR1
+THURSDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE 2.2,KFR02
+MONDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSE 2.2,JR2
+THURSDAY,08:00,09:40,Object Oriented Programming Using JAVA,CSE 2.2,TLGL2
+THURSDAY,16:00,16:50,Object Oriented Programming Using JAVA,CSE 2.9,A209
+FRIDAY,10:00,10:50,Object Oriented Programming Using JAVA,CSE 2.9,C307
+FRIDAY,12:00,12:50,Object Oriented Programming Using JAVA,CSE 2.9,B106
+FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE 2.9,TLGL3
+WEDNESDAY,17:30,19:10,Object Oriented Programming Using JAVA,CSE 2.9,TLFR3
+TUESDAY,08:00,09:40,Object Oriented Programming Using JAVA,CSE 2.9,TLGL4
+WEDNESDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSE 2.9,TLFL5

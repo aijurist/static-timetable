@@ -1,23 +1,23 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,15:00,15:50,Analog Circuits –I,Mr. Karthi J,B415
-FRIDAY,12:00,12:50,Analog Circuits –I,Mr. Karthi J,A203
-FRIDAY,09:00,09:50,Analog Circuits –I,Mr. Karthi J,B221
-THURSDAY,11:00,11:50,Electromagnetic Fields,Ms. M.Brenda,B222
-THURSDAY,16:00,16:50,Electromagnetic Fields,Ms. M.Brenda,A109
-WEDNESDAY,16:00,16:50,Electromagnetic Fields,Ms. M.Brenda,C201
-TUESDAY,12:00,12:50,Digital Principles and System Design,Dr. S R Balaji,B401
-SATURDAY,11:00,11:50,Digital Principles and System Design,Dr. S R Balaji,B221
-FRIDAY,16:00,16:50,Digital Principles and System Design,Dr. S R Balaji,B416
-FRIDAY,14:00,14:50,Fourier series and Number theory,Ms. Malathy G,C307
-SATURDAY,16:00,16:50,Fourier series and Number theory,Ms. Malathy G,B415
-THURSDAY,18:00,18:50,Fourier series and Number theory,Ms. Malathy G,B106
-WEDNESDAY,15:00,15:50,Fourier series and Number theory,Ms. Malathy G,B409
-SATURDAY,17:30,19:10,Analog and Digital Circuits Laboratory,Mr. Asokan V,Basic Electronics Lab-1
-WEDNESDAY,17:30,19:10,Analog and Digital Circuits Laboratory,Mr. Asokan V,Basic Electronics Lab-1
-WEDNESDAY,11:50,13:30,Analog and Digital Circuits Laboratory,Mr. Asokan V,Basic Electronics Lab-1
-TUESDAY,13:50,15:30,Analog and Digital Circuits Laboratory,Mr. Asokan V,Basic Electronics Lab-1
-WEDNESDAY,14:00,14:50,Introduction to Python Programming,Mrs. Benazir Begam R,B401
+WEDNESDAY,12:00,12:50,Analog Circuits –I,Mr. Karthi J,B325
+MONDAY,08:00,08:50,Analog Circuits –I,Mr. Karthi J,B222
+FRIDAY,10:00,10:50,Analog Circuits –I,Mr. Karthi J,B422
+MONDAY,14:00,14:50,Electromagnetic Fields,Ms. M.Brenda,C101
+MONDAY,09:00,09:50,Electromagnetic Fields,Ms. M.Brenda,B425
+FRIDAY,09:00,09:50,Electromagnetic Fields,Ms. M.Brenda,B424
+FRIDAY,08:00,08:50,Digital Principles and System Design,Dr. S R Balaji,A202
+TUESDAY,15:00,15:50,Digital Principles and System Design,Dr. S R Balaji,C102
+FRIDAY,16:00,16:50,Digital Principles and System Design,Dr. S R Balaji,B408
+THURSDAY,17:00,17:50,Fourier series and Number theory,Ms. Malathy G,B412
+THURSDAY,09:00,09:50,Fourier series and Number theory,Ms. Malathy G,A103
+FRIDAY,15:00,15:50,Fourier series and Number theory,Ms. Malathy G,A303
+WEDNESDAY,14:00,14:50,Fourier series and Number theory,Ms. Malathy G,B422
+TUESDAY,15:50,17:30,Analog and Digital Circuits Laboratory,Mr. Asokan V,Basic Electronics Lab-1
+TUESDAY,11:50,13:30,Analog and Digital Circuits Laboratory,Mr. Asokan V,Basic Electronics Lab-1
+TUESDAY,17:30,19:10,Analog and Digital Circuits Laboratory,Mr. Asokan V,Basic Electronics Lab-1
+MONDAY,11:50,13:30,Analog and Digital Circuits Laboratory,Mr. Asokan V,Basic Electronics Lab-1
+FRIDAY,11:00,11:50,Introduction to Python Programming,Mrs. Benazir Begam R,A205
+MONDAY,15:50,17:30,Introduction to Python Programming,Mrs. Benazir Begam R,MCT CAD Lab
+TUESDAY,08:00,09:40,Introduction to Python Programming,Mrs. Benazir Begam R,MCT CAD Lab
 THURSDAY,11:50,13:30,Introduction to Python Programming,Mrs. Benazir Begam R,MCT CAD Lab
-TUESDAY,13:50,15:30,Introduction to Python Programming,Mrs. Benazir Begam R,MCT CAD Lab
-WEDNESDAY,08:00,09:40,Introduction to Python Programming,Mrs. Benazir Begam R,MCT CAD Lab
-WEDNESDAY,09:50,11:30,Introduction to Python Programming,Mrs. Benazir Begam R,MCT CAD Lab
+MONDAY,15:00,15:50,Introduction to Python Programming,Mrs. Benazir Begam R,MCT CAD Lab

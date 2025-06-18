@@ -1,8 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,17:00,17:50,Mass Transfer I,CHEM 3.1,B417
-THURSDAY,11:00,11:50,Mass Transfer I,CHEM 3.1,B218
-THURSDAY,18:00,18:50,Mass Transfer I,CHEM 3.1,B320
-TUESDAY,11:50,13:30,Heat Transfer Lab,CHEM 3.1,Thermal Lab 1
+WEDNESDAY,08:00,08:50,Mass Transfer I,CHEM 3.1,B218
+WEDNESDAY,13:00,13:50,Mass Transfer I,CHEM 3.1,C301
+TUESDAY,16:00,16:50,Mass Transfer I,CHEM 3.1,B218
+THURSDAY,09:50,11:30,Heat Transfer Lab,CHEM 3.1,Thermal Lab 1
+MONDAY,11:50,13:30,Heat Transfer Lab,CHEM 3.1,Thermal Lab 2
+MONDAY,15:50,17:30,Heat Transfer Lab,CHEM 3.1,Thermal Lab 1
 MONDAY,17:30,19:10,Heat Transfer Lab,CHEM 3.1,Thermal Lab 1
-FRIDAY,17:30,19:10,Heat Transfer Lab,CHEM 3.1,Thermal Lab 1
-MONDAY,11:50,13:30,Heat Transfer Lab,CHEM 3.1,Thermal Lab 1

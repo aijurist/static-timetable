@@ -1,27 +1,27 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,08:00,08:50,Theory of Computation,Mrs. J.A.Adlin Layola,B325
-WEDNESDAY,15:00,15:50,Theory of Computation,Mrs. J.A.Adlin Layola,A103
-TUESDAY,08:00,08:50,Theory of Computation,Mrs. J.A.Adlin Layola,A308
-MONDAY,12:00,12:50,Theory of Computation,Mrs. J.A.Adlin Layola,B425
-WEDNESDAY,10:00,10:50,Fundamentals of Mobile Computing,Mrs. Jananee V,A310
-WEDNESDAY,18:00,18:50,Fundamentals of Mobile Computing,Mrs. Jananee V,A103
-TUESDAY,09:00,09:50,Fundamentals of Mobile Computing,Mrs. Jananee V,B210
-MONDAY,11:00,11:50,Web Programming,New Staff - 09,B213
-WEDNESDAY,11:00,11:50,Web Programming,New Staff - 09,B401
-FRIDAY,16:00,16:50,Web Programming,New Staff - 09,A110
-THURSDAY,15:50,17:30,Web Programming,New Staff - 09,TLFL4
-MONDAY,15:50,17:30,Web Programming,New Staff - 09,JL1
-THURSDAY,17:30,19:10,Web Programming,New Staff - 09,TLFR5
-THURSDAY,11:50,13:30,Web Programming,New Staff - 09,TLFL2
-THURSDAY,15:00,15:50,Computer Networks,New Staff - 09,A302
-TUESDAY,10:00,10:50,Computer Networks,New Staff - 09,A210
-WEDNESDAY,09:00,09:50,Computer Networks,New Staff - 09,A202
-WEDNESDAY,15:50,17:30,Computer Networks,New Staff - 09,KFR01
-TUESDAY,15:50,17:30,Computer Networks,New Staff - 09,JL1
-FRIDAY,13:50,15:30,Computer Networks,New Staff - 09,TLGL3
-TUESDAY,13:50,15:30,Computer Networks,New Staff - 09,TLGL3
-MONDAY,14:00,14:50,Foundations of Artificial Intelligence,Ms. Divya M,B408
-MONDAY,10:00,10:50,Foundations of Artificial Intelligence,Ms. Divya M,B403
-FRIDAY,13:00,13:50,Foundations of Artificial Intelligence,Ms. Divya M,C308
-TUESDAY,11:50,13:30,Foundations of Artificial Intelligence,Ms. Divya M,JR3
-FRIDAY,17:30,19:10,Foundations of Artificial Intelligence,Ms. Divya M,KFL02
+SATURDAY,18:00,18:50,Theory of Computation,Mrs. J.A.Adlin Layola,B419
+SATURDAY,12:00,12:50,Theory of Computation,Mrs. J.A.Adlin Layola,A304
+FRIDAY,15:00,15:50,Theory of Computation,Mrs. J.A.Adlin Layola,B212
+WEDNESDAY,12:00,12:50,Theory of Computation,Mrs. J.A.Adlin Layola,B419
+FRIDAY,12:00,12:50,Fundamentals of Mobile Computing,Mrs. Jananee V,C201
+WEDNESDAY,17:00,17:50,Fundamentals of Mobile Computing,Mrs. Jananee V,B426
+SATURDAY,13:00,13:50,Fundamentals of Mobile Computing,Mrs. Jananee V,B408
+WEDNESDAY,16:00,16:50,Web Programming,New Staff - 09,A204
+WEDNESDAY,08:00,08:50,Web Programming,New Staff - 09,A208
+FRIDAY,13:00,13:50,Web Programming,New Staff - 09,B418
+WEDNESDAY,09:50,11:30,Web Programming,New Staff - 09,KFL01
+SATURDAY,09:50,11:30,Web Programming,New Staff - 09,KFR02
+SATURDAY,08:00,09:40,Web Programming,New Staff - 09,JR1
+TUESDAY,15:50,17:30,Web Programming,New Staff - 09,JL2
+FRIDAY,10:00,10:50,Computer Networks,New Staff - 09,A304
+THURSDAY,14:00,14:50,Computer Networks,New Staff - 09,B220
+THURSDAY,10:00,10:50,Computer Networks,New Staff - 09,A309
+TUESDAY,09:50,11:30,Computer Networks,New Staff - 09,TLFL3
+TUESDAY,13:50,15:30,Computer Networks,New Staff - 09,KFL03
+FRIDAY,15:50,17:30,Computer Networks,New Staff - 09,KFR03
+SATURDAY,13:50,15:30,Computer Networks,New Staff - 09,TLGL3
+THURSDAY,13:00,13:50,Foundations of Artificial Intelligence,Ms. Divya M,B409
+TUESDAY,13:00,13:50,Foundations of Artificial Intelligence,Ms. Divya M,A210
+FRIDAY,11:00,11:50,Foundations of Artificial Intelligence,Ms. Divya M,B213
+THURSDAY,15:50,17:30,Foundations of Artificial Intelligence,Ms. Divya M,JR3
+SATURDAY,15:50,17:30,Foundations of Artificial Intelligence,Ms. Divya M,JR3

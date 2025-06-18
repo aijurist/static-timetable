@@ -1,15 +1,31 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,17:30,19:10,Advanced Robotic Process Automation,Mr. Dr. N. Duraimurugan,TLGL2
-TUESDAY,09:50,11:30,Advanced Robotic Process Automation,Mr. Dr. N. Duraimurugan,TLGL2
-TUESDAY,13:50,15:30,Advanced Robotic Process Automation,Mr. Dr. N. Duraimurugan,TLGL1
-FRIDAY,13:50,15:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KSL03
-FRIDAY,15:50,17:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KSL03
-MONDAY,11:50,13:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLGL2
-TUESDAY,08:00,08:50,Cloud Computing,Mr.Vasu Vadlamani,B423
-MONDAY,11:00,11:50,Cloud Computing,Mr.Vasu Vadlamani,C101
-TUESDAY,11:50,13:30,Cloud Computing,Mr.Vasu Vadlamani,KFL03
-MONDAY,08:00,09:40,Cloud Computing,Mr.Vasu Vadlamani,JL1
-WEDNESDAY,15:00,15:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. Dr.R.Sabitha,B416
-WEDNESDAY,11:00,11:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. Dr.R.Sabitha,C307
-THURSDAY,11:50,13:30,INFORMATION SECURITY AND MANAGEMENT,Mrs. Dr.R.Sabitha,KFR01
-MONDAY,13:50,15:30,INFORMATION SECURITY AND MANAGEMENT,Mrs. Dr.R.Sabitha,TLFL5
+SATURDAY,17:30,19:10,Python Programming for Design,Mr. Vijayakumar R,TLGL1
+SATURDAY,15:50,17:30,Python Programming for Design,Mr. Vijayakumar R,TLGL2
+SATURDAY,13:50,15:30,Python Programming for Design,Mr. Vijayakumar R,TLGL1
+TUESDAY,09:00,09:50,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,A202
+FRIDAY,16:00,16:50,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,A205
+TUESDAY,13:00,13:50,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,A211
+TUESDAY,09:50,11:30,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,TLGL3
+SATURDAY,08:00,09:40,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,KFL02
+FRIDAY,17:00,17:50,Database Management Systems,Mrs. Kalpana D,B322
+WEDNESDAY,08:00,08:50,Database Management Systems,Mrs. Kalpana D,B212
+WEDNESDAY,15:00,15:50,Database Management Systems,Mrs. Kalpana D,B106
+THURSDAY,13:50,15:30,Database Management Systems,Mrs. Kalpana D,TLFR4
+FRIDAY,13:50,15:30,Database Management Systems,Mrs. Kalpana D,KFL02
+TUESDAY,13:50,15:30,Database Management Systems,Mrs. Kalpana D,TLFR4
+FRIDAY,09:50,11:30,Database Management Systems,Mrs. Kalpana D,TLFR1
+FRIDAY,08:00,08:50,Discrete Mathematics for AI,Mrs. J.Julie,C302
+FRIDAY,09:00,09:50,Discrete Mathematics for AI,Mrs. J.Julie,B402
+THURSDAY,13:00,13:50,Discrete Mathematics for AI,Mrs. J.Julie,B416
+TUESDAY,16:00,16:50,Discrete Mathematics for AI,Mrs. J.Julie,C201
+TUESDAY,08:00,08:50,Design Processes and Perspectives,Mr. S Pradeep Kumar,A311
+SATURDAY,13:00,13:50,Design Processes and Perspectives,Mr. S Pradeep Kumar,A102
+WEDNESDAY,17:00,17:50,Design Processes and Perspectives,Mr. S Pradeep Kumar,B107
+TUESDAY,13:50,15:30,Design Processes and Perspectives,Mr. S Pradeep Kumar,TLFR5
+THURSDAY,17:30,19:10,Design Processes and Perspectives,Mr. S Pradeep Kumar,TLGL1
+WEDNESDAY,10:00,10:50,UI and UX design,New Staff - 01,B221
+THURSDAY,11:00,11:50,UI and UX design,New Staff - 01,C302
+WEDNESDAY,11:50,13:30,UI and UX design,New Staff - 01,TLFL1
+FRIDAY,11:50,13:30,UI and UX design,New Staff - 01,TLFR5
+SATURDAY,09:50,11:30,UI and UX design,New Staff - 01,JL2
+TUESDAY,17:30,19:10,UI and UX design,New Staff - 01,TLFR3

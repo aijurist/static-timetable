@@ -1,10 +1,10 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,13:00,13:50,Information theory and coding,ECE 3.4,B405
-THURSDAY,11:00,11:50,Information theory and coding,ECE 3.4,A210
-THURSDAY,15:00,15:50,Information theory and coding,ECE 3.4,B320
-SATURDAY,14:00,14:50,Multimedia Compression and Networking,ECE 4.2,A311
-FRIDAY,09:00,09:50,Multimedia Compression and Networking,ECE 4.2,C101
-THURSDAY,16:00,16:50,Multimedia Compression and Networking,ECE 4.2,B423
-THURSDAY,09:00,09:50,Multimedia Compression and Networking,ECE 4.4,B418
-SATURDAY,16:00,16:50,Multimedia Compression and Networking,ECE 4.4,C302
-WEDNESDAY,18:00,18:50,Multimedia Compression and Networking,ECE 4.4,C302
+FRIDAY,09:00,09:50,Information theory and coding,ECE 3.4,A305
+SATURDAY,17:00,17:50,Information theory and coding,ECE 3.4,A204
+WEDNESDAY,08:00,08:50,Information theory and coding,ECE 3.4,C103
+FRIDAY,15:00,15:50,Multimedia Compression and Networking,ECE 4.2,A110
+TUESDAY,14:00,14:50,Multimedia Compression and Networking,ECE 4.2,C301
+TUESDAY,12:00,12:50,Multimedia Compression and Networking,ECE 4.2,B426
+THURSDAY,15:00,15:50,Multimedia Compression and Networking,ECE 4.4,C307
+MONDAY,18:00,18:50,Multimedia Compression and Networking,ECE 4.4,A304
+TUESDAY,18:00,18:50,Multimedia Compression and Networking,ECE 4.4,B419

@@ -1,15 +1,11 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,15:00,15:50,Sensors in Automation,R&A 2.1,B321
-SATURDAY,14:00,14:50,Sensors in Automation,R&A 2.1,B403
-TUESDAY,15:00,15:50,Sensors in Automation,R&A 2.1,B211
-THURSDAY,12:00,12:50,AI for Robotics,R&A 3.1,A203
-WEDNESDAY,13:00,13:50,AI for Robotics,R&A 3.1,B222
-WEDNESDAY,14:00,14:50,AI for Robotics,R&A 3.1,A311
-SATURDAY,09:50,11:30,Industrial Automation 
- Laboratory-II,R&A 3.1,Industrial Automation Lab
-SATURDAY,08:00,09:40,Industrial Automation 
- Laboratory-II,R&A 3.1,Industrial Automation Lab
-TUESDAY,11:50,13:30,Industrial Automation 
- Laboratory-II,R&A 3.1,Industrial Automation Lab
-THURSDAY,17:30,19:10,Industrial Automation 
- Laboratory-II,R&A 3.1,Industrial Automation Lab
+SATURDAY,08:00,08:50,Sensors in Automation,R&A 2.1,C301
+WEDNESDAY,13:00,13:50,Sensors in Automation,R&A 2.1,B411
+SATURDAY,13:00,13:50,Sensors in Automation,R&A 2.1,B212
+WEDNESDAY,14:00,14:50,AI for Robotics,R&A 3.1,B419
+THURSDAY,17:00,17:50,AI for Robotics,R&A 3.1,B219
+FRIDAY,15:00,15:50,AI for Robotics,R&A 3.1,B426
+TUESDAY,17:30,19:10,Industrial Automation Laboratory-II,R&A 3.1,Industrial Automation Lab
+SATURDAY,09:50,11:30,Industrial Automation Laboratory-II,R&A 3.1,Industrial Automation Lab
+WEDNESDAY,17:30,19:10,Industrial Automation Laboratory-II,R&A 3.1,Industrial Automation Lab
+TUESDAY,15:50,17:30,Industrial Automation Laboratory-II,R&A 3.1,Industrial Automation Lab

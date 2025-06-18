@@ -1,23 +1,23 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,18:00,18:50,Flight Dynamics,Mr. B Kathiravan,B419
-WEDNESDAY,11:00,11:50,Flight Dynamics,Mr. B Kathiravan,B422
-MONDAY,11:00,11:50,Flight Dynamics,Mr. B Kathiravan,A211
-THURSDAY,18:00,18:50,Fundamentals of UAV Systems and Design,Mr. Prem Anand T P,B415
-WEDNESDAY,10:00,10:50,Fundamentals of UAV Systems and Design,Mr. Prem Anand T P,A202
-FRIDAY,08:00,08:50,Fundamentals of UAV Systems and Design,Mr. Prem Anand T P,C202
-WEDNESDAY,16:00,16:50,Aircraft Structures - II,Mr. Balaji Rajendran,B419
-FRIDAY,15:00,15:50,Aircraft Structures - II,Mr. Balaji Rajendran,A311
-TUESDAY,08:00,08:50,Aircraft Structures - II,Mr. Balaji Rajendran,B320
-MONDAY,11:50,13:30,Aircraft Structures - II,Mr. Balaji Rajendran,Aircraft Structures Lab
-TUESDAY,11:50,13:30,Aircraft Structures - II,Mr. Balaji Rajendran,Aircraft Structures Lab
-FRIDAY,11:50,13:30,Soft Skills – II,Mr. Shebaz Ahmed J P,KFR02
-TUESDAY,13:50,15:30,Soft Skills – II,Mr. Shebaz Ahmed J P,TLFR5
-WEDNESDAY,18:00,18:50,Nptel,Mr. Shebaz Ahmed J P,C202
-THURSDAY,16:00,16:50,Nptel,Mr. Shebaz Ahmed J P,B411
-FRIDAY,11:00,11:50,Nptel,Mr. Shebaz Ahmed J P,A110
-FRIDAY,16:00,16:50,Aircraft Propulsion,HOD AERO,B403
-TUESDAY,16:00,16:50,Aircraft Propulsion,HOD AERO,A310
-THURSDAY,17:00,17:50,Aircraft Propulsion,HOD AERO,A109
-WEDNESDAY,13:00,13:50,Compressible Aerodynamics,Dr. Surendra Bogadi,B423
-MONDAY,15:00,15:50,Compressible Aerodynamics,Dr. Surendra Bogadi,B325
-THURSDAY,13:00,13:50,Compressible Aerodynamics,Dr. Surendra Bogadi,B404
+SATURDAY,18:00,18:50,Flight Dynamics,Mr. B Kathiravan,B403
+THURSDAY,12:00,12:50,Flight Dynamics,Mr. B Kathiravan,C302
+FRIDAY,13:00,13:50,Flight Dynamics,Mr. B Kathiravan,A308
+THURSDAY,10:00,10:50,Fundamentals of UAV Systems and Design,Mr. Prem Anand T P,A208
+SATURDAY,10:00,10:50,Fundamentals of UAV Systems and Design,Mr. Prem Anand T P,A110
+TUESDAY,18:00,18:50,Fundamentals of UAV Systems and Design,Mr. Prem Anand T P,B401
+WEDNESDAY,08:00,08:50,Aircraft Structures - II,Mr. Balaji Rajendran,B107
+WEDNESDAY,09:00,09:50,Aircraft Structures - II,Mr. Balaji Rajendran,C302
+SATURDAY,14:00,14:50,Aircraft Structures - II,Mr. Balaji Rajendran,B212
+TUESDAY,09:50,11:30,Aircraft Structures - II,Mr. Balaji Rajendran,Aircraft Structures Lab
+TUESDAY,08:00,09:40,Aircraft Structures - II,Mr. Balaji Rajendran,Aircraft Structures Lab
+SATURDAY,15:50,17:30,Soft Skills – II,Mr. Shebaz Ahmed J P,TLFR3
+TUESDAY,13:50,15:30,Soft Skills – II,Mr. Shebaz Ahmed J P,TLGL3
+SATURDAY,11:00,11:50,Nptel,Mr. Shebaz Ahmed J P,C202
+TUESDAY,17:00,17:50,Nptel,Mr. Shebaz Ahmed J P,A102
+WEDNESDAY,14:00,14:50,Nptel,Mr. Shebaz Ahmed J P,C302
+FRIDAY,18:00,18:50,Aircraft Propulsion,HOD AERO,B213
+TUESDAY,12:00,12:50,Aircraft Propulsion,HOD AERO,B402
+THURSDAY,11:00,11:50,Aircraft Propulsion,HOD AERO,A204
+SATURDAY,13:00,13:50,Compressible Aerodynamics,Dr. Surendra Bogadi,A302
+FRIDAY,16:00,16:50,Compressible Aerodynamics,Dr. Surendra Bogadi,A311
+WEDNESDAY,11:00,11:50,Compressible Aerodynamics,Dr. Surendra Bogadi,B416

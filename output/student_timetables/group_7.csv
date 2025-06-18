@@ -1,37 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,10:00,10:50,Power Plant Engineering,Mrs. Padmavathi R,C302
-FRIDAY,18:00,18:50,Power Plant Engineering,Mrs. Padmavathi R,A303
-THURSDAY,14:00,14:50,Power Plant Engineering,Mrs. Padmavathi R,B417
-WEDNESDAY,13:50,15:30,Electronic Devices and Circuits Laboratory,Mrs. Dr Sridevi M,Electronic Devices & Circuits Lab
-TUESDAY,15:50,17:30,Electronic Devices and Circuits Laboratory,Mrs. Dr Sridevi M,Electronic Devices & Circuits Lab
-MONDAY,09:00,09:50,Introduction to Machine Learning,Mrs. Dr. V. Geetha Priya,A309
-THURSDAY,17:00,17:50,Introduction to Machine Learning,Mrs. Dr. V. Geetha Priya,A308
-WEDNESDAY,10:00,10:50,Introduction to Machine Learning,Mrs. Dr. V. Geetha Priya,B424
-MONDAY,10:00,10:50,Embedded System Development,Mrs. Dr. J. Kavitha,B220
-TUESDAY,10:00,10:50,Embedded System Development,Mrs. Dr. J. Kavitha,C201
-THURSDAY,15:00,15:50,Embedded System Development,Mrs. Dr. J. Kavitha,A310
-TUESDAY,18:00,18:50,Fourier series and Number theory,Mrs. Dr. Priya Nair,B220
-FRIDAY,16:00,16:50,Fourier series and Number theory,Mrs. Dr. Priya Nair,A204
-MONDAY,08:00,08:50,Fourier series and Number theory,Mrs. Dr. Priya Nair,B212
-THURSDAY,16:00,16:50,Fourier series and Number theory,Mrs. Dr. Priya Nair,B422
-WEDNESDAY,11:50,13:30,IOT for Embedded Applications Laboratory,Mrs. Amutha C,Embedded System Laboratory(EEE)
-TUESDAY,13:50,15:30,IOT for Embedded Applications Laboratory,Mrs. Amutha C,Embedded System Laboratory(EEE)
-MONDAY,13:50,15:30,IOT for Embedded Applications Laboratory,Mrs. Amutha C,Embedded System Laboratory(EEE)
-MONDAY,11:50,13:30,IOT for Embedded Applications Laboratory,Mrs. Amutha C,Embedded System Laboratory(EEE)
-FRIDAY,12:00,12:50,Electromagnetic Theory,Mrs. Dr. V. Geetha Priya,A103
-FRIDAY,11:00,11:50,Electromagnetic Theory,Mrs. Dr. V. Geetha Priya,B424
-THURSDAY,13:00,13:50,Electromagnetic Theory,Mrs. Dr. V. Geetha Priya,B410
-TUESDAY,12:00,12:50,Electrical Machines – I,Mrs. Dr A Rajalakshmi,B210
-THURSDAY,12:00,12:50,Electrical Machines – I,Mrs. Dr A Rajalakshmi,B221
-WEDNESDAY,16:00,16:50,Electrical Machines – I,Mrs. Dr A Rajalakshmi,B221
-TUESDAY,08:00,08:50,Measurements and Instrumentation,Mr. Ron Carter Sb,B411
-FRIDAY,17:00,17:50,Measurements and Instrumentation,Mr. Ron Carter Sb,A211
-FRIDAY,14:00,14:50,Measurements and Instrumentation,Mr. Ron Carter Sb,B408
-TUESDAY,11:00,11:50,Electronic Devices and Circuits,Mrs. Dr.Alice Hepzibah.A,B422
-WEDNESDAY,11:00,11:50,Electronic Devices and Circuits,Mrs. Dr.Alice Hepzibah.A,C301
-MONDAY,11:00,11:50,Electronic Devices and Circuits,Mrs. Dr.Alice Hepzibah.A,C202
-FRIDAY,08:00,08:50,Introduction to Python Programming,Mrs. Sivamani.D,C101
-MONDAY,15:50,17:30,Introduction to Python Programming,Mrs. Sivamani.D,MCT CAD Lab
-MONDAY,13:50,15:30,Introduction to Python Programming,Mrs. Sivamani.D,MCT CAD Lab
-MONDAY,17:30,19:10,Introduction to Python Programming,Mrs. Sivamani.D,MCT CAD Lab
-WEDNESDAY,11:50,13:30,Introduction to Python Programming,Mrs. Sivamani.D,MCT CAD Lab
+TUESDAY,11:00,11:50,Analog and Digital Communication,Mrs. R Bharathy,A202
+TUESDAY,16:00,16:50,Analog and Digital Communication,Mrs. R Bharathy,B426
+THURSDAY,10:00,10:50,Analog and Digital Communication,Mrs. R Bharathy,A102
+TUESDAY,15:00,15:50,Design and Analysis of Algorithms,Ms. Janani M,B212
+SATURDAY,14:00,14:50,Design and Analysis of Algorithms,Ms. Janani M,A109
+SATURDAY,15:00,15:50,Design and Analysis of Algorithms,Ms. Janani M,A209
+THURSDAY,13:50,15:30,Design and Analysis of Algorithms,Ms. Janani M,JL2
+SATURDAY,08:00,09:40,Design and Analysis of Algorithms,Ms. Janani M,KFL03
+TUESDAY,17:00,17:50,Fourier series and Number theory,Mr. Venkatesan J,A204
+WEDNESDAY,15:00,15:50,Fourier series and Number theory,Mr. Venkatesan J,B221
+SATURDAY,18:00,18:50,Fourier series and Number theory,Mr. Venkatesan J,A309
+THURSDAY,18:00,18:50,Fourier series and Number theory,Mr. Venkatesan J,B212
+THURSDAY,16:00,16:50,Database Management Systems,Mrs. A.P.Aruna Jameela,A310
+THURSDAY,09:00,09:50,Database Management Systems,Mrs. A.P.Aruna Jameela,B402
+FRIDAY,09:00,09:50,Database Management Systems,Mrs. A.P.Aruna Jameela,C101
+SATURDAY,08:00,09:40,Database Management Systems,Mrs. A.P.Aruna Jameela,JR2
+WEDNESDAY,17:30,19:10,Database Management Systems,Mrs. A.P.Aruna Jameela,KFL01
+FRIDAY,09:50,11:30,Database Management Systems,Mrs. A.P.Aruna Jameela,KFR03
+THURSDAY,13:50,15:30,Database Management Systems,Mrs. A.P.Aruna Jameela,TLFR5
+WEDNESDAY,12:00,12:50,Object Oriented Programming Using JAVA,Mr. Narayana K E,C301
+FRIDAY,14:00,14:50,Object Oriented Programming Using JAVA,Mr. Narayana K E,B213
+FRIDAY,08:00,08:50,Object Oriented Programming Using JAVA,Mr. Narayana K E,B221
+SATURDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mr. Narayana K E,KFL02
+SATURDAY,11:50,13:30,Object Oriented Programming Using JAVA,Mr. Narayana K E,TLFR3
+FRIDAY,11:50,13:30,Object Oriented Programming Using JAVA,Mr. Narayana K E,KFR02
+TUESDAY,08:00,09:40,Object Oriented Programming Using JAVA,Mr. Narayana K E,JL3
+TUESDAY,10:00,10:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,A204
+THURSDAY,17:00,17:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,C302
+THURSDAY,12:00,12:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,A310
+SATURDAY,09:50,11:30,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,TLGL2
+FRIDAY,15:50,17:30,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,KFL02

@@ -1,7 +1,7 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,13:00,13:50,Economics for Engineers,MECH 3.1,B426
-WEDNESDAY,17:00,17:50,Economics for Engineers,MECH 3.1,B401
-THURSDAY,16:00,16:50,Economics for Engineers,MECH 3.1,C102
-TUESDAY,15:00,15:50,Automation in Manufacturing,MECH 4.1,B404
-THURSDAY,13:00,13:50,Automation in Manufacturing,MECH 4.1,B213
-FRIDAY,10:00,10:50,Automation in Manufacturing,MECH 4.1,B210
+TUESDAY,08:00,08:50,Economics for Engineers,MECH 3.1,B405
+MONDAY,16:00,16:50,Economics for Engineers,MECH 3.1,C202
+THURSDAY,15:00,15:50,Economics for Engineers,MECH 3.1,A310
+MONDAY,09:00,09:50,Automation in Manufacturing,MECH 4.1,A103
+TUESDAY,16:00,16:50,Automation in Manufacturing,MECH 4.1,B418
+TUESDAY,13:00,13:50,Automation in Manufacturing,MECH 4.1,C201

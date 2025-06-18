@@ -1,30 +1,31 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-SATURDAY,18:00,18:50,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,B416
-FRIDAY,14:00,14:50,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,B418
-TUESDAY,10:00,10:50,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,B422
-SATURDAY,15:50,17:30,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,TLFL5
-THURSDAY,15:50,17:30,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,KFL03
-SATURDAY,11:50,13:30,Soft Skills – II,Mr. Dr B Muthu Kumar,JR2
-SATURDAY,09:50,11:30,Soft Skills – II,Mr. Dr B Muthu Kumar,JR3
-THURSDAY,10:00,10:50,Web Programming,Mrs. M.Sandhiya,B213
-WEDNESDAY,16:00,16:50,Web Programming,Mrs. M.Sandhiya,B426
-FRIDAY,15:00,15:50,Web Programming,Mrs. M.Sandhiya,B426
-WEDNESDAY,13:50,15:30,Web Programming,Mrs. M.Sandhiya,TLFL3
-SATURDAY,09:50,11:30,Web Programming,Mrs. M.Sandhiya,JL3
-FRIDAY,11:50,13:30,Web Programming,Mrs. M.Sandhiya,KFL01
-TUESDAY,15:50,17:30,Web Programming,Mrs. M.Sandhiya,KFL03
-SATURDAY,15:00,15:50,Automata Theory & Compiler Design,Mrs. Dr.V.Prasannakumari,C301
-WEDNESDAY,17:00,17:50,Automata Theory & Compiler Design,Mrs. Dr.V.Prasannakumari,B424
-WEDNESDAY,12:00,12:50,Automata Theory & Compiler Design,Mrs. Dr.V.Prasannakumari,C102
-THURSDAY,15:00,15:50,Computer Vision,Mrs. Dr.A.Kalaivani,B401
-FRIDAY,10:00,10:50,Computer Vision,Mrs. Dr.A.Kalaivani,A104/105
-SATURDAY,14:00,14:50,Computer Vision,Mrs. Dr.A.Kalaivani,A104/105
-TUESDAY,13:50,15:30,Computer Vision,Mrs. Dr.A.Kalaivani,KFR02
-SATURDAY,11:50,13:30,Computer Vision,Mrs. Dr.A.Kalaivani,TLFL1
-WEDNESDAY,13:00,13:50,Computer Networks,Mrs. Bhalashri Sethuraman,C101
-THURSDAY,12:00,12:50,Computer Networks,Mrs. Bhalashri Sethuraman,A103
-SATURDAY,08:00,08:50,Computer Networks,Mrs. Bhalashri Sethuraman,C103
-TUESDAY,08:00,09:40,Computer Networks,Mrs. Bhalashri Sethuraman,TLFR3
-THURSDAY,17:30,19:10,Computer Networks,Mrs. Bhalashri Sethuraman,KFL01
-FRIDAY,15:50,17:30,Computer Networks,Mrs. Bhalashri Sethuraman,TLFL5
-TUESDAY,13:50,15:30,Computer Networks,Mrs. Bhalashri Sethuraman,TLFR2
+THURSDAY,15:00,15:50,Fourier series and Number theory,Mr. Dr. K. Mageshwaran,B426
+THURSDAY,09:00,09:50,Fourier series and Number theory,Mr. Dr. K. Mageshwaran,B320
+SATURDAY,18:00,18:50,Fourier series and Number theory,Mr. Dr. K. Mageshwaran,B416
+THURSDAY,17:00,17:50,Fourier series and Number theory,Mr. Dr. K. Mageshwaran,B322
+TUESDAY,09:00,09:50,Database Management Systems,New Staff 4 N,C103
+TUESDAY,16:00,16:50,Database Management Systems,New Staff 4 N,A205
+FRIDAY,08:00,08:50,Database Management Systems,New Staff 4 N,B404
+THURSDAY,11:50,13:30,Database Management Systems,New Staff 4 N,TLFR4
+FRIDAY,09:50,11:30,Database Management Systems,New Staff 4 N,KFL02
+WEDNESDAY,11:50,13:30,Database Management Systems,New Staff 4 N,TLFL4
+TUESDAY,11:50,13:30,Database Management Systems,New Staff 4 N,TLFL5
+FRIDAY,18:00,18:50,Object Oriented Programming Using JAVA,New Staff 3 N,B218
+FRIDAY,17:00,17:50,Object Oriented Programming Using JAVA,New Staff 3 N,B425
+FRIDAY,13:00,13:50,Object Oriented Programming Using JAVA,New Staff 3 N,B415
+WEDNESDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Staff 3 N,TLFL3
+WEDNESDAY,17:30,19:10,Object Oriented Programming Using JAVA,New Staff 3 N,TLGL3
+TUESDAY,17:30,19:10,Object Oriented Programming Using JAVA,New Staff 3 N,TLFR4
+SATURDAY,11:50,13:30,Object Oriented Programming Using JAVA,New Staff 3 N,KFR01
+SATURDAY,16:00,16:50,Computer Networks,Mrs. Subashri Meenakshi G,A202
+THURSDAY,08:00,08:50,Computer Networks,Mrs. Subashri Meenakshi G,A108
+TUESDAY,15:00,15:50,Computer Networks,Mrs. Subashri Meenakshi G,A308
+TUESDAY,09:50,11:30,Computer Networks,Mrs. Subashri Meenakshi G,KFL02
+THURSDAY,09:50,11:30,Computer Networks,Mrs. Subashri Meenakshi G,JR1
+SATURDAY,08:00,09:40,Computer Networks,Mrs. Subashri Meenakshi G,JL1
+WEDNESDAY,13:50,15:30,Computer Networks,Mrs. Subashri Meenakshi G,KFL03
+THURSDAY,14:00,14:50,Cryptography,HOD CSE(CS),B107
+THURSDAY,16:00,16:50,Cryptography,HOD CSE(CS),A302
+WEDNESDAY,10:00,10:50,Cryptography,HOD CSE(CS),A108
+WEDNESDAY,13:50,15:30,Cryptography,HOD CSE(CS),TLGL3
+SATURDAY,13:50,15:30,Cryptography,HOD CSE(CS),TLFL1

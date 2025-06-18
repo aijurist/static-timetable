@@ -13,39 +13,30 @@ public class DepartmentBlockConfig {
     private static final Map<String, Set<String>> BLOCK_TO_DEPARTMENTS = new HashMap<>();
     
     static {
-        // A Block departments
-        addDepartmentToBlock("CSE", "A");
-        addDepartmentToBlock("IT", "A");
-        addDepartmentToBlock("CSD", "A");
-        addDepartmentToBlock("CSBS", "A");
-        addDepartmentToBlock("AIDS", "A");
+        // A Block departments (Computer Science related)
+        addDepartmentToBlock("CSE", "A");        // Computer Science & Engineering
+        addDepartmentToBlock("IT", "A");         // Information Technology
+        addDepartmentToBlock("CSD", "A");        // Computer Science & Design
+        addDepartmentToBlock("CSBS", "A");       // Computer Science & Business Systems
+        addDepartmentToBlock("AIDS", "A");       // AI & Data Science
+        addDepartmentToBlock("CSE-CS", "A");     // Computer Science & Engineering (Cyber Security)
         
-        // B Block departments
-        addDepartmentToBlock("AIML", "B");
-        addDepartmentToBlock("ECE", "B");
-        addDepartmentToBlock("EEE", "B");
-        addDepartmentToBlock("BT", "B");
-        addDepartmentToBlock("FT", "B");
+        // B Block departments (Electronics & Bio related)
+        addDepartmentToBlock("AIML", "B");       // Artificial Intelligence & Machine Learning
+        addDepartmentToBlock("ECE", "B");        // Electronics & Communication Engineering
+        addDepartmentToBlock("EEE", "B");        // Electrical & Electronics Engineering
+        addDepartmentToBlock("BT", "B");         // Biotechnology
+        addDepartmentToBlock("BME", "B");        // Biomedical Engineering
+        addDepartmentToBlock("FT", "B");         // Food Technology
+        addDepartmentToBlock("CHEM", "B");       // Chemical Engineering
         
-        // C Block departments
-        addDepartmentToBlock("MECH", "C");
-        addDepartmentToBlock("CIVIL", "C");
-        addDepartmentToBlock("AERO", "C");
-        addDepartmentToBlock("AUTO", "C");
-        addDepartmentToBlock("R&A", "C");
-        
-        // Additional departments (can be added as needed)
-        // Mechanical related
-        addDepartmentToBlock("MT", "C"); // Mechatronics
-        addDepartmentToBlock("RO", "C"); // Robotics
-        
-        // Biomedical and related
-        addDepartmentToBlock("BM", "B"); // Biomedical
-        addDepartmentToBlock("CH", "B"); // Chemical
-        
-        // Aerospace related  
-        addDepartmentToBlock("AE", "C"); // Aeronautical
-        addDepartmentToBlock("AT", "C"); // Automobile
+        // C Block departments (Mechanical & Civil related)
+        addDepartmentToBlock("MECH", "C");       // Mechanical Engineering
+        addDepartmentToBlock("MCT", "C");        // Mechatronics Engineering
+        addDepartmentToBlock("CIVIL", "C");      // Civil Engineering
+        addDepartmentToBlock("AERO", "C");       // Aeronautical Engineering
+        addDepartmentToBlock("AUTO", "C");       // Automobile Engineering
+        addDepartmentToBlock("R&A", "C");        // Robotics & Automation
     }
     
     private static void addDepartmentToBlock(String department, String block) {
@@ -124,5 +115,36 @@ public class DepartmentBlockConfig {
         }
         
         return sb.toString();
+    }
+    
+    /**
+     * Test method to verify department mappings are working correctly.
+     * Prints debug information about specific departments.
+     */
+    public static void printDebugInfo() {
+        System.out.println("=== DEPARTMENT BLOCK CONFIGURATION DEBUG ===");
+        System.out.println(getPreferenceInfo());
+        
+        // Test some specific departments
+        String[] testDepts = {"CSE", "ECE", "MECH", "MCT", "BME", "CHEM", "UNKNOWN"};
+        String[] testBlocks = {"A", "B", "C"};
+        
+        System.out.println("Department Assignment Tests:");
+        for (String dept : testDepts) {
+            String preferred = getPreferredBlock(dept);
+            System.out.printf("%-8s -> Preferred: %-5s", dept, preferred != null ? preferred : "None");
+            
+            if (hasBlockPreference(dept)) {
+                for (String block : testBlocks) {
+                    boolean isPreferred = isPreferredBlock(dept, block);
+                    System.out.printf(" | %s: %s", block, isPreferred ? "✓" : "✗");
+                }
+            } else {
+                System.out.print(" | No preference defined");
+            }
+            System.out.println();
+        }
+        
+        System.out.println("=== END DEBUG ===");
     }
 } 

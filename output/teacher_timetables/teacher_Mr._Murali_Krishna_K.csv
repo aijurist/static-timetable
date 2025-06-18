@@ -1,16 +1,16 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,13:00,13:50,Introduction to Python Programming,ECE 2.2,C101
-FRIDAY,11:50,13:30,Introduction to Python Programming,ECE 2.2,MCT CAD Lab
-TUESDAY,08:00,08:50,Introduction to Python Programming,ECE 2.2,MCT CAD Lab
-THURSDAY,11:00,11:50,Introduction to Python Programming,ECE 2.2,MCT CAD Lab
-SATURDAY,14:00,14:50,Introduction to Python Programming,ECE 2.2,MCT CAD Lab
-SATURDAY,17:30,19:10,Communication Systems Laboratory,ECE 3.1,Communication Systems Lab
-FRIDAY,09:50,11:30,Communication Systems Laboratory,ECE 3.1,Communication Systems Lab
-TUESDAY,13:50,15:30,Communication Systems Laboratory,ECE 3.1,Communication Systems Lab
-WEDNESDAY,11:50,13:30,Communication Systems Laboratory,ECE 3.1,Communication Systems Lab
-THURSDAY,08:00,08:50,Medical electronics,ECE 3.2,A209
-SATURDAY,12:00,12:50,Medical electronics,ECE 3.2,B415
-WEDNESDAY,17:00,17:50,Medical electronics,ECE 3.2,C202
-SATURDAY,11:00,11:50,Medical electronics,ECE 3.4,B107
-WEDNESDAY,15:00,15:50,Medical electronics,ECE 3.4,B417
-WEDNESDAY,16:00,16:50,Medical electronics,ECE 3.4,A302
+TUESDAY,08:00,08:50,Introduction to Python Programming,ECE 2.2,B107
+MONDAY,10:00,10:50,Introduction to Python Programming,ECE 2.2,MCT CAD Lab
+MONDAY,13:50,15:30,Introduction to Python Programming,ECE 2.2,MCT CAD Lab
+MONDAY,11:50,13:30,Introduction to Python Programming,ECE 2.2,MCT CAD Lab
+MONDAY,11:00,11:50,Introduction to Python Programming,ECE 2.2,MCT CAD Lab
+SATURDAY,15:50,17:30,Communication Systems Laboratory,ECE 3.1,Communication Systems Lab
+FRIDAY,15:50,17:30,Communication Systems Laboratory,ECE 3.1,Communication Systems Lab
+THURSDAY,09:50,11:30,Communication Systems Laboratory,ECE 3.1,Communication Systems Lab
+FRIDAY,17:30,19:10,Communication Systems Laboratory,ECE 3.1,Communication Systems Lab
+FRIDAY,12:00,12:50,Medical electronics,ECE 3.2,B320
+SATURDAY,14:00,14:50,Medical electronics,ECE 3.2,B422
+THURSDAY,16:00,16:50,Medical electronics,ECE 3.2,A104/105
+WEDNESDAY,09:00,09:50,Medical electronics,ECE 3.4,A202
+TUESDAY,15:00,15:50,Medical electronics,ECE 3.4,C301
+WEDNESDAY,12:00,12:50,Medical electronics,ECE 3.4,A303

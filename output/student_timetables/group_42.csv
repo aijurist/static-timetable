@@ -1,26 +1,31 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-THURSDAY,15:00,15:50,Bioprocess Principles,New Staff - 02,C308
-WEDNESDAY,18:00,18:50,Bioprocess Principles,New Staff - 02,B302
-FRIDAY,17:00,17:50,Bioprocess Principles,New Staff - 02,B213
-THURSDAY,16:00,16:50,Immunology,Mr. Dr. Saravanan Periasamy,C201
-WEDNESDAY,10:00,10:50,Immunology,Mr. Dr. Saravanan Periasamy,B325
-WEDNESDAY,11:00,11:50,Immunology,Mr. Dr. Saravanan Periasamy,B425
-TUESDAY,18:00,18:50,Bioinformatics,Mrs. Dr. Sujata Roy,B412
-TUESDAY,10:00,10:50,Bioinformatics,Mrs. Dr. Sujata Roy,B424
-WEDNESDAY,14:00,14:50,Bioinformatics,Mrs. Dr. Sujata Roy,A209
-FRIDAY,16:00,16:50,Separation Process Principles,Mrs. Sangeetha Gandhi S,C201
-SATURDAY,17:00,17:50,Separation Process Principles,Mrs. Sangeetha Gandhi S,B219
-SATURDAY,16:00,16:50,Separation Process Principles,Mrs. Sangeetha Gandhi S,B212
-TUESDAY,08:00,08:50,Separation Process Principles,Mrs. Sangeetha Gandhi S,A109
-WEDNESDAY,11:50,13:30,Bioprocess Laboratory- I,Mrs. Dr.T.Anitha,Bioprocess Lab
-SATURDAY,09:50,11:30,Bioprocess Laboratory- I,Mrs. Dr.T.Anitha,Bioprocess Lab
-TUESDAY,13:50,15:30,Bioprocess Laboratory- I,Mrs. Dr.T.Anitha,Bioprocess Lab
-THURSDAY,11:50,13:30,Bioprocess Laboratory- I,Mrs. Dr.T.Anitha,Bioprocess Lab
-SATURDAY,11:50,13:30,Bioinformatics Laboratory,Mrs. Muneeswari Alias Surya S,Airframe Repair and Aero Engine Lab
-TUESDAY,11:50,13:30,Bioinformatics Laboratory,Mrs. Muneeswari Alias Surya S,Medical Image Processing Lab
-THURSDAY,09:50,11:30,Bioinformatics Laboratory,Mrs. Muneeswari Alias Surya S,Classroom
-THURSDAY,08:00,09:40,Bioinformatics Laboratory,Mrs. Muneeswari Alias Surya S,Chemistry Lab
-THURSDAY,08:00,09:40,Immunology lab,Mr. Dr. Saravanan Periasamy,Immunology Lab
-THURSDAY,09:50,11:30,Immunology lab,Mr. Dr. Saravanan Periasamy,Immunology Lab
-SATURDAY,08:00,09:40,Immunology lab,Mr. Dr. Saravanan Periasamy,Immunology Lab
-SATURDAY,11:50,13:30,Immunology lab,Mr. Dr. Saravanan Periasamy,Immunology Lab
+FRIDAY,08:00,08:50,Computer Vision and Applications,Mr. Srinivasan T,B106
+THURSDAY,14:00,14:50,Computer Vision and Applications,Mr. Srinivasan T,A208
+WEDNESDAY,15:50,17:30,Computer Vision and Applications,Mr. Srinivasan T,KFR01
+SATURDAY,15:50,17:30,Computer Vision and Applications,Mr. Srinivasan T,JR1
+WEDNESDAY,11:00,11:50,Recommendation Systems (Professional Elective I),New Staff - 05,B424
+THURSDAY,18:00,18:50,Recommendation Systems (Professional Elective I),New Staff - 05,C307
+FRIDAY,15:50,17:30,Recommendation Systems (Professional Elective I),New Staff - 05,TLFL1
+FRIDAY,17:30,19:10,Recommendation Systems (Professional Elective I),New Staff - 05,TLGL4
+FRIDAY,13:50,15:30,Build and Deploy Machine Learning Applications,AIML  NS4,TLFR2
+TUESDAY,13:50,15:30,Build and Deploy Machine Learning Applications,AIML  NS4,KSL03
+THURSDAY,10:00,10:50,Deep Learning,Mrs. Divya S,B219
+WEDNESDAY,18:00,18:50,Deep Learning,Mrs. Divya S,B417
+TUESDAY,18:00,18:50,Deep Learning,Mrs. Divya S,C202
+THURSDAY,08:00,09:40,Deep Learning,Mrs. Divya S,KFL03
+SATURDAY,17:30,19:10,Deep Learning,Mrs. Divya S,KFR01
+SATURDAY,09:00,09:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,B107
+SATURDAY,11:00,11:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,B402
+WEDNESDAY,09:00,09:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,C308
+FRIDAY,09:50,11:30,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,TLGL1
+TUESDAY,08:00,09:40,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,JL2
+TUESDAY,11:00,11:50,Computer Networks,Ms. Soundarya M,A204
+THURSDAY,16:00,16:50,Computer Networks,Ms. Soundarya M,B321
+WEDNESDAY,15:00,15:50,Computer Networks,Ms. Soundarya M,B210
+TUESDAY,08:00,09:40,Computer Networks,Ms. Soundarya M,JR1
+SATURDAY,13:50,15:30,Computer Networks,Ms. Soundarya M,KFL03
+THURSDAY,11:50,13:30,Computer Networks,Ms. Soundarya M,KFR02
+FRIDAY,09:50,11:30,Computer Networks,Ms. Soundarya M,TLFL5
+FRIDAY,13:00,13:50,DataEngineering,Dr. Rajasekaran Annamalai,B402
+SATURDAY,10:00,10:50,DataEngineering,Dr. Rajasekaran Annamalai,B219
+THURSDAY,15:00,15:50,DataEngineering,Dr. Rajasekaran Annamalai,A210

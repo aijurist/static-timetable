@@ -1,7 +1,4 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,11:00,11:50,Electromagnetic Fields,ECE 2.6,B222
-THURSDAY,16:00,16:50,Electromagnetic Fields,ECE 2.6,A109
-WEDNESDAY,16:00,16:50,Electromagnetic Fields,ECE 2.6,C201
-WEDNESDAY,14:00,14:50,Analog and Digital Communication,IT 2.1,A108
-SATURDAY,17:00,17:50,Analog and Digital Communication,IT 2.1,B426
-SATURDAY,11:00,11:50,Analog and Digital Communication,IT 2.1,A210
+FRIDAY,18:00,18:50,Analog and Digital Communication,IT 2.1,A302
+THURSDAY,10:00,10:50,Analog and Digital Communication,IT 2.1,B417
+FRIDAY,10:00,10:50,Analog and Digital Communication,IT 2.1,B418

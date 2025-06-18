@@ -1,12 +1,16 @@
 Day,StartTime,EndTime,Course,Group,Room
-SATURDAY,10:00,10:50,Database Management Systems,AIML 2.4,B212
-TUESDAY,14:00,14:50,Database Management Systems,AIML 2.4,A305
-TUESDAY,10:00,10:50,Database Management Systems,AIML 2.4,A310
-WEDNESDAY,09:50,11:30,Database Management Systems,AIML 2.4,JR2
-SATURDAY,15:50,17:30,Database Management Systems,AIML 2.4,KFL02
-WEDNESDAY,15:50,17:30,Database Management Systems,AIML 2.4,TLFL4
-TUESDAY,08:00,09:40,Database Management Systems,AIML 2.4,JL1
-FRIDAY,12:00,12:50,Information Retrieval (Professional Elective V),AIML 4.2,B401
-FRIDAY,16:00,16:50,Information Retrieval (Professional Elective V),AIML 4.2,B218
-FRIDAY,13:50,15:30,Information Retrieval (Professional Elective V),AIML 4.2,KFR02
-THURSDAY,09:50,11:30,Information Retrieval (Professional Elective V),AIML 4.2,TLGL3
+TUESDAY,10:00,10:50,Database Management Systems,AIML 2.1,A103
+THURSDAY,09:00,09:50,Database Management Systems,AIML 2.1,B405
+FRIDAY,15:00,15:50,Database Management Systems,AIML 2.1,A110
+MONDAY,08:00,09:40,Database Management Systems,AIML 2.1,JR3
+MONDAY,09:50,11:30,Database Management Systems,AIML 2.1,JL2
+MONDAY,13:50,15:30,Database Management Systems,AIML 2.1,KFR01
+THURSDAY,09:50,11:30,Database Management Systems,AIML 2.1,TLGL3
+SATURDAY,15:00,15:50,Information Retrieval (Professional Elective V),AIML 4.1,B404
+FRIDAY,09:00,09:50,Information Retrieval (Professional Elective V),AIML 4.1,B302
+SATURDAY,09:50,11:30,Information Retrieval (Professional Elective V),AIML 4.1,TLFL4
+TUESDAY,13:50,15:30,Information Retrieval (Professional Elective V),AIML 4.1,KFR01
+TUESDAY,17:00,17:50,Information Retrieval (Professional Elective V),AIML 4.3,A309
+TUESDAY,11:00,11:50,Information Retrieval (Professional Elective V),AIML 4.3,B107
+WEDNESDAY,15:50,17:30,Information Retrieval (Professional Elective V),AIML 4.3,KFR02
+WEDNESDAY,17:30,19:10,Information Retrieval (Professional Elective V),AIML 4.3,KFL03

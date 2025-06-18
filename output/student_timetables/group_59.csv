@@ -1,22 +1,22 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,14:00,14:50,Environmental Technology,Mr. Dr. Vincent Joseph Kl,B411
-TUESDAY,09:00,09:50,Environmental Technology,Mr. Dr. Vincent Joseph Kl,A211
-TUESDAY,16:00,16:50,Environmental Technology,Mr. Dr. Vincent Joseph Kl,C307
-FRIDAY,15:50,17:30,Process Control Lab,Mr. Dr. S. Sivamani,Process Control Lab
-WEDNESDAY,11:50,13:30,Process Control Lab,Mr. Dr. S. Sivamani,Process Control Lab
-THURSDAY,08:00,09:40,Process Control Lab,Mr. Dr. S. Sivamani,Process Control Lab
-TUESDAY,13:50,15:30,Process Control Lab,Mr. Dr. S. Sivamani,Process Control Lab
-THURSDAY,11:00,11:50,Comprehensive Chemical  Engineering,Mr. Dr. Seelam Narasimha Reddy,C301
-WEDNESDAY,10:00,10:50,Comprehensive Chemical  Engineering,Mr. Dr. Seelam Narasimha Reddy,B426
-MONDAY,11:00,11:50,Comprehensive Chemical  Engineering,Mr. Dr. Seelam Narasimha Reddy,B412
-FRIDAY,12:00,12:50,Computer Applications in Chemical Engineering,Ms. Abhilasha Krishnamurthy,B212
-WEDNESDAY,11:00,11:50,Computer Applications in Chemical Engineering,Ms. Abhilasha Krishnamurthy,A309
-FRIDAY,15:00,15:50,Computer Applications in Chemical Engineering,Ms. Abhilasha Krishnamurthy,B424
+FRIDAY,14:00,14:50,Environmental Technology,Mr. Dr. Vincent Joseph Kl,B425
+TUESDAY,08:00,08:50,Environmental Technology,Mr. Dr. Vincent Joseph Kl,B302
+WEDNESDAY,18:00,18:50,Environmental Technology,Mr. Dr. Vincent Joseph Kl,B212
+WEDNESDAY,13:50,15:30,Process Control Lab,Mr. Dr. S. Sivamani,Process Control Lab
+THURSDAY,17:30,19:10,Process Control Lab,Mr. Dr. S. Sivamani,Process Control Lab
+TUESDAY,11:50,13:30,Process Control Lab,Mr. Dr. S. Sivamani,Process Control Lab
+THURSDAY,15:50,17:30,Process Control Lab,Mr. Dr. S. Sivamani,Process Control Lab
+THURSDAY,13:00,13:50,Comprehensive Chemical  Engineering,Mr. Dr. Seelam Narasimha Reddy,A303
+THURSDAY,08:00,08:50,Comprehensive Chemical  Engineering,Mr. Dr. Seelam Narasimha Reddy,A309
+TUESDAY,09:00,09:50,Comprehensive Chemical  Engineering,Mr. Dr. Seelam Narasimha Reddy,C308
+WEDNESDAY,13:00,13:50,Computer Applications in Chemical Engineering,Ms. Abhilasha Krishnamurthy,B404
+FRIDAY,08:00,08:50,Computer Applications in Chemical Engineering,Ms. Abhilasha Krishnamurthy,B220
+THURSDAY,10:00,10:50,Computer Applications in Chemical Engineering,Ms. Abhilasha Krishnamurthy,A204
 TUESDAY,13:50,15:30,Chemical Reaction Engineering  lab,Mrs. Dr. Mary Rosana Nt,Chemical Reaction Engineering Lab
-WEDNESDAY,11:50,13:30,Chemical Reaction Engineering  lab,Mrs. Dr. Mary Rosana Nt,Chemical Reaction Engineering Lab
-WEDNESDAY,14:00,14:50,Transport Phenomena,Mr. Dr. S. Sivamani,A208
-TUESDAY,08:00,08:50,Transport Phenomena,Mr. Dr. S. Sivamani,A202
-THURSDAY,10:00,10:50,Transport Phenomena,Mr. Dr. S. Sivamani,A305
-MONDAY,16:00,16:50,Transport Phenomena,Mr. Dr. S. Sivamani,B419
-FRIDAY,17:30,19:10,Computer Applications In  Chemical Engineering Lab,Ms. Abhilasha Krishnamurthy,Process Control Lab
-MONDAY,17:30,19:10,Computer Applications In  Chemical Engineering Lab,Ms. Abhilasha Krishnamurthy,Electrical Machines II Lab
+WEDNESDAY,09:50,11:30,Chemical Reaction Engineering  lab,Mrs. Dr. Mary Rosana Nt,Chemical Reaction Engineering Lab
+WEDNESDAY,09:00,09:50,Transport Phenomena,Mr. Dr. S. Sivamani,A308
+MONDAY,17:00,17:50,Transport Phenomena,Mr. Dr. S. Sivamani,C307
+FRIDAY,18:00,18:50,Transport Phenomena,Mr. Dr. S. Sivamani,B426
+TUESDAY,17:00,17:50,Transport Phenomena,Mr. Dr. S. Sivamani,A109
+MONDAY,13:50,15:30,Computer Applications In  Chemical Engineering Lab,Ms. Abhilasha Krishnamurthy,Strength of Materials Lab
+MONDAY,11:50,13:30,Computer Applications In  Chemical Engineering Lab,Ms. Abhilasha Krishnamurthy,Electrical Machines II Lab

@@ -1,32 +1,15 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-SATURDAY,18:00,18:50,Analog and Digital Communication,Mrs. Tamilarasi M,B218
-TUESDAY,13:00,13:50,Analog and Digital Communication,Mrs. Tamilarasi M,C103
-WEDNESDAY,14:00,14:50,Analog and Digital Communication,Mrs. Tamilarasi M,B426
-FRIDAY,11:00,11:50,Design and Analysis of Algorithms,Mrs. Dr.P.Neelaveni,B212
-THURSDAY,09:00,09:50,Design and Analysis of Algorithms,Mrs. Dr.P.Neelaveni,B218
-SATURDAY,09:00,09:50,Design and Analysis of Algorithms,Mrs. Dr.P.Neelaveni,A202
-FRIDAY,13:50,15:30,Design and Analysis of Algorithms,Mrs. Dr.P.Neelaveni,KFL02
-TUESDAY,17:30,19:10,Design and Analysis of Algorithms,Mrs. Dr.P.Neelaveni,TLFR2
-THURSDAY,08:00,08:50,Fourier series and Number theory,Mrs. Arulmozhi Shanmugam,B320
-FRIDAY,10:00,10:50,Fourier series and Number theory,Mrs. Arulmozhi Shanmugam,A103
-SATURDAY,08:00,08:50,Fourier series and Number theory,Mrs. Arulmozhi Shanmugam,C201
-WEDNESDAY,13:00,13:50,Fourier series and Number theory,Mrs. Arulmozhi Shanmugam,A210
-SATURDAY,11:00,11:50,Database Management Systems,Mrs. A.P.Aruna Jameela,C302
-WEDNESDAY,15:00,15:50,Database Management Systems,Mrs. A.P.Aruna Jameela,A304
-WEDNESDAY,10:00,10:50,Database Management Systems,Mrs. A.P.Aruna Jameela,C101
-TUESDAY,13:50,15:30,Database Management Systems,Mrs. A.P.Aruna Jameela,JL2
-THURSDAY,17:30,19:10,Database Management Systems,Mrs. A.P.Aruna Jameela,TLFL4
-FRIDAY,11:50,13:30,Database Management Systems,Mrs. A.P.Aruna Jameela,JL2
-SATURDAY,11:50,13:30,Database Management Systems,Mrs. A.P.Aruna Jameela,JL2
-SATURDAY,10:00,10:50,Object Oriented Programming Using JAVA,Mr. Suresh Kumar K,B220
-SATURDAY,17:00,17:50,Object Oriented Programming Using JAVA,Mr. Suresh Kumar K,C202
-WEDNESDAY,12:00,12:50,Object Oriented Programming Using JAVA,Mr. Suresh Kumar K,B107
-TUESDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mr. Suresh Kumar K,TLFR5
-SATURDAY,11:50,13:30,Object Oriented Programming Using JAVA,Mr. Suresh Kumar K,TLFL3
-FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mr. Suresh Kumar K,JL2
-TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mr. Suresh Kumar K,JL3
-THURSDAY,11:00,11:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,A110
-TUESDAY,12:00,12:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,A309
-WEDNESDAY,11:00,11:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,B221
-FRIDAY,17:30,19:10,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,TLFL2
-THURSDAY,15:50,17:30,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,KFR02
+WEDNESDAY,15:50,17:30,Advanced Robotic Process Automation,Mr. Dr. N. Duraimurugan,TLGL2
+WEDNESDAY,17:30,19:10,Advanced Robotic Process Automation,Mr. Dr. N. Duraimurugan,TLGL2
+MONDAY,11:50,13:30,Advanced Robotic Process Automation,Mr. Dr. N. Duraimurugan,KSL03
+THURSDAY,13:50,15:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLGL1
+WEDNESDAY,13:50,15:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KSL03
+WEDNESDAY,09:50,11:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLGL1
+TUESDAY,17:00,17:50,Cloud Computing,Mr. V Karthick,A104/105
+MONDAY,16:00,16:50,Cloud Computing,Mr. V Karthick,B423
+MONDAY,17:30,19:10,Cloud Computing,Mr. V Karthick,TLFR2
+MONDAY,13:50,15:30,Cloud Computing,Mr. V Karthick,KFL03
+FRIDAY,18:00,18:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. Dr.R.Sabitha,B415
+WEDNESDAY,12:00,12:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. Dr.R.Sabitha,B416
+TUESDAY,11:50,13:30,INFORMATION SECURITY AND MANAGEMENT,Mrs. Dr.R.Sabitha,KFL03
+TUESDAY,08:00,09:40,INFORMATION SECURITY AND MANAGEMENT,Mrs. Dr.R.Sabitha,TLGL3

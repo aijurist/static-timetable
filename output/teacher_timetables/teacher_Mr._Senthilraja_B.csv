@@ -1,14 +1,14 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,15:50,17:30,Industrial Internship,ECE 3.4,Medical Image Processing Lab
-SATURDAY,11:50,13:30,Industrial Internship,ECE 3.4,Aero CAD Lab
-SATURDAY,10:00,10:50,Embedded Systems,ECE 4.3,A209
-FRIDAY,14:00,14:50,Embedded Systems,ECE 4.3,A102
-SATURDAY,15:00,15:50,Embedded Systems,ECE 4.3,B221
+SATURDAY,11:50,13:30,Industrial Internship,ECE 3.4,Fluid Mechanics Lab
+FRIDAY,13:50,15:30,Industrial Internship,ECE 3.4,Basic Electronics Lab-1
+TUESDAY,11:00,11:50,Embedded Systems,ECE 4.3,B219
+MONDAY,09:00,09:50,Embedded Systems,ECE 4.3,A202
+TUESDAY,13:00,13:50,Embedded Systems,ECE 4.3,B422
+WEDNESDAY,11:50,13:30,Embedded Laboratory,ECE 4.1,Embedded System Laboratory (ECE)
 TUESDAY,15:50,17:30,Embedded Laboratory,ECE 4.1,Embedded System Laboratory (ECE)
-TUESDAY,11:50,13:30,Embedded Laboratory,ECE 4.1,Embedded System Laboratory (ECE)
-WEDNESDAY,09:50,11:30,Embedded Laboratory,ECE 4.1,Embedded System Laboratory (ECE)
-SATURDAY,15:50,17:30,Embedded Laboratory,ECE 4.1,Embedded System Laboratory (ECE)
-TUESDAY,17:30,19:10,Embedded Laboratory,ECE 4.4,Embedded System Laboratory (ECE)
-WEDNESDAY,11:50,13:30,Embedded Laboratory,ECE 4.4,Embedded System Laboratory (ECE)
-FRIDAY,15:50,17:30,Embedded Laboratory,ECE 4.4,Embedded System Laboratory (ECE)
+TUESDAY,17:30,19:10,Embedded Laboratory,ECE 4.1,Embedded System Laboratory (ECE)
+WEDNESDAY,15:50,17:30,Embedded Laboratory,ECE 4.1,Embedded System Laboratory (ECE)
+THURSDAY,11:50,13:30,Embedded Laboratory,ECE 4.4,Embedded System Laboratory (ECE)
 FRIDAY,17:30,19:10,Embedded Laboratory,ECE 4.4,Embedded System Laboratory (ECE)
+WEDNESDAY,17:30,19:10,Embedded Laboratory,ECE 4.4,Embedded System Laboratory (ECE)
+FRIDAY,15:50,17:30,Embedded Laboratory,ECE 4.4,Embedded System Laboratory (ECE)

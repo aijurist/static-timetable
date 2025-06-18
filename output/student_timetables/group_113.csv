@@ -1,30 +1,30 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,08:00,08:50,Experimental Aerodynamics,Dr. Surendra Bogadi,B210
-FRIDAY,18:00,18:50,Experimental Aerodynamics,Dr. Surendra Bogadi,A310
-WEDNESDAY,18:00,18:50,Experimental Aerodynamics,Dr. Surendra Bogadi,B211
-WEDNESDAY,08:00,08:50,Fatigue and Fracture,Mr. Balaji Rajendran,B320
-TUESDAY,09:00,09:50,Fatigue and Fracture,Mr. Balaji Rajendran,A302
-WEDNESDAY,14:00,14:50,Fatigue and Fracture,Mr. Balaji Rajendran,A305
-WEDNESDAY,10:00,10:50,Combustion and Flames,Mr. B Kathiravan,B411
-WEDNESDAY,09:00,09:50,Combustion and Flames,Mr. B Kathiravan,C103
-TUESDAY,17:00,17:50,Combustion and Flames,Mr. B Kathiravan,B302
-MONDAY,09:50,11:30,Aircraft structures lab,Mr. Balaji Rajendran,Physics LAB - 1
-THURSDAY,17:30,19:10,Aircraft structures lab,Mr. Balaji Rajendran,Thermal Lab 1
-THURSDAY,11:50,13:30,Aircraft structures lab,Mr. Balaji Rajendran,Embedded System Laboratory (ECE)
-MONDAY,13:50,15:30,Aircraft structures lab,Mr. Balaji Rajendran,Manufacturing Technology I
-FRIDAY,12:00,12:50,Computational Fluid Dynamics,Mr. S Harish,A110
-TUESDAY,16:00,16:50,Computational Fluid Dynamics,Mr. S Harish,A305
-WEDNESDAY,11:00,11:50,Computational Fluid Dynamics,Mr. S Harish,B417
-WEDNESDAY,11:50,13:30,Artificial Intelligence And Machine Learning For Aeronautical Engineering,Mr. Prem Anand T P,Electronic Devices & Circuits Lab
-MONDAY,11:50,13:30,Artificial Intelligence And Machine Learning For Aeronautical Engineering,Mr. Prem Anand T P,Industrial Automation Lab
-MONDAY,09:50,11:30,Artificial Intelligence And Machine Learning For Aeronautical Engineering,Mr. Prem Anand T P,Isaac Asimov Laboratory
-MONDAY,08:00,09:40,Artificial Intelligence And Machine Learning For Aeronautical Engineering,Mr. Prem Anand T P,Electrical Machines I Lab
-FRIDAY,13:50,15:30,Structural And Flow Simulation Laboratory,Mr. S Harish,Mechatronics Lab
-MONDAY,17:30,19:10,Structural And Flow Simulation Laboratory,Mr. S Harish,Industrial Automation Lab
-WEDNESDAY,11:50,13:30,Structural And Flow Simulation Laboratory,Mr. S Harish,VLSI Lab
-TUESDAY,09:50,11:30,Structural And Flow Simulation Laboratory,Mr. S Harish,Power Electronics Lab
-MONDAY,16:00,16:50,Avionics,Mr. Nithiyanantham K K,A108
-FRIDAY,17:00,17:50,Avionics,Mr. Nithiyanantham K K,C201
-THURSDAY,10:00,10:50,Avionics,Mr. Nithiyanantham K K,B409
-MONDAY,08:00,09:40,Avionics,Mr. Nithiyanantham K K,Isaac Asimov Laboratory
-TUESDAY,11:50,13:30,Avionics,Mr. Nithiyanantham K K,Electrical Machines I Lab
+WEDNESDAY,12:00,12:50,Experimental Aerodynamics,Dr. Surendra Bogadi,C101
+THURSDAY,11:00,11:50,Experimental Aerodynamics,Dr. Surendra Bogadi,B302
+TUESDAY,18:00,18:50,Experimental Aerodynamics,Dr. Surendra Bogadi,B412
+FRIDAY,12:00,12:50,Fatigue and Fracture,Mr. Balaji Rajendran,A102
+WEDNESDAY,13:00,13:50,Fatigue and Fracture,Mr. Balaji Rajendran,A108
+WEDNESDAY,10:00,10:50,Fatigue and Fracture,Mr. Balaji Rajendran,A205
+FRIDAY,08:00,08:50,Combustion and Flames,Mr. B Kathiravan,B320
+TUESDAY,08:00,08:50,Combustion and Flames,Mr. B Kathiravan,B419
+TUESDAY,10:00,10:50,Combustion and Flames,Mr. B Kathiravan,B419
+SATURDAY,11:50,13:30,Aircraft structures lab,Mr. Balaji Rajendran,Medical Image Processing Lab
+THURSDAY,13:50,15:30,Aircraft structures lab,Mr. Balaji Rajendran,Isaac Asimov Laboratory
+FRIDAY,15:50,17:30,Aircraft structures lab,Mr. Balaji Rajendran,Food Microbiology Lab
+SATURDAY,09:50,11:30,Aircraft structures lab,Mr. Balaji Rajendran,Machine Shop FF3 - EPL - 3
+TUESDAY,09:00,09:50,Computational Fluid Dynamics,Mr. S Harish,C201
+WEDNESDAY,16:00,16:50,Computational Fluid Dynamics,Mr. S Harish,B210
+SATURDAY,17:00,17:50,Computational Fluid Dynamics,Mr. S Harish,B424
+SATURDAY,08:00,09:40,Artificial Intelligence And Machine Learning For Aeronautical Engineering,Mr. Prem Anand T P,TLFR4
+TUESDAY,13:50,15:30,Artificial Intelligence And Machine Learning For Aeronautical Engineering,Mr. Prem Anand T P,TLFL4
+SATURDAY,11:50,13:30,Artificial Intelligence And Machine Learning For Aeronautical Engineering,Mr. Prem Anand T P,TLFL3
+WEDNESDAY,17:30,19:10,Artificial Intelligence And Machine Learning For Aeronautical Engineering,Mr. Prem Anand T P,KFR03
+TUESDAY,15:50,17:30,Structural And Flow Simulation Laboratory,Mr. S Harish,KFL03
+FRIDAY,17:30,19:10,Structural And Flow Simulation Laboratory,Mr. S Harish,TLFL1
+WEDNESDAY,13:50,15:30,Structural And Flow Simulation Laboratory,Mr. S Harish,KFR03
+WEDNESDAY,08:00,09:40,Structural And Flow Simulation Laboratory,Mr. S Harish,KFR03
+FRIDAY,13:00,13:50,Avionics,Mr. Nithiyanantham K K,C201
+FRIDAY,11:00,11:50,Avionics,Mr. Nithiyanantham K K,B411
+TUESDAY,11:00,11:50,Avionics,Mr. Nithiyanantham K K,B222
+WEDNESDAY,08:00,09:40,Avionics,Mr. Nithiyanantham K K,Aero CAD Lab
+FRIDAY,13:50,15:30,Avionics,Mr. Nithiyanantham K K,Dynamics Lab

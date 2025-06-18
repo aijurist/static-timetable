@@ -1,9 +1,9 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,11:00,11:50,Design and Analysis of Algorithms,IT 2.5,B212
-THURSDAY,09:00,09:50,Design and Analysis of Algorithms,IT 2.5,B218
-SATURDAY,09:00,09:50,Design and Analysis of Algorithms,IT 2.5,A202
-FRIDAY,13:50,15:30,Design and Analysis of Algorithms,IT 2.5,KFL02
-TUESDAY,17:30,19:10,Design and Analysis of Algorithms,IT 2.5,TLFR2
-SATURDAY,08:00,08:50,Automata Theory & Compiler Design,IT 3.2,B412
-WEDNESDAY,13:00,13:50,Automata Theory & Compiler Design,IT 3.2,A109
-FRIDAY,13:00,13:50,Automata Theory & Compiler Design,IT 3.2,B325
+WEDNESDAY,14:00,14:50,Design and Analysis of Algorithms,IT 2.5,B419
+THURSDAY,17:00,17:50,Design and Analysis of Algorithms,IT 2.5,B408
+FRIDAY,10:00,10:50,Design and Analysis of Algorithms,IT 2.5,B219
+SATURDAY,17:30,19:10,Design and Analysis of Algorithms,IT 2.5,KFR02
+SATURDAY,15:50,17:30,Design and Analysis of Algorithms,IT 2.5,JR2
+FRIDAY,08:00,08:50,Automata Theory & Compiler Design,IT 3.2,B417
+THURSDAY,18:00,18:50,Automata Theory & Compiler Design,IT 3.2,B426
+TUESDAY,17:00,17:50,Automata Theory & Compiler Design,IT 3.2,B419

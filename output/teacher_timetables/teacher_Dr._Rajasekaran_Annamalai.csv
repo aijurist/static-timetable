@@ -1,9 +1,9 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,11:00,11:50,Framework for data and visual Analytics,AIML 3.2,C102
-FRIDAY,08:00,08:50,Framework for data and visual Analytics,AIML 3.2,B405
-WEDNESDAY,16:00,16:50,Framework for data and visual Analytics,AIML 3.2,C308
-THURSDAY,08:00,09:40,Framework for data and visual Analytics,AIML 3.2,KFR01
-FRIDAY,11:50,13:30,Framework for data and visual Analytics,AIML 3.2,JL3
-THURSDAY,16:00,16:50,DataEngineering,AIML 3.2,B424
-THURSDAY,12:00,12:50,DataEngineering,AIML 3.2,B412
-TUESDAY,11:00,11:50,DataEngineering,AIML 3.2,B404
+SATURDAY,09:00,09:50,Framework for data and visual Analytics,AIML 3.3,B107
+SATURDAY,11:00,11:50,Framework for data and visual Analytics,AIML 3.3,B402
+WEDNESDAY,09:00,09:50,Framework for data and visual Analytics,AIML 3.3,C308
+FRIDAY,09:50,11:30,Framework for data and visual Analytics,AIML 3.3,TLGL1
+TUESDAY,08:00,09:40,Framework for data and visual Analytics,AIML 3.3,JL2
+FRIDAY,13:00,13:50,DataEngineering,AIML 3.3,B402
+SATURDAY,10:00,10:50,DataEngineering,AIML 3.3,B219
+THURSDAY,15:00,15:50,DataEngineering,AIML 3.3,A210

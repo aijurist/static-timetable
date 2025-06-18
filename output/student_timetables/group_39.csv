@@ -1,24 +1,27 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-SATURDAY,12:00,12:50,Enzyme Technology and Biotransformations,Mr. Arun Kumar S,C102
-SATURDAY,18:00,18:50,Enzyme Technology and Biotransformations,Mr. Arun Kumar S,A209
-TUESDAY,14:00,14:50,Enzyme Technology and Biotransformations,Mr. Arun Kumar S,C301
-TUESDAY,15:00,15:50,Transforms and Applied Partial Differential Equations,Mrs. Yuvashri P,B212
-SATURDAY,11:00,11:50,Transforms and Applied Partial Differential Equations,Mrs. Yuvashri P,B402
-WEDNESDAY,09:00,09:50,Transforms and Applied Partial Differential Equations,Mrs. Yuvashri P,B221
-THURSDAY,15:00,15:50,Transforms and Applied Partial Differential Equations,Mrs. Yuvashri P,C201
-THURSDAY,17:00,17:50,Stoichiometry and Fluid Mechanics,Dr. Vimala Devi,A103
-SATURDAY,15:00,15:50,Stoichiometry and Fluid Mechanics,Dr. Vimala Devi,A109
-TUESDAY,12:00,12:50,Stoichiometry and Fluid Mechanics,Dr. Vimala Devi,B213
-TUESDAY,08:00,08:50,Stoichiometry and Fluid Mechanics,Dr. Vimala Devi,A302
-SATURDAY,13:00,13:50,Molecular Genetics,Mrs. Sinduja M E,B106
-SATURDAY,14:00,14:50,Molecular Genetics,Mrs. Sinduja M E,B320
-WEDNESDAY,10:00,10:50,Molecular Genetics,Mrs. Sinduja M E,A102
-SATURDAY,10:00,10:50,Cell Biology,Mrs. Preethi B,A204
-TUESDAY,09:00,09:50,Cell Biology,Mrs. Preethi B,C101
-THURSDAY,16:00,16:50,Cell Biology,Mrs. Preethi B,B401
-TUESDAY,09:50,11:30,Basic Food and Enzyme Technology Laboratory,New Staff - 02,Microbiology Lab
-FRIDAY,13:50,15:30,Basic Food and Enzyme Technology Laboratory,New Staff - 02,Microbiology Lab
-FRIDAY,11:00,11:50,Analytical Techniques in Biotechnology,Mrs. Muneeswari Alias Surya S,B211
-WEDNESDAY,08:00,08:50,Analytical Techniques in Biotechnology,Mrs. Muneeswari Alias Surya S,A304
-WEDNESDAY,11:50,13:30,Analytical Techniques in Biotechnology,Mrs. Muneeswari Alias Surya S,Biochemistry Lab
-TUESDAY,09:50,11:30,Analytical Techniques in Biotechnology,Mrs. Muneeswari Alias Surya S,Biochemistry Lab
+FRIDAY,17:00,17:50,Theory of Computation,Mrs. J.A.Adlin Layola,B404
+WEDNESDAY,18:00,18:50,Theory of Computation,Mrs. J.A.Adlin Layola,B405
+THURSDAY,09:00,09:50,Theory of Computation,Mrs. J.A.Adlin Layola,A104/105
+SATURDAY,08:00,08:50,Theory of Computation,Mrs. J.A.Adlin Layola,B410
+SATURDAY,18:00,18:50,Fundamentals of Mobile Computing,Mr. V Karthick,B426
+FRIDAY,15:00,15:50,Fundamentals of Mobile Computing,Mr. V Karthick,B409
+WEDNESDAY,10:00,10:50,Fundamentals of Mobile Computing,Mr. V Karthick,A208
+FRIDAY,13:00,13:50,Web Programming,Mrs. J.A.Adlin Layola,B404
+FRIDAY,16:00,16:50,Web Programming,Mrs. J.A.Adlin Layola,B401
+THURSDAY,12:00,12:50,Web Programming,Mrs. J.A.Adlin Layola,B401
+SATURDAY,09:50,11:30,Web Programming,Mrs. J.A.Adlin Layola,TLFR1
+WEDNESDAY,13:50,15:30,Web Programming,Mrs. J.A.Adlin Layola,JR3
+THURSDAY,15:50,17:30,Web Programming,Mrs. J.A.Adlin Layola,TLFR2
+WEDNESDAY,11:50,13:30,Web Programming,Mrs. J.A.Adlin Layola,TLFR4
+FRIDAY,09:00,09:50,Computer Networks,New Staff - 09,B417
+TUESDAY,12:00,12:50,Computer Networks,New Staff - 09,B425
+SATURDAY,12:00,12:50,Computer Networks,New Staff - 09,A308
+SATURDAY,13:50,15:30,Computer Networks,New Staff - 09,JL2
+THURSDAY,13:50,15:30,Computer Networks,New Staff - 09,TLFL3
+FRIDAY,09:50,11:30,Computer Networks,New Staff - 09,TLFR3
+WEDNESDAY,08:00,09:40,Computer Networks,New Staff - 09,TLFL1
+TUESDAY,10:00,10:50,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,B409
+SATURDAY,16:00,16:50,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,B218
+SATURDAY,09:00,09:50,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,B410
+THURSDAY,17:30,19:10,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,KSL03
+SATURDAY,09:50,11:30,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,TLFR3

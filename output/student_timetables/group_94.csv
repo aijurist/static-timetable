@@ -1,22 +1,22 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,12:00,12:50,Comprehension In Biomedical Engineering,Mr. Sankar K,A110
-SATURDAY,16:00,16:50,Rehabilitation Engineering,Mr. Krishnakumar S,C103
-SATURDAY,14:00,14:50,Rehabilitation Engineering,Mr. Krishnakumar S,B405
-THURSDAY,10:00,10:50,Rehabilitation Engineering,Mr. Krishnakumar S,B107
-THURSDAY,15:00,15:50,Research Methods in Health Promotion,Mrs. S.Abiramy,B425
-SATURDAY,09:00,09:50,Hospital Engineering and Management,Mr. Dr.M.C.Jobin Christ,A311
-SATURDAY,12:00,12:50,Hospital Engineering and Management,Mr. Dr.M.C.Jobin Christ,B404
-WEDNESDAY,10:00,10:50,Hospital Engineering and Management,Mr. Dr.M.C.Jobin Christ,B211
-WEDNESDAY,11:00,11:50,Digital Image Processing Techniques,Mrs. Dr. N.Padmasini,B320
-SATURDAY,17:00,17:50,Digital Image Processing Techniques,Mrs. Dr. N.Padmasini,B210
-WEDNESDAY,16:00,16:50,Digital Image Processing Techniques,Mrs. Dr. N.Padmasini,B401
-SATURDAY,09:50,11:30,Digital Image Processing Techniques,Mrs. Dr. N.Padmasini,Medical Image Processing Lab
-TUESDAY,17:30,19:10,Digital Image Processing Techniques,Mrs. Dr. N.Padmasini,Medical Image Processing Lab
-WEDNESDAY,08:00,09:40,Hospital Training,Ms. S. Sudha,Diagnostic and Therapeutic Equipment Lab
+SATURDAY,09:00,09:50,Comprehension In Biomedical Engineering,Mr. Sankar K,B412
+THURSDAY,13:00,13:50,Rehabilitation Engineering,Mr. Krishnakumar S,B411
+THURSDAY,14:00,14:50,Rehabilitation Engineering,Mr. Krishnakumar S,A302
+SATURDAY,16:00,16:50,Rehabilitation Engineering,Mr. Krishnakumar S,B321
+TUESDAY,13:00,13:50,Research Methods in Health Promotion,Mrs. S.Abiramy,B415
+THURSDAY,15:00,15:50,Hospital Engineering and Management,Mr. Dr.M.C.Jobin Christ,A202
+WEDNESDAY,09:00,09:50,Hospital Engineering and Management,Mr. Dr.M.C.Jobin Christ,A108
+TUESDAY,12:00,12:50,Hospital Engineering and Management,Mr. Dr.M.C.Jobin Christ,B212
+TUESDAY,11:00,11:50,Digital Image Processing Techniques,Mrs. Dr. N.Padmasini,B418
+SATURDAY,17:00,17:50,Digital Image Processing Techniques,Mrs. Dr. N.Padmasini,C103
+FRIDAY,12:00,12:50,Digital Image Processing Techniques,Mrs. Dr. N.Padmasini,B412
+WEDNESDAY,13:50,15:30,Digital Image Processing Techniques,Mrs. Dr. N.Padmasini,Medical Image Processing Lab
+THURSDAY,09:50,11:30,Digital Image Processing Techniques,Mrs. Dr. N.Padmasini,Medical Image Processing Lab
 SATURDAY,09:50,11:30,Hospital Training,Ms. S. Sudha,Diagnostic and Therapeutic Equipment Lab
-WEDNESDAY,13:50,15:30,AI-ML-DL in Healthcare,Dr. Glory Precious J,Electronics and Instrumentation
+TUESDAY,13:50,15:30,Hospital Training,Ms. S. Sudha,Diagnostic and Therapeutic Equipment Lab
+FRIDAY,09:50,11:30,AI-ML-DL in Healthcare,Dr. Glory Precious J,Electronics and Instrumentation
 FRIDAY,13:50,15:30,AI-ML-DL in Healthcare,Dr. Glory Precious J,Electronics and Instrumentation
-TUESDAY,11:50,13:30,AI-ML-DL in Healthcare,Dr. Glory Precious J,Electronics and Instrumentation
-TUESDAY,09:50,11:30,AI-ML-DL in Healthcare,Dr. Glory Precious J,Electronics and Instrumentation
-WEDNESDAY,08:00,09:40,AI-ML-DL in Healthcare,Dr. Glory Precious J,Electronics and Instrumentation
-THURSDAY,11:50,13:30,AI-ML-DL in Healthcare,Dr. Glory Precious J,Electronics and Instrumentation
+WEDNESDAY,11:50,13:30,AI-ML-DL in Healthcare,Dr. Glory Precious J,Electronics and Instrumentation
+WEDNESDAY,09:50,11:30,AI-ML-DL in Healthcare,Dr. Glory Precious J,Electronics and Instrumentation
+THURSDAY,15:50,17:30,AI-ML-DL in Healthcare,Dr. Glory Precious J,Electronics and Instrumentation
+THURSDAY,17:30,19:10,AI-ML-DL in Healthcare,Dr. Glory Precious J,Electronics and Instrumentation

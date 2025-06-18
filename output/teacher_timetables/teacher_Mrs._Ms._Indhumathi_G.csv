@@ -1,13 +1,13 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,09:00,09:50,Introduction to Python Programming,ECE 2.3,B415
-THURSDAY,13:50,15:30,Introduction to Python Programming,ECE 2.3,MCT CAD Lab
-WEDNESDAY,13:50,15:30,Introduction to Python Programming,ECE 2.3,MCT CAD Lab
-FRIDAY,13:50,15:30,Introduction to Python Programming,ECE 2.3,MCT CAD Lab
-SATURDAY,17:30,19:10,Introduction to Python Programming,ECE 2.3,MCT CAD Lab
-SATURDAY,11:50,13:30,Communication Systems Laboratory,ECE 3.4,Communication Systems Lab
-THURSDAY,08:00,09:40,Communication Systems Laboratory,ECE 3.4,Communication Systems Lab
-WEDNESDAY,17:30,19:10,Communication Systems Laboratory,ECE 3.4,Communication Systems Lab
-TUESDAY,09:50,11:30,Communication Systems Laboratory,ECE 3.4,Communication Systems Lab
-THURSDAY,12:00,12:50,Information theory and coding,ECE 3.3,B419
-FRIDAY,08:00,08:50,Information theory and coding,ECE 3.3,B419
-THURSDAY,13:00,13:50,Information theory and coding,ECE 3.3,A308
+WEDNESDAY,10:00,10:50,Introduction to Python Programming,ECE 2.3,B425
+MONDAY,17:30,19:10,Introduction to Python Programming,ECE 2.3,MCT CAD Lab
+WEDNESDAY,08:00,09:40,Introduction to Python Programming,ECE 2.3,MCT CAD Lab
+TUESDAY,09:50,11:30,Introduction to Python Programming,ECE 2.3,MCT CAD Lab
+TUESDAY,11:50,13:30,Introduction to Python Programming,ECE 2.3,MCT CAD Lab
+SATURDAY,09:50,11:30,Communication Systems Laboratory,ECE 3.4,Communication Systems Lab
+THURSDAY,13:50,15:30,Communication Systems Laboratory,ECE 3.4,Communication Systems Lab
+SATURDAY,08:00,09:40,Communication Systems Laboratory,ECE 3.4,Communication Systems Lab
+WEDNESDAY,13:50,15:30,Communication Systems Laboratory,ECE 3.4,Communication Systems Lab
+THURSDAY,10:00,10:50,Information theory and coding,ECE 3.3,A310
+FRIDAY,12:00,12:50,Information theory and coding,ECE 3.3,B404
+FRIDAY,17:00,17:50,Information theory and coding,ECE 3.3,B423

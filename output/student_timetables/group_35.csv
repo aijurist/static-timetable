@@ -1,15 +1,27 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,13:50,15:30,Advanced Robotic Process Automation,Mr. Dr. N. Duraimurugan,TLGL2
-FRIDAY,17:30,19:10,Advanced Robotic Process Automation,Mr. Dr. N. Duraimurugan,TLGL1
-MONDAY,11:50,13:30,Advanced Robotic Process Automation,Mr. Dr. N. Duraimurugan,KSL03
-THURSDAY,11:50,13:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KSL03
-MONDAY,13:50,15:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KSL03
-THURSDAY,09:50,11:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLGL1
-MONDAY,11:00,11:50,Cloud Computing,Mr. V Karthick,C103
-FRIDAY,09:00,09:50,Cloud Computing,Mr. V Karthick,B418
-WEDNESDAY,09:50,11:30,Cloud Computing,Mr. V Karthick,TLGL4
-FRIDAY,09:50,11:30,Cloud Computing,Mr. V Karthick,KFL02
-TUESDAY,17:00,17:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. Dr.R.Sabitha,C301
-THURSDAY,08:00,08:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. Dr.R.Sabitha,C103
-WEDNESDAY,15:50,17:30,INFORMATION SECURITY AND MANAGEMENT,Mrs. Dr.R.Sabitha,KFR02
-THURSDAY,13:50,15:30,INFORMATION SECURITY AND MANAGEMENT,Mrs. Dr.R.Sabitha,TLFR2
+SATURDAY,08:00,08:50,Theory of Computation,New Staff - 07,B302
+FRIDAY,15:00,15:50,Theory of Computation,New Staff - 07,B107
+TUESDAY,18:00,18:50,Theory of Computation,New Staff - 07,B411
+WEDNESDAY,18:00,18:50,Theory of Computation,New Staff - 07,B410
+THURSDAY,08:00,08:50,Fundamentals of Mobile Computing,New Staff - 08,B422
+WEDNESDAY,08:00,08:50,Fundamentals of Mobile Computing,New Staff - 08,B412
+THURSDAY,13:00,13:50,Fundamentals of Mobile Computing,New Staff - 08,B425
+FRIDAY,11:00,11:50,Web Programming,Mrs. J.Jinu Sophia,C202
+TUESDAY,10:00,10:50,Web Programming,Mrs. J.Jinu Sophia,A108
+THURSDAY,11:00,11:50,Web Programming,Mrs. J.Jinu Sophia,A204
+SATURDAY,13:50,15:30,Web Programming,Mrs. J.Jinu Sophia,KSL03
+THURSDAY,17:30,19:10,Web Programming,Mrs. J.Jinu Sophia,TLFR5
+THURSDAY,15:50,17:30,Web Programming,Mrs. J.Jinu Sophia,TLGL3
+WEDNESDAY,09:50,11:30,Web Programming,Mrs. J.Jinu Sophia,TLFL4
+FRIDAY,10:00,10:50,Computer Networks,Ms. Sana,C103
+TUESDAY,16:00,16:50,Computer Networks,Ms. Sana,A204
+THURSDAY,10:00,10:50,Computer Networks,Ms. Sana,A311
+TUESDAY,11:50,13:30,Computer Networks,Ms. Sana,JL2
+SATURDAY,17:30,19:10,Computer Networks,Ms. Sana,TLGL2
+SATURDAY,15:50,17:30,Computer Networks,Ms. Sana,TLFR2
+SATURDAY,11:50,13:30,Computer Networks,Ms. Sana,TLFL2
+WEDNESDAY,14:00,14:50,Foundations of Artificial Intelligence,Mrs. Bhavani M,B325
+WEDNESDAY,09:00,09:50,Foundations of Artificial Intelligence,Mrs. Bhavani M,B322
+FRIDAY,16:00,16:50,Foundations of Artificial Intelligence,Mrs. Bhavani M,B416
+FRIDAY,08:00,09:40,Foundations of Artificial Intelligence,Mrs. Bhavani M,KFR03
+THURSDAY,17:30,19:10,Foundations of Artificial Intelligence,Mrs. Bhavani M,KFR02
