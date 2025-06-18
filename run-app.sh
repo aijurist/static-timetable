@@ -234,8 +234,46 @@ if [[ $VERBOSE_LOGGING == true ]]; then
     JAVA_OPTS="$JAVA_OPTS -Dsolver.progress.logging=true"
 fi
 
-# Add JVM performance options for better performance
-JAVA_OPTS="$JAVA_OPTS -XX:+UseG1GC -XX:+UseStringDeduplication -Xmx4g"
+# Detect system resources and optimize JVM performance
+TOTAL_MEM_GB=$(free -g | awk '/^Mem:/ {print $2}')
+CPU_CORES=$(nproc 2>/dev/null || echo "4")
+
+# Configure memory allocation based on available RAM
+if [[ $TOTAL_MEM_GB -gt 64 ]]; then
+    # High-end system (64GB+) - allocate up to 32GB for solver
+    HEAP_SIZE="32g"
+    INIT_HEAP="8g"
+    echo "[INFO] High-end system detected (${TOTAL_MEM_GB}GB RAM) - Using optimized 32GB heap"
+elif [[ $TOTAL_MEM_GB -gt 16 ]]; then
+    # Medium-high system (16-64GB) - allocate up to 12GB
+    HEAP_SIZE="12g"
+    INIT_HEAP="4g"
+    echo "[INFO] Medium-high system detected (${TOTAL_MEM_GB}GB RAM) - Using 12GB heap"
+else
+    # Standard system - use conservative 4GB
+    HEAP_SIZE="4g"
+    INIT_HEAP="1g"
+    echo "[INFO] Standard system detected (${TOTAL_MEM_GB}GB RAM) - Using 4GB heap"
+fi
+
+# Configure GC based on system capabilities
+if [[ $CPU_CORES -gt 16 && $TOTAL_MEM_GB -gt 32 ]]; then
+    # High-end systems: Use G1GC with optimized settings for large heaps
+    JAVA_OPTS="$JAVA_OPTS -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -XX:G1HeapRegionSize=32m"
+    JAVA_OPTS="$JAVA_OPTS -XX:G1NewSizePercent=20 -XX:G1MaxNewSizePercent=40"
+    echo "[INFO] High-performance system (${CPU_CORES} cores) - Using optimized G1GC"
+else
+    # Standard systems: Use G1GC with default settings
+    JAVA_OPTS="$JAVA_OPTS -XX:+UseG1GC"
+    echo "[INFO] Using standard G1GC configuration"
+fi
+
+# Set memory allocation
+JAVA_OPTS="$JAVA_OPTS -Xmx${HEAP_SIZE} -Xms${INIT_HEAP}"
+
+# Additional high-performance optimizations
+JAVA_OPTS="$JAVA_OPTS -XX:+UseStringDeduplication -XX:+OptimizeStringConcat"
+JAVA_OPTS="$JAVA_OPTS -XX:+UseCompressedOops -XX:+TieredCompilation"
 
 # Show final command for debugging
 if [[ $VERBOSE_LOGGING == true ]]; then

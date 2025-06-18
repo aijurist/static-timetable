@@ -1,5 +1,7 @@
 # Timetable Scheduler with OptaPlanner
 
+
+GIST: https://gist.github.com/aijurist/f6af8384bb6c6c21f96a02c72a1b397c
 This project is a Java implementation of a timetable scheduling system using OptaPlanner. It uses a simplified configuration with the OptimizedTimetableConstraintProvider for efficient scheduling.
 
 ## Project Structure
