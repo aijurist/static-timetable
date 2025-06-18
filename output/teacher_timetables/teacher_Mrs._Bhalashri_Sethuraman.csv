@@ -1,0 +1,15 @@
+Day,StartTime,EndTime,Course,Group,Room
+WEDNESDAY,13:00,13:50,Computer Networks,IT 3.1,C101
+THURSDAY,12:00,12:50,Computer Networks,IT 3.1,A103
+SATURDAY,08:00,08:50,Computer Networks,IT 3.1,C103
+TUESDAY,08:00,09:40,Computer Networks,IT 3.1,TLFR3
+THURSDAY,17:30,19:10,Computer Networks,IT 3.1,KFL01
+FRIDAY,15:50,17:30,Computer Networks,IT 3.1,TLFL5
+TUESDAY,13:50,15:30,Computer Networks,IT 3.1,TLFR2
+FRIDAY,10:00,10:50,Cloud and Big Data Analytics,IT 4.1,B411
+FRIDAY,15:00,15:50,Cloud and Big Data Analytics,IT 4.1,A309
+THURSDAY,13:00,13:50,Cloud and Big Data Analytics,IT 4.1,B423
+SATURDAY,09:50,11:30,Cloud and Big Data Analytics,IT 4.1,TLFR5
+SATURDAY,13:50,15:30,Cloud and Big Data Analytics,IT 4.1,TLGL3
+FRIDAY,11:50,13:30,Cloud and Big Data Analytics,IT 4.1,TLFL2
+WEDNESDAY,17:30,19:10,Cloud and Big Data Analytics,IT 4.1,TLFL3

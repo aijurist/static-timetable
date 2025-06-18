@@ -1,0 +1,31 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+THURSDAY,10:00,10:50,Computer Vision and Applications,Mr. Srinivasan T,B416
+TUESDAY,12:00,12:50,Computer Vision and Applications,Mr. Srinivasan T,B218
+SATURDAY,13:50,15:30,Computer Vision and Applications,Mr. Srinivasan T,TLFR2
+THURSDAY,08:00,09:40,Computer Vision and Applications,Mr. Srinivasan T,JL3
+TUESDAY,10:00,10:50,Recommendation Systems (Professional Elective I),New Staff - 05,B321
+FRIDAY,09:00,09:50,Recommendation Systems (Professional Elective I),New Staff - 05,A305
+SATURDAY,11:50,13:30,Recommendation Systems (Professional Elective I),New Staff - 05,TLFR2
+FRIDAY,13:50,15:30,Recommendation Systems (Professional Elective I),New Staff - 05,JL1
+FRIDAY,09:50,11:30,Build and Deploy Machine Learning Applications,AIML  NS4,KFR02
+TUESDAY,17:30,19:10,Build and Deploy Machine Learning Applications,AIML  NS4,KFR03
+SATURDAY,16:00,16:50,Deep Learning,Mrs. Divya S,B410
+FRIDAY,16:00,16:50,Deep Learning,Mrs. Divya S,B408
+WEDNESDAY,14:00,14:50,Deep Learning,Mrs. Divya S,B424
+TUESDAY,15:50,17:30,Deep Learning,Mrs. Divya S,KFR03
+SATURDAY,17:30,19:10,Deep Learning,Mrs. Divya S,TLGL4
+THURSDAY,11:00,11:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,C102
+FRIDAY,08:00,08:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,B405
+WEDNESDAY,16:00,16:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,C308
+THURSDAY,08:00,09:40,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,KFR01
+FRIDAY,11:50,13:30,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,JL3
+THURSDAY,13:00,13:50,Computer Networks,Ms. Soundarya M,A103
+WEDNESDAY,13:00,13:50,Computer Networks,Ms. Soundarya M,B416
+TUESDAY,14:00,14:50,Computer Networks,Ms. Soundarya M,B219
+TUESDAY,17:30,19:10,Computer Networks,Ms. Soundarya M,JL1
+SATURDAY,17:30,19:10,Computer Networks,Ms. Soundarya M,KFL01
+THURSDAY,13:50,15:30,Computer Networks,Ms. Soundarya M,TLFR1
+FRIDAY,09:50,11:30,Computer Networks,Ms. Soundarya M,KFR01
+THURSDAY,16:00,16:50,DataEngineering,Dr. Rajasekaran Annamalai,B424
+THURSDAY,12:00,12:50,DataEngineering,Dr. Rajasekaran Annamalai,B412
+TUESDAY,11:00,11:50,DataEngineering,Dr. Rajasekaran Annamalai,B404

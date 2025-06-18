@@ -1,0 +1,9 @@
+Day,StartTime,EndTime,Course,Group,Room
+MONDAY,16:00,16:50,Computer Architecture,CSE 2.9,A308
+THURSDAY,12:00,12:50,Computer Architecture,CSE 2.9,B401
+FRIDAY,12:00,12:50,Computer Architecture,CSE 2.9,A102
+TUESDAY,13:00,13:50,Fundamentals of Data Science,CSE 2.8,B418
+THURSDAY,18:00,18:50,Fundamentals of Data Science,CSE 2.8,A311
+TUESDAY,12:00,12:50,Fundamentals of Data Science,CSE 2.8,B220
+FRIDAY,08:00,09:40,Fundamentals of Data Science,CSE 2.8,TLFL2
+MONDAY,13:50,15:30,Fundamentals of Data Science,CSE 2.8,TLFR5

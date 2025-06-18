@@ -1,0 +1,23 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+MONDAY,11:50,13:30,COMPREHENSION,Dr. Ramesh G,Isaac Asimov Laboratory
+MONDAY,08:00,09:40,COMPREHENSION,Dr. Ramesh G,Thermal Lab 2
+MONDAY,18:00,18:50,Automobile Engineering,Dr. Ramkumar S,B405
+WEDNESDAY,17:00,17:50,Automobile Engineering,Dr. Ramkumar S,A108
+WEDNESDAY,15:00,15:50,Automobile Engineering,Dr. Ramkumar S,A203
+THURSDAY,17:00,17:50,Automation in Manufacturing,Mr. S. Panneer Selvan,C102
+WEDNESDAY,09:00,09:50,Automation in Manufacturing,Mr. S. Panneer Selvan,B418
+WEDNESDAY,11:00,11:50,Automation in Manufacturing,Mr. S. Panneer Selvan,B106
+FRIDAY,18:00,18:50,Mechatronics,Mr. Arun Prakash N,B405
+THURSDAY,09:00,09:50,Mechatronics,Mr. Arun Prakash N,A311
+FRIDAY,15:00,15:50,Mechatronics,Mr. Arun Prakash N,B412
+MONDAY,09:50,11:30,Mechatronics,Mr. Arun Prakash N,Mechatronics Lab
+MONDAY,11:50,13:30,Mechatronics,Mr. Arun Prakash N,Mechatronics Lab
+WEDNESDAY,16:00,16:50,Supply Chain and Logistics Management,Mr. Dr.A.Paramasivam,A109
+THURSDAY,08:00,08:50,Supply Chain and Logistics Management,Mr. Dr.A.Paramasivam,A309
+FRIDAY,12:00,12:50,Supply Chain and Logistics Management,Mr. Dr.A.Paramasivam,C101
+THURSDAY,12:00,12:50,Non-Destructive Testing and Evaluation,Mr. Dr.S.Dhandapani,B402
+TUESDAY,12:00,12:50,Non-Destructive Testing and Evaluation,Mr. Dr.S.Dhandapani,C301
+THURSDAY,11:00,11:50,Non-Destructive Testing and Evaluation,Mr. Dr.S.Dhandapani,A104/105
+FRIDAY,14:00,14:50,Product Life Cycle Management,Mr. Dr. S Senthil Murugan,A203
+TUESDAY,10:00,10:50,Product Life Cycle Management,Mr. Dr. S Senthil Murugan,A304
+MONDAY,14:00,14:50,Product Life Cycle Management,Mr. Dr. S Senthil Murugan,C102

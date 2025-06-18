@@ -6,6 +6,7 @@ import org.optaplanner.core.api.score.stream.ConstraintFactory;
 import org.optaplanner.core.api.score.stream.ConstraintProvider;
 import org.optaplanner.core.api.score.stream.Joiners;
 import org.timetable.config.TimetableConfig;
+import org.timetable.config.DepartmentBlockConfig;
 import org.timetable.domain.*;
 import org.timetable.persistence.CourseLabMappingUtil;
 
@@ -40,6 +41,9 @@ public class TimetableConstraintProvider implements ConstraintProvider {
                 
                 // Core lab priority preferences (prefer lab_1 over lab_2 over lab_3)
                 coreLabPriorityPreference(constraintFactory),
+                
+                // Department block preferences (minimize student travel time)
+                departmentBlockPreference(constraintFactory),
                 
                 teacherMaxWeeklyHours(constraintFactory),
                 teacherWorkdaySpan(constraintFactory),
@@ -209,6 +213,22 @@ public class TimetableConstraintProvider implements ConstraintProvider {
                                 lesson.getCourse().getCode(), 
                                 lesson.getRoom().getDescription()))
                 .asConstraint("Core lab priority preference");
+    }
+
+    /**
+     * SOFT: Prefer assigning theory/tutorial sessions to rooms in the department's preferred block
+     * to minimize student travel time between classes.
+     */
+    private Constraint departmentBlockPreference(ConstraintFactory constraintFactory) {
+        return constraintFactory.forEach(Lesson.class)
+                .filter(lesson -> lesson.requiresTheoryRoom()) // Only theory and tutorial sessions
+                .filter(lesson -> lesson.getRoom() != null && lesson.getStudentGroup() != null)
+                .filter(lesson -> DepartmentBlockConfig.hasBlockPreference(lesson.getStudentGroup().getDepartment()))
+                .penalize(HardSoftScore.ONE_SOFT.multiply(10), 
+                        lesson -> DepartmentBlockConfig.getBlockPreferencePenalty(
+                                lesson.getStudentGroup().getDepartment(), 
+                                lesson.getRoom().getBlock()))
+                .asConstraint("Department block preference");
     }
 
     private Constraint teacherMaxWeeklyHours(ConstraintFactory constraintFactory) {

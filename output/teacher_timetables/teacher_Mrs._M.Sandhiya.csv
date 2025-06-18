@@ -1,0 +1,15 @@
+Day,StartTime,EndTime,Course,Group,Room
+THURSDAY,10:00,10:50,Web Programming,IT 3.1,B213
+WEDNESDAY,16:00,16:50,Web Programming,IT 3.1,B426
+FRIDAY,15:00,15:50,Web Programming,IT 3.1,B426
+WEDNESDAY,13:50,15:30,Web Programming,IT 3.1,TLFL3
+SATURDAY,09:50,11:30,Web Programming,IT 3.1,JL3
+FRIDAY,11:50,13:30,Web Programming,IT 3.1,KFL01
+TUESDAY,15:50,17:30,Web Programming,IT 3.1,KFL03
+FRIDAY,11:00,11:50,Web Programming,IT 3.4,C103
+WEDNESDAY,11:00,11:50,Web Programming,IT 3.4,B321
+FRIDAY,10:00,10:50,Web Programming,IT 3.4,B220
+THURSDAY,13:50,15:30,Web Programming,IT 3.4,KFR03
+WEDNESDAY,08:00,09:40,Web Programming,IT 3.4,TLGL4
+TUESDAY,17:30,19:10,Web Programming,IT 3.4,KFR02
+SATURDAY,11:50,13:30,Web Programming,IT 3.4,JL3

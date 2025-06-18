@@ -1,0 +1,27 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+FRIDAY,10:00,10:50,Theory of Computation,New Staff - 07,B222
+THURSDAY,14:00,14:50,Theory of Computation,New Staff - 07,A108
+FRIDAY,11:00,11:50,Theory of Computation,New Staff - 07,A311
+THURSDAY,17:00,17:50,Theory of Computation,New Staff - 07,A305
+FRIDAY,16:00,16:50,Fundamentals of Mobile Computing,New Staff - 08,B211
+THURSDAY,11:00,11:50,Fundamentals of Mobile Computing,New Staff - 08,B302
+FRIDAY,18:00,18:50,Fundamentals of Mobile Computing,New Staff - 08,B411
+MONDAY,12:00,12:50,Web Programming,Mrs. J.Jinu Sophia,B409
+MONDAY,13:00,13:50,Web Programming,Mrs. J.Jinu Sophia,B409
+MONDAY,16:00,16:50,Web Programming,Mrs. J.Jinu Sophia,A110
+WEDNESDAY,17:30,19:10,Web Programming,Mrs. J.Jinu Sophia,JL1
+TUESDAY,13:50,15:30,Web Programming,Mrs. J.Jinu Sophia,TLFR3
+FRIDAY,13:50,15:30,Web Programming,Mrs. J.Jinu Sophia,TLFL3
+THURSDAY,08:00,09:40,Web Programming,Mrs. J.Jinu Sophia,TLFR4
+THURSDAY,15:00,15:50,Computer Networks,Ms. Sana,B424
+TUESDAY,09:00,09:50,Computer Networks,Ms. Sana,B220
+TUESDAY,10:00,10:50,Computer Networks,Ms. Sana,A311
+WEDNESDAY,13:50,15:30,Computer Networks,Ms. Sana,KFL02
+TUESDAY,11:50,13:30,Computer Networks,Ms. Sana,KFR03
+TUESDAY,13:50,15:30,Computer Networks,Ms. Sana,TLFL4
+WEDNESDAY,08:00,09:40,Computer Networks,Ms. Sana,TLFL1
+MONDAY,18:00,18:50,Foundations of Artificial Intelligence,Mrs. Bhavani M,B418
+TUESDAY,08:00,08:50,Foundations of Artificial Intelligence,Mrs. Bhavani M,C307
+WEDNESDAY,11:00,11:50,Foundations of Artificial Intelligence,Mrs. Bhavani M,B211
+MONDAY,13:50,15:30,Foundations of Artificial Intelligence,Mrs. Bhavani M,KFL02
+TUESDAY,11:50,13:30,Foundations of Artificial Intelligence,Mrs. Bhavani M,TLGL3

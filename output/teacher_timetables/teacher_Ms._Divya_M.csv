@@ -1,0 +1,13 @@
+Day,StartTime,EndTime,Course,Group,Room
+MONDAY,08:00,08:50,Object Oriented Programming Using JAVA,CSE 2.5,B411
+WEDNESDAY,17:00,17:50,Object Oriented Programming Using JAVA,CSE 2.5,C201
+TUESDAY,09:00,09:50,Object Oriented Programming Using JAVA,CSE 2.5,B404
+THURSDAY,09:50,11:30,Object Oriented Programming Using JAVA,CSE 2.5,KFL03
+TUESDAY,09:50,11:30,Object Oriented Programming Using JAVA,CSE 2.5,JR3
+THURSDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE 2.5,JL1
+WEDNESDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE 2.5,TLFL1
+MONDAY,14:00,14:50,Foundations of Artificial Intelligence,CSE 3.4,B408
+MONDAY,10:00,10:50,Foundations of Artificial Intelligence,CSE 3.4,B403
+FRIDAY,13:00,13:50,Foundations of Artificial Intelligence,CSE 3.4,C308
+TUESDAY,11:50,13:30,Foundations of Artificial Intelligence,CSE 3.4,JR3
+FRIDAY,17:30,19:10,Foundations of Artificial Intelligence,CSE 3.4,KFL02

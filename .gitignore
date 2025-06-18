@@ -27,7 +27,7 @@ venv/
 .env
 
 # Generated / temporary data
-output/
+#output/
 
 
 # OS generated files

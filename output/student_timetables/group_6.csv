@@ -1,0 +1,37 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+TUESDAY,17:00,17:50,Power Plant Engineering,Mr. Dr. A. Selvaraj,B325
+THURSDAY,12:00,12:50,Power Plant Engineering,Mr. Dr. A. Selvaraj,A202
+TUESDAY,14:00,14:50,Power Plant Engineering,Mr. Dr. A. Selvaraj,A205
+WEDNESDAY,09:50,11:30,Electronic Devices and Circuits Laboratory,Dr. A.Sangari,Electronic Devices & Circuits Lab
+THURSDAY,13:50,15:30,Electronic Devices and Circuits Laboratory,Dr. A.Sangari,Electronic Devices & Circuits Lab
+WEDNESDAY,08:00,08:50,Introduction to Machine Learning,Mrs. Dr. V. Geetha Priya,B219
+TUESDAY,18:00,18:50,Introduction to Machine Learning,Mrs. Dr. V. Geetha Priya,B416
+WEDNESDAY,09:00,09:50,Introduction to Machine Learning,Mrs. Dr. V. Geetha Priya,B219
+FRIDAY,11:00,11:50,Embedded System Development,Mrs. Dr. J. Kavitha,B222
+MONDAY,14:00,14:50,Embedded System Development,Mrs. Dr. J. Kavitha,B415
+WEDNESDAY,18:00,18:50,Embedded System Development,Mrs. Dr. J. Kavitha,C201
+WEDNESDAY,17:00,17:50,Fourier series and Number theory,Mr. V James,B411
+FRIDAY,09:00,09:50,Fourier series and Number theory,Mr. V James,B404
+WEDNESDAY,16:00,16:50,Fourier series and Number theory,Mr. V James,B422
+FRIDAY,16:00,16:50,Fourier series and Number theory,Mr. V James,B405
+MONDAY,08:00,09:40,IOT for Embedded Applications Laboratory,Mrs. Amutha C,Embedded System Laboratory(EEE)
+THURSDAY,13:50,15:30,IOT for Embedded Applications Laboratory,Mrs. Amutha C,Embedded System Laboratory(EEE)
+WEDNESDAY,09:50,11:30,IOT for Embedded Applications Laboratory,Mrs. Amutha C,Embedded System Laboratory(EEE)
+FRIDAY,13:50,15:30,IOT for Embedded Applications Laboratory,Mrs. Amutha C,Embedded System Laboratory(EEE)
+MONDAY,15:00,15:50,Electromagnetic Theory,Mrs. Anto Sheeba J,B409
+THURSDAY,09:00,09:50,Electromagnetic Theory,Mrs. Anto Sheeba J,B325
+TUESDAY,10:00,10:50,Electromagnetic Theory,Mrs. Anto Sheeba J,C307
+THURSDAY,08:00,08:50,Electrical Machines – I,Dr. A.Sangari,A204
+THURSDAY,10:00,10:50,Electrical Machines – I,Dr. A.Sangari,B321
+FRIDAY,18:00,18:50,Electrical Machines – I,Dr. A.Sangari,B106
+WEDNESDAY,13:00,13:50,Measurements and Instrumentation,Dr. Dhandayuthapani S,B210
+MONDAY,17:00,17:50,Measurements and Instrumentation,Dr. Dhandayuthapani S,B422
+FRIDAY,10:00,10:50,Measurements and Instrumentation,Dr. Dhandayuthapani S,A110
+FRIDAY,13:00,13:50,Electronic Devices and Circuits,Mrs. Dr Sridevi M,B213
+WEDNESDAY,12:00,12:50,Electronic Devices and Circuits,Mrs. Dr Sridevi M,B211
+THURSDAY,17:00,17:50,Electronic Devices and Circuits,Mrs. Dr Sridevi M,A303
+THURSDAY,18:00,18:50,Introduction to Python Programming,Mrs. Aswini A,B405
+MONDAY,09:50,11:30,Introduction to Python Programming,Mrs. Aswini A,MCT CAD Lab
+TUESDAY,11:50,13:30,Introduction to Python Programming,Mrs. Aswini A,MCT CAD Lab
+MONDAY,08:00,09:40,Introduction to Python Programming,Mrs. Aswini A,MCT CAD Lab
+MONDAY,11:50,13:30,Introduction to Python Programming,Mrs. Aswini A,MCT CAD Lab

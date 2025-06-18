@@ -1,0 +1,27 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+TUESDAY,11:00,11:50,Manufacturing Technology I,Mr. Dr. A. Rajkumar,B416
+THURSDAY,15:00,15:50,Manufacturing Technology I,Mr. Dr. A. Rajkumar,B423
+WEDNESDAY,17:00,17:50,Manufacturing Technology I,Mr. Dr. A. Rajkumar,B222
+WEDNESDAY,18:00,18:50,Kinematics of Machinery,Mr. Dr.S.Arulmurugan,A308
+THURSDAY,12:00,12:50,Kinematics of Machinery,Mr. Dr.S.Arulmurugan,A204
+WEDNESDAY,14:00,14:50,Kinematics of Machinery,Mr. Dr.S.Arulmurugan,B403
+MONDAY,15:50,17:30,Manufacturing Technology Laboratory I,Mr. Dr.S.Dhandapani,Manufacturing Technology I
+MONDAY,17:30,19:10,Manufacturing Technology Laboratory I,Mr. Dr.S.Dhandapani,Manufacturing Technology I
+TUESDAY,16:00,16:50,Strength of Materials,Mr. Hariram S,A309
+FRIDAY,14:00,14:50,Strength of Materials,Mr. Hariram S,B219
+FRIDAY,15:00,15:50,Strength of Materials,Mr. Hariram S,C307
+MONDAY,08:00,09:40,Strength of Materials,Mr. Hariram S,Strength of Materials Lab
+MONDAY,09:50,11:30,Strength of Materials,Mr. Hariram S,Strength of Materials Lab
+THURSDAY,17:00,17:50,Transforms and Statistics,Dr. Vikram S T,A208
+MONDAY,12:00,12:50,Transforms and Statistics,Dr. Vikram S T,B320
+FRIDAY,11:00,11:50,Transforms and Statistics,Dr. Vikram S T,B321
+TUESDAY,08:00,09:40,Transforms and Statistics,Dr. Vikram S T,Food Processing and Preservation Lab
+MONDAY,08:00,09:40,Transforms and Statistics,Dr. Vikram S T,Industrial Automation Lab
+TUESDAY,12:00,12:50,Engineering Thermodynamics,Mr. Dr. S. Sekar,B320
+MONDAY,15:00,15:50,Engineering Thermodynamics,Mr. Dr. S. Sekar,C302
+MONDAY,13:00,13:50,Engineering Thermodynamics,Mr. Dr. S. Sekar,C201
+TUESDAY,18:00,18:50,Engineering Thermodynamics,Mr. Dr. S. Sekar,C308
+MONDAY,09:50,11:30,Python Programming for Machine Learning,Mr. Vinoth Babu N,DSP Lab
+FRIDAY,17:30,19:10,Python Programming for Machine Learning,Mr. Vinoth Babu N,DSP Lab
+TUESDAY,08:00,09:40,Python Programming for Machine Learning,Mr. Vinoth Babu N,DSP Lab
+FRIDAY,11:50,13:30,Python Programming for Machine Learning,Mr. Vinoth Babu N,DSP Lab

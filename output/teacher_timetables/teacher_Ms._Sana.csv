@@ -1,0 +1,20 @@
+Day,StartTime,EndTime,Course,Group,Room
+MONDAY,11:00,11:50,Database Management Systems,CSE 2.9,A109
+MONDAY,09:00,09:50,Database Management Systems,CSE 2.9,B424
+THURSDAY,17:00,17:50,Database Management Systems,CSE 2.9,B408
+THURSDAY,09:50,11:30,Database Management Systems,CSE 2.9,TLFL2
+FRIDAY,08:00,09:40,Database Management Systems,CSE 2.9,TLFR2
+MONDAY,11:50,13:30,Database Management Systems,CSE 2.9,KFL01
+MONDAY,13:50,15:30,Database Management Systems,CSE 2.9,TLFL1
+FRIDAY,11:00,11:50,Fundamentals of Data Science,CSE 2.3,B426
+FRIDAY,10:00,10:50,Fundamentals of Data Science,CSE 2.3,C102
+MONDAY,08:00,08:50,Fundamentals of Data Science,CSE 2.3,B424
+WEDNESDAY,11:50,13:30,Fundamentals of Data Science,CSE 2.3,TLFL2
+FRIDAY,13:50,15:30,Fundamentals of Data Science,CSE 2.3,JR3
+THURSDAY,15:00,15:50,Computer Networks,CSE 3.5,B424
+TUESDAY,09:00,09:50,Computer Networks,CSE 3.5,B220
+TUESDAY,10:00,10:50,Computer Networks,CSE 3.5,A311
+WEDNESDAY,13:50,15:30,Computer Networks,CSE 3.5,KFL02
+TUESDAY,11:50,13:30,Computer Networks,CSE 3.5,KFR03
+TUESDAY,13:50,15:30,Computer Networks,CSE 3.5,TLFL4
+WEDNESDAY,08:00,09:40,Computer Networks,CSE 3.5,TLFL1

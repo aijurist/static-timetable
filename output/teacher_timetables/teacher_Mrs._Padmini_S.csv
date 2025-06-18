@@ -1,0 +1,18 @@
+Day,StartTime,EndTime,Course,Group,Room
+FRIDAY,15:00,15:50,Digital Logic and Computer Architecture,IT 2.2,A108
+TUESDAY,11:00,11:50,Digital Logic and Computer Architecture,IT 2.2,C103
+FRIDAY,08:00,08:50,Digital Logic and Computer Architecture,IT 2.2,A310
+WEDNESDAY,15:50,17:30,Digital Logic and Computer Architecture,IT 2.2,TLFR5
+THURSDAY,08:00,09:40,Digital Logic and Computer Architecture,IT 2.2,TLFL2
+SATURDAY,13:00,13:50,Digital Logic and Computer Architecture,IT 2.4,B426
+FRIDAY,16:00,16:50,Digital Logic and Computer Architecture,IT 2.4,C301
+WEDNESDAY,15:00,15:50,Digital Logic and Computer Architecture,IT 2.4,A108
+WEDNESDAY,11:50,13:30,Digital Logic and Computer Architecture,IT 2.4,TLFL1
+THURSDAY,13:50,15:30,Digital Logic and Computer Architecture,IT 2.4,TLFL3
+FRIDAY,09:00,09:50,Computer Networks,IT 3.2,B417
+WEDNESDAY,14:00,14:50,Computer Networks,IT 3.2,C102
+SATURDAY,09:00,09:50,Computer Networks,IT 3.2,B402
+THURSDAY,11:50,13:30,Computer Networks,IT 3.2,TLFR2
+SATURDAY,15:50,17:30,Computer Networks,IT 3.2,KFL01
+TUESDAY,08:00,09:40,Computer Networks,IT 3.2,TLFR2
+FRIDAY,09:50,11:30,Computer Networks,IT 3.2,TLFR3

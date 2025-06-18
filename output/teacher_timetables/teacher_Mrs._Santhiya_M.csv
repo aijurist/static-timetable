@@ -1,0 +1,10 @@
+Day,StartTime,EndTime,Course,Group,Room
+WEDNESDAY,12:00,12:50,Design and Analysis of Algorithms,CSE 2.5,B404
+TUESDAY,18:00,18:50,Design and Analysis of Algorithms,CSE 2.5,A205
+FRIDAY,13:00,13:50,Design and Analysis of Algorithms,CSE 2.5,B321
+WEDNESDAY,13:50,15:30,Design and Analysis of Algorithms,CSE 2.5,KFR01
+FRIDAY,15:50,17:30,Design and Analysis of Algorithms,CSE 2.5,TLFR5
+TUESDAY,11:00,11:50,Cloud Computing,CSE 4.4,B402
+MONDAY,16:00,16:50,Cloud Computing,CSE 4.4,C102
+WEDNESDAY,15:50,17:30,Cloud Computing,CSE 4.4,KFR03
+MONDAY,09:50,11:30,Cloud Computing,CSE 4.4,KFR03

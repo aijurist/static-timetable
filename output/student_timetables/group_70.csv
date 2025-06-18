@@ -1,0 +1,31 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+THURSDAY,14:00,14:50,Sensors and Measurements,Mrs. Nithyakalyani Krishnan,A308
+THURSDAY,13:00,13:50,Sensors and Measurements,Mrs. Nithyakalyani Krishnan,B302
+FRIDAY,15:50,17:30,Sensors and Measurements,Mrs. Nithyakalyani Krishnan,Power Electronics Lab
+SATURDAY,15:50,17:30,Sensors and Measurements,Mrs. Nithyakalyani Krishnan,Power Electronics Lab
+WEDNESDAY,08:00,08:50,Fourier series and Number theory,Ms. K Rajaannam,C101
+WEDNESDAY,13:00,13:50,Fourier series and Number theory,Ms. K Rajaannam,A211
+THURSDAY,15:00,15:50,Fourier series and Number theory,Ms. K Rajaannam,A109
+SATURDAY,09:00,09:50,Fourier series and Number theory,Ms. K Rajaannam,B422
+TUESDAY,10:00,10:50,Human Anatomy and Physiology,Ms. Karuppathal E,B426
+TUESDAY,13:00,13:50,Human Anatomy and Physiology,Ms. Karuppathal E,B218
+SATURDAY,15:00,15:50,Human Anatomy and Physiology,Ms. Karuppathal E,A303
+SATURDAY,10:00,10:50,Biomedical Instrumentation,Ms. Revathy P,A108
+FRIDAY,09:00,09:50,Biomedical Instrumentation,Ms. Revathy P,A210
+WEDNESDAY,12:00,12:50,Biomedical Instrumentation,Ms. Revathy P,B419
+SATURDAY,08:00,08:50,Biochemical Science,Ms. S. Sudha,A110
+FRIDAY,08:00,08:50,Biochemical Science,Ms. S. Sudha,A308
+TUESDAY,15:00,15:50,Biochemical Science,Ms. S. Sudha,B426
+TUESDAY,17:30,19:10,Biochemistry and Physiology Laboratory,Ms. S. Sudha,Biochemistry Lab
+TUESDAY,15:50,17:30,Biochemistry and Physiology Laboratory,Ms. S. Sudha,Biochemistry Lab
+WEDNESDAY,09:50,11:30,Biochemistry and Physiology Laboratory,Ms. S. Sudha,Biochemistry Lab
+FRIDAY,09:50,11:30,Biochemistry and Physiology Laboratory,Ms. S. Sudha,Biochemistry Lab
+FRIDAY,09:50,11:30,Biomedical Instrumentation Laboratory,Ms. Revathy P,Diagnostic and Therapeutic Equipment Lab
+SATURDAY,15:50,17:30,Biomedical Instrumentation Laboratory,Ms. Revathy P,Diagnostic and Therapeutic Equipment Lab
+FRIDAY,11:50,13:30,Biomedical Instrumentation Laboratory,Ms. Revathy P,Diagnostic and Therapeutic Equipment Lab
+TUESDAY,17:30,19:10,Biomedical Instrumentation Laboratory,Ms. Revathy P,Diagnostic and Therapeutic Equipment Lab
+TUESDAY,14:00,14:50,Electronic Devices & Circuits,Dr. Rubesh Kumar T,B403
+WEDNESDAY,14:00,14:50,Electronic Devices & Circuits,Dr. Rubesh Kumar T,B302
+SATURDAY,14:00,14:50,Electronic Devices & Circuits,Dr. Rubesh Kumar T,B302
+THURSDAY,15:50,17:30,Electronic Devices & Circuits,Dr. Rubesh Kumar T,Electronics and Instrumentation
+TUESDAY,15:50,17:30,Electronic Devices & Circuits,Dr. Rubesh Kumar T,Electronics and Instrumentation

@@ -1,0 +1,32 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+MONDAY,10:00,10:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,A208
+MONDAY,13:00,13:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,B222
+MONDAY,14:00,14:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,C101
+FRIDAY,10:00,10:50,Design and Analysis of Algorithms,Mrs. Mahesmeena,B426
+WEDNESDAY,14:00,14:50,Design and Analysis of Algorithms,Mrs. Mahesmeena,B416
+MONDAY,12:00,12:50,Design and Analysis of Algorithms,Mrs. Mahesmeena,B426
+FRIDAY,15:50,17:30,Design and Analysis of Algorithms,Mrs. Mahesmeena,KFR02
+THURSDAY,13:50,15:30,Design and Analysis of Algorithms,Mrs. Mahesmeena,TLFL4
+TUESDAY,15:00,15:50,Fourier series and Number theory,Ms. Balavidhya S,B405
+WEDNESDAY,11:00,11:50,Fourier series and Number theory,Ms. Balavidhya S,B416
+MONDAY,11:00,11:50,Fourier series and Number theory,Ms. Balavidhya S,A310
+MONDAY,18:00,18:50,Fourier series and Number theory,Ms. Balavidhya S,C202
+TUESDAY,14:00,14:50,Database Management Systems,Mrs. Dharani Devi G,A209
+THURSDAY,11:00,11:50,Database Management Systems,Mrs. Dharani Devi G,B107
+THURSDAY,09:00,09:50,Database Management Systems,Mrs. Dharani Devi G,A210
+TUESDAY,17:30,19:10,Database Management Systems,Mrs. Dharani Devi G,JL2
+FRIDAY,17:30,19:10,Database Management Systems,Mrs. Dharani Devi G,JL3
+WEDNESDAY,08:00,09:40,Database Management Systems,Mrs. Dharani Devi G,TLFR5
+TUESDAY,15:50,17:30,Database Management Systems,Mrs. Dharani Devi G,TLFR3
+FRIDAY,11:00,11:50,Object Oriented Programming Using JAVA,New Staff - 04,B417
+WEDNESDAY,15:00,15:50,Object Oriented Programming Using JAVA,New Staff - 04,A109
+TUESDAY,13:00,13:50,Object Oriented Programming Using JAVA,New Staff - 04,A102
+FRIDAY,11:50,13:30,Object Oriented Programming Using JAVA,New Staff - 04,TLFL1
+TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Staff - 04,KFL02
+WEDNESDAY,17:30,19:10,Object Oriented Programming Using JAVA,New Staff - 04,KFR03
+FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,New Staff - 04,TLFR1
+THURSDAY,10:00,10:50,Fundamentals of Data Science,Ms. Dharshini B S,B402
+WEDNESDAY,16:00,16:50,Fundamentals of Data Science,Ms. Dharshini B S,C102
+WEDNESDAY,13:00,13:50,Fundamentals of Data Science,Ms. Dharshini B S,B219
+WEDNESDAY,08:00,09:40,Fundamentals of Data Science,Ms. Dharshini B S,KFR02
+MONDAY,08:00,09:40,Fundamentals of Data Science,Ms. Dharshini B S,JR3

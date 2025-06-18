@@ -1,0 +1,32 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+WEDNESDAY,13:00,13:50,Formal Language and Automata Theory,New Faculty New  Staff - 23,A304
+TUESDAY,17:00,17:50,Formal Language and Automata Theory,New Faculty New  Staff - 23,B409
+MONDAY,14:00,14:50,Formal Language and Automata Theory,New Faculty New  Staff - 23,A209
+MONDAY,18:00,18:50,Computer Organization and Architecture,New Faculty New Staff -20,A302
+WEDNESDAY,17:00,17:50,Computer Organization and Architecture,New Faculty New Staff -20,A205
+MONDAY,16:00,16:50,Computer Organization and Architecture,New Faculty New Staff -20,A103
+MONDAY,13:00,13:50,Computational Statistics,New Faculty New  Staff - 22,B408
+WEDNESDAY,15:00,15:50,Computational Statistics,New Faculty New  Staff - 22,B212
+THURSDAY,09:00,09:50,Computational Statistics,New Faculty New  Staff - 22,B405
+THURSDAY,09:50,11:30,Computational Statistics,New Faculty New  Staff - 22,TLFL1
+FRIDAY,09:50,11:30,Computational Statistics,New Faculty New  Staff - 22,TLFL1
+TUESDAY,18:00,18:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,B213
+TUESDAY,14:00,14:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,B210
+MONDAY,11:00,11:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,A102
+THURSDAY,13:50,15:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,TLFL2
+FRIDAY,08:00,09:40,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,JL1
+FRIDAY,11:50,13:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,TLGL3
+THURSDAY,09:50,11:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,TLFR1
+MONDAY,17:00,17:50,Environmental Sciences,Mrs. Dr. D. Udhayakumari,A204
+TUESDAY,13:00,13:50,Environmental Sciences,Mrs. Dr. D. Udhayakumari,B213
+THURSDAY,08:00,08:50,Environmental Sciences,Mrs. Dr. D. Udhayakumari,B408
+TUESDAY,16:00,16:50,Software Engineering,Dr. Manikandan Thirumalaisamy,B322
+THURSDAY,12:00,12:50,Software Engineering,Dr. Manikandan Thirumalaisamy,B325
+MONDAY,10:00,10:50,Software Engineering,Dr. Manikandan Thirumalaisamy,B219
+THURSDAY,15:50,17:30,Software Engineering,Dr. Manikandan Thirumalaisamy,TLFL5
+THURSDAY,17:30,19:10,Software Engineering,Dr. Manikandan Thirumalaisamy,TLFR3
+TUESDAY,10:00,10:50,Database Technology,Mrs. Rajammal K,B325
+WEDNESDAY,18:00,18:50,Database Technology,Mrs. Rajammal K,A205
+MONDAY,09:00,09:50,Database Technology,Mrs. Rajammal K,A308
+FRIDAY,11:50,13:30,Database Technology,Mrs. Rajammal K,KFR01
+FRIDAY,17:30,19:10,Database Technology,Mrs. Rajammal K,JR2

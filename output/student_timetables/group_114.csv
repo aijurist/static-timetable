@@ -1,0 +1,21 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+FRIDAY,15:50,17:30,Computer Aided Engineering Laboratory,Mr. Dr.P.Chandramohan,MCT CAD Lab
+THURSDAY,08:00,09:40,Computer Aided Engineering Laboratory,Mr. Dr.P.Chandramohan,MCT CAD Lab
+TUESDAY,09:50,11:30,Industrial Automation Laboratory,Mr. Nareshbabu Gajendran,Livestock Lab
+SATURDAY,11:50,13:30,Industrial Automation Laboratory,Mr. Nareshbabu Gajendran,Particle Science and Technology Lab
+THURSDAY,08:00,09:40,Mechatronics Problem Solving using AI, ML & DL,Mr. Dr Ramesh Shanmugam,Mech CAD Lab
+FRIDAY,11:50,13:30,Mechatronics Problem Solving using AI, ML & DL,Mr. Dr Ramesh Shanmugam,Concrete & Survey Lab
+THURSDAY,09:50,11:30,Mechatronics Problem Solving using AI, ML & DL,Mr. Dr Ramesh Shanmugam,Embedded System Laboratory(EEE)
+WEDNESDAY,15:50,17:30,Mechatronics Problem Solving using AI, ML & DL,Mr. Dr Ramesh Shanmugam,Livestock Lab
+SATURDAY,17:00,17:50,Automotive Mechatronics,Mr. Dr.M.Balakarthikeyan,B404
+TUESDAY,17:00,17:50,Automotive Mechatronics,Mr. Dr.M.Balakarthikeyan,A103
+FRIDAY,14:00,14:50,Automotive Mechatronics,Mr. Dr.M.Balakarthikeyan,B321
+THURSDAY,13:00,13:50,Computer Aided Design and Manufacturing,Mr. Dr.P.Chandramohan,B218
+FRIDAY,11:00,11:50,Computer Aided Design and Manufacturing,Mr. Dr.P.Chandramohan,C201
+SATURDAY,11:00,11:50,Computer Aided Design and Manufacturing,Mr. Dr.P.Chandramohan,B412
+WEDNESDAY,18:00,18:50,Industrial Automation,Mr. Nareshbabu Gajendran,B402
+SATURDAY,10:00,10:50,Industrial Automation,Mr. Nareshbabu Gajendran,C102
+THURSDAY,14:00,14:50,Industrial Automation,Mr. Nareshbabu Gajendran,B422
+WEDNESDAY,14:00,14:50,Machine Vision,Mr. Vimalesh. A,B411
+THURSDAY,15:00,15:50,Machine Vision,Mr. Vimalesh. A,A311
+TUESDAY,09:00,09:50,Machine Vision,Mr. Vimalesh. A,B418

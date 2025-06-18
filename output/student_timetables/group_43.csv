@@ -1,0 +1,26 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+TUESDAY,16:00,16:50,Bioprocess Principles,Mrs. Dr.R.Anila,C102
+SATURDAY,15:00,15:50,Bioprocess Principles,Mrs. Dr.R.Anila,B411
+TUESDAY,11:00,11:50,Bioprocess Principles,Mrs. Dr.R.Anila,A310
+SATURDAY,08:00,08:50,Immunology,Mr. M Sankar,B107
+TUESDAY,10:00,10:50,Immunology,Mr. M Sankar,A303
+SATURDAY,14:00,14:50,Immunology,Mr. M Sankar,B412
+WEDNESDAY,10:00,10:50,Bioinformatics,Mrs. Dr. G. Carlin Geor Malar,A205
+SATURDAY,11:00,11:50,Bioinformatics,Mrs. Dr. G. Carlin Geor Malar,B211
+THURSDAY,16:00,16:50,Bioinformatics,Mrs. Dr. G. Carlin Geor Malar,B320
+FRIDAY,09:00,09:50,Separation Process Principles,Mrs. N.Premalatha,A102
+SATURDAY,10:00,10:50,Separation Process Principles,Mrs. N.Premalatha,B424
+WEDNESDAY,11:00,11:50,Separation Process Principles,Mrs. N.Premalatha,B409
+SATURDAY,09:00,09:50,Separation Process Principles,Mrs. N.Premalatha,B411
+FRIDAY,11:50,13:30,Bioprocess Laboratory- I,Mrs. Dr.R.Anila,Bioprocess Lab
+FRIDAY,09:50,11:30,Bioprocess Laboratory- I,Mrs. Dr.R.Anila,Bioprocess Lab
+SATURDAY,17:30,19:10,Bioprocess Laboratory- I,Mrs. Dr.R.Anila,Bioprocess Lab
+SATURDAY,15:50,17:30,Bioprocess Laboratory- I,Mrs. Dr.R.Anila,Bioprocess Lab
+TUESDAY,11:50,13:30,Bioinformatics Laboratory,Mrs. Dr. G. Carlin Geor Malar,Networks Lab
+WEDNESDAY,13:50,15:30,Bioinformatics Laboratory,Mrs. Dr. G. Carlin Geor Malar,Heat Transfer Lab
+THURSDAY,17:30,19:10,Bioinformatics Laboratory,Mrs. Dr. G. Carlin Geor Malar,Microprocessor Lab-2
+TUESDAY,13:50,15:30,Bioinformatics Laboratory,Mrs. Dr. G. Carlin Geor Malar,Electrical Machines I Lab
+WEDNESDAY,11:50,13:30,Immunology lab,Mr. M Sankar,Immunology Lab
+FRIDAY,13:50,15:30,Immunology lab,Mr. M Sankar,Immunology Lab
+WEDNESDAY,17:30,19:10,Immunology lab,Mr. M Sankar,Immunology Lab
+FRIDAY,17:30,19:10,Immunology lab,Mr. M Sankar,Immunology Lab

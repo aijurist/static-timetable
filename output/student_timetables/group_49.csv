@@ -1,0 +1,32 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+FRIDAY,12:00,12:50,Computer Architecture,New Staff - 03,B412
+WEDNESDAY,14:00,14:50,Computer Architecture,New Staff - 03,B213
+THURSDAY,18:00,18:50,Computer Architecture,New Staff - 03,C101
+FRIDAY,15:00,15:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,B408
+TUESDAY,13:00,13:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,C301
+FRIDAY,11:00,11:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,B401
+MONDAY,11:50,13:30,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,TLFL3
+FRIDAY,15:50,17:30,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,TLFR4
+FRIDAY,14:00,14:50,Fourier series and Number theory,Mr. Dr. S. Prabhu,A208
+TUESDAY,14:00,14:50,Fourier series and Number theory,Mr. Dr. S. Prabhu,B405
+MONDAY,14:00,14:50,Fourier series and Number theory,Mr. Dr. S. Prabhu,B321
+FRIDAY,10:00,10:50,Fourier series and Number theory,Mr. Dr. S. Prabhu,A209
+WEDNESDAY,12:00,12:50,Database Management Systems,Mrs. S.Vinothini,A311
+FRIDAY,13:00,13:50,Database Management Systems,Mrs. S.Vinothini,A311
+TUESDAY,10:00,10:50,Database Management Systems,Mrs. S.Vinothini,B402
+FRIDAY,17:30,19:10,Database Management Systems,Mrs. S.Vinothini,JR3
+MONDAY,15:50,17:30,Database Management Systems,Mrs. S.Vinothini,KFR02
+THURSDAY,08:00,09:40,Database Management Systems,Mrs. S.Vinothini,KFL02
+THURSDAY,09:50,11:30,Database Management Systems,Mrs. S.Vinothini,JL2
+TUESDAY,09:00,09:50,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,B419
+WEDNESDAY,15:00,15:50,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,A310
+TUESDAY,08:00,08:50,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,A303
+THURSDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,JL2
+FRIDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,TLGL3
+THURSDAY,11:50,13:30,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,KFL03
+FRIDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,TLFL4
+MONDAY,09:00,09:50,Fundamentals of Data Science,Mr. Ayyadurai M,B416
+TUESDAY,11:00,11:50,Fundamentals of Data Science,Mr. Ayyadurai M,B220
+MONDAY,08:00,08:50,Fundamentals of Data Science,Mr. Ayyadurai M,B410
+MONDAY,09:50,11:30,Fundamentals of Data Science,Mr. Ayyadurai M,TLFL5
+MONDAY,11:50,13:30,Fundamentals of Data Science,Mr. Ayyadurai M,TLFL2

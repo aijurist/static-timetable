@@ -1,0 +1,10 @@
+Day,StartTime,EndTime,Course,Group,Room
+FRIDAY,11:00,11:50,Embedded System Development,EEE 2.1,B222
+MONDAY,14:00,14:50,Embedded System Development,EEE 2.1,B415
+WEDNESDAY,18:00,18:50,Embedded System Development,EEE 2.1,C201
+MONDAY,10:00,10:50,Embedded System Development,EEE 2.2,B220
+TUESDAY,10:00,10:50,Embedded System Development,EEE 2.2,C201
+THURSDAY,15:00,15:50,Embedded System Development,EEE 2.2,A310
+FRIDAY,09:00,09:50,Control Systems,EEE 3.2,B415
+TUESDAY,08:00,08:50,Control Systems,EEE 3.2,B404
+FRIDAY,10:00,10:50,Control Systems,EEE 3.2,B322

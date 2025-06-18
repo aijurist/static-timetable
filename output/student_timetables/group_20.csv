@@ -1,0 +1,28 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+WEDNESDAY,14:00,14:50,Transforms and Applied Partial Differential Equations,New Faculty Humanities & Sciences (PLACEHOLDER),A109
+THURSDAY,09:00,09:50,Transforms and Applied Partial Differential Equations,New Faculty Humanities & Sciences (PLACEHOLDER),A205
+WEDNESDAY,11:00,11:50,Transforms and Applied Partial Differential Equations,New Faculty Humanities & Sciences (PLACEHOLDER),B410
+SATURDAY,15:00,15:50,Transforms and Applied Partial Differential Equations,New Faculty Humanities & Sciences (PLACEHOLDER),B403
+SATURDAY,10:00,10:50,Analog and Digital Electronics,Mr. Ramkumar S,B412
+FRIDAY,18:00,18:50,Analog and Digital Electronics,Mr. Ramkumar S,B417
+SATURDAY,11:00,11:50,Analog and Digital Electronics,Mr. Ramkumar S,B321
+TUESDAY,12:00,12:50,Theory of Mechanisms and Machines-I,Mr. Abraham Anthony D,B106
+THURSDAY,08:00,08:50,Theory of Mechanisms and Machines-I,Mr. Abraham Anthony D,B411
+FRIDAY,16:00,16:50,Theory of Mechanisms and Machines-I,Mr. Abraham Anthony D,B219
+FRIDAY,08:00,08:50,Theory of Mechanisms and Machines-I,Mr. Abraham Anthony D,A204
+THURSDAY,15:00,15:50,Sensors in Automation,Mr. L Ganesh Babu,B321
+SATURDAY,14:00,14:50,Sensors in Automation,Mr. L Ganesh Babu,B403
+TUESDAY,15:00,15:50,Sensors in Automation,Mr. L Ganesh Babu,B211
+SATURDAY,09:00,09:50,Elements of Manufacturing Process,Mr. Venugopal K,B412
+WEDNESDAY,10:00,10:50,Elements of Manufacturing Process,Mr. Venugopal K,A302
+THURSDAY,11:50,13:30,Elements of Manufacturing Process,Mr. Venugopal K,Manufacturing Technology I
+FRIDAY,09:50,11:30,Elements of Manufacturing Process,Mr. Venugopal K,Manufacturing Technology I
+TUESDAY,16:00,16:50,Mechanics of Materials,Dr. Senthilrajan S,B218
+FRIDAY,13:00,13:50,Mechanics of Materials,Dr. Senthilrajan S,A209
+FRIDAY,09:00,09:50,Mechanics of Materials,Dr. Senthilrajan S,A308
+WEDNESDAY,11:50,13:30,Mechanics of Materials,Dr. Senthilrajan S,Dynamics Lab
+TUESDAY,17:30,19:10,Mechanics of Materials,Dr. Senthilrajan S,Dynamics Lab
+SATURDAY,11:50,13:30,Python Programming for Machine Learning,HOD RA,DSP Lab
+WEDNESDAY,15:50,17:30,Python Programming for Machine Learning,HOD RA,DSP Lab
+FRIDAY,13:50,15:30,Python Programming for Machine Learning,HOD RA,DSP Lab
+THURSDAY,09:50,11:30,Python Programming for Machine Learning,HOD RA,DSP Lab

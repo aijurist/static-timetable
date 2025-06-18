@@ -1,0 +1,11 @@
+Day,StartTime,EndTime,Course,Group,Room
+WEDNESDAY,16:00,16:50,Fundamentals of Machine Learning,AIML 2.1,C302
+THURSDAY,14:00,14:50,Fundamentals of Machine Learning,AIML 2.1,B106
+TUESDAY,16:00,16:50,Fundamentals of Machine Learning,AIML 2.1,B410
+THURSDAY,09:50,11:30,Fundamentals of Machine Learning,AIML 2.1,TLFR3
+SATURDAY,17:30,19:10,Fundamentals of Machine Learning,AIML 2.1,TLFR2
+TUESDAY,08:00,08:50,Framework for data and visual Analytics,AIML 3.1,B213
+TUESDAY,09:00,09:50,Framework for data and visual Analytics,AIML 3.1,B222
+FRIDAY,14:00,14:50,Framework for data and visual Analytics,AIML 3.1,B409
+THURSDAY,15:50,17:30,Framework for data and visual Analytics,AIML 3.1,TLGL3
+TUESDAY,09:50,11:30,Framework for data and visual Analytics,AIML 3.1,TLFL3

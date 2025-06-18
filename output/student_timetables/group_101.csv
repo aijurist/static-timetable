@@ -1,0 +1,23 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+WEDNESDAY,14:00,14:50,Analog Circuits –I,Dr. Kumaran N,B423
+FRIDAY,10:00,10:50,Analog Circuits –I,Dr. Kumaran N,C202
+SATURDAY,13:00,13:50,Analog Circuits –I,Dr. Kumaran N,C103
+THURSDAY,09:00,09:50,Electromagnetic Fields,Ms. S.Priyanka Devi,B417
+SATURDAY,17:00,17:50,Electromagnetic Fields,Ms. S.Priyanka Devi,A109
+SATURDAY,15:00,15:50,Electromagnetic Fields,Ms. S.Priyanka Devi,A204
+FRIDAY,09:00,09:50,Digital Principles and System Design,Mr. Asokan V,A211
+TUESDAY,11:00,11:50,Digital Principles and System Design,Mr. Asokan V,B210
+FRIDAY,16:00,16:50,Digital Principles and System Design,Mr. Asokan V,B425
+FRIDAY,08:00,08:50,Fourier series and Number theory,Mr. Sathiragavan M,B212
+WEDNESDAY,16:00,16:50,Fourier series and Number theory,Mr. Sathiragavan M,B302
+SATURDAY,12:00,12:50,Fourier series and Number theory,Mr. Sathiragavan M,B321
+SATURDAY,10:00,10:50,Fourier series and Number theory,Mr. Sathiragavan M,C301
+THURSDAY,15:50,17:30,Analog and Digital Circuits Laboratory,Mr. G Loganathan,Basic Electronics Lab-1
+TUESDAY,15:50,17:30,Analog and Digital Circuits Laboratory,Mr. G Loganathan,Basic Electronics Lab-1
+THURSDAY,17:30,19:10,Analog and Digital Circuits Laboratory,Mr. G Loganathan,Basic Electronics Lab-1
+THURSDAY,13:50,15:30,Analog and Digital Circuits Laboratory,Mr. G Loganathan,Basic Electronics Lab-1
+THURSDAY,13:00,13:50,Introduction to Python Programming,Mr. Murali Krishna K,C101
+FRIDAY,11:50,13:30,Introduction to Python Programming,Mr. Murali Krishna K,MCT CAD Lab
+TUESDAY,08:00,08:50,Introduction to Python Programming,Mr. Murali Krishna K,MCT CAD Lab
+THURSDAY,11:00,11:50,Introduction to Python Programming,Mr. Murali Krishna K,MCT CAD Lab
+SATURDAY,14:00,14:50,Introduction to Python Programming,Mr. Murali Krishna K,MCT CAD Lab

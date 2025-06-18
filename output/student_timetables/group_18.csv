@@ -1,0 +1,32 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+WEDNESDAY,18:00,18:50,Analog and Digital Communication,Mr. Karthi J,C308
+FRIDAY,13:00,13:50,Analog and Digital Communication,Mr. Karthi J,A305
+TUESDAY,15:00,15:50,Analog and Digital Communication,Mr. Karthi J,C103
+SATURDAY,12:00,12:50,Design and Analysis of Algorithms,Ms. Priyanka D,C201
+TUESDAY,14:00,14:50,Design and Analysis of Algorithms,Ms. Priyanka D,B322
+FRIDAY,09:00,09:50,Design and Analysis of Algorithms,Ms. Priyanka D,B424
+THURSDAY,17:30,19:10,Design and Analysis of Algorithms,Ms. Priyanka D,TLFL1
+WEDNESDAY,11:50,13:30,Design and Analysis of Algorithms,Ms. Priyanka D,TLFL3
+WEDNESDAY,11:00,11:50,Fourier series and Number theory,Mr. A. Azhagarasu,A303
+THURSDAY,12:00,12:50,Fourier series and Number theory,Mr. A. Azhagarasu,B411
+SATURDAY,16:00,16:50,Fourier series and Number theory,Mr. A. Azhagarasu,A205
+TUESDAY,18:00,18:50,Fourier series and Number theory,Mr. A. Azhagarasu,B402
+WEDNESDAY,17:00,17:50,Database Management Systems,Mrs. Premalatha Anand,A308
+WEDNESDAY,16:00,16:50,Database Management Systems,Mrs. Premalatha Anand,B321
+TUESDAY,10:00,10:50,Database Management Systems,Mrs. Premalatha Anand,C202
+TUESDAY,11:50,13:30,Database Management Systems,Mrs. Premalatha Anand,TLFR2
+TUESDAY,15:50,17:30,Database Management Systems,Mrs. Premalatha Anand,KFR01
+SATURDAY,13:50,15:30,Database Management Systems,Mrs. Premalatha Anand,TLFL2
+SATURDAY,09:50,11:30,Database Management Systems,Mrs. Premalatha Anand,TLGL4
+TUESDAY,11:00,11:50,Object Oriented Programming Using JAVA,Mrs. Usha S,B211
+FRIDAY,10:00,10:50,Object Oriented Programming Using JAVA,Mrs. Usha S,A310
+FRIDAY,08:00,08:50,Object Oriented Programming Using JAVA,Mrs. Usha S,B411
+SATURDAY,08:00,09:40,Object Oriented Programming Using JAVA,Mrs. Usha S,TLFR4
+FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mrs. Usha S,TLFL5
+THURSDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mrs. Usha S,TLFL3
+TUESDAY,11:50,13:30,Object Oriented Programming Using JAVA,Mrs. Usha S,TLFR1
+SATURDAY,13:00,13:50,Digital Logic and Computer Architecture,Mrs. Padmini S,B426
+FRIDAY,16:00,16:50,Digital Logic and Computer Architecture,Mrs. Padmini S,C301
+WEDNESDAY,15:00,15:50,Digital Logic and Computer Architecture,Mrs. Padmini S,A108
+WEDNESDAY,11:50,13:30,Digital Logic and Computer Architecture,Mrs. Padmini S,TLFL1
+THURSDAY,13:50,15:30,Digital Logic and Computer Architecture,Mrs. Padmini S,TLFL3

@@ -1,0 +1,30 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+SATURDAY,18:00,18:50,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,B416
+FRIDAY,14:00,14:50,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,B418
+TUESDAY,10:00,10:50,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,B422
+SATURDAY,15:50,17:30,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,TLFL5
+THURSDAY,15:50,17:30,Principles of Artificial Intelligence,Ms. Bhuvaneshwari Muthukumaran,KFL03
+SATURDAY,11:50,13:30,Soft Skills – II,Mr. Dr B Muthu Kumar,JR2
+SATURDAY,09:50,11:30,Soft Skills – II,Mr. Dr B Muthu Kumar,JR3
+THURSDAY,10:00,10:50,Web Programming,Mrs. M.Sandhiya,B213
+WEDNESDAY,16:00,16:50,Web Programming,Mrs. M.Sandhiya,B426
+FRIDAY,15:00,15:50,Web Programming,Mrs. M.Sandhiya,B426
+WEDNESDAY,13:50,15:30,Web Programming,Mrs. M.Sandhiya,TLFL3
+SATURDAY,09:50,11:30,Web Programming,Mrs. M.Sandhiya,JL3
+FRIDAY,11:50,13:30,Web Programming,Mrs. M.Sandhiya,KFL01
+TUESDAY,15:50,17:30,Web Programming,Mrs. M.Sandhiya,KFL03
+SATURDAY,15:00,15:50,Automata Theory & Compiler Design,Mrs. Dr.V.Prasannakumari,C301
+WEDNESDAY,17:00,17:50,Automata Theory & Compiler Design,Mrs. Dr.V.Prasannakumari,B424
+WEDNESDAY,12:00,12:50,Automata Theory & Compiler Design,Mrs. Dr.V.Prasannakumari,C102
+THURSDAY,15:00,15:50,Computer Vision,Mrs. Dr.A.Kalaivani,B401
+FRIDAY,10:00,10:50,Computer Vision,Mrs. Dr.A.Kalaivani,A104/105
+SATURDAY,14:00,14:50,Computer Vision,Mrs. Dr.A.Kalaivani,A104/105
+TUESDAY,13:50,15:30,Computer Vision,Mrs. Dr.A.Kalaivani,KFR02
+SATURDAY,11:50,13:30,Computer Vision,Mrs. Dr.A.Kalaivani,TLFL1
+WEDNESDAY,13:00,13:50,Computer Networks,Mrs. Bhalashri Sethuraman,C101
+THURSDAY,12:00,12:50,Computer Networks,Mrs. Bhalashri Sethuraman,A103
+SATURDAY,08:00,08:50,Computer Networks,Mrs. Bhalashri Sethuraman,C103
+TUESDAY,08:00,09:40,Computer Networks,Mrs. Bhalashri Sethuraman,TLFR3
+THURSDAY,17:30,19:10,Computer Networks,Mrs. Bhalashri Sethuraman,KFL01
+FRIDAY,15:50,17:30,Computer Networks,Mrs. Bhalashri Sethuraman,TLFL5
+TUESDAY,13:50,15:30,Computer Networks,Mrs. Bhalashri Sethuraman,TLFR2

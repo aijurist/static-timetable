@@ -1,0 +1,37 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+FRIDAY,10:00,10:50,Power Plant Engineering,Mrs. Padmavathi R,C302
+FRIDAY,18:00,18:50,Power Plant Engineering,Mrs. Padmavathi R,A303
+THURSDAY,14:00,14:50,Power Plant Engineering,Mrs. Padmavathi R,B417
+WEDNESDAY,13:50,15:30,Electronic Devices and Circuits Laboratory,Mrs. Dr Sridevi M,Electronic Devices & Circuits Lab
+TUESDAY,15:50,17:30,Electronic Devices and Circuits Laboratory,Mrs. Dr Sridevi M,Electronic Devices & Circuits Lab
+MONDAY,09:00,09:50,Introduction to Machine Learning,Mrs. Dr. V. Geetha Priya,A309
+THURSDAY,17:00,17:50,Introduction to Machine Learning,Mrs. Dr. V. Geetha Priya,A308
+WEDNESDAY,10:00,10:50,Introduction to Machine Learning,Mrs. Dr. V. Geetha Priya,B424
+MONDAY,10:00,10:50,Embedded System Development,Mrs. Dr. J. Kavitha,B220
+TUESDAY,10:00,10:50,Embedded System Development,Mrs. Dr. J. Kavitha,C201
+THURSDAY,15:00,15:50,Embedded System Development,Mrs. Dr. J. Kavitha,A310
+TUESDAY,18:00,18:50,Fourier series and Number theory,Mrs. Dr. Priya Nair,B220
+FRIDAY,16:00,16:50,Fourier series and Number theory,Mrs. Dr. Priya Nair,A204
+MONDAY,08:00,08:50,Fourier series and Number theory,Mrs. Dr. Priya Nair,B212
+THURSDAY,16:00,16:50,Fourier series and Number theory,Mrs. Dr. Priya Nair,B422
+WEDNESDAY,11:50,13:30,IOT for Embedded Applications Laboratory,Mrs. Amutha C,Embedded System Laboratory(EEE)
+TUESDAY,13:50,15:30,IOT for Embedded Applications Laboratory,Mrs. Amutha C,Embedded System Laboratory(EEE)
+MONDAY,13:50,15:30,IOT for Embedded Applications Laboratory,Mrs. Amutha C,Embedded System Laboratory(EEE)
+MONDAY,11:50,13:30,IOT for Embedded Applications Laboratory,Mrs. Amutha C,Embedded System Laboratory(EEE)
+FRIDAY,12:00,12:50,Electromagnetic Theory,Mrs. Dr. V. Geetha Priya,A103
+FRIDAY,11:00,11:50,Electromagnetic Theory,Mrs. Dr. V. Geetha Priya,B424
+THURSDAY,13:00,13:50,Electromagnetic Theory,Mrs. Dr. V. Geetha Priya,B410
+TUESDAY,12:00,12:50,Electrical Machines – I,Mrs. Dr A Rajalakshmi,B210
+THURSDAY,12:00,12:50,Electrical Machines – I,Mrs. Dr A Rajalakshmi,B221
+WEDNESDAY,16:00,16:50,Electrical Machines – I,Mrs. Dr A Rajalakshmi,B221
+TUESDAY,08:00,08:50,Measurements and Instrumentation,Mr. Ron Carter Sb,B411
+FRIDAY,17:00,17:50,Measurements and Instrumentation,Mr. Ron Carter Sb,A211
+FRIDAY,14:00,14:50,Measurements and Instrumentation,Mr. Ron Carter Sb,B408
+TUESDAY,11:00,11:50,Electronic Devices and Circuits,Mrs. Dr.Alice Hepzibah.A,B422
+WEDNESDAY,11:00,11:50,Electronic Devices and Circuits,Mrs. Dr.Alice Hepzibah.A,C301
+MONDAY,11:00,11:50,Electronic Devices and Circuits,Mrs. Dr.Alice Hepzibah.A,C202
+FRIDAY,08:00,08:50,Introduction to Python Programming,Mrs. Sivamani.D,C101
+MONDAY,15:50,17:30,Introduction to Python Programming,Mrs. Sivamani.D,MCT CAD Lab
+MONDAY,13:50,15:30,Introduction to Python Programming,Mrs. Sivamani.D,MCT CAD Lab
+MONDAY,17:30,19:10,Introduction to Python Programming,Mrs. Sivamani.D,MCT CAD Lab
+WEDNESDAY,11:50,13:30,Introduction to Python Programming,Mrs. Sivamani.D,MCT CAD Lab

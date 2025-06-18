@@ -1,0 +1,13 @@
+Day,StartTime,EndTime,Course,Group,Room
+FRIDAY,09:00,09:50,Digital Principles and System Design,ECE 2.2,A211
+TUESDAY,11:00,11:50,Digital Principles and System Design,ECE 2.2,B210
+FRIDAY,16:00,16:50,Digital Principles and System Design,ECE 2.2,B425
+SATURDAY,17:30,19:10,Analog and Digital Circuits Laboratory,ECE 2.6,Basic Electronics Lab-1
+WEDNESDAY,17:30,19:10,Analog and Digital Circuits Laboratory,ECE 2.6,Basic Electronics Lab-1
+WEDNESDAY,11:50,13:30,Analog and Digital Circuits Laboratory,ECE 2.6,Basic Electronics Lab-1
+TUESDAY,13:50,15:30,Analog and Digital Circuits Laboratory,ECE 2.6,Basic Electronics Lab-1
+FRIDAY,10:00,10:50,Digital Signal Processing,ECE 3.2,B403
+THURSDAY,09:00,09:50,Digital Signal Processing,ECE 3.2,B402
+THURSDAY,11:00,11:50,Digital Signal Processing,ECE 3.2,B417
+TUESDAY,11:50,13:30,Digital Signal Processing,ECE 3.2,DSP Lab
+THURSDAY,15:00,15:50,Digital Signal Processing,ECE 3.2,DSP Lab

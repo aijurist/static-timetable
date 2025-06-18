@@ -1,0 +1,32 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+MONDAY,18:00,18:50,Computer Architecture,Mrs. Mahesmeena,B322
+FRIDAY,12:00,12:50,Computer Architecture,Mrs. Mahesmeena,A209
+FRIDAY,09:00,09:50,Computer Architecture,Mrs. Mahesmeena,B222
+THURSDAY,08:00,08:50,Design and Analysis of Algorithms,Mrs. Mahesmeena,B210
+FRIDAY,11:00,11:50,Design and Analysis of Algorithms,Mrs. Mahesmeena,A308
+FRIDAY,15:00,15:50,Design and Analysis of Algorithms,Mrs. Mahesmeena,B220
+MONDAY,15:50,17:30,Design and Analysis of Algorithms,Mrs. Mahesmeena,TLFL1
+TUESDAY,08:00,09:40,Design and Analysis of Algorithms,Mrs. Mahesmeena,KFL02
+THURSDAY,17:00,17:50,Fourier series and Number theory,Mr. Venkatesan J,B409
+WEDNESDAY,16:00,16:50,Fourier series and Number theory,Mr. Venkatesan J,B416
+MONDAY,11:00,11:50,Fourier series and Number theory,Mr. Venkatesan J,B417
+TUESDAY,11:00,11:50,Fourier series and Number theory,Mr. Venkatesan J,A209
+THURSDAY,10:00,10:50,Database Management Systems,Mr. N.Karthikeyan,C302
+THURSDAY,11:00,11:50,Database Management Systems,Mr. N.Karthikeyan,B409
+THURSDAY,09:00,09:50,Database Management Systems,Mr. N.Karthikeyan,B410
+WEDNESDAY,11:50,13:30,Database Management Systems,Mr. N.Karthikeyan,JR3
+FRIDAY,15:50,17:30,Database Management Systems,Mr. N.Karthikeyan,JL2
+FRIDAY,17:30,19:10,Database Management Systems,Mr. N.Karthikeyan,TLFL3
+THURSDAY,11:50,13:30,Database Management Systems,Mr. N.Karthikeyan,JR3
+MONDAY,10:00,10:50,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,B422
+WEDNESDAY,10:00,10:50,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,B320
+WEDNESDAY,11:00,11:50,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,A211
+FRIDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,TLFR4
+THURSDAY,11:50,13:30,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,TLFL1
+MONDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,KFR01
+THURSDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,TLFR4
+FRIDAY,08:00,08:50,Fundamentals of Data Science,Mrs. Bhavani M,A202
+WEDNESDAY,15:00,15:50,Fundamentals of Data Science,Mrs. Bhavani M,A302
+TUESDAY,10:00,10:50,Fundamentals of Data Science,Mrs. Bhavani M,C301
+MONDAY,11:50,13:30,Fundamentals of Data Science,Mrs. Bhavani M,JL3
+WEDNESDAY,11:50,13:30,Fundamentals of Data Science,Mrs. Bhavani M,KFL03

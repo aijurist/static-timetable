@@ -1,0 +1,31 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+FRIDAY,15:50,17:30,Bioinformatics Laboratory,Mrs. S.R.Saranya Arunkumar,Livestock Lab
+THURSDAY,17:30,19:10,Bioinformatics Laboratory,Mrs. S.R.Saranya Arunkumar,Vehicle Maintenance Lab
+THURSDAY,15:50,17:30,Bioinformatics Laboratory,Mrs. S.R.Saranya Arunkumar,Concrete & Survey Lab
+TUESDAY,11:50,13:30,Bioinformatics Laboratory,Mrs. S.R.Saranya Arunkumar,Classroom
+FRIDAY,12:00,12:50,DOWNSTREAM PROCESSING,Mrs. Sangeetha Gandhi S,C202
+SATURDAY,12:00,12:50,DOWNSTREAM PROCESSING,Mrs. Sangeetha Gandhi S,B403
+FRIDAY,15:00,15:50,DOWNSTREAM PROCESSING,Mrs. Sangeetha Gandhi S,B411
+THURSDAY,10:00,10:50,Bioinformatics,Dr. Shanthi M,C307
+TUESDAY,11:00,11:50,Bioinformatics,Dr. Shanthi M,B418
+THURSDAY,09:00,09:50,Bioinformatics,Dr. Shanthi M,A102
+SATURDAY,17:00,17:50,Animal Biotechnology,Mrs. Dr.M.Millicent Mabel,B213
+THURSDAY,08:00,08:50,Animal Biotechnology,Mrs. Dr.M.Millicent Mabel,C101
+SATURDAY,16:00,16:50,Animal Biotechnology,Mrs. Dr.M.Millicent Mabel,A202
+SATURDAY,11:00,11:50,PROTEIN ENGINEERING TECHNIQUES,Mrs. Dr Rekha Ravindran,A102
+SATURDAY,13:00,13:50,PROTEIN ENGINEERING TECHNIQUES,Mrs. Dr Rekha Ravindran,B417
+TUESDAY,10:00,10:50,PROTEIN ENGINEERING TECHNIQUES,Mrs. Dr Rekha Ravindran,A109
+THURSDAY,11:00,11:50,Comprehensive Course for Biotechnologists,Mrs. Dr. G. Carlin Geor Malar,B322
+WEDNESDAY,11:00,11:50,Comprehensive Course for Biotechnologists,Mrs. Dr. G. Carlin Geor Malar,A204
+FRIDAY,13:00,13:50,Comprehensive Course for Biotechnologists,Mrs. Dr. G. Carlin Geor Malar,B408
+WEDNESDAY,11:50,13:30,Downstream processing lab,Mrs. Sangeetha Gandhi S,Downstream Processing Lab
+TUESDAY,11:50,13:30,Downstream processing lab,Mrs. Sangeetha Gandhi S,Downstream Processing Lab
+WEDNESDAY,08:00,09:40,Downstream processing lab,Mrs. Sangeetha Gandhi S,Downstream Processing Lab
+THURSDAY,11:50,13:30,Downstream processing lab,Mrs. Sangeetha Gandhi S,Downstream Processing Lab
+WEDNESDAY,15:00,15:50,Cancer Biology,Mrs. Dr.B.Vijaya Geetha,B220
+FRIDAY,18:00,18:50,Cancer Biology,Mrs. Dr.B.Vijaya Geetha,B222
+SATURDAY,08:00,08:50,Cancer Biology,Mrs. Dr.B.Vijaya Geetha,C102
+THURSDAY,11:50,13:30,Artificial Intelligence and Machine Learning for Biotechnologist,Mr. A. Arun,Food Microbiology Lab
+WEDNESDAY,08:00,09:40,Artificial Intelligence and Machine Learning for Biotechnologist,Mr. A. Arun,Mech CAD Lab
+SATURDAY,13:50,15:30,Artificial Intelligence and Machine Learning for Biotechnologist,Mr. A. Arun,Food Microbiology Lab
+TUESDAY,13:50,15:30,Artificial Intelligence and Machine Learning for Biotechnologist,Mr. A. Arun,Technical Analysis Lab

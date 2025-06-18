@@ -1,0 +1,32 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+THURSDAY,14:00,14:50,Fundamentals of Machine Learning,New Faculty New  Staff - 28,B419
+TUESDAY,18:00,18:50,Fundamentals of Machine Learning,New Faculty New  Staff - 28,A303
+FRIDAY,14:00,14:50,Fundamentals of Machine Learning,New Faculty New  Staff - 28,B403
+WEDNESDAY,08:00,09:40,Fundamentals of Machine Learning,New Faculty New  Staff - 28,KFL01
+SATURDAY,09:50,11:30,Fundamentals of Machine Learning,New Faculty New  Staff - 28,JL1
+THURSDAY,10:00,10:50,Design and Analysis of Algorithms,Mrs. Divya S,C301
+TUESDAY,12:00,12:50,Design and Analysis of Algorithms,Mrs. Divya S,A310
+TUESDAY,14:00,14:50,Design and Analysis of Algorithms,Mrs. Divya S,B212
+THURSDAY,08:00,09:40,Design and Analysis of Algorithms,Mrs. Divya S,KFR03
+WEDNESDAY,09:50,11:30,Design and Analysis of Algorithms,Mrs. Divya S,TLFR1
+TUESDAY,11:00,11:50,Database Management Systems,AIML  NS2,A211
+FRIDAY,15:00,15:50,Database Management Systems,AIML  NS2,A102
+SATURDAY,09:00,09:50,Database Management Systems,AIML  NS2,B106
+FRIDAY,17:30,19:10,Database Management Systems,AIML  NS2,JR1
+THURSDAY,15:50,17:30,Database Management Systems,AIML  NS2,TLFR1
+WEDNESDAY,08:00,09:40,Database Management Systems,AIML  NS2,KFR03
+WEDNESDAY,11:50,13:30,Database Management Systems,AIML  NS2,TLFR2
+THURSDAY,18:00,18:50,Environmental Science and Engineering,Dr. Mahesh R,A202
+SATURDAY,08:00,08:50,Environmental Science and Engineering,Dr. Mahesh R,A109
+TUESDAY,10:00,10:50,Environmental Science and Engineering,Dr. Mahesh R,A205
+TUESDAY,16:00,16:50,Discrete Mathematics for AI,Ms. Manasa K,B416
+FRIDAY,16:00,16:50,Discrete Mathematics for AI,Ms. Manasa K,B418
+TUESDAY,17:00,17:50,Discrete Mathematics for AI,Ms. Manasa K,C302
+SATURDAY,13:00,13:50,Discrete Mathematics for AI,Ms. Manasa K,B325
+SATURDAY,12:00,12:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 27,A309
+WEDNESDAY,18:00,18:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 27,A108
+TUESDAY,13:00,13:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 27,B320
+THURSDAY,11:50,13:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 27,JR1
+SATURDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 27,TLFR2
+SATURDAY,17:30,19:10,Object Oriented Programming Using JAVA,New Faculty New  Staff - 27,TLFR4
+THURSDAY,08:00,09:40,Object Oriented Programming Using JAVA,New Faculty New  Staff - 27,TLFL4

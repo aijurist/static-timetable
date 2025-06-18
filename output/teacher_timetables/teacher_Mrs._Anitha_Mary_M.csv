@@ -1,0 +1,15 @@
+Day,StartTime,EndTime,Course,Group,Room
+FRIDAY,12:00,12:50,Electromagnetic Fields,ECE 2.1,B426
+TUESDAY,17:00,17:50,Electromagnetic Fields,ECE 2.1,B401
+SATURDAY,10:00,10:50,Electromagnetic Fields,ECE 2.1,A302
+THURSDAY,11:00,11:50,Digital Principles and System Design,ECE 2.1,B321
+TUESDAY,13:00,13:50,Digital Principles and System Design,ECE 2.1,A304
+SATURDAY,16:00,16:50,Digital Principles and System Design,ECE 2.1,B424
+WEDNESDAY,15:50,17:30,Analog and Digital Circuits Laboratory,ECE 2.4,Basic Electronics Lab-1
+TUESDAY,09:50,11:30,Analog and Digital Circuits Laboratory,ECE 2.4,Basic Electronics Lab-1
+FRIDAY,08:00,09:40,Analog and Digital Circuits Laboratory,ECE 2.4,Basic Electronics Lab-1
+FRIDAY,09:50,11:30,Analog and Digital Circuits Laboratory,ECE 2.4,Basic Electronics Lab-1
+WEDNESDAY,13:50,15:30,Communication Systems Laboratory,ECE 3.2,Communication Systems Lab
+SATURDAY,08:00,09:40,Communication Systems Laboratory,ECE 3.2,Communication Systems Lab
+THURSDAY,17:30,19:10,Communication Systems Laboratory,ECE 3.2,Communication Systems Lab
+SATURDAY,13:50,15:30,Communication Systems Laboratory,ECE 3.2,Communication Systems Lab

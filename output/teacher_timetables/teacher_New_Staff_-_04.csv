@@ -1,0 +1,25 @@
+Day,StartTime,EndTime,Course,Group,Room
+TUESDAY,12:00,12:50,Computer Architecture,CSE 2.5,B219
+MONDAY,15:00,15:50,Computer Architecture,CSE 2.5,B211
+MONDAY,14:00,14:50,Computer Architecture,CSE 2.5,B410
+FRIDAY,11:00,11:50,Object Oriented Programming Using JAVA,CSE 2.1,B417
+WEDNESDAY,15:00,15:50,Object Oriented Programming Using JAVA,CSE 2.1,A109
+TUESDAY,13:00,13:50,Object Oriented Programming Using JAVA,CSE 2.1,A102
+FRIDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE 2.1,TLFL1
+TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSE 2.1,KFL02
+WEDNESDAY,17:30,19:10,Object Oriented Programming Using JAVA,CSE 2.1,KFR03
+FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE 2.1,TLFR1
+MONDAY,16:00,16:50,Object Oriented Programming Using JAVA,CSE 2.8,B418
+FRIDAY,18:00,18:50,Object Oriented Programming Using JAVA,CSE 2.8,C202
+THURSDAY,11:00,11:50,Object Oriented Programming Using JAVA,CSE 2.8,A202
+THURSDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE 2.8,TLFL5
+MONDAY,08:00,09:40,Object Oriented Programming Using JAVA,CSE 2.8,TLGL4
+THURSDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE 2.8,JR3
+FRIDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSE 2.8,JR2
+TUESDAY,18:00,18:50,Web Programming,CSE 3.6,B423
+WEDNESDAY,11:00,11:50,Web Programming,CSE 3.6,C101
+THURSDAY,16:00,16:50,Web Programming,CSE 3.6,B222
+MONDAY,11:50,13:30,Web Programming,CSE 3.6,JL1
+WEDNESDAY,11:50,13:30,Web Programming,CSE 3.6,JR2
+THURSDAY,08:00,09:40,Web Programming,CSE 3.6,TLFL1
+MONDAY,09:50,11:30,Web Programming,CSE 3.6,KFL02

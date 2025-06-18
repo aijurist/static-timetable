@@ -1,0 +1,32 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+TUESDAY,16:00,16:50,Computer Architecture,Mrs. Deepa B,B220
+FRIDAY,09:00,09:50,Computer Architecture,Mrs. Deepa B,C202
+WEDNESDAY,10:00,10:50,Computer Architecture,Mrs. Deepa B,A108
+WEDNESDAY,16:00,16:50,Design and Analysis of Algorithms,Ms. T.Ramala,B325
+THURSDAY,14:00,14:50,Design and Analysis of Algorithms,Ms. T.Ramala,A204
+THURSDAY,09:00,09:50,Design and Analysis of Algorithms,Ms. T.Ramala,B424
+MONDAY,13:50,15:30,Design and Analysis of Algorithms,Ms. T.Ramala,JR2
+WEDNESDAY,17:30,19:10,Design and Analysis of Algorithms,Ms. T.Ramala,JL3
+THURSDAY,18:00,18:50,Fourier series and Number theory,Mrs. C. Renuga,A302
+THURSDAY,11:00,11:50,Fourier series and Number theory,Mrs. C. Renuga,B210
+TUESDAY,18:00,18:50,Fourier series and Number theory,Mrs. C. Renuga,B410
+FRIDAY,12:00,12:50,Fourier series and Number theory,Mrs. C. Renuga,B403
+MONDAY,17:00,17:50,Database Management Systems,Mr. Dr Parthasarathy C,B320
+TUESDAY,15:00,15:50,Database Management Systems,Mr. Dr Parthasarathy C,A103
+TUESDAY,17:00,17:50,Database Management Systems,Mr. Dr Parthasarathy C,A310
+MONDAY,09:50,11:30,Database Management Systems,Mr. Dr Parthasarathy C,TLFL3
+FRIDAY,17:30,19:10,Database Management Systems,Mr. Dr Parthasarathy C,TLFL1
+FRIDAY,15:50,17:30,Database Management Systems,Mr. Dr Parthasarathy C,JR1
+MONDAY,11:50,13:30,Database Management Systems,Mr. Dr Parthasarathy C,TLFL4
+MONDAY,16:00,16:50,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,B426
+WEDNESDAY,11:00,11:50,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,C202
+FRIDAY,13:00,13:50,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,A204
+FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,KFR03
+WEDNESDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,TLFR4
+THURSDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,TLGL4
+MONDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,TLGL4
+FRIDAY,11:00,11:50,Fundamentals of Data Science,Ms. Sana,B426
+FRIDAY,10:00,10:50,Fundamentals of Data Science,Ms. Sana,C102
+MONDAY,08:00,08:50,Fundamentals of Data Science,Ms. Sana,B424
+WEDNESDAY,11:50,13:30,Fundamentals of Data Science,Ms. Sana,TLFL2
+FRIDAY,13:50,15:30,Fundamentals of Data Science,Ms. Sana,JR3

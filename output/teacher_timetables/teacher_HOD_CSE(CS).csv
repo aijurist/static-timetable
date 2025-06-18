@@ -1,0 +1,13 @@
+Day,StartTime,EndTime,Course,Group,Room
+TUESDAY,09:00,09:50,Computer Networks,CSE-CS 2.2,C301
+MONDAY,12:00,12:50,Computer Networks,CSE-CS 2.2,C202
+FRIDAY,12:00,12:50,Computer Networks,CSE-CS 2.2,A204
+MONDAY,09:50,11:30,Computer Networks,CSE-CS 2.2,JR2
+MONDAY,08:00,09:40,Computer Networks,CSE-CS 2.2,KFL01
+TUESDAY,09:50,11:30,Computer Networks,CSE-CS 2.2,TLFL2
+FRIDAY,15:50,17:30,Computer Networks,CSE-CS 2.2,TLFR2
+SATURDAY,15:00,15:50,Cryptography,CSE-CS 2.1,A208
+SATURDAY,08:00,08:50,Cryptography,CSE-CS 2.1,B212
+SATURDAY,12:00,12:50,Cryptography,CSE-CS 2.1,B408
+THURSDAY,11:50,13:30,Cryptography,CSE-CS 2.1,KFR02
+FRIDAY,13:50,15:30,Cryptography,CSE-CS 2.1,TLFR5

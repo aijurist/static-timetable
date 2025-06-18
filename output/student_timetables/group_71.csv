@@ -1,0 +1,31 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+FRIDAY,16:00,16:50,Computer Vision and Applications,Mrs. Sangeetha K,B417
+FRIDAY,10:00,10:50,Computer Vision and Applications,Mrs. Sangeetha K,A303
+FRIDAY,11:50,13:30,Computer Vision and Applications,Mrs. Sangeetha K,TLFL4
+WEDNESDAY,15:50,17:30,Computer Vision and Applications,Mrs. Sangeetha K,KFL02
+SATURDAY,08:00,08:50,Recommendation Systems (Professional Elective I),New Staff - 05,A203
+SATURDAY,09:00,09:50,Recommendation Systems (Professional Elective I),New Staff - 05,B409
+WEDNESDAY,11:50,13:30,Recommendation Systems (Professional Elective I),New Staff - 05,KFL01
+THURSDAY,09:50,11:30,Recommendation Systems (Professional Elective I),New Staff - 05,KFR02
+SATURDAY,09:50,11:30,Build and Deploy Machine Learning Applications,AIML  NS3,TLFL1
+TUESDAY,17:30,19:10,Build and Deploy Machine Learning Applications,AIML  NS3,TLFR3
+TUESDAY,14:00,14:50,Deep Learning,Ms. V Akshaya,B320
+FRIDAY,18:00,18:50,Deep Learning,Ms. V Akshaya,B426
+THURSDAY,09:00,09:50,Deep Learning,Ms. V Akshaya,B212
+SATURDAY,11:50,13:30,Deep Learning,Ms. V Akshaya,KFL03
+WEDNESDAY,17:30,19:10,Deep Learning,Ms. V Akshaya,TLFR3
+TUESDAY,08:00,08:50,Framework for data and visual Analytics,Mrs. Priya M,B213
+TUESDAY,09:00,09:50,Framework for data and visual Analytics,Mrs. Priya M,B222
+FRIDAY,14:00,14:50,Framework for data and visual Analytics,Mrs. Priya M,B409
+THURSDAY,15:50,17:30,Framework for data and visual Analytics,Mrs. Priya M,TLGL3
+TUESDAY,09:50,11:30,Framework for data and visual Analytics,Mrs. Priya M,TLFL3
+WEDNESDAY,09:00,09:50,Computer Networks,Mr. Vijay K,B106
+WEDNESDAY,08:00,08:50,Computer Networks,Mr. Vijay K,B408
+FRIDAY,11:00,11:50,Computer Networks,Mr. Vijay K,A203
+WEDNESDAY,09:50,11:30,Computer Networks,Mr. Vijay K,JL3
+SATURDAY,15:50,17:30,Computer Networks,Mr. Vijay K,TLGL3
+SATURDAY,11:50,13:30,Computer Networks,Mr. Vijay K,JR3
+THURSDAY,15:50,17:30,Computer Networks,Mr. Vijay K,TLFR3
+TUESDAY,13:00,13:50,DataEngineering,Mrs. Sree Subha S,B417
+FRIDAY,17:00,17:50,DataEngineering,Mrs. Sree Subha S,C301
+THURSDAY,13:00,13:50,DataEngineering,Mrs. Sree Subha S,C102

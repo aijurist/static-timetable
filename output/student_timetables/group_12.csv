@@ -1,0 +1,30 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+SATURDAY,11:00,11:50,Principles of Artificial Intelligence,Mrs. K Indumathi,B218
+TUESDAY,17:00,17:50,Principles of Artificial Intelligence,Mrs. K Indumathi,B218
+TUESDAY,16:00,16:50,Principles of Artificial Intelligence,Mrs. K Indumathi,C308
+FRIDAY,11:50,13:30,Principles of Artificial Intelligence,Mrs. K Indumathi,KFL02
+WEDNESDAY,17:30,19:10,Principles of Artificial Intelligence,Mrs. K Indumathi,KFL02
+WEDNESDAY,17:30,19:10,Soft Skills – II,New Faculty New Staff -18,JL2
+SATURDAY,17:30,19:10,Soft Skills – II,New Faculty New Staff -18,KFL03
+THURSDAY,15:00,15:50,Web Programming,Mr. Dr B Muthu Kumar,B218
+SATURDAY,14:00,14:50,Web Programming,Mr. Dr B Muthu Kumar,B416
+WEDNESDAY,08:00,08:50,Web Programming,Mr. Dr B Muthu Kumar,B218
+FRIDAY,17:30,19:10,Web Programming,Mr. Dr B Muthu Kumar,JL1
+THURSDAY,17:30,19:10,Web Programming,Mr. Dr B Muthu Kumar,JL2
+TUESDAY,09:50,11:30,Web Programming,Mr. Dr B Muthu Kumar,JR2
+TUESDAY,08:00,09:40,Web Programming,Mr. Dr B Muthu Kumar,KFL01
+TUESDAY,18:00,18:50,Automata Theory & Compiler Design,Mrs. M.Madhu Rani,B415
+FRIDAY,11:00,11:50,Automata Theory & Compiler Design,Mrs. M.Madhu Rani,B218
+WEDNESDAY,09:00,09:50,Automata Theory & Compiler Design,Mrs. M.Madhu Rani,B322
+THURSDAY,16:00,16:50,Computer Vision,Ms. Priyanka D,C101
+WEDNESDAY,14:00,14:50,Computer Vision,Ms. Priyanka D,B409
+WEDNESDAY,11:00,11:50,Computer Vision,Ms. Priyanka D,B402
+SATURDAY,17:30,19:10,Computer Vision,Ms. Priyanka D,JR1
+FRIDAY,11:50,13:30,Computer Vision,Ms. Priyanka D,KFR03
+WEDNESDAY,12:00,12:50,Computer Networks,Mrs. Dr. Nalini Subramanian,B424
+WEDNESDAY,10:00,10:50,Computer Networks,Mrs. Dr. Nalini Subramanian,A210
+SATURDAY,10:00,10:50,Computer Networks,Mrs. Dr. Nalini Subramanian,B221
+TUESDAY,08:00,09:40,Computer Networks,Mrs. Dr. Nalini Subramanian,JR3
+TUESDAY,09:50,11:30,Computer Networks,Mrs. Dr. Nalini Subramanian,TLGL4
+TUESDAY,11:50,13:30,Computer Networks,Mrs. Dr. Nalini Subramanian,TLFL2
+SATURDAY,15:50,17:30,Computer Networks,Mrs. Dr. Nalini Subramanian,TLGL4

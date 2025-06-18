@@ -1,0 +1,32 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+THURSDAY,12:00,12:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,B107
+FRIDAY,17:00,17:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,A309
+THURSDAY,16:00,16:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,A102
+MONDAY,15:00,15:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,B221
+FRIDAY,09:00,09:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,A109
+THURSDAY,15:00,15:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,C301
+TUESDAY,17:30,19:10,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,KFL03
+WEDNESDAY,11:50,13:30,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,TLFR1
+MONDAY,16:00,16:50,Fourier series and Number theory,New Faculty New  Staff - 35,B408
+THURSDAY,18:00,18:50,Fourier series and Number theory,New Faculty New  Staff - 35,C103
+MONDAY,08:00,08:50,Fourier series and Number theory,New Faculty New  Staff - 35,B211
+FRIDAY,16:00,16:50,Fourier series and Number theory,New Faculty New  Staff - 35,C302
+THURSDAY,13:00,13:50,Database Management Systems,Mrs. Dharani Devi G,C103
+FRIDAY,11:00,11:50,Database Management Systems,Mrs. Dharani Devi G,B325
+FRIDAY,15:00,15:50,Database Management Systems,Mrs. Dharani Devi G,B423
+FRIDAY,11:50,13:30,Database Management Systems,Mrs. Dharani Devi G,TLFR5
+MONDAY,11:50,13:30,Database Management Systems,Mrs. Dharani Devi G,KFL02
+MONDAY,09:50,11:30,Database Management Systems,Mrs. Dharani Devi G,JL3
+WEDNESDAY,13:50,15:30,Database Management Systems,Mrs. Dharani Devi G,JR2
+WEDNESDAY,18:00,18:50,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,B219
+WEDNESDAY,10:00,10:50,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,A209
+WEDNESDAY,17:00,17:50,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,A110
+MONDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,JL1
+TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,TLFR4
+TUESDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,TLFL1
+MONDAY,11:50,13:30,Object Oriented Programming Using JAVA,Mr. N.Karthikeyan,KFR03
+WEDNESDAY,11:00,11:50,Fundamentals of Data Science,New Staff - 07,B219
+TUESDAY,14:00,14:50,Fundamentals of Data Science,New Staff - 07,B410
+MONDAY,09:00,09:50,Fundamentals of Data Science,New Staff - 07,C308
+MONDAY,09:50,11:30,Fundamentals of Data Science,New Staff - 07,TLFR1
+TUESDAY,11:50,13:30,Fundamentals of Data Science,New Staff - 07,KFL02

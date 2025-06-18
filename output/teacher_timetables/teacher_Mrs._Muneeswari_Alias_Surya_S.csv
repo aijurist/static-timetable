@@ -1,0 +1,12 @@
+Day,StartTime,EndTime,Course,Group,Room
+FRIDAY,17:00,17:50,Molecular Genetics,BT 2.2,A304
+SATURDAY,17:00,17:50,Molecular Genetics,BT 2.2,B212
+SATURDAY,18:00,18:50,Molecular Genetics,BT 2.2,B424
+FRIDAY,11:00,11:50,Analytical Techniques in Biotechnology,BT 2.3,B211
+WEDNESDAY,08:00,08:50,Analytical Techniques in Biotechnology,BT 2.3,A304
+WEDNESDAY,11:50,13:30,Analytical Techniques in Biotechnology,BT 2.3,Biochemistry Lab
+TUESDAY,09:50,11:30,Analytical Techniques in Biotechnology,BT 2.3,Biochemistry Lab
+SATURDAY,11:50,13:30,Bioinformatics Laboratory,BT 3.2,Airframe Repair and Aero Engine Lab
+TUESDAY,11:50,13:30,Bioinformatics Laboratory,BT 3.2,Medical Image Processing Lab
+THURSDAY,09:50,11:30,Bioinformatics Laboratory,BT 3.2,Classroom
+THURSDAY,08:00,09:40,Bioinformatics Laboratory,BT 3.2,Chemistry Lab

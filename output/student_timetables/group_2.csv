@@ -1,0 +1,26 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+TUESDAY,12:00,12:50,Construction Techniques, Equipment and Practice,Mr. Ammaiappan.M,B408
+FRIDAY,13:00,13:50,Construction Techniques, Equipment and Practice,Mr. Ammaiappan.M,A210
+THURSDAY,12:00,12:50,Construction Techniques, Equipment and Practice,Mr. Ammaiappan.M,B404
+WEDNESDAY,15:50,17:30,Construction Materials Laboratory,Mrs. A.J.Jeya Arthi,Concrete & Survey Lab
+TUESDAY,13:50,15:30,Construction Materials Laboratory,Mrs. A.J.Jeya Arthi,Concrete & Survey Lab
+MONDAY,11:50,13:30,Construction Materials Laboratory,Mrs. A.J.Jeya Arthi,Concrete & Survey Lab
+MONDAY,08:00,09:40,Construction Materials Laboratory,Mrs. A.J.Jeya Arthi,Concrete & Survey Lab
+THURSDAY,11:00,11:50,Surveying,Mrs. Yugasini S,A103
+FRIDAY,12:00,12:50,Surveying,Mrs. Yugasini S,B106
+THURSDAY,08:00,08:50,Surveying,Mrs. Yugasini S,B220
+TUESDAY,17:30,19:10,Surveying,Mrs. Yugasini S,Concrete & Survey Lab
+WEDNESDAY,17:30,19:10,Surveying,Mrs. Yugasini S,Concrete & Survey Lab
+MONDAY,14:00,14:50,Strength of Materials I,Mrs. S. Muthu Lakshmi,A204
+FRIDAY,10:00,10:50,Strength of Materials I,Mrs. S. Muthu Lakshmi,B221
+FRIDAY,09:00,09:50,Strength of Materials I,Mrs. S. Muthu Lakshmi,B411
+FRIDAY,08:00,08:50,Fundamentals of Management for Engineers,Mr. Mahamood Ul Hasan N,B408
+WEDNESDAY,13:00,13:50,Fundamentals of Management for Engineers,Mr. Mahamood Ul Hasan N,B426
+THURSDAY,09:00,09:50,Fundamentals of Management for Engineers,Mr. Mahamood Ul Hasan N,C201
+THURSDAY,17:30,19:10,Python Programming for Machine Learning,Dr. M.Manoharan,DSP Lab
+MONDAY,08:00,09:40,Python Programming for Machine Learning,Dr. M.Manoharan,DSP Lab
+FRIDAY,15:50,17:30,Python Programming for Machine Learning,Dr. M.Manoharan,DSP Lab
+TUESDAY,15:50,17:30,Python Programming for Machine Learning,Dr. M.Manoharan,DSP Lab
+WEDNESDAY,11:00,11:50,Fluid Mechanics,Mrs. A.J.Jeya Arthi,A305
+MONDAY,10:00,10:50,Fluid Mechanics,Mrs. A.J.Jeya Arthi,A308
+MONDAY,15:00,15:50,Fluid Mechanics,Mrs. A.J.Jeya Arthi,A104/105

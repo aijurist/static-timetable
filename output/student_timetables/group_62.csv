@@ -1,0 +1,27 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+MONDAY,15:00,15:50,Theory of Computation,Mrs. Akiladevi R,A205
+WEDNESDAY,14:00,14:50,Theory of Computation,Mrs. Akiladevi R,C302
+WEDNESDAY,10:00,10:50,Theory of Computation,Mrs. Akiladevi R,B322
+FRIDAY,18:00,18:50,Theory of Computation,Mrs. Akiladevi R,B419
+TUESDAY,12:00,12:50,Fundamentals of Mobile Computing,Mr. Dr.P.Shanmugam,C202
+THURSDAY,13:00,13:50,Fundamentals of Mobile Computing,Mr. Dr.P.Shanmugam,B422
+THURSDAY,12:00,12:50,Fundamentals of Mobile Computing,Mr. Dr.P.Shanmugam,C102
+MONDAY,12:00,12:50,Web Programming,Mrs. Sathiyavathi S,A309
+WEDNESDAY,15:00,15:50,Web Programming,Mrs. Sathiyavathi S,C103
+TUESDAY,11:00,11:50,Web Programming,Mrs. Sathiyavathi S,C307
+WEDNESDAY,17:30,19:10,Web Programming,Mrs. Sathiyavathi S,TLGL3
+THURSDAY,09:50,11:30,Web Programming,Mrs. Sathiyavathi S,KFR03
+WEDNESDAY,15:50,17:30,Web Programming,Mrs. Sathiyavathi S,TLFR2
+MONDAY,15:50,17:30,Web Programming,Mrs. Sathiyavathi S,KFL01
+MONDAY,08:00,08:50,Computer Networks,Mr. Dr.K.Anand,C102
+MONDAY,13:00,13:50,Computer Networks,Mr. Dr.K.Anand,A104/105
+TUESDAY,13:00,13:50,Computer Networks,Mr. Dr.K.Anand,B401
+THURSDAY,08:00,09:40,Computer Networks,Mr. Dr.K.Anand,JL2
+WEDNESDAY,15:50,17:30,Computer Networks,Mr. Dr.K.Anand,KFL01
+THURSDAY,09:50,11:30,Computer Networks,Mr. Dr.K.Anand,TLGL4
+TUESDAY,13:50,15:30,Computer Networks,Mr. Dr.K.Anand,TLGL4
+FRIDAY,12:00,12:50,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,B210
+WEDNESDAY,11:00,11:50,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,A311
+THURSDAY,16:00,16:50,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,B426
+TUESDAY,13:50,15:30,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,TLFL1
+WEDNESDAY,11:50,13:30,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,KFR01

@@ -1,0 +1,32 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+WEDNESDAY,16:00,16:50,Fundamentals of Machine Learning,Mrs. Priya M,C302
+THURSDAY,14:00,14:50,Fundamentals of Machine Learning,Mrs. Priya M,B106
+TUESDAY,16:00,16:50,Fundamentals of Machine Learning,Mrs. Priya M,B410
+THURSDAY,09:50,11:30,Fundamentals of Machine Learning,Mrs. Priya M,TLFR3
+SATURDAY,17:30,19:10,Fundamentals of Machine Learning,Mrs. Priya M,TLFR2
+SATURDAY,16:00,16:50,Design and Analysis of Algorithms,New Staff - 05,A311
+TUESDAY,14:00,14:50,Design and Analysis of Algorithms,New Staff - 05,B423
+WEDNESDAY,10:00,10:50,Design and Analysis of Algorithms,New Staff - 05,B222
+THURSDAY,11:50,13:30,Design and Analysis of Algorithms,New Staff - 05,TLFR1
+THURSDAY,15:50,17:30,Design and Analysis of Algorithms,New Staff - 05,JL1
+FRIDAY,15:00,15:50,Database Management Systems,Ms. R.Anitha,B320
+SATURDAY,12:00,12:50,Database Management Systems,Ms. R.Anitha,A102
+WEDNESDAY,15:00,15:50,Database Management Systems,Ms. R.Anitha,C307
+WEDNESDAY,08:00,09:40,Database Management Systems,Ms. R.Anitha,TLFR4
+THURSDAY,17:30,19:10,Database Management Systems,Ms. R.Anitha,TLFR4
+SATURDAY,09:50,11:30,Database Management Systems,Ms. R.Anitha,KFR03
+WEDNESDAY,11:50,13:30,Database Management Systems,Ms. R.Anitha,TLFL5
+FRIDAY,17:00,17:50,Environmental Science and Engineering,Mr. Dr.P Vasudevan,B416
+SATURDAY,15:00,15:50,Environmental Science and Engineering,Mr. Dr.P Vasudevan,A304
+THURSDAY,09:00,09:50,Environmental Science and Engineering,Mr. Dr.P Vasudevan,C202
+FRIDAY,10:00,10:50,Discrete Mathematics for AI,Mrs. V. Shakila,A102
+TUESDAY,12:00,12:50,Discrete Mathematics for AI,Mrs. V. Shakila,B221
+WEDNESDAY,17:00,17:50,Discrete Mathematics for AI,Mrs. V. Shakila,A309
+SATURDAY,13:00,13:50,Discrete Mathematics for AI,Mrs. V. Shakila,C308
+WEDNESDAY,11:00,11:50,Object Oriented Programming Using JAVA,Mrs. Sowmia K R,A205
+THURSDAY,15:00,15:50,Object Oriented Programming Using JAVA,Mrs. Sowmia K R,B417
+TUESDAY,13:00,13:50,Object Oriented Programming Using JAVA,Mrs. Sowmia K R,B321
+SATURDAY,08:00,09:40,Object Oriented Programming Using JAVA,Mrs. Sowmia K R,KFL01
+TUESDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mrs. Sowmia K R,TLFL5
+WEDNESDAY,08:00,09:40,Object Oriented Programming Using JAVA,Mrs. Sowmia K R,JR1
+FRIDAY,11:50,13:30,Object Oriented Programming Using JAVA,Mrs. Sowmia K R,TLFR2

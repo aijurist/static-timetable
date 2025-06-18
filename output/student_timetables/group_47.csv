@@ -1,0 +1,32 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+MONDAY,08:00,08:50,Computer Architecture,Mrs. Dharani Devi G,B425
+THURSDAY,17:00,17:50,Computer Architecture,Mrs. Dharani Devi G,A209
+THURSDAY,10:00,10:50,Computer Architecture,Mrs. Dharani Devi G,B415
+TUESDAY,10:00,10:50,Design and Analysis of Algorithms,New Staff - 03,B412
+THURSDAY,12:00,12:50,Design and Analysis of Algorithms,New Staff - 03,B408
+THURSDAY,11:00,11:50,Design and Analysis of Algorithms,New Staff - 03,B418
+TUESDAY,13:50,15:30,Design and Analysis of Algorithms,New Staff - 03,JR2
+TUESDAY,11:50,13:30,Design and Analysis of Algorithms,New Staff - 03,TLFR4
+FRIDAY,10:00,10:50,Fourier series and Number theory,Mr. Charles Sagayaraj A C,B211
+WEDNESDAY,12:00,12:50,Fourier series and Number theory,Mr. Charles Sagayaraj A C,A304
+WEDNESDAY,17:00,17:50,Fourier series and Number theory,Mr. Charles Sagayaraj A C,B107
+MONDAY,09:00,09:50,Fourier series and Number theory,Mr. Charles Sagayaraj A C,A305
+TUESDAY,11:00,11:50,Database Management Systems,Dr. Bhuvaneswari R,B325
+MONDAY,15:00,15:50,Database Management Systems,Dr. Bhuvaneswari R,B412
+MONDAY,12:00,12:50,Database Management Systems,Dr. Bhuvaneswari R,B415
+TUESDAY,15:50,17:30,Database Management Systems,Dr. Bhuvaneswari R,TLFR2
+MONDAY,17:30,19:10,Database Management Systems,Dr. Bhuvaneswari R,TLFR1
+MONDAY,15:50,17:30,Database Management Systems,Dr. Bhuvaneswari R,TLFR2
+FRIDAY,17:30,19:10,Database Management Systems,Dr. Bhuvaneswari R,KFR01
+FRIDAY,08:00,08:50,Object Oriented Programming Using JAVA,Mrs. Deepa B,A210
+THURSDAY,15:00,15:50,Object Oriented Programming Using JAVA,Mrs. Deepa B,B210
+THURSDAY,14:00,14:50,Object Oriented Programming Using JAVA,Mrs. Deepa B,C103
+MONDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mrs. Deepa B,TLFR1
+MONDAY,09:50,11:30,Object Oriented Programming Using JAVA,Mrs. Deepa B,KFL03
+TUESDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mrs. Deepa B,JL1
+FRIDAY,11:50,13:30,Object Oriented Programming Using JAVA,Mrs. Deepa B,JR2
+THURSDAY,18:00,18:50,Fundamentals of Data Science,New Staff - 07,B410
+FRIDAY,14:00,14:50,Fundamentals of Data Science,New Staff - 07,A309
+FRIDAY,09:00,09:50,Fundamentals of Data Science,New Staff - 07,B422
+WEDNESDAY,13:50,15:30,Fundamentals of Data Science,New Staff - 07,JL2
+TUESDAY,17:30,19:10,Fundamentals of Data Science,New Staff - 07,TLFL2

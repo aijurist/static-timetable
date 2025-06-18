@@ -1,0 +1,32 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+MONDAY,13:00,13:50,Formal Language and Automata Theory,Dr. Vishnu Kumar A,B325
+WEDNESDAY,17:00,17:50,Formal Language and Automata Theory,Dr. Vishnu Kumar A,B412
+WEDNESDAY,13:00,13:50,Formal Language and Automata Theory,Dr. Vishnu Kumar A,C302
+MONDAY,15:00,15:50,Computer Organization and Architecture,Mrs. Jayanthi M,B404
+WEDNESDAY,12:00,12:50,Computer Organization and Architecture,Mrs. Jayanthi M,A203
+TUESDAY,11:00,11:50,Computer Organization and Architecture,Mrs. Jayanthi M,A311
+FRIDAY,10:00,10:50,Computational Statistics,Mrs. R Nathiya,B302
+FRIDAY,13:00,13:50,Computational Statistics,Mrs. R Nathiya,A205
+MONDAY,11:00,11:50,Computational Statistics,Mrs. R Nathiya,A210
+FRIDAY,08:00,09:40,Computational Statistics,Mrs. R Nathiya,TLFR4
+THURSDAY,17:30,19:10,Computational Statistics,Mrs. R Nathiya,KFR03
+FRIDAY,12:00,12:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 25,C301
+TUESDAY,13:00,13:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 25,A104/105
+TUESDAY,10:00,10:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 25,B219
+THURSDAY,17:30,19:10,Object Oriented Programming Using JAVA,New Faculty New  Staff - 25,JR3
+FRIDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 25,JL3
+TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 25,JR3
+MONDAY,08:00,09:40,Object Oriented Programming Using JAVA,New Faculty New  Staff - 25,TLFR5
+THURSDAY,16:00,16:50,Environmental Sciences,Mr. Manigandan Ramadoss,A202
+MONDAY,16:00,16:50,Environmental Sciences,Mr. Manigandan Ramadoss,B320
+WEDNESDAY,16:00,16:50,Environmental Sciences,Mr. Manigandan Ramadoss,A305
+MONDAY,12:00,12:50,Software Engineering,Mrs. Dr. K Devaki,C301
+TUESDAY,15:00,15:50,Software Engineering,Mrs. Dr. K Devaki,B220
+MONDAY,18:00,18:50,Software Engineering,Mrs. Dr. K Devaki,B222
+THURSDAY,09:50,11:30,Software Engineering,Mrs. Dr. K Devaki,TLFL4
+WEDNESDAY,13:50,15:30,Software Engineering,Mrs. Dr. K Devaki,KFL01
+MONDAY,17:00,17:50,Database Technology,Mrs. Nisha R S,A208
+MONDAY,10:00,10:50,Database Technology,Mrs. Nisha R S,A310
+FRIDAY,15:00,15:50,Database Technology,Mrs. Nisha R S,A208
+THURSDAY,11:50,13:30,Database Technology,Mrs. Nisha R S,TLFR3
+FRIDAY,08:00,09:40,Database Technology,Mrs. Nisha R S,KFL02

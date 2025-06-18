@@ -1,0 +1,29 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+WEDNESDAY,15:00,15:50,Modern Digital Communication,Mrs. T. Helan Vidhya,B410
+TUESDAY,09:00,09:50,Modern Digital Communication,Mrs. T. Helan Vidhya,B417
+FRIDAY,12:00,12:50,Modern Digital Communication,Mrs. T. Helan Vidhya,B222
+FRIDAY,15:50,17:30,Communication Systems Laboratory,Mrs. Benazir Begam R,Communication Systems Lab
+THURSDAY,15:50,17:30,Communication Systems Laboratory,Mrs. Benazir Begam R,Communication Systems Lab
+SATURDAY,15:50,17:30,Communication Systems Laboratory,Mrs. Benazir Begam R,Communication Systems Lab
+FRIDAY,13:50,15:30,Communication Systems Laboratory,Mrs. Benazir Begam R,Communication Systems Lab
+WEDNESDAY,09:50,11:30,Industrial Internship,Mr. G Loganathan,Medical Image Processing Lab
+FRIDAY,09:50,11:30,Industrial Internship,Mr. G Loganathan,Microprocessor Lab-1
+TUESDAY,10:00,10:50,Digital Signal Processing,Mr. S Sudharsan,B408
+WEDNESDAY,09:00,09:50,Digital Signal Processing,Mr. S Sudharsan,A208
+TUESDAY,11:00,11:50,Digital Signal Processing,Mr. S Sudharsan,A103
+WEDNESDAY,11:50,13:30,Digital Signal Processing,Mr. S Sudharsan,DSP Lab
+THURSDAY,13:50,15:30,Digital Signal Processing,Mr. S Sudharsan,DSP Lab
+SATURDAY,15:50,17:30,Soft Skills – II,Mrs. Shanmuga Priya P,TLFL1
+WEDNESDAY,09:50,11:30,Soft Skills – II,Mrs. Shanmuga Priya P,TLFR2
+THURSDAY,12:00,12:50,Information theory and coding,Mrs. Ms. Indhumathi G,B419
+FRIDAY,08:00,08:50,Information theory and coding,Mrs. Ms. Indhumathi G,B419
+THURSDAY,13:00,13:50,Information theory and coding,Mrs. Ms. Indhumathi G,A308
+TUESDAY,14:00,14:50,Medical electronics,Mrs. B.Thilakavathi,A104/105
+SATURDAY,11:00,11:50,Medical electronics,Mrs. B.Thilakavathi,B409
+TUESDAY,13:00,13:50,Medical electronics,Mrs. B.Thilakavathi,A103
+TUESDAY,15:00,15:50,Introduction to MEMS,Dr. R Jeevani,C102
+WEDNESDAY,17:00,17:50,Introduction to MEMS,Dr. R Jeevani,B221
+TUESDAY,16:00,16:50,Introduction to MEMS,Dr. R Jeevani,B401
+SATURDAY,13:00,13:50,Control System Engineering,Dr. Sathiyavathi S,A305
+FRIDAY,13:00,13:50,Control System Engineering,Dr. Sathiyavathi S,C302
+WEDNESDAY,08:00,08:50,Control System Engineering,Dr. Sathiyavathi S,A108

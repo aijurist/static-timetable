@@ -1,0 +1,11 @@
+Day,StartTime,EndTime,Course,Group,Room
+FRIDAY,08:00,08:50,Fundamentals of Data Science,CSE 2.7,A202
+WEDNESDAY,15:00,15:50,Fundamentals of Data Science,CSE 2.7,A302
+TUESDAY,10:00,10:50,Fundamentals of Data Science,CSE 2.7,C301
+MONDAY,11:50,13:30,Fundamentals of Data Science,CSE 2.7,JL3
+WEDNESDAY,11:50,13:30,Fundamentals of Data Science,CSE 2.7,KFL03
+MONDAY,18:00,18:50,Foundations of Artificial Intelligence,CSE 3.5,B418
+TUESDAY,08:00,08:50,Foundations of Artificial Intelligence,CSE 3.5,C307
+WEDNESDAY,11:00,11:50,Foundations of Artificial Intelligence,CSE 3.5,B211
+MONDAY,13:50,15:30,Foundations of Artificial Intelligence,CSE 3.5,KFL02
+TUESDAY,11:50,13:30,Foundations of Artificial Intelligence,CSE 3.5,TLGL3

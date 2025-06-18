@@ -1,0 +1,15 @@
+Day,StartTime,EndTime,Course,Group,Room
+TUESDAY,08:00,08:50,Database Management Systems,CSE 2.5,B302
+TUESDAY,13:00,13:50,Database Management Systems,CSE 2.5,B212
+MONDAY,11:00,11:50,Database Management Systems,CSE 2.5,A309
+THURSDAY,08:00,09:40,Database Management Systems,CSE 2.5,TLFR1
+THURSDAY,11:50,13:30,Database Management Systems,CSE 2.5,JL2
+TUESDAY,13:50,15:30,Database Management Systems,CSE 2.5,JL3
+MONDAY,17:30,19:10,Database Management Systems,CSE 2.5,TLFL5
+MONDAY,12:00,12:50,Web Programming,CSE 3.2,A309
+WEDNESDAY,15:00,15:50,Web Programming,CSE 3.2,C103
+TUESDAY,11:00,11:50,Web Programming,CSE 3.2,C307
+WEDNESDAY,17:30,19:10,Web Programming,CSE 3.2,TLGL3
+THURSDAY,09:50,11:30,Web Programming,CSE 3.2,KFR03
+WEDNESDAY,15:50,17:30,Web Programming,CSE 3.2,TLFR2
+MONDAY,15:50,17:30,Web Programming,CSE 3.2,KFL01

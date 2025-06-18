@@ -1,0 +1,28 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+SATURDAY,18:00,18:50,Machine Design,Mr. Dr. E.Shankar,B418
+FRIDAY,17:00,17:50,Machine Design,Mr. Dr. E.Shankar,A308
+TUESDAY,14:00,14:50,Machine Design,Mr. Dr. E.Shankar,A308
+THURSDAY,12:00,12:50,AI for Robotics,Mr. L Ganesh Babu,A203
+WEDNESDAY,13:00,13:50,AI for Robotics,Mr. L Ganesh Babu,B222
+WEDNESDAY,14:00,14:50,AI for Robotics,Mr. L Ganesh Babu,A311
+WEDNESDAY,17:00,17:50,Farm Automation,Dr. Senthilrajan S,A208
+SATURDAY,14:00,14:50,Farm Automation,Dr. Senthilrajan S,A309
+FRIDAY,10:00,10:50,Farm Automation,Dr. Senthilrajan S,A308
+THURSDAY,09:00,09:50,Theory of Mechanisms and Machines-II,Mr. R Saravanan,A302
+FRIDAY,16:00,16:50,Theory of Mechanisms and Machines-II,Mr. R Saravanan,A104/105
+FRIDAY,11:00,11:50,Theory of Mechanisms and Machines-II,Mr. R Saravanan,A303
+SATURDAY,16:00,16:50,Theory of Mechanisms and Machines-II,Mr. R Saravanan,B210
+THURSDAY,09:50,11:30,Mobile Robotics laboratory,Mr. Ramkumar S,Isaac Asimov Laboratory
+FRIDAY,11:50,13:30,Mobile Robotics laboratory,Mr. Ramkumar S,Isaac Asimov Laboratory
+SATURDAY,08:00,09:40,Mobile Robotics laboratory,Mr. Ramkumar S,Isaac Asimov Laboratory
+THURSDAY,15:50,17:30,Mobile Robotics laboratory,Mr. Ramkumar S,Isaac Asimov Laboratory
+SATURDAY,09:50,11:30,Industrial Automation 
+ Laboratory-II,Mr. L Ganesh Babu,Industrial Automation Lab
+SATURDAY,08:00,09:40,Industrial Automation 
+ Laboratory-II,Mr. L Ganesh Babu,Industrial Automation Lab
+TUESDAY,11:50,13:30,Industrial Automation 
+ Laboratory-II,Mr. L Ganesh Babu,Industrial Automation Lab
+THURSDAY,17:30,19:10,Industrial Automation 
+ Laboratory-II,Mr. L Ganesh Babu,Industrial Automation Lab
+SATURDAY,11:50,13:30,Internship,Mr. P.Vimalanathan,Industrial Automation Lab
+FRIDAY,11:50,13:30,Internship,Mr. P.Vimalanathan,Manufacturing Technology I

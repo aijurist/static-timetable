@@ -1,0 +1,12 @@
+Day,StartTime,EndTime,Course,Group,Room
+WEDNESDAY,12:00,12:50,Database Management Systems,CSE 2.4,A311
+FRIDAY,13:00,13:50,Database Management Systems,CSE 2.4,A311
+TUESDAY,10:00,10:50,Database Management Systems,CSE 2.4,B402
+FRIDAY,17:30,19:10,Database Management Systems,CSE 2.4,JR3
+MONDAY,15:50,17:30,Database Management Systems,CSE 2.4,KFR02
+THURSDAY,08:00,09:40,Database Management Systems,CSE 2.4,KFL02
+THURSDAY,09:50,11:30,Database Management Systems,CSE 2.4,JL2
+WEDNESDAY,08:00,08:50,Theory of Computation,CSE 3.3,C308
+MONDAY,18:00,18:50,Theory of Computation,CSE 3.3,B106
+THURSDAY,16:00,16:50,Theory of Computation,CSE 3.3,B213
+FRIDAY,11:00,11:50,Theory of Computation,CSE 3.3,A309

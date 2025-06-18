@@ -1,0 +1,27 @@
+Day,StartTime,EndTime,Course,Teacher,Room
+THURSDAY,10:00,10:50,Manufacturing Technology I,Mr. M.S.Natarajan,A303
+FRIDAY,13:00,13:50,Manufacturing Technology I,Mr. M.S.Natarajan,A211
+WEDNESDAY,10:00,10:50,Manufacturing Technology I,Mr. M.S.Natarajan,B321
+TUESDAY,15:00,15:50,Kinematics of Machinery,Mr. Loganathan.K,B424
+TUESDAY,14:00,14:50,Kinematics of Machinery,Mr. Loganathan.K,B424
+FRIDAY,16:00,16:50,Kinematics of Machinery,Mr. Loganathan.K,B321
+MONDAY,09:50,11:30,Manufacturing Technology Laboratory I,Mr. S. Panneer Selvan,Manufacturing Technology I
+MONDAY,11:50,13:30,Manufacturing Technology Laboratory I,Mr. S. Panneer Selvan,Manufacturing Technology I
+FRIDAY,11:00,11:50,Strength of Materials,Mr. P.Arumugam,A210
+TUESDAY,18:00,18:50,Strength of Materials,Mr. P.Arumugam,A304
+WEDNESDAY,14:00,14:50,Strength of Materials,Mr. P.Arumugam,C101
+MONDAY,17:30,19:10,Strength of Materials,Mr. P.Arumugam,Strength of Materials Lab
+WEDNESDAY,17:30,19:10,Strength of Materials,Mr. P.Arumugam,Strength of Materials Lab
+MONDAY,08:00,08:50,Transforms and Statistics,Mr. Dr.V.Bharathi,C302
+WEDNESDAY,12:00,12:50,Transforms and Statistics,Mr. Dr.V.Bharathi,B401
+FRIDAY,15:00,15:50,Transforms and Statistics,Mr. Dr.V.Bharathi,C302
+MONDAY,11:50,13:30,Transforms and Statistics,Mr. Dr.V.Bharathi,Thermal Lab 2
+MONDAY,09:50,11:30,Transforms and Statistics,Mr. Dr.V.Bharathi,Microprocessor Lab-2
+FRIDAY,14:00,14:50,Engineering Thermodynamics,Mr. P T Dineshkumar,B404
+FRIDAY,10:00,10:50,Engineering Thermodynamics,Mr. P T Dineshkumar,C101
+TUESDAY,17:00,17:50,Engineering Thermodynamics,Mr. P T Dineshkumar,A304
+THURSDAY,14:00,14:50,Engineering Thermodynamics,Mr. P T Dineshkumar,A309
+MONDAY,15:50,17:30,Python Programming for Machine Learning,Mr. P T Dineshkumar,DSP Lab
+THURSDAY,11:00,11:50,Python Programming for Machine Learning,Mr. P T Dineshkumar,DSP Lab
+WEDNESDAY,08:00,09:40,Python Programming for Machine Learning,Mr. P T Dineshkumar,DSP Lab
+MONDAY,17:30,19:10,Python Programming for Machine Learning,Mr. P T Dineshkumar,DSP Lab

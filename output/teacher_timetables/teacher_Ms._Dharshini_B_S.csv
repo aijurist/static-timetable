@@ -1,0 +1,18 @@
+Day,StartTime,EndTime,Course,Group,Room
+THURSDAY,11:00,11:50,Object Oriented Programming Using JAVA,CSE 2.6,B426
+THURSDAY,16:00,16:50,Object Oriented Programming Using JAVA,CSE 2.6,C301
+MONDAY,11:00,11:50,Object Oriented Programming Using JAVA,CSE 2.6,A205
+TUESDAY,17:30,19:10,Object Oriented Programming Using JAVA,CSE 2.6,KFL02
+MONDAY,11:50,13:30,Object Oriented Programming Using JAVA,CSE 2.6,KFL03
+FRIDAY,08:00,09:40,Object Oriented Programming Using JAVA,CSE 2.6,TLFL3
+TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSE 2.6,KFL01
+THURSDAY,10:00,10:50,Fundamentals of Data Science,CSE 2.1,B402
+WEDNESDAY,16:00,16:50,Fundamentals of Data Science,CSE 2.1,C102
+WEDNESDAY,13:00,13:50,Fundamentals of Data Science,CSE 2.1,B219
+WEDNESDAY,08:00,09:40,Fundamentals of Data Science,CSE 2.1,KFR02
+MONDAY,08:00,09:40,Fundamentals of Data Science,CSE 2.1,JR3
+THURSDAY,13:00,13:50,Fundamentals of Data Science,CSE 2.9,A311
+MONDAY,10:00,10:50,Fundamentals of Data Science,CSE 2.9,B325
+WEDNESDAY,11:00,11:50,Fundamentals of Data Science,CSE 2.9,B408
+MONDAY,13:50,15:30,Fundamentals of Data Science,CSE 2.9,TLFR3
+FRIDAY,09:50,11:30,Fundamentals of Data Science,CSE 2.9,TLFR1

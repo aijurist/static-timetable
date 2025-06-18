@@ -1,0 +1,17 @@
+Day,StartTime,EndTime,Course,Group,Room
+SATURDAY,10:00,10:50,Bioinformatics,BT 3.1,B422
+THURSDAY,15:00,15:50,Bioinformatics,BT 3.1,B409
+FRIDAY,11:00,11:50,Bioinformatics,BT 3.1,C307
+WEDNESDAY,10:00,10:50,Bioinformatics,BT 3.3,A205
+SATURDAY,11:00,11:50,Bioinformatics,BT 3.3,B211
+THURSDAY,16:00,16:50,Bioinformatics,BT 3.3,B320
+TUESDAY,11:50,13:30,Bioinformatics Laboratory,BT 3.3,Networks Lab
+WEDNESDAY,13:50,15:30,Bioinformatics Laboratory,BT 3.3,Heat Transfer Lab
+THURSDAY,17:30,19:10,Bioinformatics Laboratory,BT 3.3,Microprocessor Lab-2
+TUESDAY,13:50,15:30,Bioinformatics Laboratory,BT 3.3,Electrical Machines I Lab
+THURSDAY,11:00,11:50,Comprehensive Course for Biotechnologists,BT 4.1,B322
+WEDNESDAY,11:00,11:50,Comprehensive Course for Biotechnologists,BT 4.1,A204
+FRIDAY,13:00,13:50,Comprehensive Course for Biotechnologists,BT 4.1,B408
+SATURDAY,16:00,16:50,Comprehensive Course for Biotechnologists,BT 4.3,A204
+FRIDAY,14:00,14:50,Comprehensive Course for Biotechnologists,BT 4.3,B415
+FRIDAY,09:00,09:50,Comprehensive Course for Biotechnologists,BT 4.3,B220

@@ -1,0 +1,13 @@
+Day,StartTime,EndTime,Course,Group,Room
+FRIDAY,16:00,16:50,Introduction to Python Programming,MCT 2.1,B409
+TUESDAY,17:30,19:10,Introduction to Python Programming,MCT 2.1,MCT CAD Lab
+SATURDAY,13:50,15:30,Introduction to Python Programming,MCT 2.1,MCT CAD Lab
+TUESDAY,15:50,17:30,Introduction to Python Programming,MCT 2.1,MCT CAD Lab
+SATURDAY,15:50,17:30,Introduction to Python Programming,MCT 2.1,MCT CAD Lab
+THURSDAY,13:00,13:50,Basic Engineering Research Methods,MCT 3.1,A104/105
+TUESDAY,11:00,11:50,Basic Engineering Research Methods,MCT 3.1,B403
+SATURDAY,09:00,09:50,Basic Engineering Research Methods,MCT 3.1,B424
+THURSDAY,08:00,09:40,Mechatronics Problem Solving using AI, ML & DL,MCT 4.1,Mech CAD Lab
+FRIDAY,11:50,13:30,Mechatronics Problem Solving using AI, ML & DL,MCT 4.1,Concrete & Survey Lab
+THURSDAY,09:50,11:30,Mechatronics Problem Solving using AI, ML & DL,MCT 4.1,Embedded System Laboratory(EEE)
+WEDNESDAY,15:50,17:30,Mechatronics Problem Solving using AI, ML & DL,MCT 4.1,Livestock Lab
