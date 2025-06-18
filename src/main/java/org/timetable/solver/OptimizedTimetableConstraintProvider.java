@@ -11,6 +11,9 @@ import org.timetable.domain.TimeSlot;
 import org.timetable.config.TimetableConfig;
 import org.timetable.config.DepartmentWorkdayConfig;
 import org.timetable.persistence.CourseLabMappingUtil;
+import static org.optaplanner.core.api.score.stream.ConstraintCollectors.*;
+import static org.optaplanner.core.api.score.stream.Joiners.*;
+import org.optaplanner.core.api.score.stream.uni.UniConstraintStream;
 import org.timetable.domain.Room;
 
 import java.time.Duration;
@@ -24,9 +27,11 @@ import static org.optaplanner.core.api.score.stream.ConstraintCollectors.*;
  * Focuses on core timetabling constraints without A105-specific requirements
  */
 public class OptimizedTimetableConstraintProvider implements ConstraintProvider {
+    private final ConstraintMonitor monitor = ConstraintMonitor.getInstance();
 
     @Override
     public Constraint[] defineConstraints(ConstraintFactory constraintFactory) {
+        monitor.newEvaluation(); // Track each constraint evaluation
         return new Constraint[]{
                 // ########################################################################
                 // TIER 1: CRITICAL HARD CONSTRAINTS (Must be satisfied for feasibility)
@@ -46,7 +51,9 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 
                 // Lab type enforcement for mapped courses (very important)
                 courseLabMustMatchMapping(constraintFactory),
-                courseRequiredLabTypeMustMatchRoom(constraintFactory),
+                
+                // Fallback for when strict core lab mapping isn't possible
+                coreLabFallbackPreference(constraintFactory),
                 
                 // Department workday policies
                 departmentOutsideAllowedDays(constraintFactory),
@@ -61,10 +68,6 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 // ########################################################################
                 // TIER 2: IMPORTANT SOFT CONSTRAINTS (Preferences and efficiency)
                 // ########################################################################
-                
-                // Lab type preferences for non-mapped courses
-                computerDepartmentsShouldUseComputerLabs(constraintFactory),
-                coreDepartmentsShouldUseCoreOrComputerLabs(constraintFactory),
                 
                 // Large lab efficiency - encourage combining batches
                 largeLab70CapacityBatchCombining(constraintFactory),
@@ -104,7 +107,10 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 .forEachUniquePair(Lesson.class,
                         Joiners.equal(Lesson::getTimeSlot),
                         Joiners.equal(Lesson::getRoom))
-                .penalize(HardSoftScore.ONE_HARD)
+                .penalize(HardSoftScore.ONE_HARD, (lesson1, lesson2) -> {
+                    recordViolation("Room conflict", HardSoftScore.ONE_HARD);
+                    return 1;
+                })
                 .asConstraint("Room conflict");
     }
 
@@ -509,6 +515,18 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
     // ############################################################################
     // Helper Methods
     // ############################################################################
+    
+    /**
+     * Helper method to record constraint violations for monitoring
+     */
+    private void recordViolation(String constraintName, HardSoftScore penalty) {
+        if (penalty.getHardScore() != 0) {
+            monitor.recordHardViolation(constraintName, Math.abs(penalty.getHardScore()));
+        }
+        if (penalty.getSoftScore() != 0) {
+            monitor.recordSoftViolation(constraintName, Math.abs(penalty.getSoftScore()));
+        }
+    }
 
     private boolean isPreferredTimeForTeacher(Teacher teacher, TimeSlot timeSlot) {
         // Assume teachers prefer morning sessions (before 12 PM)
@@ -528,72 +546,72 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
     }
 
     // Lab type matching constraints
-    /**
-     * Originally this was a HARD constraint which rendered many solutions infeasible when
-     * computer-lab capacity was insufficient. We now keep it as a strong SOFT preference so
-     * that the solver still tries to honour it, but feasibility is no longer broken.
-     */
-    Constraint computerDepartmentsShouldUseComputerLabs(ConstraintFactory constraintFactory) {
-        return constraintFactory.forEach(Lesson.class)
-                .filter(lesson -> lesson.getSessionType().equals("lab"))
-                .filter(lesson -> isComputerDepartment(lesson.getStudentGroup().getDepartment()))
-                .join(Room.class, Joiners.equal(Lesson::getRoom, room -> room))
-                .filter((lesson, room) -> !"computer".equals(room.getLabType()))
-                .penalize(HardSoftScore.ONE_SOFT.multiply(2000)) // stronger soft penalty
-                .asConstraint("Computer departments should use computer labs");
-    }
-
-    /**
-     * Core departments strongly prefer their own core labs; they MAY use computer labs when
-     * explicitly mapped. This is now a SOFT constraint to avoid infeasibility when capacity
-     * is tight.
-     */
-    Constraint coreDepartmentsShouldUseCoreOrComputerLabs(ConstraintFactory constraintFactory) {
-        return constraintFactory.forEach(Lesson.class)
-                .filter(lesson -> lesson.getSessionType().equals("lab"))
-                .filter(lesson -> !isComputerDepartment(lesson.getStudentGroup().getDepartment()))
-                .join(Room.class, Joiners.equal(Lesson::getRoom, room -> room))
-                .filter((lesson, room) -> {
-                    // Core departments can freely use core labs
-                    String labType = room.getLabType();
-                    if ("core".equals(labType)) {
-                        return false;
-                    }
-                    if ("computer".equals(labType)) {
-                        // Allowed only if explicitly mapped
-                        return !CourseLabMappingUtil.isRoomAllowedForCourse(lesson.getCourse().getCode(), room.getDescription());
-                    }
-                    // Any other lab type is discouraged
-                    return true;
-                })
-                .penalize(HardSoftScore.ONE_SOFT.multiply(500))
-                .asConstraint("Core departments should use appropriate labs");
-    }
-
-    // Helper method to identify computer departments
-    private boolean isComputerDepartment(String department) {
-        // Recognize all computer-related departments so they are constrained to computer labs
-        return java.util.Set.of(
-                "CSE",
-                "IT", 
-                "AIDS",
-                "CSBS", 
-                "AIML", 
-                "CSD",    
-                "CSE-CS"  
-        ).contains(department);
-    }
-
-    // Enforce that courses with explicit lab mappings must be scheduled in one of their allowed labs
+    // Enhanced constraint that handles both specific room mappings and lab_type requirements with priority system
     private Constraint courseLabMustMatchMapping(ConstraintFactory constraintFactory) {
+        // Courses that ALWAYS require computer labs even if not present in mapping CSV
+        final java.util.Set<String> ALWAYS_COMPUTER = java.util.Set.of(
+                "CD23321", // Python Programming for Design
+                "CS19P23", // Advanced Application Development with Oracle APEX
+                "CS19P21"  // Advanced Robotic Process Automation
+        );
+        
         return constraintFactory.forEach(Lesson.class)
                 .filter(lesson -> lesson.getSessionType().equals("lab"))
-                .filter(lesson -> CourseLabMappingUtil.isCoreLabCourse(lesson.getCourse().getCode()))
                 .filter(lesson -> lesson.getRoom() != null) // Only check assigned lessons
-                .filter(lesson -> !CourseLabMappingUtil.isRoomAllowedForCourse(
-                        lesson.getCourse().getCode(), lesson.getRoom().getDescription()))
-                .penalize(HardSoftScore.ONE_HARD.multiply(10000)) // Maximum penalty
-                .asConstraint("Course lab must match mapping");
+                .filter(lesson -> {
+                    String courseCode = lesson.getCourse().getCode();
+                    String roomDesc = lesson.getRoom().getDescription();
+                    String roomLabType = lesson.getRoom().getLabType();
+                    
+                    // Priority 1: If course has explicit lab_type from CSV, check lab type compatibility
+                    String courseLabType = lesson.getCourse().getLabType();
+                    if (courseLabType != null) {
+                        // For CSV lab_type field, enforce lab type matching
+                        if ("computer".equals(courseLabType)) {
+                            // Computer courses can use any computer lab
+                            return !"computer".equals(roomLabType);
+                        } else if ("core".equals(courseLabType)) {
+                            // Core courses from CSV can use any core lab (fallback)
+                            return !"core".equals(roomLabType);
+                        } else {
+                            // Other lab types must match exactly
+                            return !courseLabType.equals(roomLabType);
+                        }
+                    }
+                    
+                    // Priority 2: STRICT core lab mapping - courses in mapping file MUST use specific labs
+                    if (CourseLabMappingUtil.isCoreLabCourse(courseCode)) {
+                        // This is a MUST rule - course must be in one of its mapped labs
+                        return !CourseLabMappingUtil.isRoomAllowedForCourse(courseCode, roomDesc);
+                    }
+                    
+                    // Priority 3: Hardcoded computer courses must be in computer labs
+                    if (ALWAYS_COMPUTER.contains(courseCode)) {
+                        return !"computer".equals(roomLabType);
+                    }
+                    
+                    // No restrictions for other courses
+                    return false;
+                })
+                .penalize(HardSoftScore.ONE_HARD.multiply(10000), lesson -> { // High penalty for violations
+                    String courseCode = lesson.getCourse().getCode();
+                    String roomDesc = lesson.getRoom().getDescription();
+                    String courseLabType = lesson.getCourse().getLabType();
+                    
+                    // Record specific violation type for better debugging
+                    if (courseLabType != null) {
+                        recordViolation("CSV lab_type mismatch: " + courseCode + " requires " + courseLabType, 
+                                       HardSoftScore.ONE_HARD.multiply(10000));
+                    } else if (CourseLabMappingUtil.isCoreLabCourse(courseCode)) {
+                        recordViolation("Core lab mapping violation: " + courseCode + " not allowed in " + roomDesc, 
+                                       HardSoftScore.ONE_HARD.multiply(10000));
+                    } else {
+                        recordViolation("Computer lab requirement violation: " + courseCode, 
+                                       HardSoftScore.ONE_HARD.multiply(10000));
+                    }
+                    return 1;
+                })
+                .asConstraint("Strict lab assignment with priority system");
     }
 
     // FIXED: Student group shift pattern now as soft constraint with improved penalty calculation
@@ -725,33 +743,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 .asConstraint("Encourage large lab batch combining");
     }
 
-    private Constraint courseRequiredLabTypeMustMatchRoom(ConstraintFactory constraintFactory) {
-        // Courses that ALWAYS require computer labs even if not present in mapping CSV
-        final java.util.Set<String> ALWAYS_COMPUTER = java.util.Set.of(
-                "CD23321", // Python Programming for Design
-                "CS19P23", // Advanced Application Development with Oracle APEX
-                "CS19P21"  // Advanced Robotic Process Automation
-        );
-        return constraintFactory.forEach(Lesson.class)
-                .filter(Lesson::requiresLabRoom)
-                .filter(lesson -> {
-                    String courseCode = lesson.getCourse().getCode();
-                    return CourseLabMappingUtil.getRequiredLabType(courseCode) != null || ALWAYS_COMPUTER.contains(courseCode);
-                })
-                .join(Room.class, Joiners.equal(Lesson::getRoom, r -> r))
-                .filter((lesson, room) -> {
-                    String courseCode = lesson.getCourse().getCode();
-                    String required = CourseLabMappingUtil.getRequiredLabType(courseCode);
-                    if (required == null && ALWAYS_COMPUTER.contains(courseCode)) {
-                        required = "computer";
-                    }
-                    if (required == null) return false;
-                    String actual = room.getLabType();
-                    return !required.equals(actual);
-                })
-                .penalize(HardSoftScore.ONE_HARD.multiply(1000))
-                .asConstraint("Course-required lab type must match room lab type");
-    }
+
 
     // NEW: Force efficient utilization of 70-capacity labs for batch combining
     private Constraint penalizeSplitBatchesSeparateLargeLabs(ConstraintFactory constraintFactory) {

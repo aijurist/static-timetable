@@ -66,7 +66,7 @@ public class TimetableDataLoader {
     );
 
     private static class RawDataRecord {
-        final String courseId, courseCode, courseName, courseDept, courseType, teacherId, staffCode, firstName, lastName, teacherEmail;
+        final String courseId, courseCode, courseName, courseDept, courseType, teacherId, staffCode, firstName, lastName, teacherEmail, labType;
         final int semester, lectureHours, practicalHours, tutorialHours, credits;
 
         RawDataRecord(CSVRecord record) {
@@ -85,6 +85,19 @@ public class TimetableDataLoader {
             this.practicalHours = parseIntSafely(record.get("practical_hours"), 0);
             this.tutorialHours = parseIntSafely(record.get("tutorial_hours"), 0);
             this.credits = parseIntSafely(record.get("credits"), 0);
+            
+            // Read lab_type field if available
+            String labTypeValue = null;
+            try {
+                labTypeValue = record.get("lab_type");
+                if (labTypeValue != null && labTypeValue.trim().isEmpty()) {
+                    labTypeValue = null;
+                }
+            } catch (IllegalArgumentException e) {
+                // lab_type column doesn't exist, that's fine
+                labTypeValue = null;
+            }
+            this.labType = labTypeValue;
         }
     }
 
@@ -187,10 +200,10 @@ public class TimetableDataLoader {
             courses.computeIfAbsent(record.courseId, id -> {
                 String deptCode = DEPT_NAME_TO_CODE.getOrDefault(record.courseDept, record.courseDept);
                 CourseType type = record.practicalHours > 0 ? CourseType.LAB : CourseType.THEORY;
-                LOGGER.info(String.format("Creating course: %s - %s (Dept: %s, Semester: %d)",
-                        record.courseCode, record.courseName, deptCode, record.semester));
+                LOGGER.info(String.format("Creating course: %s - %s (Dept: %s, Semester: %d, Lab Type: %s)",
+                        record.courseCode, record.courseName, deptCode, record.semester, record.labType));
                 return new Course(id, record.courseCode, record.courseName, deptCode, type,
-                        record.lectureHours, record.tutorialHours, record.practicalHours, record.credits);
+                        record.lectureHours, record.tutorialHours, record.practicalHours, record.credits, record.labType);
             });
         }
         LOGGER.info("Created " + courses.size() + " unique courses");

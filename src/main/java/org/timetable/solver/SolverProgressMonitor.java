@@ -15,12 +15,16 @@ public class SolverProgressMonitor implements SolverEventListener<TimetableProbl
     
     private final LocalDateTime startTime;
     private final AtomicInteger improvementCount = new AtomicInteger(0);
+    private final ConstraintMonitor constraintMonitor = ConstraintMonitor.getInstance();
     private volatile String lastBestScore = "N/A";
     private volatile LocalDateTime lastImprovementTime;
     
     public SolverProgressMonitor() {
         this.startTime = LocalDateTime.now();
         this.lastImprovementTime = startTime;
+        // Reset constraint monitoring for new solving session
+        constraintMonitor.reset();
+        logger.info("Started constraint monitoring for new solving session");
     }
     
     @Override
@@ -44,6 +48,9 @@ public class SolverProgressMonitor implements SolverEventListener<TimetableProbl
                     assignedLessons,
                     newBestSolution.getLessons().size(),
                     formatDuration(totalTime));
+            
+            // Trigger constraint monitoring evaluation
+            constraintMonitor.newEvaluation();
             
             // Log feasibility status
             if (newBestSolution.getScore() != null) {
@@ -71,6 +78,38 @@ public class SolverProgressMonitor implements SolverEventListener<TimetableProbl
             double improvementsPerMinute = improvementCount.get() / Math.max(1.0, totalTime.toMinutes());
             logger.info("Average improvements per minute: {:.2f}", improvementsPerMinute);
         }
+        
+        // Log final constraint analysis
+        logger.info("--- Final Constraint Analysis ---");
+        logConstraintSummary();
+    }
+    
+    private void logConstraintSummary() {
+        var stats = constraintMonitor.getCurrentStats();
+        
+        if (stats.isEmpty()) {
+            logger.info("No constraint violations recorded during solving");
+            return;
+        }
+        
+        int totalHardViolations = stats.values().stream().mapToInt(ConstraintMonitor.ConstraintStats::getHardViolations).sum();
+        int totalSoftViolations = stats.values().stream().mapToInt(ConstraintMonitor.ConstraintStats::getSoftViolations).sum();
+        
+        logger.info("Total Hard Violations: {}", totalHardViolations);
+        logger.info("Total Soft Violations: {}", totalSoftViolations);
+        
+        // Show top 5 most violated constraints
+        stats.values().stream()
+                .filter(s -> s.getTotalViolations() > 0)
+                .sorted((a, b) -> {
+                    if (a.getHardViolations() != b.getHardViolations()) {
+                        return Integer.compare(b.getHardViolations(), a.getHardViolations());
+                    }
+                    return Integer.compare(b.getSoftViolations(), a.getSoftViolations());
+                })
+                .limit(5)
+                .forEach(stat -> logger.info("  {} - Hard: {}, Soft: {}", 
+                        stat.getConstraintName(), stat.getHardViolations(), stat.getSoftViolations()));
     }
     
     private String formatDuration(Duration duration) {

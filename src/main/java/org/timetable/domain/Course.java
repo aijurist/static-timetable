@@ -13,6 +13,7 @@ public class Course {
     private int tutorialHours;
     private int practicalHours;
     private int credits;
+    private String labType; // "computer", "core", or null
 
     public Course() {
     }
@@ -28,6 +29,21 @@ public class Course {
         this.tutorialHours = tutorialHours;
         this.practicalHours = practicalHours;
         this.credits = credits;
+        this.labType = null;
+    }
+
+    public Course(String id, String code, String name, String department, CourseType type,
+                  int lectureHours, int tutorialHours, int practicalHours, int credits, String labType) {
+        this.id = id;
+        this.code = code;
+        this.name = name;
+        this.department = department;
+        this.type = type;
+        this.lectureHours = lectureHours;
+        this.tutorialHours = tutorialHours;
+        this.practicalHours = practicalHours;
+        this.credits = credits;
+        this.labType = labType;
     }
 
     public String getId() {
@@ -102,8 +118,16 @@ public class Course {
         this.credits = credits;
     }
 
+    public String getLabType() {
+        return labType;
+    }
+
+    public void setLabType(String labType) {
+        this.labType = labType;
+    }
+
     @Override
     public String toString() {
-        return code + " - " + name;
+        return code + " - " + name + (labType != null ? " (" + labType + " lab)" : "");
     }
 }
