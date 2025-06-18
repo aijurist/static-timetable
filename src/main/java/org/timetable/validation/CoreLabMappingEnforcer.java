@@ -44,11 +44,12 @@ public class CoreLabMappingEnforcer {
         LOGGER.info("Found " + mappedCourses.size() + " courses with explicit lab mappings");
         
         for (String courseCode : mappedCourses) {
-            Set<String> allowedLabs = CourseLabMappingUtil.getAllowedLabs(courseCode);
-            LOGGER.info("Course " + courseCode + " can use labs: " + allowedLabs);
+            List<String> priorityLabs = CourseLabMappingUtil.getPriorityOrderedLabs(courseCode);
+            LOGGER.info("Course " + courseCode + " priority labs: " + priorityLabs + 
+                       " (Priority: 1=highest, " + priorityLabs.size() + "=lowest)");
             
-            // Verify all allowed labs exist
-            for (String labName : allowedLabs) {
+            // Verify all priority labs exist
+            for (String labName : priorityLabs) {
                 if (!availableLabs.contains(labName)) {
                     LOGGER.severe("ERROR: Course " + courseCode + " references non-existent lab: " + labName);
                     throw new IllegalStateException("Invalid lab reference: " + labName);
@@ -84,7 +85,8 @@ public class CoreLabMappingEnforcer {
                         courseCode,
                         lesson.getCourse().getName(),
                         roomDesc,
-                        CourseLabMappingUtil.getAllowedLabs(courseCode)
+                        CourseLabMappingUtil.getAllowedLabs(courseCode),
+                        CourseLabMappingUtil.getPriorityOrderedLabs(courseCode)
                     ));
                 }
             }
@@ -96,6 +98,7 @@ public class CoreLabMappingEnforcer {
                 LOGGER.severe("  Course " + violation.getCourseCode() + " (" + violation.getCourseName() + 
                              ") assigned to wrong lab: " + violation.getAssignedLab());
                 LOGGER.severe("    Allowed labs: " + violation.getAllowedLabs());
+                LOGGER.severe("    Priority order: " + violation.getPriorityOrderedLabs());
             }
         } else {
             LOGGER.info("✓ No lab mapping violations found in solution");
@@ -106,7 +109,8 @@ public class CoreLabMappingEnforcer {
     }
 
     /**
-     * Filters available rooms for a course to only include allowed labs.
+     * Filters available rooms for a course to only include allowed labs, returned in priority order.
+     * For core lab courses, rooms are returned in preference order (lab_1 first, then lab_2, then lab_3).
      */
     public static List<Room> getFilteredRoomsForCourse(String courseCode, List<Room> allRooms) {
         if (!CourseLabMappingUtil.isCoreLabCourse(courseCode)) {
@@ -116,11 +120,18 @@ public class CoreLabMappingEnforcer {
                     .collect(Collectors.toList());
         }
         
-        Set<String> allowedLabs = CourseLabMappingUtil.getAllowedLabs(courseCode);
-        return allRooms.stream()
-                .filter(Room::isLab)
-                .filter(room -> allowedLabs.contains(room.getDescription()))
-                .collect(Collectors.toList());
+        List<String> priorityLabs = CourseLabMappingUtil.getPriorityOrderedLabs(courseCode);
+        List<Room> filteredRooms = new ArrayList<>();
+        
+        // Add rooms in priority order
+        for (String labDescription : priorityLabs) {
+            allRooms.stream()
+                    .filter(Room::isLab)
+                    .filter(room -> labDescription.equals(room.getDescription()))
+                    .forEach(filteredRooms::add);
+        }
+        
+        return filteredRooms;
     }
 
     public static class ValidationResult {
@@ -148,17 +159,28 @@ public class CoreLabMappingEnforcer {
         private final String courseName;
         private final String assignedLab;
         private final Set<String> allowedLabs;
+        private final List<String> priorityOrderedLabs;
         
         public MappingViolation(String courseCode, String courseName, String assignedLab, Set<String> allowedLabs) {
             this.courseCode = courseCode;
             this.courseName = courseName;
             this.assignedLab = assignedLab;
             this.allowedLabs = new HashSet<>(allowedLabs);
+            this.priorityOrderedLabs = new ArrayList<>(allowedLabs); // Fallback for backward compatibility
+        }
+        
+        public MappingViolation(String courseCode, String courseName, String assignedLab, Set<String> allowedLabs, List<String> priorityOrderedLabs) {
+            this.courseCode = courseCode;
+            this.courseName = courseName;
+            this.assignedLab = assignedLab;
+            this.allowedLabs = new HashSet<>(allowedLabs);
+            this.priorityOrderedLabs = new ArrayList<>(priorityOrderedLabs);
         }
         
         public String getCourseCode() { return courseCode; }
         public String getCourseName() { return courseName; }
         public String getAssignedLab() { return assignedLab; }
         public Set<String> getAllowedLabs() { return allowedLabs; }
+        public List<String> getPriorityOrderedLabs() { return priorityOrderedLabs; }
     }
 } 

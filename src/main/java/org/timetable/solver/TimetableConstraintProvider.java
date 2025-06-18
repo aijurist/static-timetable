@@ -7,6 +7,7 @@ import org.optaplanner.core.api.score.stream.ConstraintProvider;
 import org.optaplanner.core.api.score.stream.Joiners;
 import org.timetable.config.TimetableConfig;
 import org.timetable.domain.*;
+import org.timetable.persistence.CourseLabMappingUtil;
 
 import java.time.Duration;
 import java.util.Objects;
@@ -18,7 +19,12 @@ public class TimetableConstraintProvider implements ConstraintProvider {
     @Override
     public Constraint[] defineConstraints(ConstraintFactory constraintFactory) {
         return new Constraint[]{
-                // --- Hard Constraints ---
+                // --- Critical Hard Constraints ---
+                
+                // HIGHEST PRIORITY: Core lab mapping must be enforced
+                strictCoreLabMapping(constraintFactory),
+                
+                // Basic hard constraints
                 roomConflict(constraintFactory),
                 teacherConflict(constraintFactory),
                 studentGroupConflict(constraintFactory),
@@ -31,6 +37,10 @@ public class TimetableConstraintProvider implements ConstraintProvider {
                 labForLargeGroupMustBeBatched(constraintFactory),
 
                 // --- Soft Constraints ---
+                
+                // Core lab priority preferences (prefer lab_1 over lab_2 over lab_3)
+                coreLabPriorityPreference(constraintFactory),
+                
                 teacherMaxWeeklyHours(constraintFactory),
                 teacherWorkdaySpan(constraintFactory),
                 penalizePairedLabInDifferentSlots(constraintFactory)
@@ -38,7 +48,40 @@ public class TimetableConstraintProvider implements ConstraintProvider {
     }
 
     // ############################################################################
-    // Hard Constraints
+    // Critical Hard Constraints
+    // ############################################################################
+
+    /**
+     * CRITICAL: Enforce core lab mapping - core courses MUST use their designated labs
+     * This is the highest priority constraint to ensure no violations
+     */
+    private Constraint strictCoreLabMapping(ConstraintFactory constraintFactory) {
+        return constraintFactory.forEach(Lesson.class)
+                .filter(lesson -> lesson.getSessionType().equals("lab"))
+                .filter(lesson -> lesson.getRoom() != null)
+                .filter(lesson -> CourseLabMappingUtil.isCoreLabCourse(lesson.getCourse().getCode()))
+                .filter(lesson -> {
+                    String courseCode = lesson.getCourse().getCode();
+                    String roomDesc = lesson.getRoom().getDescription();
+                    
+                    // Check if this room is allowed for this course
+                    boolean isAllowed = CourseLabMappingUtil.isRoomAllowedForCourse(courseCode, roomDesc);
+                    
+                //     if (!isAllowed) {
+                //         // Log violation for debugging
+                //         System.err.println("CORE LAB VIOLATION: Course " + courseCode + 
+                //                          " assigned to disallowed lab: " + roomDesc + 
+                //                          ". Allowed: " + CourseLabMappingUtil.getPriorityOrderedLabs(courseCode));
+                //     }
+                    
+                    return !isAllowed; // Return true if this is a violation
+                })
+                .penalize(HardSoftScore.ONE_HARD.multiply(1000000)) // Maximum penalty
+                .asConstraint("CRITICAL: Core lab mapping");
+    }
+
+    // ############################################################################
+    // Basic Hard Constraints
     // ############################################################################
 
     private Constraint roomConflict(ConstraintFactory constraintFactory) {
@@ -88,7 +131,8 @@ public class TimetableConstraintProvider implements ConstraintProvider {
     private Constraint roomCapacity(ConstraintFactory constraintFactory) {
         return constraintFactory
                 .forEach(Lesson.class)
-                .filter(lesson -> lesson.getRoom().getCapacity() < lesson.getRequiredCapacity())
+                .filter(lesson -> lesson.getRoom() != null && 
+                        lesson.getRoom().getCapacity() < lesson.getRequiredCapacity())
                 .penalize(HardSoftScore.ONE_HARD,
                         (lesson) -> lesson.getRequiredCapacity() - lesson.getRoom().getCapacity())
                 .asConstraint("Room capacity");
@@ -97,7 +141,8 @@ public class TimetableConstraintProvider implements ConstraintProvider {
     private Constraint labInLabRoom(ConstraintFactory constraintFactory) {
         return constraintFactory
                 .forEach(Lesson.class)
-                .filter(lesson -> lesson.requiresLabRoom() && !lesson.getRoom().isLab())
+                .filter(lesson -> lesson.requiresLabRoom() && 
+                        lesson.getRoom() != null && !lesson.getRoom().isLab())
                 .penalize(HardSoftScore.ONE_HARD)
                 .asConstraint("Lab in a theory room");
     }
@@ -105,7 +150,8 @@ public class TimetableConstraintProvider implements ConstraintProvider {
     private Constraint theoryInTheoryRoom(ConstraintFactory constraintFactory) {
         return constraintFactory
                 .forEach(Lesson.class)
-                .filter(lesson -> lesson.requiresTheoryRoom() && lesson.getRoom().isLab())
+                .filter(lesson -> lesson.requiresTheoryRoom() && 
+                        lesson.getRoom() != null && lesson.getRoom().isLab())
                 .penalize(HardSoftScore.ONE_HARD)
                 .asConstraint("Theory in a lab room");
     }
@@ -113,7 +159,8 @@ public class TimetableConstraintProvider implements ConstraintProvider {
     private Constraint labInLabSlot(ConstraintFactory constraintFactory) {
         return constraintFactory
                 .forEach(Lesson.class)
-                .filter(lesson -> lesson.requiresLabRoom() && !lesson.getTimeSlot().isLab())
+                .filter(lesson -> lesson.requiresLabRoom() && 
+                        lesson.getTimeSlot() != null && !lesson.getTimeSlot().isLab())
                 .penalize(HardSoftScore.ONE_HARD)
                 .asConstraint("Lab in theory slot");
     }
@@ -121,7 +168,8 @@ public class TimetableConstraintProvider implements ConstraintProvider {
     private Constraint theoryInTheorySlot(ConstraintFactory constraintFactory) {
         return constraintFactory
                 .forEach(Lesson.class)
-                .filter(lesson -> lesson.requiresTheoryRoom() && lesson.getTimeSlot().isLab())
+                .filter(lesson -> lesson.requiresTheoryRoom() && 
+                        lesson.getTimeSlot() != null && lesson.getTimeSlot().isLab())
                 .penalize(HardSoftScore.ONE_HARD)
                 .asConstraint("Theory in lab slot");
     }
@@ -147,6 +195,21 @@ public class TimetableConstraintProvider implements ConstraintProvider {
     // ############################################################################
     // Soft Constraints
     // ############################################################################
+
+    /**
+     * SOFT: Prefer higher priority labs for core courses (lab_1 > lab_2 > lab_3)
+     */
+    private Constraint coreLabPriorityPreference(ConstraintFactory constraintFactory) {
+        return constraintFactory.forEach(Lesson.class)
+                .filter(lesson -> lesson.getSessionType().equals("lab"))
+                .filter(lesson -> lesson.getRoom() != null)
+                .filter(lesson -> CourseLabMappingUtil.isCoreLabCourse(lesson.getCourse().getCode()))
+                .penalize(HardSoftScore.ONE_SOFT.multiply(50), 
+                        lesson -> CourseLabMappingUtil.getPriorityPenalty(
+                                lesson.getCourse().getCode(), 
+                                lesson.getRoom().getDescription()))
+                .asConstraint("Core lab priority preference");
+    }
 
     private Constraint teacherMaxWeeklyHours(ConstraintFactory constraintFactory) {
         return constraintFactory

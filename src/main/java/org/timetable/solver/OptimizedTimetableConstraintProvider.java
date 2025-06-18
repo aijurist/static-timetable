@@ -49,11 +49,11 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 teacherConflict(constraintFactory),
                 studentGroupConflict(constraintFactory),
                 
+                // Core lab mapping MUST be enforced (highest priority hard constraint)
+                strictCoreLabMappingEnforcement(constraintFactory),
+                
                 // Lab type enforcement for mapped courses (very important)
                 courseLabMustMatchMapping(constraintFactory),
-                
-                // Fallback for when strict core lab mapping isn't possible
-                coreLabFallbackPreference(constraintFactory),
                 
                 // Department workday policies
                 departmentOutsideAllowedDays(constraintFactory),
@@ -68,6 +68,9 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 // ########################################################################
                 // TIER 2: IMPORTANT SOFT CONSTRAINTS (Preferences and efficiency)
                 // ########################################################################
+                
+                // Core lab priority enforcement (prefer lab_1 over lab_2 over lab_3)
+                coreLabPriorityPreference(constraintFactory),
                 
                 // Large lab efficiency - encourage combining batches
                 largeLab70CapacityBatchCombining(constraintFactory),
@@ -545,8 +548,51 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
         return end1.equals(start2) || end2.equals(start1);
     }
 
-    // Lab type matching constraints
-    // Enhanced constraint that handles both specific room mappings and lab_type requirements with priority system
+    // ############################################################################
+    // Lab Type and Priority Constraints
+    // ############################################################################
+
+    /**
+     * CRITICAL HARD: Absolute enforcement of core lab mapping - NO VIOLATIONS ALLOWED
+     * This constraint has the highest penalty to ensure core lab courses are ONLY assigned 
+     * to their explicitly mapped labs (lab_1, lab_2, or lab_3).
+     */
+    private Constraint strictCoreLabMappingEnforcement(ConstraintFactory constraintFactory) {
+        return constraintFactory.forEach(Lesson.class)
+                .filter(lesson -> lesson.getSessionType().equals("lab"))
+                .filter(lesson -> lesson.getRoom() != null)
+                .filter(lesson -> CourseLabMappingUtil.isCoreLabCourse(lesson.getCourse().getCode()))
+                .filter(lesson -> {
+                    String courseCode = lesson.getCourse().getCode();
+                    String roomDesc = lesson.getRoom().getDescription();
+                    
+                    // STRICT: Course must be in one of its mapped labs
+                    boolean isAllowed = CourseLabMappingUtil.isRoomAllowedForCourse(courseCode, roomDesc);
+                    
+                    // if (!isAllowed) {
+                    //     // Log the violation for debugging
+                    //     System.err.println("CRITICAL VIOLATION: Course " + courseCode + 
+                    //                      " assigned to disallowed lab: " + roomDesc + 
+                    //                      ". Allowed labs: " + CourseLabMappingUtil.getPriorityOrderedLabs(courseCode));
+                    // }
+                    
+                    return !isAllowed; // Return true if this is a violation
+                })
+                .penalize(HardSoftScore.ONE_HARD.multiply(1000000), lesson -> {
+                    // Maximum penalty - this should make violations impossible
+                    String courseCode = lesson.getCourse().getCode();
+                    String roomDesc = lesson.getRoom().getDescription();
+                    recordViolation("CRITICAL: Core lab mapping violation: " + courseCode + " -> " + roomDesc, 
+                                   HardSoftScore.ONE_HARD.multiply(1000000));
+                    return 1;
+                })
+                .asConstraint("CRITICAL: Strict core lab mapping enforcement");
+    }
+
+    /**
+     * HARD: Ensure lab type compatibility for courses with explicit lab_type and hardcoded computer courses
+     * Note: Core lab mapping is handled by strictCoreLabMappingEnforcement()
+     */
     private Constraint courseLabMustMatchMapping(ConstraintFactory constraintFactory) {
         // Courses that ALWAYS require computer labs even if not present in mapping CSV
         final java.util.Set<String> ALWAYS_COMPUTER = java.util.Set.of(
@@ -560,8 +606,12 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 .filter(lesson -> lesson.getRoom() != null) // Only check assigned lessons
                 .filter(lesson -> {
                     String courseCode = lesson.getCourse().getCode();
-                    String roomDesc = lesson.getRoom().getDescription();
                     String roomLabType = lesson.getRoom().getLabType();
+                    
+                    // Skip core lab courses - they are handled by strictCoreLabMappingEnforcement()
+                    if (CourseLabMappingUtil.isCoreLabCourse(courseCode)) {
+                        return false;
+                    }
                     
                     // Priority 1: If course has explicit lab_type from CSV, check lab type compatibility
                     String courseLabType = lesson.getCourse().getLabType();
@@ -579,13 +629,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                         }
                     }
                     
-                    // Priority 2: STRICT core lab mapping - courses in mapping file MUST use specific labs
-                    if (CourseLabMappingUtil.isCoreLabCourse(courseCode)) {
-                        // This is a MUST rule - course must be in one of its mapped labs
-                        return !CourseLabMappingUtil.isRoomAllowedForCourse(courseCode, roomDesc);
-                    }
-                    
-                    // Priority 3: Hardcoded computer courses must be in computer labs
+                    // Priority 2: Hardcoded computer courses must be in computer labs
                     if (ALWAYS_COMPUTER.contains(courseCode)) {
                         return !"computer".equals(roomLabType);
                     }
@@ -595,15 +639,11 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 })
                 .penalize(HardSoftScore.ONE_HARD.multiply(10000), lesson -> { // High penalty for violations
                     String courseCode = lesson.getCourse().getCode();
-                    String roomDesc = lesson.getRoom().getDescription();
                     String courseLabType = lesson.getCourse().getLabType();
                     
                     // Record specific violation type for better debugging
                     if (courseLabType != null) {
                         recordViolation("CSV lab_type mismatch: " + courseCode + " requires " + courseLabType, 
-                                       HardSoftScore.ONE_HARD.multiply(10000));
-                    } else if (CourseLabMappingUtil.isCoreLabCourse(courseCode)) {
-                        recordViolation("Core lab mapping violation: " + courseCode + " not allowed in " + roomDesc, 
                                        HardSoftScore.ONE_HARD.multiply(10000));
                     } else {
                         recordViolation("Computer lab requirement violation: " + courseCode, 
@@ -611,7 +651,23 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                     }
                     return 1;
                 })
-                .asConstraint("Strict lab assignment with priority system");
+                .asConstraint("Lab type enforcement (non-core)");
+    }
+
+    /**
+     * SOFT: Enforce priority order for core lab courses (lab_1 > lab_2 > lab_3)
+     * This implements the core logic: try lab_1 first, then lab_2, then lab_3
+     */
+    private Constraint coreLabPriorityPreference(ConstraintFactory constraintFactory) {
+        return constraintFactory.forEach(Lesson.class)
+                .filter(lesson -> lesson.getSessionType().equals("lab"))
+                .filter(lesson -> lesson.getRoom() != null)
+                .filter(lesson -> CourseLabMappingUtil.isCoreLabCourse(lesson.getCourse().getCode()))
+                .penalize(HardSoftScore.ONE_SOFT.multiply(50), 
+                        lesson -> CourseLabMappingUtil.getPriorityPenalty(
+                                lesson.getCourse().getCode(), 
+                                lesson.getRoom().getDescription()))
+                .asConstraint("Core lab priority preference");
     }
 
     // FIXED: Student group shift pattern now as soft constraint with improved penalty calculation
