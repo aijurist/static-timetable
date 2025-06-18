@@ -300,17 +300,17 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
      */
     private Constraint teacherMaxConsecutiveHours(ConstraintFactory constraintFactory) {
         return constraintFactory
-                .forEachUniquePair(Lesson.class,
-                        Joiners.equal(Lesson::getTeacher),
-                        Joiners.equal(l -> l.getTimeSlot().getDayOfWeek()))
-                .filter((lesson1, lesson2) -> areConsecutiveLessons(lesson1, lesson2))
-                .groupBy((lesson1, lesson2) -> lesson1.getTeacher(),
-                        (lesson1, lesson2) -> lesson1.getTimeSlot().getDayOfWeek(),
-                        countBi())
-                .filter((teacher, day, consecutiveCount) -> consecutiveCount > 3)
-                .penalize(HardSoftScore.of(0, 10), // Moderate penalty
-                        (teacher, day, consecutiveCount) -> consecutiveCount - 3)
-                .asConstraint("Teacher max consecutive hours");
+                .forEach(Lesson.class)
+                .groupBy(Lesson::getTeacher, 
+                        lesson -> lesson.getTimeSlot().getDayOfWeek(),
+                        toList())
+                .filter((teacher, day, lessons) -> calculateMaxContinuousHours(lessons) > 4)
+                .penalize(HardSoftScore.of(0, 50), // Higher soft penalty for 4+ hour violation
+                        (teacher, day, lessons) -> {
+                            int continuousHours = calculateMaxContinuousHours(lessons);
+                            return (continuousHours - 4) * 10; // Penalty scales with violation
+                        })
+                .asConstraint("Teacher max 4 continuous hours");
     }
 
     /**
@@ -1056,5 +1056,59 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                             return (int) (campusSpanMinutes - 420); // Penalty based on excess minutes
                         })
                 .asConstraint("Student campus time limit");
+    }
+
+    /**
+     * Calculate the maximum continuous working hours for a teacher on a given day
+     * @param lessons List of lessons for a teacher on a specific day
+     * @return Maximum continuous working hours
+     */
+    private int calculateMaxContinuousHours(java.util.List<Lesson> lessons) {
+        if (lessons == null || lessons.isEmpty()) {
+            return 0;
+        }
+
+        // Sort lessons by start time
+        java.util.List<Lesson> sortedLessons = lessons.stream()
+                .filter(lesson -> lesson.getTimeSlot() != null)
+                .sorted((l1, l2) -> l1.getTimeSlot().getStartTime().compareTo(l2.getTimeSlot().getStartTime()))
+                .collect(java.util.stream.Collectors.toList());
+
+        if (sortedLessons.isEmpty()) {
+            return 0;
+        }
+
+        int maxContinuousHours = 0;
+        int currentContinuousHours = 0;
+        java.time.LocalTime currentEndTime = null;
+
+        for (Lesson lesson : sortedLessons) {
+            java.time.LocalTime lessonStart = lesson.getTimeSlot().getStartTime();
+            java.time.LocalTime lessonEnd = lesson.getTimeSlot().getEndTime();
+            
+            // Calculate lesson duration in hours
+            int lessonDuration = (int) java.time.Duration.between(lessonStart, lessonEnd).toHours();
+            
+            if (currentEndTime == null) {
+                // First lesson
+                currentContinuousHours = lessonDuration;
+                currentEndTime = lessonEnd;
+            } else if (lessonStart.equals(currentEndTime) || 
+                       java.time.Duration.between(currentEndTime, lessonStart).toMinutes() <= 30) {
+                // Lessons are consecutive (allowing up to 30 minutes break)
+                currentContinuousHours += lessonDuration;
+                currentEndTime = lessonEnd;
+            } else {
+                // Gap is too large, reset continuous hours
+                maxContinuousHours = Math.max(maxContinuousHours, currentContinuousHours);
+                currentContinuousHours = lessonDuration;
+                currentEndTime = lessonEnd;
+            }
+        }
+
+        // Check the final continuous block
+        maxContinuousHours = Math.max(maxContinuousHours, currentContinuousHours);
+        
+        return maxContinuousHours;
     }
 }
