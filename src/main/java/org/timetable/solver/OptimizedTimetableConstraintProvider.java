@@ -113,6 +113,9 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 minimumClassesPerDay(constraintFactory),
                 balancedDailyClassLoad(constraintFactory),
                 
+                // NEW: Ensure at least one lab session per day
+                minimumLabsPerDay(constraintFactory),
+                
                 // Weekly shift pattern enforcement
                 // studentWeeklyShiftPattern(constraintFactory),
                 
@@ -1411,5 +1414,39 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
         } else {
             return 2; // Late shift (12-7)
         }
+    }
+
+    /**
+     * SOFT: Ensure at least one lab session per day for each student group
+     * This prevents days with only theory classes and encourages a balanced mix
+     */
+    private Constraint minimumLabsPerDay(ConstraintFactory constraintFactory) {
+        return constraintFactory
+                .forEach(Lesson.class)
+                .filter(lesson -> lesson.getTimeSlot() != null)
+                .groupBy(Lesson::getStudentGroup,
+                        (Lesson lesson) -> lesson.getTimeSlot().getDayOfWeek(),
+                        toList())
+                .filter((studentGroup, day, lessons) -> {
+                    // Count lab sessions on this day
+                    long labCount = lessons.stream()
+                            .filter(lesson -> lesson.requiresLabRoom())
+                            .count();
+                    return labCount == 0; // No lab sessions on this day
+                })
+                .filter((studentGroup, day, lessons) -> {
+                    // Only apply penalty if the student group has classes on this day
+                    // (don't penalize completely empty days)
+                    return lessons.size() > 0;
+                })
+                .penalize(HardSoftScore.of(0, 60), // Moderate penalty for theory-only days
+                        (studentGroup, day, lessons) -> {
+                            // Higher penalty for days with more theory classes but no labs
+                            int theoryCount = (int) lessons.stream()
+                                    .filter(lesson -> lesson.requiresTheoryRoom())
+                                    .count();
+                            return Math.max(10, theoryCount * 5); // Minimum 10, scales with theory count
+                        })
+                .asConstraint("Minimum 1 lab session per day");
     }
 }
