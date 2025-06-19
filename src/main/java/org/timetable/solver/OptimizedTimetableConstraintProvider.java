@@ -114,10 +114,13 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 balancedDailyClassLoad(constraintFactory),
                 
                 // Weekly shift pattern enforcement
-                studentWeeklyShiftPattern(constraintFactory),
+                // studentWeeklyShiftPattern(constraintFactory),
                 
                 // Lab utilization optimization
-                preferHotspotLabsOnMonday(constraintFactory)
+                preferHotspotLabsOnMonday(constraintFactory),
+                
+                // NEW: Prevent inefficient use of large labs by small batches
+                efficientLargeLabUtilization(constraintFactory)
         };
     }
 
@@ -864,79 +867,60 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 .asConstraint("Encourage large lab batch combining");
     }
 
-    // NEW: Force efficient utilization of 70-capacity labs for batch combining
-    // private Constraint penalizeSplitBatchesSeparateLargeLabs(ConstraintFactory constraintFactory) {
-    //     return constraintFactory
-    //             .forEachUniquePair(Lesson.class,
-    //                     Joiners.equal(Lesson::getCourse),
-    //                     Joiners.equal(Lesson::getStudentGroup))
-    //             .filter((l1, l2) -> {
-    //                 // Must be lab sessions with different batches of same course/group
-    //                 if (!(l1.requiresLabRoom() && l2.requiresLabRoom())) return false;
-    //                 if (!(l1.isSplitBatch() && l2.isSplitBatch())) return false;
-    //                 if (l1.getLabBatch().equals(l2.getLabBatch())) return false;
-                    
-    //                 Room room1 = l1.getRoom();
-    //                 Room room2 = l2.getRoom();
-    //                 if (room1 == null || room2 == null) return false;
-                    
-    //                 // Penalize if they are NOT efficiently combined
-    //                 boolean sameRoom = room1.equals(room2);
-    //                 boolean sameTime = Objects.equals(l1.getTimeSlot(), l2.getTimeSlot());
-    //                 boolean room1Large = room1.getCapacity() >= TimetableConfig.FULL_CLASS_LAB_THRESHOLD;
-    //                 boolean room2Large = room2.getCapacity() >= TimetableConfig.FULL_CLASS_LAB_THRESHOLD;
-    //                 boolean eitherLarge = room1Large || room2Large;
-                    
-    //                 // If they're efficiently combined (same large room + same time), no penalty
-    //                 if (eitherLarge && sameRoom && sameTime) {
-    //                     return false;
-    //                 }
-                    
-    //                 // If neither assignment uses a large room, skip – we don't care about small labs here
-    //                 if (!eitherLarge) {
-    //                     return false;
-    //                 }
-                    
-    //                 // Otherwise, we penalize inefficient splits
-    //                 return true;
-    //             })
-    //             .penalize(HardSoftScore.of(0, 200), (l1, l2) -> {
-    //                 Room room1 = l1.getRoom();
-    //                 Room room2 = l2.getRoom();
-    //                 boolean sameRoom = room1.equals(room2);
-    //                 boolean sameTime = Objects.equals(l1.getTimeSlot(), l2.getTimeSlot());
-    //                 boolean room1Large = room1.getCapacity() >= TimetableConfig.FULL_CLASS_LAB_THRESHOLD;
-    //                 boolean room2Large = room2.getCapacity() >= TimetableConfig.FULL_CLASS_LAB_THRESHOLD;
-    //                 boolean bothLargeLabs = room1Large && room2Large;
-                    
-    //                 // PERFECT: Both batches in same large lab at same time (no penalty - this is ideal!)
-    //                 if (sameRoom && sameTime && room1Large) {
-    //                     return 0; // Perfect utilization
-    //                 }
-                    
-    //                 // SEVERE: Both batches using different large labs (wastes precious 70-capacity resources)
-    //                 if (!sameRoom && bothLargeLabs) {
-    //                     if (sameTime) {
-    //                         return 25; // Worst - two 70-labs wasted simultaneously
-    //                     } else {
-    //                         return 20; // Bad - two 70-labs wasted at different times
-    //                     }
-    //                 }
-                    
-    //                 // MODERATE: One batch in large lab, other in small lab (suboptimal but understandable)
-    //                 if ((room1Large && !room2Large) || (!room1Large && room2Large)) {
-    //                     return 8; // Encourage moving the small-lab batch to join the large-lab batch
-    //                 }
-                    
-    //                 // MINOR: Same large room, different times (underutilizes the large lab)
-    //                 if (sameRoom && !sameTime && room1Large) {
-    //                     return 5; // Push toward same time slot
-    //                 }
-                    
-    //                 return 2; // Default mild penalty
-    //             })
-    //             .asConstraint("Force efficient 70-capacity lab utilization");
-    // }
+    // NEW: Prevent inefficient use of large labs by small batches
+    private Constraint efficientLargeLabUtilization(ConstraintFactory constraintFactory) {
+        return constraintFactory
+                .forEach(Lesson.class)
+                .filter(lesson -> lesson.requiresLabRoom() && 
+                        lesson.getRoom() != null && 
+                        lesson.getTimeSlot() != null &&
+                        lesson.getRoom().getCapacity() >= TimetableConfig.FULL_CLASS_LAB_THRESHOLD)
+                .filter(lesson -> lesson.isSplitBatch()) // Only check batched lessons in large labs
+                .filter(lesson -> !hasCompatibleBatchInSameSlot(lesson)) // No compatible batch to combine with
+                .penalize(HardSoftScore.of(0, 150), // High soft penalty for wasteful use
+                        lesson -> calculateWastefulnessScore(lesson))
+                .asConstraint("Efficient large lab utilization");
+    }
+
+    /**
+     * Check if there's a compatible batch in the same room and time slot that could be combined
+     * Compatible means: same course, same student group, different batch (B1 vs B2)
+     * 
+     * NOTE: This is a simplified implementation. In a full implementation, this would
+     * need access to all lessons in the solution to check for compatible batches.
+     */
+    private boolean hasCompatibleBatchInSameSlot(Lesson lesson) {
+        // For now, we assume no compatible batches exist
+        // This makes the constraint always apply, encouraging efficient lab usage
+        return false;
+    }
+
+    /**
+     * Calculate wastefulness score for using a large lab with a small batch
+     * Higher score = more wasteful
+     */
+    private int calculateWastefulnessScore(Lesson lesson) {
+        if (lesson.getRoom() == null || !lesson.isSplitBatch()) {
+            return 0;
+        }
+        
+        int roomCapacity = lesson.getRoom().getCapacity();
+        int batchSize = lesson.getStudentGroup().getSize() / 2; // Approximate batch size (half of group)
+        
+        // Calculate utilization percentage
+        double utilization = (double) batchSize / roomCapacity;
+        
+        // Higher penalty for lower utilization of large labs
+        if (utilization < 0.3) { // Less than 30% utilization
+            return 25; // High penalty for severe waste
+        } else if (utilization < 0.5) { // Less than 50% utilization  
+            return 15; // Medium penalty for moderate waste
+        } else if (utilization < 0.7) { // Less than 70% utilization
+            return 8; // Low penalty for minor waste
+        } else {
+            return 2; // Minimal penalty for acceptable utilization
+        }
+    }
     
     // ############################################################################
     // Lunch Break Helper Methods

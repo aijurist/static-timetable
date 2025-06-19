@@ -70,7 +70,7 @@ public class TimetableDataLoader {
 
     private static class RawDataRecord {
         final String courseId, courseCode, courseName, courseDept, courseType, teacherId, staffCode, firstName, lastName, teacherEmail, labType;
-        final int semester, lectureHours, practicalHours, tutorialHours, credits, studentCount;
+        final int semester, lectureHours, practicalHours, tutorialHours, credits;
 
         RawDataRecord(CSVRecord record) {
             this.courseId = record.get("course_id");
@@ -88,7 +88,6 @@ public class TimetableDataLoader {
             this.practicalHours = parseIntSafely(record.get("practical_hours"), 0);
             this.tutorialHours = parseIntSafely(record.get("tutorial_hours"), 0);
             this.credits = parseIntSafely(record.get("credits"), 0);
-            this.studentCount = parseIntSafely(record.get("student_count"), 60); // Default to 60 if missing
             
             // Read lab_type field if available
             String labTypeValue = null;
@@ -437,16 +436,19 @@ public class TimetableDataLoader {
                                     "PH23233"
                             );
 
-                            // Get student count from CSV data for this course
-                            int actualStudentCount = courseRecords.get(0).studentCount; // All records for same course should have same student count
+                            // Check course department for batching decision
+                            String courseDept = courseRecords.get(0).courseDept; // Get department from CSV
+                            String deptCode = DEPT_NAME_TO_CODE.getOrDefault(courseDept, courseDept);
                             
                             boolean forceFullGroup = UNBATCHED_COURSES.contains(course.getCode());
-                            boolean needsBatching = !forceFullGroup && actualStudentCount > 35; // Use CSV student_count instead of group size
+                            // Don't batch for Automobile Engineering department, batch for all others
+                            boolean isAutoDept = "Automobile Engineering".equals(courseDept) || "AUTO".equals(deptCode);
+                            boolean needsBatching = !forceFullGroup && !isAutoDept;
                             
-                            LOGGER.info(String.format("Batching analysis: CSV Student count=%d, Group size=%d, Threshold=35, Force full=%b, Needs batching=%b", 
-                                    actualStudentCount, group.getSize(), forceFullGroup, needsBatching));
-                            LESSON_CREATION_LOGGER.info(String.format("Batching analysis for %s - %s: CSV Student count=%d, Group size=%d, Threshold=35, Force full=%b, Needs batching=%b", 
-                                    course.getCode(), group.getName(), actualStudentCount, group.getSize(), forceFullGroup, needsBatching));
+                            LOGGER.info(String.format("Batching analysis: Department=%s (%s), Group size=%d, Is AUTO dept=%b, Force full=%b, Needs batching=%b", 
+                                    courseDept, deptCode, group.getSize(), isAutoDept, forceFullGroup, needsBatching));
+                            LESSON_CREATION_LOGGER.info(String.format("Batching analysis for %s - %s: Department=%s (%s), Group size=%d, Is AUTO dept=%b, Force full=%b, Needs batching=%b", 
+                                    course.getCode(), group.getName(), courseDept, deptCode, group.getSize(), isAutoDept, forceFullGroup, needsBatching));
                              
                             if (needsBatching) {
                                 // CORRECTED FIX: Each batch gets the full practical hours allocation
