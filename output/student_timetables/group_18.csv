@@ -1,15 +1,15 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,13:50,15:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,KSL03
-FRIDAY,08:00,09:40,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLGL1
-TUESDAY,13:50,15:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLGL1
-WEDNESDAY,17:30,19:10,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KSL03
-WEDNESDAY,11:50,13:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLGL2
-WEDNESDAY,15:50,17:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KSL03
-FRIDAY,15:00,15:50,Cloud Computing,Mrs. Santhiya M,C308
-FRIDAY,14:00,14:50,Cloud Computing,Mrs. Santhiya M,A308
-TUESDAY,17:30,19:10,Cloud Computing,Mrs. Santhiya M,KFL03
-FRIDAY,11:50,13:30,Cloud Computing,Mrs. Santhiya M,KSL03
-FRIDAY,16:00,16:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,B218
-THURSDAY,12:00,12:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,A302
-THURSDAY,17:30,19:10,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,TLFL1
-TUESDAY,08:00,09:40,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,TLGL2
+MONDAY,15:50,17:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLGL2
+FRIDAY,15:50,17:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLGL2
+TUESDAY,08:00,09:40,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLGL2
+THURSDAY,09:50,11:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLGL2
+TUESDAY,09:50,11:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KSL03
+WEDNESDAY,13:50,15:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KSL03
+WEDNESDAY,10:00,10:50,Cloud Computing,Mrs. Santhiya M,B409
+THURSDAY,16:00,16:50,Cloud Computing,Mrs. Santhiya M,B222
+WEDNESDAY,11:50,13:30,Cloud Computing,Mrs. Santhiya M,KFR01
+MONDAY,11:50,13:30,Cloud Computing,Mrs. Santhiya M,JR2
+FRIDAY,13:00,13:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,A202
+FRIDAY,15:00,15:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,A303
+MONDAY,13:50,15:30,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,JL2
+THURSDAY,11:50,13:30,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,TLFR2

@@ -1,18 +1,18 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,09:50,11:30,Industry Practices Lab,Mr. Vimalan M,TLFR3
-FRIDAY,15:50,17:30,Industry Practices Lab,Mr. Vimalan M,TLFR1
-FRIDAY,17:30,19:10,Industry Practices Lab,Mr. Vimalan M,TLGL2
-MONDAY,17:30,19:10,Industry Practices Lab,Mr. Vimalan M,TLFL2
-WEDNESDAY,15:00,15:50,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,B417
-THURSDAY,09:00,09:50,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,B325
-THURSDAY,11:00,11:50,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,C103
-TUESDAY,11:50,13:30,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,KFL02
-WEDNESDAY,11:50,13:30,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,JR1
-THURSDAY,13:50,15:30,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,JL3
-MONDAY,08:00,09:40,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,KFR03
-TUESDAY,16:00,16:50,Software Testing,Dr. Valarmathie Dinakaran,C302
-THURSDAY,17:00,17:50,Software Testing,Dr. Valarmathie Dinakaran,A104/105
-MONDAY,14:00,14:50,Software Testing,Dr. Valarmathie Dinakaran,A205
-MONDAY,10:00,10:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,A208
-THURSDAY,13:00,13:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,A202
-TUESDAY,17:00,17:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,B416
+MONDAY,09:50,11:30,Industry Practices Lab,Mr. Vimalan M,TLFR3
+TUESDAY,13:50,15:30,Industry Practices Lab,Mr. Vimalan M,KSL03
+THURSDAY,09:50,11:30,Industry Practices Lab,Mr. Vimalan M,KFR02
+MONDAY,13:50,15:30,Industry Practices Lab,Mr. Vimalan M,TLGL4
+TUESDAY,16:00,16:50,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,B419
+TUESDAY,11:00,11:50,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,B417
+FRIDAY,13:00,13:50,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,C202
+WEDNESDAY,13:50,15:30,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,JL2
+THURSDAY,09:50,11:30,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,JR1
+FRIDAY,08:00,09:40,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,KFL01
+WEDNESDAY,17:30,19:10,Cloud and Big Data Analytics,Mrs. Bhalashri Sethuraman,TLFR3
+THURSDAY,16:00,16:50,Software Testing,Dr. Valarmathie Dinakaran,A304
+WEDNESDAY,16:00,16:50,Software Testing,Dr. Valarmathie Dinakaran,C302
+MONDAY,09:00,09:50,Software Testing,Dr. Valarmathie Dinakaran,C101
+THURSDAY,12:00,12:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,A210
+THURSDAY,15:00,15:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,C302
+MONDAY,12:00,12:50,Professional Elective-II - NPTEL,Mr. Suresh Kumar K,A204

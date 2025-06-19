@@ -1,27 +1,27 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,17:00,17:50,Theory of Computation,Mrs. J.A.Adlin Layola,B404
-WEDNESDAY,18:00,18:50,Theory of Computation,Mrs. J.A.Adlin Layola,B405
-THURSDAY,09:00,09:50,Theory of Computation,Mrs. J.A.Adlin Layola,A104/105
-SATURDAY,08:00,08:50,Theory of Computation,Mrs. J.A.Adlin Layola,B410
-SATURDAY,18:00,18:50,Fundamentals of Mobile Computing,Mr. V Karthick,B426
-FRIDAY,15:00,15:50,Fundamentals of Mobile Computing,Mr. V Karthick,B409
-WEDNESDAY,10:00,10:50,Fundamentals of Mobile Computing,Mr. V Karthick,A208
-FRIDAY,13:00,13:50,Web Programming,Mrs. J.A.Adlin Layola,B404
-FRIDAY,16:00,16:50,Web Programming,Mrs. J.A.Adlin Layola,B401
-THURSDAY,12:00,12:50,Web Programming,Mrs. J.A.Adlin Layola,B401
-SATURDAY,09:50,11:30,Web Programming,Mrs. J.A.Adlin Layola,TLFR1
-WEDNESDAY,13:50,15:30,Web Programming,Mrs. J.A.Adlin Layola,JR3
-THURSDAY,15:50,17:30,Web Programming,Mrs. J.A.Adlin Layola,TLFR2
-WEDNESDAY,11:50,13:30,Web Programming,Mrs. J.A.Adlin Layola,TLFR4
-FRIDAY,09:00,09:50,Computer Networks,New Staff - 09,B417
-TUESDAY,12:00,12:50,Computer Networks,New Staff - 09,B425
-SATURDAY,12:00,12:50,Computer Networks,New Staff - 09,A308
-SATURDAY,13:50,15:30,Computer Networks,New Staff - 09,JL2
-THURSDAY,13:50,15:30,Computer Networks,New Staff - 09,TLFL3
-FRIDAY,09:50,11:30,Computer Networks,New Staff - 09,TLFR3
-WEDNESDAY,08:00,09:40,Computer Networks,New Staff - 09,TLFL1
-TUESDAY,10:00,10:50,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,B409
-SATURDAY,16:00,16:50,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,B218
-SATURDAY,09:00,09:50,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,B410
-THURSDAY,17:30,19:10,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,KSL03
-SATURDAY,09:50,11:30,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,TLFR3
+THURSDAY,14:00,14:50,Theory of Computation,Mrs. J.A.Adlin Layola,A205
+TUESDAY,14:00,14:50,Theory of Computation,Mrs. J.A.Adlin Layola,A302
+FRIDAY,10:00,10:50,Theory of Computation,Mrs. J.A.Adlin Layola,A202
+THURSDAY,11:00,11:50,Theory of Computation,Mrs. J.A.Adlin Layola,A203
+SATURDAY,14:00,14:50,Fundamentals of Mobile Computing,Mr. V Karthick,B426
+FRIDAY,14:00,14:50,Fundamentals of Mobile Computing,Mr. V Karthick,A205
+FRIDAY,11:00,11:50,Fundamentals of Mobile Computing,Mr. V Karthick,B321
+WEDNESDAY,15:00,15:50,Web Programming,Mrs. J.A.Adlin Layola,B106
+THURSDAY,13:00,13:50,Web Programming,Mrs. J.A.Adlin Layola,B419
+THURSDAY,17:00,17:50,Web Programming,Mrs. J.A.Adlin Layola,B411
+WEDNESDAY,15:50,17:30,Web Programming,Mrs. J.A.Adlin Layola,JR1
+FRIDAY,08:00,09:40,Web Programming,Mrs. J.A.Adlin Layola,KFR02
+WEDNESDAY,17:30,19:10,Web Programming,Mrs. J.A.Adlin Layola,TLGL1
+SATURDAY,11:50,13:30,Web Programming,Mrs. J.A.Adlin Layola,TLFR2
+THURSDAY,15:00,15:50,Computer Networks,New Staff - 09,B408
+THURSDAY,16:00,16:50,Computer Networks,New Staff - 09,B418
+SATURDAY,10:00,10:50,Computer Networks,New Staff - 09,B417
+SATURDAY,08:00,09:40,Computer Networks,New Staff - 09,JR3
+WEDNESDAY,17:30,19:10,Computer Networks,New Staff - 09,TLFR1
+TUESDAY,09:50,11:30,Computer Networks,New Staff - 09,TLGL2
+FRIDAY,08:00,09:40,Computer Networks,New Staff - 09,TLGL4
+TUESDAY,13:00,13:50,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,A109
+TUESDAY,08:00,08:50,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,B401
+TUESDAY,09:00,09:50,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,B415
+TUESDAY,09:50,11:30,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,TLGL3
+SATURDAY,08:00,09:40,Foundations of Artificial Intelligence,Ms. Jaeyalakshmi M,KFR03

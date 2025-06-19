@@ -1,32 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,18:00,18:50,Analog and Digital Communication,Ms. M.Brenda,A302
-THURSDAY,10:00,10:50,Analog and Digital Communication,Ms. M.Brenda,B417
-FRIDAY,10:00,10:50,Analog and Digital Communication,Ms. M.Brenda,B418
-WEDNESDAY,09:00,09:50,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,B409
-WEDNESDAY,17:00,17:50,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,B220
-THURSDAY,13:00,13:50,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,B322
-THURSDAY,13:50,15:30,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,TLFL4
-SATURDAY,09:50,11:30,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,KFR03
-FRIDAY,16:00,16:50,Fourier series and Number theory,Mrs. C. Renuga,B212
-SATURDAY,12:00,12:50,Fourier series and Number theory,Mrs. C. Renuga,B409
-SATURDAY,18:00,18:50,Fourier series and Number theory,Mrs. C. Renuga,A208
-WEDNESDAY,13:00,13:50,Fourier series and Number theory,Mrs. C. Renuga,C307
-FRIDAY,14:00,14:50,Database Management Systems,Dr. Shunmuganathan K L,B423
-WEDNESDAY,14:00,14:50,Database Management Systems,Dr. Shunmuganathan K L,A302
-WEDNESDAY,11:00,11:50,Database Management Systems,Dr. Shunmuganathan K L,B403
-FRIDAY,08:00,09:40,Database Management Systems,Dr. Shunmuganathan K L,TLFR4
-SATURDAY,09:50,11:30,Database Management Systems,Dr. Shunmuganathan K L,TLFR5
-TUESDAY,08:00,09:40,Database Management Systems,Dr. Shunmuganathan K L,KSL03
-SATURDAY,15:50,17:30,Database Management Systems,Dr. Shunmuganathan K L,JL3
-WEDNESDAY,15:00,15:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 34,B403
-WEDNESDAY,10:00,10:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 34,B218
-FRIDAY,17:00,17:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 34,A103
-SATURDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 34,TLFL3
-TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 34,TLFL5
-FRIDAY,11:50,13:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 34,KFL01
-TUESDAY,17:30,19:10,Object Oriented Programming Using JAVA,New Faculty New  Staff - 34,TLFR5
-THURSDAY,11:00,11:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,B405
-TUESDAY,11:00,11:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,B322
-TUESDAY,14:00,14:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,A103
-SATURDAY,08:00,09:40,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,TLFR1
-SATURDAY,13:50,15:30,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,JR1
+FRIDAY,18:00,18:50,Analog and Digital Communication,Ms. M.Brenda,A108
+WEDNESDAY,15:00,15:50,Analog and Digital Communication,Ms. M.Brenda,A309
+WEDNESDAY,14:00,14:50,Analog and Digital Communication,Ms. M.Brenda,B417
+WEDNESDAY,18:00,18:50,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,B320
+SATURDAY,17:00,17:50,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,A108
+TUESDAY,16:00,16:50,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,A103
+WEDNESDAY,11:50,13:30,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,TLFR3
+FRIDAY,15:50,17:30,Design and Analysis of Algorithms,Mr. Dr B Muthu Kumar,TLFL1
+THURSDAY,15:00,15:50,Fourier series and Number theory,Mrs. C. Renuga,B219
+TUESDAY,11:00,11:50,Fourier series and Number theory,Mrs. C. Renuga,B408
+SATURDAY,13:00,13:50,Fourier series and Number theory,Mrs. C. Renuga,A303
+FRIDAY,14:00,14:50,Fourier series and Number theory,Mrs. C. Renuga,C101
+THURSDAY,14:00,14:50,Database Management Systems,Dr. Shunmuganathan K L,B325
+SATURDAY,11:00,11:50,Database Management Systems,Dr. Shunmuganathan K L,C302
+TUESDAY,10:00,10:50,Database Management Systems,Dr. Shunmuganathan K L,C307
+THURSDAY,09:50,11:30,Database Management Systems,Dr. Shunmuganathan K L,TLFR5
+FRIDAY,15:50,17:30,Database Management Systems,Dr. Shunmuganathan K L,TLFL5
+WEDNESDAY,15:50,17:30,Database Management Systems,Dr. Shunmuganathan K L,TLGL3
+THURSDAY,11:50,13:30,Database Management Systems,Dr. Shunmuganathan K L,KFL01
+THURSDAY,09:00,09:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 34,B408
+SATURDAY,14:00,14:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 34,B415
+FRIDAY,15:00,15:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 34,B322
+FRIDAY,11:50,13:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 34,TLFR3
+WEDNESDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 34,TLFR1
+FRIDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 34,TLFR3
+TUESDAY,13:50,15:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 34,TLFR3
+SATURDAY,15:00,15:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,A211
+TUESDAY,13:00,13:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,C101
+SATURDAY,16:00,16:50,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,B321
+TUESDAY,13:50,15:30,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,KFR02
+THURSDAY,09:50,11:30,Digital Logic and Computer Architecture,Mr. Dr.S.Subbiah,KFL02

@@ -19,12 +19,14 @@ import org.timetable.config.SolverProperties;
 import org.timetable.validation.OptimizationValidator;
 import org.timetable.validation.CoreLabMappingValidator;
 import org.timetable.validation.CoreLabMappingEnforcer;
+import org.timetable.config.DepartmentBlockConfig;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.time.Duration;
 import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
 public class TimetableApp {
@@ -43,6 +45,11 @@ public class TimetableApp {
         }
 
         logger.info("Loading timetable problem from {} and {}", coursesFile, dataDir);
+        
+        // Validate department block configuration
+        logger.info("--- Department Block Configuration Validation ---");
+        DepartmentBlockConfig.validateConfiguration();
+        
         TimetableProblem problem = TimetableDataLoader.loadProblem(coursesFile, dataDir);
         
         // Validate core lab mappings before solving
@@ -105,6 +112,10 @@ public class TimetableApp {
         } else {
             logger.info("✓ Perfect core lab mapping achieved - no violations found!");
         }
+        
+        // Validate batch assignments
+        logger.info("--- Batch Assignment Validation ---");
+        validateBatchAssignments(solution);
 
         try {
             String timestamp = DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss").format(LocalDateTime.now());
@@ -165,6 +176,69 @@ public class TimetableApp {
             return prop != null ? Long.parseLong(prop) : 20L;
         } catch (NumberFormatException e) {
             return 20L;
+        }
+    }
+    
+    /**
+     * Validates batch assignments in the final solution to catch any logical errors
+     */
+    private static void validateBatchAssignments(TimetableProblem solution) {
+        int theoryBatchViolations = 0;
+        int sameBatchOverlapViolations = 0;
+        
+        // Check for theory sessions assigned to batches (should never happen)
+        for (Lesson lesson : solution.getLessons()) {
+            if (lesson.requiresTheoryRoom() && lesson.isSplitBatch()) {
+                theoryBatchViolations++;
+                logger.error("❌ THEORY BATCH VIOLATION: {} {} assigned to batch {} (should be full group)", 
+                    lesson.getStudentGroup().getName(), lesson.getCourse().getCode(), lesson.getLabBatch());
+            }
+        }
+        
+        // Check for same batch overlapping in time (should never happen)
+        for (int i = 0; i < solution.getLessons().size(); i++) {
+            for (int j = i + 1; j < solution.getLessons().size(); j++) {
+                Lesson lesson1 = solution.getLessons().get(i);
+                Lesson lesson2 = solution.getLessons().get(j);
+                
+                // Skip if not both batched lab sessions
+                if (!lesson1.isSplitBatch() || !lesson2.isSplitBatch()) continue;
+                
+                // Skip if different student groups or courses
+                if (!lesson1.getStudentGroup().equals(lesson2.getStudentGroup()) || 
+                    !lesson1.getCourse().equals(lesson2.getCourse())) continue;
+                
+                // Skip if different batches (this is fine)
+                if (!lesson1.getLabBatch().equals(lesson2.getLabBatch())) continue;
+                
+                // Check if they overlap in time on the same day
+                if (lesson1.getTimeSlot() != null && lesson2.getTimeSlot() != null) {
+                    if (lesson1.getTimeSlot().getDayOfWeek().equals(lesson2.getTimeSlot().getDayOfWeek())) {
+                        LocalTime start1 = lesson1.getTimeSlot().getStartTime();
+                        LocalTime end1 = lesson1.getTimeSlot().getEndTime();
+                        LocalTime start2 = lesson2.getTimeSlot().getStartTime();
+                        LocalTime end2 = lesson2.getTimeSlot().getEndTime();
+                        
+                        if (start1.isBefore(end2) && start2.isBefore(end1)) {
+                            sameBatchOverlapViolations++;
+                            logger.error("❌ SAME BATCH OVERLAP: {} {} batch {} overlaps: {} vs {}", 
+                                lesson1.getStudentGroup().getName(), lesson1.getCourse().getCode(), 
+                                lesson1.getLabBatch(), lesson1.getTimeSlot().toString(), lesson2.getTimeSlot().toString());
+                        }
+                    }
+                }
+            }
+        }
+        
+        // Summary
+        if (theoryBatchViolations == 0 && sameBatchOverlapViolations == 0) {
+            logger.info("✅ Batch assignments are logically correct!");
+            logger.info("   - No theory sessions assigned to batches");
+            logger.info("   - No same-batch overlaps detected");
+        } else {
+            logger.error("❌ Found batch assignment violations:");
+            logger.error("   - Theory batch violations: {}", theoryBatchViolations);
+            logger.error("   - Same batch overlap violations: {}", sameBatchOverlapViolations);
         }
     }
 }

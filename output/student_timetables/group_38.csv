@@ -1,27 +1,27 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,13:00,13:50,Theory of Computation,Mrs. S.Vinothini,A110
-TUESDAY,08:00,08:50,Theory of Computation,Mrs. S.Vinothini,B424
-TUESDAY,10:00,10:50,Theory of Computation,Mrs. S.Vinothini,B401
-THURSDAY,09:00,09:50,Theory of Computation,Mrs. S.Vinothini,A309
-THURSDAY,14:00,14:50,Fundamentals of Mobile Computing,Mr. Dr.P.Shanmugam,A204
-FRIDAY,09:00,09:50,Fundamentals of Mobile Computing,Mr. Dr.P.Shanmugam,B211
-FRIDAY,16:00,16:50,Fundamentals of Mobile Computing,Mr. Dr.P.Shanmugam,A102
-THURSDAY,16:00,16:50,Web Programming,Mrs. Sathiyavathi S,A202
-SATURDAY,10:00,10:50,Web Programming,Mrs. Sathiyavathi S,B401
-TUESDAY,09:00,09:50,Web Programming,Mrs. Sathiyavathi S,B107
-THURSDAY,09:50,11:30,Web Programming,Mrs. Sathiyavathi S,TLFL3
-SATURDAY,13:50,15:30,Web Programming,Mrs. Sathiyavathi S,TLFR2
-TUESDAY,11:50,13:30,Web Programming,Mrs. Sathiyavathi S,TLFR1
-SATURDAY,11:50,13:30,Web Programming,Mrs. Sathiyavathi S,TLFR5
-WEDNESDAY,15:00,15:50,Computer Networks,Dr. Chettiyar Vani Vivekanand,B422
-TUESDAY,15:00,15:50,Computer Networks,Dr. Chettiyar Vani Vivekanand,B418
-THURSDAY,15:00,15:50,Computer Networks,Dr. Chettiyar Vani Vivekanand,C201
-TUESDAY,15:50,17:30,Computer Networks,Dr. Chettiyar Vani Vivekanand,TLFR2
-SATURDAY,08:00,09:40,Computer Networks,Dr. Chettiyar Vani Vivekanand,TLFL5
-THURSDAY,17:30,19:10,Computer Networks,Dr. Chettiyar Vani Vivekanand,TLFL3
-TUESDAY,17:30,19:10,Computer Networks,Dr. Chettiyar Vani Vivekanand,TLFL1
-WEDNESDAY,14:00,14:50,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,B417
-FRIDAY,15:00,15:50,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,A309
-SATURDAY,18:00,18:50,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,A210
-WEDNESDAY,15:50,17:30,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,TLGL4
-WEDNESDAY,17:30,19:10,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,TLFL5
+WEDNESDAY,16:00,16:50,Theory of Computation,Mrs. S.Vinothini,A103
+WEDNESDAY,14:00,14:50,Theory of Computation,Mrs. S.Vinothini,A210
+FRIDAY,10:00,10:50,Theory of Computation,Mrs. S.Vinothini,A311
+SATURDAY,16:00,16:50,Theory of Computation,Mrs. S.Vinothini,A303
+FRIDAY,16:00,16:50,Fundamentals of Mobile Computing,Mr. Dr.P.Shanmugam,A209
+WEDNESDAY,15:00,15:50,Fundamentals of Mobile Computing,Mr. Dr.P.Shanmugam,A203
+THURSDAY,11:00,11:50,Fundamentals of Mobile Computing,Mr. Dr.P.Shanmugam,B107
+THURSDAY,13:00,13:50,Web Programming,Mrs. Sathiyavathi S,B425
+WEDNESDAY,18:00,18:50,Web Programming,Mrs. Sathiyavathi S,B410
+FRIDAY,14:00,14:50,Web Programming,Mrs. Sathiyavathi S,B221
+SATURDAY,09:50,11:30,Web Programming,Mrs. Sathiyavathi S,TLFL3
+SATURDAY,11:50,13:30,Web Programming,Mrs. Sathiyavathi S,KFL01
+TUESDAY,15:50,17:30,Web Programming,Mrs. Sathiyavathi S,JR3
+TUESDAY,13:50,15:30,Web Programming,Mrs. Sathiyavathi S,TLFL2
+THURSDAY,16:00,16:50,Computer Networks,Dr. Chettiyar Vani Vivekanand,A110
+FRIDAY,11:00,11:50,Computer Networks,Dr. Chettiyar Vani Vivekanand,B402
+WEDNESDAY,17:00,17:50,Computer Networks,Dr. Chettiyar Vani Vivekanand,B419
+TUESDAY,15:50,17:30,Computer Networks,Dr. Chettiyar Vani Vivekanand,TLGL4
+THURSDAY,13:50,15:30,Computer Networks,Dr. Chettiyar Vani Vivekanand,KFR03
+TUESDAY,11:50,13:30,Computer Networks,Dr. Chettiyar Vani Vivekanand,KFR02
+SATURDAY,13:50,15:30,Computer Networks,Dr. Chettiyar Vani Vivekanand,JR1
+WEDNESDAY,13:00,13:50,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,B107
+THURSDAY,17:00,17:50,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,B419
+FRIDAY,13:00,13:50,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,B211
+SATURDAY,13:50,15:30,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,TLFL4
+SATURDAY,09:50,11:30,Foundations of Artificial Intelligence,Mr. Dr.S.Vinodhkumar,TLFR3

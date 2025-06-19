@@ -1,15 +1,15 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,08:00,09:40,Advanced Robotic Process Automation,Mr. Dr. N. Duraimurugan,TLGL2
-TUESDAY,17:30,19:10,Advanced Robotic Process Automation,Mr. Dr. N. Duraimurugan,KSL03
-MONDAY,15:50,17:30,Advanced Robotic Process Automation,Mr. Dr. N. Duraimurugan,TLGL2
-THURSDAY,09:50,11:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KSL03
-TUESDAY,11:50,13:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KSL03
-FRIDAY,13:50,15:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLGL2
-THURSDAY,14:00,14:50,Cloud Computing,Mr.Vasu Vadlamani,C302
-MONDAY,13:00,13:50,Cloud Computing,Mr.Vasu Vadlamani,B221
-TUESDAY,09:50,11:30,Cloud Computing,Mr.Vasu Vadlamani,TLFL2
-MONDAY,17:30,19:10,Cloud Computing,Mr.Vasu Vadlamani,TLFL3
-FRIDAY,12:00,12:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. Dr.R.Sabitha,B221
-WEDNESDAY,13:00,13:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. Dr.R.Sabitha,C103
-MONDAY,17:30,19:10,INFORMATION SECURITY AND MANAGEMENT,Mrs. Dr.R.Sabitha,JL2
-TUESDAY,09:50,11:30,INFORMATION SECURITY AND MANAGEMENT,Mrs. Dr.R.Sabitha,TLFR1
+WEDNESDAY,13:50,15:30,Advanced Robotic Process Automation,Mr. Dr. N. Duraimurugan,TLGL2
+WEDNESDAY,17:30,19:10,Advanced Robotic Process Automation,Mr. Dr. N. Duraimurugan,KSL03
+MONDAY,15:50,17:30,Advanced Robotic Process Automation,Mr. Dr. N. Duraimurugan,TLGL1
+FRIDAY,09:50,11:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KSL03
+FRIDAY,08:00,09:40,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLGL1
+FRIDAY,11:50,13:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KSL03
+WEDNESDAY,13:00,13:50,Cloud Computing,Mr.Vasu Vadlamani,A302
+THURSDAY,11:00,11:50,Cloud Computing,Mr.Vasu Vadlamani,B405
+TUESDAY,17:30,19:10,Cloud Computing,Mr.Vasu Vadlamani,KFR03
+MONDAY,11:50,13:30,Cloud Computing,Mr.Vasu Vadlamani,KSL03
+THURSDAY,13:00,13:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. Dr.R.Sabitha,A302
+THURSDAY,15:00,15:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. Dr.R.Sabitha,C101
+TUESDAY,15:50,17:30,INFORMATION SECURITY AND MANAGEMENT,Mrs. Dr.R.Sabitha,KFR03
+TUESDAY,17:30,19:10,INFORMATION SECURITY AND MANAGEMENT,Mrs. Dr.R.Sabitha,TLFL3

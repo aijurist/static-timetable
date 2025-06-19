@@ -185,8 +185,16 @@ public class TimetableConstraintProvider implements ConstraintProvider {
         return constraintFactory
                 .forEach(Lesson.class)
                 .filter(lesson -> lesson.requiresTheoryRoom() && lesson.isSplitBatch())
-                .penalize(HardSoftScore.ONE_HARD)
-                .asConstraint("Lecture/Tutorial assigned to a batch");
+                .penalize(HardSoftScore.ONE_HARD.multiply(10000), lesson -> {
+                    // Log this critical violation for debugging
+                    String msg = String.format("CRITICAL VIOLATION: Theory/Tutorial session %s-%s assigned to batch %s (should be full group only)", 
+                            lesson.getStudentGroup().getName(), 
+                            lesson.getCourse().getCode(),
+                            lesson.getLabBatch());
+                    System.err.println(msg);
+                    return 1;
+                })
+                .asConstraint("CRITICAL: Theory/Tutorial must be for full group only");
     }
 
     private Constraint labForLargeGroupMustBeBatched(ConstraintFactory constraintFactory) {

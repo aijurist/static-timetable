@@ -1,15 +1,15 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,14:00,14:50,Deep Learning,AIML 3.1,A309
-THURSDAY,15:00,15:50,Deep Learning,AIML 3.1,B418
-WEDNESDAY,08:00,08:50,Deep Learning,AIML 3.1,B403
-FRIDAY,15:50,17:30,Deep Learning,AIML 3.1,TLFR3
-SATURDAY,08:00,09:40,Deep Learning,AIML 3.1,JR1
-TUESDAY,11:00,11:50,Supply Chain Analytics (Professional Elective V),AIML 4.1,B415
-SATURDAY,14:00,14:50,Supply Chain Analytics (Professional Elective V),AIML 4.1,C308
-WEDNESDAY,12:00,12:50,Supply Chain Analytics (Professional Elective V),AIML 4.1,B411
-SATURDAY,15:00,15:50,Supply Chain Analytics (Professional Elective V),AIML 4.2,B412
-WEDNESDAY,13:00,13:50,Supply Chain Analytics (Professional Elective V),AIML 4.2,B426
-WEDNESDAY,09:00,09:50,Supply Chain Analytics (Professional Elective V),AIML 4.2,C101
-THURSDAY,08:00,08:50,Supply Chain Analytics (Professional Elective V),AIML 4.3,B222
-SATURDAY,13:00,13:50,Supply Chain Analytics (Professional Elective V),AIML 4.3,B424
-FRIDAY,11:00,11:50,Supply Chain Analytics (Professional Elective V),AIML 4.3,B424
+THURSDAY,14:00,14:50,Deep Learning,AIML 3.1,C103
+WEDNESDAY,17:00,17:50,Deep Learning,AIML 3.1,B423
+THURSDAY,13:00,13:50,Deep Learning,AIML 3.1,A308
+FRIDAY,15:50,17:30,Deep Learning,AIML 3.1,JR2
+TUESDAY,13:50,15:30,Deep Learning,AIML 3.1,KFL01
+TUESDAY,09:00,09:50,Supply Chain Analytics (Professional Elective V),AIML 4.1,B403
+TUESDAY,10:00,10:50,Supply Chain Analytics (Professional Elective V),AIML 4.1,B325
+TUESDAY,08:00,08:50,Supply Chain Analytics (Professional Elective V),AIML 4.1,B106
+SATURDAY,18:00,18:50,Supply Chain Analytics (Professional Elective V),AIML 4.2,A303
+THURSDAY,09:00,09:50,Supply Chain Analytics (Professional Elective V),AIML 4.2,C103
+THURSDAY,08:00,08:50,Supply Chain Analytics (Professional Elective V),AIML 4.2,B416
+FRIDAY,09:00,09:50,Supply Chain Analytics (Professional Elective V),AIML 4.3,B415
+FRIDAY,14:00,14:50,Supply Chain Analytics (Professional Elective V),AIML 4.3,A308
+SATURDAY,13:00,13:50,Supply Chain Analytics (Professional Elective V),AIML 4.3,C301

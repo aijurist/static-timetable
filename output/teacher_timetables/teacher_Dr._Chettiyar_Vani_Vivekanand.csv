@@ -1,11 +1,11 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,14:00,14:50,Fundamentals of Mobile Computing,CSE 3.4,B403
-WEDNESDAY,14:00,14:50,Fundamentals of Mobile Computing,CSE 3.4,B210
-WEDNESDAY,09:00,09:50,Fundamentals of Mobile Computing,CSE 3.4,C302
-WEDNESDAY,15:00,15:50,Computer Networks,CSE 3.5,B422
-TUESDAY,15:00,15:50,Computer Networks,CSE 3.5,B418
-THURSDAY,15:00,15:50,Computer Networks,CSE 3.5,C201
-TUESDAY,15:50,17:30,Computer Networks,CSE 3.5,TLFR2
-SATURDAY,08:00,09:40,Computer Networks,CSE 3.5,TLFL5
-THURSDAY,17:30,19:10,Computer Networks,CSE 3.5,TLFL3
-TUESDAY,17:30,19:10,Computer Networks,CSE 3.5,TLFL1
+SATURDAY,08:00,08:50,Fundamentals of Mobile Computing,CSE 3.4,A104/105
+SATURDAY,10:00,10:50,Fundamentals of Mobile Computing,CSE 3.4,B402
+FRIDAY,16:00,16:50,Fundamentals of Mobile Computing,CSE 3.4,B416
+THURSDAY,16:00,16:50,Computer Networks,CSE 3.5,A110
+FRIDAY,11:00,11:50,Computer Networks,CSE 3.5,B402
+WEDNESDAY,17:00,17:50,Computer Networks,CSE 3.5,B419
+TUESDAY,15:50,17:30,Computer Networks,CSE 3.5,TLGL4
+THURSDAY,13:50,15:30,Computer Networks,CSE 3.5,KFR03
+TUESDAY,11:50,13:30,Computer Networks,CSE 3.5,KFR02
+SATURDAY,13:50,15:30,Computer Networks,CSE 3.5,JR1

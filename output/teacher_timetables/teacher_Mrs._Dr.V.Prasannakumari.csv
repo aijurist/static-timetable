@@ -1,7 +1,7 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,15:00,15:50,Automata Theory & Compiler Design,IT 3.1,A209
-TUESDAY,17:00,17:50,Automata Theory & Compiler Design,IT 3.1,B106
-MONDAY,08:00,08:50,Automata Theory & Compiler Design,IT 3.1,B211
-THURSDAY,13:00,13:50,Automata Theory & Compiler Design,IT 3.4,B302
-THURSDAY,10:00,10:50,Automata Theory & Compiler Design,IT 3.4,A209
-THURSDAY,11:00,11:50,Automata Theory & Compiler Design,IT 3.4,B426
+THURSDAY,16:00,16:50,Automata Theory & Compiler Design,IT 3.1,A209
+WEDNESDAY,10:00,10:50,Automata Theory & Compiler Design,IT 3.1,B321
+TUESDAY,15:00,15:50,Automata Theory & Compiler Design,IT 3.1,A102
+FRIDAY,15:00,15:50,Automata Theory & Compiler Design,IT 3.4,A311
+FRIDAY,11:00,11:50,Automata Theory & Compiler Design,IT 3.4,B409
+FRIDAY,14:00,14:50,Automata Theory & Compiler Design,IT 3.4,B219

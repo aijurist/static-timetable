@@ -1,10 +1,10 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,16:00,16:50,Database Management Systems,AIML 2.3,A303
-WEDNESDAY,11:00,11:50,Database Management Systems,AIML 2.3,B218
-MONDAY,15:00,15:50,Database Management Systems,AIML 2.3,C302
+FRIDAY,18:00,18:50,Database Management Systems,AIML 2.3,B418
+FRIDAY,13:00,13:50,Database Management Systems,AIML 2.3,B422
+TUESDAY,12:00,12:50,Database Management Systems,AIML 2.3,B401
+THURSDAY,13:50,15:30,Database Management Systems,AIML 2.3,TLFL4
+WEDNESDAY,15:50,17:30,Database Management Systems,AIML 2.3,TLFR2
+WEDNESDAY,17:30,19:10,Database Management Systems,AIML 2.3,JR2
 THURSDAY,11:50,13:30,Database Management Systems,AIML 2.3,TLGL4
-THURSDAY,13:50,15:30,Database Management Systems,AIML 2.3,TLFR3
-MONDAY,09:50,11:30,Database Management Systems,AIML 2.3,TLFL5
-FRIDAY,08:00,09:40,Database Management Systems,AIML 2.3,KFR02
-WEDNESDAY,15:50,17:30,Build and Deploy Machine Learning Applications,AIML 3.1,TLFR2
-FRIDAY,11:50,13:30,Build and Deploy Machine Learning Applications,AIML 3.1,TLGL3
+WEDNESDAY,13:50,15:30,Build and Deploy Machine Learning Applications,AIML 3.1,KFR02
+SATURDAY,13:50,15:30,Build and Deploy Machine Learning Applications,AIML 3.1,TLGL3

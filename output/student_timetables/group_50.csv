@@ -1,32 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-MONDAY,09:00,09:50,Formal Language and Automata Theory,New Faculty New  Staff - 23,A304
-FRIDAY,13:00,13:50,Formal Language and Automata Theory,New Faculty New  Staff - 23,B408
-WEDNESDAY,11:00,11:50,Formal Language and Automata Theory,New Faculty New  Staff - 23,A305
-MONDAY,16:00,16:50,Computer Organization and Architecture,New Faculty New Staff -20,B106
-FRIDAY,14:00,14:50,Computer Organization and Architecture,New Faculty New Staff -20,C307
-THURSDAY,17:00,17:50,Computer Organization and Architecture,New Faculty New Staff -20,C301
-WEDNESDAY,13:00,13:50,Computational Statistics,Dr. V. R. Sunil Kumar,B404
-FRIDAY,17:00,17:50,Computational Statistics,Dr. V. R. Sunil Kumar,C101
-TUESDAY,14:00,14:50,Computational Statistics,Dr. V. R. Sunil Kumar,A309
-MONDAY,09:50,11:30,Computational Statistics,Dr. V. R. Sunil Kumar,KFR03
-TUESDAY,08:00,09:40,Computational Statistics,Dr. V. R. Sunil Kumar,TLFR5
-WEDNESDAY,14:00,14:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,A210
-TUESDAY,15:00,15:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,B213
-TUESDAY,11:00,11:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,B302
-WEDNESDAY,17:30,19:10,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,JR2
-WEDNESDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,JL2
-MONDAY,11:50,13:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,KFL01
-FRIDAY,08:00,09:40,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,TLFL5
-THURSDAY,12:00,12:50,Environmental Sciences,Mrs. Dr. D. Udhayakumari,C202
-THURSDAY,16:00,16:50,Environmental Sciences,Mrs. Dr. D. Udhayakumari,B221
-FRIDAY,10:00,10:50,Environmental Sciences,Mrs. Dr. D. Udhayakumari,B403
-MONDAY,14:00,14:50,Software Engineering,Dr. Manikandan Thirumalaisamy,B221
-THURSDAY,10:00,10:50,Software Engineering,Dr. Manikandan Thirumalaisamy,A104/105
-WEDNESDAY,10:00,10:50,Software Engineering,Dr. Manikandan Thirumalaisamy,A311
-MONDAY,17:30,19:10,Software Engineering,Dr. Manikandan Thirumalaisamy,KFR01
-THURSDAY,08:00,09:40,Software Engineering,Dr. Manikandan Thirumalaisamy,JL2
-WEDNESDAY,15:00,15:50,Database Technology,Mrs. Rajammal K,C101
-THURSDAY,14:00,14:50,Database Technology,Mrs. Rajammal K,C201
-MONDAY,15:00,15:50,Database Technology,Mrs. Rajammal K,B423
-TUESDAY,15:50,17:30,Database Technology,Mrs. Rajammal K,TLFL2
-TUESDAY,17:30,19:10,Database Technology,Mrs. Rajammal K,TLGL3
+THURSDAY,13:00,13:50,Formal Language and Automata Theory,New Faculty New  Staff - 23,C308
+WEDNESDAY,13:00,13:50,Formal Language and Automata Theory,New Faculty New  Staff - 23,C103
+FRIDAY,08:00,08:50,Formal Language and Automata Theory,New Faculty New  Staff - 23,B404
+MONDAY,12:00,12:50,Computer Organization and Architecture,New Faculty New Staff -20,B320
+MONDAY,17:00,17:50,Computer Organization and Architecture,New Faculty New Staff -20,A308
+THURSDAY,14:00,14:50,Computer Organization and Architecture,New Faculty New Staff -20,B322
+TUESDAY,12:00,12:50,Computational Statistics,Dr. V. R. Sunil Kumar,A308
+THURSDAY,15:00,15:50,Computational Statistics,Dr. V. R. Sunil Kumar,B106
+TUESDAY,18:00,18:50,Computational Statistics,Dr. V. R. Sunil Kumar,C308
+WEDNESDAY,17:30,19:10,Computational Statistics,Dr. V. R. Sunil Kumar,JL2
+WEDNESDAY,15:50,17:30,Computational Statistics,Dr. V. R. Sunil Kumar,KFR01
+FRIDAY,10:00,10:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,B425
+MONDAY,15:00,15:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,A104/105
+TUESDAY,16:00,16:50,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,B412
+THURSDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,JL1
+WEDNESDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,KFR03
+WEDNESDAY,13:50,15:30,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,TLFR4
+THURSDAY,17:30,19:10,Object Oriented Programming Using JAVA,New Faculty New  Staff - 26,JL3
+MONDAY,18:00,18:50,Environmental Sciences,Mrs. Dr. D. Udhayakumari,C307
+TUESDAY,17:00,17:50,Environmental Sciences,Mrs. Dr. D. Udhayakumari,C201
+FRIDAY,09:00,09:50,Environmental Sciences,Mrs. Dr. D. Udhayakumari,C307
+FRIDAY,12:00,12:50,Software Engineering,Dr. Manikandan Thirumalaisamy,A202
+MONDAY,16:00,16:50,Software Engineering,Dr. Manikandan Thirumalaisamy,B416
+MONDAY,14:00,14:50,Software Engineering,Dr. Manikandan Thirumalaisamy,A205
+WEDNESDAY,13:50,15:30,Software Engineering,Dr. Manikandan Thirumalaisamy,KFR01
+WEDNESDAY,17:30,19:10,Software Engineering,Dr. Manikandan Thirumalaisamy,JL1
+TUESDAY,15:00,15:50,Database Technology,Mrs. Rajammal K,C102
+FRIDAY,14:00,14:50,Database Technology,Mrs. Rajammal K,B321
+TUESDAY,14:00,14:50,Database Technology,Mrs. Rajammal K,B402
+THURSDAY,17:30,19:10,Database Technology,Mrs. Rajammal K,KFL03
+THURSDAY,15:50,17:30,Database Technology,Mrs. Rajammal K,JR2

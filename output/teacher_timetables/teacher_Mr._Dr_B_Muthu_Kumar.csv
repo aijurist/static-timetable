@@ -1,15 +1,15 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,09:00,09:50,Design and Analysis of Algorithms,IT 2.1,B409
-WEDNESDAY,17:00,17:50,Design and Analysis of Algorithms,IT 2.1,B220
-THURSDAY,13:00,13:50,Design and Analysis of Algorithms,IT 2.1,B322
-THURSDAY,13:50,15:30,Design and Analysis of Algorithms,IT 2.1,TLFL4
-SATURDAY,09:50,11:30,Design and Analysis of Algorithms,IT 2.1,KFR03
-MONDAY,15:50,17:30,Soft Skills – II,IT 3.2,TLFR3
-MONDAY,17:30,19:10,Soft Skills – II,IT 3.2,TLGL4
-FRIDAY,18:00,18:50,Web Programming,IT 3.3,B426
-WEDNESDAY,12:00,12:50,Web Programming,IT 3.3,A209
-WEDNESDAY,15:00,15:50,Web Programming,IT 3.3,B409
-THURSDAY,08:00,09:40,Web Programming,IT 3.3,TLFR2
-TUESDAY,08:00,09:40,Web Programming,IT 3.3,TLGL1
-TUESDAY,09:50,11:30,Web Programming,IT 3.3,JL3
-MONDAY,13:50,15:30,Web Programming,IT 3.3,TLFL5
+WEDNESDAY,18:00,18:50,Design and Analysis of Algorithms,IT 2.1,B320
+SATURDAY,17:00,17:50,Design and Analysis of Algorithms,IT 2.1,A108
+TUESDAY,16:00,16:50,Design and Analysis of Algorithms,IT 2.1,A103
+WEDNESDAY,11:50,13:30,Design and Analysis of Algorithms,IT 2.1,TLFR3
+FRIDAY,15:50,17:30,Design and Analysis of Algorithms,IT 2.1,TLFL1
+FRIDAY,09:50,11:30,Soft Skills – II,IT 3.2,KFL02
+WEDNESDAY,15:50,17:30,Soft Skills – II,IT 3.2,KFL02
+THURSDAY,13:00,13:50,Web Programming,IT 3.3,B222
+MONDAY,10:00,10:50,Web Programming,IT 3.3,B409
+MONDAY,14:00,14:50,Web Programming,IT 3.3,C101
+THURSDAY,15:50,17:30,Web Programming,IT 3.3,TLFL1
+WEDNESDAY,13:50,15:30,Web Programming,IT 3.3,TLFR5
+TUESDAY,11:50,13:30,Web Programming,IT 3.3,TLFR2
+THURSDAY,17:30,19:10,Web Programming,IT 3.3,TLFL1

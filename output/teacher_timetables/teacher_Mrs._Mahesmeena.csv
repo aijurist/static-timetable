@@ -1,9 +1,9 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,16:00,16:50,Computer Architecture,CSE 2.3,C302
-MONDAY,17:00,17:50,Computer Architecture,CSE 2.3,A108
-THURSDAY,08:00,08:50,Computer Architecture,CSE 2.3,A103
-MONDAY,12:00,12:50,Design and Analysis of Algorithms,CSE 2.6,A302
-THURSDAY,09:00,09:50,Design and Analysis of Algorithms,CSE 2.6,C202
-THURSDAY,16:00,16:50,Design and Analysis of Algorithms,CSE 2.6,B219
-TUESDAY,09:50,11:30,Design and Analysis of Algorithms,CSE 2.6,KFR03
-WEDNESDAY,13:50,15:30,Design and Analysis of Algorithms,CSE 2.6,KFL01
+WEDNESDAY,13:00,13:50,Computer Architecture,CSE 2.3,A303
+FRIDAY,10:00,10:50,Computer Architecture,CSE 2.3,B417
+TUESDAY,17:00,17:50,Computer Architecture,CSE 2.3,B426
+WEDNESDAY,09:00,09:50,Design and Analysis of Algorithms,CSE 2.6,C103
+TUESDAY,11:00,11:50,Design and Analysis of Algorithms,CSE 2.6,B411
+MONDAY,16:00,16:50,Design and Analysis of Algorithms,CSE 2.6,B426
+WEDNESDAY,09:50,11:30,Design and Analysis of Algorithms,CSE 2.6,JR3
+THURSDAY,17:30,19:10,Design and Analysis of Algorithms,CSE 2.6,TLFL4

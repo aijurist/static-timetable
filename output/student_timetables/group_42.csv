@@ -1,31 +1,31 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,08:00,08:50,Computer Vision and Applications,Mr. Srinivasan T,B106
-THURSDAY,14:00,14:50,Computer Vision and Applications,Mr. Srinivasan T,A208
-WEDNESDAY,15:50,17:30,Computer Vision and Applications,Mr. Srinivasan T,KFR01
-SATURDAY,15:50,17:30,Computer Vision and Applications,Mr. Srinivasan T,JR1
-WEDNESDAY,11:00,11:50,Recommendation Systems (Professional Elective I),New Staff - 05,B424
-THURSDAY,18:00,18:50,Recommendation Systems (Professional Elective I),New Staff - 05,C307
-FRIDAY,15:50,17:30,Recommendation Systems (Professional Elective I),New Staff - 05,TLFL1
-FRIDAY,17:30,19:10,Recommendation Systems (Professional Elective I),New Staff - 05,TLGL4
-FRIDAY,13:50,15:30,Build and Deploy Machine Learning Applications,AIML  NS4,TLFR2
-TUESDAY,13:50,15:30,Build and Deploy Machine Learning Applications,AIML  NS4,KSL03
-THURSDAY,10:00,10:50,Deep Learning,Mrs. Divya S,B219
-WEDNESDAY,18:00,18:50,Deep Learning,Mrs. Divya S,B417
-TUESDAY,18:00,18:50,Deep Learning,Mrs. Divya S,C202
-THURSDAY,08:00,09:40,Deep Learning,Mrs. Divya S,KFL03
-SATURDAY,17:30,19:10,Deep Learning,Mrs. Divya S,KFR01
-SATURDAY,09:00,09:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,B107
-SATURDAY,11:00,11:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,B402
-WEDNESDAY,09:00,09:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,C308
-FRIDAY,09:50,11:30,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,TLGL1
-TUESDAY,08:00,09:40,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,JL2
-TUESDAY,11:00,11:50,Computer Networks,Ms. Soundarya M,A204
-THURSDAY,16:00,16:50,Computer Networks,Ms. Soundarya M,B321
-WEDNESDAY,15:00,15:50,Computer Networks,Ms. Soundarya M,B210
-TUESDAY,08:00,09:40,Computer Networks,Ms. Soundarya M,JR1
-SATURDAY,13:50,15:30,Computer Networks,Ms. Soundarya M,KFL03
-THURSDAY,11:50,13:30,Computer Networks,Ms. Soundarya M,KFR02
-FRIDAY,09:50,11:30,Computer Networks,Ms. Soundarya M,TLFL5
-FRIDAY,13:00,13:50,DataEngineering,Dr. Rajasekaran Annamalai,B402
-SATURDAY,10:00,10:50,DataEngineering,Dr. Rajasekaran Annamalai,B219
-THURSDAY,15:00,15:50,DataEngineering,Dr. Rajasekaran Annamalai,A210
+THURSDAY,17:00,17:50,Computer Vision and Applications,Mr. Srinivasan T,B302
+THURSDAY,15:00,15:50,Computer Vision and Applications,Mr. Srinivasan T,A311
+WEDNESDAY,11:50,13:30,Computer Vision and Applications,Mr. Srinivasan T,TLGL3
+SATURDAY,15:50,17:30,Computer Vision and Applications,Mr. Srinivasan T,TLFL4
+SATURDAY,14:00,14:50,Recommendation Systems (Professional Elective I),New Staff - 05,B221
+SATURDAY,13:00,13:50,Recommendation Systems (Professional Elective I),New Staff - 05,B425
+TUESDAY,08:00,09:40,Recommendation Systems (Professional Elective I),New Staff - 05,TLFL3
+TUESDAY,09:50,11:30,Recommendation Systems (Professional Elective I),New Staff - 05,TLFR2
+SATURDAY,15:50,17:30,Build and Deploy Machine Learning Applications,AIML  NS4,KFR01
+TUESDAY,08:00,09:40,Build and Deploy Machine Learning Applications,AIML  NS4,KFR01
+THURSDAY,16:00,16:50,Deep Learning,Mrs. Divya S,A309
+THURSDAY,12:00,12:50,Deep Learning,Mrs. Divya S,B211
+WEDNESDAY,09:00,09:50,Deep Learning,Mrs. Divya S,B210
+WEDNESDAY,09:50,11:30,Deep Learning,Mrs. Divya S,KFL01
+FRIDAY,11:50,13:30,Deep Learning,Mrs. Divya S,JR3
+THURSDAY,18:00,18:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,B412
+FRIDAY,18:00,18:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,C301
+TUESDAY,14:00,14:50,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,B222
+SATURDAY,17:30,19:10,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,TLFR2
+FRIDAY,13:50,15:30,Framework for data and visual Analytics,Dr. Rajasekaran Annamalai,JR1
+WEDNESDAY,14:00,14:50,Computer Networks,Ms. Soundarya M,B426
+SATURDAY,15:00,15:50,Computer Networks,Ms. Soundarya M,B412
+WEDNESDAY,15:00,15:50,Computer Networks,Ms. Soundarya M,B402
+TUESDAY,09:50,11:30,Computer Networks,Ms. Soundarya M,JL2
+FRIDAY,13:50,15:30,Computer Networks,Ms. Soundarya M,JL3
+SATURDAY,17:30,19:10,Computer Networks,Ms. Soundarya M,TLFL2
+WEDNESDAY,09:50,11:30,Computer Networks,Ms. Soundarya M,TLFR3
+FRIDAY,16:00,16:50,DataEngineering,Dr. Rajasekaran Annamalai,A308
+TUESDAY,13:00,13:50,DataEngineering,Dr. Rajasekaran Annamalai,A204
+FRIDAY,17:00,17:50,DataEngineering,Dr. Rajasekaran Annamalai,A202

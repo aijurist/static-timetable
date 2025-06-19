@@ -1,31 +1,31 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-SATURDAY,17:30,19:10,Python Programming for Design,Mr. Vijayakumar R,TLGL1
-SATURDAY,15:50,17:30,Python Programming for Design,Mr. Vijayakumar R,TLGL2
-SATURDAY,13:50,15:30,Python Programming for Design,Mr. Vijayakumar R,TLGL1
-TUESDAY,09:00,09:50,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,A202
-FRIDAY,16:00,16:50,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,A205
-TUESDAY,13:00,13:50,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,A211
-TUESDAY,09:50,11:30,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,TLGL3
+THURSDAY,17:30,19:10,Python Programming for Design,Mr. Vijayakumar R,TLGL1
+WEDNESDAY,15:00,15:50,Python Programming for Design,Mr. Vijayakumar R,TLGL1
+WEDNESDAY,15:50,17:30,Python Programming for Design,Mr. Vijayakumar R,TLGL1
+FRIDAY,13:00,13:50,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,A109
+FRIDAY,14:00,14:50,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,B212
+THURSDAY,13:00,13:50,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,A208
 SATURDAY,08:00,09:40,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,KFL02
-FRIDAY,17:00,17:50,Database Management Systems,Mrs. Kalpana D,B322
-WEDNESDAY,08:00,08:50,Database Management Systems,Mrs. Kalpana D,B212
-WEDNESDAY,15:00,15:50,Database Management Systems,Mrs. Kalpana D,B106
-THURSDAY,13:50,15:30,Database Management Systems,Mrs. Kalpana D,TLFR4
-FRIDAY,13:50,15:30,Database Management Systems,Mrs. Kalpana D,KFL02
-TUESDAY,13:50,15:30,Database Management Systems,Mrs. Kalpana D,TLFR4
-FRIDAY,09:50,11:30,Database Management Systems,Mrs. Kalpana D,TLFR1
-FRIDAY,08:00,08:50,Discrete Mathematics for AI,Mrs. J.Julie,C302
-FRIDAY,09:00,09:50,Discrete Mathematics for AI,Mrs. J.Julie,B402
-THURSDAY,13:00,13:50,Discrete Mathematics for AI,Mrs. J.Julie,B416
-TUESDAY,16:00,16:50,Discrete Mathematics for AI,Mrs. J.Julie,C201
-TUESDAY,08:00,08:50,Design Processes and Perspectives,Mr. S Pradeep Kumar,A311
-SATURDAY,13:00,13:50,Design Processes and Perspectives,Mr. S Pradeep Kumar,A102
-WEDNESDAY,17:00,17:50,Design Processes and Perspectives,Mr. S Pradeep Kumar,B107
-TUESDAY,13:50,15:30,Design Processes and Perspectives,Mr. S Pradeep Kumar,TLFR5
-THURSDAY,17:30,19:10,Design Processes and Perspectives,Mr. S Pradeep Kumar,TLGL1
-WEDNESDAY,10:00,10:50,UI and UX design,New Staff - 01,B221
-THURSDAY,11:00,11:50,UI and UX design,New Staff - 01,C302
-WEDNESDAY,11:50,13:30,UI and UX design,New Staff - 01,TLFL1
-FRIDAY,11:50,13:30,UI and UX design,New Staff - 01,TLFR5
-SATURDAY,09:50,11:30,UI and UX design,New Staff - 01,JL2
-TUESDAY,17:30,19:10,UI and UX design,New Staff - 01,TLFR3
+TUESDAY,13:50,15:30,Design and Analysis of Algorithms,Mrs. Revathy Padmanabhan,JL3
+SATURDAY,10:00,10:50,Database Management Systems,Mrs. Kalpana D,B411
+WEDNESDAY,14:00,14:50,Database Management Systems,Mrs. Kalpana D,A104/105
+SATURDAY,14:00,14:50,Database Management Systems,Mrs. Kalpana D,B211
+TUESDAY,13:50,15:30,Database Management Systems,Mrs. Kalpana D,JL1
+FRIDAY,15:50,17:30,Database Management Systems,Mrs. Kalpana D,TLFR5
+THURSDAY,15:50,17:30,Database Management Systems,Mrs. Kalpana D,KSL03
+FRIDAY,17:30,19:10,Database Management Systems,Mrs. Kalpana D,TLGL1
+WEDNESDAY,11:00,11:50,Discrete Mathematics for AI,Mrs. J.Julie,B425
+SATURDAY,13:00,13:50,Discrete Mathematics for AI,Mrs. J.Julie,B415
+WEDNESDAY,13:00,13:50,Discrete Mathematics for AI,Mrs. J.Julie,A309
+SATURDAY,11:00,11:50,Discrete Mathematics for AI,Mrs. J.Julie,B411
+FRIDAY,15:00,15:50,Design Processes and Perspectives,Mr. S Pradeep Kumar,B408
+TUESDAY,12:00,12:50,Design Processes and Perspectives,Mr. S Pradeep Kumar,B321
+THURSDAY,15:00,15:50,Design Processes and Perspectives,Mr. S Pradeep Kumar,B415
+TUESDAY,15:50,17:30,Design Processes and Perspectives,Mr. S Pradeep Kumar,TLFR4
+SATURDAY,08:00,09:40,Design Processes and Perspectives,Mr. S Pradeep Kumar,TLFR2
+THURSDAY,14:00,14:50,UI and UX design,New Staff - 01,B412
+TUESDAY,18:00,18:50,UI and UX design,New Staff - 01,A208
+FRIDAY,17:30,19:10,UI and UX design,New Staff - 01,KFL02
+THURSDAY,15:50,17:30,UI and UX design,New Staff - 01,JR3
+FRIDAY,15:50,17:30,UI and UX design,New Staff - 01,KSL03
+TUESDAY,15:50,17:30,UI and UX design,New Staff - 01,TLGL3

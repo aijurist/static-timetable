@@ -1,11 +1,11 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,10:00,10:50,Design and Analysis of Algorithms,AIML 2.3,C103
-TUESDAY,11:00,11:50,Design and Analysis of Algorithms,AIML 2.3,B212
-TUESDAY,15:00,15:50,Design and Analysis of Algorithms,AIML 2.3,B416
-FRIDAY,17:30,19:10,Design and Analysis of Algorithms,AIML 2.3,KSL03
-FRIDAY,15:50,17:30,Design and Analysis of Algorithms,AIML 2.3,KFL01
-THURSDAY,10:00,10:50,Deep Learning,AIML 3.3,B219
-WEDNESDAY,18:00,18:50,Deep Learning,AIML 3.3,B417
-TUESDAY,18:00,18:50,Deep Learning,AIML 3.3,C202
-THURSDAY,08:00,09:40,Deep Learning,AIML 3.3,KFL03
-SATURDAY,17:30,19:10,Deep Learning,AIML 3.3,KFR01
+WEDNESDAY,13:00,13:50,Design and Analysis of Algorithms,AIML 2.3,B403
+TUESDAY,16:00,16:50,Design and Analysis of Algorithms,AIML 2.3,B325
+WEDNESDAY,15:00,15:50,Design and Analysis of Algorithms,AIML 2.3,B325
+MONDAY,13:50,15:30,Design and Analysis of Algorithms,AIML 2.3,KSL03
+MONDAY,15:50,17:30,Design and Analysis of Algorithms,AIML 2.3,TLFL5
+THURSDAY,16:00,16:50,Deep Learning,AIML 3.3,A309
+THURSDAY,12:00,12:50,Deep Learning,AIML 3.3,B211
+WEDNESDAY,09:00,09:50,Deep Learning,AIML 3.3,B210
+WEDNESDAY,09:50,11:30,Deep Learning,AIML 3.3,KFL01
+FRIDAY,11:50,13:30,Deep Learning,AIML 3.3,JR3

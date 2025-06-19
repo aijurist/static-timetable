@@ -1,11 +1,11 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,12:00,12:50,Computer Network Technology,CSBS 3.1,A202
-TUESDAY,16:00,16:50,Computer Network Technology,CSBS 3.1,B403
-THURSDAY,17:00,17:50,Computer Network Technology,CSBS 3.1,B418
-MONDAY,09:50,11:30,Computer Network Technology,CSBS 3.1,TLFR3
-THURSDAY,13:50,15:30,Computer Network Technology,CSBS 3.1,JR2
-FRIDAY,13:00,13:50,Data Mining and Analytics,CSBS 3.1,B222
-WEDNESDAY,14:00,14:50,Data Mining and Analytics,CSBS 3.1,B424
-MONDAY,08:00,08:50,Data Mining and Analytics,CSBS 3.1,A311
-FRIDAY,13:50,15:30,Data Mining and Analytics,CSBS 3.1,TLFR4
-MONDAY,13:50,15:30,Data Mining and Analytics,CSBS 3.1,TLGL4
+MONDAY,11:00,11:50,Computer Network Technology,CSBS 3.1,C307
+MONDAY,10:00,10:50,Computer Network Technology,CSBS 3.1,C201
+THURSDAY,18:00,18:50,Computer Network Technology,CSBS 3.1,B417
+WEDNESDAY,08:00,09:40,Computer Network Technology,CSBS 3.1,TLFL1
+MONDAY,08:00,09:40,Computer Network Technology,CSBS 3.1,JL2
+THURSDAY,13:00,13:50,Data Mining and Analytics,CSBS 3.1,B211
+FRIDAY,08:00,08:50,Data Mining and Analytics,CSBS 3.1,C101
+WEDNESDAY,14:00,14:50,Data Mining and Analytics,CSBS 3.1,B219
+THURSDAY,15:50,17:30,Data Mining and Analytics,CSBS 3.1,KFL01
+FRIDAY,09:50,11:30,Data Mining and Analytics,CSBS 3.1,JR1

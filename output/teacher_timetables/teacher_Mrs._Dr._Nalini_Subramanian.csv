@@ -1,15 +1,15 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,15:00,15:50,Computer Networks,IT 3.4,B107
-MONDAY,10:00,10:50,Computer Networks,IT 3.4,B401
-FRIDAY,09:00,09:50,Computer Networks,IT 3.4,C308
-FRIDAY,09:50,11:30,Computer Networks,IT 3.4,TLFR2
-WEDNESDAY,13:50,15:30,Computer Networks,IT 3.4,TLFR4
-THURSDAY,17:30,19:10,Computer Networks,IT 3.4,JL1
-WEDNESDAY,09:50,11:30,Computer Networks,IT 3.4,TLFL2
-MONDAY,17:00,17:50,Cloud and Big Data Analytics,IT 4.1,A305
-TUESDAY,15:00,15:50,Cloud and Big Data Analytics,IT 4.1,B325
-WEDNESDAY,16:00,16:50,Cloud and Big Data Analytics,IT 4.1,A208
-TUESDAY,11:50,13:30,Cloud and Big Data Analytics,IT 4.1,TLGL4
-TUESDAY,17:30,19:10,Cloud and Big Data Analytics,IT 4.1,TLFR2
-THURSDAY,13:50,15:30,Cloud and Big Data Analytics,IT 4.1,TLFR1
-FRIDAY,15:50,17:30,Cloud and Big Data Analytics,IT 4.1,TLGL3
+FRIDAY,13:00,13:50,Computer Networks,IT 3.4,B321
+FRIDAY,16:00,16:50,Computer Networks,IT 3.4,A110
+FRIDAY,17:00,17:50,Computer Networks,IT 3.4,B222
+MONDAY,15:50,17:30,Computer Networks,IT 3.4,TLFL4
+MONDAY,17:30,19:10,Computer Networks,IT 3.4,KFR03
+MONDAY,13:50,15:30,Computer Networks,IT 3.4,JR1
+THURSDAY,17:30,19:10,Computer Networks,IT 3.4,TLFR3
+FRIDAY,15:00,15:50,Cloud and Big Data Analytics,IT 4.1,A205
+THURSDAY,14:00,14:50,Cloud and Big Data Analytics,IT 4.1,B410
+THURSDAY,12:00,12:50,Cloud and Big Data Analytics,IT 4.1,B106
+TUESDAY,08:00,09:40,Cloud and Big Data Analytics,IT 4.1,KFL02
+THURSDAY,15:50,17:30,Cloud and Big Data Analytics,IT 4.1,TLGL3
+WEDNESDAY,17:30,19:10,Cloud and Big Data Analytics,IT 4.1,TLFR2
+WEDNESDAY,13:50,15:30,Cloud and Big Data Analytics,IT 4.1,TLGL4

@@ -1,15 +1,15 @@
 Day,StartTime,EndTime,Course,Group,Room
-WEDNESDAY,12:00,12:50,Object Oriented Programming Using JAVA,IT 2.3,C301
-FRIDAY,14:00,14:50,Object Oriented Programming Using JAVA,IT 2.3,B213
-FRIDAY,08:00,08:50,Object Oriented Programming Using JAVA,IT 2.3,B221
-SATURDAY,15:50,17:30,Object Oriented Programming Using JAVA,IT 2.3,KFL02
-SATURDAY,11:50,13:30,Object Oriented Programming Using JAVA,IT 2.3,TLFR3
-FRIDAY,11:50,13:30,Object Oriented Programming Using JAVA,IT 2.3,KFR02
-TUESDAY,08:00,09:40,Object Oriented Programming Using JAVA,IT 2.3,JL3
-TUESDAY,10:00,10:50,Web Programming,IT 3.2,B321
-WEDNESDAY,13:00,13:50,Web Programming,IT 3.2,B423
-MONDAY,10:00,10:50,Web Programming,IT 3.2,B411
-THURSDAY,09:50,11:30,Web Programming,IT 3.2,TLFL2
-WEDNESDAY,13:50,15:30,Web Programming,IT 3.2,KFL02
-MONDAY,08:00,09:40,Web Programming,IT 3.2,KFL01
-MONDAY,11:50,13:30,Web Programming,IT 3.2,TLGL3
+FRIDAY,14:00,14:50,Object Oriented Programming Using JAVA,IT 2.3,B423
+SATURDAY,17:00,17:50,Object Oriented Programming Using JAVA,IT 2.3,C101
+SATURDAY,14:00,14:50,Object Oriented Programming Using JAVA,IT 2.3,A311
+FRIDAY,08:00,09:40,Object Oriented Programming Using JAVA,IT 2.3,JR1
+THURSDAY,13:50,15:30,Object Oriented Programming Using JAVA,IT 2.3,TLGL3
+FRIDAY,09:50,11:30,Object Oriented Programming Using JAVA,IT 2.3,JL3
+THURSDAY,15:50,17:30,Object Oriented Programming Using JAVA,IT 2.3,KFL03
+MONDAY,14:00,14:50,Web Programming,IT 3.2,A104/105
+WEDNESDAY,13:00,13:50,Web Programming,IT 3.2,C302
+TUESDAY,14:00,14:50,Web Programming,IT 3.2,A104/105
+TUESDAY,15:50,17:30,Web Programming,IT 3.2,TLFR1
+MONDAY,17:30,19:10,Web Programming,IT 3.2,KFL01
+TUESDAY,17:30,19:10,Web Programming,IT 3.2,JL2
+WEDNESDAY,13:50,15:30,Web Programming,IT 3.2,JR3

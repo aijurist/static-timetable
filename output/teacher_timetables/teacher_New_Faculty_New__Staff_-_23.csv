@@ -1,8 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,09:00,09:50,Formal Language and Automata Theory,CSBS 2.2,A304
-FRIDAY,13:00,13:50,Formal Language and Automata Theory,CSBS 2.2,B408
-WEDNESDAY,11:00,11:50,Formal Language and Automata Theory,CSBS 2.2,A305
-FRIDAY,14:00,14:50,IT Workshop,CSBS 4.2,B411
-THURSDAY,12:00,12:50,IT Workshop,CSBS 4.2,A202
-TUESDAY,09:50,11:30,IT Workshop,CSBS 4.2,TLFR3
-THURSDAY,09:50,11:30,IT Workshop,CSBS 4.2,JR3
+THURSDAY,13:00,13:50,Formal Language and Automata Theory,CSBS 2.2,C308
+WEDNESDAY,13:00,13:50,Formal Language and Automata Theory,CSBS 2.2,C103
+FRIDAY,08:00,08:50,Formal Language and Automata Theory,CSBS 2.2,B404
+THURSDAY,15:00,15:50,IT Workshop,CSBS 4.2,C201
+MONDAY,12:00,12:50,IT Workshop,CSBS 4.2,B211
+TUESDAY,15:50,17:30,IT Workshop,CSBS 4.2,TLFR3
+TUESDAY,17:30,19:10,IT Workshop,CSBS 4.2,TLFR2

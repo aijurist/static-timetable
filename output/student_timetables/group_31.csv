@@ -1,32 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,09:00,09:50,Computer Architecture,New Staff - 03,C102
-TUESDAY,16:00,16:50,Computer Architecture,New Staff - 03,A104/105
-FRIDAY,16:00,16:50,Computer Architecture,New Staff - 03,B410
-TUESDAY,18:00,18:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,B409
-WEDNESDAY,14:00,14:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,A109
-THURSDAY,10:00,10:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,B220
-TUESDAY,13:50,15:30,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,TLFL1
-MONDAY,17:30,19:10,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,KFR03
-THURSDAY,14:00,14:50,Fourier series and Number theory,Mrs. Dr S.Bhavani,B320
-THURSDAY,09:00,09:50,Fourier series and Number theory,Mrs. Dr S.Bhavani,A205
-MONDAY,09:00,09:50,Fourier series and Number theory,Mrs. Dr S.Bhavani,A103
-THURSDAY,13:00,13:50,Fourier series and Number theory,Mrs. Dr S.Bhavani,A311
-TUESDAY,13:00,13:50,Database Management Systems,Mrs. S.Vinothini,C301
-WEDNESDAY,15:00,15:50,Database Management Systems,Mrs. S.Vinothini,A204
-WEDNESDAY,08:00,08:50,Database Management Systems,Mrs. S.Vinothini,B405
-MONDAY,15:50,17:30,Database Management Systems,Mrs. S.Vinothini,TLGL3
-MONDAY,17:30,19:10,Database Management Systems,Mrs. S.Vinothini,TLGL1
-FRIDAY,13:50,15:30,Database Management Systems,Mrs. S.Vinothini,KFR03
-TUESDAY,13:50,15:30,Database Management Systems,Mrs. S.Vinothini,JL2
-THURSDAY,16:00,16:50,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,A209
-FRIDAY,10:00,10:50,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,C307
-FRIDAY,12:00,12:50,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,B106
-FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,TLGL3
-WEDNESDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,TLFR3
-TUESDAY,08:00,09:40,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,TLGL4
-WEDNESDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,TLFL5
-THURSDAY,11:00,11:50,Fundamentals of Data Science,New Staff - 07,B415
-MONDAY,08:00,08:50,Fundamentals of Data Science,New Staff - 07,B408
-MONDAY,14:00,14:50,Fundamentals of Data Science,New Staff - 07,B325
-FRIDAY,17:30,19:10,Fundamentals of Data Science,New Staff - 07,TLFL5
-MONDAY,11:50,13:30,Fundamentals of Data Science,New Staff - 07,TLFL4
+MONDAY,15:00,15:50,Computer Architecture,New Staff - 03,B412
+WEDNESDAY,08:00,08:50,Computer Architecture,New Staff - 03,A204
+MONDAY,09:00,09:50,Computer Architecture,New Staff - 03,A303
+WEDNESDAY,14:00,14:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,B418
+FRIDAY,18:00,18:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,B219
+MONDAY,14:00,14:50,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,B212
+TUESDAY,17:30,19:10,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,TLFR1
+MONDAY,11:50,13:30,Design and Analysis of Algorithms,Mr. Dr.P.Shanmugam,KFL03
+THURSDAY,14:00,14:50,Fourier series and Number theory,Mrs. Dr S.Bhavani,A303
+THURSDAY,09:00,09:50,Fourier series and Number theory,Mrs. Dr S.Bhavani,B411
+TUESDAY,15:00,15:50,Fourier series and Number theory,Mrs. Dr S.Bhavani,A211
+WEDNESDAY,09:00,09:50,Fourier series and Number theory,Mrs. Dr S.Bhavani,B213
+THURSDAY,13:00,13:50,Database Management Systems,Mrs. S.Vinothini,B213
+TUESDAY,14:00,14:50,Database Management Systems,Mrs. S.Vinothini,A304
+TUESDAY,13:00,13:50,Database Management Systems,Mrs. S.Vinothini,A205
+FRIDAY,13:50,15:30,Database Management Systems,Mrs. S.Vinothini,TLFR2
+MONDAY,09:50,11:30,Database Management Systems,Mrs. S.Vinothini,TLFL4
+FRIDAY,15:50,17:30,Database Management Systems,Mrs. S.Vinothini,TLFL3
+TUESDAY,17:30,19:10,Database Management Systems,Mrs. S.Vinothini,KSL03
+THURSDAY,10:00,10:50,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,C103
+THURSDAY,11:00,11:50,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,B302
+THURSDAY,15:00,15:50,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,A110
+TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,TLFL2
+FRIDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,JR1
+FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,TLFL5
+MONDAY,09:50,11:30,Object Oriented Programming Using JAVA,Mr. Dr.S.Anantha Sivaprakasam,JR1
+WEDNESDAY,10:00,10:50,Fundamentals of Data Science,New Staff - 07,B415
+WEDNESDAY,13:00,13:50,Fundamentals of Data Science,New Staff - 07,B419
+WEDNESDAY,11:00,11:50,Fundamentals of Data Science,New Staff - 07,A104/105
+FRIDAY,11:50,13:30,Fundamentals of Data Science,New Staff - 07,JR2
+TUESDAY,15:50,17:30,Fundamentals of Data Science,New Staff - 07,TLFL5

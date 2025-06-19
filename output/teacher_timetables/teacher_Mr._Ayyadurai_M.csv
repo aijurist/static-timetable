@@ -1,14 +1,14 @@
 Day,StartTime,EndTime,Course,Group,Room
-THURSDAY,15:00,15:50,Fundamentals of Data Science,CSE 2.3,A104/105
-MONDAY,15:00,15:50,Fundamentals of Data Science,CSE 2.3,C301
-MONDAY,16:00,16:50,Fundamentals of Data Science,CSE 2.3,B211
-FRIDAY,09:50,11:30,Fundamentals of Data Science,CSE 2.3,TLFL1
-WEDNESDAY,13:50,15:30,Fundamentals of Data Science,CSE 2.3,JR1
-MONDAY,08:00,08:50,Cloud Computing,CSE 4.1,B106
-FRIDAY,14:00,14:50,Cloud Computing,CSE 4.1,A205
-TUESDAY,17:30,19:10,Cloud Computing,CSE 4.1,KFL01
-TUESDAY,15:50,17:30,Cloud Computing,CSE 4.1,KFR02
-THURSDAY,14:00,14:50,Cloud Computing,CSE 4.5,B221
-WEDNESDAY,17:00,17:50,Cloud Computing,CSE 4.5,A110
-THURSDAY,08:00,09:40,Cloud Computing,CSE 4.5,TLFR4
-WEDNESDAY,09:50,11:30,Cloud Computing,CSE 4.5,KFR03
+MONDAY,09:00,09:50,Fundamentals of Data Science,CSE 2.3,A208
+WEDNESDAY,14:00,14:50,Fundamentals of Data Science,CSE 2.3,B221
+TUESDAY,15:00,15:50,Fundamentals of Data Science,CSE 2.3,A310
+WEDNESDAY,08:00,09:40,Fundamentals of Data Science,CSE 2.3,TLGL3
+MONDAY,09:50,11:30,Fundamentals of Data Science,CSE 2.3,JL2
+THURSDAY,17:00,17:50,Cloud Computing,CSE 4.1,B401
+FRIDAY,17:00,17:50,Cloud Computing,CSE 4.1,B402
+THURSDAY,13:50,15:30,Cloud Computing,CSE 4.1,TLGL1
+TUESDAY,08:00,09:40,Cloud Computing,CSE 4.1,KFR03
+WEDNESDAY,12:00,12:50,Cloud Computing,CSE 4.5,B107
+FRIDAY,10:00,10:50,Cloud Computing,CSE 4.5,A303
+FRIDAY,11:50,13:30,Cloud Computing,CSE 4.5,TLFL1
+FRIDAY,13:50,15:30,Cloud Computing,CSE 4.5,TLGL3

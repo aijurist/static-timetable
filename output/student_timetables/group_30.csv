@@ -1,32 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,09:00,09:50,Computer Architecture,Mrs. Deepa B,A209
-WEDNESDAY,17:00,17:50,Computer Architecture,Mrs. Deepa B,B417
-THURSDAY,10:00,10:50,Computer Architecture,Mrs. Deepa B,B418
-MONDAY,10:00,10:50,Design and Analysis of Algorithms,Ms. T.Ramala,B417
-MONDAY,11:00,11:50,Design and Analysis of Algorithms,Ms. T.Ramala,B403
-WEDNESDAY,13:00,13:50,Design and Analysis of Algorithms,Ms. T.Ramala,A204
-FRIDAY,09:50,11:30,Design and Analysis of Algorithms,Ms. T.Ramala,TLGL4
-MONDAY,15:50,17:30,Design and Analysis of Algorithms,Ms. T.Ramala,KFR02
-MONDAY,08:00,08:50,Fourier series and Number theory,Mr. Venkatesan J,A308
-TUESDAY,10:00,10:50,Fourier series and Number theory,Mr. Venkatesan J,B423
-THURSDAY,13:00,13:50,Fourier series and Number theory,Mr. Venkatesan J,A209
-MONDAY,09:00,09:50,Fourier series and Number theory,Mr. Venkatesan J,B403
-MONDAY,18:00,18:50,Database Management Systems,Mr. Dr Parthasarathy C,B416
-TUESDAY,08:00,08:50,Database Management Systems,Mr. Dr Parthasarathy C,B410
-WEDNESDAY,15:00,15:50,Database Management Systems,Mr. Dr Parthasarathy C,A303
-THURSDAY,15:50,17:30,Database Management Systems,Mr. Dr Parthasarathy C,TLFL2
-THURSDAY,17:30,19:10,Database Management Systems,Mr. Dr Parthasarathy C,TLFR1
-FRIDAY,17:30,19:10,Database Management Systems,Mr. Dr Parthasarathy C,JL3
-FRIDAY,15:50,17:30,Database Management Systems,Mr. Dr Parthasarathy C,JL1
-WEDNESDAY,14:00,14:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,B106
-FRIDAY,14:00,14:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,B408
-FRIDAY,08:00,08:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,A108
-TUESDAY,11:50,13:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLFR4
-TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLFL3
-THURSDAY,15:50,17:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLFR1
-THURSDAY,13:50,15:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLFR2
-FRIDAY,15:00,15:50,Fundamentals of Data Science,Ms. Dharshini B S,B408
-TUESDAY,09:00,09:50,Fundamentals of Data Science,Ms. Dharshini B S,A203
-WEDNESDAY,11:00,11:50,Fundamentals of Data Science,Ms. Dharshini B S,A310
-MONDAY,15:50,17:30,Fundamentals of Data Science,Ms. Dharshini B S,TLFL1
-FRIDAY,09:50,11:30,Fundamentals of Data Science,Ms. Dharshini B S,TLFL3
+MONDAY,16:00,16:50,Computer Architecture,Mrs. Deepa B,A205
+THURSDAY,09:00,09:50,Computer Architecture,Mrs. Deepa B,B221
+FRIDAY,16:00,16:50,Computer Architecture,Mrs. Deepa B,A310
+FRIDAY,11:00,11:50,Design and Analysis of Algorithms,Ms. T.Ramala,A102
+TUESDAY,18:00,18:50,Design and Analysis of Algorithms,Ms. T.Ramala,B422
+THURSDAY,08:00,08:50,Design and Analysis of Algorithms,Ms. T.Ramala,B401
+MONDAY,13:50,15:30,Design and Analysis of Algorithms,Ms. T.Ramala,KFR02
+TUESDAY,13:50,15:30,Design and Analysis of Algorithms,Ms. T.Ramala,TLGL4
+THURSDAY,14:00,14:50,Fourier series and Number theory,Mr. Venkatesan J,A302
+FRIDAY,15:00,15:50,Fourier series and Number theory,Mr. Venkatesan J,B425
+WEDNESDAY,15:00,15:50,Fourier series and Number theory,Mr. Venkatesan J,B211
+MONDAY,13:00,13:50,Fourier series and Number theory,Mr. Venkatesan J,C302
+WEDNESDAY,16:00,16:50,Database Management Systems,Mr. Dr Parthasarathy C,B409
+MONDAY,11:00,11:50,Database Management Systems,Mr. Dr Parthasarathy C,B210
+MONDAY,17:00,17:50,Database Management Systems,Mr. Dr Parthasarathy C,B405
+TUESDAY,15:50,17:30,Database Management Systems,Mr. Dr Parthasarathy C,JL2
+WEDNESDAY,09:50,11:30,Database Management Systems,Mr. Dr Parthasarathy C,TLFL2
+THURSDAY,09:50,11:30,Database Management Systems,Mr. Dr Parthasarathy C,KFL03
+MONDAY,13:50,15:30,Database Management Systems,Mr. Dr Parthasarathy C,JR2
+TUESDAY,12:00,12:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,A311
+FRIDAY,17:00,17:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,A108
+FRIDAY,14:00,14:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,B210
+WEDNESDAY,11:50,13:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,KFL01
+THURSDAY,09:50,11:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLFR2
+THURSDAY,11:50,13:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLFR5
+WEDNESDAY,09:50,11:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,KFL02
+FRIDAY,15:00,15:50,Fundamentals of Data Science,Ms. Dharshini B S,B418
+WEDNESDAY,14:00,14:50,Fundamentals of Data Science,Ms. Dharshini B S,B107
+FRIDAY,13:00,13:50,Fundamentals of Data Science,Ms. Dharshini B S,A209
+TUESDAY,13:50,15:30,Fundamentals of Data Science,Ms. Dharshini B S,TLFL1
+TUESDAY,15:50,17:30,Fundamentals of Data Science,Ms. Dharshini B S,TLFL4

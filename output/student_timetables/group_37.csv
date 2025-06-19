@@ -1,27 +1,27 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,12:00,12:50,Theory of Computation,Mrs. Akiladevi R,C101
-FRIDAY,10:00,10:50,Theory of Computation,Mrs. Akiladevi R,B411
-SATURDAY,16:00,16:50,Theory of Computation,Mrs. Akiladevi R,C202
-THURSDAY,09:00,09:50,Theory of Computation,Mrs. Akiladevi R,B218
-FRIDAY,14:00,14:50,Fundamentals of Mobile Computing,Dr. Chettiyar Vani Vivekanand,B403
-WEDNESDAY,14:00,14:50,Fundamentals of Mobile Computing,Dr. Chettiyar Vani Vivekanand,B210
-WEDNESDAY,09:00,09:50,Fundamentals of Mobile Computing,Dr. Chettiyar Vani Vivekanand,C302
-WEDNESDAY,08:00,08:50,Web Programming,Dr. Madhusudhanan S,A305
-WEDNESDAY,15:00,15:50,Web Programming,Dr. Madhusudhanan S,B405
-FRIDAY,08:00,08:50,Web Programming,Dr. Madhusudhanan S,A209
-TUESDAY,15:50,17:30,Web Programming,Dr. Madhusudhanan S,KFL03
-THURSDAY,15:50,17:30,Web Programming,Dr. Madhusudhanan S,TLFL1
-SATURDAY,09:50,11:30,Web Programming,Dr. Madhusudhanan S,KFL02
-THURSDAY,09:50,11:30,Web Programming,Dr. Madhusudhanan S,TLFR3
-SATURDAY,18:00,18:50,Computer Networks,Mr. Dr.K.Anand,B106
-THURSDAY,08:00,08:50,Computer Networks,Mr. Dr.K.Anand,A309
-SATURDAY,12:00,12:50,Computer Networks,Mr. Dr.K.Anand,B426
-TUESDAY,17:30,19:10,Computer Networks,Mr. Dr.K.Anand,TLGL2
-FRIDAY,15:50,17:30,Computer Networks,Mr. Dr.K.Anand,TLGL1
-FRIDAY,17:30,19:10,Computer Networks,Mr. Dr.K.Anand,TLFR3
-TUESDAY,15:50,17:30,Computer Networks,Mr. Dr.K.Anand,TLGL2
-SATURDAY,15:00,15:50,Foundations of Artificial Intelligence,Mr. Dr. Kumar P,C308
-TUESDAY,10:00,10:50,Foundations of Artificial Intelligence,Mr. Dr. Kumar P,C201
-WEDNESDAY,17:00,17:50,Foundations of Artificial Intelligence,Mr. Dr. Kumar P,B403
-WEDNESDAY,09:50,11:30,Foundations of Artificial Intelligence,Mr. Dr. Kumar P,JR2
-THURSDAY,11:50,13:30,Foundations of Artificial Intelligence,Mr. Dr. Kumar P,KFR03
+SATURDAY,11:00,11:50,Theory of Computation,Mrs. Akiladevi R,A308
+WEDNESDAY,17:00,17:50,Theory of Computation,Mrs. Akiladevi R,C301
+SATURDAY,13:00,13:50,Theory of Computation,Mrs. Akiladevi R,C308
+SATURDAY,09:00,09:50,Theory of Computation,Mrs. Akiladevi R,A204
+SATURDAY,08:00,08:50,Fundamentals of Mobile Computing,Dr. Chettiyar Vani Vivekanand,A104/105
+SATURDAY,10:00,10:50,Fundamentals of Mobile Computing,Dr. Chettiyar Vani Vivekanand,B402
+FRIDAY,16:00,16:50,Fundamentals of Mobile Computing,Dr. Chettiyar Vani Vivekanand,B416
+TUESDAY,09:00,09:50,Web Programming,Dr. Madhusudhanan S,A205
+FRIDAY,18:00,18:50,Web Programming,Dr. Madhusudhanan S,C201
+THURSDAY,09:00,09:50,Web Programming,Dr. Madhusudhanan S,C201
+WEDNESDAY,11:50,13:30,Web Programming,Dr. Madhusudhanan S,TLFL3
+THURSDAY,09:50,11:30,Web Programming,Dr. Madhusudhanan S,JL1
+TUESDAY,09:50,11:30,Web Programming,Dr. Madhusudhanan S,TLFR3
+THURSDAY,11:50,13:30,Web Programming,Dr. Madhusudhanan S,TLGL3
+WEDNESDAY,18:00,18:50,Computer Networks,Mr. Dr.K.Anand,A108
+WEDNESDAY,16:00,16:50,Computer Networks,Mr. Dr.K.Anand,A209
+WEDNESDAY,14:00,14:50,Computer Networks,Mr. Dr.K.Anand,A309
+TUESDAY,13:50,15:30,Computer Networks,Mr. Dr.K.Anand,JL2
+FRIDAY,13:50,15:30,Computer Networks,Mr. Dr.K.Anand,TLFR4
+TUESDAY,11:50,13:30,Computer Networks,Mr. Dr.K.Anand,TLFL1
+THURSDAY,09:50,11:30,Computer Networks,Mr. Dr.K.Anand,KFR01
+FRIDAY,13:00,13:50,Foundations of Artificial Intelligence,Mr. Dr. Kumar P,A304
+THURSDAY,08:00,08:50,Foundations of Artificial Intelligence,Mr. Dr. Kumar P,A202
+WEDNESDAY,15:00,15:50,Foundations of Artificial Intelligence,Mr. Dr. Kumar P,B210
+TUESDAY,09:50,11:30,Foundations of Artificial Intelligence,Mr. Dr. Kumar P,KFL01
+FRIDAY,13:50,15:30,Foundations of Artificial Intelligence,Mr. Dr. Kumar P,KFR03

@@ -1,22 +1,22 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,10:00,10:50,Database Management Systems,CSE 2.1,B404
-THURSDAY,15:00,15:50,Database Management Systems,CSE 2.1,C308
-MONDAY,15:00,15:50,Database Management Systems,CSE 2.1,A310
-MONDAY,09:50,11:30,Database Management Systems,CSE 2.1,JL1
-TUESDAY,15:50,17:30,Database Management Systems,CSE 2.1,JL2
-WEDNESDAY,15:50,17:30,Database Management Systems,CSE 2.1,JL3
-FRIDAY,13:50,15:30,Database Management Systems,CSE 2.1,TLFR3
-FRIDAY,16:00,16:50,Database Management Systems,CSE 2.10,B213
-WEDNESDAY,09:00,09:50,Database Management Systems,CSE 2.10,B107
-MONDAY,13:00,13:50,Database Management Systems,CSE 2.10,B320
-FRIDAY,08:00,09:40,Database Management Systems,CSE 2.10,JL2
-MONDAY,08:00,09:40,Database Management Systems,CSE 2.10,KFL03
-WEDNESDAY,09:50,11:30,Database Management Systems,CSE 2.10,TLGL3
-THURSDAY,08:00,09:40,Database Management Systems,CSE 2.10,KFL01
-THURSDAY,16:00,16:50,Web Programming,CSE 3.5,A202
-SATURDAY,10:00,10:50,Web Programming,CSE 3.5,B401
-TUESDAY,09:00,09:50,Web Programming,CSE 3.5,B107
-THURSDAY,09:50,11:30,Web Programming,CSE 3.5,TLFL3
-SATURDAY,13:50,15:30,Web Programming,CSE 3.5,TLFR2
-TUESDAY,11:50,13:30,Web Programming,CSE 3.5,TLFR1
-SATURDAY,11:50,13:30,Web Programming,CSE 3.5,TLFR5
+MONDAY,08:00,08:50,Database Management Systems,CSE 2.1,B212
+WEDNESDAY,11:00,11:50,Database Management Systems,CSE 2.1,A310
+TUESDAY,13:00,13:50,Database Management Systems,CSE 2.1,B415
+MONDAY,09:50,11:30,Database Management Systems,CSE 2.1,KFL02
+FRIDAY,11:50,13:30,Database Management Systems,CSE 2.1,JL2
+WEDNESDAY,13:50,15:30,Database Management Systems,CSE 2.1,JL3
+THURSDAY,14:00,14:50,Database Management Systems,CSE 2.1,JR3
+MONDAY,13:00,13:50,Database Management Systems,CSE 2.10,A209
+TUESDAY,18:00,18:50,Database Management Systems,CSE 2.10,B415
+THURSDAY,09:00,09:50,Database Management Systems,CSE 2.10,A302
+MONDAY,13:50,15:30,Database Management Systems,CSE 2.10,TLFR2
+WEDNESDAY,15:50,17:30,Database Management Systems,CSE 2.10,KSL03
+THURSDAY,09:50,11:30,Database Management Systems,CSE 2.10,TLFL3
+FRIDAY,08:00,09:40,Database Management Systems,CSE 2.10,TLFL1
+THURSDAY,13:00,13:50,Web Programming,CSE 3.5,B425
+WEDNESDAY,18:00,18:50,Web Programming,CSE 3.5,B410
+FRIDAY,14:00,14:50,Web Programming,CSE 3.5,B221
+SATURDAY,09:50,11:30,Web Programming,CSE 3.5,TLFL3
+SATURDAY,11:50,13:30,Web Programming,CSE 3.5,KFL01
+TUESDAY,15:50,17:30,Web Programming,CSE 3.5,JR3
+TUESDAY,13:50,15:30,Web Programming,CSE 3.5,TLFL2

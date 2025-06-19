@@ -1,8 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,16:00,16:50,Database Management Systems,AIML 2.4,B422
-WEDNESDAY,13:00,13:50,Database Management Systems,AIML 2.4,B415
-THURSDAY,16:00,16:50,Database Management Systems,AIML 2.4,B422
-MONDAY,15:50,17:30,Database Management Systems,AIML 2.4,TLGL4
-FRIDAY,08:00,09:40,Database Management Systems,AIML 2.4,JR3
-MONDAY,09:50,11:30,Database Management Systems,AIML 2.4,JR1
-THURSDAY,17:30,19:10,Database Management Systems,AIML 2.4,KFR01
+FRIDAY,15:00,15:50,Database Management Systems,AIML 2.4,C301
+WEDNESDAY,16:00,16:50,Database Management Systems,AIML 2.4,B422
+MONDAY,08:00,08:50,Database Management Systems,AIML 2.4,B404
+WEDNESDAY,13:50,15:30,Database Management Systems,AIML 2.4,TLFL3
+TUESDAY,11:50,13:30,Database Management Systems,AIML 2.4,TLFL2
+THURSDAY,17:30,19:10,Database Management Systems,AIML 2.4,KFR03
+MONDAY,11:50,13:30,Database Management Systems,AIML 2.4,TLFL2

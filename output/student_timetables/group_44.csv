@@ -1,19 +1,19 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,08:00,08:50,Essentials of Human Resources  Management,Mrs. Preetha T,B419
-THURSDAY,17:00,17:50,Essentials of Human Resources  Management,Mrs. Preetha T,A304
-TUESDAY,18:00,18:50,Principles of Financial Management,Dr. Sindhu Al,B426
-TUESDAY,14:00,14:50,Principles of Financial Management,Dr. Sindhu Al,A303
-WEDNESDAY,14:00,14:50,Usability Design of Software  Applications,Mrs. Rajammal K,A303
-TUESDAY,12:00,12:50,Usability Design of Software  Applications,Mrs. Rajammal K,B106
-FRIDAY,15:00,15:50,Usability Design of Software  Applications,Mrs. Rajammal K,B219
-MONDAY,08:00,09:40,Usability Design of Software  Applications,Mrs. Rajammal K,KFR02
-FRIDAY,11:50,13:30,Usability Design of Software  Applications,Mrs. Rajammal K,TLGL4
-FRIDAY,14:00,14:50,IT Workshop,New Faculty New  Staff - 23,B411
-THURSDAY,12:00,12:50,IT Workshop,New Faculty New  Staff - 23,A202
-TUESDAY,09:50,11:30,IT Workshop,New Faculty New  Staff - 23,TLFR3
-THURSDAY,09:50,11:30,IT Workshop,New Faculty New  Staff - 23,JR3
-MONDAY,13:00,13:50,Modern Web Applications,New Faculty New  Staff - 22,A109
-THURSDAY,08:00,08:50,Modern Web Applications,New Faculty New  Staff - 22,A311
-WEDNESDAY,12:00,12:50,Modern Web Applications,New Faculty New  Staff - 22,A103
-MONDAY,15:50,17:30,Modern Web Applications,New Faculty New  Staff - 22,KFL03
-WEDNESDAY,15:50,17:30,Modern Web Applications,New Faculty New  Staff - 22,JR2
+WEDNESDAY,10:00,10:50,Essentials of Human Resources  Management,Mrs. Preetha T,A109
+THURSDAY,14:00,14:50,Essentials of Human Resources  Management,Mrs. Preetha T,B222
+MONDAY,18:00,18:50,Principles of Financial Management,Dr. Sindhu Al,A309
+WEDNESDAY,14:00,14:50,Principles of Financial Management,Dr. Sindhu Al,C102
+MONDAY,17:00,17:50,Usability Design of Software  Applications,Mrs. Rajammal K,B325
+THURSDAY,12:00,12:50,Usability Design of Software  Applications,Mrs. Rajammal K,B408
+MONDAY,16:00,16:50,Usability Design of Software  Applications,Mrs. Rajammal K,B411
+MONDAY,13:50,15:30,Usability Design of Software  Applications,Mrs. Rajammal K,TLGL2
+FRIDAY,11:50,13:30,Usability Design of Software  Applications,Mrs. Rajammal K,JR1
+THURSDAY,15:00,15:50,IT Workshop,New Faculty New  Staff - 23,C201
+MONDAY,12:00,12:50,IT Workshop,New Faculty New  Staff - 23,B211
+TUESDAY,15:50,17:30,IT Workshop,New Faculty New  Staff - 23,TLFR3
+TUESDAY,17:30,19:10,IT Workshop,New Faculty New  Staff - 23,TLFR2
+FRIDAY,15:00,15:50,Modern Web Applications,New Faculty New  Staff - 22,A104/105
+THURSDAY,10:00,10:50,Modern Web Applications,New Faculty New  Staff - 22,A309
+WEDNESDAY,12:00,12:50,Modern Web Applications,New Faculty New  Staff - 22,B320
+TUESDAY,17:30,19:10,Modern Web Applications,New Faculty New  Staff - 22,TLFL4
+WEDNESDAY,08:00,09:40,Modern Web Applications,New Faculty New  Staff - 22,TLFR3

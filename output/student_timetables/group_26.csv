@@ -1,32 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,18:00,18:50,Computer Architecture,New Staff - 12,B106
-THURSDAY,18:00,18:50,Computer Architecture,New Staff - 12,C202
-THURSDAY,10:00,10:50,Computer Architecture,New Staff - 12,B404
-TUESDAY,11:00,11:50,Design and Analysis of Algorithms,Mrs. Santhiya M,A311
-WEDNESDAY,09:00,09:50,Design and Analysis of Algorithms,Mrs. Santhiya M,A304
-WEDNESDAY,14:00,14:50,Design and Analysis of Algorithms,Mrs. Santhiya M,B322
-WEDNESDAY,09:50,11:30,Design and Analysis of Algorithms,Mrs. Santhiya M,TLFR4
-MONDAY,11:50,13:30,Design and Analysis of Algorithms,Mrs. Santhiya M,JR3
-TUESDAY,10:00,10:50,Fourier series and Number theory,Mrs. C. Renuga,B415
-MONDAY,08:00,08:50,Fourier series and Number theory,Mrs. C. Renuga,A104/105
-THURSDAY,13:00,13:50,Fourier series and Number theory,Mrs. C. Renuga,A205
-MONDAY,14:00,14:50,Fourier series and Number theory,Mrs. C. Renuga,A303
-WEDNESDAY,17:00,17:50,Database Management Systems,Dr.J Manoranjini,C302
-FRIDAY,10:00,10:50,Database Management Systems,Dr.J Manoranjini,B211
-FRIDAY,14:00,14:50,Database Management Systems,Dr.J Manoranjini,C308
-MONDAY,15:50,17:30,Database Management Systems,Dr.J Manoranjini,TLFL4
-MONDAY,09:50,11:30,Database Management Systems,Dr.J Manoranjini,TLFR1
-WEDNESDAY,09:50,11:30,Database Management Systems,Dr.J Manoranjini,TLGL4
-TUESDAY,13:50,15:30,Database Management Systems,Dr.J Manoranjini,TLFL4
-TUESDAY,13:00,13:50,Object Oriented Programming Using JAVA,Mrs. Deepa B,A110
-THURSDAY,16:00,16:50,Object Oriented Programming Using JAVA,Mrs. Deepa B,A210
-WEDNESDAY,15:00,15:50,Object Oriented Programming Using JAVA,Mrs. Deepa B,B425
-THURSDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mrs. Deepa B,JR1
-FRIDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mrs. Deepa B,TLFR5
-FRIDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mrs. Deepa B,TLFR2
-TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mrs. Deepa B,TLGL4
-MONDAY,15:00,15:50,Fundamentals of Data Science,Mrs. Aswana Lal,C101
-MONDAY,18:00,18:50,Fundamentals of Data Science,Mrs. Aswana Lal,C301
-WEDNESDAY,08:00,08:50,Fundamentals of Data Science,Mrs. Aswana Lal,B404
-WEDNESDAY,11:50,13:30,Fundamentals of Data Science,Mrs. Aswana Lal,KFR01
-FRIDAY,11:50,13:30,Fundamentals of Data Science,Mrs. Aswana Lal,TLGL1
+FRIDAY,16:00,16:50,Computer Architecture,New Staff - 12,C308
+THURSDAY,09:00,09:50,Computer Architecture,New Staff - 12,B322
+THURSDAY,08:00,08:50,Computer Architecture,New Staff - 12,C307
+THURSDAY,10:00,10:50,Design and Analysis of Algorithms,Mrs. Santhiya M,A304
+TUESDAY,16:00,16:50,Design and Analysis of Algorithms,Mrs. Santhiya M,C201
+THURSDAY,11:00,11:50,Design and Analysis of Algorithms,Mrs. Santhiya M,A108
+FRIDAY,13:50,15:30,Design and Analysis of Algorithms,Mrs. Santhiya M,JL1
+MONDAY,13:50,15:30,Design and Analysis of Algorithms,Mrs. Santhiya M,TLGL3
+MONDAY,13:00,13:50,Fourier series and Number theory,Mrs. C. Renuga,B221
+WEDNESDAY,11:00,11:50,Fourier series and Number theory,Mrs. C. Renuga,B426
+THURSDAY,14:00,14:50,Fourier series and Number theory,Mrs. C. Renuga,A309
+TUESDAY,18:00,18:50,Fourier series and Number theory,Mrs. C. Renuga,B219
+WEDNESDAY,14:00,14:50,Database Management Systems,Dr.J Manoranjini,A102
+TUESDAY,17:00,17:50,Database Management Systems,Dr.J Manoranjini,A110
+FRIDAY,17:00,17:50,Database Management Systems,Dr.J Manoranjini,B425
+FRIDAY,11:50,13:30,Database Management Systems,Dr.J Manoranjini,TLFL2
+WEDNESDAY,08:00,09:40,Database Management Systems,Dr.J Manoranjini,TLFR5
+FRIDAY,13:50,15:30,Database Management Systems,Dr.J Manoranjini,TLFL2
+MONDAY,15:50,17:30,Database Management Systems,Dr.J Manoranjini,KFL01
+FRIDAY,18:00,18:50,Object Oriented Programming Using JAVA,Mrs. Deepa B,A104/105
+TUESDAY,15:00,15:50,Object Oriented Programming Using JAVA,Mrs. Deepa B,C201
+TUESDAY,14:00,14:50,Object Oriented Programming Using JAVA,Mrs. Deepa B,A209
+MONDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mrs. Deepa B,TLGL2
+MONDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mrs. Deepa B,TLFR1
+WEDNESDAY,08:00,09:40,Object Oriented Programming Using JAVA,Mrs. Deepa B,TLFL5
+TUESDAY,11:50,13:30,Object Oriented Programming Using JAVA,Mrs. Deepa B,TLFR4
+WEDNESDAY,10:00,10:50,Fundamentals of Data Science,Mrs. Aswana Lal,C102
+WEDNESDAY,13:00,13:50,Fundamentals of Data Science,Mrs. Aswana Lal,C101
+THURSDAY,13:00,13:50,Fundamentals of Data Science,Mrs. Aswana Lal,A210
+MONDAY,15:50,17:30,Fundamentals of Data Science,Mrs. Aswana Lal,JL3
+MONDAY,17:30,19:10,Fundamentals of Data Science,Mrs. Aswana Lal,TLGL4

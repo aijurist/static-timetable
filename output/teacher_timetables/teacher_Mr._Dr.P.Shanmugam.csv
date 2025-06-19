@@ -1,14 +1,14 @@
 Day,StartTime,EndTime,Course,Group,Room
-FRIDAY,12:00,12:50,Design and Analysis of Algorithms,CSE 2.3,A310
-MONDAY,11:00,11:50,Design and Analysis of Algorithms,CSE 2.3,A204
-WEDNESDAY,08:00,08:50,Design and Analysis of Algorithms,CSE 2.3,B409
-FRIDAY,13:50,15:30,Design and Analysis of Algorithms,CSE 2.3,KSL03
-TUESDAY,15:50,17:30,Design and Analysis of Algorithms,CSE 2.3,TLFR4
-TUESDAY,18:00,18:50,Design and Analysis of Algorithms,CSE 2.9,B409
-WEDNESDAY,14:00,14:50,Design and Analysis of Algorithms,CSE 2.9,A109
-THURSDAY,10:00,10:50,Design and Analysis of Algorithms,CSE 2.9,B220
-TUESDAY,13:50,15:30,Design and Analysis of Algorithms,CSE 2.9,TLFL1
-MONDAY,17:30,19:10,Design and Analysis of Algorithms,CSE 2.9,KFR03
-THURSDAY,14:00,14:50,Fundamentals of Mobile Computing,CSE 3.5,A204
-FRIDAY,09:00,09:50,Fundamentals of Mobile Computing,CSE 3.5,B211
-FRIDAY,16:00,16:50,Fundamentals of Mobile Computing,CSE 3.5,A102
+THURSDAY,13:00,13:50,Design and Analysis of Algorithms,CSE 2.3,A310
+TUESDAY,14:00,14:50,Design and Analysis of Algorithms,CSE 2.3,B302
+FRIDAY,11:00,11:50,Design and Analysis of Algorithms,CSE 2.3,A210
+THURSDAY,17:30,19:10,Design and Analysis of Algorithms,CSE 2.3,TLFR1
+WEDNESDAY,08:00,09:40,Design and Analysis of Algorithms,CSE 2.3,JL2
+WEDNESDAY,14:00,14:50,Design and Analysis of Algorithms,CSE 2.9,B418
+FRIDAY,18:00,18:50,Design and Analysis of Algorithms,CSE 2.9,B219
+MONDAY,14:00,14:50,Design and Analysis of Algorithms,CSE 2.9,B212
+TUESDAY,17:30,19:10,Design and Analysis of Algorithms,CSE 2.9,TLFR1
+MONDAY,11:50,13:30,Design and Analysis of Algorithms,CSE 2.9,KFL03
+FRIDAY,16:00,16:50,Fundamentals of Mobile Computing,CSE 3.5,A209
+WEDNESDAY,15:00,15:50,Fundamentals of Mobile Computing,CSE 3.5,A203
+THURSDAY,11:00,11:50,Fundamentals of Mobile Computing,CSE 3.5,B107

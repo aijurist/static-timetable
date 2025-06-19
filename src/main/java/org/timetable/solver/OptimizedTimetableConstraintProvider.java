@@ -72,6 +72,9 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 // Student campus time constraint  
                 studentCampusTimeLimit(constraintFactory),
                 
+                // CRITICAL: Explicit same batch conflict prevention
+                preventSameBatchOverlap(constraintFactory),
+                
                 // ########################################################################
                 // TIER 2: IMPORTANT SOFT CONSTRAINTS (Preferences and efficiency)
                 // ########################################################################
@@ -82,7 +85,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 // Department block preferences (minimize student travel time)
                 departmentBlockPreference(constraintFactory),
                 
-                // Large lab efficiency - encourage combining batches
+                // Large lab efficiency - encourage combining batches (DISABLED - only for labs)
                 // largeLab70CapacityBatchCombining(constraintFactory),
                 // NEW: Penalize inefficient batch splitting
                 // penalizeSplitBatchesSeparateLargeLabs(constraintFactory),
@@ -212,8 +215,16 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
         return constraintFactory
                 .forEach(Lesson.class)
                 .filter(lesson -> lesson.requiresTheoryRoom() && lesson.isSplitBatch())
-                .penalize(HardSoftScore.ONE_HARD)
-                .asConstraint("Lecture/Tutorial assigned to a batch");
+                .penalize(HardSoftScore.ONE_HARD.multiply(10000), lesson -> {
+                    // Log this critical violation for debugging
+                    String msg = String.format("CRITICAL VIOLATION: Theory/Tutorial session %s-%s assigned to batch %s (should be full group only)", 
+                            lesson.getStudentGroup().getName(), 
+                            lesson.getCourse().getCode(),
+                            lesson.getLabBatch());
+                    System.err.println(msg);
+                    return 1;
+                })
+                .asConstraint("CRITICAL: Theory/Tutorial must be for full group only");
     }
 
     private Constraint labForLargeGroupMustBeBatched(ConstraintFactory constraintFactory) {
@@ -1033,6 +1044,54 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
         return Math.max(1, violations); // Ensure at least penalty of 1 if violation detected
     }
     
+    /**
+     * CRITICAL HARD: Prevent the same batch of the same student group from being scheduled simultaneously
+     * This is logically impossible as B1 (or B2) is a subset of students that cannot be in two places at once
+     */
+    private Constraint preventSameBatchOverlap(ConstraintFactory constraintFactory) {
+        return constraintFactory
+                .forEachUniquePair(Lesson.class,
+                        Joiners.equal(Lesson::getStudentGroup),
+                        Joiners.equal(Lesson::getCourse))
+                .filter((lesson1, lesson2) -> {
+                    // Both must be batched lab sessions
+                    if (!lesson1.isSplitBatch() || !lesson2.isSplitBatch()) return false;
+                    
+                    // Must be the SAME batch (this is impossible)
+                    if (!lesson1.getLabBatch().equals(lesson2.getLabBatch())) return false;
+                    
+                    // Check if they overlap in time
+                    if (lesson1.getTimeSlot() == null || lesson2.getTimeSlot() == null) return false;
+                    
+                    // Different days are fine
+                    if (!lesson1.getTimeSlot().getDayOfWeek().equals(lesson2.getTimeSlot().getDayOfWeek())) return false;
+                    
+                    // Check for time overlap
+                    java.time.LocalTime start1 = lesson1.getTimeSlot().getStartTime();
+                    java.time.LocalTime end1 = lesson1.getTimeSlot().getEndTime();
+                    java.time.LocalTime start2 = lesson2.getTimeSlot().getStartTime();
+                    java.time.LocalTime end2 = lesson2.getTimeSlot().getEndTime();
+                    
+                    // Overlap if start1 < end2 && start2 < end1
+                    boolean overlap = start1.isBefore(end2) && start2.isBefore(end1);
+                    
+                    if (overlap) {
+                        // Log this critical violation for debugging
+                        String msg = String.format("CRITICAL VIOLATION: Same batch %s of %s-%s scheduled simultaneously at %s and %s", 
+                                lesson1.getLabBatch(), 
+                                lesson1.getStudentGroup().getName(), 
+                                lesson1.getCourse().getCode(),
+                                lesson1.getTimeSlot().toString(),
+                                lesson2.getTimeSlot().toString());
+                        System.err.println(msg);
+                    }
+                    
+                    return overlap;
+                })
+                .penalize(HardSoftScore.ONE_HARD.multiply(100000)) // Very high penalty - this should never happen
+                .asConstraint("CRITICAL: Same batch cannot be in two places simultaneously");
+    }
+
     /**
      * HARD: Limit student campus time to maximum 7 hours per day
      * Enforces three shift patterns: 8-3, 10-5, 12-7 with some flexibility

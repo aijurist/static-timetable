@@ -1,8 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,11:00,11:50,Object Oriented Programming Using JAVA,CSBS 2.1,B416
-TUESDAY,12:00,12:50,Object Oriented Programming Using JAVA,CSBS 2.1,A309
-FRIDAY,16:00,16:50,Object Oriented Programming Using JAVA,CSBS 2.1,C202
-FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSBS 2.1,KFR01
-FRIDAY,09:50,11:30,Object Oriented Programming Using JAVA,CSBS 2.1,TLFL4
-MONDAY,08:00,09:40,Object Oriented Programming Using JAVA,CSBS 2.1,JL3
-WEDNESDAY,09:50,11:30,Object Oriented Programming Using JAVA,CSBS 2.1,JL2
+WEDNESDAY,14:00,14:50,Object Oriented Programming Using JAVA,CSBS 2.1,B401
+FRIDAY,16:00,16:50,Object Oriented Programming Using JAVA,CSBS 2.1,B221
+THURSDAY,13:00,13:50,Object Oriented Programming Using JAVA,CSBS 2.1,B321
+TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSBS 2.1,TLGL2
+TUESDAY,17:30,19:10,Object Oriented Programming Using JAVA,CSBS 2.1,KFL01
+THURSDAY,09:50,11:30,Object Oriented Programming Using JAVA,CSBS 2.1,TLGL1
+WEDNESDAY,09:50,11:30,Object Oriented Programming Using JAVA,CSBS 2.1,KFR01

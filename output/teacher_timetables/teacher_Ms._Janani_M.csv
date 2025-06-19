@@ -1,10 +1,10 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,15:00,15:50,Design and Analysis of Algorithms,IT 2.3,B212
-SATURDAY,14:00,14:50,Design and Analysis of Algorithms,IT 2.3,A109
-SATURDAY,15:00,15:50,Design and Analysis of Algorithms,IT 2.3,A209
-THURSDAY,13:50,15:30,Design and Analysis of Algorithms,IT 2.3,JL2
-SATURDAY,08:00,09:40,Design and Analysis of Algorithms,IT 2.3,KFL03
-FRIDAY,15:50,17:30,Industry Practices Lab,IT 4.1,KSL03
-MONDAY,11:50,13:30,Industry Practices Lab,IT 4.1,KFR02
-FRIDAY,13:50,15:30,Industry Practices Lab,IT 4.1,JR2
-FRIDAY,17:30,19:10,Industry Practices Lab,IT 4.1,KFR02
+TUESDAY,11:00,11:50,Design and Analysis of Algorithms,IT 2.3,B404
+WEDNESDAY,13:00,13:50,Design and Analysis of Algorithms,IT 2.3,B410
+THURSDAY,18:00,18:50,Design and Analysis of Algorithms,IT 2.3,B221
+WEDNESDAY,09:50,11:30,Design and Analysis of Algorithms,IT 2.3,JL1
+FRIDAY,08:00,09:40,Design and Analysis of Algorithms,IT 2.3,TLFR4
+FRIDAY,11:50,13:30,Industry Practices Lab,IT 4.1,TLFL3
+MONDAY,11:50,13:30,Industry Practices Lab,IT 4.1,KFL02
+FRIDAY,09:50,11:30,Industry Practices Lab,IT 4.1,TLGL3
+TUESDAY,08:00,09:40,Industry Practices Lab,IT 4.1,TLFL2

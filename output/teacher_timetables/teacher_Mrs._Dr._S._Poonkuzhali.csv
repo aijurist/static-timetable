@@ -1,9 +1,9 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,10:00,10:50,Data Visualization using Python (Professional Elective III),AIML 4.1,B419
-THURSDAY,15:00,15:50,Data Visualization using Python (Professional Elective III),AIML 4.1,B412
-TUESDAY,08:00,09:40,Data Visualization using Python (Professional Elective III),AIML 4.1,KFR01
-WEDNESDAY,17:30,19:10,Data Visualization using Python (Professional Elective III),AIML 4.1,TLGL1
-THURSDAY,13:00,13:50,Data Visualization using Python (Professional Elective III),AIML 4.3,B220
-TUESDAY,15:00,15:50,Data Visualization using Python (Professional Elective III),AIML 4.3,B401
-SATURDAY,15:50,17:30,Data Visualization using Python (Professional Elective III),AIML 4.3,TLFL1
-SATURDAY,17:30,19:10,Data Visualization using Python (Professional Elective III),AIML 4.3,TLFR4
+FRIDAY,12:00,12:50,Data Visualization using Python (Professional Elective III),AIML 4.1,B412
+FRIDAY,16:00,16:50,Data Visualization using Python (Professional Elective III),AIML 4.1,A305
+WEDNESDAY,17:30,19:10,Data Visualization using Python (Professional Elective III),AIML 4.1,JR3
+SATURDAY,09:50,11:30,Data Visualization using Python (Professional Elective III),AIML 4.1,KSL03
+WEDNESDAY,14:00,14:50,Data Visualization using Python (Professional Elective III),AIML 4.3,B415
+TUESDAY,14:00,14:50,Data Visualization using Python (Professional Elective III),AIML 4.3,C101
+TUESDAY,08:00,09:40,Data Visualization using Python (Professional Elective III),AIML 4.3,KFL01
+THURSDAY,11:50,13:30,Data Visualization using Python (Professional Elective III),AIML 4.3,KFR02

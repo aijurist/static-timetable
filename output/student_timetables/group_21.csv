@@ -1,20 +1,20 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,09:00,09:50,Introduction to 3D Animation,Mr. S Umamaheswararao,B404
-FRIDAY,09:00,09:50,3D Printing and Design,Dr. K.Vigneshwaran,B222
-THURSDAY,14:00,14:50,3D Printing and Design,Dr. K.Vigneshwaran,C103
-SATURDAY,08:00,08:50,3D Printing and Design,Dr. K.Vigneshwaran,A109
-FRIDAY,13:50,15:30,3D Printing and Design,Dr. K.Vigneshwaran,KFL03
-FRIDAY,09:50,11:30,3D Printing and Design,Dr. K.Vigneshwaran,TLFR4
-THURSDAY,15:50,17:30,3D Printing and Design,Dr. K.Vigneshwaran,TLFR4
-WEDNESDAY,08:00,09:40,3D Printing and Design,Dr. K.Vigneshwaran,TLFL4
-WEDNESDAY,11:00,11:50,Foundations of Machine Learning Concepts,Dr. Gunasekar S,A205
-SATURDAY,10:00,10:50,Foundations of Machine Learning Concepts,Dr. Gunasekar S,C102
-FRIDAY,11:50,13:30,Foundations of Machine Learning Concepts,Dr. Gunasekar S,TLFL4
-FRIDAY,13:50,15:30,Foundations of Machine Learning Concepts,Dr. Gunasekar S,TLFR5
-TUESDAY,14:00,14:50,Fundamentals of Video for Engineers,New Staff - 01,C102
-FRIDAY,18:00,18:50,Fundamentals of Video for Engineers,New Staff - 01,B322
-FRIDAY,17:00,17:50,Fundamentals of Video for Engineers,New Staff - 01,A310
-WEDNESDAY,16:00,16:50,Digital Media Entrepreneurship,Mr. Thirumalairajan G,C102
-SATURDAY,17:00,17:50,Digital Media Entrepreneurship,Mr. Thirumalairajan G,B410
-TUESDAY,09:50,11:30,Digital Media Entrepreneurship,Mr. Thirumalairajan G,TLFR2
-SATURDAY,13:50,15:30,Digital Media Entrepreneurship,Mr. Thirumalairajan G,KFR02
+SATURDAY,12:00,12:50,Introduction to 3D Animation,Mr. S Umamaheswararao,B106
+THURSDAY,16:00,16:50,3D Printing and Design,Dr. K.Vigneshwaran,B405
+THURSDAY,18:00,18:50,3D Printing and Design,Dr. K.Vigneshwaran,A305
+FRIDAY,14:00,14:50,3D Printing and Design,Dr. K.Vigneshwaran,C307
+SATURDAY,08:00,09:40,3D Printing and Design,Dr. K.Vigneshwaran,KSL03
+FRIDAY,15:50,17:30,3D Printing and Design,Dr. K.Vigneshwaran,KFL03
+TUESDAY,08:00,09:40,3D Printing and Design,Dr. K.Vigneshwaran,TLFR4
+TUESDAY,09:50,11:30,3D Printing and Design,Dr. K.Vigneshwaran,JR3
+FRIDAY,13:00,13:50,Foundations of Machine Learning Concepts,Dr. Gunasekar S,B424
+THURSDAY,17:00,17:50,Foundations of Machine Learning Concepts,Dr. Gunasekar S,A302
+SATURDAY,09:50,11:30,Foundations of Machine Learning Concepts,Dr. Gunasekar S,JL1
+SATURDAY,08:00,09:40,Foundations of Machine Learning Concepts,Dr. Gunasekar S,TLFR1
+WEDNESDAY,11:00,11:50,Fundamentals of Video for Engineers,New Staff - 01,B107
+TUESDAY,12:00,12:50,Fundamentals of Video for Engineers,New Staff - 01,A103
+TUESDAY,14:00,14:50,Fundamentals of Video for Engineers,New Staff - 01,A303
+FRIDAY,18:00,18:50,Digital Media Entrepreneurship,Mr. Thirumalairajan G,A202
+SATURDAY,14:00,14:50,Digital Media Entrepreneurship,Mr. Thirumalairajan G,B416
+TUESDAY,09:50,11:30,Digital Media Entrepreneurship,Mr. Thirumalairajan G,KFL02
+THURSDAY,13:50,15:30,Digital Media Entrepreneurship,Mr. Thirumalairajan G,JR2

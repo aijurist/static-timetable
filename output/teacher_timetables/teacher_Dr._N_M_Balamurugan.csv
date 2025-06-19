@@ -1,11 +1,11 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,12:00,12:50,Computer Networks,AIML 3.1,B405
-TUESDAY,08:00,08:50,Computer Networks,AIML 3.1,B210
-SATURDAY,14:00,14:50,Computer Networks,AIML 3.1,B219
-THURSDAY,08:00,09:40,Computer Networks,AIML 3.1,TLFR3
-SATURDAY,08:00,09:40,Computer Networks,AIML 3.1,JL3
-SATURDAY,09:50,11:30,Computer Networks,AIML 3.1,JR3
-THURSDAY,11:50,13:30,Computer Networks,AIML 3.1,TLGL3
-TUESDAY,09:00,09:50,Secure Systems Engineering,AIML 4.2,B321
-WEDNESDAY,10:00,10:50,Secure Systems Engineering,AIML 4.2,A103
-THURSDAY,15:00,15:50,Secure Systems Engineering,AIML 4.2,A102
+THURSDAY,10:00,10:50,Computer Networks,AIML 3.1,B419
+WEDNESDAY,12:00,12:50,Computer Networks,AIML 3.1,B218
+THURSDAY,11:00,11:50,Computer Networks,AIML 3.1,C308
+SATURDAY,09:50,11:30,Computer Networks,AIML 3.1,JL2
+SATURDAY,13:50,15:30,Computer Networks,AIML 3.1,KFL02
+THURSDAY,08:00,09:40,Computer Networks,AIML 3.1,TLFR5
+FRIDAY,15:50,17:30,Computer Networks,AIML 3.1,JL3
+FRIDAY,13:00,13:50,Secure Systems Engineering,AIML 4.2,B218
+TUESDAY,08:00,08:50,Secure Systems Engineering,AIML 4.2,B321
+TUESDAY,11:00,11:50,Secure Systems Engineering,AIML 4.2,A303

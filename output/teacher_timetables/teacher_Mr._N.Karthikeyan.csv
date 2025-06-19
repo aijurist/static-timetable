@@ -1,15 +1,15 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,13:00,13:50,Database Management Systems,CSE 2.3,B424
-MONDAY,14:00,14:50,Database Management Systems,CSE 2.3,B321
-WEDNESDAY,13:00,13:50,Database Management Systems,CSE 2.3,A304
-TUESDAY,15:50,17:30,Database Management Systems,CSE 2.3,TLFR1
-TUESDAY,17:30,19:10,Database Management Systems,CSE 2.3,TLFL5
-FRIDAY,08:00,09:40,Database Management Systems,CSE 2.3,TLFR2
-TUESDAY,11:50,13:30,Database Management Systems,CSE 2.3,JL1
-WEDNESDAY,11:00,11:50,Object Oriented Programming Using JAVA,CSE 2.5,B425
-FRIDAY,15:00,15:50,Object Oriented Programming Using JAVA,CSE 2.5,B322
-THURSDAY,14:00,14:50,Object Oriented Programming Using JAVA,CSE 2.5,B415
-MONDAY,17:30,19:10,Object Oriented Programming Using JAVA,CSE 2.5,KFL02
-THURSDAY,17:30,19:10,Object Oriented Programming Using JAVA,CSE 2.5,JR3
-MONDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSE 2.5,KFL01
-THURSDAY,15:50,17:30,Object Oriented Programming Using JAVA,CSE 2.5,JL1
+FRIDAY,08:00,08:50,Database Management Systems,CSE 2.3,B410
+FRIDAY,13:00,13:50,Database Management Systems,CSE 2.3,B222
+FRIDAY,09:00,09:50,Database Management Systems,CSE 2.3,A108
+WEDNESDAY,09:50,11:30,Database Management Systems,CSE 2.3,KFL03
+TUESDAY,11:50,13:30,Database Management Systems,CSE 2.3,TLGL3
+THURSDAY,15:50,17:30,Database Management Systems,CSE 2.3,KFL02
+MONDAY,11:50,13:30,Database Management Systems,CSE 2.3,TLFL3
+THURSDAY,10:00,10:50,Object Oriented Programming Using JAVA,CSE 2.5,B416
+THURSDAY,13:00,13:50,Object Oriented Programming Using JAVA,CSE 2.5,B405
+FRIDAY,11:00,11:50,Object Oriented Programming Using JAVA,CSE 2.5,A310
+MONDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE 2.5,TLFR5
+MONDAY,17:30,19:10,Object Oriented Programming Using JAVA,CSE 2.5,KFR01
+WEDNESDAY,13:50,15:30,Object Oriented Programming Using JAVA,CSE 2.5,KFL02
+THURSDAY,08:00,09:40,Object Oriented Programming Using JAVA,CSE 2.5,KFR03

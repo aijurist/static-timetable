@@ -1,32 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,15:00,15:50,Computer Architecture,New Staff - 04,B405
-THURSDAY,14:00,14:50,Computer Architecture,New Staff - 04,A311
-FRIDAY,16:00,16:50,Computer Architecture,New Staff - 04,C301
-TUESDAY,11:00,11:50,Design and Analysis of Algorithms,New Staff - 03,B411
-FRIDAY,08:00,08:50,Design and Analysis of Algorithms,New Staff - 03,B419
-THURSDAY,08:00,08:50,Design and Analysis of Algorithms,New Staff - 03,B210
-WEDNESDAY,11:50,13:30,Design and Analysis of Algorithms,New Staff - 03,JL1
-MONDAY,17:30,19:10,Design and Analysis of Algorithms,New Staff - 03,TLFL1
-TUESDAY,08:00,08:50,Fourier series and Number theory,Mr. Sriram Sastha,B411
-TUESDAY,13:00,13:50,Fourier series and Number theory,Mr. Sriram Sastha,B411
-THURSDAY,10:00,10:50,Fourier series and Number theory,Mr. Sriram Sastha,A103
-MONDAY,14:00,14:50,Fourier series and Number theory,Mr. Sriram Sastha,A305
-FRIDAY,10:00,10:50,Database Management Systems,Mrs. Sathiyavathi S,B404
-THURSDAY,15:00,15:50,Database Management Systems,Mrs. Sathiyavathi S,C308
-MONDAY,15:00,15:50,Database Management Systems,Mrs. Sathiyavathi S,A310
-MONDAY,09:50,11:30,Database Management Systems,Mrs. Sathiyavathi S,JL1
-TUESDAY,15:50,17:30,Database Management Systems,Mrs. Sathiyavathi S,JL2
-WEDNESDAY,15:50,17:30,Database Management Systems,Mrs. Sathiyavathi S,JL3
-FRIDAY,13:50,15:30,Database Management Systems,Mrs. Sathiyavathi S,TLFR3
-MONDAY,09:00,09:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,B408
-TUESDAY,10:00,10:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,A203
-MONDAY,13:00,13:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,B403
-THURSDAY,11:50,13:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,JR3
-WEDNESDAY,15:50,17:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLGL1
-MONDAY,09:50,11:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLFL3
-WEDNESDAY,17:30,19:10,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLFL2
-WEDNESDAY,15:00,15:50,Fundamentals of Data Science,New Staff - 07,A211
-MONDAY,16:00,16:50,Fundamentals of Data Science,New Staff - 07,B408
-WEDNESDAY,14:00,14:50,Fundamentals of Data Science,New Staff - 07,B211
-THURSDAY,17:30,19:10,Fundamentals of Data Science,New Staff - 07,JL3
-THURSDAY,15:50,17:30,Fundamentals of Data Science,New Staff - 07,JR2
+MONDAY,09:00,09:50,Computer Architecture,New Staff - 04,B416
+FRIDAY,15:00,15:50,Computer Architecture,New Staff - 04,B302
+FRIDAY,16:00,16:50,Computer Architecture,New Staff - 04,B106
+TUESDAY,11:00,11:50,Design and Analysis of Algorithms,New Staff - 03,B221
+TUESDAY,15:00,15:50,Design and Analysis of Algorithms,New Staff - 03,A210
+TUESDAY,14:00,14:50,Design and Analysis of Algorithms,New Staff - 03,A108
+WEDNESDAY,13:50,15:30,Design and Analysis of Algorithms,New Staff - 03,TLGL3
+FRIDAY,09:50,11:30,Design and Analysis of Algorithms,New Staff - 03,TLFR2
+FRIDAY,14:00,14:50,Fourier series and Number theory,Mr. Sriram Sastha,B320
+WEDNESDAY,13:00,13:50,Fourier series and Number theory,Mr. Sriram Sastha,A205
+THURSDAY,16:00,16:50,Fourier series and Number theory,Mr. Sriram Sastha,B219
+TUESDAY,09:00,09:50,Fourier series and Number theory,Mr. Sriram Sastha,B422
+MONDAY,08:00,08:50,Database Management Systems,Mrs. Sathiyavathi S,B212
+WEDNESDAY,11:00,11:50,Database Management Systems,Mrs. Sathiyavathi S,A310
+TUESDAY,13:00,13:50,Database Management Systems,Mrs. Sathiyavathi S,B415
+MONDAY,09:50,11:30,Database Management Systems,Mrs. Sathiyavathi S,KFL02
+FRIDAY,11:50,13:30,Database Management Systems,Mrs. Sathiyavathi S,JL2
+WEDNESDAY,13:50,15:30,Database Management Systems,Mrs. Sathiyavathi S,JL3
+THURSDAY,14:00,14:50,Database Management Systems,Mrs. Sathiyavathi S,JR3
+THURSDAY,18:00,18:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,A203
+WEDNESDAY,17:00,17:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,A205
+TUESDAY,10:00,10:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,B416
+FRIDAY,09:50,11:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLGL4
+MONDAY,11:50,13:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLGL3
+THURSDAY,15:00,15:50,Object Oriented Programming Using JAVA,Ms. Dharshini B S,TLFL3
+MONDAY,09:50,11:30,Object Oriented Programming Using JAVA,Ms. Dharshini B S,KFL03
+WEDNESDAY,16:00,16:50,Fundamentals of Data Science,New Staff - 07,C308
+MONDAY,14:00,14:50,Fundamentals of Data Science,New Staff - 07,C102
+THURSDAY,17:00,17:50,Fundamentals of Data Science,New Staff - 07,C102
+THURSDAY,13:50,15:30,Fundamentals of Data Science,New Staff - 07,TLFR5
+THURSDAY,11:50,13:30,Fundamentals of Data Science,New Staff - 07,TLFR3

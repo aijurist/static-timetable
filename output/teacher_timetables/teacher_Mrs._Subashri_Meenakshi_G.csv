@@ -1,13 +1,13 @@
 Day,StartTime,EndTime,Course,Group,Room
-SATURDAY,16:00,16:50,Computer Networks,CSE-CS 2.1,A202
-THURSDAY,08:00,08:50,Computer Networks,CSE-CS 2.1,A108
+SATURDAY,15:00,15:50,Computer Networks,CSE-CS 2.1,C308
 TUESDAY,15:00,15:50,Computer Networks,CSE-CS 2.1,A308
-TUESDAY,09:50,11:30,Computer Networks,CSE-CS 2.1,KFL02
-THURSDAY,09:50,11:30,Computer Networks,CSE-CS 2.1,JR1
-SATURDAY,08:00,09:40,Computer Networks,CSE-CS 2.1,JL1
-WEDNESDAY,13:50,15:30,Computer Networks,CSE-CS 2.1,KFL03
-WEDNESDAY,18:00,18:50,Software Construction,CSE-CS 3.1,B222
-TUESDAY,14:00,14:50,Software Construction,CSE-CS 3.1,C101
-FRIDAY,13:00,13:50,Software Construction,CSE-CS 3.1,A305
-FRIDAY,17:30,19:10,Software Construction,CSE-CS 3.1,JR3
-SATURDAY,09:50,11:30,Software Construction,CSE-CS 3.1,TLFR4
+WEDNESDAY,13:00,13:50,Computer Networks,CSE-CS 2.1,B302
+SATURDAY,15:50,17:30,Computer Networks,CSE-CS 2.1,JL1
+FRIDAY,16:00,16:50,Computer Networks,CSE-CS 2.1,KFR03
+TUESDAY,15:50,17:30,Computer Networks,CSE-CS 2.1,TLFL3
+THURSDAY,15:50,17:30,Computer Networks,CSE-CS 2.1,TLGL4
+FRIDAY,13:00,13:50,Software Construction,CSE-CS 3.1,B408
+WEDNESDAY,18:00,18:50,Software Construction,CSE-CS 3.1,B422
+WEDNESDAY,17:00,17:50,Software Construction,CSE-CS 3.1,C201
+FRIDAY,13:50,15:30,Software Construction,CSE-CS 3.1,TLGL4
+SATURDAY,09:50,11:30,Software Construction,CSE-CS 3.1,TLGL2

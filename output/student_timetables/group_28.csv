@@ -1,32 +1,32 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-WEDNESDAY,17:00,17:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,B221
-TUESDAY,09:00,09:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,A308
-WEDNESDAY,10:00,10:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,C103
-MONDAY,12:00,12:50,Design and Analysis of Algorithms,Mrs. Mahesmeena,A302
-THURSDAY,09:00,09:50,Design and Analysis of Algorithms,Mrs. Mahesmeena,C202
-THURSDAY,16:00,16:50,Design and Analysis of Algorithms,Mrs. Mahesmeena,B219
-TUESDAY,09:50,11:30,Design and Analysis of Algorithms,Mrs. Mahesmeena,KFR03
-WEDNESDAY,13:50,15:30,Design and Analysis of Algorithms,Mrs. Mahesmeena,KFL01
-TUESDAY,16:00,16:50,Fourier series and Number theory,Dr. Ponmana Selvan Arumugam,A311
-THURSDAY,18:00,18:50,Fourier series and Number theory,Dr. Ponmana Selvan Arumugam,B423
-WEDNESDAY,08:00,08:50,Fourier series and Number theory,Dr. Ponmana Selvan Arumugam,A203
-FRIDAY,08:00,08:50,Fourier series and Number theory,Dr. Ponmana Selvan Arumugam,B410
-MONDAY,08:00,08:50,Database Management Systems,Mrs. Dharani Devi G,B425
-TUESDAY,08:00,08:50,Database Management Systems,Mrs. Dharani Devi G,A208
-WEDNESDAY,11:00,11:50,Database Management Systems,Mrs. Dharani Devi G,C201
-FRIDAY,17:30,19:10,Database Management Systems,Mrs. Dharani Devi G,JL1
-MONDAY,09:50,11:30,Database Management Systems,Mrs. Dharani Devi G,TLFL1
-THURSDAY,09:50,11:30,Database Management Systems,Mrs. Dharani Devi G,KFL02
-FRIDAY,15:50,17:30,Database Management Systems,Mrs. Dharani Devi G,JR1
-FRIDAY,11:00,11:50,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,C301
-THURSDAY,14:00,14:50,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,B212
-FRIDAY,10:00,10:50,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,B422
-TUESDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,TLFL4
-MONDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,TLFR4
-MONDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,TLFR5
-MONDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,TLFR3
-FRIDAY,15:00,15:50,Fundamentals of Data Science,Mrs. Bhavani M,C302
-TUESDAY,12:00,12:50,Fundamentals of Data Science,Mrs. Bhavani M,B411
-TUESDAY,14:00,14:50,Fundamentals of Data Science,Mrs. Bhavani M,B325
-MONDAY,17:30,19:10,Fundamentals of Data Science,Mrs. Bhavani M,KFL01
-MONDAY,15:50,17:30,Fundamentals of Data Science,Mrs. Bhavani M,KFR03
+FRIDAY,17:00,17:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,B219
+MONDAY,17:00,17:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,A104/105
+MONDAY,14:00,14:50,Computer Architecture,Mr. Dr V.Murali Bhaskaran,C307
+WEDNESDAY,09:00,09:50,Design and Analysis of Algorithms,Mrs. Mahesmeena,C103
+TUESDAY,11:00,11:50,Design and Analysis of Algorithms,Mrs. Mahesmeena,B411
+MONDAY,16:00,16:50,Design and Analysis of Algorithms,Mrs. Mahesmeena,B426
+WEDNESDAY,09:50,11:30,Design and Analysis of Algorithms,Mrs. Mahesmeena,JR3
+THURSDAY,17:30,19:10,Design and Analysis of Algorithms,Mrs. Mahesmeena,TLFL4
+WEDNESDAY,14:00,14:50,Fourier series and Number theory,Dr. Ponmana Selvan Arumugam,B213
+WEDNESDAY,08:00,08:50,Fourier series and Number theory,Dr. Ponmana Selvan Arumugam,B212
+FRIDAY,11:00,11:50,Fourier series and Number theory,Dr. Ponmana Selvan Arumugam,A303
+THURSDAY,13:00,13:50,Fourier series and Number theory,Dr. Ponmana Selvan Arumugam,B426
+TUESDAY,09:00,09:50,Database Management Systems,Mrs. Dharani Devi G,B218
+TUESDAY,10:00,10:50,Database Management Systems,Mrs. Dharani Devi G,B213
+TUESDAY,13:00,13:50,Database Management Systems,Mrs. Dharani Devi G,C308
+THURSDAY,15:50,17:30,Database Management Systems,Mrs. Dharani Devi G,TLFL2
+TUESDAY,13:50,15:30,Database Management Systems,Mrs. Dharani Devi G,TLFR4
+FRIDAY,13:50,15:30,Database Management Systems,Mrs. Dharani Devi G,TLFR3
+THURSDAY,13:50,15:30,Database Management Systems,Mrs. Dharani Devi G,KFR01
+FRIDAY,13:00,13:50,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,C307
+MONDAY,13:00,13:50,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,A308
+WEDNESDAY,13:00,13:50,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,A304
+THURSDAY,17:30,19:10,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,JR1
+FRIDAY,13:50,15:30,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,KFR02
+WEDNESDAY,09:50,11:30,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,TLFL5
+THURSDAY,15:50,17:30,Object Oriented Programming Using JAVA,Mrs. Fowzia Sihana,TLFR5
+MONDAY,15:00,15:50,Fundamentals of Data Science,Mrs. Bhavani M,A108
+MONDAY,18:00,18:50,Fundamentals of Data Science,Mrs. Bhavani M,B423
+FRIDAY,16:00,16:50,Fundamentals of Data Science,Mrs. Bhavani M,B107
+THURSDAY,13:50,15:30,Fundamentals of Data Science,Mrs. Bhavani M,TLFR3
+TUESDAY,13:50,15:30,Fundamentals of Data Science,Mrs. Bhavani M,TLFR2

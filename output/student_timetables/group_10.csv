@@ -1,31 +1,31 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-THURSDAY,15:00,15:50,Fourier series and Number theory,Mr. Dr. K. Mageshwaran,B426
-THURSDAY,09:00,09:50,Fourier series and Number theory,Mr. Dr. K. Mageshwaran,B320
-SATURDAY,18:00,18:50,Fourier series and Number theory,Mr. Dr. K. Mageshwaran,B416
-THURSDAY,17:00,17:50,Fourier series and Number theory,Mr. Dr. K. Mageshwaran,B322
-TUESDAY,09:00,09:50,Database Management Systems,New Staff 4 N,C103
-TUESDAY,16:00,16:50,Database Management Systems,New Staff 4 N,A205
-FRIDAY,08:00,08:50,Database Management Systems,New Staff 4 N,B404
-THURSDAY,11:50,13:30,Database Management Systems,New Staff 4 N,TLFR4
-FRIDAY,09:50,11:30,Database Management Systems,New Staff 4 N,KFL02
-WEDNESDAY,11:50,13:30,Database Management Systems,New Staff 4 N,TLFL4
-TUESDAY,11:50,13:30,Database Management Systems,New Staff 4 N,TLFL5
-FRIDAY,18:00,18:50,Object Oriented Programming Using JAVA,New Staff 3 N,B218
-FRIDAY,17:00,17:50,Object Oriented Programming Using JAVA,New Staff 3 N,B425
-FRIDAY,13:00,13:50,Object Oriented Programming Using JAVA,New Staff 3 N,B415
-WEDNESDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Staff 3 N,TLFL3
-WEDNESDAY,17:30,19:10,Object Oriented Programming Using JAVA,New Staff 3 N,TLGL3
-TUESDAY,17:30,19:10,Object Oriented Programming Using JAVA,New Staff 3 N,TLFR4
-SATURDAY,11:50,13:30,Object Oriented Programming Using JAVA,New Staff 3 N,KFR01
-SATURDAY,16:00,16:50,Computer Networks,Mrs. Subashri Meenakshi G,A202
-THURSDAY,08:00,08:50,Computer Networks,Mrs. Subashri Meenakshi G,A108
+FRIDAY,15:00,15:50,Fourier series and Number theory,Mr. Dr. K. Mageshwaran,A202
+SATURDAY,14:00,14:50,Fourier series and Number theory,Mr. Dr. K. Mageshwaran,B409
+THURSDAY,13:00,13:50,Fourier series and Number theory,Mr. Dr. K. Mageshwaran,B410
+THURSDAY,15:00,15:50,Fourier series and Number theory,Mr. Dr. K. Mageshwaran,B320
+SATURDAY,11:00,11:50,Database Management Systems,New Staff 4 N,B401
+WEDNESDAY,15:00,15:50,Database Management Systems,New Staff 4 N,B417
+SATURDAY,13:00,13:50,Database Management Systems,New Staff 4 N,A108
+WEDNESDAY,17:30,19:10,Database Management Systems,New Staff 4 N,TLFL1
+WEDNESDAY,15:50,17:30,Database Management Systems,New Staff 4 N,TLGL2
+FRIDAY,15:50,17:30,Database Management Systems,New Staff 4 N,TLGL4
+THURSDAY,17:30,19:10,Database Management Systems,New Staff 4 N,JL1
+TUESDAY,13:00,13:50,Object Oriented Programming Using JAVA,New Staff 3 N,A309
+TUESDAY,11:00,11:50,Object Oriented Programming Using JAVA,New Staff 3 N,A305
+FRIDAY,18:00,18:50,Object Oriented Programming Using JAVA,New Staff 3 N,B213
+THURSDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Staff 3 N,TLFR3
+TUESDAY,15:50,17:30,Object Oriented Programming Using JAVA,New Staff 3 N,KFL03
+FRIDAY,11:50,13:30,Object Oriented Programming Using JAVA,New Staff 3 N,KFL01
+WEDNESDAY,17:30,19:10,Object Oriented Programming Using JAVA,New Staff 3 N,TLFL2
+SATURDAY,15:00,15:50,Computer Networks,Mrs. Subashri Meenakshi G,C308
 TUESDAY,15:00,15:50,Computer Networks,Mrs. Subashri Meenakshi G,A308
-TUESDAY,09:50,11:30,Computer Networks,Mrs. Subashri Meenakshi G,KFL02
-THURSDAY,09:50,11:30,Computer Networks,Mrs. Subashri Meenakshi G,JR1
-SATURDAY,08:00,09:40,Computer Networks,Mrs. Subashri Meenakshi G,JL1
-WEDNESDAY,13:50,15:30,Computer Networks,Mrs. Subashri Meenakshi G,KFL03
-THURSDAY,14:00,14:50,Cryptography,HOD CSE(CS),B107
-THURSDAY,16:00,16:50,Cryptography,HOD CSE(CS),A302
-WEDNESDAY,10:00,10:50,Cryptography,HOD CSE(CS),A108
-WEDNESDAY,13:50,15:30,Cryptography,HOD CSE(CS),TLGL3
-SATURDAY,13:50,15:30,Cryptography,HOD CSE(CS),TLFL1
+WEDNESDAY,13:00,13:50,Computer Networks,Mrs. Subashri Meenakshi G,B302
+SATURDAY,15:50,17:30,Computer Networks,Mrs. Subashri Meenakshi G,JL1
+FRIDAY,16:00,16:50,Computer Networks,Mrs. Subashri Meenakshi G,KFR03
+TUESDAY,15:50,17:30,Computer Networks,Mrs. Subashri Meenakshi G,TLFL3
+THURSDAY,15:50,17:30,Computer Networks,Mrs. Subashri Meenakshi G,TLGL4
+FRIDAY,14:00,14:50,Cryptography,HOD CSE(CS),B425
+TUESDAY,14:00,14:50,Cryptography,HOD CSE(CS),B320
+THURSDAY,14:00,14:50,Cryptography,HOD CSE(CS),B404
+THURSDAY,17:30,19:10,Cryptography,HOD CSE(CS),TLFR2
+WEDNESDAY,15:50,17:30,Cryptography,HOD CSE(CS),TLFL4

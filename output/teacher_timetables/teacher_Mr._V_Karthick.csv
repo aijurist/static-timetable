@@ -1,8 +1,8 @@
 Day,StartTime,EndTime,Course,Group,Room
-SATURDAY,18:00,18:50,Fundamentals of Mobile Computing,CSE 3.6,B426
-FRIDAY,15:00,15:50,Fundamentals of Mobile Computing,CSE 3.6,B409
-WEDNESDAY,10:00,10:50,Fundamentals of Mobile Computing,CSE 3.6,A208
-TUESDAY,17:00,17:50,Cloud Computing,CSE 4.4,A104/105
-MONDAY,16:00,16:50,Cloud Computing,CSE 4.4,B423
-MONDAY,17:30,19:10,Cloud Computing,CSE 4.4,TLFR2
-MONDAY,13:50,15:30,Cloud Computing,CSE 4.4,KFL03
+SATURDAY,14:00,14:50,Fundamentals of Mobile Computing,CSE 3.6,B426
+FRIDAY,14:00,14:50,Fundamentals of Mobile Computing,CSE 3.6,A205
+FRIDAY,11:00,11:50,Fundamentals of Mobile Computing,CSE 3.6,B321
+FRIDAY,10:00,10:50,Cloud Computing,CSE 4.4,B424
+MONDAY,16:00,16:50,Cloud Computing,CSE 4.4,B302
+WEDNESDAY,08:00,09:40,Cloud Computing,CSE 4.4,JR2
+THURSDAY,09:50,11:30,Cloud Computing,CSE 4.4,TLFR4

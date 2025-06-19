@@ -1,21 +1,21 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-FRIDAY,10:00,10:50,Principles of Financial Management,Dr. Ramanathan V K,B320
-FRIDAY,09:00,09:50,Principles of Financial Management,Dr. Ramanathan V K,B219
-WEDNESDAY,11:00,11:50,Design Thinking and Innovation,Ms. Janani U,B210
-MONDAY,11:50,13:30,Design Thinking and Innovation,Ms. Janani U,KFR01
-THURSDAY,11:50,13:30,Design Thinking and Innovation,Ms. Janani U,TLFR1
-TUESDAY,12:00,12:50,Computer Network Technology,Mrs. S.Bakiyalakshmi,A202
-TUESDAY,16:00,16:50,Computer Network Technology,Mrs. S.Bakiyalakshmi,B403
-THURSDAY,17:00,17:50,Computer Network Technology,Mrs. S.Bakiyalakshmi,B418
-MONDAY,09:50,11:30,Computer Network Technology,Mrs. S.Bakiyalakshmi,TLFR3
-THURSDAY,13:50,15:30,Computer Network Technology,Mrs. S.Bakiyalakshmi,JR2
-FRIDAY,08:00,08:50,Artificial Intelligence,New Faculty New Staff -20,A208
-WEDNESDAY,15:00,15:50,Artificial Intelligence,New Faculty New Staff -20,C301
-TUESDAY,18:00,18:50,Artificial Intelligence,New Faculty New Staff -20,B218
-WEDNESDAY,15:50,17:30,Artificial Intelligence,New Faculty New Staff -20,JR1
-WEDNESDAY,17:30,19:10,Artificial Intelligence,New Faculty New Staff -20,JL1
-FRIDAY,13:00,13:50,Data Mining and Analytics,Mrs. S.Bakiyalakshmi,B222
-WEDNESDAY,14:00,14:50,Data Mining and Analytics,Mrs. S.Bakiyalakshmi,B424
-MONDAY,08:00,08:50,Data Mining and Analytics,Mrs. S.Bakiyalakshmi,A311
-FRIDAY,13:50,15:30,Data Mining and Analytics,Mrs. S.Bakiyalakshmi,TLFR4
-MONDAY,13:50,15:30,Data Mining and Analytics,Mrs. S.Bakiyalakshmi,TLGL4
+MONDAY,13:00,13:50,Principles of Financial Management,Dr. Ramanathan V K,B401
+TUESDAY,16:00,16:50,Principles of Financial Management,Dr. Ramanathan V K,B425
+MONDAY,14:00,14:50,Design Thinking and Innovation,Ms. Janani U,B321
+FRIDAY,11:50,13:30,Design Thinking and Innovation,Ms. Janani U,TLFR5
+THURSDAY,15:50,17:30,Design Thinking and Innovation,Ms. Janani U,KFR03
+MONDAY,11:00,11:50,Computer Network Technology,Mrs. S.Bakiyalakshmi,C307
+MONDAY,10:00,10:50,Computer Network Technology,Mrs. S.Bakiyalakshmi,C201
+THURSDAY,18:00,18:50,Computer Network Technology,Mrs. S.Bakiyalakshmi,B417
+WEDNESDAY,08:00,09:40,Computer Network Technology,Mrs. S.Bakiyalakshmi,TLFL1
+MONDAY,08:00,09:40,Computer Network Technology,Mrs. S.Bakiyalakshmi,JL2
+THURSDAY,15:00,15:50,Artificial Intelligence,New Faculty New Staff -20,B321
+TUESDAY,17:00,17:50,Artificial Intelligence,New Faculty New Staff -20,A204
+TUESDAY,11:00,11:50,Artificial Intelligence,New Faculty New Staff -20,A310
+TUESDAY,13:50,15:30,Artificial Intelligence,New Faculty New Staff -20,TLFR1
+WEDNESDAY,11:50,13:30,Artificial Intelligence,New Faculty New Staff -20,TLFL5
+THURSDAY,13:00,13:50,Data Mining and Analytics,Mrs. S.Bakiyalakshmi,B211
+FRIDAY,08:00,08:50,Data Mining and Analytics,Mrs. S.Bakiyalakshmi,C101
+WEDNESDAY,14:00,14:50,Data Mining and Analytics,Mrs. S.Bakiyalakshmi,B219
+THURSDAY,15:50,17:30,Data Mining and Analytics,Mrs. S.Bakiyalakshmi,KFL01
+FRIDAY,09:50,11:30,Data Mining and Analytics,Mrs. S.Bakiyalakshmi,JR1

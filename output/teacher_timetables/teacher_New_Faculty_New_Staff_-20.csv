@@ -1,9 +1,9 @@
 Day,StartTime,EndTime,Course,Group,Room
-MONDAY,16:00,16:50,Computer Organization and Architecture,CSBS 2.2,B106
-FRIDAY,14:00,14:50,Computer Organization and Architecture,CSBS 2.2,C307
-THURSDAY,17:00,17:50,Computer Organization and Architecture,CSBS 2.2,C301
-FRIDAY,08:00,08:50,Artificial Intelligence,CSBS 3.1,A208
-WEDNESDAY,15:00,15:50,Artificial Intelligence,CSBS 3.1,C301
-TUESDAY,18:00,18:50,Artificial Intelligence,CSBS 3.1,B218
-WEDNESDAY,15:50,17:30,Artificial Intelligence,CSBS 3.1,JR1
-WEDNESDAY,17:30,19:10,Artificial Intelligence,CSBS 3.1,JL1
+MONDAY,12:00,12:50,Computer Organization and Architecture,CSBS 2.2,B320
+MONDAY,17:00,17:50,Computer Organization and Architecture,CSBS 2.2,A308
+THURSDAY,14:00,14:50,Computer Organization and Architecture,CSBS 2.2,B322
+THURSDAY,15:00,15:50,Artificial Intelligence,CSBS 3.1,B321
+TUESDAY,17:00,17:50,Artificial Intelligence,CSBS 3.1,A204
+TUESDAY,11:00,11:50,Artificial Intelligence,CSBS 3.1,A310
+TUESDAY,13:50,15:30,Artificial Intelligence,CSBS 3.1,TLFR1
+WEDNESDAY,11:50,13:30,Artificial Intelligence,CSBS 3.1,TLFL5

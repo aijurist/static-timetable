@@ -1,11 +1,11 @@
 Day,StartTime,EndTime,Course,Group,Room
-TUESDAY,12:00,12:50,Automata Theory & Compiler Design,IT 3.3,B409
-THURSDAY,18:00,18:50,Automata Theory & Compiler Design,IT 3.3,A209
-MONDAY,16:00,16:50,Automata Theory & Compiler Design,IT 3.3,C201
-WEDNESDAY,16:00,16:50,Cloud and Big Data Analytics,IT 4.2,B408
-FRIDAY,09:00,09:50,Cloud and Big Data Analytics,IT 4.2,B419
-WEDNESDAY,09:00,09:50,Cloud and Big Data Analytics,IT 4.2,B401
-WEDNESDAY,09:50,11:30,Cloud and Big Data Analytics,IT 4.2,TLFL1
-TUESDAY,17:30,19:10,Cloud and Big Data Analytics,IT 4.2,TLFR1
-TUESDAY,15:50,17:30,Cloud and Big Data Analytics,IT 4.2,TLFL1
-MONDAY,08:00,09:40,Cloud and Big Data Analytics,IT 4.2,TLFL3
+TUESDAY,15:00,15:50,Automata Theory & Compiler Design,IT 3.3,B213
+TUESDAY,16:00,16:50,Automata Theory & Compiler Design,IT 3.3,B322
+TUESDAY,14:00,14:50,Automata Theory & Compiler Design,IT 3.3,C102
+FRIDAY,13:00,13:50,Cloud and Big Data Analytics,IT 4.2,B423
+THURSDAY,16:00,16:50,Cloud and Big Data Analytics,IT 4.2,B213
+WEDNESDAY,16:00,16:50,Cloud and Big Data Analytics,IT 4.2,B412
+TUESDAY,09:50,11:30,Cloud and Big Data Analytics,IT 4.2,TLFR4
+FRIDAY,08:00,09:40,Cloud and Big Data Analytics,IT 4.2,TLFL5
+THURSDAY,11:50,13:30,Cloud and Big Data Analytics,IT 4.2,KFL03
+THURSDAY,09:50,11:30,Cloud and Big Data Analytics,IT 4.2,TLFL5

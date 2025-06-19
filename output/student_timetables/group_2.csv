@@ -1,30 +1,30 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,14:00,14:50,Principles of Artificial Intelligence,Mr. Sathish M,B222
-FRIDAY,12:00,12:50,Principles of Artificial Intelligence,Mr. Sathish M,A210
-THURSDAY,16:00,16:50,Principles of Artificial Intelligence,Mr. Sathish M,A211
-MONDAY,17:30,19:10,Principles of Artificial Intelligence,Mr. Sathish M,TLFR1
-MONDAY,15:50,17:30,Principles of Artificial Intelligence,Mr. Sathish M,TLFL3
-MONDAY,15:50,17:30,Soft Skills – II,Mr. Dr B Muthu Kumar,TLFR3
-MONDAY,17:30,19:10,Soft Skills – II,Mr. Dr B Muthu Kumar,TLGL4
-TUESDAY,10:00,10:50,Web Programming,Mr. Narayana K E,B321
-WEDNESDAY,13:00,13:50,Web Programming,Mr. Narayana K E,B423
-MONDAY,10:00,10:50,Web Programming,Mr. Narayana K E,B411
-THURSDAY,09:50,11:30,Web Programming,Mr. Narayana K E,TLFL2
-WEDNESDAY,13:50,15:30,Web Programming,Mr. Narayana K E,KFL02
-MONDAY,08:00,09:40,Web Programming,Mr. Narayana K E,KFL01
-MONDAY,11:50,13:30,Web Programming,Mr. Narayana K E,TLGL3
-FRIDAY,08:00,08:50,Automata Theory & Compiler Design,Mrs. Dr.P.Neelaveni,B417
-THURSDAY,18:00,18:50,Automata Theory & Compiler Design,Mrs. Dr.P.Neelaveni,B426
-TUESDAY,17:00,17:50,Automata Theory & Compiler Design,Mrs. Dr.P.Neelaveni,B419
-THURSDAY,15:00,15:50,Computer Vision,Mrs. L.Leena Jenifer,A304
-WEDNESDAY,09:00,09:50,Computer Vision,Mrs. L.Leena Jenifer,A309
-WEDNESDAY,16:00,16:50,Computer Vision,Mrs. L.Leena Jenifer,B410
-THURSDAY,08:00,09:40,Computer Vision,Mrs. L.Leena Jenifer,TLFL3
-FRIDAY,17:30,19:10,Computer Vision,Mrs. L.Leena Jenifer,KFR01
-THURSDAY,12:00,12:50,Computer Networks,Mrs. Bhalashri Sethuraman,B408
-MONDAY,14:00,14:50,Computer Networks,Mrs. Bhalashri Sethuraman,A309
-THURSDAY,17:00,17:50,Computer Networks,Mrs. Bhalashri Sethuraman,C201
-WEDNESDAY,09:50,11:30,Computer Networks,Mrs. Bhalashri Sethuraman,TLGL2
-FRIDAY,13:50,15:30,Computer Networks,Mrs. Bhalashri Sethuraman,TLFL4
-FRIDAY,09:50,11:30,Computer Networks,Mrs. Bhalashri Sethuraman,TLFL2
-FRIDAY,15:50,17:30,Computer Networks,Mrs. Bhalashri Sethuraman,TLFL2
+WEDNESDAY,18:00,18:50,Principles of Artificial Intelligence,Mr. Sathish M,A305
+THURSDAY,17:00,17:50,Principles of Artificial Intelligence,Mr. Sathish M,A211
+THURSDAY,15:00,15:50,Principles of Artificial Intelligence,Mr. Sathish M,B416
+TUESDAY,17:30,19:10,Principles of Artificial Intelligence,Mr. Sathish M,TLGL2
+MONDAY,17:30,19:10,Principles of Artificial Intelligence,Mr. Sathish M,TLFR4
+FRIDAY,09:50,11:30,Soft Skills – II,Mr. Dr B Muthu Kumar,KFL02
+WEDNESDAY,15:50,17:30,Soft Skills – II,Mr. Dr B Muthu Kumar,KFL02
+MONDAY,14:00,14:50,Web Programming,Mr. Narayana K E,A104/105
+WEDNESDAY,13:00,13:50,Web Programming,Mr. Narayana K E,C302
+TUESDAY,14:00,14:50,Web Programming,Mr. Narayana K E,A104/105
+TUESDAY,15:50,17:30,Web Programming,Mr. Narayana K E,TLFR1
+MONDAY,17:30,19:10,Web Programming,Mr. Narayana K E,KFL01
+TUESDAY,17:30,19:10,Web Programming,Mr. Narayana K E,JL2
+WEDNESDAY,13:50,15:30,Web Programming,Mr. Narayana K E,JR3
+THURSDAY,18:00,18:50,Automata Theory & Compiler Design,Mrs. Dr.P.Neelaveni,B213
+FRIDAY,16:00,16:50,Automata Theory & Compiler Design,Mrs. Dr.P.Neelaveni,A211
+FRIDAY,15:00,15:50,Automata Theory & Compiler Design,Mrs. Dr.P.Neelaveni,B325
+TUESDAY,15:00,15:50,Computer Vision,Mrs. L.Leena Jenifer,B412
+TUESDAY,13:00,13:50,Computer Vision,Mrs. L.Leena Jenifer,B425
+THURSDAY,14:00,14:50,Computer Vision,Mrs. L.Leena Jenifer,A310
+MONDAY,15:50,17:30,Computer Vision,Mrs. L.Leena Jenifer,JL2
+TUESDAY,15:50,17:30,Computer Vision,Mrs. L.Leena Jenifer,JR1
+THURSDAY,16:00,16:50,Computer Networks,Mrs. Bhalashri Sethuraman,C102
+MONDAY,13:00,13:50,Computer Networks,Mrs. Bhalashri Sethuraman,B213
+FRIDAY,12:00,12:50,Computer Networks,Mrs. Bhalashri Sethuraman,A209
+THURSDAY,11:50,13:30,Computer Networks,Mrs. Bhalashri Sethuraman,JL1
+WEDNESDAY,15:50,17:30,Computer Networks,Mrs. Bhalashri Sethuraman,KFL01
+MONDAY,15:50,17:30,Computer Networks,Mrs. Bhalashri Sethuraman,TLFL1
+FRIDAY,09:50,11:30,Computer Networks,Mrs. Bhalashri Sethuraman,JR2

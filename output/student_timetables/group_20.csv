@@ -1,15 +1,15 @@
 Day,StartTime,EndTime,Course,Teacher,Room
-TUESDAY,15:50,17:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLGL1
-THURSDAY,11:50,13:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLGL2
-TUESDAY,17:30,19:10,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLGL1
-MONDAY,15:50,17:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KSL03
-MONDAY,11:50,13:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLGL1
-MONDAY,17:30,19:10,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KSL03
-THURSDAY,14:00,14:50,Cloud Computing,Mr. Ayyadurai M,B221
-WEDNESDAY,17:00,17:50,Cloud Computing,Mr. Ayyadurai M,A110
-THURSDAY,08:00,09:40,Cloud Computing,Mr. Ayyadurai M,TLFR4
-WEDNESDAY,09:50,11:30,Cloud Computing,Mr. Ayyadurai M,KFR03
-TUESDAY,12:00,12:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,B321
-THURSDAY,16:00,16:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,B325
-MONDAY,08:00,09:40,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,KFR01
-MONDAY,09:50,11:30,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,KFL02
+THURSDAY,15:50,17:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLGL1
+WEDNESDAY,09:50,11:30,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLGL1
+TUESDAY,16:00,16:50,Advanced Robotic Process Automation,Mr. Bhuvaneswaran B,TLGL1
+TUESDAY,11:50,13:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLGL2
+THURSDAY,13:50,15:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,KSL03
+MONDAY,09:50,11:30,Advanced Application Development with Oracle APEX,Mr. Bhuvaneswaran B,TLGL2
+WEDNESDAY,12:00,12:50,Cloud Computing,Mr. Ayyadurai M,B107
+FRIDAY,10:00,10:50,Cloud Computing,Mr. Ayyadurai M,A303
+FRIDAY,11:50,13:30,Cloud Computing,Mr. Ayyadurai M,TLFL1
+FRIDAY,13:50,15:30,Cloud Computing,Mr. Ayyadurai M,TLGL3
+MONDAY,12:00,12:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,A303
+TUESDAY,18:00,18:50,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,A309
+WEDNESDAY,08:00,09:40,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,TLFR2
+THURSDAY,17:30,19:10,INFORMATION SECURITY AND MANAGEMENT,Mrs. S.Ponmani,TLGL4
