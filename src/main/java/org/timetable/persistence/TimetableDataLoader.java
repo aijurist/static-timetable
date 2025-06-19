@@ -424,38 +424,50 @@ public class TimetableDataLoader {
                             LESSON_CREATION_LOGGER.info(String.format("Processing lab sessions for %s - %s: %d practical hours = %d lab sessions", 
                                     course.getCode(), group.getName(), course.getPracticalHours(), labSessions));
 
-                            // Certain project/industry-style labs must run with the FULL class in a 70-seat lab;
-                            // do NOT split them even if class strength > 35.
+                            // BATCHING DECISION LOGIC:
+                            // 1. Certain courses MUST use full 70-capacity labs (no batching)
+                            // 2. Automobile dept has only 35 students and 35-capacity labs (no batching needed)
+                            // 3. All other departments with >35 students need batching into B1/B2
+                            
                             final java.util.Set<String> UNBATCHED_COURSES = java.util.Set.of(
-                                    "CD23321", 
-                                    "CS19P23",
-                                    "CS19P21",
-                                    "PH23131",
-                                    "PH23132",
-                                    "PH23231",
-                                    "PH23233"
+                                    "CD23321",  // Python Programming for Design - needs full class
+                                    "CS19P23",  // Advanced Application Development with Oracle APEX
+                                    "CS19P21",  // Advanced Robotic Process Automation
+                                    "PH23131",  // Physics Lab I
+                                    "PH23132",  // Physics Lab II  
+                                    "PH23231",  // Physics Lab III
+                                    "PH23233"   // Physics Lab IV
                             );
 
-                            // Check course department for batching decision
-                            String courseDept = courseRecords.get(0).courseDept; // Get department from CSV
+                            // Get course department info
+                            String courseDept = courseRecords.get(0).courseDept; // Department from CSV
                             String deptCode = DEPT_NAME_TO_CODE.getOrDefault(courseDept, courseDept);
                             
-                            boolean forceFullGroup = UNBATCHED_COURSES.contains(course.getCode());
-                            // Don't batch for Automobile Engineering department, batch for all others
+                            // Check batching criteria
+                            boolean isUnbatchedCourse = UNBATCHED_COURSES.contains(course.getCode());
                             boolean isAutoDept = "Automobile Engineering".equals(courseDept) || "AUTO".equals(deptCode);
-                            boolean needsBatching = !forceFullGroup && !isAutoDept;
                             
-                            LOGGER.info(String.format("Batching analysis: Department=%s (%s), Group size=%d, Is AUTO dept=%b, Force full=%b, Needs batching=%b", 
-                                    courseDept, deptCode, group.getSize(), isAutoDept, forceFullGroup, needsBatching));
-                            LESSON_CREATION_LOGGER.info(String.format("Batching analysis for %s - %s: Department=%s (%s), Group size=%d, Is AUTO dept=%b, Force full=%b, Needs batching=%b", 
-                                    course.getCode(), group.getName(), courseDept, deptCode, group.getSize(), isAutoDept, forceFullGroup, needsBatching));
+                            // DECISION: Don't batch if EITHER condition is true
+                            boolean shouldNotBatch = isUnbatchedCourse || isAutoDept;
+                            boolean needsBatching = !shouldNotBatch;
+                            
+                            // Enhanced logging for clarity
+                            LOGGER.info(String.format("=== BATCHING DECISION for %s ===", course.getCode()));
+                            LOGGER.info(String.format("Course: %s, Department: %s (%s)", course.getCode(), courseDept, deptCode));
+                            LOGGER.info(String.format("Group: %s, Size: %d", group.getName(), group.getSize()));
+                            LOGGER.info(String.format("Is UNBATCHED_COURSE: %b", isUnbatchedCourse));
+                            LOGGER.info(String.format("Is AUTO department: %b", isAutoDept));
+                            LOGGER.info(String.format("Should NOT batch: %b (unbatched course OR auto dept)", shouldNotBatch));
+                            LOGGER.info(String.format("FINAL DECISION - Needs batching: %b", needsBatching));
+                            
+                            LESSON_CREATION_LOGGER.info(String.format("BATCHING DECISION: %s - %s | Course in UNBATCHED: %b | AUTO dept: %b | Will batch: %b", 
+                                    course.getCode(), group.getName(), isUnbatchedCourse, isAutoDept, needsBatching));
                              
                             if (needsBatching) {
-                                // CORRECTED FIX: Each batch gets the full practical hours allocation
-                                LOGGER.info(String.format(
-                                    "Creating %d lab sessions for %s (%s) - split batches B1 & B2 (each batch gets %d sessions)",
-                                    labSessions * 2, course.getCode(), group.getName(), labSessions
-                                ));
+                                // BATCHING: Split into B1 and B2 (each batch gets full practical hours)
+                                LOGGER.info(String.format("✅ BATCHING: %s (%s) will be split into B1 & B2", course.getCode(), group.getName()));
+                                LOGGER.info(String.format("Creating %d total lab sessions: B1 gets %d sessions, B2 gets %d sessions", 
+                                        labSessions * 2, labSessions, labSessions));
                                 
                                 // Batch B1 gets full practical hours (all required sessions)
                                 for (int i = 0; i < labSessions; i++) {
@@ -478,11 +490,10 @@ public class TimetableDataLoader {
                                 LOGGER.info(String.format("Created %d B1 lab sessions and %d B2 lab sessions", 
                                         labSessions, labSessions));
                             } else {
-                                // If no batching needed, create sessions for whole group
-                                LOGGER.info(String.format(
-                                    "Creating %d lab sessions for %s (%s) - no batching",
-                                    labSessions, course.getCode(), group.getName()
-                                ));
+                                // NO BATCHING: Use full group (due to UNBATCHED_COURSE or AUTO dept)
+                                String reason = isUnbatchedCourse ? "UNBATCHED_COURSE (needs 70-capacity lab)" : "AUTO dept (35 students, 35-capacity labs)";
+                                LOGGER.info(String.format("🚫 NO BATCHING: %s (%s) - Reason: %s", course.getCode(), group.getName(), reason));
+                                LOGGER.info(String.format("Creating %d lab sessions for full group", labSessions));
                                 
                                 for (int i = 0; i < labSessions; i++) {
                                     String lessonId = "L-" + lessonIdCounter++;
@@ -492,7 +503,7 @@ public class TimetableDataLoader {
                                             lessonId, teacher.getName(), course.getCode(), group.getName()));
                                 }
 
-                                LOGGER.info(String.format("Created %d lab sessions (no batching)", labSessions));
+                                LOGGER.info(String.format("✅ Created %d lab sessions (full group, no batching)", labSessions));
                             }
                         }
 

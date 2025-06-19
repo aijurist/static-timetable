@@ -234,7 +234,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                             lesson.getStudentGroup().getName(), 
                             lesson.getCourse().getCode(),
                             lesson.getLabBatch());
-                    System.err.println(msg);
+                    // System.err.println(msg);
                     return 1;
                 })
                 .asConstraint("CRITICAL: Theory/Tutorial must be for full group only");
@@ -803,7 +803,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
 
     /**
      * HARD: Ensure departments only schedule lessons on their allowed working days
-     * Uses optimized department+year grouping for lab utilization
+     * Uses simplified department-only logic (no year dependency)
      */
     private Constraint departmentOutsideAllowedDays(ConstraintFactory constraintFactory) {
         return constraintFactory
@@ -811,7 +811,6 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 .filter(lesson -> lesson.getTimeSlot() != null && lesson.getStudentGroup() != null)
                 .filter(lesson -> !DepartmentWorkdayConfig.isAllowedDay(
                         lesson.getStudentGroup().getDepartment(), 
-                        lesson.getStudentGroup().getYear(),
                         lesson.getTimeSlot().getDayOfWeek()))
                 .penalize(HardSoftScore.ONE_HARD.multiply(1000)) // Very high penalty
                 .asConstraint("Department outside allowed working days");
@@ -819,7 +818,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
 
     /**
      * SOFT: Prefer hotspot labs on Monday for Monday-Friday departments
-     * Uses optimized department+year grouping
+     * Uses simplified department-only logic
      */
     private Constraint preferHotspotLabsOnMonday(ConstraintFactory constraintFactory) {
         return constraintFactory
@@ -829,8 +828,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                         lesson.getStudentGroup() != null)
                 .filter(lesson -> lesson.getTimeSlot().getDayOfWeek() == java.time.DayOfWeek.MONDAY)
                 .filter(lesson -> DepartmentWorkdayConfig.isMondayFridayDepartment(
-                        lesson.getStudentGroup().getDepartment(),
-                        lesson.getStudentGroup().getYear()))
+                        lesson.getStudentGroup().getDepartment()))
                 .filter(lesson -> DepartmentWorkdayConfig.isHotspotLab(
                         lesson.getRoom().getDescription()))
                 .reward(HardSoftScore.of(0, 25)) // Mild reward
@@ -1077,7 +1075,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                                 lesson1.getCourse().getCode(),
                                 lesson1.getTimeSlot().toString(),
                                 lesson2.getTimeSlot().toString());
-                        System.err.println(msg);
+                        // System.err.println(msg);
                     }
                     
                     return overlap;
