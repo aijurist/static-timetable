@@ -19,15 +19,20 @@ import org.timetable.config.SolverProperties;
 import org.timetable.validation.OptimizationValidator;
 import org.timetable.validation.CoreLabMappingValidator;
 import org.timetable.validation.CoreLabMappingEnforcer;
+import org.timetable.validation.ConstraintAnalysisRunner;
 import org.timetable.config.DepartmentBlockConfig;
+import org.timetable.validation.ConstraintViolationAnalyzer;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.nio.file.Path;
 import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
+import java.io.PrintWriter;
+import java.io.FileWriter;
 
 public class TimetableApp {
     private static final Logger logger = LoggerFactory.getLogger(TimetableApp.class);
@@ -39,6 +44,7 @@ public class TimetableApp {
         try {
             Files.createDirectories(Paths.get("output/teacher_timetables"));
             Files.createDirectories(Paths.get("output/student_timetables"));
+            Files.createDirectories(Paths.get("output/violation"));
         } catch (IOException e) {
             logger.error("Failed to create output directories", e);
             return;
@@ -116,6 +122,10 @@ public class TimetableApp {
         // Validate batch assignments
         logger.info("--- Batch Assignment Validation ---");
         validateBatchAssignments(solution);
+
+        // Run constraint violation analysis
+        logger.info("--- Constraint Violation Analysis ---");
+        runConstraintViolationAnalysis(solution);
 
         try {
             String timestamp = DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss").format(LocalDateTime.now());
@@ -239,6 +249,82 @@ public class TimetableApp {
             logger.error("❌ Found batch assignment violations:");
             logger.error("   - Theory batch violations: {}", theoryBatchViolations);
             logger.error("   - Same batch overlap violations: {}", sameBatchOverlapViolations);
+        }
+    }
+
+    private static void runConstraintViolationAnalysis(TimetableProblem solution) {
+        try {
+            logger.info("Running detailed constraint violation analysis...");
+            
+            // Run the constraint analysis using the analyzer directly
+            ConstraintViolationAnalyzer.ViolationReport report = ConstraintViolationAnalyzer.analyze(solution);
+            
+            // Generate filename with timestamp
+            String timestamp = DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss").format(LocalDateTime.now());
+            String violationFile = "output/violation/constraint_violations_" + timestamp + ".txt";
+            
+            // Write the analysis report to file
+            try (PrintWriter writer = new PrintWriter(new FileWriter(violationFile))) {
+                writer.println("=== CONSTRAINT VIOLATION ANALYSIS REPORT ===");
+                writer.println("Generated at: " + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
+                writer.println("Final Score: " + solution.getScore());
+                writer.println();
+                
+                // Write summary
+                writer.println("SUMMARY:");
+                writer.println("--------");
+                if (report.getTotalViolations() == 0) {
+                    writer.println("✅ PERFECT! No constraint violations found.");
+                    writer.println("The timetable is completely feasible.");
+                } else {
+                    writer.println(String.format("⚠️ Found %d total constraint violations", report.getTotalViolations()));
+                    
+                    // Count by severity
+                    long criticalCount = report.getViolations().stream()
+                            .filter(v -> "CRITICAL".equals(v.getSeverity()))
+                            .count();
+                    long hardCount = report.getViolations().stream()
+                            .filter(v -> "HARD".equals(v.getSeverity()))
+                            .count();
+                    
+                    writer.println(String.format("   🔴 Critical: %d violations", criticalCount));
+                    writer.println(String.format("   🟠 Hard:     %d violations", hardCount));
+                    
+                    // Write detailed violations
+                    writer.println("\nDETAILED VIOLATIONS:");
+                    writer.println("-------------------");
+                    for (ConstraintViolationAnalyzer.ConstraintViolation violation : report.getViolations()) {
+                        writer.println(String.format("\n[%s] %s", violation.getSeverity(), violation.getConstraintName()));
+                        writer.println("  " + violation.getDescription());
+                        if (violation.getLesson() != null) {
+                            var lesson = violation.getLesson();
+                            writer.println(String.format("  Lesson: %s | Course: %s | Group: %s", 
+                                lesson.getId(),
+                                lesson.getCourse() != null ? lesson.getCourse().getCode() : "N/A",
+                                lesson.getStudentGroup() != null ? lesson.getStudentGroup().getName() : "N/A"));
+                            writer.println(String.format("  Time: %s | Room: %s",
+                                lesson.getTimeSlot() != null ? lesson.getTimeSlot().toString() : "UNASSIGNED",
+                                lesson.getRoom() != null ? lesson.getRoom().getName() : "UNASSIGNED"));
+                        }
+                    }
+                    
+                    // Write statistics
+                    writer.println("\nVIOLATION STATISTICS:");
+                    writer.println("--------------------");
+                    for (var entry : report.getViolationCountsByConstraint().entrySet()) {
+                        writer.println(String.format("  %s: %d violations", entry.getKey(), entry.getValue()));
+                    }
+                }
+            }
+            
+            logger.info("Constraint violation analysis saved to: {}", violationFile);
+            
+            // Also log a quick summary to console
+            String quickSummary = ConstraintAnalysisRunner.getQuickSummary(solution);
+            logger.info("Analysis summary: {}", quickSummary);
+            
+        } catch (Exception e) {
+            logger.error("Failed to run constraint violation analysis", e);
         }
     }
 }
