@@ -70,7 +70,7 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 mandatoryLunchBreak(constraintFactory),
                 
                 // Student campus time constraint  
-                studentCampusTimeLimit(constraintFactory),
+                studentStrictShiftAdherence(constraintFactory),
                 
                 // CRITICAL: Explicit same batch conflict prevention
                 preventSameBatchOverlap(constraintFactory),
@@ -108,6 +108,13 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                 teacherMaxConsecutiveHours(constraintFactory),
                 minimizeTeacherTravelTime(constraintFactory),
                 preferConsecutiveLessons(constraintFactory),
+                
+                // Student daily class requirements
+                minimumClassesPerDay(constraintFactory),
+                balancedDailyClassLoad(constraintFactory),
+                
+                // Weekly shift pattern enforcement
+                studentWeeklyShiftPattern(constraintFactory),
                 
                 // Lab utilization optimization
                 preferHotspotLabsOnMonday(constraintFactory)
@@ -1093,10 +1100,10 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
     }
 
     /**
-     * HARD: Limit student campus time to maximum 7 hours per day
-     * Enforces three shift patterns: 8-3, 10-5, 12-7 with some flexibility
+     * SOFT: Enforce strict shift adherence - students should follow 8-3, 10-5, or 12-7 patterns
+     * Each day should fit within one of these three shift windows
      */
-    private Constraint studentCampusTimeLimit(ConstraintFactory constraintFactory) {
+    private Constraint studentStrictShiftAdherence(ConstraintFactory constraintFactory) {
         return constraintFactory
                 .forEach(Lesson.class)
                 .filter(lesson -> lesson.getTimeSlot() != null)
@@ -1106,15 +1113,60 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
                         max((Lesson lesson) -> lesson.getTimeSlot().getEndTime()))
                 .filter((studentGroup, day, earliestStart, latestEnd) -> {
                     if (earliestStart == null || latestEnd == null) return false;
-                    long campusSpanMinutes = java.time.Duration.between(earliestStart, latestEnd).toMinutes();
-                    return campusSpanMinutes > 420; // More than 7 hours (420 minutes)
+                    return !fitsInStandardShift(earliestStart, latestEnd);
                 })
-                .penalize(HardSoftScore.ONE_HARD.multiply(50), // Moderate penalty to allow flexibility
+                .penalize(HardSoftScore.of(0, 100), // High soft penalty
                         (studentGroup, day, earliestStart, latestEnd) -> {
-                            long campusSpanMinutes = java.time.Duration.between(earliestStart, latestEnd).toMinutes();
-                            return (int) (campusSpanMinutes - 420); // Penalty based on excess minutes
+                            return calculateShiftViolationPenalty(earliestStart, latestEnd);
                         })
-                .asConstraint("Student campus time limit");
+                .asConstraint("Student strict shift adherence (8-3, 10-5, 12-7)");
+    }
+
+    /**
+     * SOFT: Ensure minimum 3 classes per day for each student group
+     * This prevents having too few classes on any given day
+     */
+    private Constraint minimumClassesPerDay(ConstraintFactory constraintFactory) {
+        return constraintFactory
+                .forEach(Lesson.class)
+                .filter(lesson -> lesson.getTimeSlot() != null)
+                .groupBy(Lesson::getStudentGroup,
+                        (Lesson lesson) -> lesson.getTimeSlot().getDayOfWeek(),
+                        count())
+                .filter((studentGroup, day, classCount) -> classCount < 3)
+                .penalize(HardSoftScore.of(0, 50), // Moderate penalty
+                        (studentGroup, day, classCount) -> (3 - classCount.intValue()) * 10)
+                .asConstraint("Minimum 3 classes per day");
+    }
+
+    /**
+     * SOFT: Balance daily class load across the week
+     * Prevent having too many classes on one day and too few on others
+     */
+    private Constraint balancedDailyClassLoad(ConstraintFactory constraintFactory) {
+        return constraintFactory
+                .forEach(Lesson.class)
+                .filter(lesson -> lesson.getTimeSlot() != null)
+                .groupBy(Lesson::getStudentGroup, toList())
+                .filter((studentGroup, lessons) -> calculateDailyLoadImbalance(lessons) > 0)
+                .penalize(HardSoftScore.of(0, 30), // Moderate penalty for imbalance
+                        (studentGroup, lessons) -> calculateDailyLoadImbalance(lessons))
+                .asConstraint("Balanced daily class load");
+    }
+
+    /**
+     * SOFT: Enforce weekly shift pattern (2-2-1, 2-1-2, or 1-2-2)
+     * Students should follow consistent shift patterns across the week
+     */
+    private Constraint studentWeeklyShiftPattern(ConstraintFactory constraintFactory) {
+        return constraintFactory
+                .forEach(Lesson.class)
+                .filter(lesson -> lesson.getTimeSlot() != null)
+                .groupBy(Lesson::getStudentGroup, toList())
+                .filter((studentGroup, lessons) -> calculateWeeklyShiftPatternPenalty(lessons) > 0)
+                .penalize(HardSoftScore.of(0, 80), // High penalty for shift pattern violations
+                        (studentGroup, lessons) -> calculateWeeklyShiftPatternPenalty(lessons))
+                .asConstraint("Weekly shift pattern (2-2-1 variations)");
     }
 
     /**
@@ -1169,5 +1221,211 @@ public class OptimizedTimetableConstraintProvider implements ConstraintProvider 
         maxContinuousHours = Math.max(maxContinuousHours, currentContinuousHours);
         
         return maxContinuousHours;
+    }
+
+    // ############################################################################
+    // Helper Methods for Student Shift Pattern Constraints
+    // ############################################################################
+
+    /**
+     * Check if a day's schedule fits within one of the standard shift patterns:
+     * 8-3 (7:30-15:30), 10-5 (9:30-17:30), or 12-7 (11:30-19:30)
+     * Allows 30-minute flexibility on each side
+     */
+    private boolean fitsInStandardShift(java.time.LocalTime earliestStart, java.time.LocalTime latestEnd) {
+        if (earliestStart == null || latestEnd == null) return false;
+        
+        // Define shift windows with 30-minute flexibility
+        // 8-3 shift: 7:30 - 15:30 (flexible: 7:00 - 16:00)
+        java.time.LocalTime earlyShiftStart = java.time.LocalTime.of(7, 0);
+        java.time.LocalTime earlyShiftEnd = java.time.LocalTime.of(16, 0);
+        
+        // 10-5 shift: 9:30 - 17:30 (flexible: 9:00 - 18:00)
+        java.time.LocalTime midShiftStart = java.time.LocalTime.of(9, 0);
+        java.time.LocalTime midShiftEnd = java.time.LocalTime.of(18, 0);
+        
+        // 12-7 shift: 11:30 - 19:30 (flexible: 11:00 - 20:00)
+        java.time.LocalTime lateShiftStart = java.time.LocalTime.of(11, 0);
+        java.time.LocalTime lateShiftEnd = java.time.LocalTime.of(20, 0);
+        
+        // Check if the day fits in any of the three shifts
+        boolean fitsEarlyShift = (!earliestStart.isBefore(earlyShiftStart)) && (!latestEnd.isAfter(earlyShiftEnd));
+        boolean fitsMidShift = (!earliestStart.isBefore(midShiftStart)) && (!latestEnd.isAfter(midShiftEnd));
+        boolean fitsLateShift = (!earliestStart.isBefore(lateShiftStart)) && (!latestEnd.isAfter(lateShiftEnd));
+        
+        return fitsEarlyShift || fitsMidShift || fitsLateShift;
+    }
+
+    /**
+     * Calculate penalty for shift violations based on how far outside standard shifts the day extends
+     */
+    private int calculateShiftViolationPenalty(java.time.LocalTime earliestStart, java.time.LocalTime latestEnd) {
+        if (earliestStart == null || latestEnd == null) return 0;
+        
+        // Find the closest valid shift and calculate the penalty
+        int penalty = 0;
+        
+        // Calculate span in hours
+        long daySpanHours = java.time.Duration.between(earliestStart, latestEnd).toHours();
+        
+        // Base penalty for being outside any standard shift
+        penalty += 20;
+        
+        // Additional penalty for excessive day length (more than 8 hours)
+        if (daySpanHours > 8) {
+            penalty += (int) (daySpanHours - 8) * 10;
+        }
+        
+        // Penalty for starting too early (before 7:00) or too late (after 12:00)
+        if (earliestStart.isBefore(java.time.LocalTime.of(7, 0))) {
+            penalty += 15; // Discourage very early starts
+        }
+        if (earliestStart.isAfter(java.time.LocalTime.of(12, 0))) {
+            penalty += 15; // Discourage very late starts for first class
+        }
+        
+        // Penalty for ending too late (after 20:00)
+        if (latestEnd.isAfter(java.time.LocalTime.of(20, 0))) {
+            penalty += 25; // Strong penalty for very late ends
+        }
+        
+        return penalty;
+    }
+
+    /**
+     * Calculate daily load imbalance penalty for a student group across the week
+     */
+    private int calculateDailyLoadImbalance(java.util.List<Lesson> lessons) {
+        if (lessons == null || lessons.isEmpty()) return 0;
+        
+        // Count classes per day
+        java.util.Map<java.time.DayOfWeek, Integer> dailyCounts = new java.util.EnumMap<>(java.time.DayOfWeek.class);
+        
+        for (Lesson lesson : lessons) {
+            if (lesson.getTimeSlot() != null) {
+                java.time.DayOfWeek day = lesson.getTimeSlot().getDayOfWeek();
+                dailyCounts.put(day, dailyCounts.getOrDefault(day, 0) + 1);
+            }
+        }
+        
+        if (dailyCounts.isEmpty()) return 0;
+        
+        // Calculate mean and standard deviation
+        double mean = dailyCounts.values().stream().mapToInt(Integer::intValue).average().orElse(0.0);
+        double variance = dailyCounts.values().stream()
+                .mapToDouble(count -> Math.pow(count - mean, 2))
+                .average().orElse(0.0);
+        double stdDev = Math.sqrt(variance);
+        
+        // Penalty based on standard deviation (higher = more imbalanced)
+        int penalty = 0;
+        if (stdDev > 2.0) {
+            penalty += (int) ((stdDev - 2.0) * 20); // Strong penalty for high imbalance
+        } else if (stdDev > 1.5) {
+            penalty += (int) ((stdDev - 1.5) * 10); // Moderate penalty for moderate imbalance
+        }
+        
+        // Additional penalty for days with 0 classes (if the department should have classes)
+        long daysWithZeroClasses = dailyCounts.values().stream().filter(count -> count == 0).count();
+        penalty += (int) (daysWithZeroClasses * 15);
+        
+        // Additional penalty for days with too many classes (>6)
+        long daysWithTooManyClasses = dailyCounts.values().stream().filter(count -> count > 6).count();
+        penalty += (int) (daysWithTooManyClasses * 25);
+        
+        return penalty;
+    }
+
+    /**
+     * Calculate weekly shift pattern penalty based on 2-2-1 distribution requirement
+     * Enforces patterns like 2-2-1, 2-1-2, or 1-2-2 (any permutation)
+     */
+    private int calculateWeeklyShiftPatternPenalty(java.util.List<Lesson> lessons) {
+        if (lessons == null || lessons.isEmpty()) return 0;
+        
+        // Find earliest start time per day to classify shifts
+        java.util.Map<java.time.DayOfWeek, java.time.LocalTime> earliestByDay = new java.util.EnumMap<>(java.time.DayOfWeek.class);
+        
+        for (Lesson lesson : lessons) {
+            if (lesson.getTimeSlot() != null) {
+                java.time.DayOfWeek day = lesson.getTimeSlot().getDayOfWeek();
+                java.time.LocalTime start = lesson.getTimeSlot().getStartTime();
+                java.time.LocalTime current = earliestByDay.get(day);
+                if (current == null || start.isBefore(current)) {
+                    earliestByDay.put(day, start);
+                }
+            }
+        }
+        
+        if (earliestByDay.isEmpty()) return 0;
+        
+        // Classify each day into shift buckets
+        int[] shiftCounts = new int[3]; // [early (8-3), mid (10-5), late (12-7)]
+        
+        for (java.time.LocalTime startTime : earliestByDay.values()) {
+            int shiftBucket = classifyStudentShift(startTime);
+            shiftCounts[shiftBucket]++;
+        }
+        
+        // Check if it matches the desired 2-2-1 pattern
+        // Sort the counts to see if they form [1,2,2] pattern
+        int[] sortedCounts = java.util.Arrays.stream(shiftCounts).sorted().toArray();
+        
+        // Perfect pattern: [1, 2, 2] when sorted
+        if (sortedCounts.length >= 3 && sortedCounts[0] == 1 && sortedCounts[1] == 2 && sortedCounts[2] == 2) {
+            return 0; // Perfect 2-2-1 pattern
+        }
+        
+        // Calculate penalty based on deviation from ideal pattern
+        int penalty = 0;
+        
+        // Count total working days
+        int totalDays = java.util.Arrays.stream(shiftCounts).sum();
+        
+        if (totalDays >= 5) { // Only evaluate if we have a full week
+            // Penalize for not having the 2-2-1 distribution
+            for (int count : shiftCounts) {
+                if (count == 0) {
+                    penalty += 30; // Missing a shift entirely
+                } else if (count > 2) {
+                    penalty += (count - 2) * 20; // Too many days in one shift
+                } else if (count == 1) {
+                    // One day is okay if we have exactly one bucket with 1 day
+                    long bucketsWithOneDay = java.util.Arrays.stream(shiftCounts).filter(c -> c == 1).count();
+                    if (bucketsWithOneDay > 1) {
+                        penalty += 15; // Too many buckets with only 1 day
+                    }
+                }
+            }
+            
+            // Bonus penalty for very unbalanced patterns
+            int maxCount = java.util.Arrays.stream(shiftCounts).max().orElse(0);
+            int minCount = java.util.Arrays.stream(shiftCounts).filter(c -> c > 0).min().orElse(0);
+            if (maxCount - minCount > 2) {
+                penalty += 25; // High imbalance penalty
+            }
+        } else if (totalDays > 0) {
+            // For partial weeks, lighter penalty based on available data
+            penalty = 10; // Light penalty for not having full week data
+        }
+        
+        return penalty;
+    }
+
+    /**
+     * Classify a start time into shift bucket for student scheduling
+     * 0 = Early shift (8-3): starts before 10:00
+     * 1 = Mid shift (10-5): starts between 10:00-11:59
+     * 2 = Late shift (12-7): starts at/after 12:00
+     */
+    private int classifyStudentShift(java.time.LocalTime startTime) {
+        int hour = startTime.getHour();
+        if (hour < 10) {
+            return 0; // Early shift (8-3)
+        } else if (hour < 12) {
+            return 1; // Mid shift (10-5)
+        } else {
+            return 2; // Late shift (12-7)
+        }
     }
 }
